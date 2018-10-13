@@ -5,6 +5,7 @@
 ## Frontend Integration
 
 * [Untitled](frontend-integration/untitled.md)
+* [Untitled](frontend-integration/untitled-1.md)
 
 ## Smart Contract Integration
 
