@@ -1,14 +1,30 @@
 # Factory API
 
-### createExchange\(address tokenAddress\)
+## createExchange
 
 ```javascript
 createExchange(token: address): address
 ```
 
-| Parameter | Description |
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| token | address | Ethereum address of an ERC20 token |
+
+| Returns |  |
 | :--- | ---: |
-| token | Ethereum address of an ERC20 token |
+| address | Ethereum address of a Uniswap exchange  |
+
+ ****
+
+createExchange\(address tokenAddress\)
+
+```javascript
+createExchange(token: address): address
+```
+
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| token | address | Ethereum address of an ERC20 token |
 
 | Returns |  |
 | :--- | ---: |
