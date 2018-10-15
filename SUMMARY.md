@@ -1,11 +1,10 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [Untitled](untitled.md)
 
 ## Frontend Integration
 
-* [Untitled](frontend-integration/untitled.md)
+* [User Balances](frontend-integration/untitled.md)
 
 ## Smart Contract Integration
 
@@ -18,5 +17,4 @@
 
 * [Factory API](api/factory-api.md)
 * [Exchange API](api/exchange-api.md)
-* [Untitled](api/untitled.md)
 
