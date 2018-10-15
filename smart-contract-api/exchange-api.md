@@ -2,89 +2,58 @@
 
 ## **setup**
 
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
 ```javascript
 setup(token_addr: address):
 ```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Web3" %}
+```swift
+factoryContract.methods.initializeFactory(template: String).send()
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 | Parameter | Description |
 | :--- | ---: |
-| token\_addr | Ethereum address of an ERC20 token |
+| token\_addr | Ethereum address of an ERC20 Token |
 
-\*\*\*\*[**Code**](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_exchange.vy#L33)\*\*\*\*
 
-\*\*\*\*
 
-##  ****createExchange
+##  ****addLiquidity
 
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
 ```javascript
 addLiquidity(
     min_liquidity: uint256, 
     max_tokens: uint256, 
     deadline: uint256
-) -> uint256:
+): uint256
 ```
+{% endcode-tabs-item %}
 
-| Type | Description |  |
-| :--- | :--- | ---: |
-| token | address | Ethereum address of an ERC20 token |
+{% code-tabs-item title="Web3" %}
+```swift
+factoryContract.methods.initializeFactory(token: String).send()
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
-| Returns |  |
+| Parameter | Type | Description |  |
+| :--- | :--- | :--- | :--- |
+| min\_liquidity | uint256 | Minimum minted liquidity |  |
+| max\_tokens | uint256 | Maximum tokens deposited |  |
+| deadline | uint256 | Transaction deadline |  |
+| msg.value | wei | Amount of Ether deposited |  |
+
+|  |  |
 | :--- | ---: |
-| address | Ethereum address of a Uniswap exchange  |
-
-**Code**
+| uint256 | Amount of liquidity tokens minted  |
 
  ****
 
-## getExchange
 
-```javascript
-getExchange(token: address): address
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | ---: |
-| token | address | Ethereum address of an ERC20 token |
-
-| Returns |  |
-| :--- | ---: |
-| address | Ethereum address of a Uniswap exchange  |
-
- ****[**Code**](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_factory.vy#L35)\*\*\*\*
-
-\*\*\*\*
-
-## get**Token**
-
-```javascript
-getToken(exchange: address): address
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | ---: |
-| exchange | address | Ethereum address of a Uniswap exchange |
-
-| Returns |  |
-| :--- | ---: |
-| address | Ethereum address of an ERC20 token  |
-
-\*\*\*\*[**Code**](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_factory.vy#L40)\*\*\*\*
-
-\*\*\*\*
-
-## get**TokenWithId**
-
-```javascript
-getTokenWithId(token_id: uint256): address
-```
-
-| Parameter | Type | Description |
-| :--- | :--- | ---: |
-| token\_id | uint256 | Uniswap ID for an ERC20 token |
-
-| Returns |  |
-| :--- | ---: |
-| address | Ethereum address of an ERC20 token  |
-
-\*\*\*\*[**Code**](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_factory.vy#L45)
 

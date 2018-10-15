@@ -10,8 +10,8 @@ initializeFactory(template: address):
 {% endcode-tabs-item %}
 
 {% code-tabs-item title="Web3" %}
-```javascript
-factory.methods.initializeFactory(template: string).send()
+```swift
+factoryContract.methods.initializeFactory(template: String).send()
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -24,9 +24,19 @@ factory.methods.initializeFactory(template: string).send()
 
 ##  ****createExchange
 
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
 ```javascript
 createExchange(token: address): address
 ```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Web3" %}
+```swift
+factoryContract.methods.initializeFactory(token: String).send()
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -40,9 +50,19 @@ createExchange(token: address): address
 
 ## getExchange
 
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
 ```javascript
 getExchange(token: address): address
 ```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Web3" %}
+```swift
+factoryContract.methods.getExchange(token: String).call()
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -56,9 +76,19 @@ getExchange(token: address): address
 
 ## get**Token**
 
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
 ```javascript
 getToken(exchange: address): address
 ```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Web3" %}
+```swift
+factoryContract.methods.getToken(exchange: String).call()
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -72,9 +102,21 @@ getToken(exchange: address): address
 
 ## get**TokenWithId**
 
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
 ```javascript
 getTokenWithId(token_id: uint256): address
 ```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Web3" %}
+```swift
+factoryContract.methods.getToken(exchange: BigNumber).call()
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
