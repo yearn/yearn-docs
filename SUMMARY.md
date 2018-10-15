@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
+* [Untitled](untitled.md)
 
 ## Frontend Integration
 
@@ -15,6 +16,7 @@
 
 ## Smart Contract API
 
-* [Factory API](smart-contract-api/factory-api.md)
-* [Exchange API](smart-contract-api/exchange-api.md)
+* [Factory API](api/factory-api.md)
+* [Exchange API](api/exchange-api.md)
+* [Untitled](api/untitled.md)
 
