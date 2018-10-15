@@ -2,17 +2,25 @@
 
 ## **initialize**Factory
 
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
 ```javascript
 initializeFactory(template: address):
 ```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Web3" %}
+```javascript
+factory.methods.initializeFactory(template: string).send()
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 | Parameter | Description |
 | :--- | ---: |
 | template | Ethereum address of exchange template |
 
-\*\*\*\*[**Code**](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_factory.vy#L13)\*\*\*\*
 
-\*\*\*\*
 
 ##  ****createExchange
 
@@ -27,8 +35,6 @@ createExchange(token: address): address
 | Returns |  |
 | :--- | ---: |
 | address | Ethereum address of a Uniswap exchange  |
-
-\*\*\*\*[**Code**](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_factory.vy#L19)\*\*\*\*
 
  ****
 
@@ -46,8 +52,6 @@ getExchange(token: address): address
 | :--- | ---: |
 | address | Ethereum address of a Uniswap exchange  |
 
- ****[**Code**](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_factory.vy#L35)\*\*\*\*
-
 \*\*\*\*
 
 ## get**Token**
@@ -64,8 +68,6 @@ getToken(exchange: address): address
 | :--- | ---: |
 | address | Ethereum address of an ERC20 token  |
 
-\*\*\*\*[**Code**](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_factory.vy#L40)\*\*\*\*
-
 \*\*\*\*
 
 ## get**TokenWithId**
@@ -81,8 +83,6 @@ getTokenWithId(token_id: uint256): address
 | Returns |  |
 | :--- | ---: |
 | address | Ethereum address of an ERC20 token  |
-
-\*\*\*\*[**Code**](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_factory.vy#L45)
 
 \*\*\*\*
 
