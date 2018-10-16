@@ -5,14 +5,16 @@
 {% code-tabs %}
 {% code-tabs-item title="Smart Contract" %}
 ```javascript
+// Can only be called by factory contract during createExchange()
+
 setup(token_addr: address):
 ```
 {% endcode-tabs-item %}
 
 {% code-tabs-item title="Web3" %}
 ```swift
-// Setup is called by the factory at time of creation 
-// It can only be called once and never needs to be called from Web3
+// Can only be called by factory contract during createExchange()
+
 exchangeContract.methods.setup(token: String).send()
 ```
 {% endcode-tabs-item %}
@@ -40,31 +42,29 @@ addLiquidity(
 
 {% code-tabs-item title="Web3" %}
 ```swift
-// Strings should represent integer values
-
-ethValue: String 
+ethValue: String        // big integer, msg.value
 
 exchangeContract.methods.addLiquidity(
-    min_liquidity: String, 
-    max_tokens: String,
+    min_liquidity: String,        // big integer
+    max_tokens: String,           // big integer
     deadline: Integer
-).send({value: ethValue})
+).send({value: ethValue}) 
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
+| msg.value | uint256 | Amount of ETH added |
 | min\_liquidity | uint256 | Minimum minted liquidity |
-| max\_tokens | uint256 | Maximum ERC20 tokens deposited |
+| max\_tokens | uint256 | Maximum ERC20 tokens added |
 | deadline | uint256 | Transaction deadline |
-| msg.value | wei | Amount of ETH added |
 
-|  |  |
+| Returns |  |
 | :--- | ---: |
 | uint256 | Amount of liquidity tokens minted  |
 
- ****
+
 
 ## removeLiquidity
 
@@ -82,22 +82,247 @@ removeLiquidity(
 
 {% code-tabs-item title="Web3" %}
 ```swift
-factoryContract.methods.initializeFactory(token: String).send()
+exchangeContract.methods.removeLiquidity(
+    amount: String,        // big integer
+    min_eth: String,       // big integer
+    max_tokens: String     // big integer
+    deadline: Integer    
+).send() 
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
-| amount | uint256 | Minimum minted liquidity |
-| min\_eth | uint256 | Maximum ERC20 tokens deposited |
-| min\_tokens | uint256 | Transaction deadline |
-| deadline | uint256 | Amount of ETH deposited |
+| amount | uint256 | Amount of liquidity burned |
+| min\_eth | uint256 | Minimum ETH removed |
+| min\_tokens | uint256 | Minimum ERC20 tokens removed |
+| deadline | uint256 | Transaction deadline |
 
-|  |  |
+| Returns |  |
 | :--- | ---: |
 | uint256 | Amount of ETH removed  |
 | uint256 | Amount of ERC20 tokens removed. |
+
+ ****
+
+##  **default**
+
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
+```javascript
+// Default function in Vyper replaces the "fallback" function in Solidity
+
+@payable
+__default__(): 
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Web3" %}
+```swift
+ethAmount: String        // big integer, msg.value
+web3.eth.sendTransaction({value: ethAmount})
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| msg.value | uint256 | Amount of ETH sold |
+
+
+
+## ethToTokenSwapInput
+
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
+```javascript
+@payable
+ethToTokenSwapInput(
+    min_tokens: uint256, 
+    deadline: uint256
+): uint256
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Web3" %}
+```swift
+ethValue: String        // big integer, msg.value
+
+exchangeContract.methods.ethToTokenSwapInput(
+    min_liquidity: String,        // big integer
+    max_tokens: String,           // big integer
+    deadline: Integer
+).send({value: ethValue})
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| msg.value | uint256 | Amount of ETH sold |
+| min\_tokens | uint256 | Minimum ERC20 tokens bought |
+| deadline | uint256 | Transaction deadline |
+
+| Returns |  |
+| :--- | ---: |
+| uint256 | Amount of ERC20 tokens bought  |
+
+ ****
+
+## ethToTokenTransferInput
+
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
+```javascript
+@payable
+ethToTokenTransferInput(
+    min_tokens: uint256, 
+    deadline: uint256,
+    recipient: address
+): uint256
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Web3" %}
+```swift
+ethValue: String        // big integer, msg.value
+
+exchangeContract.methods.ethToTokenTransferInput(
+    min_liquidity: String,        // big integer
+    max_tokens: String,           // big integer
+    deadline: Integer,
+    recipient: String
+).send({value: ethValue})
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| msg.value | uint256 | Amount of ETH sold |
+| min\_tokens | uint256 | Minimum ERC20 tokens bought |
+| deadline | uint256 | Transaction deadline |
+| recipient | address | Address that receives ERC20 tokens |
+
+| Returns |  |
+| :--- | ---: |
+| uint256 | Amount of ERC20 tokens bought  |
+
+ ****
+
+## ethToTokenSwap**Output**
+
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
+```javascript
+@payable
+ethToTokenSwapOutput(
+    tokens_bought: uint256, 
+    deadline: uint256
+): uint256
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Web3" %}
+```swift
+ethValue: String        // big integer, msg.value
+
+exchangeContract.methods.ethToTokenSwapInput(
+    min_liquidity: String,        // big integer
+    max_tokens: String,           // big integer
+    deadline: Integer
+).send({value: ethValue})
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| msg.value | uint256 | Maximum ETH sold |
+| tokens\_bought | uint256 | Amount of ERC20 tokens bought |
+| deadline | uint256 | Transaction deadline |
+
+| Returns |  |
+| :--- | ---: |
+| uint256 | Amount of ETH sold |
+
+ ****
+
+## ethToTokenTransferOutput
+
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
+```javascript
+@payable
+ethToTokenTransferOutput(
+    min_tokens: uint256, 
+    deadline: uint256,
+    recipient: address
+): uint256
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Web3" %}
+```swift
+ethValue: String        // big integer, msg.value
+
+exchangeContract.methods.ethToTokenSwapInput(
+    min_liquidity: String,        // big integer
+    max_tokens: String,           // big integer
+    deadline: Integer,
+    recipient: String
+).send({value: ethValue})
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| msg.value | uint256 | Maximum ETH sold |
+| tokens\_bought | uint256 | Amount of ERC20 tokens bought |
+| deadline | uint256 | Transaction deadline |
+| recipient | address | Address that receives ERC20 tokens |
+
+| Returns |  |
+| :--- | ---: |
+| uint256 | Amount of ETH sold |
+
+\*\*\*\*
+
+## tokenToEthSwapInput
+
+{% code-tabs %}
+{% code-tabs-item title="Smart Contract" %}
+```javascript
+tokenToEthSwapInput(
+    tokens_sold: uint256,
+    min_eth: uint256, 
+    deadline: uint256
+): uint256
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Web3" %}
+```swift
+exchangeContract.methods.tokenToEthSwapInput(
+    tokens_sold: String,        // big integer
+    min_eth: String,            // big integer
+    deadline: Integer
+).send()
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| tokens\_sold | uint256 | Amount of ERC20 tokens sold |
+| min\_eth | uint256 | Minimum ETH bought |
+| deadline | uint256 | Transaction deadline |
+
+| Returns |  |
+| :--- | ---: |
+| uint256 | Amount of ETH bought  |
 
  ****
 

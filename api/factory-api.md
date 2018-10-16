@@ -114,7 +114,7 @@ getTokenWithId(token_id: uint256): address
 
 {% code-tabs-item title="Web3" %}
 ```swift
-factoryContract.methods.getToken(exchange: BigNumber).call()
+factoryContract.methods.getToken(exchange: Integer).call()
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
