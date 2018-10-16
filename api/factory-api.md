@@ -53,6 +53,7 @@ factoryContract.methods.initializeFactory(token: String).send()
 {% code-tabs %}
 {% code-tabs-item title="Smart Contract" %}
 ```javascript
+@constant
 getExchange(token: address): address
 ```
 {% endcode-tabs-item %}
@@ -79,6 +80,7 @@ factoryContract.methods.getExchange(token: String).call()
 {% code-tabs %}
 {% code-tabs-item title="Smart Contract" %}
 ```javascript
+@constant
 getToken(exchange: address): address
 ```
 {% endcode-tabs-item %}
@@ -105,6 +107,7 @@ factoryContract.methods.getToken(exchange: String).call()
 {% code-tabs %}
 {% code-tabs-item title="Smart Contract" %}
 ```javascript
+@constant
 getTokenWithId(token_id: uint256): address
 ```
 {% endcode-tabs-item %}
@@ -115,8 +118,6 @@ factoryContract.methods.getToken(exchange: BigNumber).call()
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
-
-
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
