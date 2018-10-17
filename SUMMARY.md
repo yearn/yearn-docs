@@ -15,6 +15,6 @@
 
 ## Smart Contract API
 
-* [Factory API](api/factory-api.md)
-* [Exchange API](api/exchange-api.md)
+* [Factory API](api/factory.md)
+* [Exchange API](api/exchange.md)
 
