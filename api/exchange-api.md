@@ -228,9 +228,8 @@ ethToTokenSwapOutput(
 ```swift
 ethValue: String        // big integer, msg.value
 
-exchangeContract.methods.ethToTokenSwapInput(
-    min_liquidity: String,        // big integer
-    max_tokens: String,           // big integer
+exchangeContract.methods.ethToTokenSwapOutput(
+    tokens_bought: String,        // big integer
     deadline: Integer
 ).send({value: ethValue})
 ```
@@ -267,9 +266,8 @@ ethToTokenTransferOutput(
 ```swift
 ethValue: String        // big integer, msg.value
 
-exchangeContract.methods.ethToTokenSwapInput(
-    min_liquidity: String,        // big integer
-    max_tokens: String,           // big integer
+exchangeContract.methods.ethToTokenTransferOutput(
+    tokens_bought: String,        // big integer
     deadline: Integer,
     recipient: String
 ).send({value: ethValue})
