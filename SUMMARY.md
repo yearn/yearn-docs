@@ -4,14 +4,15 @@
 
 ## Frontend Integration
 
-* [User Balances](frontend-integration/untitled.md)
+* [Create an exchange](frontend/factory.md)
+* [Join liquidity pools](frontend/pool.md)
+* [Swap tokens](frontend/swap.md)
 
 ## Smart Contract Integration
 
-* [Factory Overview](smart-contract-integration/factory-overview.md)
-* [Creating an Exchange](smart-contract-integration/public-functions.md)
-* [Retreiving Data](smart-contract-integration/events.md)
-* [Untitled](smart-contract-integration/untitled.md)
+* [Solidity Interface](contract/solidity.md)
+* [Vyper Interface](contract/vyper.md)
+* [Example](contract/example.md)
 
 ## Smart Contract API
 

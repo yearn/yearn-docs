@@ -1,6 +1,0 @@
-# Factory Overview
-
-## initializeFactory\(\)
-
-
-
