@@ -1,2 +1,2 @@
-# Create an exchange
+# Create exchanges
 

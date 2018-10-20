@@ -4,7 +4,7 @@
 
 ## Frontend Integration
 
-* [Create an exchange](frontend/factory.md)
+* [Create exchanges](frontend/factory.md)
 * [Join liquidity pools](frontend/pool.md)
 * [Swap tokens](frontend/swap.md)
 
