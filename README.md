@@ -29,11 +29,11 @@ This site will serve as a project overview for Uniswap - explaining how it works
 
 * [Website](https://uniswap.io/)
 * [Github](https://github.com/uniswap)
-* [Whitepaper](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig#Uniswap-Whitepaper-%F0%9F%A6%84)
+* [Twitter](https://twitter.com/UniswapExchange)
 * [Reddit](https://www.reddit.com/r/UniSwap/)
 * [Slack](https://join.slack.com/t/uni-swap/shared_invite/enQtNDYwMjg1ODc5ODA4LWEyYmU0OGU1ZGQ3NjE4YzhmNzcxMDAyM2ExNzNkZjZjZjcxYTkwNzU0MGE3M2JkNzMxOTA2MzE2ZWM0YWQwNjU)
-* [Twitter](https://twitter.com/UniswapExchange)
 * [Email](mailto:hayden@uniswap.io?Subject=Uniswap%20Feedback)
+* [Whitepaper](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig#Uniswap-Whitepaper-%F0%9F%A6%84)
 
 ## How it works
 
@@ -45,11 +45,15 @@ Exchange contracts are automated market makers between an ETH-ERC20 pair. Trader
 
 ![ERC20 to ERC20 trades in Uniswap](.gitbook/assets/screen-shot-2018-10-21-at-3.47.46-pm.png)
 
-Uniswap uses a "constant product" market making formula which adjusts the exchange rate based off of the relative sizes of the reserves and the incoming trade. For example, an ETH-to-ERC20 trade increases the size of the ETH reserve and lowers the size of the ERC20 reserve. This shift in reserve ratio increases the ERC20 token's price relative to ETH. The greater the shift in ratio, the worse of an exchange rate the buyer will receive. This is called price slippage, and it can be avoided by making trades that are small relative to total liquidity supplies. 
+Uniswap uses a "constant product" market making formula which adjusts the exchange rate based off of the relative sizes of the reserves, and the amount with which an incoming trade shifts this ratio. Selling ETH for an ERC20 token increases the size of the ETH reserve and decreases the size of the ERC20 reserve. This shifts the reserve ratio to increase the ERC20 token's price relative to ETH for subsequent transactions. The larger a trade relative to the total size of the reserves, the more price slippage will occur. This formula uses the open financial market to determine the optimal market making strategy and relies on arbitrage keep prices on par with other exchanges.    
 
 A small liquidity provider fee \(0.3%\) is taken out of each trade and added to the reserves. While the ETH-ERC20 reserve ratio is constantly shifting, fees makes sure that the total combined reserve size increases with every trade. This functions as a payout to liquidity providers that is collected when they burn their pool tokens to withdraw their proportional share of total reserves. 
 
-Since Uniswap is entirely on-chain, prices can change between when a transaction is signed and when it is included in a block. Traders can bound these price fluctuations by specifying the minimum amount bought on sell orders, or the maximum amount sold on buy orders. This acts as a limit order that will automatically cancels if it is not filled. It is also possible to set transaction deadlines which will cancel orders if they are not executed fast enough.  
+Since Uniswap is entirely on-chain, prices can change between when a transaction is signed and when it is included in a block. Traders can bound price fluctuations by specifying the minimum amount bought on sell orders, or the maximum amount sold on buy orders. This acts as a limit order that will automatically cancels if it is not filled. It is also possible to set transaction deadlines which will cancel orders if they are not executed fast enough.  
 
-The reason there is only one exchange per token is to encourage users 
+The reason only one exchange per token can be registered to the factory is to encourage providers to pool their liquidity into a single reserve. However, Uniswap has built in support for ERC20-to-ERC20 trades using a public pool from the factory on one side of the transaction and a custom, user-specified pool on the other. Custom pools could have fund managers, use different pricing mechanisms,  remove liquidity provider fees,  integrate complex three dimensional fomo-based ponzi-schemes and more. They just need to implement the Uniswap interface and accept ETH as an intermediary asset. Custom pools do not have the same safety properties as the public ones - it is recommended users only interact with audited, open-source smart contracts. 
+
+
+
+
 
