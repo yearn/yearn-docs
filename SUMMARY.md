@@ -4,7 +4,8 @@
 
 ## Frontend Integration
 
-* [Create exchanges](frontend/factory.md)
+* [Connect to Uniswap](frontend/connect-to-uniswap.md)
+* [Find and create exchanges](frontend/factory.md)
 * [Join liquidity pools](frontend/pool.md)
 * [Swap tokens](frontend/swap.md)
 
