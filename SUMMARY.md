@@ -6,7 +6,7 @@
 
 * [Connect to Uniswap](frontend/connect-to-uniswap.md)
 * [Join liquidity pools](frontend/pool.md)
-* [Swap tokens](frontend/swap.md)
+* [Trade tokens](frontend/swap.md)
 
 ## Smart Contract Integration
 

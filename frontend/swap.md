@@ -1,21 +1,44 @@
-# Swap tokens
+# Trade tokens
 
 ## Formalized Model
 
-Uniswap prices are autonomous and use the Constant Product Market Maker \($$x * y = k$$\). This model was formalized and the smart contract implementation passed a lightweight formal verification.  
+Uniswap prices are autonomous and use the Constant Product Market Maker \($$x * y = k$$\). This model was formalized and the smart contract implementation passed a lightweight formal verification.   
 
 * [Formalized Model](https://github.com/runtimeverification/verified-smart-contracts/blob/uniswap/uniswap/x-y-k.pdf)
 * [Lightweight Verification](https://github.com/runtimeverification/verified-smart-contracts/tree/uniswap/uniswap/results) 
 
 ## ETH ⇄ ERC20 Calculations
 
-The only variables needed to price when trading between ETH and ERC20 tokens is:
+The only variables needed to determine price when trading between ETH and ERC20 tokens is:
 
 * ETH reserve on relevant ERC20 exchange
 * ERC20 reserve on relevant ERC20
 * Amount sold \(exact input\) or amount bought \(exact output\)
 
-### Sell \(exact input\)
+### Amount Bought \(sell order\)
+
+Given an exact input amount \(sell order\), the amount bought is calculated:
+
+```javascript
+// Sell ETH for ERC20
+inputAmount = userInputEthValue
+inputReserve = web3.eth.getBalance(exchangeAddress)
+outputReserve = tokenContract.methods.balanceOf(exchangeAddress)
+
+// Sell ERC20 for ETH
+inputAmount = userInputTokenValue
+inputReserve = tokenContract.methods.balanceOf(exchangeAddress)
+outputReserve = web3.eth.getBalance(exchangeAddress)
+
+// Output amount bought 
+numerator = inputAmount * outputReserve * 997
+denominator = inputReserve * 1000 + inputAmount * 997
+outputAmount = numerator / denominator
+```
+
+### Amount Sold \(buy order\)
+
+Given an exact output amount \(buy order\), the amount that must be sold is calculated:
 
 ```javascript
 // Sell ETH for ERC20
@@ -40,32 +63,21 @@ fee = inputAmount * 0.003
 rate = outputAmount / inputAmount
 ```
 
-### Buy \(exact output\)
+### Liquidity Provider Fee
+
+There is a 0.3% liquidity provider fee built into the price formula. This can be calculated:   
 
 ```javascript
-// Sell ETH for ERC20
-inputAmount = userInputEthValue
-inputReserve = web3.eth.getBalance(exchangeAddress)
-outputReserve = tokenContract.methods.balanceOf(exchangeAddress)
-
-// Sell ERC20 for ETH
-inputAmount = userInputTokenValue
-inputReserve = tokenContract.methods.balanceOf(exchangeAddress)
-outputReserve = web3.eth.getBalance(exchangeAddress)
-
-// Output amount bought 
-numerator = inputAmount * outputReserve * 997
-denominator = inputReserve * 1000 + inputAmount * 997
-outputAmount = numerator / denominator
-
-// Liquidity Provider Fee (built into formula)
 fee = inputAmount * 0.003
-
-// Exchange Rate
-rate = outputAmount / inputAmount
 ```
 
+### Exchange Rate
 
+The exchange rate is simply the output amount divided by the input amount.
+
+```javascript
+rate = outputAmount / inputAmount
+```
 
 ## ERC20 ⇄ ERC20 Calculations
 
@@ -89,19 +101,13 @@ web3.eth.getBlock('latest', (error, block) => {
 
 
 
-## ETH to ERC20
+## ETH ⇄ ERC20 Trades
 
 ### Parameters
 
 
 
 ### Trading 
-
-
-
-## ERC20 to ETH
-
-
 
 
 
