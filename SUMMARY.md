@@ -5,7 +5,7 @@
 ## Frontend Integration
 
 * [Connect to Uniswap](frontend/connect-to-uniswap.md)
-* [Join liquidity pools](frontend/pool.md)
+* [Pool Liquidity](frontend/pool.md)
 * [Trade tokens](frontend/swap.md)
 
 ## Smart Contract Integration
