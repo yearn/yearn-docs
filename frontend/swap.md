@@ -1,18 +1,20 @@
 # Trade tokens
 
-In Uniswap, there is a separate exchange contract for each ERC20. Each exchange holds a reserve of both ETH and its associated ERC20 token. Users can trade between the two in either direction. This is done by adding to the reserve of one and withdrawing from the reserve of the other. Pricing is automatic, and based on the $$x * y = k$$ market maker equation. This model prices assets based off the relative sizes of the two reserves and the size of the incoming trade. 
+In Uniswap, there is a separate exchange contract for each ERC20 token. These exchanges hold reserves of both ETH and their associated ERC20. Instead of waiting to be matched in an order-book, users can make trades against the reserves at any time. Reserves are pooled between a decentralized network of liquidity providers who collect fees on every trade. 
+
+Pricing is automatic, based on the $$x * y = k$$ market making formula which automatically adjusts prices based off the relative sizes of the two reserves and the size of the incoming trade. Since all tokens share ETH as a common pair, it is used as an intermediary asset for direct trading between any ERC20 ⇄ ERC20 pair. 
 
 ## ETH ⇄ ERC20 Calculations
 
-The only variables needed to determine price when trading between ETH and ERC20 tokens is:
+The variables needed to determine price when trading between ETH and ERC20 tokens is:
 
-* ETH reserve size in exchange contract
-* ERC20 reserve size in exchange contract
-* Amount sold \(exact input\) or amount bought \(exact output\)
+* ETH reserve size of the ERC20 exchange
+* ERC20 reserve size of the ERC20 exchange
+* Amount sold \(input\) or amount bought \(output\)
 
 ### Amount Bought \(sell order\)
 
-Given an exact input amount \(sell order\), the amount bought is calculated:
+For sell orders \(exact input\), the amount bought \(output\) is calculated:
 
 ```javascript
 // Sell ETH for ERC20
@@ -33,29 +35,23 @@ outputAmount = numerator / denominator
 
 ### Amount Sold \(buy order\)
 
-Given an exact output amount \(buy order\), the amount that must be sold is calculated:
+For buy orders \(exact output\), the cost \(input\) is calculated:
 
 ```javascript
-// Sell ETH for ERC20
-inputAmount = userInputEthValue
+// Buy ERC20 with ETH
+outputAmount = userInputEthValue
 inputReserve = web3.eth.getBalance(exchangeAddress)
 outputReserve = tokenContract.methods.balanceOf(exchangeAddress)
 
-// Sell ERC20 for ETH
+// Buy ETH with ERC20 
 inputAmount = userInputTokenValue
 inputReserve = tokenContract.methods.balanceOf(exchangeAddress)
 outputReserve = web3.eth.getBalance(exchangeAddress)
 
-// Output amount bought 
-numerator = inputAmount * outputReserve * 997
-denominator = inputReserve * 1000 + inputAmount * 997
-outputAmount = numerator / denominator
-
-// Liquidity Provider Fee (built into formula)
-fee = inputAmount * 0.003
-
-// Exchange Rate
-rate = outputAmount / inputAmount
+// Cost
+numerator = outputAmount * inputReserve * 1000
+denominator = (outputReserve - outputAmount) * 997
+inputAmount = numerator / denominator + 1
 ```
 
 ### Liquidity Provider Fee
@@ -76,70 +72,77 @@ rate = outputAmount / inputAmount
 
 ## ERC20 ⇄ ERC20 Calculations
 
+The variables needed to determine price when trading between two ERC20 tokens is:
 
-
-The only variables needed to determine price when trading between ETH and ERC20 tokens is:
-
-* ETH reserve on input ERC20 exchange
-* ERC20 reserve on input ERC20 exchange
-* ETH reserve on output ERC20 exchange
-* ERC20 reserve on relevant ERC20
-* Amount sold \(exact input\) or amount bought \(exact output\)
+* ETH reserve size of the input ERC20 exchange 
+* ERC20 reserve size of the input ERC20 exchange 
+* ETH reserve size of the output ERC20 exchange 
+* ERC20 reserve size of the output ERC20 exchange
+* Amount sold \(input\) or amount bought \(output\)
 
 ### Amount Bought \(sell order\)
 
-Given an exact input amount \(sell order\), the amount bought is calculated:
+For sell orders \(exact input\), the amount bought \(output\) is calculated:
 
 ```javascript
-// Sell ETH for ERC20
-inputAmount = userInputEthValue
-inputReserve = web3.eth.getBalance(exchangeAddress)
-outputReserve = tokenContract.methods.balanceOf(exchangeAddress)
+// TokenA (ERC20) to ETH conversion
+inputAmountA = userInputTokenAValue
+inputReserveA = tokenContractA.methods.balanceOf(exchangeAddressA)
+outputReserveA = web3.eth.getBalance(exchangeAddressA)
 
-// Sell ERC20 for ETH
-inputAmount = userInputTokenValue
-inputReserve = tokenContract.methods.balanceOf(exchangeAddress)
-outputReserve = web3.eth.getBalance(exchangeAddress)
+numeratorA = inputAmountA * outputReserveA * 997
+denominatorA = inputReserveA * 1000 + inputAmountA * 997
+outputAmountA = numeratorA / denominatorA
 
-// Output amount bought 
-numerator = inputAmount * outputReserve * 997
-denominator = inputReserve * 1000 + inputAmount * 997
-outputAmount = numerator / denominator
+// ETH to TokenB conversion 
+inputAmountB = outputAmountA    
+inputReserveB = web3.eth.getBalance(exchangeAddressB)
+outputReserveB = tokenContract.methods.balanceOf(exchangeAddressB)
+
+numeratorB = inputAmountB * outputReserveB * 997
+denominatorB = inputReserveB * 1000 + inputAmountB * 997
+outputAmountB = numeratorB / denominatorB    
 ```
 
 ### Amount Sold \(buy order\)
 
-Given an exact output amount \(buy order\), the amount that must be sold is calculated:
+For buy orders \(exact output\), the cost \(input\) is calculated:
 
 ```javascript
-// Sell ETH for ERC20
-inputAmount = userInputEthValue
-inputReserve = web3.eth.getBalance(exchangeAddress)
-outputReserve = tokenContract.methods.balanceOf(exchangeAddress)
+// Buy TokenB with ETH
+outputAmountB = userInputEthValue
+inputReserveB = web3.eth.getBalance(exchangeAddressB)
+outputReserveB = tokenContract.methods.balanceOf(exchangeAddressB)
 
-// Sell ERC20 for ETH
-inputAmount = userInputTokenValue
-inputReserve = tokenContract.methods.balanceOf(exchangeAddress)
-outputReserve = web3.eth.getBalance(exchangeAddress)
+// Cost
+numeratorB = outputAmountB * inputReserveB * 1000
+denominatorB = (outputReserveB - outputAmountB) * 997
+inputAmountB = numeratorB / denominatorB + 1
 
-// Output amount bought 
-numerator = inputAmount * outputReserve * 997
-denominator = inputReserve * 1000 + inputAmount * 997
-outputAmount = numerator / denominator
+// Buy ETH with TokenA
+outputAmountA = userInputEthValue
+inputReserveA = tokenContract.methods.balanceOf(exchangeAddressA)
+outputReserveA = web3.eth.getBalance(exchangeAddressA)
 
-// Liquidity Provider Fee (built into formula)
-fee = inputAmount * 0.003
-
-// Exchange Rate
-rate = outputAmount / inputAmount
+// Cost
+numeratorA = outputAmountA * inputReserveA * 1000
+denominatorA = (outputReserveA - outputAmountA) * 997
+inputAmountA = numeratorA / denominatorA + 1
 ```
 
 ### Liquidity Provider Fee
 
-There is a 0.3% liquidity provider fee built into the price formula. This can be calculated:   
+There is a 0.3% liquidity provider fee to swap from TokenA to ETH on the input exchange. There is another 0.3% liquidity provider fee to swap the remaining ETH to TokenB. 
 
 ```javascript
-fee = inputAmount * 0.003
+exchangeAFee = inputAmountA * 0.003
+exchangeBFee = inputAmountB * 0.003
+```
+
+Since users only inputs Token A, it can be represented to them as:
+
+```javascript
+combinedFee = inputAmountA * 0.00591
 ```
 
 ### Exchange Rate
@@ -147,7 +150,7 @@ fee = inputAmount * 0.003
 The exchange rate is simply the output amount divided by the input amount.
 
 ```javascript
-rate = outputAmount / inputAmount
+rate = outputAmountB / inputAmountA
 ```
 
 ## Deadlines
