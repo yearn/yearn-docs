@@ -1,11 +1,13 @@
 # Trade tokens
 
+In Uniswap, there is a separate exchange contract for each ERC20. Each exchange holds a reserve of both ETH and its associated ERC20 token. Users can trade between the two in either direction. This is done by adding to the reserve of one and withdrawing from the reserve of the other. Pricing is automatic, and based on the $$x * y = k$$ market maker equation. This model prices assets based off the relative sizes of the two reserves and the size of the incoming trade. 
+
 ## ETH ⇄ ERC20 Calculations
 
 The only variables needed to determine price when trading between ETH and ERC20 tokens is:
 
-* ETH reserve on relevant ERC20 exchange
-* ERC20 reserve on relevant ERC20
+* ETH reserve size in exchange contract
+* ERC20 reserve size in exchange contract
 * Amount sold \(exact input\) or amount bought \(exact output\)
 
 ### Amount Bought \(sell order\)
@@ -78,7 +80,9 @@ rate = outputAmount / inputAmount
 
 The only variables needed to determine price when trading between ETH and ERC20 tokens is:
 
-* ETH reserve on relevant ERC20 exchange
+* ETH reserve on input ERC20 exchange
+* ERC20 reserve on input ERC20 exchange
+* ETH reserve on output ERC20 exchange
 * ERC20 reserve on relevant ERC20
 * Amount sold \(exact input\) or amount bought \(exact output\)
 
