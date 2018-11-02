@@ -10,20 +10,20 @@ Uniswap is open source and functions as a public good. There is no central token
 
 This site will serve as a project overview for Uniswap - explaining how it works, how to use it, and how to build on top of it. These docs are actively being worked on and more information will be added soon.
 
-## Uniswap V1 Features
+## V1 Features
 
-* Add support for any ERC20 token using the Uniswap factory
-* Join market making pools to collect fees on ETH-ERC20 pairs
-* Liquidity-sensitive automated pricing using constant product formula
-* Trade ETH for any ERC20 without wrapping
-* Trade any ERC20 for any ERC20 in a single transaction 
+* Add support for any ERC20 token using the Uniswap [factory](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_exchange.vy)
+* [Join liquidity pools](frontend/pool.md#add-liquidity) to collect fees on ETH-ERC20 pairs
+* Liquidity-sensitive automated pricing using [constant product formula](https://github.com/runtimeverification/verified-smart-contracts/blob/uniswap/uniswap/x-y-k.pdf)
+* Trade [ETH for any ERC20](frontend/swap.md#eth-erc20-trades) without wrapping
+* Trade any [ERC20 for any ERC20](frontend/swap.md#erc20-to-erc20) in a single transaction 
 * Trade and transfer to a different address in a single transaction
 * Lowest gas cost of any decentralized exchange
 * Support for private and custom uniswap exchanges
-* Buy ERC20 tokens from any wallet using ENS
-* Partially verified smart contracts written in Vyper
-* Mobile optimized open source frontend implementation  
-* Funded through an Ethereum Foundation grant
+* Buy ERC20 tokens from any wallet using ENS \(coming soon\)
+* [Partially verified](https://github.com/runtimeverification/verified-smart-contracts/tree/uniswap/uniswap) smart contracts written in Vyper
+* Mobile optimized open source [frontend implementation](https://github.com/Uniswap/uniswap-frontend)  
+* Funded through an [Ethereum Foundation grant](https://blog.ethereum.org/2018/08/17/ethereum-foundation-grants-update-wave-3/)
 
 ## Resources
 
@@ -32,7 +32,7 @@ This site will serve as a project overview for Uniswap - explaining how it works
 * [Twitter](https://twitter.com/UniswapExchange)
 * [Reddit](https://www.reddit.com/r/UniSwap/)
 * [Slack](https://join.slack.com/t/uni-swap/shared_invite/enQtNDYwMjg1ODc5ODA4LWEyYmU0OGU1ZGQ3NjE4YzhmNzcxMDAyM2ExNzNkZjZjZjcxYTkwNzU0MGE3M2JkNzMxOTA2MzE2ZWM0YWQwNjU)
-* [Email](mailto:hayden@uniswap.io?Subject=Uniswap%20Feedback)
+* [Email](mailto:contact@uniswap.io?Subject=Contact%20Uniswap)
 * [Whitepaper](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig#Uniswap-Whitepaper-%F0%9F%A6%84)
 
 ## How it works
@@ -55,7 +55,19 @@ The reason only one exchange per token can be registered to the factory is to en
 
 Upgrading censorship resistant, decentralized smart contracts is difficult. If significant improvements are made to the system a new version will be released. Liquidity providers can choose between moving to the new system or staying in the old one. If possible, new versions will be backwards compatible and able to trade ERC20-to-ERC20 with the old versions similar to a custom pool. 
 
+## How to use it
 
+[Uniswap.io](https://uniswap.io/) is the landing page for the Uniswap protocol. It describes the project and directs users where they need to go.  
+
+The Uniswap smart contracts live on Ethereum. Anyone can interact with them directly using Web3 function calls. 
+
+The Uniswap frontend is an open source interface designed to improve user experience when interacting with the smart contracts. Anyone can use the source code to host an interface, or build their own. Hosted interfaces are independent of Uniswap, and should comply with their jurisdictional laws and regulations. 
+
+#### List of interfaces \(updated November 2, 2018\)
+
+* [Uniswap.exchange](https://uniswap.exchange/swap)
 
 #### 
+
+
 
