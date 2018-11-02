@@ -165,27 +165,23 @@ web3.eth.getBlock('latest', (error, block) => {
 })
 ```
 
-
-
 ## Recipients
 
-
+Uniswap allows traders to swap tokens and transfer the output to a new `recipient` address. This allows for a type of payment where the payer sends one token and the payee receives another. 
 
 ## ETH ⇄ ERC20 Trades
 
-### Parameters
+Coming soon...
 
 
 
-### Trading 
+## ERC20 ⇄ ERC20 Trades
 
-
-
-## ERC20 to ERC20
-
-
+Coming soon...
 
 
 
 ## Custom Pools
+
+Coming soon...
 
