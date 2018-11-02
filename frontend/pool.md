@@ -2,7 +2,7 @@
 
 ## Formalized Model
 
-Uniswap liquidity pools are autonomous and use the Constant Product Market Maker \($$x * y = k$$\). This model was formalized and the smart contract implementation passed a lightweight formal verification. yo  
+Uniswap liquidity pools are autonomous and use the Constant Product Market Maker \($$x * y = k$$\). This model was formalized and the smart contract implementation passed a lightweight formal verification.  
 
 * [Formalized Specification](https://github.com/runtimeverification/verified-smart-contracts/blob/uniswap/uniswap/x-y-k.pdf)
 * [Lightweight Verification](https://github.com/runtimeverification/verified-smart-contracts/tree/uniswap/uniswap/results) 
@@ -15,7 +15,7 @@ The `createExchange` function is used to deploy exchange contracts for ERC20 tok
 factory.methods.createExchange(tokenAddress).send()
 ```
 
-Once an exchange is created the address can be retrieved with [getExchange](https://docs.uniswap.io/~/edit/drafts/-LPtLEzWewVX9LxoQwHY/frontend/connect-to-uniswap#get-exchange-address). 
+Once an exchange is created the address can be retrieved with [`getExchange`](connect-to-uniswap.md#get-exchange-address). 
 
 ## Exchange Reserves
 
@@ -49,7 +49,21 @@ exchange.methods.addLiquidity(
 ).send({value: ethAmount})
 ```
 
-Adding liquidity requires depositing and equivalent **value** of ETH and ERC20 tokens into the ERC20 token's associated exchange contract. 
+Adding liquidity requires depositing an equivalent **value** of ETH and ERC20 tokens into the ERC20 token's associated exchange contract. 
+
+The first liquidity provider to join a pool sets the initial exchange rate by depositing what they believe to be an equivalent value of ETH and ERC20 tokens. If this ratio is off, arbitrage traders will bring the prices to equilibrium at the expense of the initial liquidity provider. 
+
+All future liquidity providers deposit ETH and ERC20's using the exchange rate at the moment of their deposit. If the exchange rate is bad there is a profitable arbitrage opportunity that will correct the price.
+
+### Parameters
+
+The `ethAmount` sent to the addLiquidity function is the exact amount of ETH that will be deposited into the liquidity reserves. It should represent 50% of the total value a liquidity provider wishes to deposit into the reserves. 
+
+Since liquidity providers must deposit at the current exchange rate, the Uniswap smart contracts use `ethAmount` to determine the amount of ERC20 tokens that must be deposited. Since exchange rate can change between when a transaction is signed and when it is executed on Ethereum, `max_tokens` is used to bound the amount this rate can fluctuate.   
+
+Liquidity tokens are minted to track the relative proportion of total reserves that each liquidity provider has contributed. `minLiquidity` is used in combination with `max_tokens` and `ethAmount` to bound the rate at which liquidity tokens are minted.
+
+Transaction `deadline` is used to set a time after which a transaction can no longer be executed.  
 
 ## Remove Liquidity 
 
