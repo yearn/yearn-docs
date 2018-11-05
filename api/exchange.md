@@ -902,7 +902,7 @@ exchangeContract.methods.getTokenToEthOutputPrice(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of ETH that must be sold |
+| uint256 | Amount of ERC20 tokens that must be sold |
 
 
 
