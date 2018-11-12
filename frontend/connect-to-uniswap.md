@@ -13,7 +13,7 @@ The factory contract can be instantiated using the factory address and ABI:
 ### \*\*\*\*[**Factory Address**](https://rinkeby.etherscan.io/address/0xf5D915570BC477f9B8D6C0E980aA81757A3AaC36) ****
 
 ```javascript
-factoryAddress = "0xf5D915570BC477f9B8D6C0E980aA81757A3AaC36";
+factoryAddress = "0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95";
 ```
 
 ### **Factory Interface**
