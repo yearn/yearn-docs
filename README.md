@@ -37,7 +37,7 @@ This site will serve as a project overview for Uniswap - explaining how it works
 * [Reddit](https://www.reddit.com/r/UniSwap/)
 * [Slack](https://join.slack.com/t/uni-swap/shared_invite/enQtNDYwMjg1ODc5ODA4LWEyYmU0OGU1ZGQ3NjE4YzhmNzcxMDAyM2ExNzNkZjZjZjcxYTkwNzU0MGE3M2JkNzMxOTA2MzE2ZWM0YWQwNjU)
 * [Email](mailto:contact@uniswap.io?Subject=Contact%20Uniswap)
-* [Whitepaper](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig#Uniswap-Whitepaper-%F0%9F%A6%84)
+* [Whitepaper](https://hackmd.io/s/HJ9jLsfTz)
 
 ## How it works
 
