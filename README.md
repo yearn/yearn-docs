@@ -1,7 +1,3 @@
----
-description: Welcome to the Uniswap docs!
----
-
 # Getting Started
 
 {% hint style="info" %}
@@ -17,10 +13,10 @@ This site will serve as a project overview for Uniswap - explaining how it works
 ## V1 Features
 
 * Add support for any ERC20 token using the Uniswap [factory](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_exchange.vy)
-* [Join liquidity pools](frontend/pool.md#add-liquidity) to collect fees on ETH-ERC20 pairs
+* [Join liquidity pools](frontend-integration/pool.md#add-liquidity) to collect fees on ETH-ERC20 pairs
 * Liquidity-sensitive automated pricing using [constant product formula](https://github.com/runtimeverification/verified-smart-contracts/blob/uniswap/uniswap/x-y-k.pdf)
-* Trade [ETH for any ERC20](frontend/swap.md#eth-erc20-trades) without wrapping
-* Trade any [ERC20 for any ERC20](frontend/swap.md#erc20-to-erc20) in a single transaction 
+* Trade [ETH for any ERC20](frontend-integration/swap.md#eth-erc20-trades) without wrapping
+* Trade any [ERC20 for any ERC20](frontend-integration/swap.md#erc20-to-erc20) in a single transaction 
 * Trade and transfer to a different address in a single transaction
 * Lowest gas cost of any decentralized exchange
 * Support for private and custom uniswap exchanges

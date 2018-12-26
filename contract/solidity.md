@@ -1,5 +1,0 @@
-# Solidity Interface
-
-Coming soon...   
-
-

@@ -4,18 +4,18 @@
 
 ## Frontend Integration
 
-* [Connect to Uniswap](frontend/connect-to-uniswap.md)
-* [Pool Liquidity](frontend/pool.md)
-* [Trade tokens](frontend/swap.md)
+* [Connect to Uniswap](frontend-integration/connect-to-uniswap.md)
+* [Pool Liquidity](frontend-integration/pool.md)
+* [Trade tokens](frontend-integration/swap.md)
 
 ## Smart Contract Integration
 
-* [Solidity Interface](contract/solidity.md)
-* [Vyper Interface](contract/vyper.md)
-* [Example](contract/example.md)
+* [Solidity Interface](smart-contract-integration/solidity.md)
+* [Vyper Interface](smart-contract-integration/vyper.md)
+* [Example](smart-contract-integration/example.md)
 
 ## Smart Contract API
 
-* [Factory API](api/factory.md)
-* [Exchange API](api/exchange.md)
+* [Factory API](smart-contract-api/factory.md)
+* [Exchange API](smart-contract-api/exchange.md)
 

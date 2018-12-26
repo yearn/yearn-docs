@@ -24,8 +24,6 @@ exchangeContract.methods.setup(token: String).send()
 | :--- | ---: |
 | token\_addr | Ethereum address of an ERC20 Token |
 
-
-
 ## addLiquidity
 
 {% code-tabs %}
@@ -48,7 +46,7 @@ exchangeContract.methods.addLiquidity(
     min_liquidity: String,        // big integer
     max_tokens: String,           // big integer
     deadline: Integer
-).send({value: ethValue}) 
+).send({value: ethValue})
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -62,9 +60,7 @@ exchangeContract.methods.addLiquidity(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of liquidity tokens minted  |
-
-
+| uint256 | Amount of liquidity tokens minted |
 
 ## removeLiquidity
 
@@ -87,7 +83,7 @@ exchangeContract.methods.removeLiquidity(
     min_eth: String,       // big integer
     max_tokens: String     // big integer
     deadline: Integer    
-).send() 
+).send()
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -101,12 +97,10 @@ exchangeContract.methods.removeLiquidity(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of ETH removed  |
+| uint256 | Amount of ETH removed |
 | uint256 | Amount of ERC20 tokens removed. |
 
- ****
-
-##  **default**
+## **default**
 
 {% code-tabs %}
 {% code-tabs-item title="Smart Contract" %}
@@ -114,7 +108,7 @@ exchangeContract.methods.removeLiquidity(
 // Default function in Vyper replaces the "fallback" function in Solidity
 
 @payable
-__default__(): 
+__default__():
 ```
 {% endcode-tabs-item %}
 
@@ -129,8 +123,6 @@ web3.eth.sendTransaction({value: ethAmount})
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
 | msg.value | uint256 | Amount of ETH sold |
-
-
 
 ## ethToTokenSwapInput
 
@@ -166,9 +158,7 @@ exchangeContract.methods.ethToTokenSwapInput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of ERC20 tokens bought  |
-
- ****
+| uint256 | Amount of ERC20 tokens bought |
 
 ## ethToTokenTransferInput
 
@@ -207,9 +197,7 @@ exchangeContract.methods.ethToTokenTransferInput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of ERC20 tokens bought  |
-
- ****
+| uint256 | Amount of ERC20 tokens bought |
 
 ## ethToTokenSwap**Output**
 
@@ -245,8 +233,6 @@ exchangeContract.methods.ethToTokenSwapOutput(
 | Returns |  |
 | :--- | ---: |
 | uint256 | Amount of ETH sold |
-
- ****
 
 ## ethToTokenTransferOutput
 
@@ -320,9 +306,7 @@ exchangeContract.methods.tokenToEthSwapInput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of ETH bought  |
-
- ****
+| uint256 | Amount of ETH bought |
 
 ## tokenToEthTransferInput
 
@@ -359,9 +343,7 @@ exchangeContract.methods.tokenToEthTransferInput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of ETH bought  |
-
- ****
+| uint256 | Amount of ETH bought |
 
 ## tokenToEthSwapOutput
 
@@ -395,9 +377,7 @@ exchangeContract.methods.tokenToEthSwapOutput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of ERC20 tokens sold  |
-
- ****
+| uint256 | Amount of ERC20 tokens sold |
 
 \*\*\*\*
 
@@ -436,9 +416,7 @@ exchangeContract.methods.tokenToEthTransferOutput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of ERC20 tokens sold  |
-
-
+| uint256 | Amount of ERC20 tokens sold |
 
 ## tokenToTokenSwapInput
 
@@ -478,9 +456,7 @@ exchangeContract.methods.tokenToTokenSwapInput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of output ERC20 tokens bought  |
-
- ****
+| uint256 | Amount of output ERC20 tokens bought |
 
 ## tokenToTokenTransferInput
 
@@ -523,9 +499,7 @@ exchangeContract.methods.tokenToTokenTransferInput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of output ERC20 tokens bought  |
-
- ****
+| uint256 | Amount of output ERC20 tokens bought |
 
 ## tokenToTokenSwapOutput
 
@@ -565,9 +539,7 @@ exchangeContract.methods.tokenToTokenSwapOutput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of input ERC20 tokens sold  |
-
- ****
+| uint256 | Amount of input ERC20 tokens sold |
 
 ## tokenToTokenTransferOutput
 
@@ -610,11 +582,7 @@ exchangeContract.methods.tokenToTokenTransferOutput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of input ERC20 tokens sold  |
-
- ****
-
-
+| uint256 | Amount of input ERC20 tokens sold |
 
 ## tokenToExchangeSwapInput
 
@@ -654,9 +622,7 @@ exchangeContract.methods.tokenToTokenSwapInput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of output ERC20 tokens bought  |
-
- ****
+| uint256 | Amount of output ERC20 tokens bought |
 
 ## tokenToExchangeTransferInput
 
@@ -699,9 +665,7 @@ exchangeContract.methods.tokenToExchangeTransferInput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of output ERC20 tokens bought  |
-
- ****
+| uint256 | Amount of output ERC20 tokens bought |
 
 ## tokenToExchangeSwapOutput
 
@@ -741,9 +705,7 @@ exchangeContract.methods.tokenToExchangeSwapOutput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of input ERC20 tokens sold  |
-
- ****
+| uint256 | Amount of input ERC20 tokens sold |
 
 ## tokenTo**Exchange**TransferOutput
 
@@ -786,7 +748,7 @@ exchangeContract.methods.tokenToExchangeTransferOutput(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of input ERC20 tokens sold  |
+| uint256 | Amount of input ERC20 tokens sold |
 
 \*\*\*\*
 
@@ -815,9 +777,7 @@ exchangeContract.methods.getEthToTokenInputPrice(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of ERC20 tokens that can be bought  |
-
- ****
+| uint256 | Amount of ERC20 tokens that can be bought |
 
 ## getEthToTokenOutputPrice
 
@@ -873,9 +833,7 @@ exchangeContract.methods.getTokenToEthInputPrice(
 
 | Returns |  |
 | :--- | ---: |
-| uint256 | Amount of ETH that can be bought  |
-
- ****
+| uint256 | Amount of ETH that can be bought |
 
 ## getTokenToEthOutputPrice
 
@@ -904,8 +862,6 @@ exchangeContract.methods.getTokenToEthOutputPrice(
 | :--- | ---: |
 | uint256 | Amount of ERC20 tokens that must be sold |
 
-
-
 ## tokenAddress
 
 {% code-tabs %}
@@ -927,8 +883,6 @@ exchangeContract.methods.tokenAddress().call()
 | :--- | ---: |
 | address | Address of ERC20 token sold on exchange |
 
-
-
 ## factoryAddress
 
 {% code-tabs %}
@@ -949,8 +903,6 @@ exchangeContract.methods.factoryAddress().call()
 | Returns |  |
 | :--- | ---: |
 | address | Address of factory that created exchange |
-
-
 
 ## name
 
@@ -974,8 +926,6 @@ exchangeContract.methods.tokenAddress().call()
 | :--- | ---: |
 | bytes32 | Name of liquidity token |
 
-
-
 ## symbol
 
 {% code-tabs %}
@@ -997,8 +947,6 @@ exchangeContract.methods.tokenAddress().call()
 | Returns |  |
 | :--- | ---: |
 | bytes32 | Symbol of liquidity token |
-
-## 
 
 ## decimals
 
@@ -1022,8 +970,6 @@ exchangeContract.methods.decimals().call()
 | :--- | ---: |
 | uint256 | Decimals of liquidity token |
 
-
-
 ## balanceOf
 
 {% code-tabs %}
@@ -1043,13 +989,11 @@ exchangeContract.methods.balanceOf(_owner: String).call()
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
-| \_owner | address | Ethereum address  |
+| \_owner | address | Ethereum address |
 
 | Returns |  |
 | :--- | ---: |
 | uint256 | Liquidity token balance of address |
-
-
 
 ## transfer
 
@@ -1075,14 +1019,12 @@ exchangeContract.methods.transfer(
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
-| \_to | address | Recipient address  |
+| \_to | address | Recipient address |
 | \_value | uint256 | Amount transferred |
 
 | Returns |  |
 | :--- | ---: |
-| bool | True if successful. Reverts or false on failure  |
-
-
+| bool | True if successful. Reverts or false on failure |
 
 ## transferFrom
 
@@ -1111,14 +1053,12 @@ exchangeContract.methods.transferFrom(
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
 | \_from | address | Sender address |
-| \_to | address | Recipient address  |
+| \_to | address | Recipient address |
 | \_value | uint256 | Amount transferred |
 
 | Returns |  |
 | :--- | ---: |
-| bool | True if successful. Reverts or false on failure  |
-
-
+| bool | True if successful. Reverts or false on failure |
 
 ## approve
 
@@ -1150,8 +1090,6 @@ exchangeContract.methods.approve(
 | Returns |  |
 | :--- | ---: |
 | bool | True if successful. Reverts or false on failure |
-
-
 
 ## allowance
 
