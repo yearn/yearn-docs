@@ -10,8 +10,7 @@
 
 ## Smart Contract Integration
 
-* [Solidity Interface](smart-contract-integration/solidity.md)
-* [Vyper Interface](smart-contract-integration/vyper.md)
+* [Smart Contract Interface](smart-contract-integration/interface.md)
 
 ## Smart Contract API
 
