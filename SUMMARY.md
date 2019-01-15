@@ -12,10 +12,13 @@
 
 * [Solidity Interface](smart-contract-integration/solidity.md)
 * [Vyper Interface](smart-contract-integration/vyper.md)
-* [Example](smart-contract-integration/example.md)
 
 ## Smart Contract API
 
 * [Factory API](smart-contract-api/factory.md)
 * [Exchange API](smart-contract-api/exchange.md)
+
+## Analytics API
+
+* [Uniswap API](analytics-api/analytics-api.md)
 
