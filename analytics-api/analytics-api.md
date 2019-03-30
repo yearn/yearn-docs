@@ -2,7 +2,7 @@
 
 ## api/v1/ticker
 
-```
+```text
 https://uniswap-analytics.appspot.com/api/v1/ticker?exchangeAddress=
 ```
 
@@ -29,4 +29,5 @@ https://uniswap-analytics.appspot.com/api/v1/ticker?exchangeAddress=
 | lastTradeErc20Qty | The most recent trade ERC20 quantity |
 | tradeVolume | How much volume this exchange has experienced in trades from start to end time |
 | count | How many individual trades this exchange has experienced from start to end time |
-| theme | (Optional) Hex color used for displaying this exchange |
+| theme | \(Optional\) Hex color used for displaying this exchange |
+
