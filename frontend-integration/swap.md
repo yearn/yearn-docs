@@ -44,7 +44,7 @@ inputReserve = web3.eth.getBalance(exchangeAddress)
 outputReserve = tokenContract.methods.balanceOf(exchangeAddress)
 
 // Buy ETH with ERC20 
-inputAmount = userInputEthValue
+outputAmount = userInputEthValue
 inputReserve = tokenContract.methods.balanceOf(exchangeAddress)
 outputReserve = web3.eth.getBalance(exchangeAddress)
 
