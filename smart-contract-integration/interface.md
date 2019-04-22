@@ -92,6 +92,7 @@ contract UniswapExchangeInterface {
     function approve(address _spender, uint256 _value) external returns (bool);
     function allowance(address _owner, address _spender) external view returns (uint256);
     function balanceOf(address _owner) external view returns (uint256);
+    function totalSupply() external view returns (uint256);
     // Never use
     function setup(address token_addr) external;
 }
