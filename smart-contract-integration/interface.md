@@ -96,7 +96,6 @@ contract UniswapExchangeInterface {
     // Never use
     function setup(address token_addr) external;
 }
-
 ```
 {% endcode-tabs-item %}
 
@@ -140,7 +139,7 @@ contract UniswapExchangeInterface():
     def transferFrom(_from : address, _to : address, _value : uint256) -> bool: modifying
     def approve(_spender : address, _value : uint256) -> bool: modifying
     # Setup 
-    def setup(token_addr: address): modifying    
+    def setup(token_addr: address): modifying
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -176,8 +175,4 @@ def balanceOf() -> addr
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
-
-
-
-
 
