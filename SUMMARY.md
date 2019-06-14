@@ -2,6 +2,10 @@
 
 * [Getting Started](README.md)
 
+## SDK Documentation
+
+* [Install](sdk-documentation/install.md)
+
 ## Frontend Integration
 
 * [Connect to Uniswap](frontend-integration/connect-to-uniswap.md)
@@ -16,8 +20,3 @@
 
 * [Factory API](smart-contract-api/factory.md)
 * [Exchange API](smart-contract-api/exchange.md)
-
-## Analytics API
-
-* [Uniswap API](analytics-api/analytics-api.md)
-

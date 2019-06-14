@@ -1,18 +1,21 @@
 # Factory API
 
-## **initialize**Factory
+## initializeFactory
 
 {% code-tabs %}
 {% code-tabs-item title="Smart Contract" %}
-```javascript
-initializeFactory(template: address):
-```
-{% endcode-tabs-item %}
 
-{% code-tabs-item title="Web3" %}
-```swift
-factoryContract.methods.initializeFactory(template: String).send()
+```javascript
+initializeFactory(template: address)
 ```
+
+{% endcode-tabs-item %}
+{% code-tabs-item title="Web3" %}
+
+```javascript
+factoryContract.methods.initializeFactory(template).send()
+```
+
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
@@ -20,21 +23,22 @@ factoryContract.methods.initializeFactory(template: String).send()
 | :--- | ---: |
 | template | Ethereum address of exchange template |
 
-
-
-##  ****createExchange
+## createExchange
 
 {% code-tabs %}
 {% code-tabs-item title="Smart Contract" %}
+
 ```javascript
 createExchange(token: address): address
 ```
-{% endcode-tabs-item %}
 
+{% endcode-tabs-item %}
 {% code-tabs-item title="Web3" %}
-```swift
-factoryContract.methods.initializeFactory(token: String).send()
+
+```javascript
+factoryContract.methods.initializeFactory(token).send()
 ```
+
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
@@ -45,23 +49,24 @@ factoryContract.methods.initializeFactory(token: String).send()
 | Returns |  |
 | :--- | ---: |
 | address | Ethereum address of a Uniswap exchange  |
-
- ****
 
 ## getExchange
 
 {% code-tabs %}
 {% code-tabs-item title="Smart Contract" %}
+
 ```javascript
 @constant
 getExchange(token: address): address
 ```
-{% endcode-tabs-item %}
 
+{% endcode-tabs-item %}
 {% code-tabs-item title="Web3" %}
-```swift
-factoryContract.methods.getExchange(token: String).call()
+
+```javascript
+factoryContract.methods.getExchange(token).call()
 ```
+
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
@@ -73,22 +78,23 @@ factoryContract.methods.getExchange(token: String).call()
 | :--- | ---: |
 | address | Ethereum address of a Uniswap exchange  |
 
-\*\*\*\*
-
-## get**Token**
+## getToken
 
 {% code-tabs %}
 {% code-tabs-item title="Smart Contract" %}
+
 ```javascript
 @constant
 getToken(exchange: address): address
 ```
-{% endcode-tabs-item %}
 
+{% endcode-tabs-item %}
 {% code-tabs-item title="Web3" %}
-```swift
-factoryContract.methods.getToken(exchange: String).call()
+
+```javascript
+factoryContract.methods.getToken(exchange).call()
 ```
+
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
@@ -100,22 +106,23 @@ factoryContract.methods.getToken(exchange: String).call()
 | :--- | ---: |
 | address | Ethereum address of an ERC20 token  |
 
-\*\*\*\*
-
-## get**TokenWithId**
+## getTokenWithId
 
 {% code-tabs %}
 {% code-tabs-item title="Smart Contract" %}
+
 ```javascript
 @constant
 getTokenWithId(token_id: uint256): address
 ```
-{% endcode-tabs-item %}
 
+{% endcode-tabs-item %}
 {% code-tabs-item title="Web3" %}
-```swift
-factoryContract.methods.getToken(exchange: Integer).call()
+
+```javascript
+factoryContract.methods.getToken(exchange).call()
 ```
+
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
@@ -126,8 +133,3 @@ factoryContract.methods.getToken(exchange: Integer).call()
 | Returns |  |
 | :--- | ---: |
 | address | Ethereum address of an ERC20 token  |
-
-\*\*\*\*
-
-
-
