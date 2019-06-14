@@ -156,15 +156,22 @@ contract UniswapExchangeInterface():
 {% code-tabs-item title="TokenInterface.sol" %}
 
 ```javascript
-def balanceOf() -> addr
-    function allowance(address _owner, address _spender) external view returns (uint256);
-    function transfer(address _to, uint256 _value) external returns (bool);
-    function transferFrom(address _from, address _to, uint256 _value) external returns (bool);
-    function approve(address _spender, uint256 _value) external returns (bool);
+// https://theethereum.wiki/w/index.php/ERC20_Token_Standard
+contract ERC20Interface {
+    function totalSupply() public view returns (uint);
+    function balanceOf(address tokenOwner) public view returns (uint balance);
+    function allowance(address tokenOwner, address spender) public view returns (uint remaining);
+    function transfer(address to, uint tokens) public returns (bool success);
+    function approve(address spender, uint tokens) public returns (bool success);
+    function transferFrom(address from, address to, uint tokens) public returns (bool success);
     // optional
     function name() external view returns (string);
     function symbol() external view returns (string);
     function decimals() external view returns (string);
+
+    event Transfer(address indexed from, address indexed to, uint tokens);
+    event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
+}
 ```
 
 {% endcode-tabs-item %}
