@@ -1,6 +1,6 @@
 # Types
 
-Below is an exhaustive list of all the external types used by the SDK.
+Below is an exhaustive list of all the external types used in the SDK.
 
 ```typescript
 import BigNumber from 'bignumber.js'

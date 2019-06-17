@@ -1,14 +1,14 @@
 # Computation
 
-- [Computation](#computation)
-  - [getMarketDetails](#getmarketdetails)
-    - [Function Signature](#function-signature)
-    - [Input Parameters](#input-parameters)
-    - [Example Usage](#example-usage)
-  - [getTradeDetails](#gettradedetails)
-    - [Function Signature](#function-signature-1)
-    - [Input Parameters](#input-parameters-1)
-    - [Example Usage](#example-usage-1)
+- [Computation](#Computation)
+  - [getMarketDetails](#getMarketDetails)
+    - [Function Signature](#Function-Signature)
+    - [Input Parameters](#Input-Parameters)
+    - [Example Usage](#Example-Usage)
+  - [getTradeDetails](#getTradeDetails)
+    - [Function Signature](#Function-Signature-1)
+    - [Input Parameters](#Input-Parameters-1)
+    - [Example Usage](#Example-Usage-1)
 
 ## getMarketDetails
 
@@ -75,6 +75,14 @@ const marketDetails: MarketDetails = getMarketDetails(undefined, reserves) // ET
 
 This function computes trade details for the passed market data.
 
+{% hint style="danger" %}
+This function throws an error if the passed _tradeAmount is greater than the amount of ETH/tokens in the relevant Uniswap exchange.
+{% endhint %}
+
+{% hint style="info" %}
+Trade amounts must be passed in non-decimal form (where e.g. 1 ETH is represented as 1000000000000000000 wei).
+{% endhint %}
+
 ### Function Signature
 
 ```typescript
@@ -87,11 +95,11 @@ export function getTradeDetails(
 
 ### Input Parameters
 
-| Parameter     | Type               | Description                                                                                                                                                       |
-| :------------ | :----------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| tradeExact    | `TRADE_EXACT`      | Whether either the input or the output currency is the exact amount.                                                                                              |
-| \_tradeAmount | `BigNumberish`     | The amount to buy/sell (of the output/input currency, depending on tradeExact). Must be in non-decimal units of the output/input currency, i.e. in long form/wei. |
-| marketDetails | `MarketDetails`    | Market details.                                                                                                                                                   |
+| Parameter     | Type            | Description                                                                    |
+| :------------ | :-------------- | :----------------------------------------------------------------------------- |
+| tradeExact    | `TRADE_EXACT`   | Whether either the input or the output currency is the exact amount.           |
+| \_tradeAmount | `BigNumberish`  | The amount to buy/sell (of the output/input currency, depending on tradeExact) |
+| marketDetails | `MarketDetails` | Market details.                                                                |
 
 ### Example Usage
 

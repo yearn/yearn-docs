@@ -1,17 +1,21 @@
 # Data
 
-- [Data](#data)
-  - [getTokenReserves](#gettokenreserves)
-    - [Function Signature](#function-signature)
-    - [Input Parameters](#input-parameters)
-    - [Example Usage](#example-usage)
+- [Data](#Data)
+  - [getTokenReserves](#getTokenReserves)
+    - [Function Signature](#Function-Signature)
+    - [Input Parameters](#Input-Parameters)
+    - [Example Usage](#Example-Usage)
 
 ## getTokenReserves
 
 This function fetches Uniswap reserve data for a given token address on a given network.
 
 {% hint style="info" %}
-If only a chain id is specified, the Ethereum node used to fulfill data requests is the one returned by [`ethers.getDefaultProvider`](https://docs.ethers.io/ethers.js/html/api-providers.html#connecting-to-ethereum), else it is the one specified by the passed provider.
+If only a chain id is specified, the Ethereum node used to fulfill data requests is determined by [`ethers.getDefaultProvider`](https://docs.ethers.io/ethers.js/html/api-providers.html#connecting-to-ethereum), else it is the one specified by the passed provider.
+{% endhint %}
+
+{% hint style="danger" %}
+This function throws an error if the provided tokenAddress is not a token with a Uniswap exchange.
 {% endhint %}
 
 ### Function Signature
