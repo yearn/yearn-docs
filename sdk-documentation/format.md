@@ -1,22 +1,21 @@
 # Computation
 
-- [Computation](#Computation)
-  - [formatSignificant](#formatSignificant)
-    - [Function Signature](#Function-Signature)
-    - [Input Parameters](#Input-Parameters)
-    - [Example Usage](#Example-Usage)
-  - [formatSignificantDecimals](#formatSignificantDecimals)
-    - [Function Signature](#Function-Signature-1)
-    - [Input Parameters](#Input-Parameters-1)
-    - [Example Usage](#Example-Usage-1)
-  - [formatFixed](#formatFixed)
-    - [Function Signature](#Function-Signature-2)
-    - [Input Parameters](#Input-Parameters-2)
-    - [Example Usage](#Example-Usage-2)
-  - [formatFixedDecimals](#formatFixedDecimals)
-    - [Function Signature](#Function-Signature-3)
-    - [Input Parameters](#Input-Parameters-3)
-    - [Example Usage](#Example-Usage-3)
+- formatSignificant
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- formatSignificantDecimals
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- formatFixed
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- formatFixedDecimals
+  - Function Signature
+  - Input Parameters
+  - Example Usage
 
 ## formatSignificant
 

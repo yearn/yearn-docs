@@ -1,10 +1,9 @@
 # Data
 
-- [Data](#Data)
-  - [getTokenReserves](#getTokenReserves)
-    - [Function Signature](#Function-Signature)
-    - [Input Parameters](#Input-Parameters)
-    - [Example Usage](#Example-Usage)
+- getTokenReserves
+  - Function Signature
+  - Input Parameters
+  - Example Usage
 
 ## getTokenReserves
 

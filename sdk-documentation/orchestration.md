@@ -2,63 +2,58 @@
 
 Orchestration functions are plain-english wrappers for the function defined in [Data](data.md) and [Computation](Computation.md).
 
+- tradeExactEthForTokensWithData
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- tradeExactEthForTokens
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- tradeEthForExactTokensWithData
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- tradeEthForExactTokens
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- tradeExactTokensForEthWithData
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- tradeExactTokensForEth
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- tradeTokensForExactEthWithData
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- tradeTokensForExactEth
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- tradeExactTokensForTokensWithData
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- tradeExactTokensForTokens
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- tradeTokensForExactTokensWithData
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- tradeTokensForExactTokens
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+
 {% hint style="info" %}
 Functions with the `WithData` suffix are synchronous, and require token reserves to be passed in as arguments. Functions without the suffix are asychronous, and require token addresses to be passed in as arguments.
 {% endhint %}
-
-{% hint style="info" %}
-Trade amounts must be passed in non-decimal form (where e.g. 1 ETH is represented as 1000000000000000000 wei).
-{% endhint %}
-
-- [Orchestration](#Orchestration)
-  - [tradeExactEthForTokensWithData](#tradeExactEthForTokensWithData)
-    - [Function Signature](#Function-Signature)
-    - [Input Parameters](#Input-Parameters)
-    - [Example Usage](#Example-Usage)
-  - [tradeExactEthForTokens](#tradeExactEthForTokens)
-    - [Function Signature](#Function-Signature-1)
-    - [Input Parameters](#Input-Parameters-1)
-    - [Example Usage](#Example-Usage-1)
-  - [tradeEthForExactTokensWithData](#tradeEthForExactTokensWithData)
-    - [Function Signature](#Function-Signature-2)
-    - [Input Parameters](#Input-Parameters-2)
-    - [Example Usage](#Example-Usage-2)
-  - [tradeEthForExactTokens](#tradeEthForExactTokens)
-    - [Function Signature](#Function-Signature-3)
-    - [Input Parameters](#Input-Parameters-3)
-    - [Example Usage](#Example-Usage-3)
-  - [tradeExactTokensForEthWithData](#tradeExactTokensForEthWithData)
-    - [Function Signature](#Function-Signature-4)
-    - [Input Parameters](#Input-Parameters-4)
-    - [Example Usage](#Example-Usage-4)
-  - [tradeExactTokensForEth](#tradeExactTokensForEth)
-    - [Function Signature](#Function-Signature-5)
-    - [Input Parameters](#Input-Parameters-5)
-    - [Example Usage](#Example-Usage-5)
-  - [tradeTokensForExactEthWithData](#tradeTokensForExactEthWithData)
-    - [Function Signature](#Function-Signature-6)
-    - [Input Parameters](#Input-Parameters-6)
-    - [Example Usage](#Example-Usage-6)
-  - [tradeTokensForExactEth](#tradeTokensForExactEth)
-    - [Function Signature](#Function-Signature-7)
-    - [Input Parameters](#Input-Parameters-7)
-    - [Example Usage](#Example-Usage-7)
-  - [tradeExactTokensForTokensWithData](#tradeExactTokensForTokensWithData)
-    - [Function Signature](#Function-Signature-8)
-    - [Input Parameters](#Input-Parameters-8)
-    - [Example Usage](#Example-Usage-8)
-  - [tradeExactTokensForTokens](#tradeExactTokensForTokens)
-    - [Function Signature](#Function-Signature-9)
-    - [Input Parameters](#Input-Parameters-9)
-    - [Example Usage](#Example-Usage-9)
-  - [tradeTokensForExactTokensWithData](#tradeTokensForExactTokensWithData)
-    - [Function Signature](#Function-Signature-10)
-    - [Input Parameters](#Input-Parameters-10)
-    - [Example Usage](#Example-Usage-10)
-  - [tradeTokensForExactTokens](#tradeTokensForExactTokens)
-    - [Function Signature](#Function-Signature-11)
-    - [Input Parameters](#Input-Parameters-11)
-    - [Example Usage](#Example-Usage-11)
 
 ## tradeExactEthForTokensWithData
 

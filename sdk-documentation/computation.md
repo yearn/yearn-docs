@@ -1,14 +1,14 @@
 # Computation
 
-- [Computation](#Computation)
-  - [getMarketDetails](#getMarketDetails)
-    - [Function Signature](#Function-Signature)
-    - [Input Parameters](#Input-Parameters)
-    - [Example Usage](#Example-Usage)
-  - [getTradeDetails](#getTradeDetails)
-    - [Function Signature](#Function-Signature-1)
-    - [Input Parameters](#Input-Parameters-1)
-    - [Example Usage](#Example-Usage-1)
+- getMarketDetails
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+- getTradeDetails
+  - Function Signature
+  - Input Parameters
+  - Example Usage
+
 
 ## getMarketDetails
 
