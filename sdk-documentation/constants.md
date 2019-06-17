@@ -2,6 +2,8 @@
 
 Below is an exhaustive list of all external constants used in the SDK.
 
+[Actual file](https://github.com/Uniswap/uniswap-sdk/blob/master/src/constants/index.ts).
+
 ```typescript
 import BigNumber from 'bignumber.js'
 

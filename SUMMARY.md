@@ -11,7 +11,7 @@
 * [Orchestration](sdk-documentation/orchestration.md)
 * [Transact](sdk-documentation/transact.md)
 * [Constants](sdk-documentation/constants.md)
-* [Types](sdk-documentation/constants.md)
+* [Types](sdk-documentation/types.md)
 
 ## Frontend Integration
 

@@ -2,6 +2,8 @@
 
 Below is an exhaustive list of all the external types used in the SDK.
 
+[Actual file](https://github.com/Uniswap/uniswap-sdk/blob/master/src/types.ts).
+
 ```typescript
 import BigNumber from 'bignumber.js'
 import { ethers } from 'ethers'
