@@ -178,11 +178,13 @@ contract ERC20Interface {
 {% code-tabs-item title="token\_interface.vy" %}
 
 ```python
-def balanceOf() -> addr
+contract ERC20Interface():
+    def totalSupply() -> uint256: constant
+    def balanceOf(_owner: address) -> uint256: constant
     def allowance(_owner : address, _spender : address) -> uint256: constant
     def transfer(_to : address, _value : uint256) -> bool: modifying
-    def transferFrom(_from : address, _to : address, _value : uint256) -> bool: modifying
     def approve(_spender : address, _value : uint256) -> bool: modifying
+    def transferFrom(_from : address, _to : address, _value : uint256) -> bool: modifying
     # optional
     def name() -> bytes32: constant
     def symbol() -> bytes32: constant
