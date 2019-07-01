@@ -1,4 +1,4 @@
-# Getting Started
+# Get Started
 
 {% hint style="info" %}
 The SDK is currently in a beta release. Please [file an issue](https://github.com/Uniswap/uniswap-sdk/issues) if you run into any bugs!

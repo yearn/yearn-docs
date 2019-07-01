@@ -27,3 +27,8 @@
 
 * [Factory API](smart-contract-api/factory.md)
 * [Exchange API](smart-contract-api/exchange.md)
+
+## API Documentation
+
+* [Get Started](api-documentation/get-started.md)
+* [Endpoints](api-documentation/endpoints.md)
