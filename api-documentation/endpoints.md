@@ -27,7 +27,7 @@ Status endpoint to check whether the API is operational.
 Returns all Uniswap pairs supported by the API.
 
 {% hint style="info" %}
-All tokens are paired are against ETH.
+All tokens are paired against ETH.
 {% endhint %}
 
 ### Request
