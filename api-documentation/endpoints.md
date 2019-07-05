@@ -3,10 +3,10 @@
 - `/status`
   - Request
   - Response
-- `/pairs`
+- `/pair/:tokenAddress`
   - Request
   - Response
-- `/pair/:tokenAddress`
+- `/pairs`
   - Request
   - Response
 
@@ -22,40 +22,12 @@ Status endpoint to check whether the API is operational.
 
 `200 Success.`
 
-## `/pairs`
-
-Returns all Uniswap pairs supported by the API.
-
-{% hint style="info" %}
-All tokens are paired against ETH.
-{% endhint %}
-
-### Request
-
-`GET https://api.uniswap.info/pairs`
-
-### Response
-
-Note that `token_name` and `token_symbol` are optional fields, and are not present for every pair.
-
-```json
-200
-
-{
-  "pairs": [
-    { "token_address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2", "token_name": "Maker", "token_symbol": "MKR" },
-    ...
-  ],
-  "pairs_count": 100
-}
-```
-
 ## `/pair/:tokenAddress`
 
-Returns 24-hour ETH and token volumes and last price for a given Uniswap pair.
+Returns data for a given Uniswap pair.
 
 {% hint style="info" %}
-Prices are quoted relative to ETH, i.e. x tokens / 1 ETH.
+All Uniswap pairs consist of an ERC20 token paired against ETH.
 {% endhint %}
 
 ### Request
@@ -65,13 +37,35 @@ Prices are quoted relative to ETH, i.e. x tokens / 1 ETH.
 ### Response
 
 ```json
-200
-
 {
+  "token_address": "0x...",                   // normalized to checksum
+  "token_name": "...",                        // not included for all pairs
+  "token_symbol": "...",                      // not included for all pairs
+  "liquidity_last": "1.111111111111111111", // in units of ETH
+  "price_last": "2.222222222222222222",       // in units of x tokens / 1 ETH
   "volume_24h": {
-    "ETH": "123.123123123123123123",
-    <tokenAddress>: "456.456456456456456456"
-  },
-  "price_last": "0.467475382554979798"
+    "ETH": "3.333333333333333333",          // in units of ETH
+    "0x...": "4.444444444444444444"         // in units of tokens
+  }
+}
+```
+
+## `/pairs`
+
+Returns data for all Uniswap pairs.
+
+### Request
+
+`GET https://api.uniswap.info/pairs`
+
+### Response
+
+```json
+{
+  "pairs": [
+    { ... }, // see `/pair/:tokenAddress` for the structure of return pair data
+    ...
+  ],
+  "pairs_count": 123
 }
 ```
