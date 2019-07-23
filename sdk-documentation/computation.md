@@ -106,7 +106,7 @@ export function getTradeDetails(
 ```typescript
 const _purchaseAmount: BigNumber = new BigNumber('2.5')
 const _decimals: number = 18
-const tradeAmount: BigNumber = _purchaseAmount.multipliedBy(_decimals)
+const tradeAmount: BigNumber = _purchaseAmount.multipliedBy(10 ** _decimals)
 const marketDetails: MarketDetails = getMarketDetails(undefined, reserves) // ETH<>ERC20
 
 // buy exactly 2.5 of an 18 decimal ERC20 with ETH
