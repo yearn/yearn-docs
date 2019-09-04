@@ -6,17 +6,21 @@ Each Page has specific available URL parameters that can be set. Global paramete
 
 A parameter used on an incorrect page will have no effect on exchange settings. Parameters not set with a URL parameter will be set to standard exchange defaults.
 
-## Global Parameters
 
-| Parameter | Type      | Description                                |
-| :-------- | :-------- | :----------------------------------------- |
-| darkMode  | `boolean` | Sets dark mode on or off. True sets to on. |
+| Parameter | Type     | Description                      |
+| :-------- | :------- | :------------------------------- |
+| theme     | `String` | Sets them to dark or light mode. |
+
+#### Theme Options
+
+Theme can be set as `light` or `dark`.
 
 #### Example Usage
 
 ```typescript
-https://uniswap.exchange/swap?darkMode=false
+https://uniswap.exchange/swap?theme=dark
 ```
+
 
 ## Swap Page
 
@@ -78,7 +82,7 @@ https://uniswap.exchange/add-liquidity?ethAmount=2.34?token=0x42456D7084eacF4083
 
 | Parameter       | Type      | Description                                                                           |
 | :-------------- | :-------- | :------------------------------------------------------------------------------------ |
-| poolToken       | `address` | Pool to withdraw liquidity from. (Must be an ERC20 address with an existing exchange) |
+| poolTokenAddress       | `address` | Pool to withdraw liquidity from. (Must be an ERC20 address with an existing exchange) |
 | poolTokenAmount | `number`  | Amount of pool token to be withdrawn from liquidity pool.                             |
 
 #### Example Usage
