@@ -28,13 +28,13 @@ https://uniswap.exchange/swap?theme=dark
 | :------------- | :-------- | :--------------------------------------------------------------------- |
 | inputCurrency  | `address` | Input currency that will be swapped for output currency.               |
 | outputCurrency | `address` | Output currency that input currency will be swapped for.               |
-| slippage       | `number`  | Max slippage percentage to be used during transaction.                 |
+| slippage       | `number`  | Max slippage to be used during transaction (in bips)               |
 | exactAmount    | `number`  | The custom token amount to buy or sell.                                |
 | exactField     | `string`  | The field to set custom token amount for. Must be `input` or `output`. |
 
 #### Constraints
 
-Addresses must be valid ERC20 addresses. Slippage and amount values must be valid numbers accepted by the exchange (or error will prevent from swapping).
+Addresses must be valid ERC20 addresses. Slippage and amount values must be valid numbers accepted by the exchange (or error will prevent from swapping). Slippage can 0, or within the range 10->9999 bips (whhich converts to 0%, 0.01%->99%)
 
 #### Setting Amounts
 
