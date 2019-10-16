@@ -10,8 +10,6 @@ To see the Iframe click the dropdown in the top right and click "get foam".
 
 ![Foam Iframe Example](../.gitbook/assets/foamiframe.png)
 
-You can customize the page, selected custom tokens and more using URL query parameters. See https://docs.uniswap.io/frontend-integration/linking for more. 
-
 #### Add To Your Site
 
 To include a Uniswap iframe within your site just add an iframe element within your website code and link to the Uniswap exchange. 
@@ -26,4 +24,7 @@ Linking to a ETH <-> DAI swap page would look something like
   id="myId"
   display="initial"
   position="relative"
-/>```
+/>
+```
+
+You can customize the selected page, selected custom tokens and more using URL query parameters. See https://docs.uniswap.io/frontend-integration/linking for more. 
