@@ -6,7 +6,7 @@ An example of an Iframe integration can be found on the FOAM site https://map.fo
 
 To see the Iframe click the dropdown in the top right and click "get foam". 
 
-![alt text](https://github.com/Uniswap/docs/blob/master/.gitbook/assets/foamiframe.png "Logo Title Text 1")
+![alt text](https://github.com/Uniswap/docs/blob/master/.gitbook/assets/foamiframe.png)
 
 You can customize the page, selected custom tokens and more using URL query parameters. See https://docs.uniswap.io/frontend-integration/linking for more. 
 
