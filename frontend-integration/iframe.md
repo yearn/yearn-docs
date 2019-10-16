@@ -1,6 +1,6 @@
 # Iframe Integration
 
-Uniswap can be used within other sites as an Iframe. This Iframe shows an exact version of the uniswap.exchange site and can have custom prefilled settings. 
+Uniswap can be used within other sites as an iframe. An iframe shows an exact version of the uniswap.exchange site and can have custom prefilled settings. 
 
 #### Live Example
 
