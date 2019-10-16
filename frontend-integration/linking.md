@@ -27,14 +27,20 @@ https://uniswap.exchange/swap?theme=dark
 | Parameter      | Type      | Description                                                            |
 | :------------- | :-------- | :--------------------------------------------------------------------- |
 | inputCurrency  | `address` | Input currency that will be swapped for output currency.               |
-| outputCurrency | `address` | Output currency that input currency will be swapped for.               |
+| outputCurrency | `address or ETH`  | Output currency that input currency will be swapped for.               |
 | slippage       | `number`  | Max slippage to be used during transaction (in bips)               |
 | exactAmount    | `number`  | The custom token amount to buy or sell.                                |
 | exactField     | `string`  | The field to set custom token amount for. Must be `input` or `output`. |
 
+#### Defaults
+
+ETH defaults as the input currency. When a different token is selected for either input or output ETH will default as the opposite selected currency. 
+
 #### Constraints
 
 Addresses must be valid ERC20 addresses. Slippage and amount values must be valid numbers accepted by the exchange (or error will prevent from swapping). Slippage can 0, or within the range 10->9999 bips (which converts to 0%, 0.01%->99%)
+
+When selecting ETH as the output currency a user must also choose an inputCurrency that is not ETH (to prevent ETH being populated in both fields)
 
 #### Setting Amounts
 
