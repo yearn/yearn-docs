@@ -27,7 +27,7 @@ To see the Iframe click the dropdown in the top right and click "get foam".
 
 To include a Uniswap iframe within your site just add an iframe element within your website code and link to the Uniswap exchange. 
 
-Linking to a ETH <-> DAI swap page would look something like
+Linking to a ETH <-> DAI swap page would look something like this. To link to a token of your choice replace the address after "outputCurrency" with the token address of the token you want to link to. 
 
 ```            
 <iframe
