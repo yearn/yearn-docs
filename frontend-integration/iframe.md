@@ -10,6 +10,11 @@ uniswap.exchange allows users to buy, sell, send, or provide liquidity for ERC20
 
 It can also be useful if your application requires users to acquire some token in order to use some service (For example, allow users to buy "REP" token so they can engage in prediction markets on the Augur Dapp). 
 
+#### iframe vs. custom UI
+
+One benefit of an iframe integration is that the your site will automatically keep up with any improvements/additions to the uniswap.exchange site. After the initital integration is setup no further work is needed to pull in updates as the exchange site is updated over time. 
+
+
 #### Live Example
 
 An example of an Iframe integration can be found on the FOAM site https://map.foam.space/#/at/?lng=-74.0045300&lat=40.6771800&zoom=5.00
