@@ -8,5 +8,18 @@ To see the Iframe click the dropdown in the top right and click "get foam".
 
 ![alt text](https://github.com/Uniswap/docs/blob/master/.gitbook/assets/foamiframe.png "Logo Title Text 1")
 
-You can customize the page, selected tokens and more using URL query parameters. See https://docs.uniswap.io/frontend-integration/linking for more. 
+You can customize the page, selected custom tokens and more using URL query parameters. See https://docs.uniswap.io/frontend-integration/linking for more. 
 
+To include a Uniswap iframe within your site just add an iframe element and link to the Uniswap exchange. 
+
+Linking to a ETH <-> DAI swap page would look something like
+
+```            
+<iframe
+  url="https://uniswap.exchange/swap?outputCurrency=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+  height="600px"
+  width="600px"
+  id="myId"
+  display="initial"
+  position="relative"
+/>```
