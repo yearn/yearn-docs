@@ -1,10 +1,10 @@
 # Transact
 
-- [Transact](#Transact)
-  - [getExecutionDetails](#getExecutionDetails)
-    - [Function Signature](#Function-Signature)
-    - [Input Parameters](#Input-Parameters)
-    - [Example Usage](#Example-Usage)
+* [Transact](transact.md#Transact)
+  * [getExecutionDetails](transact.md#getExecutionDetails)
+    * [Function Signature](transact.md#Function-Signature)
+    * [Input Parameters](transact.md#Input-Parameters)
+    * [Example Usage](transact.md#Example-Usage)
 
 ## getExecutionDetails
 
@@ -23,12 +23,12 @@ export function getExecutionDetails(
 
 ### Input Parameters
 
-| Parameter    | Type           | Description                                                             |
-| :----------- | :------------- | :---------------------------------------------------------------------- |
-| trade        | `TradeDetails` | The trade to execute.                                                   |
-| maxSlippage? | `number`       | The maximum slippage to allow, in basis points. Defaults to 200 (2%).   |
-| deadline?    | `number`       | When the transaction will expire. Defaults to 10 minutes in the future. |
-| recipient?   | `number`       | An optional recipient address. Defaults to the `msg.sender`             |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| trade | `TradeDetails` | The trade to execute. |
+| maxSlippage? | `number` | The maximum slippage to allow, in basis points. Defaults to 200 \(2%\). |
+| deadline? | `number` | When the transaction will expire. Defaults to 10 minutes in the future. |
+| recipient? | `number` | An optional recipient address. Defaults to the `msg.sender` |
 
 ### Example Usage
 
@@ -60,3 +60,4 @@ const executionDetails: ExecutionDetails = await getExecutionDetails(tradeDetail
 }
 */
 ```
+

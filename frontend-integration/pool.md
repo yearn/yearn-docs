@@ -19,7 +19,7 @@ Once an exchange is created the address can be retrieved with [`getExchange`](co
 
 ## Exchange Reserves
 
-Each exchange contract holds a liquidity reserve of ETH and its associated ERC20 token.  
+Each exchange contract holds a liquidity reserve of ETH and its associated ERC20 token.
 
 ### ETH Reserve
 
@@ -59,7 +59,7 @@ Since liquidity providers must deposit at the current exchange rate, the Uniswap
 
 Liquidity tokens are minted to track the relative proportion of total reserves that each liquidity provider has contributed. `min_liquidity` is used in combination with `max_tokens` and `ethAmount` to bound the rate at which liquidity tokens are minted. For the first liquidity provider, `min_liquidity` does not do anything and can be set to 0.
 
-Transaction `deadline` is used to set a time after which a transaction can no longer be executed. This limits the "free option" problem, where Ethereum miners can hold signed transactions and execute them based off market movements.  
+Transaction `deadline` is used to set a time after which a transaction can no longer be executed. This limits the "free option" problem, where Ethereum miners can hold signed transactions and execute them based off market movements.
 
 ## Remove Liquidity
 
@@ -78,3 +78,4 @@ Liquidity is withdrawn at the same ratio as the reserves at the time of withdraw
 Since exchange rate can change between when a transaction is signed and when it is executed on Ethereum, `min_eth` and `min_tokens` are used to bound the amount this rate can fluctuate.
 
 Same as in `addLiquidity`, `deadline` is used to set a time after which a transaction can no longer be executed.
+

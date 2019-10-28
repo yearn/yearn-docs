@@ -1,14 +1,14 @@
 # Endpoints
 
-- `/status`
-  - Request
-  - Response
-- `/pair/:tokenAddress`
-  - Request
-  - Response
-- `/pairs`
-  - Request
-  - Response
+* `/status`
+  * Request
+  * Response
+* `/pair/:tokenAddress`
+  * Request
+  * Response
+* `/pairs`
+  * Request
+  * Response
 
 ## `/status`
 
@@ -36,7 +36,7 @@ All Uniswap pairs consist of an ERC20 token paired against ETH.
 
 ### Response
 
-```json
+```javascript
 {
   "token_address": "0x...",                 // normalized to checksum
   "token_name": "...",                      // not included for all pairs
@@ -60,7 +60,7 @@ Returns data for all Uniswap pairs.
 
 ### Response
 
-```json
+```javascript
 {
   "pairs": [
     { ... }, // see `/pair/:tokenAddress` for the structure of return pair data
@@ -69,3 +69,4 @@ Returns data for all Uniswap pairs.
   "pairs_count": 123
 }
 ```
+
