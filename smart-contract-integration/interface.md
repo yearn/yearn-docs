@@ -4,7 +4,6 @@
 
 {% code-tabs %}
 {% code-tabs-item title="UniswapFactoryInterface.sol" %}
-
 ```javascript
 // Solidity Interface
 
@@ -22,10 +21,9 @@ contract UniswapFactoryInterface {
     function initializeFactory(address template) external;
 }
 ```
-
 {% endcode-tabs-item %}
-{% code-tabs-item title="uniswap\_factory\_interface.vy" %}
 
+{% code-tabs-item title="uniswap\_factory\_interface.vy" %}
 ```python
 # Vyper Interface
 
@@ -42,7 +40,6 @@ contract UniswapFactoryInterface():
     # Initialize Factory
     def initializeFactory(template: address): modifying
 ```
-
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
@@ -50,7 +47,6 @@ contract UniswapFactoryInterface():
 
 {% code-tabs %}
 {% code-tabs-item title="UniswapExchangeInterface.sol" %}
-
 ```javascript
 // Solidity Interface
 
@@ -101,10 +97,9 @@ contract UniswapExchangeInterface {
     function setup(address token_addr) external;
 }
 ```
-
 {% endcode-tabs-item %}
-{% code-tabs-item title="uniswap\_exchange\_interface.vy" %}
 
+{% code-tabs-item title="uniswap\_exchange\_interface.vy" %}
 ```python
 # Vyper Interface
 
@@ -146,7 +141,6 @@ contract UniswapExchangeInterface():
     # Setup
     def setup(token_addr: address): modifying
 ```
-
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
@@ -154,7 +148,6 @@ contract UniswapExchangeInterface():
 
 {% code-tabs %}
 {% code-tabs-item title="TokenInterface.sol" %}
-
 ```javascript
 // https://theethereum.wiki/w/index.php/ERC20_Token_Standard
 contract ERC20Interface {
@@ -173,21 +166,22 @@ contract ERC20Interface {
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 }
 ```
-
 {% endcode-tabs-item %}
-{% code-tabs-item title="token\_interface.vy" %}
 
+{% code-tabs-item title="token\_interface.vy" %}
 ```python
-def balanceOf() -> addr
+contract ERC20Interface():
+    def totalSupply() -> uint256: constant
+    def balanceOf(_owner: address) -> uint256: constant
     def allowance(_owner : address, _spender : address) -> uint256: constant
     def transfer(_to : address, _value : uint256) -> bool: modifying
-    def transferFrom(_from : address, _to : address, _value : uint256) -> bool: modifying
     def approve(_spender : address, _value : uint256) -> bool: modifying
+    def transferFrom(_from : address, _to : address, _value : uint256) -> bool: modifying
     # optional
     def name() -> bytes32: constant
     def symbol() -> bytes32: constant
     def decimals() -> uint256: constant
 ```
-
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+

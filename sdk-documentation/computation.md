@@ -1,21 +1,20 @@
 # Computation
 
-- getMarketDetails
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- getTradeDetails
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-
+* getMarketDetails
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* getTradeDetails
+  * Function Signature
+  * Input Parameters
+  * Example Usage
 
 ## getMarketDetails
 
-This function computes market details for the passed reserves data. Markets are defined as ETH<>ERC20, ERC20<>ETH, or ERC20<>ERC20 pairs, where the first currency is the input and the second is the output. Reserves must be specified for both the input and output currency.
+This function computes market details for the passed reserves data. Markets are defined as ETH&lt;&gt;ERC20, ERC20&lt;&gt;ETH, or ERC20&lt;&gt;ERC20 pairs, where the first currency is the input and the second is the output. Reserves must be specified for both the input and output currency.
 
 {% hint style="info" %}
-In the case of ETH, `undefined` should be passed as the reserves data. [`getTokenReserves`](data.md/#getTokenReserves) returns properly formatted ERC20 reserves, or the requisite data can be fetched manually and passed in.
+In the case of ETH, `undefined` should be passed as the reserves data. [`getTokenReserves`](data.md#getTokenReserves) returns properly formatted ERC20 reserves, or the requisite data can be fetched manually and passed in.
 {% endhint %}
 
 {% hint style="info" %}
@@ -33,9 +32,9 @@ export function getMarketDetails(
 
 ### Input Parameters
 
-| Parameter              | Type               | Description                            |
-| :--------------------- | :----------------- | :------------------------------------- |
-| optionalReservesInput  | `OptionalReserves` | Reserves data for the input currency.  |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| optionalReservesInput | `OptionalReserves` | Reserves data for the input currency. |
 | optionalReservesOutput | `OptionalReserves` | Reserves data for the output currency. |
 
 ### Example Usage
@@ -76,11 +75,11 @@ const marketDetails: MarketDetails = getMarketDetails(undefined, reserves) // ET
 This function computes trade details for the passed market data.
 
 {% hint style="danger" %}
-This function throws an error if the passed _tradeAmount is greater than the amount of ETH/tokens in the relevant Uniswap exchange.
+This function throws an error if the passed \_tradeAmount is greater than the amount of ETH/tokens in the relevant Uniswap exchange.
 {% endhint %}
 
 {% hint style="info" %}
-Trade amounts must be passed in non-decimal form (where e.g. 1 ETH is represented as 1000000000000000000 wei).
+Trade amounts must be passed in non-decimal form \(where e.g. 1 ETH is represented as 1000000000000000000 wei\).
 {% endhint %}
 
 ### Function Signature
@@ -95,18 +94,18 @@ export function getTradeDetails(
 
 ### Input Parameters
 
-| Parameter     | Type            | Description                                                                    |
-| :------------ | :-------------- | :----------------------------------------------------------------------------- |
-| tradeExact    | `TRADE_EXACT`   | Whether either the input or the output currency is the exact amount.           |
-| \_tradeAmount | `BigNumberish`  | The amount to buy/sell (of the output/input currency, depending on tradeExact) |
-| marketDetails | `MarketDetails` | Market details.                                                                |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| tradeExact | `TRADE_EXACT` | Whether either the input or the output currency is the exact amount. |
+| \_tradeAmount | `BigNumberish` | The amount to buy/sell \(of the output/input currency, depending on tradeExact\) |
+| marketDetails | `MarketDetails` | Market details. |
 
 ### Example Usage
 
 ```typescript
 const _purchaseAmount: BigNumber = new BigNumber('2.5')
 const _decimals: number = 18
-const tradeAmount: BigNumber = _purchaseAmount.multipliedBy(_decimals)
+const tradeAmount: BigNumber = _purchaseAmount.multipliedBy(10 ** _decimals)
 const marketDetails: MarketDetails = getMarketDetails(undefined, reserves) // ETH<>ERC20
 
 // buy exactly 2.5 of an 18 decimal ERC20 with ETH
@@ -146,3 +145,4 @@ const tradeDetails: TradeDetails = getTradeDetails(TRADE_EXACT.OUTPUT, tradeAmou
 }
 */
 ```
+

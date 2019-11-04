@@ -1,21 +1,21 @@
-# Computation
+# Format
 
-- formatSignificant
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- formatSignificantDecimals
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- formatFixed
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- formatFixedDecimals
-  - Function Signature
-  - Input Parameters
-  - Example Usage
+* formatSignificant
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* formatSignificantDecimals
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* formatFixed
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* formatFixedDecimals
+  * Function Signature
+  * Input Parameters
+  * Example Usage
 
 ## formatSignificant
 
@@ -29,10 +29,10 @@ export function formatSignificant(bigNumberish: BigNumberish, options?: FormatSi
 
 ### Input Parameters
 
-| Parameter    | Type                       | Description                |
-| :----------- | :------------------------- | :------------------------- |
-| bigNumberish | `BigNumberish`             | The value to be formatted. |
-| options?     | `FormatSignificantOptions` | Formatting options.        |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| bigNumberish | `BigNumberish` | The value to be formatted. |
+| options? | `FormatSignificantOptions` | Formatting options. |
 
 ### Example Usage
 
@@ -56,11 +56,11 @@ export function formatSignificantDecimals(
 
 ### Input Parameters
 
-| Parameter    | Type                       | Description                       |
-| :----------- | :------------------------- | :-------------------------------- |
-| bigNumberish | `BigNumberish`             | The value to be formatted.        |
-| decimals     | `number`                   | The decimals of the passed value. |
-| options?     | `FormatSignificantOptions` | Formatting options.               |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| bigNumberish | `BigNumberish` | The value to be formatted. |
+| decimals | `number` | The decimals of the passed value. |
+| options? | `FormatSignificantOptions` | Formatting options. |
 
 ### Example Usage
 
@@ -80,10 +80,10 @@ export function formatFixed(bigNumberish: BigNumberish, options?: FormatFixedOpt
 
 ### Input Parameters
 
-| Parameter    | Type                 | Description                |
-| :----------- | :------------------- | :------------------------- |
-| bigNumberish | `BigNumberish`       | The value to be formatted. |
-| options?     | `FormatFixedOptions` | Formatting options.        |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| bigNumberish | `BigNumberish` | The value to be formatted. |
+| options? | `FormatFixedOptions` | Formatting options. |
 
 ### Example Usage
 
@@ -107,14 +107,15 @@ export function formatFixedDecimals(
 
 ### Input Parameters
 
-| Parameter    | Type                 | Description                       |
-| :----------- | :------------------- | :-------------------------------- |
-| bigNumberish | `BigNumberish`       | The value to be formatted.        |
-| decimals     | `number`             | The decimals of the passed value. |
-| options?     | `FormatFixedOptions` | Formatting options.               |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| bigNumberish | `BigNumberish` | The value to be formatted. |
+| decimals | `number` | The decimals of the passed value. |
+| options? | `FormatFixedOptions` | Formatting options. |
 
 ### Example Usage
 
 ```typescript
 const formatted: string = formatFixedDecimals('1234560000000000000', 18, { decimalPlaces: 2 }) // 1.23
 ```
+

@@ -1,55 +1,55 @@
 # Orchestration
 
-Orchestration functions are plain-english wrappers for the function defined in [Data](data.md) and [Computation](Computation.md).
+Orchestration functions are plain-english wrappers for the function defined in [Data](data.md) and [Computation](https://github.com/Uniswap/docs/tree/d81e772a2b536e59f7887e7ac82a4bc568e69267/sdk-documentation/Computation.md).
 
-- tradeExactEthForTokensWithData
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- tradeExactEthForTokens
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- tradeEthForExactTokensWithData
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- tradeEthForExactTokens
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- tradeExactTokensForEthWithData
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- tradeExactTokensForEth
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- tradeTokensForExactEthWithData
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- tradeTokensForExactEth
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- tradeExactTokensForTokensWithData
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- tradeExactTokensForTokens
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- tradeTokensForExactTokensWithData
-  - Function Signature
-  - Input Parameters
-  - Example Usage
-- tradeTokensForExactTokens
-  - Function Signature
-  - Input Parameters
-  - Example Usage
+* tradeExactEthForTokensWithData
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* tradeExactEthForTokens
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* tradeEthForExactTokensWithData
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* tradeEthForExactTokens
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* tradeExactTokensForEthWithData
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* tradeExactTokensForEth
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* tradeTokensForExactEthWithData
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* tradeTokensForExactEth
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* tradeExactTokensForTokensWithData
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* tradeExactTokensForTokens
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* tradeTokensForExactTokensWithData
+  * Function Signature
+  * Input Parameters
+  * Example Usage
+* tradeTokensForExactTokens
+  * Function Signature
+  * Input Parameters
+  * Example Usage
 
 {% hint style="info" %}
 Functions with the `WithData` suffix are synchronous, and require token reserves to be passed in as arguments. Functions without the suffix are asychronous, and require token addresses to be passed in as arguments.
@@ -67,10 +67,10 @@ export function tradeExactEthForTokensWithData(reserves: OptionalReserves, ethAm
 
 ### Input Parameters
 
-| Parameter | Type               | Description                         |
-| :-------- | :----------------- | :---------------------------------- |
-| reserves  | `OptionalReserves` | Reserves data for the output token. |
-| ethAmount | `BigNumberish`     | The input amount of ETH.            |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| reserves | `OptionalReserves` | Reserves data for the output token. |
+| ethAmount | `BigNumberish` | The input amount of ETH. |
 
 ### Example Usage
 
@@ -94,11 +94,11 @@ export async function tradeExactEthForTokens(
 
 ### Input Parameters
 
-| Parameter          | Type                | Description                                                                                                                                                                                                                          |
-| :----------------- | :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| tokenAddress       | `string`            | Address of output token.                                                                                                                                                                                                             |
-| ethAmount          | `BigNumberish`      | The input amount of ETH.                                                                                                                                                                                                             |
-| chainIdOrProvider? | `ChainIdOrProvider` | A supported chain id (`1`, `3`, `4`, or `42`), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| tokenAddress | `string` | Address of output token. |
+| ethAmount | `BigNumberish` | The input amount of ETH. |
+| chainIdOrProvider? | `ChainIdOrProvider` | A supported chain id \(`1`, `3`, `4`, or `42`\), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
 
 ### Example Usage
 
@@ -118,10 +118,10 @@ export function tradeEthForExactTokensWithData(reserves: OptionalReserves, token
 
 ### Input Parameters
 
-| Parameter   | Type               | Description                         |
-| :---------- | :----------------- | :---------------------------------- |
-| reserves    | `OptionalReserves` | Reserves data for the output token. |
-| tokenAmount | `BigNumberish`     | The output amount of tokens.        |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| reserves | `OptionalReserves` | Reserves data for the output token. |
+| tokenAmount | `BigNumberish` | The output amount of tokens. |
 
 ### Example Usage
 
@@ -145,11 +145,11 @@ export async function tradeEthForExactTokens(
 
 ### Input Parameters
 
-| Parameter          | Type                | Description                                                                                                                                                                                                                          |
-| :----------------- | :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| tokenAddress       | `string`            | Address of output token.                                                                                                                                                                                                             |
-| tokenAmount        | `BigNumberish`      | The output amount of tokens.                                                                                                                                                                                                         |
-| chainIdOrProvider? | `ChainIdOrProvider` | A supported chain id (`1`, `3`, `4`, or `42`), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| tokenAddress | `string` | Address of output token. |
+| tokenAmount | `BigNumberish` | The output amount of tokens. |
+| chainIdOrProvider? | `ChainIdOrProvider` | A supported chain id \(`1`, `3`, `4`, or `42`\), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
 
 ### Example Usage
 
@@ -169,10 +169,10 @@ export function tradeExactTokensForEthWithData(reserves: OptionalReserves, token
 
 ### Input Parameters
 
-| Parameter   | Type               | Description                        |
-| :---------- | :----------------- | :--------------------------------- |
-| reserves    | `OptionalReserves` | Reserves data for the input token. |
-| tokenAmount | `BigNumberish`     | The input amount of tokens.        |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| reserves | `OptionalReserves` | Reserves data for the input token. |
+| tokenAmount | `BigNumberish` | The input amount of tokens. |
 
 ### Example Usage
 
@@ -196,11 +196,11 @@ export async function tradeExactTokensForEth(
 
 ### Input Parameters
 
-| Parameter          | Type                | Description                                                                                                                                                                                                                          |
-| :----------------- | :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| tokenAddress       | `string`            | Address of input token.                                                                                                                                                                                                              |
-| tokenAmount        | `BigNumberish`      | The input amount of tokens.                                                                                                                                                                                                          |
-| chainIdOrProvider? | `ChainIdOrProvider` | A supported chain id (`1`, `3`, `4`, or `42`), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| tokenAddress | `string` | Address of input token. |
+| tokenAmount | `BigNumberish` | The input amount of tokens. |
+| chainIdOrProvider? | `ChainIdOrProvider` | A supported chain id \(`1`, `3`, `4`, or `42`\), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
 
 ### Example Usage
 
@@ -220,10 +220,10 @@ export function tradeTokensForExactEthWithData(reserves: OptionalReserves, ethAm
 
 ### Input Parameters
 
-| Parameter | Type               | Description                        |
-| :-------- | :----------------- | :--------------------------------- |
-| reserves  | `OptionalReserves` | Reserves data for the input token. |
-| ethAmount | `BigNumberish`     | The outpute amount of ETH.         |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| reserves | `OptionalReserves` | Reserves data for the input token. |
+| ethAmount | `BigNumberish` | The outpute amount of ETH. |
 
 ### Example Usage
 
@@ -247,11 +247,11 @@ export async function tradeTokensForExactEth(
 
 ### Input Parameters
 
-| Parameter          | Type                | Description                                                                                                                                                                                                                          |
-| :----------------- | :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| tokenAddress       | `string`            | Address of input token.                                                                                                                                                                                                              |
-| ethAmount          | `BigNumberish`      | The output amount of ETH.                                                                                                                                                                                                            |
-| chainIdOrProvider? | `ChainIdOrProvider` | A supported chain id (`1`, `3`, `4`, or `42`), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| tokenAddress | `string` | Address of input token. |
+| ethAmount | `BigNumberish` | The output amount of ETH. |
+| chainIdOrProvider? | `ChainIdOrProvider` | A supported chain id \(`1`, `3`, `4`, or `42`\), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
 
 ### Example Usage
 
@@ -275,11 +275,11 @@ export function tradeExactTokensForTokensWithData(
 
 ### Input Parameters
 
-| Parameter      | Type               | Description                         |
-| :------------- | :----------------- | :---------------------------------- |
-| reservesInput  | `OptionalReserves` | Reserves data for the input token.  |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| reservesInput | `OptionalReserves` | Reserves data for the input token. |
 | reservesOutput | `OptionalReserves` | Reserves data for the output token. |
-| tokenAmount    | `BigNumberish`     | The input amount of tokens.         |
+| tokenAmount | `BigNumberish` | The input amount of tokens. |
 
 ### Example Usage
 
@@ -306,12 +306,12 @@ export async function tradeExactTokensForTokens(
 
 ### Input Parameters
 
-| Parameter          | Type                | Description                                                                                                                                                                                                                          |
-| :----------------- | :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| tokenAddressInput  | `string`            | Address of input token.                                                                                                                                                                                                              |
-| tokenAddressOutput | `string`            | Address of output token.                                                                                                                                                                                                             |
-| tokenAmount        | `BigNumberish`      | The input amount of tokens.                                                                                                                                                                                                          |
-| chainIdOrProvider? | `ChainIdOrProvider` | A supported chain id (`1`, `3`, `4`, or `42`), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| tokenAddressInput | `string` | Address of input token. |
+| tokenAddressOutput | `string` | Address of output token. |
+| tokenAmount | `BigNumberish` | The input amount of tokens. |
+| chainIdOrProvider? | `ChainIdOrProvider` | A supported chain id \(`1`, `3`, `4`, or `42`\), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
 
 ### Example Usage
 
@@ -337,11 +337,11 @@ export function tradeTokensForExactTokensWithData(
 
 ### Input Parameters
 
-| Parameter      | Type               | Description                         |
-| :------------- | :----------------- | :---------------------------------- |
-| reservesInput  | `OptionalReserves` | Reserves data for the input token.  |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| reservesInput | `OptionalReserves` | Reserves data for the input token. |
 | reservesOutput | `OptionalReserves` | Reserves data for the output token. |
-| tokenAmount    | `BigNumberish`     | The output amount of tokens.        |
+| tokenAmount | `BigNumberish` | The output amount of tokens. |
 
 ### Example Usage
 
@@ -368,12 +368,12 @@ export async function tradeTokensForExactTokens(
 
 ### Input Parameters
 
-| Parameter          | Type                | Description                                                                                                                                                                                                                          |
-| :----------------- | :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| tokenAddressInput  | `string`            | Address of input token.                                                                                                                                                                                                              |
-| tokenAddressOutput | `string`            | Address of output token.                                                                                                                                                                                                             |
-| tokenAmount        | `BigNumberish`      | The output amount of tokens.                                                                                                                                                                                                         |
-| chainIdOrProvider? | `ChainIdOrProvider` | A supported chain id (`1`, `3`, `4`, or `42`), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| tokenAddressInput | `string` | Address of input token. |
+| tokenAddressOutput | `string` | Address of output token. |
+| tokenAmount | `BigNumberish` | The output amount of tokens. |
+| chainIdOrProvider? | `ChainIdOrProvider` | A supported chain id \(`1`, `3`, `4`, or `42`\), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
 
 ### Example Usage
 
@@ -382,3 +382,4 @@ const tradeDetails: TradeDetails = await tradeTokensForExactTokens(
     tokenAddressInput, tokenAddressOutput, '1000000000000000000'
 )
 ```
+

@@ -155,7 +155,7 @@ const rate = outputAmountB / inputAmountA
 
 ## Deadlines
 
-Many Uniswap functions include a transaction `deadline` that sets a time after which a transaction can no longer be executed. This limits miners  holding signed transactions for extended durations and executing them based off market movements. It also reduces uncertainty around transactions that take a long time to execute due to issues with gas price.
+Many Uniswap functions include a transaction `deadline` that sets a time after which a transaction can no longer be executed. This limits miners holding signed transactions for extended durations and executing them based off market movements. It also reduces uncertainty around transactions that take a long time to execute due to issues with gas price.
 
 Deadlines are calculated by adding the desired amount of time \(in seconds\) to the latest Ethereum block timestamp.
 
@@ -180,3 +180,4 @@ Coming soon...
 ## Custom Pools
 
 Coming soon...
+

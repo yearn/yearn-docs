@@ -18,6 +18,8 @@
 * [Connect to Uniswap](frontend-integration/connect-to-uniswap.md)
 * [Pool Liquidity](frontend-integration/pool.md)
 * [Trade tokens](frontend-integration/swap.md)
+* [Custom Linking](frontend-integration/linking.md)
+* [Iframe Integration](frontend-integration/iframe.md)
 
 ## Smart Contract Integration
 
@@ -32,3 +34,4 @@
 
 * [Get Started](api-documentation/get-started.md)
 * [Endpoints](api-documentation/endpoints.md)
+

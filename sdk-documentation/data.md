@@ -1,9 +1,9 @@
 # Data
 
-- getTokenReserves
-  - Function Signature
-  - Input Parameters
-  - Example Usage
+* getTokenReserves
+  * Function Signature
+  * Input Parameters
+  * Example Usage
 
 ## getTokenReserves
 
@@ -28,10 +28,10 @@ export async function getTokenReserves(
 
 ### Input Parameters
 
-| Parameter         | Type                | Description                                                                                                                                                                                                                          |
-| :---------------- | :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| tokenAddress      | `string`            | The checksummed address of a token with a Uniswap exchange.                                                                                                                                                                          |
-| chainIdOrProvider | `ChainIdOrProvider` | A supported chain id (`1`, `3`, `4`, or `42`), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| tokenAddress | `string` | The checksummed address of a token with a Uniswap exchange. |
+| chainIdOrProvider | `ChainIdOrProvider` | A supported chain id \(`1`, `3`, `4`, or `42`\), or an [underlying web3 provider](https://docs.ethers.io/ethers.js/html/api-providers.html#web3provider-inherits-from-jsonrpcprovider) connected to a chain with a supported chain id. |
 
 ### Example Usage
 
@@ -56,7 +56,7 @@ const tokenReserves: TokenReservesNormalized = await getTokenReserves(tokenAddre
     address: '0x09cabEC1eAd1c0Ba254B09efb3EE13841712bE14',
     decimals: 18
   },
-  
+
   // details for the ETH portion of the reserves of the passed token
   ethReserve: {
     token: {
@@ -79,3 +79,4 @@ const tokenReserves: TokenReservesNormalized = await getTokenReserves(tokenAddre
 }
 */
 ```
+
