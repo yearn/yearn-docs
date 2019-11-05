@@ -20,6 +20,7 @@
 * [Trade tokens](frontend-integration/swap.md)
 * [Custom Linking](frontend-integration/linking.md)
 * [Iframe Integration](frontend-integration/iframe.md)
+* [Token Listing](frontend-integration/tokenListing.md)
 
 ## Smart Contract Integration
 
