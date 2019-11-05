@@ -14,7 +14,7 @@ the token you are looking for.
 
 ### 2. Custom Linking 
 
-https://uniswap.exchange supports custom linking to all tokens that have a Uniswap exchange. See [this page](frontend-integration/linking.md) for details on how to link.
+https://uniswap.exchange supports custom linking to all tokens that have a Uniswap exchange. See [this page](/frontend-integration/linking.md) for details on how to link.
 
 For example, to populate the output token field with an unlisted coin, we can specify the outputCurrency in the URL and pass in the 
 token's address like this: 
