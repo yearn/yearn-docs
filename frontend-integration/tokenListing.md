@@ -10,7 +10,7 @@ There are three ways to interact with tokens that are not yet included on the de
 If a token is not included in the list of tokens, try pasting the token address into the search box. It should populate the dropdown with 
 the token you are looking for. 
 
-{image of search}
+![Foam Iframe Example](../.gitbook/assets/tokenSearch.png)
 
 ### 2. Custom Linking 
 
