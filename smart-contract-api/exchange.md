@@ -2,21 +2,21 @@
 
 ## setup
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 // Can only be called by factory contract during createExchange()
 setup(token_addr: address):
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 // Can only be called by factory contract during createExchange()
 exchangeContract.methods.setup(token: String).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Description |
 | :--- | ---: |
@@ -24,8 +24,8 @@ exchangeContract.methods.setup(token: String).send()
 
 ## addLiquidity
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @payable
 addLiquidity(
@@ -34,14 +34,14 @@ addLiquidity(
     deadline: uint256
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.addLiquidity(min_liquidity, max_tokens, deadline).send({ value: ethValue })
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -56,8 +56,8 @@ exchangeContract.methods.addLiquidity(min_liquidity, max_tokens, deadline).send(
 
 ## removeLiquidity
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 removeLiquidity(
     amount: uint256;
@@ -66,14 +66,14 @@ removeLiquidity(
     deadline: uint256
 ): (uint256, uint256)
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.removeLiquidity(amount, min_eth, max_tokens, deadline).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -89,21 +89,21 @@ exchangeContract.methods.removeLiquidity(amount, min_eth, max_tokens, deadline).
 
 ## default
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 // Default function in Vyper replaces the "fallback" function in Solidity
 @payable
 __default__():
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 web3.eth.sendTransaction({value: ethAmount})
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -111,8 +111,8 @@ web3.eth.sendTransaction({value: ethAmount})
 
 ## ethToTokenSwapInput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @payable
 ethToTokenSwapInput(
@@ -120,14 +120,14 @@ ethToTokenSwapInput(
     deadline: uint256
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.ethToTokenSwapInput(min_liquidity, max_tokens, deadline).send({ value: ethValue })
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -141,8 +141,8 @@ exchangeContract.methods.ethToTokenSwapInput(min_liquidity, max_tokens, deadline
 
 ## ethToTokenTransferInput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @payable
 ethToTokenTransferInput(
@@ -151,14 +151,14 @@ ethToTokenTransferInput(
     recipient: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.ethToTokenTransferInput(min_liquidity, max_tokens, deadline, recipient).send({value: ethValue})
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -173,8 +173,8 @@ exchangeContract.methods.ethToTokenTransferInput(min_liquidity, max_tokens, dead
 
 ## ethToTokenSwapOutput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @payable
 ethToTokenSwapOutput(
@@ -182,14 +182,14 @@ ethToTokenSwapOutput(
     deadline: uint256
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.ethToTokenSwapOutput(tokens_bought, deadline).send({value: ethValue})
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -203,8 +203,8 @@ exchangeContract.methods.ethToTokenSwapOutput(tokens_bought, deadline).send({val
 
 ## ethToTokenTransferOutput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @payable
 ethToTokenTransferOutput(
@@ -213,14 +213,14 @@ ethToTokenTransferOutput(
     recipient: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.ethToTokenTransferOutput(tokens_bought, deadline, recipient: String).send({value: ethValue})
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -235,8 +235,8 @@ exchangeContract.methods.ethToTokenTransferOutput(tokens_bought, deadline, recip
 
 ## tokenToEthSwapInput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 tokenToEthSwapInput(
     tokens_sold: uint256,
@@ -244,14 +244,14 @@ tokenToEthSwapInput(
     deadline: uint256
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenToEthSwapInput(tokens_sold, min_eth, deadline).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -265,8 +265,8 @@ exchangeContract.methods.tokenToEthSwapInput(tokens_sold, min_eth, deadline).sen
 
 ## tokenToEthTransferInput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 tokenToEthTransferInput(
     tokens_sold: uint256,
@@ -275,14 +275,14 @@ tokenToEthTransferInput(
     recipient: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenToEthTransferInput(tokens_sold, min_eth, deadline, recipient).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -297,8 +297,8 @@ exchangeContract.methods.tokenToEthTransferInput(tokens_sold, min_eth, deadline,
 
 ## tokenToEthSwapOutput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 tokenToEthSwapOutput(
     eth_bought: uint256,
@@ -306,14 +306,14 @@ tokenToEthSwapOutput(
     deadline: uint256
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenToEthSwapOutput(eth_bought, max_tokens, deadline: Integer).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -327,8 +327,8 @@ exchangeContract.methods.tokenToEthSwapOutput(eth_bought, max_tokens, deadline: 
 
 ## tokenToEthTransferOutput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 tokenToEthTransferOutput(
     eth_bought: uint256,
@@ -337,14 +337,14 @@ tokenToEthTransferOutput(
     recipient: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenToEthTransferOutput(eth_bought, max_tokens, deadline: Integer, recipient: String).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -359,8 +359,8 @@ exchangeContract.methods.tokenToEthTransferOutput(eth_bought, max_tokens, deadli
 
 ## tokenToTokenSwapInput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 tokenToTokenSwapInput(
     tokens_sold: uint256,
@@ -370,16 +370,16 @@ tokenToTokenSwapInput(
     token_addr: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenToTokenSwapInput(
     tokens_sold, min_tokens_bought, min_eth_bought, deadline, token_addr
 ).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -395,8 +395,8 @@ exchangeContract.methods.tokenToTokenSwapInput(
 
 ## tokenToTokenTransferInput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 tokenToTokenTransferInput(
     tokens_sold: uint256,
@@ -407,16 +407,16 @@ tokenToTokenTransferInput(
     token_addr: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenToTokenTransferInput(
     tokens_sold, min_tokens_bought, min_eth_bought, deadline, recipient, token_addr
 ).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -433,8 +433,8 @@ exchangeContract.methods.tokenToTokenTransferInput(
 
 ## tokenToTokenSwapOutput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 tokenToTokenSwapOutput(
     tokens_bought: uint256,
@@ -444,16 +444,16 @@ tokenToTokenSwapOutput(
     token_addr: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenToTokenSwapOutput(
     tokens_bought, max_tokens_sold, max_eth_sold, deadline, token_addr
 ).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -469,8 +469,8 @@ exchangeContract.methods.tokenToTokenSwapOutput(
 
 ## tokenToTokenTransferOutput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 tokenToTokenTransferOutput(
     tokens_bought: uint256,
@@ -481,16 +481,16 @@ tokenToTokenTransferOutput(
     token_addr: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenToTokenTransferOutput(
     tokens_bought, max_tokens_sold, max_eth_sold, deadline, recipient, token_addr
 ).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -507,8 +507,8 @@ exchangeContract.methods.tokenToTokenTransferOutput(
 
 ## tokenToExchangeSwapInput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 tokenToTokenSwapInput(
     tokens_sold: uint256,
@@ -518,16 +518,16 @@ tokenToTokenSwapInput(
     exchange_addr: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenToTokenSwapInput(
     tokens_sold, min_tokens_bought, min_eth_bought, deadline, exchange_addr
 ).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -543,8 +543,8 @@ exchangeContract.methods.tokenToTokenSwapInput(
 
 ## tokenToExchangeTransferInput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 tokenToExchangeTransferInput(
     tokens_sold: uint256,
@@ -555,16 +555,16 @@ tokenToExchangeTransferInput(
     exchange_addr: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenToExchangeTransferInput(
     tokens_sold, min_tokens_bought, min_eth_bought, deadline, recipient, exchange_addr
 ).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -581,8 +581,8 @@ exchangeContract.methods.tokenToExchangeTransferInput(
 
 ## tokenToExchangeSwapOutput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 tokenToExchangeSwapOutput(
     tokens_bought: uint256,
@@ -592,16 +592,16 @@ tokenToExchangeSwapOutput(
     exchange_addr: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenToExchangeSwapOutput(
     tokens_bought, max_tokens_sold, max_eth_sold, deadline, exchange_addr
 ).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -617,8 +617,8 @@ exchangeContract.methods.tokenToExchangeSwapOutput(
 
 ## tokenToExchangeTransferOutput
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 tokenToExchangeTransferOutput(
     tokens_bought: uint256,
@@ -629,16 +629,16 @@ tokenToExchangeTransferOutput(
     exchange_addr: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenToExchangeTransferOutput(
     tokens_bought, max_tokens_sold, max_eth_sold, deadline, recipient, exchange_addr
 ).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -655,20 +655,20 @@ exchangeContract.methods.tokenToExchangeTransferOutput(
 
 ## getEthToTokenInputPrice
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @constant
 getEthToTokenInputPrice(eth_sold: uint256): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.getEthToTokenInputPrice(eth_sold).call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -680,20 +680,20 @@ exchangeContract.methods.getEthToTokenInputPrice(eth_sold).call()
 
 ## getEthToTokenOutputPrice
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @constant
 getEthToTokenOutputPrice(tokens_bought: uint256): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.getEthToTokenOutputPrice(tokens_bought).call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -705,20 +705,20 @@ exchangeContract.methods.getEthToTokenOutputPrice(tokens_bought).call()
 
 ## getTokenToEthInputPrice
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @constant
 getTokenToEthInputPrice(tokens_sold: uint256): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.getTokenToEthInputPrice(tokens_sold).call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -730,20 +730,20 @@ exchangeContract.methods.getTokenToEthInputPrice(tokens_sold).call()
 
 ## getTokenToEthOutputPrice
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @constant
 getTokenToEthOutputPrice(eth_bought: uint256): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.getTokenToEthOutputPrice(eth_bought).call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -755,20 +755,20 @@ exchangeContract.methods.getTokenToEthOutputPrice(eth_bought).call()
 
 ## tokenAddress
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @constant
 tokenAddress(): address
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenAddress().call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Returns |  |
 | :--- | ---: |
@@ -776,20 +776,20 @@ exchangeContract.methods.tokenAddress().call()
 
 ## factoryAddress
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @constant
 factoryAddress(): address
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.factoryAddress().call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Returns |  |
 | :--- | ---: |
@@ -797,21 +797,21 @@ exchangeContract.methods.factoryAddress().call()
 
 ## name
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 // all exchange contracts have the same name
 @constant
 name(): bytes32 // Uniswap V1
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenAddress().call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Returns |  |
 | :--- | ---: |
@@ -819,21 +819,21 @@ exchangeContract.methods.tokenAddress().call()
 
 ## symbol
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 // all exchange contracts have the same symbol
 @constant
 symbol(): bytes32 // UNI-V1
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.tokenAddress().call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Returns |  |
 | :--- | ---: |
@@ -841,21 +841,21 @@ exchangeContract.methods.tokenAddress().call()
 
 ## decimals
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 // all exchange contracts have the same decimals
 @constant
 decimals(): uint256 // 18
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.decimals().call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Returns |  |
 | :--- | ---: |
@@ -863,20 +863,20 @@ exchangeContract.methods.decimals().call()
 
 ## balanceOf
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @constant
 balanceOf(_owner: address): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.balanceOf(_owner).call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -888,22 +888,22 @@ exchangeContract.methods.balanceOf(_owner).call()
 
 ## transfer
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 transfer(
     _to: address,
     _value : uint256
 ): bool
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.transfer(_to, _value).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -916,8 +916,8 @@ exchangeContract.methods.transfer(_to, _value).send()
 
 ## transferFrom
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 transferFrom(
     _from: address,
@@ -925,14 +925,14 @@ transferFrom(
     _value : uint256
 ): bool
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.transferFrom(_from, _to, _value).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -946,22 +946,22 @@ exchangeContract.methods.transferFrom(_from, _to, _value).send()
 
 ## approve
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 approve(
     _spender: address,
     _value: uint256
 ): bool
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.approve(_spender, _value).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -974,22 +974,22 @@ exchangeContract.methods.approve(_spender, _value).send()
 
 ## allowance
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 allowance(
     _owner: address,
     _spender: address
 ): uint256
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 exchangeContract.methods.allowance(_owner, _spender).call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
