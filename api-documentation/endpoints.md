@@ -1,26 +1,12 @@
 # Endpoints
 
-* `/status`
-  * Request
-  * Response
-* `/pair/:tokenAddress`
-  * Request
-  * Response
-* `/pairs`
-  * Request
-  * Response
+- `/pair/:tokenAddress`
+  - Request
+  - Response
+- `/pairs`
+  - Request
+  - Response
 
-## `/status`
-
-Status endpoint to check whether the API is operational.
-
-### Request
-
-`GET https://api.uniswap.info/status`
-
-### Response
-
-`Success.`
 
 ## `/pair/:tokenAddress`
 
