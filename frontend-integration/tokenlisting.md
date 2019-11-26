@@ -1,6 +1,6 @@
 # Token Listing
 
-It is possible that a token you are interested in is not included in the token dropdown on [https://uniswap.exchange/swap](https://uniswap.exchange/swap), however, all tokens that have a deployed uniswap exhchange are supported on the the front-end.
+It is possible that a token you are interested in is not included in the token dropdown on [https://uniswap.exchange/swap](https://uniswap.exchange/swap), however, all tokens that have a deployed uniswap exchange are supported on the the front-end.
 
 There are three ways to interact with tokens that are not yet included on the default list.
 
