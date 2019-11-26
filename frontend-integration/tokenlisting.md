@@ -20,5 +20,5 @@ For example, to populate the output token field with an unlisted coin, we can sp
 
 ## 3. Make a request to get your token listed
 
-For tokens that have high market caps, high liquidity provision, or high dex trading volume, you can fill out a request to be added to the drop down menu on uniswap.exhange here: [https://github.com/Uniswap/uniswap-frontend/issues/new?assignees=&labels=token+request&template=token-request.md&title=](https://github.com/Uniswap/uniswap-frontend/issues/new?assignees=&labels=token+request&template=token-request.md&title=)
+For tokens that have high market caps, high liquidity provision, or high dex trading volume, you can fill out a request to be added to the drop down menu on uniswap.exhange here: [https://docs.google.com/forms/d/e/1FAIpQLSdQMI4KnQ1lCB0aiwzQ8xGTL59EX5FtkF6f2nT-JeQcxpW2Sw/formResponse](https://docs.google.com/forms/d/e/1FAIpQLSdQMI4KnQ1lCB0aiwzQ8xGTL59EX5FtkF6f2nT-JeQcxpW2Sw/formResponse)
 
