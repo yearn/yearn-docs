@@ -19,7 +19,8 @@
 * [Pool Liquidity](frontend-integration/pool.md)
 * [Trade tokens](frontend-integration/swap.md)
 * [Custom Linking](frontend-integration/linking.md)
-* [Iframe Integration](frontend-integration/iframe.md)
+* [iFrame Integration](frontend-integration/iframe.md)
+* [Token Listing](frontend-integration/tokenlisting.md)
 
 ## Smart Contract Integration
 

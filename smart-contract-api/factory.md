@@ -2,19 +2,19 @@
 
 ## initializeFactory
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 initializeFactory(template: address)
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 factoryContract.methods.initializeFactory(template).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Description |
 | :--- | ---: |
@@ -22,19 +22,19 @@ factoryContract.methods.initializeFactory(template).send()
 
 ## createExchange
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 createExchange(token: address): address
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 factoryContract.methods.initializeFactory(token).send()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -46,20 +46,20 @@ factoryContract.methods.initializeFactory(token).send()
 
 ## getExchange
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @constant
 getExchange(token: address): address
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 factoryContract.methods.getExchange(token).call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -71,20 +71,20 @@ factoryContract.methods.getExchange(token).call()
 
 ## getToken
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @constant
 getToken(exchange: address): address
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 factoryContract.methods.getToken(exchange).call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |
@@ -96,20 +96,20 @@ factoryContract.methods.getToken(exchange).call()
 
 ## getTokenWithId
 
-{% code-tabs %}
-{% code-tabs-item title="Smart Contract" %}
+{% tabs %}
+{% tab title="Smart Contract" %}
 ```javascript
 @constant
 getTokenWithId(token_id: uint256): address
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Web3" %}
+{% tab title="Web3" %}
 ```javascript
 factoryContract.methods.getToken(exchange).call()
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 | Parameter | Type | Description |
 | :--- | :--- | ---: |

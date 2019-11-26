@@ -1,4 +1,4 @@
-# Iframe Integration
+# iFrame Integration
 
 Uniswap can be used within other sites as an iframe. An iframe shows an exact version of the uniswap.exchange site and can have custom prefilled settings.
 
@@ -30,12 +30,18 @@ Linking to a ETH &lt;-&gt; DAI swap page would look something like this. To link
 
 ```text
 <iframe
-  url="https://uniswap.exchange/swap?outputCurrency=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
-  height="600px"
-  width="600px"
+  src="https://uniswap.exchange/swap?outputCurrency=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+  height="660px"
+  width="100%"
+  style="
+    border: 0;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 300px;
+  "
   id="myId"
-  display="initial"
-  position="relative"
 />
 ```
 

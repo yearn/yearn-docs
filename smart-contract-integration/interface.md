@@ -2,8 +2,8 @@
 
 ## Factory Interface
 
-{% code-tabs %}
-{% code-tabs-item title="UniswapFactoryInterface.sol" %}
+{% tabs %}
+{% tab title="UniswapFactoryInterface.sol" %}
 ```javascript
 // Solidity Interface
 
@@ -21,9 +21,9 @@ contract UniswapFactoryInterface {
     function initializeFactory(address template) external;
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="uniswap\_factory\_interface.vy" %}
+{% tab title="uniswap\_factory\_interface.vy" %}
 ```python
 # Vyper Interface
 
@@ -40,13 +40,13 @@ contract UniswapFactoryInterface():
     # Initialize Factory
     def initializeFactory(template: address): modifying
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Exchange Interface
 
-{% code-tabs %}
-{% code-tabs-item title="UniswapExchangeInterface.sol" %}
+{% tabs %}
+{% tab title="UniswapExchangeInterface.sol" %}
 ```javascript
 // Solidity Interface
 
@@ -97,9 +97,9 @@ contract UniswapExchangeInterface {
     function setup(address token_addr) external;
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="uniswap\_exchange\_interface.vy" %}
+{% tab title="uniswap\_exchange\_interface.vy" %}
 ```python
 # Vyper Interface
 
@@ -141,13 +141,13 @@ contract UniswapExchangeInterface():
     # Setup
     def setup(token_addr: address): modifying
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## ERC20 Token Interface
 
-{% code-tabs %}
-{% code-tabs-item title="TokenInterface.sol" %}
+{% tabs %}
+{% tab title="TokenInterface.sol" %}
 ```javascript
 // https://theethereum.wiki/w/index.php/ERC20_Token_Standard
 contract ERC20Interface {
@@ -166,9 +166,9 @@ contract ERC20Interface {
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="token\_interface.vy" %}
+{% tab title="token\_interface.vy" %}
 ```python
 contract ERC20Interface():
     def totalSupply() -> uint256: constant
@@ -182,6 +182,6 @@ contract ERC20Interface():
     def symbol() -> bytes32: constant
     def decimals() -> uint256: constant
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
