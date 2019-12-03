@@ -30,7 +30,7 @@ Returns data for the top 50 Uniswap pairs sorted by current ETH liquidity. Resul
 
 ### Response
 
-```json
+```javascript
 {
   "0x...": {                     // token address
     "name": "...",               // not necesssarily included for all pairs
@@ -54,7 +54,7 @@ Returns the top 50 Uniswap pairs sorted by current ETH liquidity. Results are ca
 
 ### Response
 
-```json
+```javascript
 {
   "0x...": {                    // token address
     "name": "...",              // not necesssarily included for all pairs
@@ -75,7 +75,7 @@ Returns data for the top 50 Uniswap pairs sorted by current ETH liquidity. Resul
 
 ### Response
 
-```json
+```javascript
 {
   "0x...": {                     // token address
     "last_price": "1.234",       // denominated in tokens/ETH
@@ -96,9 +96,9 @@ Returns (simulated) orderbook data for the given Uniswap pair. Since Uniswap has
 
 ### Response
 
-```json
+```javascript
 {
-  "timestamp": 1234567 // UNIX timestamp
+  "timestamp": 1234567, // UNIX timestamp
   "bids": [
     ["12", "1.2"],     // denominated in ETH, tokens/ETH
     ["24", "1.1"],     // denominated in ETH, tokens/ETH
@@ -122,7 +122,7 @@ Returns all trades in the last 24 hours for the given Uniswap pair. Results are 
 
 ### Response
 
-```json
+```javascript
 [
   {
     "trade_id": "...", 
