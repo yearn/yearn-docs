@@ -100,13 +100,13 @@ Returns (simulated) orderbook data for the given Uniswap pair. Since Uniswap has
 {
   "timestamp": 1234567, // UNIX timestamp
   "bids": [
-    ["12", "1.2"],     // denominated in ETH, tokens/ETH
-    ["24", "1.1"],     // denominated in ETH, tokens/ETH
+    ["12", "1.2"],      // denominated in ETH, tokens/ETH
+    ["24", "1.1"],      // denominated in ETH, tokens/ETH
     ...
   ],
   "asks": [
-    ["12", "1.3"],     // denominated in ETH, tokens/ETH
-    ["24", "1.4"],     // denominated in ETH, tokens/ETH
+    ["12", "1.3"],      // denominated in ETH, tokens/ETH
+    ["24", "1.4"],      // denominated in ETH, tokens/ETH
     ...
   ]
 }
