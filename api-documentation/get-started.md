@@ -1,16 +1,15 @@
 # Get Started
 
-⚠️NOTE: The API may intermittently be offline for maintenance.⚠️
+This API is intended to help cryptocurrency data aggregators surface Uniswap statistics.
 
-This service is exclusively intended to help cryptocurrency exchange aggregators surface Uniswap trading data.
-
-The API is powered by [The Graph](https://thegraph.com/), and uses the [open-source Uniswap subgraph](https://github.com/graphprotocol/uniswap-subgraph).
+{% hint style="danger" %}
+This service is not meant for the general public. The limited subset of data returned is specifically tailored for cryptocurrency data aggregators. The full spectrum of data that this API draws from is freely available from [The Graph](https://thegraph.com/) via the [open-source Uniswap subgraph](https://github.com/graphprotocol/uniswap-subgraph).
+{% endhint %}
 
 ## URL
 
-`https://api.uniswap.info`
+`https://api.uniswap.info/v1`
 
 ## Endpoints
 
 * [Endpoints](endpoints.md)
-
