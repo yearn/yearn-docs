@@ -22,3 +22,6 @@ For example, to populate the output token field with an unlisted token, we can s
 
 For tokens that have high market caps, high liquidity provision, or high dex trading volume, you can fill out a request to be added to the drop down menu on uniswap.exhange here: [https://docs.google.com/forms/d/e/1FAIpQLSdQMI4KnQ1lCB0aiwzQ8xGTL59EX5FtkF6f2nT-JeQcxpW2Sw/formResponse](https://docs.google.com/forms/d/e/1FAIpQLSdQMI4KnQ1lCB0aiwzQ8xGTL59EX5FtkF6f2nT-JeQcxpW2Sw/formResponse)
 
+## Token Details and Assets
+
+Token information (including name, decimals, symbol, etc) is pulled from token contracts directly. Logo images are pulled using the TrustWallet api. If you'd like your token logo updated make a pull request into the TrustWallet assets repo [https://github.com/trustwallet/assets](here). 
