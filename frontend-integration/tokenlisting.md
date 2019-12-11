@@ -24,4 +24,4 @@ For tokens that have high market caps, high liquidity provision, or high dex tra
 
 ## Token Details and Assets
 
-Token information (including name, decimals, symbol, etc) is pulled from token contracts directly. Logo images are pulled using the TrustWallet api. If you'd like your token logo updated make a pull request into the TrustWallet assets repo [https://github.com/trustwallet/assets](https://github.com/trustwallet/assets). 
+Token information (including name, decimals, symbol, etc) is pulled from token contracts directly. Logo images are pulled using the TrustWallet api. If you'd like your token logo updated make a pull request into the TrustWallet assets repo [https://github.com/trustwallet/assets](https://github.com/trustwallet/assets). Logos are found in ./blockchains/ethereum/assets/<token_address>
