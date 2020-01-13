@@ -70,7 +70,7 @@ removeLiquidity(
 
 {% tab title="Web3" %}
 ```javascript
-exchangeContract.methods.removeLiquidity(amount, min_eth, max_tokens, deadline).send()
+exchangeContract.methods.removeLiquidity(amount, min_eth, min_tokens, deadline).send()
 ```
 {% endtab %}
 {% endtabs %}
