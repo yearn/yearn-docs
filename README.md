@@ -55,10 +55,9 @@ Here is an example of the [invest strategy](https://etherscan.io/tx/0x7e7fa4fe01
 
 Here is an example of the [redeem strategy](https://etherscan.io/tx/0x3854a62e3026c9f559b92e9c9b15393a2228ae0f359c6a20d479d2f0e3aa0b93)
 
-Contract code here; https://etherscan.io/address/0x9dde7cdd09dbed542fc422d18d89a589fa9fd4c0#code
+[Contract code](https://etherscan.io/address/0x9dde7cdd09dbed542fc422d18d89a589fa9fd4c0#code)
 
-Simple metamask interface;
-https://iearn.finance/
+Simple [metamask interface](https://iearn.finance/)
 
 ## How to use it
 
