@@ -51,9 +51,9 @@ After the decision tree, splits the investment (ETH) 50/50, compares trade rates
 
 Additional strategies; 2x long ETH on dYdX for 100% ETH exposure, CompoundSwap system that trades between iETH/cDAI, or iDAI/cETH etc which uses itself as a first line vendor and falls through to the on-chain aggregated engine as a second line support. Reasoning for this is to use cETH/iETH as well in the pool swap instead of just 50% ETH to add the ETH rewards ontop as well.
 
-Here is an example of the "invest" strategy; https://etherscan.io/tx/0x7e7fa4fe01bba24ee2383386c3804ed8ee79c1ed787b8177aa9c963cd489b355
+Here is an example of the [invest strategy](https://etherscan.io/tx/0x7e7fa4fe01bba24ee2383386c3804ed8ee79c1ed787b8177aa9c963cd489b355)
 
-Here is an example of the "redeem" strategy; https://etherscan.io/tx/0x3854a62e3026c9f559b92e9c9b15393a2228ae0f359c6a20d479d2f0e3aa0b93
+Here is an example of the [redeem strategy](https://etherscan.io/tx/0x3854a62e3026c9f559b92e9c9b15393a2228ae0f359c6a20d479d2f0e3aa0b93)
 
 Contract code here; https://etherscan.io/address/0x9dde7cdd09dbed542fc422d18d89a589fa9fd4c0#code
 
