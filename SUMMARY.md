@@ -8,5 +8,6 @@
 
 ## Smart Contract API
 
-* [Factory API](smart-contract-api/factory.md)
-* [Exchange API](smart-contract-api/exchange.md)
+* [APR API](smart-contract-api/apr.md)
+* [Zap API](smart-contract-api/zap.md)
+* [iToken API](smart-contract-api/itoken.md)

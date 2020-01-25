@@ -1,7 +1,7 @@
 # Getting Started
 
 {% hint style="info" %}
-These docs are still being worked on. Some parts may be unfinished
+These docs are still being worked on.
 {% endhint %}
 
 With the onset of DeFi numerous strategies exist for the investor. To list just a few;

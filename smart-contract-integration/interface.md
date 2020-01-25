@@ -1,145 +1,173 @@
 # Smart Contract Interface
 
-## Factory Interface
+## APR Interface
 
 {% tabs %}
-{% tab title="UniswapFactoryInterface.sol" %}
+{% tab title="IAPROracle.sol" %}
 ```javascript
 // Solidity Interface
 
-contract UniswapFactoryInterface {
-    // Public Variables
-    address public exchangeTemplate;
-    uint256 public tokenCount;
-    // Create Exchange
-    function createExchange(address token) external returns (address exchange);
-    // Get Exchange and Token Info
-    function getExchange(address token) external view returns (address exchange);
-    function getToken(address exchange) external view returns (address token);
-    function getTokenWithId(uint256 tokenId) external view returns (address token);
-    // Never use
-    function initializeFactory(address template) external;
+interface IAPROracle {
+  function recommendDAI() external view returns (string memory);
+  function recommendETH() external view returns (string memory);
+  function recommendUSDC() external view returns (string memory);
+  function getAllCompoundAPR()
+      external
+      view
+      returns (
+          uint256 cDAI,
+          uint256 cBAT,
+          uint256 cETH,
+          uint256 cREP,
+          uint256 cSAI,
+          uint256 cUSDC,
+          uint256 cWBTC,
+          uint256 cZRC
+      );
+
+  // Compound
+  function getCDAIAPR() external view returns (uint256);
+  function getCBATAPR() external view returns (uint256);
+  function getCETHAPR() external view returns (uint256);
+  function getCREPAPR() external view returns (uint256);
+  function getCSAIAPR() external view returns (uint256);
+  function getCUSDCAPR() external view returns (uint256);
+  function getCWBTCAPR() external view returns (uint256);
+  function getCZRCAPR() public view returns (uint256);
+  function getCompoundAPR(address token) public view returns (uint256);
+
+  function getAllDyDxAPR()
+      external
+      view
+      returns (
+          uint256 dSAI,
+          uint256 dETH,
+          uint256 dUSDC,
+          uint256 dDAI
+      );
+
+  // dYdX
+  function getDyDxSAIAPR() public view returns(uint256);
+  function getDyDxETHAPR() public view returns(uint256);
+  function getDyDxUSDCAPR() public view returns(uint256);
+  function getDyDxDAIAPR() public view returns(uint256);
+
+  function getAllFulcrumAPR()
+      external
+      view
+      returns (
+          uint256 iZRX,
+          uint256 iREP,
+          uint256 iKNC,
+          uint256 iWBTC,
+          uint256 iUSDC,
+          uint256 iETH,
+          uint256 iSAI,
+          uint256 iDAI,
+          uint256 iLINK,
+          uint256 iSUSD
+      );
+
+  // Fulcrum
+  function getIZRXAPR() public view returns (uint256);
+  function getIREPAPR() public view returns (uint256);
+  function getIKNCAPR() public view returns (uint256);
+  function getIWBTCAPR() public view returns (uint256);
+  function getIUSDCAPR() public view returns (uint256);
+  function getIETHAPR() public view returns (uint256);
+  function getISAIAPR() public view returns (uint256);
+  function getIDAIAPR() public view returns (uint256);
+  function getILINKAPR() public view returns (uint256);
+  function getISUSDAPR() public view returns (uint256);
+
+  function getFulcrumAPR(address token) public view returns(uint256);
+
+  function getDyDxAPR(uint256 marketId) public view returns(uint256);
+
+  function getAllAaveAPR()
+      external
+      view
+      returns (
+          uint256 aDAI,
+          uint256 aTUSD,
+          uint256 aUSDC,
+          uint256 aUSDT,
+          uint256 aSUSD,
+          uint256 aBAT,
+          uint256 aETH,
+          uint256 aLINK,
+          uint256 aKNC,
+          uint256 aREP,
+          uint256 aZRX,
+          uint256 aSNX
+      );
+
+  function getADAIAPR() public view returns (uint256);
+  function getATUSDAPR() public view returns (uint256);
+  function getAUSDCAPR() public view returns (uint256);
+  function getAUSDTAPR() public view returns (uint256);
+  function getASUSDAPR() public view returns (uint256);
+  function getALENDAPR() public view returns (uint256);
+  function getABATAPR() public view returns (uint256);
+  function getAETHAPR() public view returns (uint256);
+  function getALINKAPR() public view returns (uint256);
+  function getAKNCAPR() public view returns (uint256);
+  function getAREPAPR() public view returns (uint256);
+  function getAMKRAPR() public view returns (uint256);
+  function getAMANAAPR() public view returns (uint256);
+  function getAZRXAPR() public view returns (uint256);
+  function getASNXAPR() public view returns (uint256);
+  function getAWBTCAPR() public view returns (uint256);
+
+  function getAaveAPR(address token) public view returns (uint256);
 }
-```
-{% endtab %}
-
-{% tab title="uniswap\_factory\_interface.vy" %}
-```python
-# Vyper Interface
-
-contract UniswapFactoryInterface():
-    # Create Exchange
-    def createExchange(token: address) -> address: modifying
-    # Public Variables
-    def exchangeTemplate() -> address: constant
-    def tokenCount() -> uint256: constant
-    # Get Exchange and Token Info
-    def getExchange(token_addr: address) -> address: constant
-    def getToken(exchange: address) -> address: constant
-    def getTokenWithId(token_id: uint256) -> address: constant
-    # Initialize Factory
-    def initializeFactory(template: address): modifying
 ```
 {% endtab %}
 {% endtabs %}
 
-## Exchange Interface
+## ZAP Interface
 
 {% tabs %}
-{% tab title="UniswapExchangeInterface.sol" %}
+{% tab title="IUniSwap_ETH_CDAIZap.sol" %}
 ```javascript
 // Solidity Interface
 
-contract UniswapExchangeInterface {
-    // Address of ERC20 token sold on this exchange
-    function tokenAddress() external view returns (address token);
-    // Address of Uniswap Factory
-    function factoryAddress() external view returns (address factory);
-    // Provide Liquidity
-    function addLiquidity(uint256 min_liquidity, uint256 max_tokens, uint256 deadline) external payable returns (uint256);
-    function removeLiquidity(uint256 amount, uint256 min_eth, uint256 min_tokens, uint256 deadline) external returns (uint256, uint256);
-    // Get Prices
-    function getEthToTokenInputPrice(uint256 eth_sold) external view returns (uint256 tokens_bought);
-    function getEthToTokenOutputPrice(uint256 tokens_bought) external view returns (uint256 eth_sold);
-    function getTokenToEthInputPrice(uint256 tokens_sold) external view returns (uint256 eth_bought);
-    function getTokenToEthOutputPrice(uint256 eth_bought) external view returns (uint256 tokens_sold);
-    // Trade ETH to ERC20
-    function ethToTokenSwapInput(uint256 min_tokens, uint256 deadline) external payable returns (uint256  tokens_bought);
-    function ethToTokenTransferInput(uint256 min_tokens, uint256 deadline, address recipient) external payable returns (uint256  tokens_bought);
-    function ethToTokenSwapOutput(uint256 tokens_bought, uint256 deadline) external payable returns (uint256  eth_sold);
-    function ethToTokenTransferOutput(uint256 tokens_bought, uint256 deadline, address recipient) external payable returns (uint256  eth_sold);
-    // Trade ERC20 to ETH
-    function tokenToEthSwapInput(uint256 tokens_sold, uint256 min_eth, uint256 deadline) external returns (uint256  eth_bought);
-    function tokenToEthTransferInput(uint256 tokens_sold, uint256 min_eth, uint256 deadline, address recipient) external returns (uint256  eth_bought);
-    function tokenToEthSwapOutput(uint256 eth_bought, uint256 max_tokens, uint256 deadline) external returns (uint256  tokens_sold);
-    function tokenToEthTransferOutput(uint256 eth_bought, uint256 max_tokens, uint256 deadline, address recipient) external returns (uint256  tokens_sold);
-    // Trade ERC20 to ERC20
-    function tokenToTokenSwapInput(uint256 tokens_sold, uint256 min_tokens_bought, uint256 min_eth_bought, uint256 deadline, address token_addr) external returns (uint256  tokens_bought);
-    function tokenToTokenTransferInput(uint256 tokens_sold, uint256 min_tokens_bought, uint256 min_eth_bought, uint256 deadline, address recipient, address token_addr) external returns (uint256  tokens_bought);
-    function tokenToTokenSwapOutput(uint256 tokens_bought, uint256 max_tokens_sold, uint256 max_eth_sold, uint256 deadline, address token_addr) external returns (uint256  tokens_sold);
-    function tokenToTokenTransferOutput(uint256 tokens_bought, uint256 max_tokens_sold, uint256 max_eth_sold, uint256 deadline, address recipient, address token_addr) external returns (uint256  tokens_sold);
-    // Trade ERC20 to Custom Pool
-    function tokenToExchangeSwapInput(uint256 tokens_sold, uint256 min_tokens_bought, uint256 min_eth_bought, uint256 deadline, address exchange_addr) external returns (uint256  tokens_bought);
-    function tokenToExchangeTransferInput(uint256 tokens_sold, uint256 min_tokens_bought, uint256 min_eth_bought, uint256 deadline, address recipient, address exchange_addr) external returns (uint256  tokens_bought);
-    function tokenToExchangeSwapOutput(uint256 tokens_bought, uint256 max_tokens_sold, uint256 max_eth_sold, uint256 deadline, address exchange_addr) external returns (uint256  tokens_sold);
-    function tokenToExchangeTransferOutput(uint256 tokens_bought, uint256 max_tokens_sold, uint256 max_eth_sold, uint256 deadline, address recipient, address exchange_addr) external returns (uint256  tokens_sold);
-    // ERC20 comaptibility for liquidity tokens
-    bytes32 public name;
-    bytes32 public symbol;
-    uint256 public decimals;
-    function transfer(address _to, uint256 _value) external returns (bool);
-    function transferFrom(address _from, address _to, uint256 value) external returns (bool);
-    function approve(address _spender, uint256 _value) external returns (bool);
-    function allowance(address _owner, address _spender) external view returns (uint256);
-    function balanceOf(address _owner) external view returns (uint256);
-    function totalSupply() external view returns (uint256);
-    // Never use
-    function setup(address token_addr) external;
+interface IUniSwap_ETH_CDAIZap {
+    function getExpectedReturn(uint256 eth) external view returns (uint256);
+    function LetsInvest(address _towhomtoissue, uint256 _minReturn) external payable returns (uint);
+    function getUniswapExchangeContractAddress() external view returns (address);
+    function Redeem(address payable _towhomtosend, uint256 _amount) external stopInEmergency returns (uint);
+    function getMaxTokens(address _UniSwapExchangeContractAddress, IERC20 _ERC20TokenAddress, uint _value) external view returns (uint);
+    function getEthBalance(address _UniSwapExchangeContractAddress) external view returns (uint);
+    function getTokenReserves(address _UniSwapExchangeContractAddress, IERC20 _ERC20TokenAddress) external view returns (uint);
+    function getTotalShares(address _UniSwapExchangeContractAddress) external view returns (uint);
+    function getReturn(address _UniSwapExchangeContractAddress, IERC20 _ERC20TokenAddress, uint _value) external view returns (uint, uint, uint);
+    function calcReturnETHFromShares(uint _value) external view returns (uint, uint, uint);
+    function uniBalanceOf(address _owner) external view returns (uint);
+    function cBalanceOf(address _owner) external view returns (uint);
+    function calcReturnSharesFromETH(uint _value) external view returns (uint);
+    function getTokenToEthOutputPrice(uint _tokens) external view returns (uint);
+    function getSharesReturn(address _UniSwapExchangeContractAddress, IERC20 _ERC20TokenAddress, uint _ethValue) external view returns (uint);
 }
 ```
 {% endtab %}
+{% endtabs %}
 
-{% tab title="uniswap\_exchange\_interface.vy" %}
-```python
-# Vyper Interface
+## iToken Interface
 
-contract UniswapExchangeInterface():
-    # Public Variables
-    def tokenAddress() -> address: constant
-    def factoryAddress() -> address: constant
-    # Providing Liquidity
-    def addLiquidity(min_liquidity: uint256, max_tokens: uint256, deadline: timestamp) -> uint256: modifying
-    def removeLiquidity(amount: uint256, min_eth: uint256(wei), min_tokens: uint256, deadline: timestamp) -> (uint256(wei), uint256): modifying
-    # Trading
-    def ethToTokenSwapInput(min_tokens: uint256, deadline: timestamp) -> uint256: modifying
-    def ethToTokenTransferInput(min_tokens: uint256, deadline: timestamp, recipient: address) -> uint256: modifying
-    def ethToTokenSwapOutput(tokens_bought: uint256, deadline: timestamp) -> uint256(wei): modifying
-    def ethToTokenTransferOutput(tokens_bought: uint256, deadline: timestamp, recipient: address) -> uint256(wei): modifying
-    def tokenToEthSwapInput(tokens_sold: uint256, min_eth: uint256(wei), deadline: timestamp) -> uint256(wei): modifying
-    def tokenToEthTransferInput(tokens_sold: uint256, min_eth: uint256(wei), deadline: timestamp, recipient: address) -> uint256(wei): modifying
-    def tokenToEthSwapOutput(eth_bought: uint256(wei), max_tokens: uint256, deadline: timestamp) -> uint256: modifying
-    def tokenToEthTransferOutput(eth_bought: uint256(wei), max_tokens: uint256, deadline: timestamp, recipient: address) -> uint256: modifying
-    def tokenToTokenSwapInput(tokens_sold: uint256, min_tokens_bought: uint256, min_eth_bought: uint256(wei), deadline: timestamp, token_addr: address) -> uint256: modifying
-    def tokenToTokenTransferInput(tokens_sold: uint256, min_tokens_bought: uint256, min_eth_bought: uint256(wei), deadline: timestamp, recipient: address, token_addr: address) -> uint256: modifying
-    def tokenToTokenSwapOutput(tokens_bought: uint256, max_tokens_sold: uint256, max_eth_sold: uint256(wei), deadline: timestamp, token_addr: address) -> uint256: modifying
-    def tokenToTokenTransferOutput(tokens_bought: uint256, max_tokens_sold: uint256, max_eth_sold: uint256(wei), deadline: timestamp, recipient: address, token_addr: address) -> uint256: modifying
-    def tokenToExchangeSwapInput(tokens_sold: uint256, min_tokens_bought: uint256, min_eth_bought: uint256(wei), deadline: timestamp, exchange_addr: address) -> uint256: modifying
-    def tokenToExchangeTransferInput(tokens_sold: uint256, min_tokens_bought: uint256, min_eth_bought: uint256(wei), deadline: timestamp, recipient: address, exchange_addr: address) -> uint256: modifying
-    def tokenToExchangeSwapOutput(tokens_bought: uint256, max_tokens_sold: uint256, max_eth_sold: uint256(wei), deadline: timestamp, exchange_addr: address) -> uint256: modifying
-    def tokenToExchangeTransferOutput(tokens_bought: uint256, max_tokens_sold: uint256, max_eth_sold: uint256(wei), deadline: timestamp, recipient: address, exchange_addr: address) -> uint256: modifying
-    # Get Price
-    def getEthToTokenInputPrice(eth_sold: uint256(wei)) -> uint256: constant
-    def getEthToTokenOutputPrice(tokens_bought: uint256) -> uint256(wei): constant
-    def getTokenToEthInputPrice(tokens_sold: uint256) -> uint256(wei): constant
-    def getTokenToEthOutputPrice(eth_bought: uint256(wei)) -> uint256: constant
-    # Pool Token ERC20 Compatibility
-    def balanceOf() -> address: constant
-    def allowance(_owner : address, _spender : address) -> uint256: constant
-    def transfer(_to : address, _value : uint256) -> bool: modifying
-    def transferFrom(_from : address, _to : address, _value : uint256) -> bool: modifying
-    def approve(_spender : address, _value : uint256) -> bool: modifying
-    # Setup
-    def setup(token_addr: address): modifying
+{% tabs %}
+{% tab title="IIEther.sol" %}
+```javascript
+// Solidity Interface
+
+interface IIEther {
+  // Invest ETH
+  function invest() external payable;
+  function calcPoolValueInETH() external view returns (uint);
+  function getPricePerFullShare() external view returns (uint);
+  // Redeem any invested tokens from the pool
+  function redeem(uint256 _shares) external;
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -167,21 +195,4 @@ contract ERC20Interface {
 }
 ```
 {% endtab %}
-
-{% tab title="token\_interface.vy" %}
-```python
-contract ERC20Interface():
-    def totalSupply() -> uint256: constant
-    def balanceOf(_owner: address) -> uint256: constant
-    def allowance(_owner : address, _spender : address) -> uint256: constant
-    def transfer(_to : address, _value : uint256) -> bool: modifying
-    def approve(_spender : address, _value : uint256) -> bool: modifying
-    def transferFrom(_from : address, _to : address, _value : uint256) -> bool: modifying
-    # optional
-    def name() -> bytes32: constant
-    def symbol() -> bytes32: constant
-    def decimals() -> uint256: constant
-```
-{% endtab %}
 {% endtabs %}
-
