@@ -4,66 +4,62 @@
 These docs are still being worked on. Some parts may be unfinished
 {% endhint %}
 
-Designed with simplicity in mind, the Uniswap protocol provides an interface for seamless exchange of ERC20 tokens on Ethereum. By eliminating unnecessary forms of rent extraction and middlemen it allows faster, more efficient exchange. Where it makes tradeoffs, decentralization, censorship resistance, and security are prioritized.
+With the onset of DeFi numerous strategies exist for the investor. To list just a few;
 
-Uniswap is open source and functions as a public good. There is no central token or platform fee. No special treatment is given to early investors, adopters, or developers. Token listing is open and free. All smart contract functions are public and all upgrades are opt-in.
+* Lend out ETH in Compound.
+* Swap ETH to USDC and lend on Aave.
+* Be a liquidity provider for ETH/USDC on Uniswap.
 
-This site will serve as a project overview for Uniswap - explaining how it works, how to use it, and how to build on top of it. These docs are actively being worked on and more information will be added on an ongoing basis.
+The possible strategies are an exhaustive list. Do you trade your ETH to DAI and invest in DSR? Do you go 2x long ETH on dYdX and take 50% to DAI swapped to cDAI and then 25%/25% into Uniswap cDAI/ETH liquidity? Do you hedge you cDAI into cUSDC and be an LP for curve.fi? The list of possibilities and analytics becomes far too numerous to manage.
 
-## V1 Features
+To address the above concerns we developed iearn.finance
 
-* Add support for any ERC20 token using the Uniswap [factory](https://github.com/Uniswap/contracts-vyper/blob/master/contracts/uniswap_factory.vy)
-* [Join liquidity pools](frontend-integration/pool.md#add-liquidity) to collect fees on ETH-ERC20 pairs
-* Liquidity-sensitive automated pricing using [constant product formula](https://github.com/runtimeverification/verified-smart-contracts/blob/uniswap/uniswap/x-y-k.pdf)
-* Trade [ETH for any ERC20](frontend-integration/swap.md#eth-erc20-trades) without wrapping
-* Trade any [ERC20 for any ERC20](frontend-integration/swap.md#erc20-to-erc20) in a single transaction
-* Trade and transfer to a different address in a single transaction
-* Lowest gas cost of any decentralized exchange
-* Support for private and custom uniswap exchanges
-* Buy ERC20 tokens from any wallet using ENS
-* [Partially verified](https://github.com/runtimeverification/verified-smart-contracts/tree/uniswap/uniswap) smart contracts written in Vyper
-* Mobile-optimized open source [frontend implementation](https://github.com/Uniswap/uniswap-frontend)  
-* Funded through an [Ethereum Foundation grant](https://blog.ethereum.org/2018/08/17/ethereum-foundation-grants-update-wave-3/)
+iearn.finance is a set of protocols with simplicity in mind. You provide the asset you wish to earn on, swap it for it's representative token (ETH to iETH), and the underlying ETH will be invested based on the current most optimal strategy. This engine is not simplistically a rates aggregator that then puts your ETH into Fulcrum, because it has the highest rate. Instead it analyzes strategies across different spheres. It takes into consideration pool liquidity in Uniswap, and if there might be a better strategy for fees since this is a hedged position. It will look for swap oppurtunities between multiple exchanges for the least amount of slippage.
+
+iearn is an open source protocol. There is no central token or platform fee. No bias towards any investor. Strategies can be added in an open and free manner. All smart contract functions are public.
+
+## Features
+
+* Add support for dYdx, Compound, Aave, and Fulcrum [APR](https://github.com/iearn-finance/apr-oracle/blob/master/contracts/APROracle.sol)
+* Swap between ETH and any asset via on-chain dex aggregators for minimum [slippage](https://github.com/iearn-finance/zap/blob/master/contracts/UniSwap_ETH_cDAI.sol)
+* [Uniswap liquidity provider strategy](https://github.com/iearn-finance/zap/blob/master/contracts/UniSwap_ETH_cDAI.sol)
+* [ETH to DAI into aprDAI strategy](https://github.com/iearn-finance/zap/blob/master/contracts/UniSwap_ETH_cDAI.sol)
+* [aprDAI into DAI into ETH strategy](https://github.com/iearn-finance/zap/blob/master/contracts/UniSwap_ETH_cDAI.sol)
+* [issue](https://github.com/iearn-finance/itoken/blob/master/contracts/IEther.sol) representative interest token on invest
+* [shares pool calculation](https://github.com/iearn-finance/itoken/blob/master/contracts/IEther.sol)
+* [shares redemption strategy](https://github.com/iearn-finance/itoken/blob/master/contracts/IEther.sol)
+* [pool value calculation](https://github.com/iearn-finance/itoken/blob/master/contracts/IEther.sol)
 
 ## Resources
 
-* [Website](https://uniswap.io)
-* [Github](https://github.com/Uniswap)
-* [Twitter](https://twitter.com/UniswapExchange)
-* [Reddit](https://www.reddit.com/r/UniSwap/)
-* [Slack](https://join.slack.com/t/uni-swap/shared_invite/enQtNDYwMjg1ODc5ODA4LWEyYmU0OGU1ZGQ3NjE4YzhmNzcxMDAyM2ExNzNkZjZjZjcxYTkwNzU0MGE3M2JkNzMxOTA2MzE2ZWM0YWQwNjU)
-* [Email](mailto:contact@uniswap.io?Subject=Contact%20Uniswap)
-* [Whitepaper](https://hackmd.io/s/HJ9jLsfTz)
+* [Website](https://iearn.finance)
+* [Github](https://github.com/iearn-finance)
 
 ## How it works
 
-Uniswap is made up of a series of ETH-ERC20 exchange contracts. There is exactly one exchange contract per ERC20 token. If a token does not yet have an exchange it can be created by anyone using the Uniswap factory contract. The factory serves as a public registry and is used to look up all token and exchange addresses added to the system.
+The TLDR is a tokenized interest pool that optimizes on-chain investments strategies.
 
-Each exchange holds reserves of both ETH and its associated ERC20 token. Anyone can become a liquidity provider on an exchange and contribute to its reserves. This is different than buying or selling; it requires depositing an equivalent value of both ETH and the relevant ERC20 token. Liquidity is pooled across all providers and an internal "pool token" \(ERC20\) is used to track each providers relative contribution. Pool tokens are minted when liquidity is deposited into the system and can be burned at any time to withdraw a proportional share of the reserves.
+Or simplistically put, invest ETH get iETH, iETH accrues interest. iETH is a normal token.
 
-Exchange contracts are automated market makers between an ETH-ERC20 pair. Traders can swap between the two in either direction by adding to the liquidity reserve of one and withdrawing from the reserve of the other. Since ETH is a common pair for all ERC20 exchanges, it can be used as an intermediary allowing direct ERC20-ERC20 trades in a single transaction. Users can specify a recipient address if they want to receive purchased tokens at a different address from the one used to make a transaction.
+The system does a the following;
 
-![ERC20 to ERC20 trades in Uniswap](.gitbook/assets/erc20-to-erc20.png)
+Get pools with best liquidity rates on Uniswap (Adding additional pool support as well, but for now just uniswap supported).
 
-Uniswap uses a "constant product" market making formula which sets the exchange rate based off of the relative size of the ETH and ERC20 reserves, and the amount with which an incoming trade shifts this ratio. Selling ETH for ERC20 tokens increases the size of the ETH reserve and decreases the size of the ERC20 reserve. This shifts the reserve ratio, increasing the ERC20 token's price relative to ETH for subsequent transactions. The larger a trade relative to the total size of the reserves, the more price slippage will occur. Essentially, exchange contracts use the open financial market to decide on the relative value of a pair and uses that as a market making strategy.
+See which pool tokens have the highest rate of return including their own interest rates (so factoring on iDAI vs cDAI vs aDAI vs dDAI).
 
-A small liquidity provider fee \(0.3%\) is taken out of each trade and added to the reserves. While the ETH-ERC20 reserve ratio is constantly shifting, fees makes sure that the total combined reserve size increases with every trade. This functions as a payout to liquidity providers that is collected when they burn their pool tokens to withdraw their portion of total reserves. Guaranteed arbitrage opportunities from price fluctuations should push a steady flow of transactions through the system and increase the amount of fee revenue generated.
+After the decision tree, splits the investment (ETH) 50/50, compares trade rates at Uniswap, Kyber, Multiswap, Paraswap, Maker, 0x, Airswap, Oasis for the best swap rate with least amount of slippage. Swap that portion of ETH for DAI. Deposits the DAI into Fulcrum, dYdX, Compound, or Aave dependent on best rates, deposit the ETH/cDAI (for example) pair into Uniswap.
 
-Since Uniswap is entirely on-chain, prices can change between when a transaction is signed and when it is included in a block. Traders can bound price fluctuations by specifying the minimum amount bought on sell orders, or the maximum amount sold on buy orders. This acts as a limit order that will automatically cancel if it is not filled. It is also possible to set transaction deadlines which will cancel orders if they are not executed fast enough.
+Additional strategies; 2x long ETH on dYdX for 100% ETH exposure, CompoundSwap system that trades between iETH/cDAI, or iDAI/cETH etc which uses itself as a first line vendor and falls through to the on-chain aggregated engine as a second line support. Reasoning for this is to use cETH/iETH as well in the pool swap instead of just 50% ETH to add the ETH rewards ontop as well.
 
-The reason only one exchange per token can be registered to the factory is to encourage providers to pool their liquidity into a single reserve. However, Uniswap has built in support for ERC20-to-ERC20 trades using the public pools from the factory on one side of the transaction and custom, user-specified pool on the other. Custom pools could have fund managers, use alternate pricing mechanisms, remove liquidity provider fees, integrate complex three dimensional fomo-based ponzi-schemes and more. They just need to implement the Uniswap interface and accept ETH as an intermediary asset. Custom pools do not have the same safety properties as the public ones. It is recommended users only interact with audited, open-source smart contracts.
+Here is an example of the "invest" strategy; https://etherscan.io/tx/0x7e7fa4fe01bba24ee2383386c3804ed8ee79c1ed787b8177aa9c963cd489b355
 
-Upgrading censorship resistant, decentralized smart contracts is difficult. If significant improvements are made to the system a new version will be released. Liquidity providers can choose between moving to the new system or staying in the old one. If possible, new versions will be backwards compatible and able to trade ERC20-to-ERC20 with the old versions similar to a custom pool.
+Here is an example of the "redeem" strategy; https://etherscan.io/tx/0x3854a62e3026c9f559b92e9c9b15393a2228ae0f359c6a20d479d2f0e3aa0b93
+
+Contract code here; https://etherscan.io/address/0x9dde7cdd09dbed542fc422d18d89a589fa9fd4c0#code
+
+Simple metamask interface;
+https://iearn.finance/
 
 ## How to use it
 
-[Uniswap.io](https://uniswap.io) is the landing page for the Uniswap protocol. It describes the project and directs users where they need to go.
-
-The Uniswap smart contracts live on Ethereum. Anyone can interact with them directly.
-
-The Uniswap frontend is an open source interface designed to improve user experience when interacting with the smart contracts. Anyone can use the source code to host an interface, or build their own. Hosted interfaces are independent of Uniswap, and should comply with their jurisdictional laws and regulations.
-
-### List of interfaces \(updated November 2, 2018\)
-
-* [Uniswap.exchange](https://uniswap.exchange)
-
+[iearn.finance](https://iearn.finance)
