@@ -18,11 +18,11 @@ The possible strategies are an exhaustive list.
 
 The list of possibilities and analytics becomes far too numerous to manage.
 
-To address the above concerns we developed iearn.finance
+To address the above concerns we developed [iearn.finance](https://iearn.finance)
 
-iearn.finance is a set of protocols with simplicity in mind. You provide the asset you wish to earn on, swap it for it's representative token (ETH to iETH), and the underlying ETH will be invested based on the current most optimal strategy. This engine is not simplistically a rates aggregator that then puts your ETH into Fulcrum, because it has the highest rate. Instead it analyzes strategies across different spheres. It takes into consideration pool liquidity in Uniswap, and if there might be a better strategy for fees since this is a hedged position. It will look for swap oppurtunities between multiple exchanges for the least amount of slippage.
+[iearn.finance](https://iearn.finance) is a set of protocols with simplicity in mind. You provide the asset you wish to earn on, swap it for it's representative token (ETH to iETH), and the underlying ETH will be invested based on the current most optimal strategy. This engine is not simplistically a rates aggregator that then puts your ETH into Fulcrum, because it has the highest rate. Instead it analyzes strategies across different spheres. It takes into consideration pool liquidity in Uniswap, and if there might be a better strategy for fees since this is a hedged position. It will look for swap oppurtunities between multiple exchanges for the least amount of slippage.
 
-iearn is an open source protocol. There is no central token or platform fee. No bias towards any investor. Strategies can be added in an open and free manner. All smart contract functions are public.
+[iearn.finance](https://iearn.finance) is an open source protocol. There is no central token or platform fee. No bias towards any investor. Strategies can be added in an open and free manner. All smart contract functions are public.
 
 ## Features
 
