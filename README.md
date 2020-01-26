@@ -47,9 +47,9 @@ The TLDR is a tokenized interest pool that optimizes on-chain investments strate
 
 Or simplistically put, invest ETH get iETH, iETH accrues interest. iETH is a normal token.
 
-The system does a the following;
+The system does the following;
 
-Get pools with best liquidity rates on Uniswap (Adding additional pool support as well, but for now just uniswap supported).
+Get pools with best liquidity rates on Uniswap (Adding additional pool support as well, but for now just Uniswap supported).
 
 See which pool tokens have the highest rate of return including their own interest rates (so factoring on iDAI vs cDAI vs aDAI vs dDAI).
 
