@@ -2,49 +2,75 @@
 
 | Contract | ABI | Address |
 | -- | -- | -- |
-| iEther | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/IEther.json) | [ieth.iearn.eth](https://etherscan.io/address/0x9dde7cdd09dbed542fc422d18d89a589fa9fd4c0#code) |
+| UniswapROI | [JSON](https://github.com/iearn-finance/zap/blob/master/build/contracts/UniSwap_ETH_CDAIZap.json) | [uniapr.iearn.eth](https://etherscan.io/address/0xd04ca0ae1cd8085438fdd8c22a76246f315c2687#readContract) |
 
-## iToken Interface
+
+## UniswapROI Interface
 
 {% tabs %}
-{% tab title="IIEther.sol" %}
+{% tab title="UniswapROI.sol" %}
 ```javascript
 // Solidity Interface
 
-interface IIEther {
-  // Invest ETH
-  function invest() external payable;
-  function calcPoolValueInETH() external view returns (uint);
-  function getPricePerFullShare() external view returns (uint);
-  // Redeem any invested tokens from the pool
-  function redeem(uint256 _shares) external;
+interface IUniswapROI {
+
+    function getCDAIUniROI() public view returns (uint256, uint256);
+    function getCBATUniROI() public view returns (uint256, uint256);
+    function getCETHUniROI() public view returns (uint256, uint256);
+    function getCREPUniROI() public view returns (uint256, uint256);
+    function getCSAIUniROI() public view returns (uint256, uint256);
+    function getCUSDCUniROI() public view returns (uint256, uint256);
+    function getCWBTCUniROI() public view returns (uint256, uint256);
+    function getCZRXUniROI() public view returns (uint256, uint256);
+
+
+    function getIZRXUniROI() public view returns (uint256, uint256);
+    function getIREPUniROI() public view returns (uint256, uint256);
+    function getIKNCUniROI() public view returns (uint256, uint256);
+    function getIWBTCUniROI() public view returns (uint256, uint256);
+    function getIUSDCUniROI() public view returns (uint256, uint256);
+    function getIETHUniROI() public view returns (uint256, uint256);
+    function getISAIUniROI() public view returns (uint256, uint256);
+    function getIDAIUniROI() public view returns (uint256, uint256);
+    function getILINKUniROI() public view returns (uint256, uint256);
+    function getISUSDUniROI() public view returns (uint256, uint256);
+
+    function getADAIUniROI() public view returns (uint256, uint256);
+    function getATUSDUniROI() public view returns (uint256, uint256);
+    function getAUSDCUniROI() public view returns (uint256, uint256);
+    function getAUSDTUniROI() public view returns (uint256, uint256);
+    function getASUSDUniROI() public view returns (uint256, uint256);
+    function getALENDUniROI() public view returns (uint256, uint256);
+    function getABATUniROI() public view returns (uint256, uint256);
+    function getAETHUniROI() public view returns (uint256, uint256);
+    function getALINKUniROI() public view returns (uint256, uint256);
+    function getAKNCUniROI() public view returns (uint256, uint256);
+    function getAREPUniROI() public view returns (uint256, uint256);
+    function getAMKRUniROI() public view returns (uint256, uint256);
+    function getAMANAUniROI() public view returns (uint256, uint256);
+    function getAZRXUniROI() public view returns (uint256, uint256);
+    function getASNXUniROI() public view returns (uint256, uint256);
+    function getAWBTCUniROI() public view returns (uint256, uint256);
+
+    function getDAIUniROI() public view returns (uint256, uint256);
+    function getTUSDUniROI() public view returns (uint256, uint256);
+    function getUSDCUniROI() public view returns (uint256, uint256);
+    function getUSDTUniROI() public view returns (uint256, uint256);
+    function getSUSDUniROI() public view returns (uint256, uint256);
+    function getLENDUniROI() public view returns (uint256, uint256);
+    function getBATUniROI() public view returns (uint256, uint256);
+    function getETHUniROI() public view returns (uint256, uint256);
+    function getLINKUniROI() public view returns (uint256, uint256);
+    function getKNCUniROI() public view returns (uint256, uint256);
+    function getREPUniROI() public view returns (uint256, uint256);
+    function getMKRUniROI() public view returns (uint256, uint256);
+    function getMANAUniROI() public view returns (uint256, uint256);
+    function getZRXUniROI() public view returns (uint256, uint256);
+    function getSNXUniROI() public view returns (uint256, uint256);
+    function getWBTCUniROI() public view returns (uint256, uint256);
+
+    function calcUniswapROI(address token) public view returns (uint256, uint256);
 }
 ```
 {% endtab %}
-{% endtabs %}
-
-## ERC20 Token Interface
-
-{% tabs %}
-{% tab title="TokenInterface.sol" %}
-```javascript
-// https://theethereum.wiki/w/index.php/ERC20_Token_Standard
-contract ERC20Interface {
-    function totalSupply() public view returns (uint);
-    function balanceOf(address tokenOwner) public view returns (uint balance);
-    function allowance(address tokenOwner, address spender) public view returns (uint remaining);
-    function transfer(address to, uint tokens) public returns (bool success);
-    function approve(address spender, uint tokens) public returns (bool success);
-    function transferFrom(address from, address to, uint tokens) public returns (bool success);
-    // optional
-    function name() external view returns (string);
-    function symbol() external view returns (string);
-    function decimals() external view returns (string);
-
-    event Transfer(address indexed from, address indexed to, uint tokens);
-    event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
-}
-```
-{% endtab %}
-
 {% endtabs %}
