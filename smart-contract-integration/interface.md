@@ -1,5 +1,11 @@
 # Smart Contract Interface
 
+| Contract | ABI | Address |
+| -- | -- | -- |
+| `APROracle` | [JSON](https://etherscan.io/address/0x97ff4a1b787ade6b94cca95b61f79417c673331d#code) | [0x97FF4A1b787ADe6b94cca95b61F79417c673331D](https://etherscan.io/address/0x97ff4a1b787ade6b94cca95b61f79417c673331d#code) |
+| `Uniswap_ETH_CDAIZAP` | [JSON](https://etherscan.io/address/0xb82674cfa16bb28d9b70bec830ff24baec6b1337#code) | [0xB82674CfA16bb28D9b70bEC830fF24BAEC6B1337](https://etherscan.io/address/0xb82674cfa16bb28d9b70bec830ff24baec6b1337#code) |
+| `iEther` | [JSON](https://etherscan.io/address/0x9dde7cdd09dbed542fc422d18d89a589fa9fd4c0#code) | [0x9Dde7cdd09dbed542fC422d18d89A589fA9fD4C0](https://etherscan.io/address/0x9dde7cdd09dbed542fc422d18d89a589fa9fd4c0#code) |
+
 ## APR Interface
 
 {% tabs %}
@@ -195,4 +201,5 @@ contract ERC20Interface {
 }
 ```
 {% endtab %}
+
 {% endtabs %}
