@@ -10,7 +10,7 @@ With the onset of DeFi numerous strategies exist for the investor. To list just 
 * Swap ETH to USDC and lend on Aave.
 * Be a liquidity provider for ETH/USDC on Uniswap.
 
-The possible strategies are an exhaustive list.
+The possible strategies are an ever increasing list.
 
 * Do you trade your ETH to DAI and invest in DSR?
 * Do you go 2x long ETH on dYdX and take 50% to DAI swapped to cDAI and then 25%/25% into Uniswap cDAI/ETH liquidity?
@@ -41,7 +41,7 @@ To address the above concerns we developed [iearn.finance](https://iearn.finance
 * [Website](https://iearn.finance)
 * [Github](https://github.com/iearn-finance)
 
-## How it works
+## Quick TLDR
 
 The TLDR is a tokenized interest pool that optimizes on-chain investments strategies.
 
