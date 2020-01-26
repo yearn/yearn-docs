@@ -2,7 +2,7 @@
 
 | Contract | ABI | Address |
 | -- | -- | -- |
-| UniswapROI | [JSON](https://github.com/iearn-finance/zap/blob/master/build/contracts/UniSwap_ETH_CDAIZap.json) | [uniapr.iearn.eth](https://etherscan.io/address/0xd04ca0ae1cd8085438fdd8c22a76246f315c2687#readContract) |
+| UniswapROI | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/UniswapAPR.json) | [uniapr.iearn.eth](https://etherscan.io/address/0xd04ca0ae1cd8085438fdd8c22a76246f315c2687#readContract) |
 
 
 ## UniswapROI Interface
