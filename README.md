@@ -10,7 +10,13 @@ With the onset of DeFi numerous strategies exist for the investor. To list just 
 * Swap ETH to USDC and lend on Aave.
 * Be a liquidity provider for ETH/USDC on Uniswap.
 
-The possible strategies are an exhaustive list. Do you trade your ETH to DAI and invest in DSR? Do you go 2x long ETH on dYdX and take 50% to DAI swapped to cDAI and then 25%/25% into Uniswap cDAI/ETH liquidity? Do you hedge you cDAI into cUSDC and be an LP for curve.fi? The list of possibilities and analytics becomes far too numerous to manage.
+The possible strategies are an exhaustive list.
+
+* Do you trade your ETH to DAI and invest in DSR?
+* Do you go 2x long ETH on dYdX and take 50% to DAI swapped to cDAI and then 25%/25% into Uniswap cDAI/ETH liquidity?
+* Do you hedge your cDAI into cUSDC and be an LP for curve.fi?
+
+The list of possibilities and analytics becomes far too numerous to manage.
 
 To address the above concerns we developed iearn.finance
 
