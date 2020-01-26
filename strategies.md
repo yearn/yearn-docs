@@ -29,3 +29,46 @@ Uniswap is an on-chain liquidity pool for cross ERC20/ETH swaps. It allows ERC20
 [iearn.finance](https://iearn.finance) is a combination of these strategies. It analyzes the asset you want to invest and the highest returning strategy for it. So for ETH, it would analyze ETH vs cETH vs iETH vs aETH vs dETH. It would add % slippage as an adjusted result to offset the APR. After which it will calculate the highest volume pools that match the tokens. These strategies can be as simple as ETH into Compound, or as complex as ETH split to ETH/DAI, DAI into cDAI, and ETH/cDAI into Uniswap.
 
 This is what the [iearn.finance] protocol does.
+
+## iETH shares
+
+We start from a fresh pool 0 balance.
+
+1 ETH is deposited. 1 iETH is minted. At this point 1 ETH = 1 iETH.
+
+We have the following metrics;
+
+Pool value: 1 ETH
+Total supply/shares: 1 iETH
+
++1 ETH is deposited. 1 iETH is minted.
+
+Pool value: 2 ETH
+Total supply/shares: 2 iETH
+
+1 iETH can claim 1 ETH.
+
+The pool increases interest by 10%.
+
+Pool value: 2.2 ETH
+Total supply/shares: 2 iETH
+
+Now 1 iETH = 1.1 ETH
+
++1 ETH is deposited. 0.91 iETH is minted.
+
+The reason for this is that iETH functions as a % of shares of the pool.
+
+In this case;
+
+value(1 ETH) * total shares (2 iETH) / pool (2.2 ETH)
+
+1 * 2 / 2.2
+
+0.91 iETH
+
+This iETH is worth 0.909 / total shares (2.91) * pool (3.2)
+
+1 ETH.
+
+So as the pool value increases over time, the ratio of ETH to iETH will decouple. But the value of ETH that iETH can claim increases.
