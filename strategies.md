@@ -38,20 +38,23 @@ We start from a fresh pool 0 balance.
 
 We have the following metrics;
 
-Pool value: 1 ETH
-Total supply/shares: 1 iETH
+| Pool | Shares |
+| -- | -- |
+| 1 ETH | 1 iETH |
 
 +1 ETH is deposited. 1 iETH is minted.
 
-Pool value: 2 ETH
-Total supply/shares: 2 iETH
+| Pool | Shares |
+| -- | -- |
+| 2 ETH | 2 iETH |
 
 1 iETH can claim 1 ETH.
 
 The pool increases interest by 10%.
 
-Pool value: 2.2 ETH
-Total supply/shares: 2 iETH
+| Pool | Shares | Value |
+| -- | -- | -- |
+| 2.2 ETH | 2 iETH | 1.1 ETH |
 
 Now 1 iETH = 1.1 ETH
 
@@ -61,6 +64,7 @@ The reason for this is that iETH functions as a % of shares of the pool.
 
 In this case;
 
+```
 value(1 ETH) * total shares (2 iETH) / pool (2.2 ETH)
 
 1 * 2 / 2.2
@@ -70,5 +74,6 @@ value(1 ETH) * total shares (2 iETH) / pool (2.2 ETH)
 This iETH is worth 0.909 / total shares (2.91) * pool (3.2)
 
 1 ETH.
+```
 
 So as the pool value increases over time, the ratio of ETH to iETH will decouple. But the value of ETH that iETH can claim increases.
