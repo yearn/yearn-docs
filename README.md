@@ -36,6 +36,13 @@ To address the above concerns we developed [iearn.finance](https://iearn.finance
 * [shares redemption strategy](https://github.com/iearn-finance/itoken/blob/master/contracts/IEther.sol)
 * [pool value calculation](https://github.com/iearn-finance/itoken/blob/master/contracts/IEther.sol)
 
+## Features 27-01-2020
+
+* Add support for [Chai](https://chai.money/) as an option
+* Completed [uniroi.iearn.eth](https://etherscan.io/address/0xd04ca0ae1cd8085438fdd8c22a76246f315c2687#readContract) and liquidity considerations
+* Completed [uniapr.iearn.eth](https://etherscan.io/address/0x4c70D89A4681b2151F56Dc2c3FD751aBb9CE3D95#readContract) for APR considerations
+* Added [walkthrough example](https://docs.iearn.finance/walkthrough)
+
 ## Resources
 
 * [Website](https://iearn.finance)
