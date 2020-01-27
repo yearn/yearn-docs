@@ -1,3 +1,9 @@
+## strategies
+
+{% hint style="info" %}
+These docs are still being worked on.
+{% endhint %}
+
 ## 1split.eth
 
 [1split.eth](https://etherscan.io/address/1split.eth#code) is an on-chain dex aggregator developed by [1inch.exchange](https://1inch.exchange/). The contract allows on-chain quotes and swaps between all ERC20 assets from MultiSwap, Oasis, 0x, Kyber, Uniswap, Synthetix, Synth Depot, Bancor, Airswap, and Curve.fi.
@@ -19,7 +25,7 @@ The ROI is required for snapshots to be able to get 30 day, 7 day, or APR averag
 
 ## uniapr.iearn.eth
 
-[uniapr.iearn.eth](https://etherscan.io/address/0x4c70D89A4681b2151F56Dc2c3FD751aBb9CE3D95#readContract) is an on-chain uniswap pool APR calculator. It calculates all values in ETH adjusted for the last year. 
+[uniapr.iearn.eth](https://etherscan.io/address/0x4c70D89A4681b2151F56Dc2c3FD751aBb9CE3D95#readContract) is an on-chain uniswap pool APR calculator. It calculates all values in ETH adjusted for the last year.
 
 ## defizap.eth
 
