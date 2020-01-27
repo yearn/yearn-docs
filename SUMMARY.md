@@ -8,6 +8,7 @@
 * [Registry](smart-contract-integration/registry.md)
 * [APR Oracle](smart-contract-integration/apr.md)
 * [Uniswap ROI](smart-contract-integration/uniswaproi.md)
+* [Uniswap APR](smart-contract-integration/uniswapapr.md)
 * [DefiZap](smart-contract-integration/zap.md)
 * [iToken](smart-contract-integration/itoken.md)
 
