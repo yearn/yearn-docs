@@ -10,6 +10,16 @@ This allows [iearn.finance](https://iearn.finance) to aggregate the best rates o
 
 This allows real time comparison of highest returning yields across multiple platforms for all supported tokens.
 
+## uniroi.iearn.eth
+
+[uniroi.iearn.eth](https://etherscan.io/address/0xd04ca0ae1cd8085438fdd8c22a76246f315c2687#readContract) is an on-chain uniswap pool ROI calculator. It calculates all values in ETH the duration of the pool existence.
+
+The ROI is required for snapshots to be able to get 30 day, 7 day, or APR averages.
+
+
+## uniapr.iearn.eth
+
+[uniapr.iearn.eth](https://etherscan.io/address/0x4c70D89A4681b2151F56Dc2c3FD751aBb9CE3D95#readContract) is an on-chain uniswap pool APR calculator. It calculates all values in ETH adjusted for the last year. 
 
 ## defizap.eth
 

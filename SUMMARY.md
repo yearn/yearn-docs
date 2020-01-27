@@ -2,6 +2,7 @@
 
 * [Getting Started](README.md)
 * [How it works](strategies.md)
+* [Strategy Example](walkthrough.md)
 
 ## Smart Contract Integration
 
