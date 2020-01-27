@@ -1,7 +1,5 @@
 ## iearn.finance
 
-Example;
-
 You want to invest 1 ETH.
 
 The system starts by collecting the APR rates from [Compound](http://compound.finance), [Fulcrum](https://fulcrum.trade/), [Aave](http://aave.com/),  [dYdX](http://dydx.exchange/) and [Chai](https://chai.money/). This is achieved via [apr.iearn.eth](https://etherscan.io/address/0x97ff4a1b787ade6b94cca95b61f79417c673331d#readContract)
