@@ -37,8 +37,8 @@ interface IAPROracle {
   function getCSAIAPR() external view returns (uint256);
   function getCUSDCAPR() external view returns (uint256);
   function getCWBTCAPR() external view returns (uint256);
-  function getCZRCAPR() public view returns (uint256);
-  function getCompoundAPR(address token) public view returns (uint256);
+  function getCZRCAPR() external view returns (uint256);
+  function getCompoundAPR(address token) external view returns (uint256);
 
   function getAllDyDxAPR()
       external
@@ -51,10 +51,10 @@ interface IAPROracle {
       );
 
   // dYdX
-  function getDyDxSAIAPR() public view returns(uint256);
-  function getDyDxETHAPR() public view returns(uint256);
-  function getDyDxUSDCAPR() public view returns(uint256);
-  function getDyDxDAIAPR() public view returns(uint256);
+  function getDyDxSAIAPR() external view returns (uint256);
+  function getDyDxETHAPR() external view returns (uint256);
+  function getDyDxUSDCAPR() external view returns (uint256);
+  function getDyDxDAIAPR() external view returns (uint256);
 
   function getAllFulcrumAPR()
       external
@@ -73,20 +73,20 @@ interface IAPROracle {
       );
 
   // Fulcrum
-  function getIZRXAPR() public view returns (uint256);
-  function getIREPAPR() public view returns (uint256);
-  function getIKNCAPR() public view returns (uint256);
-  function getIWBTCAPR() public view returns (uint256);
-  function getIUSDCAPR() public view returns (uint256);
-  function getIETHAPR() public view returns (uint256);
-  function getISAIAPR() public view returns (uint256);
-  function getIDAIAPR() public view returns (uint256);
-  function getILINKAPR() public view returns (uint256);
-  function getISUSDAPR() public view returns (uint256);
+  function getIZRXAPR() external view returns (uint256);
+  function getIREPAPR() external view returns (uint256);
+  function getIKNCAPR() external view returns (uint256);
+  function getIWBTCAPR() external view returns (uint256);
+  function getIUSDCAPR() external view returns (uint256);
+  function getIETHAPR() external view returns (uint256);
+  function getISAIAPR() external view returns (uint256);
+  function getIDAIAPR() external view returns (uint256);
+  function getILINKAPR() external view returns (uint256);
+  function getISUSDAPR() external view returns (uint256);
 
-  function getFulcrumAPR(address token) public view returns(uint256);
+  function getFulcrumAPR(address token) external view returns(uint256);
 
-  function getDyDxAPR(uint256 marketId) public view returns(uint256);
+  function getDyDxAPR(uint256 marketId) external view returns(uint256);
 
   function getAllAaveAPR()
       external
@@ -106,24 +106,24 @@ interface IAPROracle {
           uint256 aSNX
       );
 
-  function getADAIAPR() public view returns (uint256);
-  function getATUSDAPR() public view returns (uint256);
-  function getAUSDCAPR() public view returns (uint256);
-  function getAUSDTAPR() public view returns (uint256);
-  function getASUSDAPR() public view returns (uint256);
-  function getALENDAPR() public view returns (uint256);
-  function getABATAPR() public view returns (uint256);
-  function getAETHAPR() public view returns (uint256);
-  function getALINKAPR() public view returns (uint256);
-  function getAKNCAPR() public view returns (uint256);
-  function getAREPAPR() public view returns (uint256);
-  function getAMKRAPR() public view returns (uint256);
-  function getAMANAAPR() public view returns (uint256);
-  function getAZRXAPR() public view returns (uint256);
-  function getASNXAPR() public view returns (uint256);
-  function getAWBTCAPR() public view returns (uint256);
+  function getADAIAPR() external view returns (uint256);
+  function getATUSDAPR() external view returns (uint256);
+  function getAUSDCAPR() external view returns (uint256);
+  function getAUSDTAPR() external view returns (uint256);
+  function getASUSDAPR() external view returns (uint256);
+  function getALENDAPR() external view returns (uint256);
+  function getABATAPR() external view returns (uint256);
+  function getAETHAPR() external view returns (uint256);
+  function getALINKAPR() external view returns (uint256);
+  function getAKNCAPR() external view returns (uint256);
+  function getAREPAPR() external view returns (uint256);
+  function getAMKRAPR() external view returns (uint256);
+  function getAMANAAPR() external view returns (uint256);
+  function getAZRXAPR() external view returns (uint256);
+  function getASNXAPR() external view returns (uint256);
+  function getAWBTCAPR() external view returns (uint256);
 
-  function getAaveAPR(address token) public view returns (uint256);
+  function getAaveAPR(address token) external view returns (uint256);
 }
 ```
 {% endtab %}
