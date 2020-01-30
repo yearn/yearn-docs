@@ -20,6 +20,7 @@
 * [Registry](smart-contract-integration/registry.md)
 * [iETH](smart-contract-integration/itoken.md)
 * [yDAI](smart-contract-integration/ydai.md)
+* [yUSDC](smart-contract-integration/yusdc.md)
 
 ## Lending Proxies
 
