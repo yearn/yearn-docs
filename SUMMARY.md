@@ -15,6 +15,12 @@
 * [DefiZap](smart-contract-integration/zap.md)
 * [iToken](smart-contract-integration/itoken.md)
 
+## Yield Tokens
+
+* [Registry](smart-contract-integration/registry.md)
+* [iETH](smart-contract-integration/itoken.md)
+* [yDAI](smart-contract-integration/ydai.md)
+
 ## Lending Proxies
 
 * [Aave](smart-contract-integration/aave.md)
