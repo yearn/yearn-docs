@@ -4,14 +4,14 @@
 | -- | -- | -- |
 | yDAI | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yDAI.json) | [ydai.iearn.eth](https://etherscan.io/address/0x9d25057e62939d3408406975ad75ffe834da4cdd#readContract) |
 
-## yDAI Interface
+## IyDAI Interface
 
 {% tabs %}
-{% tab title="yDAI.sol" %}
+{% tab title="IyDAI.sol" %}
 ```javascript
 // Solidity Interface
 
-interface yDAI {
+interface IyDAI {
 
   function recommend() external view returns (uint256);
 
@@ -30,23 +30,14 @@ interface yDAI {
   function balanceCompound() external view returns (uint256);
   function balanceCompoundInToken() external view returns (uint256);
   function balanceFulcrumInToken() external view returns (uint256);
-  function balanceFulcrum() external view returns (uint256;
+  function balanceFulcrum() external view returns (uint256);
   function balanceAave() external view returns (uint256);
-
-  function withdrawAll() external;
-
-  function withdrawSomeCompound(uint256 _amount) external;
-
-  function withdrawSome(uint256 _amount) external;
 
   function rebalance() external;
 
   function supplyAave(uint amount) external;
   function supplyFulcrum(uint amount) external;
   function supplyCompound(uint amount) external;
-  function withdrawAave(uint amount) external;
-  function withdrawFulcrum(uint amount) external;
-  function withdrawCompound(uint amount) external;
 
   // Invest ETH
   function invest(uint256 _amount) external;
@@ -54,9 +45,9 @@ interface yDAI {
   // Invest self eth from external profits
   function investSelf() external;
 
-  function calcPoolValueInToken() external view returns;
+  function calcPoolValueInToken() external view returns (uint256);
 
-  function getPricePerFullShare() external view returns;
+  function getPricePerFullShare() external view returns (uint256);
 
   // Redeem any invested tokens from the pool
   function redeem(uint256 _shares) external;
