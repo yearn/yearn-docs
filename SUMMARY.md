@@ -35,6 +35,7 @@
 
 * [1split](smart-contract-integration/1split.md)
 * [Uniswap](smart-contract-integration/uniswap.md)
+* [curve.fi](smart-contract-integration/curvefi.md)
 
 ## zaps
 
