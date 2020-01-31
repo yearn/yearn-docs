@@ -43,6 +43,16 @@ To address the above concerns we developed [iearn.finance](https://iearn.finance
 * Completed [uniapr.iearn.eth](https://etherscan.io/address/0x4c70D89A4681b2151F56Dc2c3FD751aBb9CE3D95#readContract) for APR considerations
 * Added [walkthrough example](https://docs.iearn.finance/walkthrough)
 
+## Features 31-01-2020
+
+* Invest / Redeem ZAP for [Compound](http://compound.finance), [Fulcrum](https://fulcrum.trade/), [Aave](http://aave.com/), and [dYdX](http://dydx.exchange/)
+* Completed [iapr.iearn.eth](https://etherscan.io/address/0x9cad8ab10daa9af1a9d2b878541f41b697268eec#readContract) for on-chain APR decision trees
+* Completed [imanage.iearn.eth](https://etherscan.io/address/0x318135fbd0b40d48fcef431ccdf6c7926450edfb#readContract) for on-chain stateless execution
+* Added support for [DAI](https://etherscan.io/address/0x9d25057e62939d3408406975ad75ffe834da4cdd#readContract)
+* Added support for [USDT](https://etherscan.io/address/0xa1787206d5b1bE0f432C4c4f96Dc4D1257A1Dd14)
+* Added support for [USDC](https://etherscan.io/address/0xa2609b2b43ac0f5ebe27deb944d2a399c201e3da)
+* Added support for [SUSD](https://etherscan.io/address/0x36324b8168f960A12a8fD01406C9C78143d41380)
+
 ## Resources
 
 * [Website](https://iearn.finance)
