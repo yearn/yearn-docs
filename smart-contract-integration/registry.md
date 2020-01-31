@@ -16,3 +16,5 @@
 | iEther | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/IEther.json) | [ieth.iearn.eth](https://etherscan.io/address/0x9dde7cdd09dbed542fc422d18d89a589fa9fd4c0#code) |
 | yDAI | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yDAI.json) | [ydai.iearn.eth](https://etherscan.io/address/0x9d25057e62939d3408406975ad75ffe834da4cdd#readContract) |
 | yUSDC | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDC.json) | [yusdc.iearn.eth](https://etherscan.io/address/0xa2609b2b43ac0f5ebe27deb944d2a399c201e3da) |
+| ySUSD | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/ySUSD.json) | [ysusd.iearn.eth](https://etherscan.io/address/0x36324b8168f960A12a8fD01406C9C78143d41380) |
+| yUSDT | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDT.json) | [yusdt.iearn.eth](https://etherscan.io/address/0xa1787206d5b1bE0f432C4c4f96Dc4D1257A1Dd14) |

@@ -21,6 +21,8 @@
 * [iETH](smart-contract-integration/itoken.md)
 * [yDAI](smart-contract-integration/ydai.md)
 * [yUSDC](smart-contract-integration/yusdc.md)
+* [yUSDT](smart-contract-integration/yusdt.md)
+* [ySUSD](smart-contract-integration/ysusd.md)
 
 ## Lending Proxies
 
