@@ -2,7 +2,7 @@
 
 | Contract | ABI | Address |
 | -- | -- | -- |
-| APROracle | [JSON](https://github.com/iearn-finance/apr-oracle/blob/master/build/contracts/APRWithPoolOracle.json) | [apradj.iearn.eth](https://etherscan.io/address/0xDAe803688cbaa5eB0EA17e1332569F0C235f5A54#code) |
+| APRWithPoolOracle | [JSON](https://github.com/iearn-finance/apr-oracle/blob/master/build/contracts/APRWithPoolOracle.json) | [apradj.iearn.eth](https://etherscan.io/address/0xDAe803688cbaa5eB0EA17e1332569F0C235f5A54#code) |
 
 ## APRWithPoolOracle Interface
 
