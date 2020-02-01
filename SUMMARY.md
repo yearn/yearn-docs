@@ -8,6 +8,7 @@
 
 * [Registry](smart-contract-integration/registry.md)
 * [APR Oracle](smart-contract-integration/apr.md)
+* [APR Pool Inc Oracle](smart-contract-integration/aprwithpool.md)
 * [APR Decision Tree](smart-contract-integration/aprmap.md)
 * [Uniswap ROI](smart-contract-integration/uniswaproi.md)
 * [Uniswap APR](smart-contract-integration/uniswapapr.md)
