@@ -24,6 +24,7 @@
 * [yUSDC](smart-contract-integration/yusdc.md)
 * [yUSDT](smart-contract-integration/yusdt.md)
 * [ySUSD](smart-contract-integration/ysusd.md)
+* [yCRV](smart-contract-integration/ycrv.md)
 
 ## Lending Proxies
 
