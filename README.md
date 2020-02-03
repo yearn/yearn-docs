@@ -53,6 +53,12 @@ To address the above concerns we developed [iearn.finance](https://iearn.finance
 * Added support for [USDC](https://etherscan.io/address/0xa2609b2b43ac0f5ebe27deb944d2a399c201e3da)
 * Added support for [SUSD](https://etherscan.io/address/0x36324b8168f960A12a8fD01406C9C78143d41380)
 
+## Features 03-02-2020
+
+* Support for [DDEX](https://ddex.io/) in [apradj.iearn.eth](https://etherscan.io/address/0xf3d03255A10371F932E883fA1a04b955cC1C1185#code)
+* Support for [LENDF](https://www.lendf.me/) in [apradj.iearn.eth](https://etherscan.io/address/0xf3d03255A10371F932E883fA1a04b955cC1C1185#code)
+* Added support for [wBTC](https://etherscan.io/address/0x04ef8121ad039ff41d10029c91ea1694432514e9)
+
 ## Resources
 
 * [Website](https://iearn.finance)

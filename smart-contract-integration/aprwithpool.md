@@ -2,7 +2,7 @@
 
 | Contract | ABI | Address |
 | -- | -- | -- |
-| APRWithPoolOracle | [JSON](https://github.com/iearn-finance/apr-oracle/blob/master/build/contracts/APRWithPoolOracle.json) | [apradj.iearn.eth](https://etherscan.io/address/0xDAe803688cbaa5eB0EA17e1332569F0C235f5A54#code) |
+| APRWithPoolOracle | [JSON](https://github.com/iearn-finance/apr-oracle/blob/master/build/contracts/APRWithPoolOracle.json) | [apradj.iearn.eth](https://etherscan.io/address/0xf3d03255A10371F932E883fA1a04b955cC1C1185#code) |
 
 ## APRWithPoolOracle Interface
 
@@ -12,7 +12,10 @@
 // Solidity Interface
 
 interface APRWithPoolOracle {
-
+  function getLENDFAPR(address token) external view returns (uint256);
+  function getLENDFAPRAdjusted(address token, uint256 _supply) external view returns (uint256);
+  function getDDEXAPR(address token) external view returns (uint256);
+  function getDDEXAPRAdjusted(address token, uint256 _supply) external view returns (uint256);
   function getCompoundAPR(address token) external view returns (uint256);
   function getCompoundAPRAdjusted(address token, uint256 _supply) external view returns (uint256);
   function getFulcrumAPR(address token) external view returns(uint256);
@@ -22,8 +25,8 @@ interface APRWithPoolOracle {
   function getAaveCore() external view returns (address);
   function getAaveAPR(address token) external view returns (uint256);
   function getAaveAPRAdjusted(address token, uint256 _supply) external view returns (uint256);
-
 }
+
 ```
 {% endtab %}
 {% endtabs %}
