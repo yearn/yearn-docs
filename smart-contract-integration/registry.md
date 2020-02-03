@@ -20,3 +20,4 @@
 | ySUSD | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/ySUSD.json) | [ysusd.iearn.eth](https://etherscan.io/address/0x36324b8168f960A12a8fD01406C9C78143d41380) |
 | yUSDT | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDT.json) | [yusdt.iearn.eth](https://etherscan.io/address/0xa1787206d5b1bE0f432C4c4f96Dc4D1257A1Dd14) |
 | IyCRV | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yCRV.json) | [ycrv.iearn.eth](https://etherscan.io/address/0x9Ce551A9D2B1A4Ec0cc6eB0E0CC12977F6ED306C) |
+| yBTC | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yBTC.json) | [ybtc.iearn.eth](https://etherscan.io/address/0x04ef8121ad039ff41d10029c91ea1694432514e9#readContract) |
