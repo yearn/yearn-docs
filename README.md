@@ -55,8 +55,8 @@ To address the above concerns we developed [iearn.finance](https://iearn.finance
 
 ## Features 03-02-2020
 
-* Support for [DDEX](https://ddex.io/) in [apradj.iearn.eth](https://etherscan.io/address/0xf3d03255A10371F932E883fA1a04b955cC1C1185#code)
-* Support for [LENDF](https://www.lendf.me/) in [apradj.iearn.eth](https://etherscan.io/address/0xf3d03255A10371F932E883fA1a04b955cC1C1185#code)
+* Support for [DDEX](https://ddex.io/) in [apradj.iearn.eth](https://etherscan.io/address/0x62202691232bAc5fbf101b6f88713f44fAd939Ae#code)
+* Support for [LENDF](https://www.lendf.me/) in [apradj.iearn.eth](https://etherscan.io/address/0x62202691232bAc5fbf101b6f88713f44fAd939Ae#code)
 * Added support for [wBTC](https://etherscan.io/address/0x04ef8121ad039ff41d10029c91ea1694432514e9)
 
 ## Resources
