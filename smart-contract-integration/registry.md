@@ -8,7 +8,7 @@
 | UniswapAPR | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/UniswapAPR.json) | [uniapr.iearn.eth](https://etherscan.io/address/0x4c70D89A4681b2151F56Dc2c3FD751aBb9CE3D95#readContract) |
 | IEarnAPR | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/IEarnAPR.json) | [iapr.iearn.eth](https://etherscan.io/address/0x9cad8ab10daa9af1a9d2b878541f41b697268eec#readContract) |
 | IEarnManager | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/IEarnManager.json) | [imanage.iearn.eth](https://etherscan.io/address/0x318135fbd0b40d48fcef431ccdf6c7926450edfb#readContract) |
-| APRWithPoolOracle | [JSON](https://github.com/iearn-finance/apr-oracle/blob/master/build/contracts/APRWithPoolOracle.json) | [apradj.iearn.eth](https://etherscan.io/address/0x044dad5c0Da888c93d8244261b67bD431B47CA14#code) |
+| APRWithPoolOracle | [JSON](https://github.com/iearn-finance/apr-oracle/blob/master/build/contracts/APRWithPoolOracle.json) | [apradj.iearn.eth](https://etherscan.io/address/0xeC3aDd301dcAC0e9B0B880FCf6F92BDfdc002BBc#code) |
 | IEarnAPRWithPool | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/IEarnAPRWithPool.json) | [iapradj.iearn.eth](https://etherscan.io/address/0xcD5F61c392B61F440991DEf98FF6Af07FC6900D4#readContract) |
 
 # Yield Tokens
