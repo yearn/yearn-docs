@@ -4,6 +4,51 @@
 These docs are still being worked on.
 {% endhint %}
 
+## What is it?
+
+The purpose of [iearn.finance](https://iearn.finance) is very simple. Yield aggregator for lending platforms that rebalances for highest yield whenever the contract is interacted with.
+
+Full documentation available [docs.iearn.finance](http://docs.iearn.finance/)
+
+The system currently supports;
+
+$DAI
+$USDC
+$USDT
+sUSD
+[DAI-USDC](https://www.curve.fi/)
+wBTC
+$ETH
+
+Upcoming support for $BAT, $KNC, $LINK, $MKR, $REP, $SNX, $ZRX.
+
+The system current aggregates;
+
+[Compound](http://compound.finance/)
+[Fulcrum](https://fulcrum.trade/)
+[dYdX](http://dydx.exchange/)
+[Aave](http://aave.com/)
+
+Busy integrating [DDEX](https://ddex.io/) and [LENDF](https://www.lendf.me/).
+
+## Comparative products
+
+Similar services in this space include staked.us [RAY](https://staked.us/v/robo-advisor-yield), [idleDAI](http://idle.finance/), [topo](https://topo.finance/) (not yet launched), and metamoneymarkets (not yet launched).
+
+## Why build it?
+
+The system simplifies the user journey so that the #DeFi investor does not have to worry about the underlying protocols, yield hunting or understanding complex #DeFi strategies.
+
+It simplifies complex strategies like being an LP provider to [Uniswap](https://uniswap.io/) (via iETH) or depositing DAI into cDAI with swap from cDAI to cUSDC and into [Curve](https://www.curve.fi/), a strategy example [docs.iearn.finance](http://docs.iearn.finance/)
+
+When comparing interest, it also considers LP opportunities with the underlying token protocol, so it won’t just compare [iDAI](https://fulcrum.trade/) with [cDAI](http://compound.finance/), but also weigh up how much APR is possible by being an LP for ETH/cDAI and adjusts the cDAI performance based on this calculation.
+
+## Anything else?
+
+The system is built out of different mini components (heavily inspired by [DeFi_Zap](https://defizap.com/)) that are usable and composable on-chain, such as APR aggregators, recommendation decision trees, or just interfaces. Full documentation registry and interfaces available [docs.iearn.finance](http://docs.iearn.finance/)
+
+## Detailed Introduction
+
 With the onset of DeFi numerous strategies exist for the investor. To list just a few;
 
 * Lend out ETH in Compound.
@@ -20,7 +65,7 @@ The list of possibilities and analytics becomes far too numerous to manage.
 
 To address the above concerns we developed [iearn.finance](https://iearn.finance)
 
-[iearn.finance](https://iearn.finance) is a set of protocols with simplicity in mind. You provide the asset you wish to earn on, swap it for it's representative token (ETH to iETH), and the underlying ETH will be invested based on the current most optimal strategy. This engine is not a rates aggregator that then puts your ETH into Fulcrum, because it has the highest rate. Instead it analyzes strategies across different spheres. It takes into consideration pool liquidity in Uniswap, and if there might be a better strategy for fees since this is a hedged position. It will look for swap oppurtunities between multiple exchanges for the least amount of slippage.
+[iearn.finance](https://iearn.finance) is a set of protocols with simplicity in mind. You provide the asset you wish to earn on, swap it for it's representative token (ETH to iETH), and the underlying ETH will be invested based on the current most optimal strategy. This engine is not a rates aggregator that then puts your ETH into Fulcrum, because it has the highest rate. Instead it analyzes strategies across different spheres. It takes into consideration pool liquidity in Uniswap, and if there might be a better strategy for fees since this is a hedged position. It will look for swap opportunities between multiple exchanges for the least amount of slippage.
 
 [iearn.finance](https://iearn.finance) is an open source protocol. There is no central token or platform fee. No bias towards any investor. Strategies can be added in an open and free manner. All smart contract functions are public.
 
@@ -66,30 +111,6 @@ To address the above concerns we developed [iearn.finance](https://iearn.finance
 
 * [Website](https://iearn.finance)
 * [Github](https://github.com/iearn-finance)
-
-## Quick TLDR
-
-The TLDR is a tokenized interest pool that optimizes on-chain investments strategies.
-
-Or simplistically put, invest ETH get iETH, iETH accrues interest. iETH is a normal token.
-
-The system does the following;
-
-Get pools with best liquidity rates on Uniswap (Adding additional pool support as well, but for now just Uniswap supported).
-
-See which pool tokens have the highest rate of return including their own interest rates (so factoring on iDAI vs cDAI vs aDAI vs dDAI).
-
-After the decision tree, splits the investment (ETH) 50/50, compares trade rates at Uniswap, Kyber, Multiswap, Paraswap, Maker, 0x, Airswap, Oasis for the best swap rate with least amount of slippage. Swap that portion of ETH for DAI. Deposits the DAI into Fulcrum, dYdX, Compound, or Aave dependent on best rates, deposit the ETH/cDAI (for example) pair into Uniswap.
-
-Additional strategies; 2x long ETH on dYdX for 100% ETH exposure, CompoundSwap system that trades between iETH/cDAI, or iDAI/cETH etc which uses itself as a first line vendor and falls through to the on-chain aggregated engine as a second line support. Reasoning for this is to use cETH/iETH as well in the pool swap instead of just 50% ETH to add the ETH rewards ontop as well.
-
-Here is an example of the [invest strategy](https://etherscan.io/tx/0x7e7fa4fe01bba24ee2383386c3804ed8ee79c1ed787b8177aa9c963cd489b355)
-
-Here is an example of the [redeem strategy](https://etherscan.io/tx/0x3854a62e3026c9f559b92e9c9b15393a2228ae0f359c6a20d479d2f0e3aa0b93)
-
-[Contract code](https://etherscan.io/address/0x9dde7cdd09dbed542fc422d18d89a589fa9fd4c0#code)
-
-Simple [metamask interface](https://iearn.finance/)
 
 ## How to use it
 
