@@ -12,24 +12,24 @@ Full documentation available [docs.iearn.finance](http://docs.iearn.finance/)
 
 The system currently supports;
 
-$DAI
-$USDC
-$USDT
-sUSD
-[DAI-USDC](https://www.curve.fi/)
-wBTC
-$ETH
+$DAI  
+$USDC  
+$USDT  
+sUSD  
+[DAI-USDC](https://www.curve.fi/)  
+wBTC  
+$ETH  
 
 Upcoming support for $BAT, $KNC, $LINK, $MKR, $REP, $SNX, $ZRX.
 
 The system current aggregates;
 
-[Compound](http://compound.finance/)
-[Fulcrum](https://fulcrum.trade/)
-[dYdX](http://dydx.exchange/)
-[Aave](http://aave.com/)
+[Compound](http://compound.finance/)  
+[Fulcrum](https://fulcrum.trade/)  
+[dYdX](http://dydx.exchange/)  
+[Aave](http://aave.com/)  
 
-Busy integrating [DDEX](https://ddex.io/) and [LENDF](https://www.lendf.me/).
+Pending integration for [DDEX](https://ddex.io/) and [LENDF](https://www.lendf.me/).
 
 ## Comparative products
 
