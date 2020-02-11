@@ -22,3 +22,9 @@
 | yUSDT | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDT.json) | [yusdt.iearn.eth](https://etherscan.io/address/0xa1787206d5b1bE0f432C4c4f96Dc4D1257A1Dd14) |
 | IyCRV | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yCRV.json) | [ycrv.iearn.eth](https://etherscan.io/address/0x9Ce551A9D2B1A4Ec0cc6eB0E0CC12977F6ED306C) |
 | yBTC | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yBTC.json) | [ybtc.iearn.eth](https://etherscan.io/address/0x04ef8121ad039ff41d10029c91ea1694432514e9#readContract) |
+
+# v2 Yield Tokens
+
+| Contract | ABI | Address |
+| -- | -- | -- |
+| yDAIv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yDAI.json) | [ydai.iearn.eth](https://etherscan.io/address/0xF86D55A3C6d93E77977b5Ece9Ff66E45F98ee982#readContract) |

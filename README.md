@@ -107,6 +107,11 @@ To address the above concerns we developed [iearn.finance](https://iearn.finance
 * Support for [DDEX](https://ddex.io/) in [iapradj.iearn.eth](https://etherscan.io/address/0xcD5F61c392B61F440991DEf98FF6Af07FC6900D4#readContract)
 * Support for [LENDF](https://www.lendf.me/) in [iapradj.iearn.eth](https://etherscan.io/address/0xcD5F61c392B61F440991DEf98FF6Af07FC6900D4#readContract)
 
+## Features 12-02-2020
+
+* Added yDAI v2 upgrades [ydaiv2.iearn.eth](https://etherscan.io/address/0xF86D55A3C6d93E77977b5Ece9Ff66E45F98ee982#readContract)
+* Reduced gas costs from 1.5MM to 250k for withdraw & deposit
+
 ## Resources
 
 * [Website](https://iearn.finance)

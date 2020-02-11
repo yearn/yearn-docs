@@ -2,7 +2,9 @@
 
 | Contract | ABI | Address |
 | -- | -- | -- |
-| yDAI | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yDAI.json) | [ydai.iearn.eth](https://etherscan.io/address/0x9d25057e62939d3408406975ad75ffe834da4cdd#readContract) |
+| yDAIv1 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yDAI.json) | [ydai.iearn.eth](https://etherscan.io/address/0x9d25057e62939d3408406975ad75ffe834da4cdd#readContract) |
+| yDAIv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yDAI.json) | [ydai.iearn.eth](https://etherscan.io/address/0xF86D55A3C6d93E77977b5Ece9Ff66E45F98ee982#readContract) |
+
 
 ## IyDAI Interface
 
