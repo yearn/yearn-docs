@@ -111,7 +111,8 @@ To address the above concerns we developed [iearn.finance](https://iearn.finance
 
 * Added yDAI v2 upgrades [ydaiv2.iearn.eth](https://etherscan.io/address/0xF86D55A3C6d93E77977b5Ece9Ff66E45F98ee982#readContract)
 * Added yUSDC v2 upgrades [yusdcv2.iearn.eth](https://etherscan.io/address/0xd6aD7a6750A7593E092a9B218d66C0A814a3436e)
-* Added yUSDT v2 upgrades [yusdtv2.iearn.eth](https://etherscan.io/address/0x83f798e925BcD4017Eb265844FDDAbb448f1707D)
+* Added yUSDT v2 upgrades [yusdtv2.iearn.eth](https://etherscan.io/address/0x83f798e925BcD4017Eb265844FDDAbb448f1707D)\
+* Added ySUSD v2 upgrades [ysusdv2.iearn.eth](https://etherscan.io/address/0xF61718057901F84C4eEC4339EF8f0D86D2B45600)
 * Reduced gas costs from 1.5MM to 250k for withdraw & deposit
 
 ## Resources
