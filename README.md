@@ -110,6 +110,7 @@ To address the above concerns we developed [iearn.finance](https://iearn.finance
 ## Features 12-02-2020
 
 * Added yDAI v2 upgrades [ydaiv2.iearn.eth](https://etherscan.io/address/0xF86D55A3C6d93E77977b5Ece9Ff66E45F98ee982#readContract)
+* Added yUSDC v2 upgrades [yusdcv2.iearn.eth](https://etherscan.io/address/0xd6aD7a6750A7593E092a9B218d66C0A814a3436e)
 * Reduced gas costs from 1.5MM to 250k for withdraw & deposit
 
 ## Resources
