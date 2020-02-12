@@ -2,19 +2,18 @@
 
 | Contract | ABI | Address |
 | -- | -- | -- |
-| ySUSD | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/ySUSD.json) | [ysusd.iearn.eth](https://etherscan.io/address/0x36324b8168f960A12a8fD01406C9C78143d41380) |
-| ySUSDv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/ySUSD.json) | [ysusd.iearn.eth](https://etherscan.io/address/0xF61718057901F84C4eEC4339EF8f0D86D2B45600) |
+| yTUSDv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yTUSD.json) | [ytusd.iearn.eth](https://etherscan.io/address/0x73a052500105205d34daf004eab301916da8190f) |
 
 
 
-## IySUSD Interface
+## IyTUSD Interface
 
 {% tabs %}
-{% tab title="IySUSD.sol" %}
+{% tab title="IyTUSD.sol" %}
 ```javascript
 // Solidity Interface
 
-interface IySUSD {
+interface IyTUSD {
 
   function withdraw(uint256 _shares) external;
   function deposit(uint256 _amount) external;
