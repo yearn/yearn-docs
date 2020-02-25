@@ -17,7 +17,6 @@
 * [Uniswap APR](smart-contract-integration/uniswapapr.md)
 * [iManager](smart-contract-integration/imanage.md)
 * [DefiZap](smart-contract-integration/zap.md)
-* [iToken](smart-contract-integration/itoken.md)
 
 ## v2 Yield Tokens
 
