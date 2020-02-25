@@ -45,3 +45,13 @@
 * Added yTUSD v2 upgrades [ytusdv2.iearn.eth](https://etherscan.io/address/0x73a052500105205d34daf004eab301916da8190f)
 * Added yWBTC v2 upgrades [ybtcv2.iearn.eth](https://etherscan.io/address/0x04Aa51bbcB46541455cCF1B8bef2ebc5d3787EC9#readContract)
 * Reduced gas costs from 1.5MM to 250k for withdraw & deposit
+
+## Features 16-02-2020
+
+* Added to [duneanalytics.com](https://www.duneanalytics.com/) dashboards
+* Integrated [renproject.io](https://renproject.io/))
+* Curve Finance yToken pool deployed to [y.curve.fi](https://y.curve.fi/)
+* Added https://app.nexusmutual.io/#/SmartContractCover cover for [iearn.finance](http://iearn.finance/) and [y.curve.fi](https://y.curve.fi/)
+* [paraswap.io](https://paraswap.io/#/DAI-TUSD/1000) integrates [y.curve.fi](https://y.curve.fi/)
+* [defisnap.io](https://www.defisnap.io/) included v2 yTokens
+* [0x](https://0x.org/) integrates [y.curve.fi](https://y.curve.fi/)
