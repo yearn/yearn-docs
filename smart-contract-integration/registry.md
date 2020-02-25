@@ -1,4 +1,15 @@
-# Smart Contract Registry
+# v2 Yield Tokens
+
+| Contract | ABI | Address |
+| -- | -- | -- |
+| yDAIv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yDAI.json) | [ydaiv2.iearn.eth](https://etherscan.io/address/0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01#readContract) |
+| yUSDCv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDC.json) | [yusdcv2.iearn.eth](https://etherscan.io/address/0xd6aD7a6750A7593E092a9B218d66C0A814a3436e) |
+| yUSDTv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDT.json) | [yusdtv2.iearn.eth](https://etherscan.io/address/0x83f798e925BcD4017Eb265844FDDAbb448f1707D) |
+| ySUSDv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/ySUSD.json) | [ysusdv2.iearn.eth](https://etherscan.io/address/0xF61718057901F84C4eEC4339EF8f0D86D2B45600) |
+| yTUSDv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yTUSD.json) | [ytusdv2.iearn.eth](https://etherscan.io/address/0x73a052500105205d34daf004eab301916da8190f) |
+| yBTCv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yBTC.json) | [ybtcv2.iearn.eth](https://etherscan.io/address/0x04Aa51bbcB46541455cCF1B8bef2ebc5d3787EC9#readContract) |
+
+# Utility Contracts
 
 | Contract | ABI | Address |
 | -- | -- | -- |
@@ -22,14 +33,3 @@
 | yUSDT | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDT.json) | [yusdt.iearn.eth](https://etherscan.io/address/0xa1787206d5b1bE0f432C4c4f96Dc4D1257A1Dd14) |
 | IyCRV | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yCRV.json) | [ycrv.iearn.eth](https://etherscan.io/address/0x9Ce551A9D2B1A4Ec0cc6eB0E0CC12977F6ED306C) |
 | yBTC | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yBTC.json) | [ybtc.iearn.eth](https://etherscan.io/address/0x04ef8121ad039ff41d10029c91ea1694432514e9#readContract) |
-
-# v2 Yield Tokens
-
-| Contract | ABI | Address |
-| -- | -- | -- |
-| yDAIv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yDAI.json) | [ydaiv2.iearn.eth](https://etherscan.io/address/0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01#readContract) |
-| yUSDCv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDC.json) | [yusdcv2.iearn.eth](https://etherscan.io/address/0xd6aD7a6750A7593E092a9B218d66C0A814a3436e) |
-| yUSDTv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDT.json) | [yusdtv2.iearn.eth](https://etherscan.io/address/0x83f798e925BcD4017Eb265844FDDAbb448f1707D) |
-| ySUSDv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/ySUSD.json) | [ysusdv2.iearn.eth](https://etherscan.io/address/0xF61718057901F84C4eEC4339EF8f0D86D2B45600) |
-| yTUSDv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yTUSD.json) | [ytusdv2.iearn.eth](https://etherscan.io/address/0x73a052500105205d34daf004eab301916da8190f) |
-| yBTCv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yBTC.json) | [ybtcv2.iearn.eth](https://etherscan.io/address/0x04Aa51bbcB46541455cCF1B8bef2ebc5d3787EC9#readContract) |
