@@ -4,6 +4,7 @@
 * [iearn.finance](iearn.md)
 * [y.curve.fi](curve.md)
 * [Features](features.md)
+* [Resources](resources.md)
 
 ## Smart Contract Integration
 
