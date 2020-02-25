@@ -20,9 +20,8 @@ Check out on-chain APR live at
 
 ## Analytics
 
-Dune Analytics Dashboard
-
 [duneanalytics.com/curve](http://duneanalytics.com/curve)
+[pools.fyi](http://pools.fyi/)
 
 ## Insurance [Nexus Mutual](https://app.nexusmutual.io/#/SmartContractCover)
 
