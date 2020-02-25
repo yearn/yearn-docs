@@ -22,7 +22,7 @@
 | APRWithPoolOracle | [JSON](https://github.com/iearn-finance/apr-oracle/blob/master/build/contracts/APRWithPoolOracle.json) | [apradj.iearn.eth](https://etherscan.io/address/0xAE8F37F0e8AD690486bFA2495113d7E94B7a7Ba6#code) |
 | IEarnAPRWithPool | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/IEarnAPRWithPool.json) | [iapradj.iearn.eth](https://etherscan.io/address/0xcD5F61c392B61F440991DEf98FF6Af07FC6900D4#readContract) |
 
-# Yield Tokens
+# v1 Yield Tokens (deprecated)
 
 | Contract | ABI | Address |
 | -- | -- | -- |
