@@ -13,13 +13,13 @@ Dune Analytics Dashboard
 
 [duneanalytics.com/curve](http://duneanalytics.com/curve)  
 
-Zap In/Out of[iearn.finance](https://iearn.finance) and swap between Curve Pools  
+Zap In/Out of [iearn.finance](https://iearn.finance) and swap between Curve Pools  
 
-[Zaps](https://iearn.finance/zap)  
+[iearn.finance/zap](https://iearn.finance/zap)  
 
 Check out on-chain APR live at  
 
-[APR](https://iearn.finance/apr)  
+[iearn.finance/apr](https://iearn.finance/apr)  
 
 Contribute to Curve Pool  
 
@@ -33,7 +33,7 @@ iearn.nexusmutual.eth and curvev1.nexusmutual.eth
 
 Buy Insurance via [Opyn](http://opyn.co/) here;  
 
-[Cover](https://iearn.finance/cover)  
+[iearn.finance/cover](https://iearn.finance/cover)  
 
 ## iearn.finance
 
@@ -63,9 +63,9 @@ The purpose of [iearn.finance](https://iearn.finance) is simple. Yield aggregato
 ### Resources
 
 * [Website](https://iearn.finance)
-* [Zaps](https://iearn.finance/zap)
-* [APR](https://iearn.finance/apr)
-* [Cover](https://iearn.finance/cover)
+* [iearn.finance/zap](https://iearn.finance/zap)
+* [iearn.finance/apr](https://iearn.finance/apr)
+* [iearn.finance/cover](https://iearn.finance/cover)
 * [Github](https://github.com/iearn-finance)
 * [defisnap.io](http://defisnap.io/)
 
