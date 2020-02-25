@@ -32,4 +32,6 @@ ENS: iearn.nexusmutual.eth and curvev1.nexusmutual.eth
 
 ## Insurance [Opyn](http://opyn.co/)
 
-Buy Insurance via [Opyn](http://opyn.co/) here;
+Buy Insurance via [Opyn](http://opyn.co/) here;  
+
+[iearn.finance/cover](https://iearn.finance/cover)  
