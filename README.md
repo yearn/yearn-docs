@@ -4,6 +4,37 @@
 These docs are still being worked on.
 {% endhint %}
 
+## Introduction
+
+[iearn.finance](https://iearn.finance) is a Yield aggregator for lending platforms that rebalances for highest yield during contract interaction.  
+
+
+Dune Analytics Dashboard  
+
+[duneanalytics.com/curve](http://duneanalytics.com/curve)  
+
+Zap In/Out of[iearn.finance](https://iearn.finance) and swap between Curve Pools  
+
+[Zaps](https://iearn.finance/zap)  
+
+Check out on-chain APR live at  
+
+[APR](https://iearn.finance/apr)  
+
+Contribute to Curve Pool  
+
+[y.curve.fi](https://y.curve.fi)  
+
+This Curve pool uses yTokens, assets inside the [iearn.finance](https://iearn.finance) protocol, as the liquidity pool - this ensures that assets are always being put to work.  
+
+Buy cover on [Nexus Mutual](https://app.nexusmutual.io/#/SmartContractCover) via  
+
+iearn.nexusmutual.eth and curvev1.nexusmutual.eth  
+
+Buy Insurance via [Opyn](http://opyn.co/) here;  
+
+[Cover](https://iearn.finance/cover)  
+
 ## iearn.finance
 
 The purpose of [iearn.finance](https://iearn.finance) is simple. Yield aggregator for lending platforms that rebalances for highest yield during contract interaction.
@@ -32,7 +63,11 @@ The purpose of [iearn.finance](https://iearn.finance) is simple. Yield aggregato
 ### Resources
 
 * [Website](https://iearn.finance)
+* [Zaps](https://iearn.finance/zap)
+* [APR](https://iearn.finance/apr)
+* [Cover](https://iearn.finance/cover)
 * [Github](https://github.com/iearn-finance)
+* [defisnap.io](http://defisnap.io/)
 
 ### How to use it
 
@@ -62,6 +97,9 @@ Now you can earn trade fees (0.04% per trade) on top of yield rewards
 
 * [Website](https://y.curve.fi)
 * [Github](https://github.com/curvefi)
+* [defisnap.io](http://defisnap.io/)
+* [pools.fyi](http://pools.fyi/)
+* [duneanalytics.com/curve](http://duneanalytics.com/curve)
 
 ### How to use it
 
