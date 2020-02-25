@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Getting Started](README.md)
+* [iearn.finance](iearn.md)
+* [y.curve.fi](curve.md)
 * [Features](features.md)
 
 ## Smart Contract Integration
