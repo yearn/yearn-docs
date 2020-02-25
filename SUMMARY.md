@@ -1,8 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [How it works](strategies.md)
-* [Strategy Example](walkthrough.md)
+* [Features](features.md)
 
 ## Smart Contract Integration
 
