@@ -55,3 +55,13 @@
 * [paraswap.io](https://paraswap.io/#/DAI-TUSD/1000) integrates [y.curve.fi](https://y.curve.fi/)
 * [defisnap.io](https://www.defisnap.io/) included v2 yTokens
 * [0x](https://0x.org/) integrates [y.curve.fi](https://y.curve.fi/)
+
+## Features 22-02-2020
+
+* Added [Zap In](https://twitter.com/iearnfinance/status/1229362220297080832) into [y.curve.fi](https://y.curve.fi/)
+* Added [Swap](https://twitter.com/iearnfinance/status/1229362220297080832) for usdt.curve.fi and compound.curve.fi pools to [y.curve.fi](https://y.curve.fi/)
+* Added [Zap Out](https://twitter.com/iearnfinance/status/1229362220297080832) from [y.curve.fi](https://y.curve.fi/)
+* [1inch.exchange](https://1inch.exchange/) integration
+* [defipulse.com](http://defipulse.com/) integration
+* [pools.fyi](http://pools.fyi/) integration
+* Full comprehensive cover launched with [opyn.co](http://opyn.co/)
