@@ -1,4 +1,4 @@
-## y.curve.fi
+## [y.curve.fi](https://y.curve.fi)
 
 The purpose of [y.curve.fi](https://y.curve.fi) is to further increase rewards on [iearn.finance](https://iearn.finance) tokens.
 
