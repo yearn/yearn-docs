@@ -23,7 +23,7 @@ None ✅
 
 ### yUSDTv2
 
-* set_new_APR
+* set_new_APR ✅
 
 ```
 No interaction with funds.
@@ -31,7 +31,7 @@ No interaction with funds.
 APR used for stateless recommend() function. Can be used to change the recommended provider. The owner could replace the existing contract to a controlled contract that could suggest a specific lending provider.
 ```
 
-* set_new_COMPOUND
+* set_new_COMPOUND ⚠️
 
 ```
 Could access funds via malicious lending contract.
@@ -41,7 +41,7 @@ Sets the downstream address for Compound. The owner could replicate the compound
 This method is implemented to allow adding Compound if they support the underlying token.
 ```
 
-* set_new_DTOKEN
+* set_new_DTOKEN ✅
 
 ```
 No interaction with funds.
@@ -51,7 +51,7 @@ Can only update the ID at dydx, no way to influence any other action.
 This method is implemented to allow adding dYdX if they support the underlying token.
 ```
 
-* set_new_FULCRUM
+* set_new_FULCRUM ⚠️
 
 ```
 As per set_new_COMPOUND
@@ -59,9 +59,9 @@ As per set_new_COMPOUND
 
 ### yTUSDv2
 
-* set_new_APR
+* set_new_APR ✅
 * set_new_COMPOUND
-* set_new_DTOKEN
+* set_new_DTOKEN ✅
 
 ## Utility Contracts
 
@@ -81,17 +81,17 @@ No interaction with funds.
 APR used for stateless recommend() function. Can be used to change the recommended provider. The owner could influence the calculation to a specific lending provider.
 ```
 
-* addAToken
-* addAUniToken
-* addCToken
-* addDToken
-* addIToken
-* addPool
-* addYToken
-* set_new_APR
-* set_new_UNI
-* set_new_UNIAPR
-* set_new_UNIROI
+* addAToken ✅
+* addAUniToken ✅
+* addCToken ✅
+* addDToken ✅
+* addIToken ✅
+* addPool ✅
+* addYToken ✅
+* set_new_APR ✅
+* set_new_UNI ✅
+* set_new_UNIAPR ✅
+* set_new_UNIROI ✅
 
 ### APRWithPoolOracle
 
@@ -101,12 +101,12 @@ No interaction with funds.
 APR used for stateless recommend() function. Can be used to change the recommended provider. The owner could influence the calculation to a specific lending provider.
 ```
 
-* set_new_AAVE
-* set_new_DDEX
-* set_new_DYDX
-* set_new_Modifier
-* set_new_Ratio
-* set_new_blocksPerYear
+* set_new_AAVE ✅
+* set_new_DDEX ✅
+* set_new_DYDX ✅
+* set_new_Modifier ✅
+* set_new_Ratio ✅
+* set_new_blocksPerYear ✅
 
 ### UniswapROI
 
@@ -118,7 +118,7 @@ None ✅
 No interaction with funds.
 ```
 
-* set_new_blocksPerYear
+* set_new_blocksPerYear ✅
 
 ## Lending Providers
 
