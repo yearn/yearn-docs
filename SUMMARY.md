@@ -5,6 +5,7 @@
 * [y.curve.fi](curve.md)
 * [Features](features.md)
 * [Resources](resources.md)
+* [Admin Policy](adminpolicy.md)
 
 ## Smart Contract Integration
 
