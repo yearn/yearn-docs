@@ -60,7 +60,7 @@ As per set_new_COMPOUND
 ### yTUSDv2
 
 * set_new_APR ✅
-* set_new_COMPOUND
+* set_new_COMPOUND ⚠️
 * set_new_DTOKEN ✅
 
 ## Utility Contracts
