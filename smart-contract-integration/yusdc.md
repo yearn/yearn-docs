@@ -4,7 +4,7 @@
 | -- | -- | -- |
 | yUSDCv1 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDC.json) | [yusdc.iearn.eth](https://etherscan.io/address/0xa2609b2b43ac0f5ebe27deb944d2a399c201e3da) |
 | yUSDCv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDC.json) | [yusdcv2.iearn.eth](https://etherscan.io/address/0xd6aD7a6750A7593E092a9B218d66C0A814a3436e) |
-
+| yUSDCv3 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDC.json) | [yusdcv3.iearn.eth](https://etherscan.io/address/0x26EA744E5B887E5205727f55dFBE8685e3b21951) |
 
 
 ## IyUSDC Interface
@@ -29,11 +29,6 @@ interface IyUSDC {
 
   function recommend() external view returns (uint256);
   function rebalance() external;
-
-  function supplyDydx(uint256 amount) external returns(uint);
-  function supplyAave(uint amount) external;
-  function supplyFulcrum(uint amount) external;
-  function supplyCompound(uint amount) external;
 
   function calcPoolValueInToken() external view returns (uint256);
   function getPricePerFullShare() external view returns (uint256);

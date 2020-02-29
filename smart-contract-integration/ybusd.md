@@ -2,15 +2,13 @@
 
 | Contract | ABI | Address |
 | -- | -- | -- |
-| yUSDT | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDT.json) | [yusdt.iearn.eth](https://etherscan.io/address/0xa1787206d5b1bE0f432C4c4f96Dc4D1257A1Dd14) |
-| yUSDTv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDT.json) | [yusdt.iearn.eth](https://etherscan.io/address/0x83f798e925BcD4017Eb265844FDDAbb448f1707D) |
-| yUSDTv3 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDT.json) | [yusdtv3.iearn.eth](https://etherscan.io/address/0xE6354ed5bC4b393a5Aad09f21c46E101e692d447) |
+| yBUSDv3 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yBUSD.json) | [busdv3.iearn.eth](https://etherscan.io/address/0x04bC0Ab673d88aE9dbC9DA2380cB6B79C4BCa9aE) |
 
 
-## IyUSDT Interface
+## IyBUSD Interface
 
 {% tabs %}
-{% tab title="IyUSDT.sol" %}
+{% tab title="IyBUSD.sol" %}
 ```javascript
 // Solidity Interface
 

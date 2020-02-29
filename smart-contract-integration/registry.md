@@ -1,3 +1,12 @@
+# v3 Yield Tokens
+
+| Contract | ABI | Address |
+| -- | -- | -- |
+| yDAIv3 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yDAI.json) | [ydaiv3.iearn.eth](https://etherscan.io/address/0xC2cB1040220768554cf699b0d863A3cd4324ce32#readContract) |
+| yUSDCv3 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDC.json) | [yusdcv3.iearn.eth](https://etherscan.io/address/0x26EA744E5B887E5205727f55dFBE8685e3b21951) |
+| yUSDTv3 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDT.json) | [yusdtv3.iearn.eth](https://etherscan.io/address/0xE6354ed5bC4b393a5Aad09f21c46E101e692d447) |
+| yBUSDv3 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yBUSD.json) | [busdv3.iearn.eth](https://etherscan.io/address/0x04bC0Ab673d88aE9dbC9DA2380cB6B79C4BCa9aE) |
+
 # v2 Yield Tokens
 
 | Contract | ABI | Address |

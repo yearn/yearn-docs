@@ -19,7 +19,7 @@
 * [iManager](smart-contract-integration/imanage.md)
 * [DefiZap](smart-contract-integration/zap.md)
 
-## v2 Yield Tokens
+## v3 Yield Tokens
 
 * [Registry](smart-contract-integration/registry.md)
 * [yDAI](smart-contract-integration/ydai.md)
