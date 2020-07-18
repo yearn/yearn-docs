@@ -1,8 +1,10 @@
 # Table of contents
 
-* [Getting Started](README.md)
-* [iearn.finance](iearn.md)
-* [y.curve.fi](curve.md)
+* [Introduction](README.md)
+
+## [yearn.finance](https://yearn.finance)
+
+* [Introduction](yearn.md)
 * [Features](features.md)
 * [Resources](resources.md)
 * [Admin Policy](adminpolicy.md)
