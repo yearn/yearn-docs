@@ -1,6 +1,6 @@
 ## [ytrade.finance](https://ytrade.finance)
 
-[ytrade.finance](https://ytrade.finance) creates leveraged stable coin trades. LPs earn additional interest on their yield bearing tokens, traders can create leveraged positions.
+The purpose of [ytrade.finance](https://ytrade.finance) is to create leveraged stable coin trades. LPs earn additional interest on their yield bearing tokens, traders can create leveraged positions.
 
 [ytrade.finance](https://ytrade.finance) supports;
 
