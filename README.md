@@ -10,9 +10,9 @@ The [yearn.finance](https://yearn.finance) ecosystem consists of the following p
 
 * [yearn.finance](https://yearn.finance) - Profit switching lender to optimize lending yields (live)
 * [ytrade.finance](https://ytrade.finance) - Leveraged stable coin trades (testnet)
-* [yliquidate.finance](https://yliquidate.finance) - 0 capital automated liquidations for [Aave](http://aave.com/) (live)
+* [yliquidate.finance](https://yliquidate.finance) - 0 capital automated liquidations for [Aave](http://aave.com/) (testnet)
 * [yswap.exchange](https://yswap.exchange) - Single sided automated market maker (live)
 * [iborrow.finance](https://iborrow.finance) - Credit delegation vaults for smart contract to smart contract lending (testnet)
 * [ileverage.finance](https://ileverage.finance) - Leveraged DAI / USDC vault shorts (disabled)
 
-The [yearn.finance](https://yearn.finance) ecosystem is controlled by the $YFI token
+The [yearn.finance](https://yearn.finance) ecosystem is controlled by the [$YFI](yfi.md) token
