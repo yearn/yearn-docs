@@ -3,21 +3,12 @@
 * [Introduction](README.md)
 
 ## yearn.finance
-* [Overview](yearn.md)
-* [Registry](smart-contract-integration/yearn.md)
+
+* [Overview](yearn.finance/yearn.md)
+* [Registry](yearn.finance/yearn-1.md)
 
 ## ytrade.finance
-* [Overview](ytrade.md)
-* [Registry](smart-contract-integration/ytrade.md)
 
-## yliquidate.finance
+* [Overview](ytrade.finance/ytrade.md)
+* [Registry](ytrade.finance/ytrade-1.md)
 
-## yswap.exchange
-
-## iborrow.finance
-
-## ileverage.finance
-
-## ygov.finance
-
-## yfi

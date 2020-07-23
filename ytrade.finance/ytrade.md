@@ -1,4 +1,4 @@
-## [ytrade.finance](https://ytrade.finance)
+# Overview
 
 The purpose of [ytrade.finance](https://ytrade.finance) is to create leveraged stable coin trades. LPs earn additional interest on their yield bearing tokens, traders can create leveraged positions.
 
@@ -9,7 +9,7 @@ The purpose of [ytrade.finance](https://ytrade.finance) is to create leveraged s
 * $USDT
 * $TUSD
 
-### Earning rewards as an LP
+## Earning rewards as an LP
 
 LPs can deposit $yCRV, the output token when you provide liquidity to [curve.fi/y](https://curve.fi/y)
 
@@ -24,6 +24,7 @@ So LPs earn;
 * Initiation fees from traders opening positions
 * Borrow fees based on utilization for opened positions, up to 30%
 
-### Opening positions as a trader
+## Opening positions as a trader
 
 Traders can trade $DAI, $USDC, $USDT, or $TUSD for one of the same. This trade is facilitated on [curve.fi/y](https://curve.fi). Traders can choose any leverage they are comfortable with. Traders can close their position at any time.
+

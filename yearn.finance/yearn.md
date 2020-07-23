@@ -1,3 +1,5 @@
+# Overview
+
 ## [yearn.finance](https://yearn.finance)
 
 The purpose of [yearn.finance](https://yearn.finance) is simple. Yield aggregator for lending platforms that rebalances for highest yield during contract interaction.
@@ -13,10 +15,10 @@ The purpose of [yearn.finance](https://yearn.finance) is simple. Yield aggregato
 [yearn.finance](https://yearn.finance) aggregates;
 
 * [Compound](http://compound.finance/)
-* [Fulcrum](https://fulcrum.trade/) (disabled)
+* [Fulcrum](https://fulcrum.trade/) \(disabled\)
 * [dYdX](http://dydx.exchange/)
 * [Aave](http://aave.com/)
-* [DDEX](https://ddex.io/) (disabled)
+* [DDEX](https://ddex.io/) \(disabled\)
 
 ### Resources
 
@@ -36,7 +38,7 @@ The purpose of [curve.fi](https://curve.fi/y) is to further increase rewards on 
 
 After you deposit $DAI into [yearn.finance](https://yearn.finance) you receive $yDAI. You can provide $yDAI as liquidity to [curve.fi](https://curve.fi/y).
 
-Now you can earn trade fees (0.04% per trade) on top of yield rewards
+Now you can earn trade fees \(0.04% per trade\) on top of yield rewards
 
 [curve.fi](https://curve.fi/y) supports;
 
@@ -54,3 +56,4 @@ Now you can earn trade fees (0.04% per trade) on top of yield rewards
 ### How to use it
 
 Simply go to [yearn.finance/zap](https://yearn.finance/zap) and deposit $DAI, $USDC, $USDT, and/or $TUSD and start earning interest and fees on your tokens.
+
