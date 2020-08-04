@@ -14,5 +14,5 @@ The [yearn.finance](https://yearn.finance) ecosystem consists of the following p
 * [yswap.exchange](https://yswap.exchange) - Single sided automated market maker \(live\)
 * [iborrow.finance](https://iborrow.finance) - Credit delegation vaults for smart contract to smart contract lending \(testnet\)
 
-The [yearn.finance](https://yearn.finance) ecosystem is controlled by the [$YFI](https://github.com/iearn-finance/docs/tree/2b8492a43a628c3bc62b54431944479af69926ce/yfi.md) token
+The [yearn.finance](https://yearn.finance) ecosystem is controlled by the [$YFI](https://etherscan.io/address/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e) token
 
