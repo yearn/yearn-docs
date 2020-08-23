@@ -209,6 +209,10 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ### How do I make a proposal?
 - The default template for proposals can be found on [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance/) if you make a post under proposals or discussion it will auto-fill in the template as well. 
+- The process is roughly:
+    1. forum discussion
+    2. promote to YIP (usually done by mods), add to YIPs github, put on chain
+    3. announce
 
 ### Who can make a proposal?
 - Anyone can post a proposal both on the forum and on-chain.
