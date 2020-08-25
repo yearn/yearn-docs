@@ -110,6 +110,21 @@ But if you think something can be improved, or you found a bug, we want to squas
 - Fees can be changed by governance.
 - If you deposit and withdraw immediately, you will lose 0.5% of your principle
 
+#### Where do the fees go?
+- They go to a dedicated treasury contract 
+    - Address: [Yearn Treasury Vault](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde)
+- From the treasury they stay up to the $500k limit, over that amount they are redirected to the governance staking contract
+    - Current Address: [ygov.finance governance staking](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992)
+
+#### Did the fees always go there?
+- No, when yearn started they went directly to Andre
+    -  Address: [0x2d407ddb06311396fe14d4b49da5f0471447d45c](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c)
+- Then we handed off to the multisig and fees went directly there 
+    - Address: [0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52)
+- And before our current gov v2, staking rewards went here
+    - Gov v1 Address: [0xb01419E74D8a2abb1bbAD82925b19c36C191A701](https://etherscan.io/address/0xb01419E74D8a2abb1bbAD82925b19c36C191A701)
+
+
 #### Yield
 - We plan to make a dashboard in the future that will clearly show your current APY of all the positions you have open. Currently for the Vaults as they are still in beta we are not showing the APY live, but it is post on [twitter](https://twitter.com/iearnfinance) around once a day. You can roughly estimate the yield you are getting by looking at what the [current strategy](https://feel-the-yearn.vercel.app/) is farming and checking what its apy is.
 - For example if yCRV vault is farming the CRV token, you can check what the yield is on [Curve's homepage](https://www.curve.fi/) for the Y pool
