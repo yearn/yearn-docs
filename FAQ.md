@@ -245,7 +245,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 - You should stake if you want to vote on YIPs and get rewards that are generated from the yearn ecosystem. The APY for staking is currently not listed on the UI. You can ask on the chat what the rate is.
 
 ### What do I have to do to get rewards with my YFI?
-- All you need to do is stake YFI at [ygov.finance/stake](https://ygov.finance/stake) and you will get rewards IF the treasury is at or above 500k usd. You can check the treasury address [here](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
+- All you need to do is stake YFI at [ygov.finance/stake](https://ygov.finance/stake) and you will get rewards IF the treasury is at or above 500k usd. You can check the treasury address [here](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
 - Note that if you stake you get rewards (as long as they are not going to the treasury), but you can only claim them within 3 days of voting. 
 
 ### Does staking my YFI matter for voting?
