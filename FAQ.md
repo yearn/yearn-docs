@@ -103,7 +103,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 - When you withdraw your yCRV from the vault, you get back yCRV + plus interest accrued - fees, all in yCRV. Since it is the yCRV token you got back, it is already staked in Curve Y pool making stablecoin swap fees. No need to do anything else with Curve, unless you want to stake it [here](https://dao.curve.fi/minter/gauges) to generate CRV.
 
 #### I deposited into a vault what will I get out when I withdrawal?
-- You will always withdrawal only the coin type you put in + the pool yield - fees.
+- You will always withdraw only the coin type you put in + the pool yield - fees.
 
 #### Fees
 - The fee on all vaults is 0.5% on withdrawals and a 5% fee whenever the harvest() function is called on the vaults which helps subsidize gas costs. The harvest function does the selling of the farmed asset on the market.
