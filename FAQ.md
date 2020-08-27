@@ -1,5 +1,6 @@
 ---
 title: faq.yearn.finance
+tags: docs, faq, published
 ---
 
 # General
@@ -104,6 +105,12 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### I deposited into a vault what will I get out when I withdrawal?
 - You will always withdrawal only the coin type you put in + the pool yield - fees.
+
+#### How will alink’s profits be distributed?
+- When you deposit, your wallet gets yaLINK according to the equivalence at the time. That grants you rights to withdraw a sum of aLINK from the vault at gradually increasing rates.
+
+#### Why can’t we get a better apy for the yfi vault?
+- You can’t just wait for the same numbers for one coin and for another completely different. The new sBTC is following the same strategy that the yCRV vault using curve liquidity pool. The obvious answer is that there aren’t much safe platforms accepting YFI as stake so there aren’t much valid strategies for the YFI vault right now.
 
 #### Fees
 - The fee on all vaults is 0.5% on withdrawals and a 5% fee whenever the harvest() function is called on the vaults which helps subsidize gas costs. The harvest function does the selling of the farmed asset on the market.
@@ -259,6 +266,9 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ### What’s the difference between voting for a poll on the forum and an on-chain vote?
 - A poll just gauges the sentiment of what the community is feeling on the proposal while a on-chain vote will be binding and will take effect if it passes.
+
+### What about the new gasless voting thing?
+- We now have an off-chain signaling system that uses staked balances from ygov. This replaces the older, informal forum polls which were vulbnerable to sybil attacks. It can do multiple choice and doesn't cost gas to use, you sign with your wallet instead. We still use the normal on-chain voting system for YIPs.
 
 ### How long is my YFI tied up if I stake it?
 - Your YFI is locked for 3 days after you vote
