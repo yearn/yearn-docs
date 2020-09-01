@@ -32,11 +32,11 @@ But if you think something can be improved, or you found a bug, we want to squas
 - [yearn.finance](https://yearn.finance/) hosts UIs for the **Vaults**, **Earn**, **Zap**, **APR**, and **Cover** products
 
 ## Vaults
-[yearn.finance/vaults](https://yearn.finance/vaults)
+- [yearn.finance/vaults](https://yearn.finance/vaults)
 
-
-What is a Vault? How is it different from Earn?
-Vaults take a more active approach than simply lending out coins for the highest APY. Via strategies it can farm coins such as CRV and then sell them, into the best DEX, to higher profits than simple lending. Yield is achieved by providing the asset for lending, LP, or farming strategies. These are opportunities that exist in defi. Vaults automate these processes and provide the highest (risk adjusted) yield available.
+### What is a Vault?
+- Vaults employ strategies to automate the best yield farming strategies avaialble. 
+- They were designed so that the community could work together to build new strategies to find the best yield.
 - Andre explains vaults here [Yearn Finance v2](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) and here [Delegated Vaults Explained](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) in these two blog posts.
 - Simply put vaults can do this:
     - Provided liquidity can be any asset.
@@ -50,7 +50,8 @@ Vaults take a more active approach than simply lending out coins for the highest
 - Yes you could, but vaults help you save on gas, keep it at a good collateral/debt ratio so you dont default, and auto optimizes for highest yielding stablecoin strategies, even when you are sleeping.
 
 ### I see ROI on the vaults page is the current APY?
-- No. This is the historical average for that vault. Current APY / returns are not shown as the vaults is a beta product and being tested live. The returns are posted around once a day on [twitter](https://twitter.com/iearnfinance)
+- No. This is the historical average for that vault. Current APY / returns are not shown as the vaults is a beta product and being tested live. 
+- Various third party sites provide APY and other info, they are listed below in [Statistics](https://hackmd.io/zmy_vlxOSeChkpRaSRO6IQ#Statistics)
 
 ### What are the Risks?
 - While the assets deposited can't decrease, the debt of the vault can. If a strategy does not manage to outperform the debt, then a portion of the asset will be impermanently locked. If a strategy then outperforms the debt again, this asset will become unlocked.
@@ -146,7 +147,7 @@ Vaults take a more active approach than simply lending out coins for the highest
 - For now Andre watches the markets and writes strategies that he and the multi-sig thinks are safe while giving the highest yield. They change them according to current yields on the market.
 
 ## Earn 
-[yearn.finance/earn](https://yearn.finance/earn)
+- [yearn.finance/earn](https://yearn.finance/earn)
 
 ### What is Earn?
 -  Earn is a yield aggregator for lending platforms that rebalances for highest yield during contract interaction.
@@ -154,7 +155,7 @@ Vaults take a more active approach than simply lending out coins for the highest
 - Learn more in the [Yearn Docs](https://docs.yearn.finance/yearn.finance/yearn)
 
 ## Zap
-[yearn.finance/zap](https://yearn.finance/zap)
+- [yearn.finance/zap](https://yearn.finance/zap)
 
 ### What is Zap?
 - Zap allows users to convert supported tokens with just one contract interaction to reduce transaction costs
@@ -171,7 +172,7 @@ Vaults take a more active approach than simply lending out coins for the highest
 - Well, it does take a lot of gas and could be costly, even more so than doing it yourself manually, but if you have a big transaction and are in a rush it is a great method to get into a DeFi position or liquidity pool fast. 
 
 ## APR
-[yearn.finance/apr](https://yearn.finance/apr)
+- [yearn.finance/apr](https://yearn.finance/apr)
 
 ### What is this even for?
 - APR is a table that shows you the current APR for some yearn-supported tokens across lending platforms. The highest APR for each coin is the provider that Earn is lending these coins to at the moment.
@@ -179,7 +180,7 @@ Vaults take a more active approach than simply lending out coins for the highest
 
 
 ## Cover
-[yinsure.finance](https://yinsure.finance/) 
+- [yinsure.finance](https://yinsure.finance/) 
 
 ### What's Cover?
 - Cover, also known as **yInsure**, is a pooled coverage system providing insurance against smart contract risk. 
@@ -189,19 +190,19 @@ Vaults take a more active approach than simply lending out coins for the highest
 ## Products Currently in Testing
 
 ### yTrade
-[ytrade.finance](https://ytrade.finance/)
+- [ytrade.finance](https://ytrade.finance/)
 - Leveraged stable coin trades (testnet)
 
 ### yLiquidate
-[yliquidate.finance](https://yliquidate.finance/)
+- [yliquidate.finance](https://yliquidate.finance/)
 - 0 capital automated liquidations for Aave (testnet)
 
 ### ySwap
-[yswap.exchange](https://yswap.exchange/)
+- [yswap.exchange](https://yswap.exchange/)
 - Single sided automated market maker (testing in mainnet)
 
 ### yBorrow
-[yborrow.finance](https://yborrow.finance/)
+- [yborrow.finance](https://yborrow.finance/)
 - Credit delegation vaults for smart contract to smart contract lending (testnet)
 
 
@@ -315,7 +316,9 @@ Vaults take a more active approach than simply lending out coins for the highest
 ### Why can't I claim my staking rewards! 
 - To claim your staking rewards you have to 1) be staked and 2) have voted. Within 3 days to be able to claim them. This will be fixed in an update soon.
 
-## [yDAO](https://gov.yearn.finance/t/ydao-for-community-funding/2243) 
+## yDAO
+- [Pokemol site](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862/)
+- [Forum post](https://gov.yearn.finance/t/ydao-for-community-funding/2243) 
 
 ### What is its purpose?
 - Used to fund value-added contributions to the yearn ecosystem.
