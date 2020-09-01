@@ -87,7 +87,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 - You can’t just wait for the same numbers for one coin and for another completely different. The new sBTC is following the same strategy that the yCRV vault using curve liquidity pool. The obvious answer is that there aren’t much safe platforms accepting YFI as stake so there aren’t much valid strategies for the YFI vault right now.
 
 ### I deposited into a vault what will I get out when I withdrawal?
-- You will always withdrawal only the coin type that you put
+- You will always withdraw only the coin type that you put
 - You will get the amount you put in, plus the pool yield you earned, minus the fees.
 
 ### What are the Fees?
