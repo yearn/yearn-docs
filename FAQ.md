@@ -35,7 +35,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 - [yearn.finance/vaults](https://yearn.finance/vaults)
 
 ### What is a Vault?
-- Vaults employ strategies to automate the best yield farming strategies avaialble. 
+- Vaults employ strategies to automate the best yield farming opportunities avaialble. 
 - They were designed so that the community could work together to build new strategies to find the best yield.
 - Andre explains vaults here [Yearn Finance v2](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) and here [Delegated Vaults Explained](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) in these two blog posts.
 - Simply put vaults can do this:
