@@ -18,47 +18,25 @@ If you have questions about how to do anything, we can help you on:
 - [Discord](https://discord.gg/GcjxhWR)
 - [Telegram](https://t.me/yearnfinance)
 
-<br>
 
 But if you think something can be improved, or you found a bug, we want to squash it. Please post it here:
 - [Github](https://github.com/iearn-finance) — create a new issue in the relevant repository
 - [Forum](https://gov.yearn.finance/c/feedback/) — post in the feedback category
-<br>
+
+
+<br />
 
 # Products
 
-## [yearn.finance](https://yearn.finance/)
-- Yearn.Finance hosts UIs for the **Earn**, **Zap**, **APR**, and **Vaults** products
-### [Earn](https://yearn.finance/earn)
-- Yield aggregator for lending platforms that rebalances for highest yield during contract interaction.
-- Deposit DAI, USDC, USDT, TUSD, or sUSD and it will auto lend to the highest lending rate on these platforms [Compound](https://compound.finance/), [Dydx](https://dydx.exchange/), or [Aave](https://app.aave.com/home) (Ddex and Fulcrum are currently disabled)
-- Info on this can be found in the [Yearn Docs](https://docs.yearn.finance/yearn.finance/yearn)
-- Profit switching lender to optimize lending yields (live)
+## yearn.finance
+- [yearn.finance](https://yearn.finance/) hosts UIs for the **Vaults**, **Earn**, **Zap**, **APR**, and **Cover** products
 
-### [Zaps](https://yearn.finance/zap)
+## Vaults
+[yearn.finance/vaults](https://yearn.finance/vaults)
 
-#### What is a Zap?
-- Zap allows users to convert supported tokens with just one contract interaction to reduce transaction costs
-- Zaps were made by DefiZap which is now [Zapper.fi](https://zapper.fi) as a type of all in one defi routing service. 
 
-#### Why use a Zap?
-- "Zaps allow you get into a DeFi position in one transaction—it’s called zapping in." - [How to use Zaps guide](https://defitutorials.substack.com/p/how-to-use-defizap)
-    - Note that this is an old article and [Zapper](https://zapper.fi) was formed as a result of DeFiSnap + DeFiZap coming together to create the ultimate hub for Decentralized Finance aka #DeFi. So some of the stuff in the article above is out of date, but you can still use Zaps on Zapper.fi
-
-#### So what can I do with Zaps on yearn?
-- With as zap you can take your DAI, for example, and get yCurve with it in one transaction. Normally, to turn DAI in to yCRV, you would have to go to earn, deposit DAI and receive yDAI, then go to [Curve.fi - Yearn pool](https://www.curve.fi/iearn/deposit) and deposit your yDAI and then you would get yCRV. This is alot to do so instead you can do it in one transaction!
-
-#### That sounds awesome, what's the downside?
-- Well, it does take a lot of gas and could be costly, even more so than doing it yourself manually, but if you have a big transaction and are in a rush it is a great method to get into a DeFi position or liquidity pool fast. 
-
-### [APR](https://yearn.finance/apr)
-#### What is this even for?
-- It's a table that shows you the current APR for some yearn-supported tokens across lending platforms. The highest APR for each coin is the provider that Earn is lending these coins to at the moment.
-
-### [Vaults](https://yearn.finance/vaults)
-
-#### What is a Vault? How is it different from Earn?
-- A Vault takes a more active approach than simply lending out coins for the highest APY. Via strategies it can farm coins such as CRV and then sell them, into the best DEX, to higher profits than simple lending. Yield is achieved by providing the asset for lending, LP, or farming strategies. These are opportunities that exist in defi. Vaults automate these processes and provide the highest (risk adjusted) yield available.
+What is a Vault? How is it different from Earn?
+Vaults take a more active approach than simply lending out coins for the highest APY. Via strategies it can farm coins such as CRV and then sell them, into the best DEX, to higher profits than simple lending. Yield is achieved by providing the asset for lending, LP, or farming strategies. These are opportunities that exist in defi. Vaults automate these processes and provide the highest (risk adjusted) yield available.
 - Andre explains vaults here [Yearn Finance v2](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) and here [Delegated Vaults Explained](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) in these two blog posts.
 - Simply put vaults can do this:
     - Provided liquidity can be any asset.
@@ -68,23 +46,21 @@ But if you think something can be improved, or you found a bug, we want to squas
     - Put the stablecoin to work on some farming
     - Any stablecoin earned above the debt (i.e. gains) are sold for the vault asset and returned to the vault.
 
-#### Can't I just do all this myself though?
+### Can't I just do all this myself though?
 - Yes you could, but vaults help you save on gas, keep it at a good collateral/debt ratio so you dont default, and auto optimizes for highest yielding stablecoin strategies, even when you are sleeping.
 
-#### I see ROI on the vaults page is the current APY?
+### I see ROI on the vaults page is the current APY?
 - No. This is the historical average for that vault. Current APY / returns are not shown as the vaults is a beta product and being tested live. The returns are posted around once a day on [twitter](https://twitter.com/iearnfinance)
 
-#### Risks
+### What are the Risks?
 - While the assets deposited can't decrease, the debt of the vault can. If a strategy does not manage to outperform the debt, then a portion of the asset will be impermanently locked. If a strategy then outperforms the debt again, this asset will become unlocked.
     - There are mechanisms in the vaults to help this not to happen, but nothing is foolproof
 - As of now, the Vaults have not been audited
 - Smart contract risk with any contracts that the vaults interact with.
 
-#### Currently Active Vaults
+### What are the different vaults?
 - v2 Vaults
     - aLINK
-        - Why is the yield different for the two link vaults on [stats.finance/yearn](https://stats.finance/yearn)?
-            - [aLINK has a 0.5% insurance fee](https://twitter.com/iearnfinance/status/1293772592004976641)
     - ChainLink
 - v1 Vaults
     - Curve.fi/y (yCRV)
@@ -94,36 +70,48 @@ But if you think something can be improved, or you found a bug, we want to squas
         - You will receive yyUSDC. It's not the same token you will receive in Earn, even if everybody calls them the same.
     - USDT
 
-#### If the current strategy for the yCRV vault is farming crv does it just get added to my balance when I withdrawal?
+### Why is the yield different for the two LINK vaults on [stats.finance/yearn](https://stats.finance/yearn)?
+- [aLINK has a 0.5% insurance fee](https://twitter.com/iearnfinance/status/1293772592004976641)
+
+### If the current strategy for the yCRV vault is farming crv does it just get added to my balance when I withdrawal?
 - No. The vault will farm CRV then sell it on the market automatically. When you withdrawal you will get more yCRV.
 
-#### Why isn't yCRV worth $1, it's a stable coin right?
+### Why isn't yCRV worth $1, it's a stable coin right?
 - No, yCRV is not worth $1 and no it is NOT a stablecoin. You can think of yCRV as an index of yield bearing stablecoins (yDAI+yUSDC+yUSDT+yTUSD) that also generates yield (trading fees from the Curve Y pool) as well. Therefore the price of yCRV is always increasing.
 
-#### If I unstake my yCRV from the yCRV vault does that then revert it back to the Curve Y pool at Curve, or do I have to do something else like restake it there?
+### If I unstake my yCRV from the yCRV vault does that then revert it back to the Curve Y pool at Curve, or do I have to do something else like restake it there?
 - When you withdraw your yCRV from the vault, you get back yCRV + plus interest accrued - fees, all in yCRV. Since it is the yCRV token you got back, it is already staked in Curve Y pool making stablecoin swap fees. No need to do anything else with Curve, unless you want to stake it [here](https://dao.curve.fi/minter/gauges) to generate CRV.
 
-#### I deposited into a vault what will I get out when I withdrawal?
-- You will always withdrawal only the coin type you put in + the pool yield - fees.
-
-#### How will alink’s profits be distributed?
-- When you deposit, your wallet gets yaLINK according to the equivalence at the time. That grants you rights to withdraw a sum of aLINK from the vault at gradually increasing rates.
-
-#### Why can’t we get a better apy for the yfi vault?
+### Why can’t we get a better APY for the YFI vault?
 - You can’t just wait for the same numbers for one coin and for another completely different. The new sBTC is following the same strategy that the yCRV vault using curve liquidity pool. The obvious answer is that there aren’t much safe platforms accepting YFI as stake so there aren’t much valid strategies for the YFI vault right now.
 
-#### Fees
-- The fee on all vaults is 0.5% on withdrawals and a 5% fee whenever the harvest() function is called on the vaults which helps subsidize gas costs. The harvest function does the selling of the farmed asset on the market.
-- Fees can be changed by governance.
-- If you deposit and withdraw immediately, you will lose 0.5% of your principle
+### I deposited into a vault what will I get out when I withdrawal?
+- You will always withdrawal only the coin type that you put
+- You will get the amount you put in, plus the pool yield you earned, minus the fees.
 
-#### Where do the fees go?
+### What are the Fees?
+- **0.5% fee** on funds withdrawn from active strategies
+    - Each vault has some amount of the total funds idle and most of them active in the strategy. The idle funds are the difference between `vault holdings` and `strategy holdings`, you can see them on [feel the yearn](https://feel-the-yearn.app/).
+    - When you withdraw, if your funds come from the idle funds, you won't be charged any withdrawal fee. If they come from the strategy, you will be charged the 0.5% fee.
+- Some profit-earning transactions will result in a **5% fee** to subsidize their gas costs when harvest() is called.
+    - For community-made strategies, like the new yETH vault, currently 10% of this fee goes the the strategy creator.
+
+### Can you explain the 5% fee to subsidize gas?
+- Taking the USDC vault as an example, when harvest() is called the profit comes from three places: 
+    1. Interest for being lent out at Compound
+    2. COMP liquidated to USDC
+    3. DF tokens from DForce that get harvested and sold for USDC 
+- Only the 3rd event, harvesting and selling the DF tokens, incurs the 5% fee
+- The 5% fee is charged on that event because the system uses additional gas that it would not have otherwise used.
+
+
+### Where do the fees go?
 - They go to a dedicated treasury contract 
     - Address: [Yearn Treasury Vault](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde)
 - From the treasury they stay up to the $500k limit, over that amount they are redirected to the governance staking contract
     - Current Address: [ygov.finance governance staking](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992)
 
-#### Did the fees always go there?
+### Did the fees always go there?
 - No, when yearn started they went directly to Andre
     -  Address: [0x2d407ddb06311396fe14d4b49da5f0471447d45c](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c)
 - Then we handed off to the multisig and fees went directly there 
@@ -132,45 +120,91 @@ But if you think something can be improved, or you found a bug, we want to squas
     - Gov v1 Address: [0xb01419E74D8a2abb1bbAD82925b19c36C191A701](https://etherscan.io/address/0xb01419E74D8a2abb1bbAD82925b19c36C191A701)
 
 
-#### Yield
+### Yield
 - We plan to make a dashboard in the future that will clearly show your current APY of all the positions you have open. Currently for the Vaults as they are still in beta we are not showing the APY live, but it is post on [twitter](https://twitter.com/iearnfinance) around once a day. You can roughly estimate the yield you are getting by looking at what the [current strategy](https://feel-the-yearn.vercel.app/) is farming and checking what its apy is.
 - For example if yCRV vault is farming the CRV token, you can check what the yield is on [Curve's homepage](https://www.curve.fi/) for the Y pool
 
-### Vault Strategies
+## Vault Strategies
 
-#### What is a Vault Strategy?
+### What is a Vault Strategy?
 - Yearn's vault strategies are modular smart contracts for each vault that tells it what assets to borrow, which coins to farm, and where it should sell the farmed assets.
 
-#### What are the current strategies?
+### What are the current strategies?
 - You can view the current strategies implemented at [feel-the-yearn](https://feel-the-yearn.vercel.app/)
 - In the future we plan to make a dashboard to make the strategies and APY easy to understand.
 
-#### Who is in control of the strategies?
+### Who is in control of the strategies?
 - Andre writes them but the multi-sig decides if they will be implemented or not.
 
-#### How can I make a strategy?
+### How can I make a strategy?
 - For now you can post your strategy on the forum in the strategy section. Detailing what it should buy/sell/farm and what the current apy is. There will be a template to help you get started.
 
-#### What is the process for getting my strategy onto yearn?
+### What is the process for getting my strategy onto yearn?
 - Post it on the forum and if it gets approved it will be used in the vaults and you can get paid for it.
 
-#### When does a strategy changes and who changes it? Is it automatic?
+### When does a strategy changes and who changes it? Is it automatic?
 - For now Andre watches the markets and writes strategies that he and the multi-sig thinks are safe while giving the highest yield. They change them according to current yields on the market.
 
-## [ytrade.finance](https://ytrade.finance/)
+## Earn 
+[yearn.finance/earn](https://yearn.finance/earn)
+
+### What is Earn?
+-  Earn is a yield aggregator for lending platforms that rebalances for highest yield during contract interaction.
+- Deposit DAI, USDC, USDT, TUSD, or sUSD and it will auto lend to the highest lending rate on these platforms [Compound](https://compound.finance/), [Dydx](https://dydx.exchange/), or [Aave](https://app.aave.com/home) (Ddex and Fulcrum are currently disabled)
+- Learn more in the [Yearn Docs](https://docs.yearn.finance/yearn.finance/yearn)
+
+## Zap
+[yearn.finance/zap](https://yearn.finance/zap)
+
+### What is Zap?
+- Zap allows users to convert supported tokens with just one contract interaction to reduce transaction costs
+- Zaps were made by DefiZap which is now [Zapper.fi](https://zapper.fi) as a type of all in one defi routing service. 
+
+### Why use a Zap?
+- "Zaps allow you get into a DeFi position in one transaction—it’s called zapping in." - [How to use Zaps guide](https://defitutorials.substack.com/p/how-to-use-defizap)
+    - Note that this is an old article and [Zapper](https://zapper.fi) was formed as a result of DeFiSnap + DeFiZap coming together to create the ultimate hub for Decentralized Finance aka #DeFi. So some of the stuff in the article above is out of date, but you can still use Zaps on Zapper.fi
+
+### So what can I do with Zaps on yearn?
+- With as zap you can take your DAI, for example, and get yCRV with it in one transaction. Normally, to turn DAI in to yCRV, you would have to go to earn, deposit DAI and receive yDAI, then go to [Curve.fi - Yearn pool](https://www.curve.fi/iearn/deposit) and deposit your yDAI and then you would get yCRV. This is alot to do so instead you can do it in one transaction!
+
+### That sounds awesome, what's the downside?
+- Well, it does take a lot of gas and could be costly, even more so than doing it yourself manually, but if you have a big transaction and are in a rush it is a great method to get into a DeFi position or liquidity pool fast. 
+
+## APR
+[yearn.finance/apr](https://yearn.finance/apr)
+
+### What is this even for?
+- APR is a table that shows you the current APR for some yearn-supported tokens across lending platforms. The highest APR for each coin is the provider that Earn is lending these coins to at the moment.
+
+
+
+## Cover
+[yinsure.finance](https://yinsure.finance/) 
+
+### What's Cover?
+- Cover, also known as **yInsure**, is a pooled coverage system providing insurance against smart contract risk. 
+- It has no KYC requirement and is underwritten by Nexus Mutual.
+- Learn more in this [medium article](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896)
+
+## Products Currently in Testing
+
+### yTrade
+[ytrade.finance](https://ytrade.finance/)
 - Leveraged stable coin trades (testnet)
 
-## [yliquidate.finance](https://yliquidate.finance/)
+### yLiquidate
+[yliquidate.finance](https://yliquidate.finance/)
 - 0 capital automated liquidations for Aave (testnet)
 
-## [yswap.exchange](https://yswap.exchange/)
+### ySwap
+[yswap.exchange](https://yswap.exchange/)
 - Single sided automated market maker (testing in mainnet)
 
-## [yborrow.finance](https://yborrow.finance/)
+### yBorrow
+[yborrow.finance](https://yborrow.finance/)
 - Credit delegation vaults for smart contract to smart contract lending (testnet)
 
-## [yinsure.finance](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896) 
-- Prototype for a new kind of tokenized insurance (testnet)
+
 
 <br>
 
@@ -189,17 +223,17 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 
 ## yCRV
-- LP token for yearn's Y pool at Curve.fi
+- LP token for yearn's Y pool at Curve.fi/y
 - Aka `yDAI+yUSDC+yUSDT+yTUSD`
 - Interest earning token representing your share of the Y pool composed of DAI, USDT, USDC, and TUSD 
 - Via [How to provide liquidity on Curve.fi Y pool?](https://guides.curve.fi/how-to-provide-liquidity-on-curve-fi-y-pool/)
     - Curve Finance Y pool has long been one of the most popular pools on Curve Finance due to its strong returns from trading fees supplemented by iEarn which also lends your stable coin in the background to the lending protocol with the best lending rates out of Compound, dYdX and AAVE.
 
 
-## yyCRV
+## yUSD 
 - LP token for yearn's yCRV yVault
-- aka `yyDAI+yUSDC+yUSDT+yTUSD`
-- When you deposit yCRV into the yVault you receive yyCRV LP tokens
+- aka `yyCRV` or `yyDAI+yUSDC+yUSDT+yTUSD`
+- When you deposit yCRV into the yVault you receive yUSD**** LP tokens
 - earns interest via yCRV, fees and yield farming rewards via the vault strategy
 
 <br>
@@ -215,7 +249,8 @@ But if you think something can be improved, or you found a bug, we want to squas
 - Twitter
     - [yearn.finance - Official Twitter of Yearn](https://twitter.com/iearnfinance?s=20)
     - [Andre Cronje - Lead Developer of Yearn](https://twitter.com/AndreCronjeTech?s=20)
-
+    - [yLearnfinance - Yearn Info](https://twitter.com/yLearnfinance)
+    - [Learn 2 Yearn - Yearn Info](https://twitter.com/learn2yearn)
 <br>
 
 # Governance
@@ -245,6 +280,9 @@ But if you think something can be improved, or you found a bug, we want to squas
 ### How do I vote? 
 - Stake your YFI and then you can cast your vote for YIPs that are on-chain on the [voting dashboard](https://ygov.finance/vote)
 
+### Can I vote if my YFI is in the YFI vault?
+- No, your YFI must be staked in the [governance contract](https://ygov.finance/staking) in order to vote
+
 ### Where can I view the YIPs?
 - You can view them on the [voting dashboard](https://ygov.finance/vote) if you login to your web3 account or at [yips.yearn.finance](https://yips.yearn.finance/all-yip)
 
@@ -252,7 +290,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 - You should stake if you want to vote on YIPs and get rewards that are generated from the yearn ecosystem. The APY for staking is currently not listed on the UI. You can ask on the chat what the rate is.
 
 ### What do I have to do to get rewards with my YFI?
-- All you need to do is stake YFI at [ygov.finance/stake](https://ygov.finance/stake) and you will get rewards IF the treasury is at or above 500k usd. You can check the treasury address [here](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
+- All you need to do is stake YFI at [ygov.finance/stake](https://ygov.finance/stake) and you will get rewards when the treasury is at or above 500k usd. You can check the treasury address [here](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
 - Note that if you stake you get rewards (as long as they are not going to the treasury), but you can only claim them within 3 days of voting. 
 
 ### Does staking my YFI matter for voting?
@@ -260,6 +298,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ### What if I want to take my YFI out before the end of the vote lock?
 - You can't, sorry. The lock lasts 3 days after you last voted, until then you cannot unstake your tokens.
+- If you try to unstake your tokens before the lock ends you will see a very high gas cost, this is an error, you will not be able to unstake until the 3 day lock has ended
 
 ### I voted and I know the vote lock is 3 days, is there anywhere I can see exactly how long I have left till I can unstake my YFI?
 - Yes! You can read the contract directly [ygov.finance staking contract](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992#readContract) go to 28 votelock and input your eth address. This will give you the eth block number when you can unstake.
@@ -319,15 +358,24 @@ But if you think something can be improved, or you found a bug, we want to squas
 - The multi-signature address is explained in detail in this [thread](https://gov.yearn.finance/t/yfi-minting-ownership/155). Basically it is a 6 of 9 multi-signature account that has control over minting YFI, if a vote to mint tokens has passed successfully.
 
 ## Who are the 9 multisig signers?
-- [Calvin Liu](https://twitter.com/cjliu49/status/1285439553180798976?s=21)
-- [Coopahtroopa](https://twitter.com/Cooopahtroopa/status/1285438650550038529)
 - [Cp0x.com](https://twitter.com/kaplansky1/status/1285427247286046725)
-- [Curve.fi](https://twitter.com/CurveFinance/status/1285428322986389504)
-- [Damir Bandalo](https://twitter.com/damirbandalo/status/1285500362015875073?s=20)
 - [Daryllautk](https://twitter.com/Daryllautk/status/1285434908383444992)
 - [Devops199fan](https://twitter.com/devops199fan/status/1285430347954622464)
 - [Banteg](https://twitter.com/bantg/status/1285426492906909696)
 - [Milkyklim](https://milkyklim.keybase.pub/yearn-social-proof.txt)
+- [Joe Mahon AKA Substreight](https://twitter.com/Substreight)
+- [Tarun Chitra, Gauntlet](https://twitter.com/tarunchitra)
+- [Vasiliy Shapovalov, p2p.org](https://twitter.com/_vshapovalov)
+- [Mariano Conti, ex-MakerDAO](https://twitter.com/nanexcool)
+
+## Have the multisig signers changes?
+- Yes, [YIP-40](https://gov.yearn.finance/t/yip-40-replace-inactive-multisig-signers/3535) changed four of the signers
+- Outgoing signers were:
+    - [Coopahtroopa](https://twitter.com/Cooopahtroopa/status/1285438650550038529)
+    - [Michael, Curve.fi](https://twitter.com/CurveFinance/status/1285428322986389504)
+    - [Calvin Liu](https://twitter.com/cjliu49/status/1285439553180798976?s=21)
+    - [Damir Bandalo](https://twitter.com/damirbandalo/status/1285500362015875073?s=20)
+
 
 ## What decisions can Andre make on his own?
 - Andre can build out the Yearn ecosystem and come up with new products. Usually he posts his thoughts and ideas on the [forum](https://gov.yearn.finance/) for everyone to see.
@@ -362,6 +410,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 <br>
 
 # Related Projects
+
 ## [Curve](https://www.curve.fi/)
 - Curve is an exchange liquidity pool on Ethereum (like [Uniswap](https://app.uniswap.org/#/)) designed for (1) extremely efficient stablecoin trading (2) low risk, supplemental fee income for liquidity providers, without an opportunity cost. Curve allows users (and smart contracts like 1inch, Paraswap, Totle and Dex.ag) to trade between DAI and USDC with a bespoke low slippage, low fee algorithm designed specifically for stablecoins and earn fees. Behind the scenes, the liquidity pool is also supplied to the Compound protocol or yearn.finance where it generates even more income for liquidity providers.
 - Curve [FAQ](https://www.curve.fi/rootfaq)
