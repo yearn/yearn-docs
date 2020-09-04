@@ -98,13 +98,7 @@ But if you think something can be improved, or you found a bug, we want to squas
     - For community-made strategies, like the new yETH vault, currently 10% of this fee goes the the strategy creator.
 
 ### Can you explain the 5% fee to subsidize gas?
-- Taking the USDC vault as an example, when harvest() is called the profit comes from three places: 
-    1. Interest for being lent out at Compound
-    2. COMP liquidated to USDC
-    3. DF tokens from DForce that get harvested and sold for USDC 
-- Only the 3rd event, harvesting and selling the DF tokens, incurs the 5% fee
-- The 5% fee is charged on that event because the system uses additional gas that it would not have otherwise used.
-
+- Since the strategies pool together a large amount of funds invested when performing any gas-intensive transaction, the gas costs become practically neglible for the individual investor. Because of this and in order to compensate for other overhead costs in our strategies, we charge 5% of the gas. Bear in mind that even with this charge, the gas cost in proportion to the costs that an individual investor would have to pay is orders of magnitude smaller.
 
 ### Where do the fees go?
 - They go to a dedicated treasury contract 
@@ -232,10 +226,10 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 
 ## yUSD 
-- LP token for yearn's yCRV yVault
+- Wrapped token for yearn's yCRV yVault
 - aka `yyCRV` or `yyDAI+yUSDC+yUSDT+yTUSD`
-- When you deposit yCRV into the yVault you receive yUSD**** LP tokens
-- earns interest via yCRV, fees and yield farming rewards via the vault strategy
+- When you deposit yCRV into the yVault you receive yUSD**** tokens
+- The wrapped yUSD tokens represent a number of yCRV tokens, given by the SharePrice that's attached to them. This price increases and multiplying your wrapped tokens by it will give you the amount of yCRV tokens that belong to you.
 
 <br>
 
