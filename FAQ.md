@@ -91,16 +91,20 @@ But if you think something can be improved, or you found a bug, we want to squas
 - **0.5% fee** on funds withdrawn from active strategies
     - Each vault has some amount of the total funds idle and most of them active in the strategy. The idle funds are the difference between `vault holdings` and `strategy holdings`, you can see them on [feel the yearn](https://feel-the-yearn.app/).
     - When you withdraw, if your funds come from the idle funds, you won't be charged any withdrawal fee. If they come from the strategy, you will be charged the 0.5% fee.
-- Some profit-earning transactions will result in a **5% fee** to subsidize their gas costs when `harvest()` is called.
-    - For community-made strategies, like the new yETH vault, currently 10% of this fee goes the the strategy creator.
+- **5% fee** on additional yield
+    - For community-made strategies, like the new yETH vault, currently 10% of this fee goes the the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
 
-### Can you explain the 5% fee to subsidize gas?
-- Taking the USDC vault as an example, when `harvest()` is called the profit comes from three places:
-    1. Interest for being lent out at Compound
-    2. COMP liquidated to USDC
-    3. DF tokens from DForce that get harvested and sold for USDC
-- Only the 3rd event, harvesting and selling the DF tokens, incurs the 5% fee
-- The 5% fee is charged on that event because the system uses additional gas that it would not have otherwise used.
+### Can you explain the 5% fee on additional yield?
+- Formerly this was called a "5% fee on subsidized gas" which confused literally everyone except Andre. Technically it is not a performance fee—it's a fee on the some profit-generating transactions that incur high gas costs and are critical to the vault's internal functioning.
+- Each vault hasis multiple levels. Here are two examples that show where this fee is taken when the `harvest()` function is called.
+- yCRV Vault example:
+    - Level 1: stablecoins earn interest in money markets (compound, aave, dydx)
+    - Level 2: the level 1 tokens (yDAI, yUSDC, yUSDT, and yTUSD) are provided as liquidty to the yCRV pool to earn trading fees
+    - Level 3: the strategy earns CRV token rewards which it recycles into yCRV—**this is the only level where the 5% fee is taken.**
+- USDC Vault example:
+    - Level 1: Interest for being lent out at Compound
+    - Level 2: COMP liquidated to USDC
+    - Level 3: The strategy earns DF tokens rewards from DForce that get harvested and sold for USDC—**this is the only level where the 5% fee is taken.** 
 
 ### Where do the fees go?
 - They go to a dedicated treasury [contract](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde).
