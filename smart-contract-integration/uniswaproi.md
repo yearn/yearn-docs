@@ -1,14 +1,14 @@
 # Smart Contract Interface
 
-| Contract | ABI | Address |
-| -- | -- | -- |
+| Contract   | ABI                                                                                              | Address                                                                                                  |
+| ---------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | UniswapROI | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/UniswapROI.json) | [uniroi.iearn.eth](https://etherscan.io/address/0xd04ca0ae1cd8085438fdd8c22a76246f315c2687#readContract) |
-
 
 ## UniswapROI Interface
 
 {% tabs %}
 {% tab title="UniswapROI.sol" %}
+
 ```javascript
 // Solidity Interface
 
@@ -73,5 +73,6 @@ interface IUniswapROI {
 }
 
 ```
+
 {% endtab %}
 {% endtabs %}

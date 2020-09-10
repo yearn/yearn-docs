@@ -22,17 +22,16 @@ This allows real time comparison of highest returning yields across multiple pla
 
 The ROI is required for snapshots to be able to get 30 day, 7 day, or APR averages.
 
-
 ## uniapr.iearn.eth
 
 [uniapr.iearn.eth](https://etherscan.io/address/0x4c70D89A4681b2151F56Dc2c3FD751aBb9CE3D95#readContract) is an on-chain uniswap pool APR calculator. It calculates all values in ETH adjusted for the last year.
 
 ## defizap.eth
 
-* ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into wBTC and ETH. wBTC deposited into iWBTC. Uniswap liquidity for iWBTC/ETH. [wBTCUnipool.DeFiZap.eth](https://defizap.com/zaps/unipoolwbtc) [4.21%](https://pools.fyi/#/returns/0x4d2f5cfba55ae412221182d8475bc85799a5644b)
-* ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into sETH and ETH. Uniswap liquidity for sETH/ETH [sETHUnipool.DeFiZap.eth](https://defizap.com/zaps/unipoolseth) [1.75%](https://pools.fyi/#/returns/0xe9cf7887b93150d4f2da7dfc6d502b216438f244)
-* ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into DAI and ETH. DAI deposited into [Chai](https://chai.money/). Uniswap liquidity for CHAI/ETH. [CHAIUnipool.DeFiZap.eth](https://defizap.com/zaps/unipoolchai) [-5.25%](https://pools.fyi/#/returns/0x6c3942b383bc3d0efd3f36efa1cbe7c8e12c8a2b?period=30)
-* ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into DAI and ETH. DAI deposited in [cDAI](https://compound.finance/). Uniswap liquidity for cDAI/ETH [cDAIPool.DeFiZap.eth](https://defizap.com/zaps/unipoolcdai) [4.79%](https://pools.fyi/#/returns/0x34E89740adF97C3A9D3f63Cc2cE4a914382c230b?period=30)
+- ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into wBTC and ETH. wBTC deposited into iWBTC. Uniswap liquidity for iWBTC/ETH. [wBTCUnipool.DeFiZap.eth](https://defizap.com/zaps/unipoolwbtc) [4.21%](https://pools.fyi/#/returns/0x4d2f5cfba55ae412221182d8475bc85799a5644b)
+- ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into sETH and ETH. Uniswap liquidity for sETH/ETH [sETHUnipool.DeFiZap.eth](https://defizap.com/zaps/unipoolseth) [1.75%](https://pools.fyi/#/returns/0xe9cf7887b93150d4f2da7dfc6d502b216438f244)
+- ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into DAI and ETH. DAI deposited into [Chai](https://chai.money/). Uniswap liquidity for CHAI/ETH. [CHAIUnipool.DeFiZap.eth](https://defizap.com/zaps/unipoolchai) [-5.25%](https://pools.fyi/#/returns/0x6c3942b383bc3d0efd3f36efa1cbe7c8e12c8a2b?period=30)
+- ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into DAI and ETH. DAI deposited in [cDAI](https://compound.finance/). Uniswap liquidity for cDAI/ETH [cDAIPool.DeFiZap.eth](https://defizap.com/zaps/unipoolcdai) [4.79%](https://pools.fyi/#/returns/0x34E89740adF97C3A9D3f63Cc2cE4a914382c230b?period=30)
 
 ## uniswap.exchange
 
@@ -54,22 +53,22 @@ We start from a fresh pool 0 balance.
 
 We have the following metrics;
 
-| Pool | Shares |
-| -- | -- |
+| Pool  | Shares |
+| ----- | ------ |
 | 1 ETH | 1 iETH |
 
 +1 ETH is deposited. 1 iETH is minted.
 
-| Pool | Shares |
-| -- | -- |
+| Pool  | Shares |
+| ----- | ------ |
 | 2 ETH | 2 iETH |
 
 1 iETH can claim 1 ETH.
 
 The pool increases interest by 10%.
 
-| Pool | Shares | Value |
-| -- | -- | -- |
+| Pool    | Shares | Value   |
+| ------- | ------ | ------- |
 | 2.2 ETH | 2 iETH | 1.1 ETH |
 
 Now 1 iETH = 1.1 ETH
