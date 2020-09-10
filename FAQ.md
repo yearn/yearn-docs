@@ -18,8 +18,8 @@ If you have questions about how to do anything, we can help you on:
 - [Telegram](https://t.me/yearnfinance)
 
 But if you think something can be improved, or you found a bug, we want to squash it. Please post it here:
-- [Github](https://github.com/iearn-finance) — create a new issue in the relevant repository.
-- [Forum](https://gov.yearn.finance/c/feedback/) — post in the feedback category.
+- [Github](https://github.com/iearn-finance)—create a new issue in the relevant repository.
+- [Forum](https://gov.yearn.finance/c/feedback/)—post in the feedback category.
 
 # Products
 
@@ -95,16 +95,16 @@ But if you think something can be improved, or you found a bug, we want to squas
     - For community-made strategies, like the new yETH vault, currently 10% of this fee goes the the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
 
 ### Can you explain the 5% fee on additional yield?
-- Formerly this was called a "5% fee on subsidized gas" which confused literally everyone except Andre. Technically it is not a performance fee—it's a fee on the some profit-generating transactions that incur high gas costs and are critical to the vault's internal functioning.
-- Each vault hasis multiple levels. Here are two examples that show where this fee is taken when the `harvest()` function is called.
+- Formerly this was called a "5% fee on subsidized gas" which confused literally everyone except Andre. Technically, it is not a performance fee—it's a fee on some profit-generating transactions that incur high gas costs and are critical to the vault's internal functioning.
+- Each vault has multiple levels. Here are two examples that show where this fee is taken when the `harvest()` function is called.
 - yCRV Vault example:
-    - Level 1: stablecoins earn interest in money markets (compound, aave, dydx)
-    - Level 2: the level 1 tokens (yDAI, yUSDC, yUSDT, and yTUSD) are provided as liquidty to the yCRV pool to earn trading fees
-    - Level 3: the strategy earns CRV token rewards which it recycles into yCRV—**this is the only level where the 5% fee is taken.**
+    - Level 1: Stablecoins earn interest in money markets (compound, aave, dydx).
+    - Level 2: The level 1 tokens (yDAI, yUSDC, yUSDT, and yTUSD) are provided as liquidity to the yCRV pool to earn trading fees.
+    - Level 3: The strategy earns CRV token rewards which it recycles into yCRV—**this is the only level where the 5% fee is taken.**
 - USDC Vault example:
-    - Level 1: Interest for being lent out at Compound
-    - Level 2: COMP liquidated to USDC
-    - Level 3: The strategy earns DF tokens rewards from DForce that get harvested and sold for USDC—**this is the only level where the 5% fee is taken.** 
+    - Level 1: Interest for being lent out at Compound.
+    - Level 2: COMP liquidated to USDC.
+    - Level 3: The strategy earns DF tokens rewards from DForce that get harvested and sold for USDC—**this is the only level where the 5% fee is taken.**
 
 ### Where do the fees go?
 - They go to a dedicated treasury [contract](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde).
@@ -156,7 +156,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 - Zaps were made by DefiZap which is now [Zapper.fi](https://zapper.fi) as a type of all in one DeFi routing service.
 
 ### Why use a Zap?
-- "Zaps allow you get into a DeFi position in one transaction — it’s called zapping in." - [How to use Zaps guide](https://defitutorials.substack.com/p/how-to-use-defizap).
+- "Zaps allow you get into a DeFi position in one transaction—it’s called zapping in." - [How to use Zaps guide](https://defitutorials.substack.com/p/how-to-use-defizap).
     - Note that this is an old article and [Zapper](https://zapper.fi) was formed as a result of DeFiSnap + DeFiZap coming together to create the ultimate hub for Decentralized Finance aka #DeFi. So some of the stuff in the article above is out of date, but you can still use Zaps on Zapper.fi.
 
 ### So what can I do with Zaps on yearn?
@@ -393,7 +393,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 ## I sent my ETH transaction but it says pending? How do I fix this?
 - You should always make sure to set your gas properly if you want a transaction to go through quickly. Check current gas prices at [Ethgasstation](https://ethgasstation.info/) or [gasnow](https://www.gasnow.org/).
 - If you're using MetaMask and you put your transaction through but it's going too slow, you have the option to speed it up by clicking the `speed up` button below your last pending transaction under "activity". This should resend the same TX again with a higher gas price to get it confirmed faster.
-- If you've tried everything and your transaction is still stuck pending, you can fix it by sending a transaction to the nonce of the first stuck transaction with a high gas price to overwrite the stuck queue. Here's a good [guide](https://ethgasstation.info/blog/stuck-transaction-guide/#:~:text=Select%20'Expand%20View'%20and%20click,with%20a%20higher%20gas%20price) explaining how to do this.
+- If you've tried everything and your transaction is still stuck pending, you can fix it by sending a transaction to the nonce of the first stuck transaction with a high gas price to overwrite the stuck queue. Here's a good [guide](https://ethgasstation.info/blog/stuck-transaction-guide) explaining how to do this.
 
 ## Why is the withdrawal fee so high?
 - If you're seeing higher than normal fees while using the yearn ecosystem then it may be due to Ethereum congestion and abnormally high gas costs. Check [Ethgasstation](https://ethgasstation.info/). Your options are to wait until gas prices drop or spend the money to process your transaction now.
