@@ -22,7 +22,7 @@ Check out on-chain APR live at
 
 [defisnap.io](http://defisnap.io/)  
 [duneanalytics.com/curve](http://duneanalytics.com/curve)  
-[pools.fyi](http://pools.fyi/)  
+[pools.fyi](http://pools.fyi/)
 
 ## Insurance [Nexus Mutual](https://app.nexusmutual.io/#/SmartContractCover)
 
@@ -32,6 +32,6 @@ ENS: iearn.nexusmutual.eth and curvev1.nexusmutual.eth
 
 ## Insurance [Opyn](http://opyn.co/)
 
-Buy Insurance via [Opyn](http://opyn.co/) here;  
+Buy Insurance via [Opyn](http://opyn.co/) here;
 
-[iearn.finance/cover](https://iearn.finance/cover)  
+[iearn.finance/cover](https://iearn.finance/cover)
