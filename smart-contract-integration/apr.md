@@ -1,13 +1,14 @@
 # Smart Contract Interface
 
-| Contract | ABI | Address |
-| -- | -- | -- |
+| Contract  | ABI                                                                                            | Address                                                                                       |
+| --------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | APROracle | [JSON](https://github.com/iearn-finance/apr-oracle/blob/master/build/contracts/APROracle.json) | [apr.iearn.eth](https://etherscan.io/address/0x97ff4a1b787ade6b94cca95b61f79417c673331d#code) |
 
 ## IAPROracle Interface
 
 {% tabs %}
 {% tab title="IAPROracle.sol" %}
+
 ```javascript
 // Solidity Interface
 
@@ -126,5 +127,6 @@ interface IAPROracle {
   function getAaveAPR(address token) external view returns (uint256);
 }
 ```
+
 {% endtab %}
 {% endtabs %}
