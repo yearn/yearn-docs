@@ -1,13 +1,14 @@
 # Smart Contract Interface
 
-| Contract | ABI | Address |
-| -- | -- | -- |
+| Contract      | ABI                                                                                                | Address                                                                                                   |
+| ------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | IIEarnManager | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/IEarnManager.json) | [imanage.iearn.eth](https://etherscan.io/address/0x318135fbd0b40d48fcef431ccdf6c7926450edfb#readContract) |
 
 ## IIEarnManager Interface
 
 {% tabs %}
 {% tab title="IIEarnManager.sol" %}
+
 ```javascript
 // Solidity Interface
 
@@ -115,5 +116,6 @@ interface IIEarnManager {
 }
 
 ```
+
 {% endtab %}
 {% endtabs %}

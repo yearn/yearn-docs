@@ -1,15 +1,14 @@
 # Smart Contract Interface
 
-| Contract | ABI | Address |
-| -- | -- | -- |
-| yTUSDv2 | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yTUSD.json) | [ytusd.iearn.eth](https://etherscan.io/address/0x73a052500105205d34daf004eab301916da8190f) |
-
-
+| Contract | ABI                                                                                    | Address                                                                                    |
+| -------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| yTUSDv2  | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yTUSD.json) | [ytusd.iearn.eth](https://etherscan.io/address/0x73a052500105205d34daf004eab301916da8190f) |
 
 ## IyTUSD Interface
 
 {% tabs %}
 {% tab title="IyTUSD.sol" %}
+
 ```javascript
 // Solidity Interface
 
@@ -38,6 +37,7 @@ interface IyTUSD {
   function getPricePerFullShare() external view returns (uint256);
 }
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -45,6 +45,7 @@ interface IyTUSD {
 
 {% tabs %}
 {% tab title="TokenInterface.sol" %}
+
 ```javascript
 // https://theethereum.wiki/w/index.php/ERC20_Token_Standard
 contract ERC20Interface {
@@ -63,6 +64,7 @@ contract ERC20Interface {
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 }
 ```
+
 {% endtab %}
 
 {% endtabs %}
