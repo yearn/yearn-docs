@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [FAQ](FAQ.md)
+* [FAQ](faq.md)
 
 ## yearn.finance
 
