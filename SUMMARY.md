@@ -1,15 +1,12 @@
 # Table of contents
 
-* [Introduction](README.md)
-* [FAQ](FAQ.md)
+* [FAQ \(Chinese\)](README.md)
 
-## yearn.finance
+## Additional Resources
 
-* [Overview](yearn.finance/yearn.md)
-* [Registry](yearn.finance/yearn-1.md)
-
-## ytrade.finance
-
-* [Overview](ytrade.finance/ytrade.md)
-* [Registry](ytrade.finance/ytrade-1.md)
+* [Github](https://github.com/iearn-finance)
+* [Medium](https://medium.com/iearn)
+* [Gov Forum](https://gov.yearn.finance/)
+* [Discord](https://discord.gg/sftUTp5)
+* [Telegram](https://t.me/yearnfinance)
 
