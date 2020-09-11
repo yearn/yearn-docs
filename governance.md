@@ -1,3 +1,7 @@
+---
+tags: docs-v2
+---
+
 # Governance
 
 {% hint style="info" %}
