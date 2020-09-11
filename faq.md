@@ -203,25 +203,17 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 * Well, it does take a lot of gas and could be costly, even more so than doing it yourself manually, but if you have a big transaction and are in a rush it is a great method to get into a DeFi position or liquidity pool fast.
 
-### APR
-
-* [yearn.finance/apr](https://yearn.finance/apr)
-
-#### What is this even for?
-
-* APR is a table that shows you the current APR for some yearn-supported tokens across lending platforms. The highest APR for each coin is the provider that Earn is lending these coins to at the moment.
-
-### Cover
+### yInsure / Cover 
 
 * [yinsure.finance](https://yinsure.finance/)
 
-#### What's Cover?
+#### What's yInsure?
 
-* Cover, also known as **yInsure**, is a pooled coverage system providing insurance against smart contract risk.
+* yInsure, also known as **Cover**, is a pooled coverage system providing insurance against smart contract risk.
 * It has no KYC requirement and is underwritten by Nexus Mutual.
 * Learn more in this [article](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896).
 
-### Products Currently in Testing
+### Products Currently in Research & Development
 
 #### yTrade
 
@@ -242,33 +234,6 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 * [yborrow.finance](https://yborrow.finance/)
 * Credit delegation vaults for smart contract to smart contract lending \(testnet\).
-
-## Tokens
-
-### YFI
-
-* Yearn Governance token
-* Only 30,000 minted and already fully distributed
-  * Governance can mint more if proposal to do so passes.
-
-### yTokens
-
-* When you deposit tokens into any yearn service your depost is wrapped and returned as a yToken representing the liquidity provided, e.g. if you deposit DAI in y.curve.fi you will receive yDAI in return.
-* Amounts of yToken and deposited token will differ since the yToken represents a share of a pool that is increasing in value.
-* If you deposit a yToken into another yearn service you will get a yyToken back.
-
-### yCRV
-
-* LP token for yearn's Y pool at Curve.fi/y aka `yDAI+yUSDC+yUSDT+yTUSD`.
-* Interest earning token representing your share of the Y pool composed of DAI, USDT, USDC, and TUSD.
-* Via [How to provide liquidity on Curve.fi Y pool?](https://guides.curve.fi/how-to-provide-liquidity-on-curve-fi-y-pool/).
-  * Curve Finance Y pool has long been one of the most popular pools on Curve Finance due to its strong returns from trading fees supplemented by iEarn which also lends your stable coin in the background to the lending protocol with the best lending rates out of Compound, dYdX and AAVE.
-
-### yUSD
-
-* LP token for yearn's yCRV yVault aka `yyCRV` or `yyDAI+yUSDC+yUSDT+yTUSD`.
-* When you deposit yCRV into the yVault you receive yUSD_\*\*_ LP tokens.
-* earns interest via yCRV, fees and yield farming rewards via the vault strategy.
 
 ## Communication
 
