@@ -1,4 +1,4 @@
-# Getting Started with Yearn
+# Introduction to Yearn
 
 {% hint style="info" %}
 These docs are in active development by the Yearn community.
