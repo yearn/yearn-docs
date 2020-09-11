@@ -2,7 +2,7 @@
 
 ### ROI
 
-Are you an advanced user trying to understand how ROI is calculated? Skip directly to "[_Why we can't use compound or linear interest formulas to estimate yVaults returns_](https://hackmd.io/BQChrnqRQ3-HHx-0oZZZug?both#Why-we-can%E2%80%99t-use-compound-or-linear-interest-formulas-to-estimate-yVaults-returns)"
+Are you an advanced user trying to understand how ROI is calculated? Skip directly to "[_Why we can't use compound or linear interest formulas to estimate yVaults returns_](https://docs.yearn.finance/how-to-guides/how-to-understand-yvault-roi#why-cant-we-use-compound-or-linear-interest-formulas-to-estimate-yvaults-returns)"
 
 If you are a beginner in DeFi or new to Yearn, then keep on reading.
 
