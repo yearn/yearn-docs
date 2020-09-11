@@ -1,7 +1,7 @@
 # Getting Started with Yearn
 
 {% hint style="info" %}
-These docs are still being worked on.
+These docs are in active development by the Yearn community.
 {% endhint %}
 
 ## [yearn.finance](https://yearn.finance)
