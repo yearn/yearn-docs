@@ -3,13 +3,3 @@
 * [Introduction](README.md)
 * [FAQ](faq.md)
 
-## yearn.finance
-
-* [Overview](yearn.finance/yearn.md)
-* [Registry](yearn.finance/yearn-1.md)
-
-## ytrade.finance
-
-* [Overview](ytrade.finance/ytrade.md)
-* [Registry](ytrade.finance/ytrade-1.md)
-
