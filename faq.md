@@ -56,7 +56,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 #### I see ROI on the vaults page is it the current one?
 
 * No. This is the historical average for that vault. Current APY / returns are not shown as vaults are a beta product and being tested live.
-* Various third party sites provide APY and other info, they are listed below in [Statistics](https://hackmd.io/zmy_vlxOSeChkpRaSRO6IQ#Statistics).
+* Various third party sites provide APY and other info, they are listed below in [Statistics](https://docs.yearn.finance/faq#statistics).
 
 #### What are the risks?
 
