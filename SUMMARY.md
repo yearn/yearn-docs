@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Getting Started with Yearn](README.md)
+* [FAQ](faq.md)
+* [Governance](governance.md)
 
 ## Getting Started
-
-* [FAQ](getting-started/faq.md)
 

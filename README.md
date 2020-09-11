@@ -1,10 +1,10 @@
-# Introduction
+# Getting Started with Yearn
 
 {% hint style="info" %}
 These docs are still being worked on.
 {% endhint %}
 
-## [yearn.finance](https://yearn.finance) TEST
+## [yearn.finance](https://yearn.finance)
 
 The [yearn.finance](https://yearn.finance) ecosystem consists of the following products;
 
