@@ -29,10 +29,10 @@ What need to do is to:
 * Deposit stable coins \(DAI, USDC, USDT, TUSD\) into a the [Y Curve liquidity pool](https://www.curve.fi/iearn/), which in exchange sends to your wallet a token that represents your deposit. 
 * You will receive in return an amount of yDAI/yUSDC/yUSDT/yTUSD tokens into your wallet \(you might need to add this custom token into your wallet\).
 
-There is one extra step that you might have realized is missing. In the [FIRST](https://hackmd.io/YeZX4BlpT_KTBxIQSwAiPA?both#First-On-ramp) step, you got ETH on your wallet, but now you need one of the above stable coins as input for the Liquidity Pool. You can get this stable coins in many different ways
+There is one extra step that you might have realized is missing. In the [FIRST](https://docs.yearn.finance/how-to-guides/how-to-participate-in-a-yvault#1-you-need-to-have-in-your-wallet-at-least-one-of-the-tokens-required-by-any-of-the-yvaults) step, you got ETH on your wallet, but now you need one of the above stable coins as input for the Liquidity Pool. You can get this stable coins in many different ways
 
-* CEX \(\[Centralized Exchanges\]\)\([https://www.coingecko.com/en/exchanges](https://www.coingecko.com/en/exchanges)\)
-* DEXs [\(Decentralized Exchanges](https://www.coingecko.com/en/exchanges/decentralized)\) and DEX aggregators such as [1inch.exchange ](https://1inch.exchange/)
+* CEX ([Centralized Exchanges)](https://www.coingecko.com/en/exchanges)\)
+* DEXs ([Decentralized Exchanges](https://www.coingecko.com/en/exchanges/decentralized)\) and DEX aggregators such as [1inch.exchange ](https://1inch.exchange/)
 * By providing collateral and borrowing a stable coin such as DAI through [MakerDAOs Oasis App](https://oasis.app/borrow) or [Instadapp](https://instadapp.io/) which aggregates features from several Defi apps and allows you to get DAI from a collateral such as ETH.
 
 Let's recap, by now you should have gotten some ETH, exchanged it for some stable coins such as DAI and have deposited these stable coins into the Curve.fi Y Liquidity Pool. In your wallet you should have some tokens named "yDAI/yUSDC/yUSDT/yTUSD".
