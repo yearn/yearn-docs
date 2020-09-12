@@ -1,10 +1,10 @@
 # How-To Guides
 
-{% page-ref page="how-to-participate-in-a-yvault.md" %}
+[How To Participate in a yVault](how-to-guides/how-to-participate-in-a-yvault.md)
 
-{% page-ref page="how-to-understand-yvault-roi.md" %}
+[How To Understand yVault ROI](how-to-guides/how-to-understand-yvault-roi.md)
 
-{% page-ref page="how-to-make-a-yip.md" %}
+[How To Make a YIP](how-to-guides/how-to-make-a-yip.md)
 
 
 
