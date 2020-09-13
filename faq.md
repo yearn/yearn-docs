@@ -92,9 +92,9 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### Why isn't yCRV worth $1, it's a stable coin right?
 
-* No, yCRV is not worth $1 and no it is NOT a stablecoin. You can think of yCRV as an index of yield bearing stablecoins \(yDAI+yUSDC+yUSDT+yTUSD\) that also generates yield \(trading fees from the Curve Y pool\) as well. Therefore the price of yCRV is non-decreasing.
+* No, yCRV is not worth $1, and no it is NOT a stablecoin. You can think of yCRV as an index of yield bearing stablecoins \(yDAI+yUSDC+yUSDT+yTUSD\) that also generates yield \(trading fees from the Curve Y pool\) as well. Therefore the price of yCRV is non-decreasing.
 
-#### If I unstake my yCRV from the yCRV vault does that then revert it back to the Curve Y pool at Curve, or do I have to do something else like restake it there?
+#### If I unstake my yCRV from the yCRV vault, does that then revert it back to the Curve Y pool at Curve, or do I have to do something else like restake it there?
 
 * When you withdraw your yCRV from the vault, you get back yCRV + plus interest accrued - fees, all in yCRV. Since it is the yCRV token you got back, it is already staked in Curve Y pool making stablecoin swap fees. No need to do anything else with Curve, unless you want to stake it [here](https://dao.curve.fi/minter/gauges) to generate CRV.
 
@@ -102,9 +102,9 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 * You can’t just get same numbers for 2 completely different coins. The new sBTC is following the same strategy that the yCRV vault using curve liquidity pool. The obvious answer is that there aren’t much safe platforms accepting YFI as stake so there aren’t much valid strategies for the YFI vault right now.
 
-#### I deposited into a vault what will I get out when I withdrawal?
+#### I deposited into a vault, what will I get out when I withdrawal?
 
-* You will always withdrawal only the coin type that you put.
+* You will always withdrawal only the coin type that you put in.
 * You will get the amount you put in, plus the pool yield you earned, minus the fees.
 
 #### What are the Fees?
@@ -113,7 +113,7 @@ But if you think something can be improved, or you found a bug, we want to squas
   * Each vault has some amount of the total funds idle and most of them active in the strategy. The idle funds are the difference between `vault holdings` and `strategy holdings`, you can see them on [feel the yearn](https://feel-the-yearn.app/).
   * When you withdraw, if your funds come from the idle funds, you won't be charged any withdrawal fee. If they come from the strategy, you will be charged the 0.5% fee.
 * **5% fee** on additional yield
-  * For community-made strategies, like the new yETH vault, currently 10% of this fee goes the the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
+  * For community-made strategies, like the new yETH vault, currently 10% of this fee goes to the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
 
 #### Can you explain the 5% fee on additional yield?
 
@@ -197,7 +197,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### So what can I do with Zaps on yearn?
 
-* With as zap you can take your DAI, for example, and get yCRV with it in one transaction. Normally, to turn DAI in to yCRV, you would have to go to earn, deposit DAI and receive yDAI, then go to [Curve.fi - Yearn pool](https://www.curve.fi/iearn/deposit) and deposit your yDAI and then you would get yCRV. This is alot to do so instead you can do it in one transaction!
+* With a zap you can take your DAI, for example, and get yCRV with it in one transaction. Normally, to turn DAI into yCRV, you would have to go to earn, deposit DAI and receive yDAI, then go to [Curve.fi - Yearn pool](https://www.curve.fi/iearn/deposit) and deposit your yDAI and then you would get yCRV. This is a lot to do, so instead you can do it in one transaction!
 
 #### That sounds awesome, what's the downside?
 
@@ -389,7 +389,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 * [Vasiliy Shapovalov, p2p.org](https://twitter.com/_vshapovalov/status/1299799139635679232)
 * [Mariano Conti, ex-MakerDAO](https://twitter.com/nanexcool)
 
-### Have the multisig signers changes?
+### Have the multisig signers changed?
 
 * Yes, [YIP-40](https://gov.yearn.finance/t/yip-40-replace-inactive-multisig-signers/3535) changed four of the signers
 * Outgoing signers were:
