@@ -6,5 +6,4 @@ description: Not recommended for retail use
 
 {% embed url="https://yborrow.finance" %}
 
-It is an internal tool enabling credit delegation for smart contract to smart contract lending. 
-
+It is an internal tool enabling credit delegation for smart contract to smart contract lending.
