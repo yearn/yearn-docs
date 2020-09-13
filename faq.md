@@ -179,7 +179,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 * Earn is a yield aggregator for lending platforms that rebalances for highest yield during contract interaction.
 * Deposit DAI, USDC, USDT, TUSD, or sUSD and it will auto lend to the highest lending rate on these platforms [Compound](https://compound.finance/), [Dydx](https://dydx.exchange/) or [Aave](https://app.aave.com/home) \(Ddex and Fulcrum are currently disabled\).
-* Learn more in the [Yearn Docs](https://docs.yearn.finance/yearn.finance/yearn)
+* Learn more in the [Earn Docs](https://docs.yearn.finance/products/earn)
 
 ### Zap
 
