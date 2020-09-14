@@ -11,6 +11,7 @@ description: In Development
 1. Finematics [explains](https://twitter.com/finematics/status/1305188626008100865) the whole process in 30 secs.
 2. Andre joins the CODEUP 38 and [explains](https://www.youtube.com/watch?v=bdC3rNDChbw&feature=youtu.be&t=2002) the product himself.
 3. Economic Designs also takes a shot at [explaining](https://twitter.com/lisajytan/status/1304584889237270528) it.
+4. Bankless [discussed](https://www.youtube.com/watch?v=SkTuMVBLBNQ&feature=youtu.be) with Andre StableCredit in detail.
 
 ## Other concepts
 
