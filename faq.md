@@ -510,7 +510,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 - [Yearn Finance](https://medium.com/iearn) - Offical Blog
 
 ### Podcasts
-
+- Sep 15 2020: [Unchained - Andre Cronje on YFI and the Fair Launch: ‘I’m Lazy’](https://unchainedpodcast.com/andre-cronje-of-yearn-finance-on-yfi-and-the-fair-launch-im-lazy/)
 - [Andre Cronje and the Philosophy of Yearn Finance](https://anchor.fm/hasu-research/episodes/6-Andre-Cronje-and-the-Philosophy-of-Yearn-Finance-ei4vds)
 - [The FTX Podcast - Andre Cronje DeFI Architect](https://open.spotify.com/episode/6d14TJtQU7eB69azelpdeh)
 - [Zapper Community Call - With Andre](https://www.youtube.com/watch?v=venoiaiVZ-U)
