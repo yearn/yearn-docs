@@ -15,7 +15,7 @@
 
 ## yUSD
 
-- See our [doc on yUSD]( https://docs.yearn.finance/yusd) for detailed info
+- See our [doc on yUSD](https://docs.yearn.finance/yusd) for detailed info
 - LP token for yearn's yCRV yVault
 - aka `yyCRV` or `yyDAI+yUSDC+yUSDT+yTUSD`
 - When you deposit yCRV into the yVault you receive yUSD\*\*\*\* LP tokens
