@@ -6,6 +6,8 @@ yUSD makes DeFi simple by automatically maximizing yield and minimizing risk for
 
 ## How to Get yUSD
 
+Full visual walkthrough here: [How to Buy yUSD](how-to-guides/how-to-buy-yusd.md)
+
 _Supported wallets: Metamask, Trustwallet, Trezor, or Torus._
 
 1. Load your wallet with DAI, USDC, USDT, TUSD, or yCRV
