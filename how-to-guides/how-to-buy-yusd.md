@@ -6,8 +6,8 @@ You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://do
 
 ## Prerequisites
 
-* You must have DAI, USDC, USDT, TUSD, or yCRV to use for buying yUSD
-* You must use a supported wallet, either Metamask, Trustwallet, Trezor, or Torus
+- You must have DAI, USDC, USDT, TUSD, or yCRV to use for buying yUSD.
+- You must use a supported wallet, either Metamask, Trustwallet, Trezor, or Torus.
 
 ## Visual Walkthrough
 
@@ -64,4 +64,3 @@ You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://do
 ## That's it!
 
 If you have any further questions or get stuck somewhere, ask for help on the Support channel in our discord: [https://discord.gg/THHGbux](https://discord.gg/THHGbux)
-
