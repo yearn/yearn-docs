@@ -1,6 +1,6 @@
 # yUSD
 
-yUSD ![](https://i.imgur.com/XdOzWfW.png =20x) is an ERC-20 token issued by Yearn that represents shares in our most popular vault: the yCRV Vault (listed as `curve.fi/y LP` on our [vaults page](https://yearn.finance/vaults)).
+yUSD is an ERC-20 token issued by Yearn that represents shares in our most popular vault: the yCRV Vault (listed as `curve.fi/y LP` on our [vaults page](https://yearn.finance/vaults)).
 
 yUSD makes DeFi simple by automatically maximizing yield and minimizing risk for our depositors. On the backend, the yCRV Vault implements modular, autonomous, yield-aware strategies. These are created and regularly updated by the best minds in DeFi, all under the control of Yearn governance.
 
