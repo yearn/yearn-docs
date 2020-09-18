@@ -8,7 +8,8 @@
   - [How To Understand yVault ROI](how-to-guides/how-to-understand-yvault-roi.md)
   - [How To Make a YIP](how-to-guides/how-to-make-a-yip.md)
 - [Governance](governance.md)
-- [YFI, yUSD, and yTokens](yfi-yusd-and-ytokens.md)
+- [YFI and yTokens](yfi-and-ytokens.md)
+- [yUSD](yusd.md)
 
 ## Products
 
