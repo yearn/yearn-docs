@@ -1,8 +1,8 @@
 # How-To Guides
 
-{% page-ref page="how-to-buy-yusd.md" %}
+{% page-ref page="how-to-mint-yusd.md" %}
 
-{% page-ref page="how-to-add-yusd-to-metamask.md" %}
+{% page-ref page="how-to-add-a-custom-token-to-metamask.md" %}
 
 {% page-ref page="how-to-participate-in-a-yvault.md" %}
 
