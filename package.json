@@ -6,8 +6,9 @@
     "prettier": "^2.1.1"
   },
   "scripts": {
-    "lint": "npx prettier --list-different '**/*.md'",
-    "lint:fix": "npx prettier --write '**/*.md'"
+    "lint": "prettier --list-different '**/*.md'",
+    "lint:fix": "prettier --write '**/*.md'",
+    "lint:check": "prettier --check **/*.md"
   },
   "repository": {
     "type": "git",

@@ -10,25 +10,29 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  lint:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [12.x]
-
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/cache@v2
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Cache modules
+      uses: actions/cache@v2
       with:
         path: ~/.npm
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
           ${{ runner.os }}-node-
-    - name: Use Node.js ${{ matrix.node-version }}
+
+    - name: Setup node.js
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run lint
+          node-version: '12.x'
+
+    - name: Install modules
+      run: npm install
+
+    - name: Run linter on
+      run: npm run lint:check
