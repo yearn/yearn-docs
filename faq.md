@@ -500,8 +500,9 @@ But if you think something can be improved, or you found a bug, we want to squas
 - [yVault ROI Calculator](https://py-earn.herokuapp.com/)
 - [stats.finance/yearn](https://stats.finance/yearn)
 - [Feel The Yearn](https://feel-the-yearn.vercel.app/)
-- Yearn Initial Distribution [Dune Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
+- Initial Distribution [Dune Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
 - Voting Stats [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/Lqnxzm7fa8NVhKC4kc37DDFPZgqXryaIjyLRYAYp)
+- Vaults Stats [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/g0bGfgloeXBd9C18jpBjdXi5KkQjR7IXYqFRUnHk)
 
 ### Latest Yearn News
 
