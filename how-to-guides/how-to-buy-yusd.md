@@ -59,7 +59,7 @@ You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://do
 
 ![](https://i.imgur.com/nivD4q2.png)
 
-13\) To see yUSD in MetaMask you need to add it as a custom token. Luckily for you we have a guide for that: [How to Add yUSD to MetaMask](https://docs.yearn.finance/how-to-guides/how-to-add-yusd-to-metamask.md).
+13\) To see yUSD in MetaMask you need to add it as a custom token. Luckily for you we have a guide for that: [How to Add yUSD to MetaMask](https://docs.yearn.finance/how-to-guides/how-to-add-yusd-to-metamask).
 
 ## That's it!
 
