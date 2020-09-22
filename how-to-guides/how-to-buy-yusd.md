@@ -63,4 +63,4 @@ You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://do
 
 ## That's it!
 
-If you have any further questions or get stuck somewhere, ask for help on the Support channel in our discord: [https://discord.gg/THHGbux](https://discord.gg/THHGbux)
+If you have any further questions or get stuck somewhere, ask for help on the Support channel in our discord: [http://discord.yearn.finance](http://discord.yearn.finance)
