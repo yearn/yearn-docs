@@ -19,7 +19,7 @@ tags: "docs, faq, published"
 
 If you have questions about how to do anything, we can help you on:
 
-- [Discord](https://discord.gg/GcjxhWR)
+- [Discord](http://discord.yearn.finance)
 - [Telegram](https://t.me/yearnfinance)
 
 But if you think something can be improved, or you found a bug, we want to squash it. Please post it here:
