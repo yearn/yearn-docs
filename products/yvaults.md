@@ -14,7 +14,7 @@ The vaults are created and maintained by a Controller, who oversees the strategy
 
 ### yETH Vault Mechanics
 
-The Controller opens a colleratlized debt position \(CDP\) at MakerDAO using ETH as collateral and mints DAI. The DAI is deposited into the yDAI vault. The collateralization ratio—a metric of financial leverage—is targeted to always be at least 200%. Automated bots periodically pay down the DAI debt if the ratio falls below 200%. The DAI is redeemed from [Curve](http://curve.fi/) and is not purchased from the open market \(i.e., yDAI is burned and redeemed for DAI\). Excess DAI earned from yield farimging are used to purchase additional ETH, which is deposited into the yETH vault.
+The Controller opens a colleratlized debt position \(CDP\) at MakerDAO using ETH as collateral and mints DAI. The DAI is deposited into the yDAI vault. The collateralization ratio—a metric of financial leverage—is targeted to always be at least 200%. Automated bots periodically pay down the DAI debt if the ratio falls below 200%. The DAI is redeemed from [Curve](http://curve.fi/) and is not purchased from the open market \(i.e., yDAI is burned and redeemed for DAI\). Excess DAI earned from yield farming are used to purchase additional ETH, which is deposited into the yETH vault.
 
 ![](https://i.imgur.com/ZASptpX.png)
 
