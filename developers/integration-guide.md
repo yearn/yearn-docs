@@ -27,6 +27,15 @@ Our contract registry is in progress. For now see:
 
 TBD
 
-### .API Integrations <a id="API-Integrations"></a>
+### API Integrations <a id="API-Integrations"></a>
 
-TBD
+Interactive API documentation can be found at [https://yearn.tools/](https://yearn.tools/) for querying:
+
+- Vaults data (such as strategy, token, metadata, ROI/APY)
+- User data (such as deposits, withdrawals, transfers and earnings)
+
+##### Examples of projects using the API
+
+| Link                | Code                                      | By                         |
+| ------------------- | ----------------------------------------- | -------------------------- |
+| https://yearn.party | https://github.com/x48-crypto/yearn-party | https://twitter.com/x48114 |
