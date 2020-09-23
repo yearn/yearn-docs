@@ -8,7 +8,7 @@
 
 ## yTokens
 
-- When you deposit into any yearn service your depost is wrapped and returned as a yToken representing the liquidity provided
+- When you deposit into any yearn service your deposit is wrapped and returned as a yToken representing the liquidity provided
 - For example, if you deposit DAI in y.curve.fi you will receive yDAI in return
 - Amounts of yToken and deposited token will differ since the yToken represents a share of a pool that is increasing in value
 - If you deposit a yToken into another yearn service you will get a yyToken back
