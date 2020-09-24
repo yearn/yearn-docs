@@ -240,7 +240,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 - [Forum](https://gov.yearn.finance)
   - A lot of real-time discussion happens on the telegram and discord but for a proposal to turn into a YIP \(Yearn Improvement Proposal\) it needs to be posted and discussed on the forum.
   - This is the main place token holders check for governance related issues.
-- [Discord](https://discord.yearn.finance/)
+- [Discord](http://discord.yearn.finance/)
   - Including non-English channels.
 - [Telegram](https://t.me/yearnfinance) - Main Chat.
 - [Telegram](https://t.me/yearncommunity) - Trading/Social/Fork Chat.
@@ -361,7 +361,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### I don't speak English, when will everything be translated?
 
-- We are working on translating to other languages but it will take time. For now you can go to your language in the global section in [Discord](https://discord.yearn.finance/).
+- We are working on translating to other languages but it will take time. For now you can go to your language in the global section in [Discord](http://discord.yearn.finance/).
 
 ## Community
 
