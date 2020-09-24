@@ -117,8 +117,8 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### Can you explain the 5% fee on additional yield?
 
-- Formerly this was called a "5% fee on subsidized gas" which confused literally everyone except Andre. Technically it is not a performance fee—it's a fee on the some profit-generating transactions that incur high gas costs and are critical to the vault's internal functioning.
-- Each vault hasis multiple levels. Here are two examples that show where this fee is taken when the `harvest()` function is called.
+- Formerly this was called a "5% fee on subsidized gas" which confused literally everyone except Andre. Technically it is not a performance fee — it's a fee on the some profit-generating transactions that incur high gas costs and are critical to the vault's internal functioning.
+- Each vault has multiple levels. Here are two examples that show where this fee is taken when the `harvest()` function is called.
 - yCRV Vault example:
   - Level 1: stablecoins earn interest in money markets \(compound, aave, dydx\)
   - Level 2: the level 1 tokens \(yDAI, yUSDC, yUSDT, and yTUSD\) are provided as liquidty to the yCRV pool to earn trading fees
@@ -240,7 +240,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 - [Forum](https://gov.yearn.finance)
   - A lot of real-time discussion happens on the telegram and discord but for a proposal to turn into a YIP \(Yearn Improvement Proposal\) it needs to be posted and discussed on the forum.
   - This is the main place token holders check for governance related issues.
-- [Discord](https://discord.gg/94CmMdt)
+- [Discord](https://discord.yearn.finance/)
   - Including non-English channels.
 - [Telegram](https://t.me/yearnfinance) - Main Chat.
 - [Telegram](https://t.me/yearncommunity) - Trading/Social/Fork Chat.
@@ -361,7 +361,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### I don't speak English, when will everything be translated?
 
-- We are working on translating to other languages but it will take time. For now you can go to your language in the global section in [Discord](https://discord.gg/94CmMdt).
+- We are working on translating to other languages but it will take time. For now you can go to your language in the global section in [Discord](https://discord.yearn.finance/).
 
 ## Community
 
@@ -531,4 +531,4 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ### Logos
 
-- Can be found in the discord under [\#media-resources](https://discord.com/channels/734804446353031319/736132884443955242/740325105904779326)
+- Can be found in the Discord under [\#media-resources](https://discord.com/channels/734804446353031319/736132884443955242/740325105904779326)
