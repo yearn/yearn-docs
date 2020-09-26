@@ -1,6 +1,8 @@
-# How to Add yUSD to MetaMask
+# How to Add a custom token to MetaMask
 
-Here's how you add yUSD to MetaMask so you can easily see your balance there.
+Here's how you add a custom token to MetaMask. This guide uses yUSD as an example but there is an easier way for yUSD and YFI with just a couple clicks at https://addyearn.finance/
+
+![](https://i.imgur.com/BIlPYeb.png)
 
 ## Visual Walkthrough
 

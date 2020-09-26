@@ -1,6 +1,6 @@
-# How to Buy yUSD
+# How to Mint yUSD
 
-This visual guide will walk you through every step in purchasing yUSD at [https://vaults.finance/](https://vaults.finance/).
+This visual guide will walk you through every step in minting yUSD at [https://vaults.finance/](https://vaults.finance/).
 
 You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://docs.yearn.finance/yusd)
 
@@ -19,7 +19,7 @@ You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://do
 
 ![](https://i.imgur.com/dXa0KbK.png)
 
-3\) If you have multiple addresses in your wallet, select the one you're planning to use to buy yUSD then click `Next`
+3\) If you have multiple addresses in your wallet, select the one you're planning to use to mint yUSD then click `Next`
 
 ![](https://i.imgur.com/PzbFf0E.png)
 
@@ -31,7 +31,7 @@ You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://do
 
 ![](https://i.imgur.com/GDxMMQI.png)
 
-6\) Click `Depost All` to deposit all the tokens shown on the left into the yCRV vault to buy yUSD.
+6\) Click `Depost All` to deposit all the tokens shown on the left into the yCRV vault to mint yUSD.
 
 ![](https://i.imgur.com/JHSGFA3.png)
 
@@ -59,7 +59,9 @@ You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://do
 
 ![](https://i.imgur.com/nivD4q2.png)
 
-13\) To see yUSD in MetaMask you need to add it as a custom token. Luckily for you we have a guide for that: [How to Add yUSD to MetaMask](https://docs.yearn.finance/how-to-guides/how-to-add-yusd-to-metamask).
+13\) Go to https://addyearn.finance/ and click `Add Token` to add yUSD to MetaMask then `Add Token` again in the MetaMask window.
+
+![](https://i.imgur.com/BIlPYeb.png)
 
 ## That's it!
 
