@@ -1,5 +1,5 @@
 ---
-title: faq.yearn.finance
+Título: faq.yearn.finance
 tags: "docs, faq, published"
 ---
 
