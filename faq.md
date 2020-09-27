@@ -56,20 +56,20 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### Veo que se muestra el ROI en la página de las vaults, ¿es el ROI actual?
 
 - No, es un valor histórico promediado para la vault en cuestión. El APY / ganancias actuales no se muestran ya que las vaults son un producto en beta y se están probando en vivo. 
--Varios sitios de terceras personas proporcionan el APY actual y otro tipo de información. Estos sitios puedes encontrarse más abajo en [Estadísticas](https://docs.yearn.finance/faq#statistics).
+- Varios sitios de terceras personas proporcionan el APY actual y otro tipo de información. Estos sitios puedes encontrarse más abajo en [Estadísticas](https://docs.yearn.finance/faq#statistics).
 
-#### What are the risks?
+#### ¿Cuáles son los riesgos?
 
-- While the assets deposited can't decrease, the debt of the vault can. If a strategy does not manage to outperform the debt, then a portion of the asset will be impermanently locked. If a strategy then outperforms the debt again, this asset will become unlocked.
-  - There are mechanisms in the vaults to prevent this but nothing is bulletproof.
-- As of now, the Vaults have not been audited.
-- Smart contract risk with any contracts that the vaults interact with.
+- Aunque los activos depositados no pueden disminuir, la deuda de la vault sí puede. Si una estrategia no logra superar a la deuda, una parte de los activos quedarán bloqueados de forma temporal. Si la estrategia vuelve a superar a la deuda, los activos se desbloquearán.
+   - Hay mecanismos en las vaults para evitarlo pero nada es totalmente seguro.
+- Hasta ahora, las vaults no han sido auditadas.
+- Riesgo de contrato inteligente (comúnmente conocido como smart contract en la comunidad de habla inglesa) con cualquier contrato con el que interactúen las vaults.
 
-#### What are the different yVaults?
+#### ¿Cuáles son las diferentes yVaults?
 
-**yLINK and yaLINK**
+**yLINK y yaLINK**
 
-- **What's the difference between LINK and aLINK vaults?**
+- **¿Cuál es la diferencia entre la vault de LINK y la de aLINK?**
   - None in terms of returns. Deposited LINK will be deposited into Aave generating aLINK \(Aave interest bearing LINK\). So depositing directly into aLINK vault you are one step ahead in the process.
 - **Why is the yield different for aLINK and LINK vaults?**
   - aLINK has a 0.5% insurance "fee" \(this is returned when it is outperformed\). LINK vault doesn't have this fee to avoid double dipping.
