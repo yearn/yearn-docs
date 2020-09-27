@@ -7,56 +7,56 @@ tags: "docs, faq, published"
 
 ## General
 
-### Is it safe to invest money in yearn?
+### ¿Es seguro invertir dinero en yearn?
 
-- Please, do your own research and decide for yourself.
+- Por favor, investiga por tu cuenta y toma la decisión tú solo.
 
-### Is yearn audited?
+### ¿ Ha sido yearn auditado?
 
-- Yes, you can find the list of audits [here](https://github.com/iearn-finance/audits).
+- Sí, puedes encontrar la lista de audiciones de seguridad [aquí](https://github.com/iearn-finance/audits).
 
-## Feedback & Support
+## Comentarios & Asistencia
 
-If you have questions about how to do anything, we can help you on:
+Si tienes alguna pregunta a cerca de algo, te podemos ayudar en:
 
 - [Discord](http://discord.yearn.finance)
 - [Telegram](https://t.me/yearnfinance)
 
-But if you think something can be improved, or you found a bug, we want to squash it. Please post it here:
+Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, nos encantaría arreglarlo. Puedes reportarlo aquí:
 
-- [Github](https://github.com/iearn-finance) — create a new issue in the relevant repository.
-- [Forum](https://gov.yearn.finance/c/feedback/) — post in the feedback category.
+- [Github](https://github.com/iearn-finance) — crea un nuevo issue en el repositorio que corresponda.
+- [Forum](https://gov.yearn.finance/c/feedback/) — crea un post en la categoría feedback del foro.
 
-## Products
+## Productos
 
 ### yearn.finance
 
-- [yearn.finance](https://yearn.finance/) hosts UIs for the **Vaults**, **Earn**, **Zap**, **APR**, and **Cover** products.
+- [yearn.finance](https://yearn.finance/) aloja los UIs de los productos **Vaults**, **Earn**, **Zap**, **APR**, y **Cover**.
 
 ### Vaults
 
 - [yearn.finance/vaults](https://yearn.finance/vaults)
 
-#### What is a Vault?
+#### ¿Qué es una Vault?
 
-- Vaults employ strategies to automate the best yield farming opportunities available.
-- They were designed so that the community could work together to build new strategies to find the best yield.
-- Andre explains [vaults](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) and [delegated vaults](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) in these two blog posts.
-- Simply put vaults can do this:
-  - Use any asset as liquidity.
-  - Use liquidity as collateral and manage collateral at a safe level so you never default.
-  - Borrow stablecoins.
-  - Put the stablecoins to work on some farming.
-  - Reinvest earned stablecoins.
+- Las Vaults usan estrategias para automatizar las mejores oportunidades de yield farming disponibles.
+- Fueron diseñadas para que la comunidad pudiera trabajar en conjunto para construir nuevas estrategias y así encontrar los mejores rendimientos.
+- Andre explica las [Vaults](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) y las [Vaults delegadas](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) en estas dos publicaciones.
+- En pocas palabras, las Vaults pueden hacer esto:
+  - Utilizar cualquier activo como liquidez.
+  - Utilizar la liquidez como garantía y gestionar la garantía a un nivel seguro para que nunca sea liquidada.
+  - Pedir prestadas monedas estables.
+  - Ponger las monedas estables a farmear.
+  - Reinvertir las monedas estables ganadas.
 
-#### Can't I just do all this myself though?
+#### ¿No puedo hacer todo esto yo mismo?
 
-- Yes you could, but vaults help you save on gas, keep it at a good collateral/debt ratio so you don't default, and auto optimizes for highest yielding stablecoin strategies, even when you are sleeping.
+- Sí, podrías hacerlo, pero las vaults sirven para ahorrar gas, mantener un buen ratio aval/dedua para que el aval no sea liquidado y cambia automáticamente a la estrategia que de el rendimiento más alto posible, incluso mientras estás dormido.
 
-#### I see ROI on the vaults page is it the current one?
+#### Veo que se muestra el ROI en la página de las vaults, ¿es el ROI actual?
 
-- No. This is the historical average for that vault. Current APY / returns are not shown as vaults are a beta product and being tested live.
-- Various third party sites provide APY and other info, they are listed below in [Statistics](https://docs.yearn.finance/faq#statistics).
+- No, es un valor histórico promediado para la vault en cuestión. El APY / ganancias actuales no se muestran ya que las vaults son un producto en beta y se están probando en vivo. 
+-Varios sitios de terceras personas proporcionan el APY actual y otro tipo de información. Estos sitios puedes encontrarse más abajo en [Estadísticas](https://docs.yearn.finance/faq#statistics).
 
 #### What are the risks?
 
@@ -494,7 +494,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 - [https://vaults.finance/](https://vaults.finance/)
 
-### Statistics
+### Estadísticas
 
 - [yieldfarming.info](https://yieldfarming.info/)
 - [yVault ROI Calculator](https://py-earn.herokuapp.com/)
