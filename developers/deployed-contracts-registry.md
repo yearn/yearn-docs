@@ -75,7 +75,7 @@ The Controller contract can be found [here](https://etherscan.io/address/0x9e65a
 ### [curve.fi/y LP Vault](https://etherscan.io/address/0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c#code)
 | Strategy Address | Status | Github | 
 | ---------------- | ------ | -------|
-[StrategyCurveYVoterProxy](https://etherscan.io/address/0x594a198048501A304267E63B3bAd0f0638da7628#code) | Live | [StrategyCurveYCRVVoter.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/strategies/StrategyCurveYCRVVoter.sol)|
+| [StrategyCurveYVoterProxy](https://etherscan.io/address/0x594a198048501A304267E63B3bAd0f0638da7628#code) | Live | [StrategyCurveYCRVVoter.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/strategies/StrategyCurveYCRVVoter.sol)|
 | [StrategyYffi](https://etherscan.io/address/0xbe197e668d13746bb92e675dea2868ff14da0b73#code) | Old | --- | 
 | [StrategyYffi](https://etherscan.io/address/0x382185f3ea9268e65bb16f81de6b4e725134ed72#code) | Old | --- |
 | [StrategyYffi](https://etherscan.io/address/0x8816b2fb982281c36e6c535b9e56b7a4417e68cf#code) | Old | --- |
