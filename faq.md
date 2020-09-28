@@ -70,28 +70,29 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 **yLINK y yaLINK**
 
 - **¿Cuál es la diferencia entre la vault de LINK y la de aLINK?**
-  - None in terms of returns. Deposited LINK will be deposited into Aave generating aLINK \(Aave interest bearing LINK\). So depositing directly into aLINK vault you are one step ahead in the process.
-- **Why is the yield different for aLINK and LINK vaults?**
-  - aLINK has a 0.5% insurance "fee" \(this is returned when it is outperformed\). LINK vault doesn't have this fee to avoid double dipping.
+  - Ninguna en términos de ganancias. El LINK depositado en la vault será depositado en Aave generando aLINK \( LINK que genera intereses en Aave\). Por tanto, depositando directamente en la vault de aLINK te saltas un paso del proceso.
+- **¿Por qué el rendimiento de las vaults de aLINK y LINK son diferentes?**
+  - aLINK tiene una "tarifa" de seguro del 0.5% \ (se devuelve cuando se supera \). La vault de LINK no tiene esta tarifa para la aparición de un rendimiento      negativo.
+  
+**yETH y yWETH**
 
-**yETH and yWETH**
+- **¿Cuál es la diferencia entre las vaults de ETH y la de WETH?**
+  - Ninguna en términos de ganancias. El ETH depositado será convertido en WETH en cualquier caso. La vault de WETH hace más fácil a otros protocolos de Ethereum interactuar con esta vault.
+- **¿Qué hace la vault de ETH para protegerse de una liquidación?**
+  - Esta vault obtiene el precio de ETH directamente del oráculo de Maker (Maker's Oracle Security Model), un sistema que lee el precio del Oráculo con 1 hora de ventaja. Esto le da a la vault 1 hora para pagar la deuda de la CDP antes de que se produzca la liquidación del ETH que se usa como aval para el préstamo de DAI. Además, la vault aumenta el ratio de colateralización depositando las ganancias conseguidas en la CDP.
 
-- **What's the difference between WETH and ETH vaults?**
-  - None in terms of returns. Deposited ETH it will be wrapped into WETH anyway. The WETH vault just makes it easier for other Ethereum protocols to interact with this vault.
-- **How does ETH vault protect itself from liquidation?**
-  - This vault reads ETH price directly from the Maker's OSM \(Oracle Security Model\), a system that reads Oracle price 1 hour in advance. This gives the vault 1 hour to pay the CDP debt before liquidation. Also, the vault keeps increasing collateralization by depositing profit on each harvest call.
+**Otras vaults**
 
-**Other Vaults**
+- Las vaults conocidas como v1 Money Market vaults, anteriormente llamadas iEarn, pueden ser encontradas [aquí](https://yearn.finance/earn).
+- El resto de las vaults pueden encontrarse [aquí](https://yearn.finance/vaults).
 
-- v1 Money Market vaults, formerly called iEarn, can be found [here](https://yearn.finance/earn).
-- Additional vaults can be found [here](https://yearn.finance/vaults).
+#### Si la estrategia actual para la vault de yCRV está farmeando CRV, ¿ se añadirán esos tokens a mi saldo cuando saque mis fondos de la vault?
 
-#### If the current strategy for the yCRV vault is farming CRV does it just get added to my balance when I withdrawal?
+- No. La vault farmeará CRV que será vendido en el mercado automáticamente. Cuando decidas retirar tus fondos de la vault, recibirás más yCRV de los que depositaste inicialmente.
 
-- No. The vault will farm CRV then sell it on the market automatically. When you withdrawal you will get more yCRV.
+#### ¿Por qué el token yCRV no vale \$1?, es una moneda estable ¿verdad?
 
-#### Why isn't yCRV worth \$1, it's a stable coin right?
-
+- No,
 - No, yCRV is not worth \$1, and no it is NOT a stablecoin. You can think of yCRV as an index of yield bearing stablecoins \(yDAI+yUSDC+yUSDT+yTUSD\) that also generates yield \(trading fees from the Curve Y pool\) as well. Therefore the price of yCRV is non-decreasing.
 
 #### If I unstake my yCRV from the yCRV vault, does that then revert it back to the Curve Y pool at Curve, or do I have to do something else like restake it there?
