@@ -41,11 +41,13 @@ It uses the withdraw() function and performs a set of cascading/sequential withd
 If strategy implements liquidity pools or lending platforms, then withdrawal from these platforms should be performed until the Vault’s unwrapped token is delivered back to the vault.
 
 
-### skim() >> check if still being used
+### skim()
 ```
 function skim() external;
 ```
 Used when the strategy implements a lending platform, such as Aave. This function returns the remaining amount that can be borrowed from the lending platform.
+
+{% hint style="info" %} skim() is not used by any current strategies. {% endhint %}
 
 ### balanceOf()
 
@@ -153,6 +155,8 @@ function want(address) external view returns (address);
 ```
 
 Returns the strategies or vaults unwrapped token.
+
+{% hint style="info" %} The current deployed controller doesn't use this anymore. You need to load the strategy, then call strategy.want(). {% endhint %}
 
 ### rewards()
 ```
