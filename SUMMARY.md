@@ -31,10 +31,16 @@
 
 ## Developers
 
+- [Deployed Contracts Registry](developers/deployed-contracts-registry.md)
+- [Code Repositories](developers/code-repositories.md)
+- [Vault Interface](developers/vault-interface.md)
+- [Schema Diagrams](developers/schema-diagrams.md)
 - [Integration Guide](developers/integration-guide.md)
-- [Dev Resources](developers/dev-resources/README.md)
-  - [Yearn Vault Schema](https://github.com/sambacha/yearn-vault-schema)
+- [Misc Resources](developers/misc-resources/README.md)
   - [YIP Boilerplate](https://gist.github.com/sambacha/07c8580377cf7deec6be569322babcfd#file-yip-boilerplate-proposal-md)
+  - [Admin Access Policy](developers/misc-resources/adminpolicy.md)
+  - [Smart Contract API](developers/misc-resources/smart-contract-api)
+  - [Smart Contract Integration](developers/misc-resources/smart-contract-integration)
 
 ## Additional Resources
 
