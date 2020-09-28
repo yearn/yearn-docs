@@ -33,7 +33,7 @@
 
 - [Deployed Contracts Registry](developers/deployed-contracts-registry.md)
 - [Code Repositories](developers/code-repositories.md)
-- [Vault Interface](developers/vault-interface.md)
+- [Vault Interfaces](developers/vault-interfaces.md)
 - [Schema Diagrams](developers/schema-diagrams.md)
 - [Integration Guide](developers/integration-guide.md)
 - [Misc Resources](developers/misc-resources/README.md)
