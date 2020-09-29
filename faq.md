@@ -86,32 +86,32 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 - Las vaults conocidas como v1 Money Market vaults, anteriormente llamadas iEarn, pueden ser encontradas [aquí](https://yearn.finance/earn).
 - El resto de las vaults pueden encontrarse [aquí](https://yearn.finance/vaults).
 
-#### Si la estrategia actual para la vault de yCRV está farmeando CRV, ¿ se añadirán esos tokens a mi saldo cuando saque mis fondos de la vault?
+#### Si la estrategia actual para la vault de yCRV está farmeando CRV, ¿se añadirán esos tokens a mi saldo cuando saque mis fondos de la vault?
 
 - No. La vault farmeará CRV que será vendido en el mercado automáticamente. Cuando decidas retirar tus fondos de la vault, recibirás más yCRV de los que depositaste inicialmente.
 
 #### ¿Por qué el token yCRV no vale \$1?, es una moneda estable ¿verdad?
 
-- No,
-- No, yCRV is not worth \$1, and no it is NOT a stablecoin. You can think of yCRV as an index of yield bearing stablecoins \(yDAI+yUSDC+yUSDT+yTUSD\) that also generates yield \(trading fees from the Curve Y pool\) as well. Therefore the price of yCRV is non-decreasing.
+- No, el token yCRV no vale \$1, y NO es una moneda estable. Puedes pensar en yCRV como si fuera un índice de monedas estables \(yDAI+yUSDC+yUSDT+yTUSD\) que genera rendimientos y que también recibe tarifas \(más concretamente, tarifas de los intercambios hechos en la Y pool de Curve\). Por lo tanto, el precio del token yCRV no decrece. 
 
-#### If I unstake my yCRV from the yCRV vault, does that then revert it back to the Curve Y pool at Curve, or do I have to do something else like restake it there?
+#### Si retiro mis tokens yCRV de la vault de yCRV, ¿son retirados también de la Y pool de Curve? ¿Tengo que hacer algo más, como volver a depositarlos en la pool? 
 
-- When you withdraw your yCRV from the vault, you get back yCRV + plus interest accrued - fees, all in yCRV. Since it is the yCRV token you got back, it is already staked in Curve Y pool making stablecoin swap fees. No need to do anything else with Curve, unless you want to stake it [here](https://dao.curve.fi/minter/gauges) to generate CRV.
+- Cuando retiras tus tokens yCRV de la vault, recibes de vuelta tu depósito de yCRV además de los intereses ganados, todo pagado en tokens yCRV. Dado que el token yCRV es lo que recibes de vuelta, este ya está de por sí stakeado en la Y pool de Curve generando redimientos en forma de tarifas pagadas a la hora de intercambiar monedas estables en la Y pool. No necesitas hacer nada más en Curve, a no ser que quieras stakear tus tokens [aquí](https://dao.curve.fi/minter/gauges) para generar CRV.
 
-#### Why can’t we get a better APY for the YFI vault?
+#### ¿Por qué no se puede obtener un mejor rendimiento de la vault de YFI?
 
-- You can’t just get same numbers for 2 completely different coins. The new sBTC is following the same strategy that the yCRV vault using curve liquidity pool. The obvious answer is that there aren’t much safe platforms accepting YFI as stake so there aren’t much valid strategies for the YFI vault right now.
+- No puedes esperar obtener el mismo rendimiento para dos monedas totalmente distintas. La nueva vault de sBTC sigue la misma estrategia que la vault de yCRV que usa la pool de liquidez de Curve. La respuesta obvia es que no hay muchas plataformas seguras que acepten depósitos de YFI por lo que no hay muchas estrategias válidas para la vault de YFI ahora mismo.
 
-#### I deposited into a vault, what will I get out when I withdrawal?
+#### He depositado en una vault, ¿qué recibiré de vuelta cuando decida dejar de usarla?
 
-- You will always withdrawal only the coin type that you put in.
-- You will get the amount you put in, plus the pool yield you earned, minus the fees.
+- Cuando decidas sacar tus fondos de la vault, siempre obtendrás de vuelta el mismo tipo de monedas que depositaste.
+- Recibirás los fondos que depositaste más el rendimiento generado menos las posibles tarifas.
 
-#### What are the Fees?
+#### ¿Cuáles son las tarifas ?
 
-- **0.5% fee** on funds withdrawn from active strategies
-  - Each vault has some amount of the total funds idle and most of them active in the strategy. The idle funds are the difference between `vault holdings` and `strategy holdings`, you can see them on [feel the yearn](https://feel-the-yearn.app/).
+- **Tarifa del 0.5%** sobre fondos retirados de estrategias activas.
+  - Cada vault tiene una cierta cantidad de los fondos totales inactivos mientras que la mayoría de estos participan activamente en la estrategia. Los fondos inativos son la diferencia entre`vault holdings` y `strategy holdings` que pueden consultarse en [feel the yearn](https://feel-the-yearn.app/).
+  - Cuando retiras tus fondos, si estos son extraídos de los fondos inactivos de la vault, 
   - When you withdraw, if your funds come from the idle funds, you won't be charged any withdrawal fee. If they come from the strategy, you will be charged the 0.5% fee.
 - **5% fee** on additional yield
   - For community-made strategies, like the new yETH vault, currently 10% of this fee goes to the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
@@ -236,26 +236,26 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 - [yborrow.finance](https://yborrow.finance/)
 - Credit delegation vaults for smart contract to smart contract lending \(testnet\).
 
-## Communication
+## Comunicación
 
-- [Forum](https://gov.yearn.finance)
+- [Foro](https://gov.yearn.finance)
   - A lot of real-time discussion happens on the telegram and discord but for a proposal to turn into a YIP \(Yearn Improvement Proposal\) it needs to be posted and discussed on the forum.
   - This is the main place token holders check for governance related issues.
 - [Discord](http://discord.yearn.finance/)
-  - Including non-English channels.
-- [Telegram](https://t.me/yearnfinance) - Main Chat.
-- [Telegram](https://t.me/yearncommunity) - Trading/Social/Fork Chat.
+  - Incluídos canales para hablar en idiomas distintos al inglés.
+- [Telegram](https://t.me/yearnfinance) - Canal principal.
+- [Telegram](https://t.me/yearncommunity) - Canal de Trading/Social/Forks.
 - Twitter
-  - [yearn.finance](https://twitter.com/iearnfinance?s=20) - Official Twitter of Yearn
-  - [Andre Cronje](https://twitter.com/AndreCronjeTech?s=20) - Lead Developer of Yearn
-  - [yLearnfinance](https://twitter.com/yLearnfinance) - Yearn Info
-  - [Learn 2 Yearn](https://twitter.com/learn2yearn) - Yearn Info
+  - [yearn.finance](https://twitter.com/iearnfinance?s=20) - Twitter oficial de Yearn
+  - [Andre Cronje](https://twitter.com/AndreCronjeTech?s=20) - Desarrollador principal de Yearn
+  - [yLearnfinance](https://twitter.com/yLearnfinance) - Información a cerca de Yearn
+  - [Learn 2 Yearn](https://twitter.com/learn2yearn) - Información a acerca de Yearn
 
-## Governance
+## Gobernanza
 
-### All about YIPs
+### Todo a cerca de las YIPs
 
-#### What is a YIP? Why do they matter?
+#### ¿Qué es una YIP? ¿Por qué son importantes?
 
 - A YIP or Yearn Improvement Proposal is how features are added to the yearn ecosystem. Users start a proposal on the forum, discuss it and gauge the sentiment of if the proposal will be accepted. If a lot of users agree with it then it can be posted on-chain for everyone to vote on.
 
@@ -276,30 +276,30 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 - Anyone can post a proposal both on the forum and on-chain.
 
-### Voting
+### Votaciones
 
-#### How do I vote?
+#### How do I vote? ¿Cómo puedo votar?
 
 - Stake your YFI and then you can cast your vote for YIPs that are on-chain on the voting [dashboard](https://ygov.finance/vote)
 
-#### Can I vote if my YFI is in the YFI vault?
+#### Can I vote if my YFI is in the YFI vault? ¿Puedo votar si tengo mis tokens YFI en la vault de YFI?
 
 - No, your YFI must be staked in the governance [contract](https://ygov.finance/staking) in order to vote.
 
-#### Where can I view the YIPs?
+#### Where can I view the YIPs? ¿Dónde puedo ver las YIPs?
 
 - You can view them on the voting [dashboard](https://ygov.finance/vote) if you login to your web3 account or at [yips.yearn.finance](https://yips.yearn.finance/all-yip).
 
-#### Why should I stake? What is the APY \(Annual Percentage Yield\)?
+#### Why should I stake? What is the APY \(Annual Percentage Yield\)? ¿Por qué debería stakear? ¿Cuál es el APY \(Porcentaje de rendimiento anual\)?
 
 - You should stake if you want to vote on YIPs and get rewards that are generated from the yearn ecosystem. The APY for staking is currently not listed on the UI. You can ask on the chat what the rate is.
 
-#### What do I have to do to get rewards with my YFI?
+#### What do I have to do to get rewards with my YFI? ¿Qué tengo que hacer para recibir recompensas con mis tokens YFI?
 
 - All you need to do is stake YFI at [ygov.finance/stake](https://ygov.finance/stake) and you will get rewards if the treasury is at or above 500k usd. You can check the treasury address [here](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
 - Note that if you stake you get rewards \(as long as they are not going to the treasury\) but you can only claim them within 3 days of voting.
 
-#### Does staking my YFI matter for voting?
+#### Does staking my YFI matter for voting? A la hora de votar, ¿es importante tener stakeados mis tokens YFI?
 
 - Yes. You have to stake your YFI at [ygov.finance/stake](https://ygov.finance/stake) in the v2 tab under Governance V2 to have your votes count. As of now, you can vote without staking, but you will waste your gas and it won't count so make sure you have staked first if you want to vote.
 
@@ -330,22 +330,22 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### yDAO
 
-- Pokemol [site](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862/).
-- Forum [post](https://gov.yearn.finance/t/ydao-for-community-funding/2243).
+- [Sitio](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862/) de Pokemol.
+- [Hilo](https://gov.yearn.finance/t/ydao-for-community-funding/2243) en el foro oficial.
 
-#### What is its purpose?
+#### What is its purpose? ¿Cuál es su utilidad/propósito/objetivo?
 
 - Used to fund value-added contributions to the yearn ecosystem.
 
-#### Who cares, how do I make money from this?
+#### Who cares, how do I make money from this? A quién le importa, ¿Cómo puedo hacer dinero de esto?
 
 - You don't. This is solely for allocating funding for projects, and the YFI donated will be spent and your share value will be diluted.
 
-#### Who can join?
+#### Who can join? ¿Quién puede unirse?
 
 - Open for anyone to join with a base rate of 1 Share = 0.1 YFI.
 
-#### How can I join?
+#### How can I join? ¿Cómo puedo unirme?
 
 - Go here to [Pokemol](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862) sign in with your web3 account. Click New Proposal button in the top right. Click member.
   - Title: your name/entity
@@ -356,15 +356,15 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
   - Loot: The number of shares being requested
   - After you submitted the two transactions and are in the new member queue, you will need a sponsor. Please copy the link to your proposal and let us know you’d like to join in the [yDAO Telegram channel](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA)
 
-#### How can I request funding?
+#### How can I request funding? ¿Cómo puedo solicitar financiación?
 
 - The same ways as joining except instead of click member click the funding tab and fill in the details of your request. You can ask in the [telegram chat](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA) if you have any questions.
 
-#### I don't speak English, when will everything be translated?
+#### I don't speak English, when will everything be translated? No hablo inglés, ¿Cuándo estará todo disponible en otros idiomas?
 
 - We are working on translating to other languages but it will take time. For now you can go to your language in the global section in [Discord](http://discord.yearn.finance/).
 
-## Community
+## Comunidad
 
 ### Is Andre Cronje in charge of yearn?
 
