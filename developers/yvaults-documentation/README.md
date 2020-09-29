@@ -1,6 +1,6 @@
 # yVaults Documentation
 
-### [Vaults Overview](vaults-overview.md)
+{% page-ref page="vault-interfaces.md" %}
 
-### [Vault Interfaces](vault-interfaces.md)
+{% page-ref page="vaults-overview.md" %}
 

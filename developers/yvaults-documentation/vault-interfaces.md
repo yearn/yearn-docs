@@ -16,7 +16,7 @@ function want() external view returns (address);
 {% endtab %}
 {% endtabs %}
 
-\*\*\*\*🔓 **Access**: Anyone
+🔓 **Access**: Anyone
 
 | Returns | Description |
 | :--- | ---: |
@@ -34,7 +34,7 @@ function deposit() external;
 {% endtab %}
 {% endtabs %}
 
-\*\*\*\*🔓 **Access**: Anyone
+🔓 **Access**: Anyone
 
 ### withdraw\(address\)
 
@@ -58,7 +58,7 @@ function withdraw(token_addr: address) external;
 
 Used to partially withdraw funds from the contract. If not enough, funds are withdrawn from the strategy they are invested in.
 
- In case Strategy implements harvest\(\) a withdrawal fee might be applied.
+In case Strategy implements harvest\(\) a withdrawal fee might be applied.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -76,7 +76,7 @@ function withdraw(amount: uint256) external;
 
 ### withdrawAll\(\)
 
-Used to withdraw all strategy funds, usually when migrating strategies. It uses the withdraw\(\) function and performs a set of cascading/sequential withdraw functions depending on the strategy. 
+Used to withdraw all strategy funds, usually when migrating strategies. It uses the withdraw\(\) function and performs a set of cascading/sequential withdraw functions depending on the strategy.
 
 If strategy implements liquidity pools or lending platforms, then withdrawal from these platforms should be performed until the Vault’s unwrapped token is delivered back to the vault.
 
@@ -217,7 +217,7 @@ function decimals() external view returns (uint8);
 {% endtab %}
 {% endtabs %}
 
-\*\*\*\*🔓 **Access**: Anyone
+🔓 **Access**: Anyone
 
 | Returns | Description |
 | :--- | ---: |
@@ -420,4 +420,5 @@ returns (strategy_addr: address);
 
 | Returns | Description |
 | :--- | ---: |
-| address |  Corresponding Strategy address |
+| address | Corresponding Strategy address |
+
