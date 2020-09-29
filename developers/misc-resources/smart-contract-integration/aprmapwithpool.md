@@ -1,14 +1,13 @@
-# Smart Contract Interface
+# aprmapwithpool
 
-| Contract          | ABI                                                                                                     | Address                                                                                                   |
-| ----------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Contract | ABI | Address |
+| :--- | :--- | :--- |
 | IIEarnAPRWithPool | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/IIEarnAPRWithPool.json) | [iapradj.iearn.eth](https://etherscan.io/address/0xAE8F37F0e8AD690486bFA2495113d7E94B7a7Ba6#readContract) |
 
 ## IIEarnAPRWithPool Interface
 
 {% tabs %}
 {% tab title="IIEarnAPRWithPool.sol" %}
-
 ```javascript
 // Solidity Interface
 
@@ -42,8 +41,7 @@ interface IIEarnAPRWithPool {
 
     function viewPool(address _token) external view returns;
 }
-
 ```
-
 {% endtab %}
 {% endtabs %}
+

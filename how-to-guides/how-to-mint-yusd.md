@@ -6,8 +6,8 @@ You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://do
 
 ## Prerequisites
 
-- You must have DAI, USDC, USDT, TUSD, or yCRV to use for buying yUSD.
-- You must use a supported wallet, either Metamask, Trustwallet, Trezor, or Torus.
+* You must have DAI, USDC, USDT, TUSD, or yCRV to use for buying yUSD.
+* You must use a supported wallet, either Metamask, Trustwallet, Trezor, or Torus.
 
 ## Visual Walkthrough
 
@@ -59,10 +59,11 @@ You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://do
 
 ![](https://i.imgur.com/nivD4q2.png)
 
-13\) Go to https://addyearn.finance/ and click `Add Token` to add yUSD to MetaMask then `Add Token` again in the MetaMask window.
+13\) Go to [https://addyearn.finance/](https://addyearn.finance/) and click `Add Token` to add yUSD to MetaMask then `Add Token` again in the MetaMask window.
 
 ![](https://i.imgur.com/BIlPYeb.png)
 
 ## That's it!
 
 If you have any further questions or get stuck somewhere, ask for help on the Support channel in our discord: [http://discord.yearn.finance](http://discord.yearn.finance)
+

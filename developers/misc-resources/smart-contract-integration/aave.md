@@ -1,8 +1,7 @@
-## Aave Interface
+# aave
 
 {% tabs %}
 {% tab title="LendingPoolCore.sol" %}
-
 ```javascript
 // Solidity Interface
 
@@ -15,6 +14,6 @@ interface LendingPoolCore  {
   );
 }
 ```
-
 {% endtab %}
 {% endtabs %}
+

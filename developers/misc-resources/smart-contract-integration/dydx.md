@@ -1,8 +1,7 @@
-## dYdX Interface
+# dydx
 
 {% tabs %}
 {% tab title="DyDx.sol" %}
-
 ```javascript
 // Solidity Interface
 
@@ -21,6 +20,6 @@ interface DyDx {
   function getMarketTotalPar(uint256 marketId) external view returns (set memory);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
+
