@@ -28,7 +28,7 @@ Their primary tasks are to:
 
 [Controller.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/controllers/Controller.sol)
 
-The Controller act as the gatekeeping interface between vaults and strategies and oversees communication and fund flows. Deposits and withdrawals in and out of strategies flow through the Controller. It keeps track of the addresses for the active vaults, strategies, tokens, and strategy rewards destination, acting as a pseudo-registry that verifies the origin and destination of a transaction. The Controller also handles strategy migration, moving funds from an old strategy to a new one.
+The Controller act as the gatekeeping interface between vaults and strategies and oversees communication and fund flows. Deposits and withdrawals in and out of strategies flow through the `Controller`. It keeps track of the addresses for the active vaults, strategies, tokens, and strategy rewards destination, acting as a pseudo-registry that verifies the origin and destination of a transaction. The `Controller` also handles strategy migration, moving funds from an old strategy to a new one.
 
 ### Registry
 
@@ -40,18 +40,18 @@ The registry is a wrapper of the controller that contains additional meta-data a
 
 Example: [CurveYCRVVoter.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/strategies/CurveYCRVVoter.sol)
 
-Strategies are investment instruction sets, written by a Strategist. They are agnostic to the vaults that use them.
+Strategies are investment instruction sets, written by a `Strategist`. They are agnostic to the vaults that use them.
 
 Strategies execute step-by-step functions with the objective to generate yield. They do so by interacting with:
 
 - **other Yearn services**, such as vaults, lending, and insurance; and
 - **external 3rd party services**, such as Aave, Curve, Chainlink and Maker.
 
-Rewards are claimed and re-invested into the strategies, with deductions for Management fees and for compensating the Strategist.
+Rewards are claimed and re-invested into the strategies, with deductions for Management fees and for compensating the `Strategist`.
 
 ### Treasury
 
-The Treasury contract accumulates all the Management fees sent from the strategies. It's an intermediate contract that can convert between different tokens, currently normalizing all rewards into yCRV. It calls two functions:
+The `Treasury` contract accumulates all the Management fees sent from the strategies. It's an intermediate contract that can convert between different tokens, currently normalizing all rewards into yCRV. It calls two functions:
 
 - `toVoters()`, sending part of the fees to the governance voters, as a reward for their participation; and
 - `toGovernance()`, sending part of the fees to the multi-sig to cover gas costs and other expenses.
@@ -62,7 +62,7 @@ The Treasury contract accumulates all the Management fees sent from the strategi
 
 Yearn Governance is a combination of the YFI staking contract to participate in Governance voting, and the 6-of-9 multi-sig that executes the decisions by the YFI holders.
 
-Governance manages the Vaults, Controller, and Strategies by calling functions on these contracts.
+Governance manages the `Vaults`, `Controller`, and `Strategies` by calling functions on these contracts.
 
 #### Vault management
 
@@ -89,7 +89,7 @@ Governance manages the Vaults, Controller, and Strategies by calling functions o
 A Yearn end-user.
 
 - Deposits funds into vaults, to receive LP tokens, through calling `deposit()`;
-- Withdraws funds from vaults, by depositing LP tokens into vaults and receiving the corresponding deposit token amount back in return, through calling `withdraw()`. If the vault does not have enough funds to handle the withdrawal, this triggers a cascading `withdraw()` call via the Controller to the Strategy to liquidate enough funds to process the withdrawal.
+- Withdraws funds from vaults, by depositing (effectively burning) LP tokens into vaults and receiving the corresponding deposit token amount back in return, through calling `withdraw()`. If the vault does not have enough funds to handle the withdrawal, this triggers a cascading `withdraw()` call via the `Controller` to the Strategy to liquidate enough funds to process the withdrawal.
 
 ### Keeper
 
@@ -103,4 +103,4 @@ Automated bot that calls contract functions. It queries the Registry to get the 
 Creates and manages Strategies.
 
 - Interacts with the Controller to set the active strategy, through `setStrategy()`. **Only Strategies approved by Governance can be set.**
-- Is paid the Strategist mangement fee directly from the Strategy.
+- Is paid the Strategist management fee directly from the Strategy.
