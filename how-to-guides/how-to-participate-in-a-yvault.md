@@ -1,8 +1,8 @@
 # How To Participate in a yVault
 
-If you are here, it means you know what yVaults are and want to profit from them! There are X main steps to achieve your goal.
+If you are here, it means you know what yVaults are and want to profit from them! There are 6 main steps to achieve your goal.
 
-1. You need to have in your wallet at least one of the tokens required by any of the yVaults. ![](https://i.imgur.com/xWcBkLZ.png)
+1. You need to have at least one of the tokens required by any of the yVaults. ![](https://i.imgur.com/xWcBkLZ.png)
 2. Chose a yVault and define how many tokens to deposit.
 3. Approve the contract through the UI of your wallet.
 4. Confirm the deposit transaction which will include the total amount of tokens you will deposit.
@@ -19,7 +19,7 @@ Let's take the curve.fi/y LP yVault as depositing into this highly performant va
 
 On-ramp means, going from Fiat into crypto. For this you have a few options:
 
-- Most likely will need a OTC \(over the counter\) exchange, basically a centralized exchange. Coingeko offers a [good up-to-date list](https://www.coingecko.com/en/exchanges) of posibilities.
+- Most likely will need a OTC \(over the counter\) exchange, basically a centralized exchange. Coingeko offers a [good up-to-date list](https://www.coingecko.com/en/exchanges) of possibilities.
 - Certain wallets offer easy ETH purchase through partners. Torus offers purchase of ETH from Moonpay, Wyre, Ramp, etc. Brave browser's wallet and Metamask do offer similar posibilities through differen partners. Check your preferred wallet!
 
 **Second: Obtaining yCRV LP tokens**
