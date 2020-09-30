@@ -1,12 +1,10 @@
 # Vault Interfaces
 
-For this guide we will use [StrategyDAICurve](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/strategies/StrategyDAICurve.sol) as example
-
 ## [IStrategy](https://github.com/iearn-finance/yearn-protocol/blob/develop/interfaces/yearn/IStrategy.sol)
 
 ### want\(\)
 
-Returns address of the strategy’s unwrapped token. In case of StrategyDAICurve it will return the DAI address
+Returns address of the strategy’s unwrapped token.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -26,7 +24,7 @@ function want() external view returns (address);
 
 ### deposit\(\)
 
-Deposits it's own "want" tokens into the pool defined by the strategy itself. For StrategyDAICurve, deposits DAI into Curve's Y Pool \(minting yCRV\) and then deposits yCRV into Yearn's Y Vault \(minting yUSD\).
+Deposits `want` token into another smart contact defined by the strategy itself.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -42,7 +40,7 @@ function deposit() external;
 
 ### withdraw\(address\)
 
-Used to drain the strategy for a defined non-core token passed to the function.
+Withdraws strategy's non-core token (collects dust).
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -62,9 +60,7 @@ function withdraw(token_addr: address) external;
 
 ### withdraw\(uint256\)
 
-Used to partially withdraw funds from the contract. If not enough, funds are withdrawn from the strategy they are invested in.
-
-In case Strategy implements harvest\(\) a withdrawal fee might be applied.
+Partially withdraws user funds from the contract. In case Strategy implements `harvest()` a withdrawal fee might be applied.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -84,7 +80,7 @@ function withdraw(amount: uint256) external;
 
 ### withdrawAll\(\)
 
-Used to withdraw all strategy funds, usually when migrating strategies. It uses the withdraw\(\) function and performs a set of cascading/sequential withdraw functions depending on the strategy.
+Withdraws all user funds, usually when migrating strategies. It uses the withdraw\(\) function and performs a set of cascading/sequential withdraw functions depending on the strategy.
 
 If strategy implements liquidity pools or lending platforms, then withdrawal from these platforms should be performed until the Vault’s unwrapped token is delivered back to the vault.
 
@@ -106,7 +102,7 @@ function withdrawAll() external returns (uint256);
 
 ### skim\(\)
 
-Used when the strategy implements a lending platform, such as Aave. This function returns the remaining amount that can be borrowed from the lending platform.
+Returns the remaining amount that can be borrowed from the lending platform. Used when the strategy implements a lending platform, such as Aave.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -126,7 +122,7 @@ skim\(\) is not used by any current strategies.
 
 ### balanceOf\(\)
 
-Calculates the strategy `want` balance \(contract balance + invested balance\).
+Calculates the strategy `want` balance.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -148,7 +144,7 @@ function balanceOf() external view returns (uint256);
 
 ### token\(\)
 
-Returns the vault’s unwrapped native token address. In case of DAI Vault, it will return DAI.
+Returns the vault’s unwrapped native token address.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -168,7 +164,7 @@ function token() external view returns (token_addr: address);
 
 ### underlying\(\)
 
-It returns the native underlying token. In the case of aLINK delegated vault the underlying returns the address of the LINK token.
+Returns the native underlying token. In case of aLINK delegated vault the `underlying` returns the address of the LINK token.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -189,7 +185,7 @@ function underlying() external view returns (token_addr: address);
 
 ### name\(\)
 
-Returns the vault’s wrapped token name. In case of DAI Vault, it will return “yearn Dai Stablecoin".
+Returns the vault’s wrapped token name, e.g. “yearn Dai Stablecoin".
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -209,7 +205,7 @@ function name() external view returns (string memory);
 
 ### symbol\(\)
 
-Returns the vault’s wrapped token symbol. In case of DAI Vault, it will return a string “yDai”
+Returns the vault’s wrapped token symbol, e.g. “yDai”
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -229,7 +225,7 @@ function symbol() external view returns (string memory);
 
 ### decimals\(\)
 
-Returns the amount of decimals for this vault’s wrapped token. In case of DAI Vault, it will return 18.
+Returns the amount of decimals for this vault’s wrapped token.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -249,7 +245,7 @@ function decimals() external view returns (uint8);
 
 ### controller\(\)
 
-Returns the address from Vault’s controller. In case of DAI Vault, it will return 0x9e65ad11b299ca0abefc2799ddb6314ef2d91080.
+Returns Vault’s controller address.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -269,7 +265,7 @@ function controller() external view returns (token_addr: address);
 
 ### governance\(\)
 
-Returns the address from Vault’s governance. In case of DAI Vault, it will return 0xfeb4acf3df3cdea7399794d0869ef76a6efaff52.
+Returns the address from Vault’s governance, currently multisig address `0xfeb4acf3df3cdea7399794d0869ef76a6efaff52`.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -289,7 +285,7 @@ function governance() external view returns (address);
 
 ### getPricePerFullShare\(\)
 
-Returns the price of the Vault’s token based on the unwrapped token. In case of DAI Vault, it will return the price of 1 yDAI in DAI. In case of yUSD, it will return the price of 1 yUSD in yCRV.
+Returns price of the Vault’s token denominated to unwrapped token.
 
 The calculation is:
 
@@ -319,7 +315,7 @@ function getPricePerFullShare() external view returns (uint256);
 
 ### withdraw\(address, uint256\)
 
-Calls `strategy.withdraw()` function for the amount defined in unit256. `token_addr` is used to identify which strategy you want to withdraw from. For yDAI vault, `token_addr` is DAI address.
+Calls `strategy.withdraw()` function for the amount defined in `unit256`. `token_addr` is used to identify which strategy you want to withdraw from.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -340,7 +336,7 @@ function withdraw(token_addr: address, amount: uint256) external;
 
 ### balanceOf\(address\)
 
-Returns the balance of a specific token in the Strategy defined by `token_addr`
+Returns the balance of a specific token in the Strategy defined by `token_addr`.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -397,9 +393,9 @@ function want(token_addr: address) external view returns (address);
 
 🔓 **Access**: Anyone
 
-| Returns |                             Description |
-| :------ | --------------------------------------: |
-| address | Strategie's or vault's unwrapped token. |
+| Returns |                            Description |
+| :------ | -------------------------------------: |
+| address | Strategy's or vault's unwrapped token. |
 
 {% hint style="info" %}
 The current deployed controller doesn't use this anymore. You need to load the strategy, then call `strategy.want()`
@@ -427,7 +423,7 @@ function rewards() external view returns (treasury_addr: address);
 
 ### vaults\(address\)
 
-Returns the corresponding Vault address for a specific Token.
+Returns the corresponding Vault address for specific token.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
@@ -447,7 +443,7 @@ function vaults(token_addr: address) external view returns (vault_addr: address)
 
 ### strategies\(address\)
 
-Returns the corresponding Strategy address for a specific Token.
+Returns the corresponding Strategy address for specific Token.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
