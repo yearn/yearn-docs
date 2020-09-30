@@ -22,7 +22,7 @@ Audits may be either informal or formal audits, and are meant to be a tool to fi
 
 ## APY
 
-Annual Percentage Yield, a time-based measurement of the Return On Investment \(ROI\) on an asset. For example, $100 invested at 2% APY would yield $102 after one year, if there is no compounding of any interest earned on that $100 through the year. Assuming a static APY rate, the Monthly ROI would be 0.16%, in this case.
+Annual Percentage Yield, a time-based measurement of the Return On Investment \(ROI\) on an asset. For example, $100 invested at 2% APY would yield $102 after one year, if there is no compounding of any interest earned on that \$100 through the year. Assuming a static APY rate, the Monthly ROI would be 0.16%, in this case.
 
 ## Arbitrage
 
@@ -102,12 +102,12 @@ With compound interest, the greatest gains are often seen over a certain period 
 
 A form of digital currency protected by encryption algorithms and represented as a digital coin or token. Cryptocurrency coins are programmed to systems and networks for:
 
-* Minting
-* Release
-* Reward
-* Distribution
-* Governance
-* Ability to make future changes
+- Minting
+- Release
+- Reward
+- Distribution
+- Governance
+- Ability to make future changes
 
 These digital coins or tokens include a ledger or blockchain record of all transactions that occur on their respective networks.
 
@@ -295,7 +295,7 @@ Implemented via Smart Contracts, a liquidity token is given to a depositor in ex
 
 ## Maker
 
-[Maker](https://makerdao.com/en/) is a decentralized governed financial ecosystem based on a Stablecoin called DAI. DAI is algorithmically pegged to $1 USD, with no volatility. A digital asset with no volatility at all, is sometimes seen as a hedge or safety measure in times of high volatility or during Bear markets.
+[Maker](https://makerdao.com/en/) is a decentralized governed financial ecosystem based on a Stablecoin called DAI. DAI is algorithmically pegged to \$1 USD, with no volatility. A digital asset with no volatility at all, is sometimes seen as a hedge or safety measure in times of high volatility or during Bear markets.
 
 ## MakerDAO CDP
 
@@ -349,9 +349,9 @@ In High Technology, a protocol is a set of developed rules or specifications. Th
 
 1. To make changes to a portfolio or pool of funds for various reasons.
 2. An automated or manual tactical change to a yield farming strategy that is meant to nearly instantaneously do one or more of the following actions:
-   * Gain profits through arbitrage
-   * Take or secure profits
-   * Reduce risks to investors or pooled funds
+   - Gain profits through arbitrage
+   - Take or secure profits
+   - Reduce risks to investors or pooled funds
 
 During periods of high volatility, the latter is especially the case if margin or leveraged funding is used by the trader, investor, or controller in charge of pooled funds. If an assessment is made that market conditions are a risk to invested funds, mitigation efforts will be implemented either autonomously or through manual intervention to reduce risks to invested funds.
 
@@ -381,9 +381,9 @@ In cryptocurrency, it is a digital cryptocurrency equivalent to one \(1\) Dollar
 
 A stablecoin is an attractive investment to investors because:
 
-* It can be used as a safe harbor or hedge for cryptocurrency funds in times of downward volatility, also known as a bear market, whether this trend in downward volatility is temporary or prolonged in duration.
-* It can be used as a diversification into the realm of Cryptocurrency finance to take advantage of new products in CeFi and DeFi that are unavailable elsewhere, as a safe diversification into crypto that won't lose nor gain significant value to the stablecoin price.
-* A coin with a stable price is used for transferring crypto around, as a means to not lose value in the base asset itself as its being moved around or deployed to Smart Contracts or wallets.
+- It can be used as a safe harbor or hedge for cryptocurrency funds in times of downward volatility, also known as a bear market, whether this trend in downward volatility is temporary or prolonged in duration.
+- It can be used as a diversification into the realm of Cryptocurrency finance to take advantage of new products in CeFi and DeFi that are unavailable elsewhere, as a safe diversification into crypto that won't lose nor gain significant value to the stablecoin price.
+- A coin with a stable price is used for transferring crypto around, as a means to not lose value in the base asset itself as its being moved around or deployed to Smart Contracts or wallets.
 
 ## Stake
 
@@ -437,7 +437,7 @@ A suite of DeFi tools and products in an interconnected financial ecosystem runn
 
 ## YFI
 
-The governance token for the yEarn Finance ecosystem and suite of tools. YFI holders can submit, discuss, and vote upon various YIPs to make operational or governance changes to the ecosystem and its products. YFI was the first Fair Launch token, meaning that there was no Founder, Venture Capitalist or early investor pre-mining program to privately claim a portion of a coin's supply. YFI was Fair Launched on July 20, 2020 with an initial limited supply of only 30,000 tokens and an intial price of $34.53, according to Coingecko.
+The governance token for the yEarn Finance ecosystem and suite of tools. YFI holders can submit, discuss, and vote upon various YIPs to make operational or governance changes to the ecosystem and its products. YFI was the first Fair Launch token, meaning that there was no Founder, Venture Capitalist or early investor pre-mining program to privately claim a portion of a coin's supply. YFI was Fair Launched on July 20, 2020 with an initial limited supply of only 30,000 tokens and an intial price of \$34.53, according to Coingecko.
 
 ## Yield Farming
 
@@ -492,4 +492,3 @@ An example of a complex strategy that can be accomplished by a yVault using a Tu
 [Zapper.fi](https://www.zapper.fi/) is a DeFi tool that allows users to simplify their entry and exit into DeFi products and offerings by batching or "zapping" transactions in a batch. It is designed to simplify and speed up this process. In some cases, this method of transaction can reduce gas fees for investors.
 
 This tool is also used to provide granular insight and tracking of a user's DeFi investments and assets. Zapper . fi is natively supported by many DeFi protocols and products.
-

@@ -10,22 +10,22 @@ Yearn Finance is a suite of decentralized finance \(DeFi\) products focused on c
 
 ### Vaults
 
-* Community-developed yield farming robots
-* yVaults follow a unique strategy that are designed to maximize the yield of the deposited asset and minimize risk.
+- Community-developed yield farming robots
+- yVaults follow a unique strategy that are designed to maximize the yield of the deposited asset and minimize risk.
 
 ### Earn
 
-* Yield-aware dynamic money markets that serve as building blocks for yVaults
-* Earn performs profit switching for lending providers, moving your funds between dydx, Aave, Compound autonomously.
+- Yield-aware dynamic money markets that serve as building blocks for yVaults
+- Earn performs profit switching for lending providers, moving your funds between dydx, Aave, Compound autonomously.
 
 ### Zap
 
-* A tool that enables users to swap between various stablecoins and a basket of interest-bearing stablecoins \(yTokens\) or pools \(yCRV\)
-* Save on gas fees by Zapping directly into or out of Curve pools from the base assets.
+- A tool that enables users to swap between various stablecoins and a basket of interest-bearing stablecoins \(yTokens\) or pools \(yCRV\)
+- Save on gas fees by Zapping directly into or out of Curve pools from the base assets.
 
 ### Cover
 
-* yInsure pooled insurance provides coverage against financial loss for various smart contracts and product offerings underwritten by Nexus Mutual.
+- yInsure pooled insurance provides coverage against financial loss for various smart contracts and product offerings underwritten by Nexus Mutual.
 
 ## Governance
 
@@ -39,5 +39,4 @@ Discord [http://discord.yearn.finance](http://discord.yearn.finance)
 
 Telegram [https://t.me/yearnfinance](https://t.me/yearnfinance)
 
-Reddit [https://www.reddit.com/r/yearn\_finance/](https://www.reddit.com/r/yearn_finance/)
-
+Reddit [https://www.reddit.com/r/yearn_finance/](https://www.reddit.com/r/yearn_finance/)

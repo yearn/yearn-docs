@@ -10,5 +10,4 @@ Governance determines weekly, monthly, and yearly credit limits that the DAO can
 
 ## Resources <a id="Resources"></a>
 
-* Medium article: [Delegated Funding DAO Vaults](https://medium.com/iearn/delegated-funding-dao-vaults-7ab05a63d7ba)
-
+- Medium article: [Delegated Funding DAO Vaults](https://medium.com/iearn/delegated-funding-dao-vaults-7ab05a63d7ba)
