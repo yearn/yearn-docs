@@ -4,7 +4,7 @@ description: In Development
 
 # StableCredit
 
-{% embed url="https://medium.com/iearn/introducing-stablecredit-a-new-protocol-for-decentralized-lending-stablecoins-and-amms-7252a43ee56" %}
+{% embed url="https://medium.com/iearn/introducing-stablecredit-a-new-protocol-for-decentralized-lending-stablecoins-and-amms-7252a43ee56" caption="" %}
 
 ## Explanations
 
@@ -22,5 +22,5 @@ description: In Development
 
 ## What the user gets
 
-1. The user gets a Credit Line by providing "almost any token". Currently, any token available in the [CHAINLINK oracle (price feeds)](https://feeds.chain.link/).
+1. The user gets a Credit Line by providing "almost any token". Currently, any token available in the [CHAINLINK oracle \(price feeds\)](https://feeds.chain.link/).
 2. The credit line is given to the user in a StableCredit token. This is a new token minted. This token is a stable token. The user can only get up to 75% from the total amount deposited into the StableCredit contract. This 75% is called utilization ratio.

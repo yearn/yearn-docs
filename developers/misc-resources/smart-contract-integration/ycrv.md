@@ -1,7 +1,7 @@
-# Smart Contract Interface
+# ycrv
 
 | Contract | ABI                                                                                   | Address                                                                                   |
-| -------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| :------- | :------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------- |
 | IyCRV    | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yCRV.json) | [ycrv.iearn.eth](https://etherscan.io/address/0x9Ce551A9D2B1A4Ec0cc6eB0E0CC12977F6ED306C) |
 
 ## IyUSDT Interface
@@ -56,5 +56,4 @@ contract ERC20Interface {
 ```
 
 {% endtab %}
-
 {% endtabs %}

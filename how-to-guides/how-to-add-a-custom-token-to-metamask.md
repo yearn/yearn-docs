@@ -1,20 +1,20 @@
-# How to Add a custom token to MetaMask
+# How to Add a Custom Token to MetaMask
 
-Here's how you add a custom token to MetaMask. This guide uses yUSD as an example but there is an easier way for yUSD and YFI with just a couple clicks at https://addyearn.finance/
+Here's how you add a custom token to MetaMask. This guide uses yUSD as an example but there is an easier way for yUSD and YFI with just a couple clicks at [https://addyearn.finance](https://addyearn.finance/).
 
 ![](https://i.imgur.com/BIlPYeb.png)
 
 ## Visual Walkthrough
 
-1\) Open MetaMask and click `Assets` to see the tokens in your wallet
+1\) Open MetaMask and click `Assets` to see the tokens in your wallet.
 
 ![](https://i.imgur.com/N34iMar.png)
 
-2\) Scroll down to the bottom and click `Add Token`
+2\) Scroll down to the bottom and click `Add Token`.
 
 ![](https://i.imgur.com/hRd2MD7.png)
 
-3\) Click `Custom Token`
+3\) Click `Custom Token`.
 
 ![](https://i.imgur.com/rGbV1eT.png)
 
@@ -22,11 +22,11 @@ Here's how you add a custom token to MetaMask. This guide uses yUSD as an exampl
 
 ![](https://i.imgur.com/6H2JhRN.png)
 
-5\) Click `Edit` to change the Token Symbol
+5\) Click `Edit` to change the Token Symbol.
 
 ![](https://i.imgur.com/E12XN8x.png)
 
-6\) Type in **yUSD** and click `Next`
+6\) Type in **yUSD** and click `Next`.
 
 ![](https://i.imgur.com/kNkrqj3.png)
 

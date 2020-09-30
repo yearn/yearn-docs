@@ -1,4 +1,4 @@
-## dYdX Interface
+# dydx
 
 {% tabs %}
 {% tab title="DyDx.sol" %}

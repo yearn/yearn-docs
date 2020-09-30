@@ -7,7 +7,7 @@ These docs are still being worked on.
 ## v2 Yield Tokens
 
 | Contract | ABI                                                                                    | Address                                                                                                  |
-| -------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| :------- | :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
 | yDAIv2   | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yDAI.json)  | [ydaiv2.iearn.eth](https://etherscan.io/address/0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01#readContract) |
 | yUSDCv2  | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDC.json) | [yusdcv2.iearn.eth](https://etherscan.io/address/0xd6aD7a6750A7593E092a9B218d66C0A814a3436e)             |
 | yUSDTv2  | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yUSDT.json) | [yusdtv2.iearn.eth](https://etherscan.io/address/0x83f798e925BcD4017Eb265844FDDAbb448f1707D)             |
@@ -25,7 +25,7 @@ None ✅
 
 - set_new_APR ✅
 
-```
+```text
 No interaction with funds.
 
 APR used for stateless recommend() function. Can be used to change the recommended provider. The owner could replace the existing contract to a controlled contract that could suggest a specific lending provider.
@@ -33,7 +33,7 @@ APR used for stateless recommend() function. Can be used to change the recommend
 
 - set_new_COMPOUND ⚠️
 
-```
+```text
 Could access funds via malicious lending contract.
 
 Sets the downstream address for Compound. The owner could replicate the compound mint() function call and force the APR change (with the vector mentioned in set_new_APR) and withdraw funds.
@@ -43,7 +43,7 @@ This method is implemented to allow adding Compound if they support the underlyi
 
 - set_new_DTOKEN ✅
 
-```
+```text
 No interaction with funds.
 
 Can only update the ID at dydx, no way to influence any other action.
@@ -53,7 +53,7 @@ This method is implemented to allow adding dYdX if they support the underlying t
 
 - set_new_FULCRUM ⚠️
 
-```
+```text
 As per set_new_COMPOUND
 ```
 
@@ -66,7 +66,7 @@ As per set_new_COMPOUND
 ## Utility Contracts
 
 | Contract          | ABI                                                                                                    | Address                                                                                                   |
-| ----------------- | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| :---------------- | :----------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
 | APROracle         | [JSON](https://github.com/iearn-finance/apr-oracle/blob/master/build/contracts/APROracle.json)         | [apr.iearn.eth](https://etherscan.io/address/0x97ff4a1b787ade6b94cca95b61f79417c673331d#code)             |
 | UniswapROI        | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/UniswapROI.json)       | [uniroi.iearn.eth](https://etherscan.io/address/0xd04ca0ae1cd8085438fdd8c22a76246f315c2687#readContract)  |
 | UniswapAPR        | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/UniswapAPR.json)       | [uniapr.iearn.eth](https://etherscan.io/address/0x4c70D89A4681b2151F56Dc2c3FD751aBb9CE3D95#readContract)  |
@@ -75,7 +75,7 @@ As per set_new_COMPOUND
 
 ### IEarnAPRWithPool
 
-```
+```text
 No interaction with funds.
 
 APR used for stateless recommend() function. Can be used to change the recommended provider. The owner could influence the calculation to a specific lending provider.
@@ -95,7 +95,7 @@ APR used for stateless recommend() function. Can be used to change the recommend
 
 ### APRWithPoolOracle
 
-```
+```text
 No interaction with funds.
 
 APR used for stateless recommend() function. Can be used to change the recommended provider. The owner could influence the calculation to a specific lending provider.
@@ -114,7 +114,7 @@ None ✅
 
 ### UniswapAPR
 
-```
+```text
 No interaction with funds.
 ```
 

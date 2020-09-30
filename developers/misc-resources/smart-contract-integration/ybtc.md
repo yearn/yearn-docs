@@ -1,7 +1,7 @@
-# Smart Contract Interface
+# ybtc
 
 | Contract | ABI                                                                                   | Address                                                                                                  |
-| -------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| :------- | :------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------- |
 | yBTC     | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yBTC.json) | [ybtc.iearn.eth](https://etherscan.io/address/0x04ef8121ad039ff41d10029c91ea1694432514e9#readContract)   |
 | yBTCv2   | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yBTC.json) | [ybtcv2.iearn.eth](https://etherscan.io/address/0x04Aa51bbcB46541455cCF1B8bef2ebc5d3787EC9#readContract) |
 
@@ -67,5 +67,4 @@ contract ERC20Interface {
 ```
 
 {% endtab %}
-
 {% endtabs %}

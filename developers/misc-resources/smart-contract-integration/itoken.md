@@ -1,7 +1,7 @@
-# Smart Contract Interface
+# itoken
 
 | Contract | ABI                                                                                     | Address                                                                                        |
-| -------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| :------- | :-------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
 | iEther   | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/IEther.json) | [ieth.iearn.eth](https://etherscan.io/address/0x9dde7cdd09dbed542fc422d18d89a589fa9fd4c0#code) |
 
 ## iToken Interface
@@ -50,5 +50,4 @@ contract ERC20Interface {
 ```
 
 {% endtab %}
-
 {% endtabs %}

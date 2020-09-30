@@ -1,7 +1,7 @@
-# Smart Contract Interface
+# 1split
 
 | Contract   | Address                                                    |
-| ---------- | ---------------------------------------------------------- |
+| :--------- | :--------------------------------------------------------- |
 | 1split.eth | [1split.eth](https://etherscan.io/address/1split.eth#code) |
 
 ## 1split.eth Interface

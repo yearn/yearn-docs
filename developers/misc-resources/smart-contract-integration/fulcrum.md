@@ -1,4 +1,4 @@
-## Fulcrum Interface
+# fulcrum
 
 {% tabs %}
 {% tab title="Fulcrum.sol" %}

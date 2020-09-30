@@ -1,6 +1,6 @@
 # How to Mint yUSD
 
-This visual guide will walk you through every step in minting yUSD at [https://vaults.finance/](https://vaults.finance/).
+This visual guide will walk you through every step in minting yUSD at [https://vaults.finance](https://vaults.finance/).
 
 You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://docs.yearn.finance/yusd)
 
@@ -11,7 +11,7 @@ You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://do
 
 ## Visual Walkthrough
 
-1\) Go to [https://vaults.finance/](https://vaults.finance/) and click `Connect`
+1\) Go to [https://vaults.finance](https://vaults.finance/) and click `Connect`
 
 ![](https://i.imgur.com/8eSziEU.png)
 
@@ -35,7 +35,7 @@ You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://do
 
 ![](https://i.imgur.com/JHSGFA3.png)
 
-7\) Click `Confirm` to approve your deposit or click `Edit` to increase the gas fee if Ethereum is busy \(check [https://ethgasstation.info/](https://ethgasstation.info/) for current rates\). If you are depositing more than one type of token \(e.g. DAI and USDC\) you will need to do this step to approve each one.
+7\) Click `Confirm` to approve your deposit or click `Edit` to increase the gas fee if Ethereum is busy \(check [https://ethgasstation.info](https://ethgasstation.info/) for current rates\). If you are depositing more than one type of token \(e.g. DAI and USDC\) you will need to do this step to approve each one.
 
 ![](https://i.imgur.com/WNJlI34.png)
 
@@ -59,7 +59,7 @@ You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://do
 
 ![](https://i.imgur.com/nivD4q2.png)
 
-13\) Go to https://addyearn.finance/ and click `Add Token` to add yUSD to MetaMask then `Add Token` again in the MetaMask window.
+13\) Go to [https://addyearn.finance](https://addyearn.finance/) and click `Add Token` to add yUSD to MetaMask then `Add Token` again in the MetaMask window.
 
 ![](https://i.imgur.com/BIlPYeb.png)
 

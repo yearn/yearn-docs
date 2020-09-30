@@ -1,4 +1,4 @@
-# Exchange API
+# iToken
 
 ## setup
 

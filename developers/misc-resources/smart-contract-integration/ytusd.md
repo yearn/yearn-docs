@@ -1,7 +1,7 @@
-# Smart Contract Interface
+# ytusd
 
 | Contract | ABI                                                                                    | Address                                                                                    |
-| -------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| :------- | :------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
 | yTUSDv2  | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/yTUSD.json) | [ytusd.iearn.eth](https://etherscan.io/address/0x73a052500105205d34daf004eab301916da8190f) |
 
 ## IyTUSD Interface
@@ -66,5 +66,4 @@ contract ERC20Interface {
 ```
 
 {% endtab %}
-
 {% endtabs %}

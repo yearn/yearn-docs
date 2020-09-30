@@ -1,7 +1,7 @@
-# Smart Contract Interface
+# uniswapapr
 
 | Contract   | ABI                                                                                              | Address                                                                                                  |
-| ---------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| :--------- | :----------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
 | UniswapAPR | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/UniswapAPR.json) | [uniapr.iearn.eth](https://etherscan.io/address/0x4c70D89A4681b2151F56Dc2c3FD751aBb9CE3D95#readContract) |
 
 ## UniswapAPR Interface
@@ -33,7 +33,6 @@ contract IUniswapAPR {
 
     function calcUniswapAPR(address token, uint256 createdAt) external view returns (uint256);
 }
-
 ```
 
 {% endtab %}
