@@ -3,22 +3,22 @@
 ## Frontends
 
 - Yearn.Finance
-  - Site: [https://yearn.finance/](https://yearn.finance/)
+  - Site: [https://yearn.finance](https://yearn.finance/)
   - Repo: [https://github.com/iearn-finance/iearn-finance](https://github.com/iearn-finance/iearn-finance)
 - Yearn Governance
-  - Site: [https://ygov.finance/](https://ygov.finance/)
+  - Site: [https://ygov.finance](https://ygov.finance/)
   - Repo: [https://github.com/iearn-finance/ygov-finance](https://github.com/iearn-finance/ygov-finance)
 - Yearn Insurance
-  - Site: [https://yinsure.finance/](https://yinsure.finance/)
+  - Site: [https://yinsure.finance](https://yinsure.finance/)
   - Repo: [https://github.com/iearn-finance/yinsure-finance](https://github.com/iearn-finance/yinsure-finance)
 - Yearn Borrow
-  - Site: [https://yborrow.finance/](https://yborrow.finance/)
+  - Site: [https://yborrow.finance](https://yborrow.finance/)
   - Repo: [https://github.com/iearn-finance/iborrow-finance](https://github.com/iearn-finance/iborrow-finance)
 - Yearn Swap
-  - Site: [https://yswap.exchange/](https://yswap.exchange/)
+  - Site: [https://yswap.exchange](https://yswap.exchange/)
   - Repo: [https://github.com/iearn-finance/yswap-finance](https://github.com/iearn-finance/yswap-finance)
 - Yearn Documentation
-  - Site: [https://docs.yearn.finance/](https://docs.yearn.finance/)
+  - Site: [https://docs.yearn.finance](https://docs.yearn.finance/)
   - Repo: [https://github.com/iearn-finance/docs](https://github.com/iearn-finance/docs)
 
 ## Smart Contracts
@@ -49,14 +49,14 @@ Yearn smart contracts repo: [https://github.com/iearn-finance/yearn-protocol](ht
 - Yearn Discord FAQ Bot
   - Repo: [https://github.com/dgornjakovic/yfi-faq-bot](https://github.com/dgornjakovic/yfi-faq-bot)
 - Yearn Party
-  - Site: [https://yearn.party/](https://yearn.party/)
+  - Site: [https://yearn.party](https://yearn.party/)
   - Repo: [https://github.com/x48-crypto/yearn-party](https://github.com/x48-crypto/yearn-party)
 - Yearn Tools \(Based off Yearn API\)
-  - Site: [https://yearn.tools/](https://yearn.tools/)
+  - Site: [https://yearn.tools](https://yearn.tools/)
   - Repo: [https://github.com/yearn-integrations/api](https://github.com/yearn-integrations/api)
 - Recycler Vault Interface
-  - Site: [https://vaults.finance/](https://vaults.finance/)
+  - Site: [https://vaults.finance](https://vaults.finance/)
   - Repo: [https://github.com/banteg/yearn-recycle](https://github.com/banteg/yearn-recycle)
 - Add Yearn Tokens to MetaMask
-  - Site: [https://addyearn.finance/](https://addyearn.finance/)
+  - Site: [https://addyearn.finance](https://addyearn.finance/)
   - Repo: [https://github.com/x48-crypto/watch-token](https://github.com/x48-crypto/watch-token)
