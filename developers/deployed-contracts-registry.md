@@ -29,7 +29,7 @@ The v2 yield tokens can be used in one lender at a time. Currently being used on
 
 ### v3 Yield Tokens
 
-The v3 yield tokens allow the underlying to be spread across multiple lenders. Currently being used on Curve’s BUSD pool.
+The v3 yield tokens allow the underlying assets to be spread across multiple lenders. Currently being used on Curve’s BUSD pool.
 
 | Token   | Address                                                                                                               | Github                                                                                   |
 | :------ | :-------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
@@ -109,11 +109,11 @@ The `Controller` contract can be found [here](https://etherscan.io/address/0x9e6
 
 ## Delegated Vault Contracts
 
-Volatile assets can also particpate in yield farming strategies as part of the Delegated Vaults. Currently, there is only one Delegated Vault: aLINK. The `Controller` deposits LINK into AAVE and borrows stablecoins \(USDC\). The initial health factor of these loans is always above 4, and if the health factor drops below 4 at any time the `Controller` repays a portion of the debt in order to maintain a health factor above 4.
+Volatile assets can also participate in yield farming strategies as part of the Delegated Vaults. Currently, there is only one Delegated Vault: aLINK. The `Controller` deposits LINK into AAVE and borrows stable coins \(USDC\). The initial health factor of these loans is always above 4, and if the health factor drops below 4 at any time the `Controller` repays a portion of the debt in order to maintain a health factor above 4.
 
-The stablecoins borrowed \(e.g., USDC, DAI, USDT, etc.\) depend on the strategy selected by the `Controller`. After obtaining stablecoins the Controller will deposit them into one of the yVaults identified above.
+The stable coins borrowed \(e.g., USDC, DAI, USDT, etc.\) depend on the strategy selected by the `Controller`. After obtaining stable coins the `Controller` will deposit them into one of the yVaults identified above.
 
-The aLINK vault uses the `StrategyControllerV2` contract — found [here](https://etherscan.io/address/0x2be5d998c95de70d9a38b3d78e49751f10f9e88b#code). The source code for StrategyControllerV2 is [here](https://github.com/iearn-finance/vaults/blob/master/contracts/controllers/StrategyControllerV2.sol).
+The aLINK vault uses the `StrategyControllerV2` [contract](https://etherscan.io/address/0x2be5d998c95de70d9a38b3d78e49751f10f9e88b#code). The source code for `StrategyControllerV2` is [here](https://github.com/iearn-finance/vaults/blob/master/contracts/controllers/StrategyControllerV2.sol).
 
 ### [aLINK Vault](https://etherscan.io/address/0x29E240CFD7946BA20895a7a02eDb25C210f9f324#code)
 
@@ -123,7 +123,7 @@ The aLINK vault uses the `StrategyControllerV2` contract — found [here](https:
 
 ## Governance Contracts
 
-YFI holders govern the Yearn ecosystem and are eligble to receive a portion of protocol profits. Therefore, YFI represents a right to govern the platform and a claim on earnings. Profits are obtained from each of Yearn's products. In order to claim profits, YFI holders stake their tokens into the Governance contract.
+YFI holders govern the Yearn ecosystem and are eligible to receive a portion of protocol profits. Therefore, YFI represents a right to govern the platform and a claim on earnings. Profits are obtained from each of Yearn's products. In order to claim profits, YFI holders stake their tokens into the Governance contract.
 
 | Contract                         | Status | Address                                                                                                                    |
 | :------------------------------- | :----- | :------------------------------------------------------------------------------------------------------------------------- |
@@ -142,7 +142,7 @@ YFI holders govern the Yearn ecosystem and are eligble to receive a portion of p
 | [APROracle](https://etherscan.io/address/0x97ff4a1b787ade6b94cca95b61f79417c673331d#code)         | Allows on-chain rate comparison between Compound, Fulcrum, Aave, and dYdX.                                                                                                                                                            |
 | [UniswapAPR](https://etherscan.io/address/0x4c70D89A4681b2151F56Dc2c3FD751aBb9CE3D95#code)        | An on-chain uniswap pool APR calculator. It calculates all values in ETH adjusted for the last year.                                                                                                                                  |
 | [IEarnAPR](https://etherscan.io/address/0x9cad8ab10daa9af1a9d2b878541f41b697268eec#code)          | Contract for on-chain APR decision trees between Compound, Fulcrum, Aave, and dYdX.                                                                                                                                                   |
-| [IEarnManager](https://etherscan.io/address/0x318135fbd0b40d48fcef431ccdf6c7926450edfb#code)      | On-chain stateless execution. Recomendations based on IearnAPR.                                                                                                                                                                       |
+| [IEarnManager](https://etherscan.io/address/0x318135fbd0b40d48fcef431ccdf6c7926450edfb#code)      | On-chain stateless execution. Recommendations based on IearnAPR.                                                                                                                                                                      |
 | [APRWithPoolOracle](https://etherscan.io/address/0xAE8F37F0e8AD690486bFA2495113d7E94B7a7Ba6#code) | APR used for stateless `recommend()` function. Can be used to change the recommended provider.                                                                                                                                        |
 | [IEarnAPRWithPool](https://etherscan.io/address/0xcD5F61c392B61F440991DEf98FF6Af07FC6900D4#code)  | APR used for stateless `recommend()` function. Can be used to change the recommended provider.                                                                                                                                        |
 
