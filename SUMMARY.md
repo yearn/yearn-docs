@@ -1,6 +1,6 @@
 # Table of contents
 
-* [FAQ \(Chinese\)](README.md)
+* [FAQ \(Portuguese\)](README.md)
 
 ## Additional Resources
 
