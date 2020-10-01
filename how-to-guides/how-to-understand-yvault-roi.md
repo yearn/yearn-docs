@@ -4,23 +4,23 @@
 
 Are you an advanced user trying to understand how ROI is calculated? Skip directly to "[_Why we can't use compound or linear interest formulas to estimate yVaults returns_](https://docs.yearn.finance/how-to-guides/how-to-understand-yvault-roi#why-cant-we-use-compound-or-linear-interest-formulas-to-estimate-yvaults-returns)"
 
-If you are a beginner in DeFi or new to Yearn, then keep on reading.
+If you are a beginner in DeFi or new to Yearn keep on reading.
 
 #### ROI definition:
 
-> Return on investment \(ROI\) is a ratio between net profit \(over a period\) and cost of investment \(resulting from an investment of some resources at a point in time\). A high ROI means the investment's gains compare favourably to its cost. As a performance measure, ROI is used to evaluate the efficiency of an investment or to compare the efficiencies of several different investments.\[1\] In economic terms, it is one way of relating profits to capital invested. Source: [Wikipedia](https://https://en.wikipedia.org/wiki/Return_on_investment)
+> Return on investment \(ROI\) is a ratio between net profit \(over a period\) and cost of investment \(resulting from an investment of some resources at a point in time\). A high ROI means the investment's gains compare favorably to its cost. As a performance measure, ROI is used to evaluate the efficiency of an investment or to compare the efficiencies of several different investments.\[1\] In economic terms, it is one way of relating profits to capital invested. Source: [Wikipedia](https://https://en.wikipedia.org/wiki/Return_on_investment)
 
-- ROI is a key performance indicator \(KPI\) available in all Yearn Vaults \(yVaults\) located here: [https://yearn.finance/vaults](https://yearn.finance/vaults)
-- ROI is useful when comparing and assesing vault performance.
+- ROI is a key performance indicator \(KPI\) available in all Yearn Vaults \(yVaults\) located here: [https://yearn.finance/vaults](https://yearn.finance/vaults).
+- ROI is useful when comparing and assessing vault performance.
 - ROI presented in Yearn is a **yearly ROI**. You deposit X and 1 year later you receive X + \(X \* ROI\).
-- The ROI presented is a _current estimation_ based on data since the yVault's inception. If performance remains constant, after 1 year you will receive the displayed ROI. Rates are unstable currently, and flucutate based on market/stratergy.
+- The ROI presented is a _current estimation_ based on data since the yVault's inception. If performance remains constant, after 1 year you will receive the displayed ROI. Rates are unstable currently, and fluctuate based on market/strategy.
 
-yVaults have different different yield farming [strategies](https://docs.yearn.finance/faq#vault-strategies), which determine how assets are moved between liquidity pools. Strategies are created by the Controller who manages the yVault.
+yVaults have different yield farming [strategies](https://docs.yearn.finance/faq#vault-strategies), which determine how assets are moved between liquidity pools. Strategies are created by the `Controller` who manages the yVault.
 
 New strategies are also voted by the community through [governance proposals](https://gov.yearn.finance). A new strategy creates a new challenge in terms of ROI calculation.
 
 - Individuals interested in participating in a yVault should monitor the ROI presented in the vault dashboard after a strategy change. The rate presented reflects the most recent ROI.
-- An invidivual participating before a strategy change might be interested in comparing ROI before and ROI after. Even data about ROI since yVault creation can help users understand performance and inform future decisions.
+- An individual participating before a strategy change might be interested in comparing ROI before and ROI after. Historic ROI, e.g. since yVault creation, can also help users understand performance and inform future decisions.
 
 ## ROI calculation
 
@@ -42,9 +42,9 @@ A bank's interest rate is constant: either linear or compounding. The interest r
 
 yVaults work differently:
 
-After depositing into a yVault, the user receives 'wrapped' tokens. These tokens start with a 'y' prefix and are less tokens than what was deposited \(why is explained below\).
+After depositing into a yVault, the user receives 'wrapped' tokens. These tokens start with a 'y' prefix and the depositor receives fewer tokens than were deposited \(why is explained below\).
 
-Starting from it's inception, the vault's input and output are governed by the following equation:
+Starting from its inception, the vault's input and output are governed by the following equation:
 
 $$F = I * P$$
 
@@ -62,7 +62,7 @@ $$(vault tokens) / (wrapped tokens) = P$$
 
 Since the amount of wrapped tokens is constant but the amount of vault tokens increases, the price will increase.
 
-However, the balance and thus price are constantly increasing.
+The balance and thus price are therefore constantly increasing.
 
 Therefore, the only thing we can do is:
 
@@ -91,7 +91,7 @@ In order to get the formula for a line having two points we have to do some math
 
 Formula for a line: $$y = m*x + c$$
 
-where $y$ is the price, $x$ is the blockheight and $m$, $c$ are what we are looking for.
+where $y$ is the price, $x$ is the block height and $m$, $c$ are what we are looking for.
 
 First, let's get $c$.
 
@@ -103,7 +103,7 @@ Using the product formula and the constants formula:
 
 $y'\(x\) = m$
 
-Approximating the derivative of a linar function can be done by:
+Approximating the derivative of a linear function can be done by:
 
 $y'\(x\) = \(y2-y1\)/\(x2-x1\) = m$
 
@@ -115,7 +115,7 @@ However, since $y\(x\)$ is **not** linear, we get different lines for different 
 
 As a result, our estimation for price in future and the return varies greatly depending on which points we choose.
 
-Here we take two points of the performance chart for the yUSD vault \(numbered colored points\) and apply the above. Notice that the different lines are relatively good indications for the short term, but when we try to use them and predict long term they're totally inaccurate!
+Here we take two points of the performance chart for the yUSD vault \(numbered colored points\) and apply the above. Notice that the different lines are relatively good indications for the short term, but when we try to use them to predict long term they're totally inaccurate!
 
 ![](https://i.imgur.com/g2I40pQ.png)
 
@@ -139,7 +139,7 @@ When Jane now looks at her balance of wrapped tokens, she will see that they hav
 
 $$F = I * P = 95.7 * 1.05 = 100.5$$
 
-At this point, she could withdraw and receive her initial yCRV deposit and an additional amount of yCRV tokens, giving her a return of 0.5% on her initial investment.
+At this point, she could withdraw and receive her initial yCRV deposit and an additional amount of yCRV tokens, giving her a return of 0.5% on her initial investment (ignoring the 0.5% withdrawal fee).
 
 ### Conclusions
 
@@ -147,9 +147,9 @@ At this point, she could withdraw and receive her initial yCRV deposit and an ad
 2. Short-term ROI data is _**absolutely not accurate**_ when extrapolated in the long-term.
 3. Long-term data \(say today and [inception of vault](https://docs.yearn.finance/faq#lists-of-smart-contracts)\) is a good overall estimation of the vaults performance and should be used when comparing different investment opportunities.
 
-In other words, if our goal is to approximate returns in the short-term, we should use datasets that are recent \(daily/weekly\).
+In other words, if your goal is to approximate returns in the short-term, you should use datasets that are recent \(daily/weekly\).
 
-If you would like to make a crude estimation on how returns may look like in a year or longer, the longest possible timeframe should be taken.
+If you would like to make a crude estimation on how returns may look like in a year or longer, the longest possible historic timeframe should be taken.
 
 ### Other references
 
