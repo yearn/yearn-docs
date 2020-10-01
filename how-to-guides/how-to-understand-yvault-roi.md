@@ -4,18 +4,18 @@
 
 Are you an advanced user trying to understand how ROI is calculated? Skip directly to "[_Why we can't use compound or linear interest formulas to estimate yVaults returns_](https://docs.yearn.finance/how-to-guides/how-to-understand-yvault-roi#why-cant-we-use-compound-or-linear-interest-formulas-to-estimate-yvaults-returns)"
 
-If you are a beginner in DeFi or new to Yearn, then keep on reading.
+If you are a beginner in DeFi or new to Yearn keep on reading.
 
 #### ROI definition:
 
-> Return on investment \(ROI\) is a ratio between net profit \(over a period\) and cost of investment \(resulting from an investment of some resources at a point in time\). A high ROI means the investment's gains compare favourably to its cost. As a performance measure, ROI is used to evaluate the efficiency of an investment or to compare the efficiencies of several different investments.\[1\] In economic terms, it is one way of relating profits to capital invested. Source: [Wikipedia](https://https://en.wikipedia.org/wiki/Return_on_investment)
+> Return on investment \(ROI\) is a ratio between net profit \(over a period\) and cost of investment \(resulting from an investment of some resources at a point in time\). A high ROI means the investment's gains compare favorably to its cost. As a performance measure, ROI is used to evaluate the efficiency of an investment or to compare the efficiencies of several different investments.\[1\] In economic terms, it is one way of relating profits to capital invested. Source: [Wikipedia](https://https://en.wikipedia.org/wiki/Return_on_investment)
 
-- ROI is a key performance indicator \(KPI\) available in all Yearn Vaults \(yVaults\) located here: [https://yearn.finance/vaults](https://yearn.finance/vaults)
-- ROI is useful when comparing and assesing vault performance.
+- ROI is a key performance indicator \(KPI\) available in all Yearn Vaults \(yVaults\) located here: [https://yearn.finance/vaults](https://yearn.finance/vaults).
+- ROI is useful when comparing and assessing vault performance.
 - ROI presented in Yearn is a **yearly ROI**. You deposit X and 1 year later you receive X + \(X \* ROI\).
-- The ROI presented is a _current estimation_ based on data since the yVault's inception. If performance remains constant, after 1 year you will receive the displayed ROI. Rates are unstable currently, and flucutate based on market/strategy.
+- The ROI presented is a _current estimation_ based on data since the yVault's inception. If performance remains constant, after 1 year you will receive the displayed ROI. Rates are unstable currently, and fluctuate based on market/strategy.
 
-yVaults have different different yield farming [strategies](https://docs.yearn.finance/faq#vault-strategies), which determine how assets are moved between liquidity pools. Strategies are created by the Controller who manages the yVault.
+yVaults have different yield farming [strategies](https://docs.yearn.finance/faq#vault-strategies), which determine how assets are moved between liquidity pools. Strategies are created by the `Controller` who manages the yVault.
 
 New strategies are also voted by the community through [governance proposals](https://gov.yearn.finance). A new strategy creates a new challenge in terms of ROI calculation.
 
@@ -91,7 +91,7 @@ In order to get the formula for a line having two points we have to do some math
 
 Formula for a line: $$y = m*x + c$$
 
-where $y$ is the price, $x$ is the blockheight and $m$, $c$ are what we are looking for.
+where $y$ is the price, $x$ is the block height and $m$, $c$ are what we are looking for.
 
 First, let's get $c$.
 
@@ -147,7 +147,7 @@ At this point, she could withdraw and receive her initial yCRV deposit and an ad
 2. Short-term ROI data is _**absolutely not accurate**_ when extrapolated in the long-term.
 3. Long-term data \(say today and [inception of vault](https://docs.yearn.finance/faq#lists-of-smart-contracts)\) is a good overall estimation of the vaults performance and should be used when comparing different investment opportunities.
 
-In other words, if your goal is to approximate returns in the short-term, we should use datasets that are recent \(daily/weekly\).
+In other words, if your goal is to approximate returns in the short-term, you should use datasets that are recent \(daily/weekly\).
 
 If you would like to make a crude estimation on how returns may look like in a year or longer, the longest possible historic timeframe should be taken.
 
