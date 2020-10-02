@@ -1,6 +1,6 @@
 # yUSD
 
-yUSD is an ERC-20 token issued by Yearn that represents shares in our most popular vault: the yCRV Vault (listed as `curve.fi/y LP` on our [vaults page](https://yearn.finance/vaults)).
+yUSD is an ERC-20 token issued by Yearn that represents shares in our most popular vault: the yCRV Vault \(listed as `curve.fi/y LP` on our [vaults page](https://yearn.finance/vaults)\).
 
 yUSD makes DeFi simple by automatically maximizing yield and minimizing risk for our depositors. On the backend, the yCRV Vault implements modular, autonomous, yield-aware strategies. These are created and regularly updated by the best minds in DeFi, all under the control of Yearn governance.
 
@@ -33,7 +33,7 @@ At the base level, DAI, USDC, USDT, and TUSD are each wrapped into our 3rd gener
 
 ### Tier 2: Y Curve Pool
 
-At the next level up, yDAI, yUSDC, yUSDT, and yTUSD provide liquidity in the Curve and Yearn partnership pool (curve.fi/y). yCRV—the [LP token](https://docs.yearn.finance/defi-glossary#liquidity-providers) for this pool—grows in value from fees charged on stablecoin swaps within the pool. It also generates (soon-to-be-boosted) CRV rewards which are harvested in the next tier up.
+At the next level up, yDAI, yUSDC, yUSDT, and yTUSD provide liquidity in the Curve and Yearn partnership pool \(curve.fi/y\). yCRV—the [LP token](https://docs.yearn.finance/defi-glossary#liquidity-providers) for this pool—grows in value from fees charged on stablecoin swaps within the pool. It also generates \(soon-to-be-boosted\) CRV rewards which are harvested in the next tier up.
 
 ### Tier 3: Sustainable Yield
 
@@ -49,11 +49,12 @@ It's DeFi made simple.
 
 ## Resources
 
-- yUSD
-  - CoinGecko: https://www.coingecko.com/en/coins/yusd
-  - yUSD Token contract: [0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c](https://etherscan.io/address/0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c)
-- Code
-  - The vaults.finance source code on [github](https://github.com/banteg/yearn-recycle)
-  - The current strategy: [StrategyCurveYCRVVoter](https://etherscan.io/address/0xc999fb87AcA383A63D804A575396F65A55aa5aC8#code)
-- FAQ
-  - https://docs.yearn.finance/faq#vaults
+* yUSD
+  * CoinGecko: [https://www.coingecko.com/en/coins/yusd](https://www.coingecko.com/en/coins/yusd)
+  * yUSD Token contract: [0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c](https://etherscan.io/address/0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c)
+* Code
+  * The vaults.finance source code on [github](https://github.com/banteg/yearn-recycle)
+  * The current strategy: [StrategyCurveYCRVVoter](https://etherscan.io/address/0xc999fb87AcA383A63D804A575396F65A55aa5aC8#code)
+* FAQ
+  * [https://docs.yearn.finance/faq\#vaults](https://docs.yearn.finance/faq#vaults)
+

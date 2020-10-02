@@ -10,17 +10,17 @@ If you are a beginner in DeFi or new to Yearn, then keep on reading.
 
 > Return on investment \(ROI\) is a ratio between net profit \(over a period\) and cost of investment \(resulting from an investment of some resources at a point in time\). A high ROI means the investment's gains compare favourably to its cost. As a performance measure, ROI is used to evaluate the efficiency of an investment or to compare the efficiencies of several different investments.\[1\] In economic terms, it is one way of relating profits to capital invested. Source: [Wikipedia](https://https://en.wikipedia.org/wiki/Return_on_investment)
 
-- ROI is a key performance indicator \(KPI\) available in all Yearn Vaults \(yVaults\) located here: [https://yearn.finance/vaults](https://yearn.finance/vaults)
-- ROI is useful when comparing and assesing vault performance.
-- ROI presented in Yearn is a **yearly ROI**. You deposit X and 1 year later you receive X + \(X \* ROI\).
-- The ROI presented is a _current estimation_ based on data since the yVault's inception. If performance remains constant, after 1 year you will receive the displayed ROI. Rates are unstable currently, and flucutate based on market/stratergy.
+* ROI is a key performance indicator \(KPI\) available in all Yearn Vaults \(yVaults\) located here: [https://yearn.finance/vaults](https://yearn.finance/vaults)
+* ROI is useful when comparing and assesing vault performance.
+* ROI presented in Yearn is a **yearly ROI**. You deposit X and 1 year later you receive X + \(X \* ROI\).
+* The ROI presented is a _current estimation_ based on data since the yVault's inception. If performance remains constant, after 1 year you will receive the displayed ROI. Rates are unstable currently, and flucutate based on market/stratergy.
 
 yVaults have different different yield farming [strategies](https://docs.yearn.finance/faq#vault-strategies), which determine how assets are moved between liquidity pools. Strategies are created by the Controller who manages the yVault.
 
 New strategies are also voted by the community through [governance proposals](https://gov.yearn.finance). A new strategy creates a new challenge in terms of ROI calculation.
 
-- Individuals interested in participating in a yVault should monitor the ROI presented in the vault dashboard after a strategy change. The rate presented reflects the most recent ROI.
-- An invidivual participating before a strategy change might be interested in comparing ROI before and ROI after. Even data about ROI since yVault creation can help users understand performance and inform future decisions.
+* Individuals interested in participating in a yVault should monitor the ROI presented in the vault dashboard after a strategy change. The rate presented reflects the most recent ROI.
+* An invidivual participating before a strategy change might be interested in comparing ROI before and ROI after. Even data about ROI since yVault creation can help users understand performance and inform future decisions.
 
 ## ROI calculation
 
@@ -28,11 +28,11 @@ Even though yVaults have a compounding effect inherently, this compound interest
 
 ### Why can't we use compound or linear interest formulas to estimate yVaults returns?
 
-- This shows the estimation of an asset that has interest / compounded interest applied to it:
+* This shows the estimation of an asset that has interest / compounded interest applied to it:
 
 ![](https://i.imgur.com/OZKqesB.png)
 
-- This is the actual, measured performance of an asset in the yUSD vault:
+* This is the actual, measured performance of an asset in the yUSD vault:
 
 ![](https://i.imgur.com/NpogiO9.png)
 
@@ -66,10 +66,10 @@ However, the balance and thus price are constantly increasing.
 
 Therefore, the only thing we can do is:
 
-- Try to use data from two different points in time
-- Assume growth is linear \(because simply there is no other information we have\)
-- Construct a line using both points which we then extrapolate
-- Calculate price at future data to display ROI.
+* Try to use data from two different points in time
+* Assume growth is linear \(because simply there is no other information we have\)
+* Construct a line using both points which we then extrapolate
+* Calculate price at future data to display ROI.
 
 However, as shown below this is dependent on where we take those points.
 
@@ -155,6 +155,7 @@ If you would like to make a crude estimation on how returns may look like in a y
 
 The community has been actively creating tools and guides on this topic.
 
-- [https://github.com/thegismar/yearn_roi/blob/master/yearn_vaults_ROI_calc.ipynb](https://github.com/thegismar/yearn_roi/blob/master/yearn_vaults_ROI_calc.ipynb) provides a mathemathical explanation on how ROI is calculated with some caveats. \(This repository is no longer being maintained\).
-- [Statistics FAQ](https://docs.yearn.finance/faq#statistics)
-- [yVault ROI performance over time graph](https://py-earn.herokuapp.com/graph)
+* [https://github.com/thegismar/yearn\_roi/blob/master/yearn\_vaults\_ROI\_calc.ipynb](https://github.com/thegismar/yearn_roi/blob/master/yearn_vaults_ROI_calc.ipynb) provides a mathemathical explanation on how ROI is calculated with some caveats. \(This repository is no longer being maintained\).
+* [Statistics FAQ](https://docs.yearn.finance/faq#statistics)
+* [yVault ROI performance over time graph](https://py-earn.herokuapp.com/graph)
+
