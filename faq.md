@@ -51,7 +51,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿No puedo hacer todo esto yo mismo?
 
-* Sí, podrías hacerlo, pero las vaults sirven para ahorrar gas, mantener un buen ratio aval/dedua para que el aval no sea liquidado y cambia automáticamente a la estrategia que de el rendimiento más alto posible, incluso mientras estás dormido.
+* Sí, podrías hacerlo, pero las vaults sirven para ahorrar gas, mantener un buen ratio aval/deuda para que el aval no sea liquidado y cambia automáticamente a la estrategia que de el rendimiento más alto posible, incluso mientras estás dormido.
 
 #### Veo que se muestra el ROI en la página de las vaults, ¿es el ROI actual?
 
