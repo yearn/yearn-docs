@@ -11,7 +11,7 @@ tags: 'docs, faq, published'
 
 * Por favor, investiga por tu cuenta y toma la decisión tú solo.
 
-### ¿ Ha sido yearn auditado?
+### ¿Ha sido yearn auditado?
 
 * Sí, puedes encontrar la lista de audiciones de seguridad [aquí](https://github.com/iearn-finance/audits).
 
