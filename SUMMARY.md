@@ -1,6 +1,6 @@
-# Table of contents
+# Tabla de contenidos
 
-- [Introduction to Yearn](README.md)
+- [Introducción a Yearn](README.md)
 - [FAQ](faq.md)
 - [DeFi Glossary](defi-glossary.md)
 - [How-To Guides](how-to-guides/README.md)
