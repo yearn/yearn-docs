@@ -129,46 +129,46 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
   - Level 2: COMP liquidated to USDC
   - Level 3: The strategy earns DF tokens rewards from DForce that get harvested and sold for USDC—**this is the only level where the 5% fee is taken.**
 
-#### Where do the fees go?
+#### Where do the fees go? ¿A donde van las tarifas recolectadas?
 
 - They go to a dedicated treasury [contract](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde).
 - From the treasury they stay up to the \$500k limit, over that amount they are redirected to the governance staking [contract](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992).
 
-#### Did the fees always go there?
+#### Did the fees always go there? ¿Han las tarifas siempre a ese sitio?
 
 - No, when yearn started they went directly to Andre's [address](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c).
 - Then we handed off to the [multisig](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) and fees went directly there.
 - And before our current gov v2, staking rewards went [here](https://etherscan.io/address/0xb01419E74D8a2abb1bbAD82925b19c36C191A701)
 
-#### Yield
+#### Yield Rendimiento
 
 - We plan to make a dashboard in the future that will clearly show your current APY of all the positions you have open. Currently for the Vaults as they are still in beta we are not showing the APY live, but it is post on [twitter](https://twitter.com/iearnfinance) around once a day. You can roughly estimate the yield you are getting by looking at what the [current strategy](https://feel-the-yearn.vercel.app/) is farming and checking what its APY is.
 - For example if yCRV vault is farming the CRV token, you can check what the yield is on [Curve's homepage](https://www.curve.fi/) for the Y pool
 
-### Vault Strategies
+### Vault Strategies Estrategias de las Vaults
 
-#### What is a Vault Strategy?
+#### What is a Vault Strategy? ¿Qué es una estrategia de una Vault?
 
 - Yearn's vault strategies are modular smart contracts for each vault that tells it what assets to borrow, which assets to farm, and where it should sell the farmed assets.
 
-#### What are the current strategies?
+#### What are the current strategies? ¿Cuáles son las estrategias actuales?
 
 - You can view the current strategies implemented at [feel-the-yearn](https://feel-the-yearn.vercel.app/).
 - In the future we plan to make a dashboard to make the strategies and APY easy to understand.
 
-#### Who is in control of the strategies?
+#### Who is in control of the strategies? ¿Quién controla las estrategias?
 
 - Andre and other developers write them but the multi-sig decides if they will be implemented or not.
 
-#### How can I make a strategy?
+#### How can I make a strategy? ¿Cómo puedo hacer una estrategia?
 
 - For now you can post your strategy on the forum in the strategy section. Detailing what it should buy/sell/farm and what the current APY is. There will be a template to help you get started.
 
-#### What is the process for getting my strategy onto yearn?
+#### What is the process for getting my strategy onto yearn? ¿Cuál es el proceso a seguir para incluir mi estrategia en yearn?
 
 - Post it on the forum and if it gets approved it will be used in the vaults and you can get paid for it.
 
-#### When does a strategy changes and who changes it? Is it automatic?
+#### When does a strategy changes and who changes it? Is it automatic? ¿Cuándo cambia una estrategia y quién lo hace?
 
 - For now Andre watches the markets and writes strategies that he and the multi-sig thinks are safe while giving the highest yield. They change them according to current yields on the market.
 
@@ -176,7 +176,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 - [yearn.finance/earn](https://yearn.finance/earn)
 
-#### What is Earn?
+#### What is Earn? ¿Qué es Earn?
 
 - Earn is a yield aggregator for lending platforms that rebalances for highest yield during contract interaction.
 - Deposit DAI, USDC, USDT, TUSD, or sUSD and it will auto lend to the highest lending rate on these platforms [Compound](https://compound.finance/), [Dydx](https://dydx.exchange/) or [Aave](https://app.aave.com/home) \(Ddex and Fulcrum are currently disabled\).
@@ -186,21 +186,21 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 - [yearn.finance/zap](https://yearn.finance/zap)
 
-#### What is Zap?
+#### What is Zap? ¿Qué es Zap?
 
 - Zap allows users to convert supported tokens with just one contract interaction to reduce transaction costs.
 - Zaps were made by DefiZap which is now [Zapper.fi](https://zapper.fi) as a type of all in one DeFi routing service.
 
-#### Why use a Zap?
+#### Why use a Zap? ¿Qué ventajas ofrece Zap?
 
 - "Zaps allow you get into a DeFi position in one transaction — it’s called zapping in." - [How to use Zaps guide](https://defitutorials.substack.com/p/how-to-use-defizap).
   - Note that this is an old article and [Zapper](https://zapper.fi) was formed as a result of DeFiSnap + DeFiZap coming together to create the ultimate hub for Decentralized Finance aka \#DeFi. So some of the stuff in the article above is out of date, but you can still use Zaps on Zapper.fi.
 
-#### So what can I do with Zaps on yearn?
+#### So what can I do with Zaps on yearn? Entonces, ¿qué puedo hacer con Zap en yearn?
 
 - With a zap you can take your DAI, for example, and get yCRV with it in one transaction. Normally, to turn DAI into yCRV, you would have to go to earn, deposit DAI and receive yDAI, then go to [Curve.fi - Yearn pool](https://www.curve.fi/iearn/deposit) and deposit your yDAI and then you would get yCRV. This is a lot to do, so instead you can do it in one transaction!
 
-#### That sounds awesome, what's the downside?
+#### That sounds awesome, what's the downside? Tiene muy buena pinta, ¿hay alguna desventaja?
 
 - Well, it does take a lot of gas and could be costly, even more so than doing it yourself manually, but if you have a big transaction and are in a rush it is a great method to get into a DeFi position or liquidity pool fast.
 
@@ -208,13 +208,13 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 - [yinsure.finance](https://yinsure.finance/)
 
-#### What's yInsure?
+#### What's yInsure? ¿Qué es yInsure?
 
 - yInsure, also known as **Cover**, is a pooled coverage system providing insurance against smart contract risk.
 - It has no KYC requirement and is underwritten by Nexus Mutual.
 - Learn more in this [article](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896).
 
-### Products Currently in Research & Development
+### Products Currently in Research & Development Productos que actualmente están bajo Investigación & Desarrollo
 
 #### yTrade
 
@@ -264,7 +264,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 - The quorum is 20%. Which means that 20% of the staked YFI needs to vote on a proposal for it to pass or else it will fail. Also, it has to have at least 50% of the votes for yes.
 - You can post your proposal on-chain first but if people haven't talked about it, they probably won't vote for it.
 
-#### How do I make a proposal?
+#### How do I make a proposal? ¿Cómo hago una propuesta?
 
 - The default template for proposals can be found on [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance) if you make a post under proposals or discussion it will auto-fill in the template as well.
 - The process is roughly:
@@ -272,7 +272,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
   2. promote to YIP \(usually done by mods\), add YIP to github, put on chain
   3. announce
 
-#### Who can make a proposal?
+#### Who can make a proposal? ¿Quién puede hacer una propuesta?
 
 - Anyone can post a proposal both on the forum and on-chain.
 
@@ -366,19 +366,19 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ## Comunidad
 
-### Is Andre Cronje in charge of yearn?
+### Is Andre Cronje in charge of yearn? ¿Está Andre Cronje a cargo de yearn?
 
 - Andre isn't in charge of Yearn, the YFI token holders make the decisions on what to build and governance decisions, Andre is the lead developer of the yearn ecosystem.
 
-### What does Andre do?
+### What does Andre do? ¿Qué es lo que hace Andre?
 
 - Andre is the main developer building out the products that comprise the yearn ecosystem: Yearn, Ytrade, Yswap, Yliquidate, Yborrow. He is also currently in charge of running the Vaults and overseeing them.
 
-### What is the multisig and what do they do?
+### What is the multisig and what do they do? ¿Qué es la multisig y cuáles son sus funciones?
 
 - The multi-signature address is explained in detail in this [thread](https://gov.yearn.finance/t/yfi-minting-ownership/155). Basically, it is a 6 of 9 multi-signature account that has control over minting YFI if a vote to mint tokens has passed successfully.
 
-### Who are the 9 multisig signers?
+### Who are the 9 multisig signers? ¿Quiénes son los 9 firmantes de la multisig?
 
 - [Cp0x.com](https://twitter.com/kaplansky1/status/1285427247286046725)
 - [Daryllautk](https://twitter.com/Daryllautk/status/1285434908383444992)
@@ -390,7 +390,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 - [Vasiliy Shapovalov, p2p.org](https://twitter.com/_vshapovalov/status/1299799139635679232)
 - [Mariano Conti, ex-MakerDAO](https://twitter.com/nanexcool)
 
-### Have the multisig signers changed?
+### Have the multisig signers changed? ¿Se ha cambiado en alguna ocasión alguno de los firmates de la multisig?
 
 - Yes, [YIP-40](https://gov.yearn.finance/t/yip-40-replace-inactive-multisig-signers/3535) changed four of the signers
 - Outgoing signers were:
@@ -399,15 +399,15 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
   - [Calvin Liu](https://twitter.com/cjliu49/status/1285439553180798976)
   - [Damir Bandalo](https://twitter.com/damirbandalo/status/1285500362015875073)
 
-### What decisions can Andre make on his own?
+### What decisions can Andre make on his own? ¿Qué decisiones puede tomar Andre por su cuenta?
 
 - Andre can build out the Yearn ecosystem and come up with new products. Usually, he posts his thoughts and ideas on the [forum](https://gov.yearn.finance) for everyone to see.
 
-### Does the multisig group tell him what to do?
+### Does the multisig group tell him what to do? ¿Los integrantes de la multisig le dicen a él lo que tiene que hacer?
 
 - They are in close contact with one another, but Andre's priorities are decided by YFI token holders via YIPs.
 
-### Who else writes code for yearn? Is there a team?
+### Who else writes code for yearn? Is there a team? ¿Quién más escribe código para yearn? ¿Hay algún equipo?
 
 - Right now it's just Andre.
 
@@ -437,7 +437,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 - Yes, you have to use the Metamask browser
 
-## Technical Support
+## Technical Support Soporte técnico
 
 ### I sent my ETH transaction but it says pending? How do I fix this?
 
