@@ -123,17 +123,17 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 * Anteriormente, esta se llamaba una "tarifa del 5% sobre el gas subsidiado" que confundía literalmente a todos excepto a Andre. Técnicamente, no es una tarifa de rendimiento, es una tarifa sobre algunas transacciones generadoras de ganancias que incurren en altos costes de gas y son fundamentales para el funcionamiento interno de la vault.
 * Each vault has multiple levels. Here are two examples that show where this fee is taken when the `harvest()` function is called.
 * yCRV Vault example: Ejemplo para la vault de yCRV:
-  * Level 1: stablecoins earn interest in money markets \(compound, aave, dydx\)
-  * Level 2: the level 1 tokens \(yDAI, yUSDC, yUSDT, and yTUSD\) are provided as liquidty to the yCRV pool to earn trading fees
-  * Level 3: the strategy earns CRV token rewards which it recycles into yCRV—**this is the only level where the 5% fee is taken.**
+  * Level 1: stablecoins earn interest in money markets \(compound, aave, dydx\) monedas estables ganan intereses en plataformas de lending \(compound, aave, dydx\)
+  * Level 2: the level 1 tokens \(yDAI, yUSDC, yUSDT, and yTUSD\) are provided as liquidty to the yCRV pool to earn trading fees los tokens del nivel 1 \(yDAI, yUSDC, yUSDT y yTUSD\) son depositados aumentando la liquidez de la pool de yCRV para obtener tarifas
+  * Level 3: the strategy earns CRV token rewards which it recycles into yCRV—**this is the only level where the 5% fee is taken.** 
 * USDC Vault example:
-  * Level 1: Interest for being lent out at Compound
-  * Level 2: COMP liquidated to USDC
+  * Level 1: Interest for being lent out at Compound Intereses por ser prestado en Compound 
+  * Level 2: COMP liquidated to USDC COMP es vendido por USDC
   * Level 3: The strategy earns DF tokens rewards from DForce that get harvested and sold for USDC—**this is the only level where the 5% fee is taken.**
 
 #### Where do the fees go? ¿A donde van las tarifas recolectadas?
 
-* They go to a dedicated treasury [contract](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde).
+* They go to a dedicated treasury [contract](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde). Van al contrato del tesoro 
 * From the treasury they stay up to the $500k limit, over that amount they are redirected to the governance staking [contract](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992).
 
 #### Did the fees always go there? ¿Han las tarifas siempre a ese sitio?
@@ -182,7 +182,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 * Earn is a yield aggregator for lending platforms that rebalances for highest yield during contract interaction.
 * Deposit DAI, USDC, USDT, TUSD, or sUSD and it will auto lend to the highest lending rate on these platforms [Compound](https://compound.finance/), [Dydx](https://dydx.exchange/) or [Aave](https://app.aave.com/home) \(Ddex and Fulcrum are currently disabled\).
-* Learn more in the [Yearn Docs](https://docs.yearn.finance/yearn.finance/yearn)
+* Learn more in the [Yearn Docs](https://docs.yearn.finance/yearn.finance/yearn) Aprende más en la documentación de Yearn
 
 ### Zap
 
@@ -318,15 +318,15 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 * A poll just gauges the sentiment of what the community is feeling on the proposal while a on-chain vote will be binding and will take effect if it passes.
 
-#### What about the new gasless voting thing?
+#### What about the new gasless voting thing? De qué va el nuevo sistema de votación que no cuesta gas
 
 * We now have an off-chain signaling system that uses staked balances from ygov. This replaces the older, informal forum polls which were vulnerable to sybil attacks. It can do multiple choice and doesn't cost gas to use, you sign with your wallet instead. We still use the normal on-chain voting system for YIPs.
 
-#### How long is my YFI tied up if I stake it?
+#### How long is my YFI tied up if I stake it? Durante cuánto tiempo estarán bloqueados mis tokens YFI después de votar?
 
-* Your YFI is locked for 3 days after you vote.
+* Your YFI is locked for 3 days after you vote. Tus tokens YFI estarán bloqueados durante 3 días después de votar.
 
-#### Why can't I claim my staking rewards!
+#### Why can't I claim my staking rewards! Por qué no puedo reclamar mis recompensas de staking?
 
 * To claim your staking rewards you have to 1\) be staked and 2\) have voted within 3 days to be able to claim them. This will be fixed in an update soon.
 
