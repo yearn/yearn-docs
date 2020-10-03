@@ -142,19 +142,19 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### Rendimiento
 
-* Planeamos hacer un tablón en el futuro donde se mostrará claramente el APY actual de todas las posiciones que tiene abiertas. Actualmente, para las Vaults, ya que todavía están en versión beta, no mostramos el APY en vivo, pero este se publica en [twitter](https://twitter.com/iearnfinance) una vez al día. Puede estimar aproximadamente el rendimiento que está obteniendo observando cuál es la [estrategia actual](https://feel-the-yearn.vercel.app/) y verificando cuál es su APY.
-* Por ejemplo, si la Vault yCRV está farmeando el token CRV, puedes verificar cuál es el rendimiento en la [página de inicio de Curve](https://www.curve.fi/) para pool Y.
+* Tenemos planeado hacer un tablón en el futuro donde se mostrará claramente el APY actual de todas las posiciones que tienes abiertas. Actualmente, para las Vaults, ya que todavía están en versión beta, no mostramos el APY en vivo, pero este se publica en [twitter](https://twitter.com/iearnfinance) una vez al día. Puedes estimar aproximadamente el rendimiento que estás obteniendo observando cuál es la [estrategia actual](https://feel-the-yearn.vercel.app/) y verificando cuál es su APY.
+* Por ejemplo, si la Vault yCRV está farmeando el token CRV, puedes verificar cuál es el rendimiento en la [página de inicio de Curve](https://www.curve.fi/) para la pool Y.
 
 ### Estrategias de las Vaults
 
 #### ¿Qué es una estrategia de una Vault?
 
-* Las estrategias de las Vaults de yearn son smart contracts para cada Vault que le dice qué activos prestar, qué tokens farmear y donde deberían ser vendidos estos tokens farmeados.
+* Las estrategias de las Vaults de yearn son smart contracts escritos para cada Vault que le dice qué activos prestar, qué tokens farmear y dónde deberían ser vendidos estos tokens farmeados.
 
 #### ¿Cuáles son las estrategias actuales?
 
 * Puedes ver las estrategias activas para cada Vault en [feel-the-yearn](https://feel-the-yearn.vercel.app/).
-* En el futuro tenemos pensado hacer un tablón donde se podrá entender de forma sencilla las estrategias y el APY de cada una.
+* En el futuro tenemos pensado hacer un tablón donde se podrá entender de forma sencilla las estrategias y el APY de cada una de las Vaults.
 
 #### ¿Quién controla las estrategias?
 
@@ -170,7 +170,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Cuándo cambia una estrategia y quién lo hace?, ¿es un proceso automático?
 
-* Por ahora, Andre está al corriente de lo que pasa en los mercados y escribe estrategias que él y la multisig piensan que pueden ser seguras y tienen un buen rendimiento. Ellos cambian las estrategias en función de los rendimimentos del mercado actual.
+* Por ahora, Andre está al corriente de lo que pasa en los mercados y escribe estrategias que él y la multisig piensan que pueden ser seguras y tienen un buen rendimiento. Ellos cambian las estrategias en función de los rendimimentos disponibles en el mercado actual.
 
 ### Earn
 
