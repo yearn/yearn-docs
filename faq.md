@@ -44,19 +44,19 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 * Andre explica las [Vaults](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) y las [Vaults delegadas](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) en estas dos publicaciones.
 * En pocas palabras, las Vaults pueden hacer esto:
   * Utilizar cualquier activo como liquidez.
-  * Utilizar la liquidez como garantía y gestionar la garantía a un nivel seguro para que nunca sea liquidada.
+  * Utilizar la liquidez como aval para un préstamo y gestionar el préstamo   para que el aval nunca sea liquidado.
   * Pedir prestadas monedas estables.
   * Ponger las monedas estables a farmear.
   * Reinvertir las monedas estables ganadas.
 
 #### ¿No puedo hacer todo esto yo mismo?
 
-* Sí, podrías hacerlo, pero las vaults sirven para ahorrar gas, mantener un buen ratio aval/deuda para que el aval no sea liquidado y cambia automáticamente a la estrategia que de el rendimiento más alto posible, incluso mientras estás dormido.
+* Sí, podrías hacerlo, pero las vaults sirven para ahorrar gas, mantener un buen ratio aval/deuda para que el aval no sea liquidado y cambia automáticamente a la estrategia que de el rendimiento más alto posible, incluso mientras estás durmiendo.
 
 #### Veo que se muestra el ROI en la página de las vaults, ¿es el ROI actual?
 
 * No, es un valor histórico promediado para la vault en cuestión. El APY / ganancias actuales no se muestran ya que las vaults son un producto en beta y se están probando en vivo. 
-* Varios sitios de terceras personas proporcionan el APY actual y otro tipo de información. Estos sitios puedes encontrarse más abajo en [Estadísticas](https://docs.yearn.finance/faq#statistics).
+* Varios sitios de terceras personas proporcionan el APY actual y otro tipo de información. Estos sitios pueden encontrarse más abajo en [Estadísticas](https://docs.yearn.finance/faq#statistics).
 
 #### ¿Cuáles son los riesgos?
 
@@ -72,12 +72,12 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 * **¿Cuál es la diferencia entre la vault de LINK y la de aLINK?**
   * Ninguna en términos de ganancias. El LINK depositado en la vault será depositado en Aave generando aLINK \( LINK que genera intereses en Aave\). Por tanto, depositando directamente en la vault de aLINK te saltas un paso del proceso.
 * **¿Por qué el rendimiento de las vaults de aLINK y LINK son diferentes?**
-  * aLINK tiene una "tarifa" de seguro del 0.5%  \(se devuelve cuando se supera \). La vault de LINK no tiene esta tarifa para la aparición de un rendimiento      negativo.
+  * aLINK tiene una "tarifa" de seguro del 0.5%  \(se devuelve cuando se supera \). La vault de LINK no tiene esta tarifa para evitar la aparición de un rendimiento negativo.
 
 **yETH y yWETH**
 
 * **¿Cuál es la diferencia entre las vaults de ETH y la de WETH?**
-  * Ninguna en términos de ganancias. El ETH depositado será convertido en WETH en cualquier caso. La vault de WETH hace más fácil a otros protocolos de Ethereum interactuar con esta vault.
+  * Ninguna en términos de ganancias. El ETH depositado será convertido a WETH en cualquier caso. La vault de WETH hace más fácil a otros protocolos de Ethereum interactuar con esta vault.
 * **¿Qué hace la vault de ETH para protegerse de una liquidación?**
   * Esta vault obtiene el precio de ETH directamente del oráculo de Maker \(Maker's Oracle Security Model\), un sistema que lee el precio del Oráculo con 1 hora de ventaja. Esto le da a la vault 1 hora para pagar la deuda de la CDP antes de que se produzca la liquidación del ETH que se usa como aval para el préstamo de DAI. Además, la vault aumenta el ratio de colateralización depositando las ganancias conseguidas en la CDP.
 
@@ -88,7 +88,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### Si la estrategia actual para la vault de yCRV está farmeando CRV, ¿se añadirán esos tokens a mi saldo cuando saque mis fondos de la vault?
 
-* No. La vault farmeará CRV que será vendido en el mercado automáticamente. Cuando decidas retirar tus fondos de la vault, recibirás más yCRV de los que depositaste inicialmente.
+* No. La vault farmeará CRV que será vendido en el mercado automáticamente. Cuando decidas retirar tus fondos de la vault, recibirás más tokens yCRV de los que depositaste inicialmente.
 
 #### ¿Por qué el token yCRV no vale $1?, es una moneda estable ¿verdad?
 
