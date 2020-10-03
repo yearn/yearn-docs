@@ -111,16 +111,18 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 * **Tarifa del 0.5%** sobre fondos retirados de estrategias activas.
   * Cada vault tiene una cierta cantidad de los fondos totales inactivos mientras que la mayoría de estos participan activamente en la estrategia. Los fondos inativos son la diferencia entre`vault holdings` y `strategy holdings` que pueden consultarse en [feel the yearn](https://feel-the-yearn.app/).
-  * Cuando retiras tus fondos, si estos son extraídos de los fondos inactivos de la vault, 
+  * Cuando retiras tus fondos, si estos son extraídos de los fondos inactivos de la vault, no tendrás que pagar ninguna tarifa de retiro. En cambio, si los fondos son extraídos de la estrategia, se aplicará una tafica del 0.5% del total que se va a retirar.
   * When you withdraw, if your funds come from the idle funds, you won't be charged any withdrawal fee. If they come from the strategy, you will be charged the 0.5% fee.
-* **5% fee** on additional yield
+* **5% fee** on additional yield Tarifa del 5% en rendimientos adicionales
   * For community-made strategies, like the new yETH vault, currently 10% of this fee goes to the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
+  * Para estrategias hechas por un miembro de la comunidad, como la nueva vault de yETH, un 10% de esta tarifa va destinada al creador de la estrategia.
 
-#### Can you explain the 5% fee on additional yield?
+#### Can you explain the 5% fee on additional yield? ¿Podrías explicarme la tarfia del 5% en rendimientos adicionales?
 
 * Formerly this was called a "5% fee on subsidized gas" which confused literally everyone except Andre. Technically it is not a performance fee — it's a fee on the some profit-generating transactions that incur high gas costs and are critical to the vault's internal functioning.
+* Anteriormente, esta se llamaba una "tarifa del 5% sobre el gas subsidiado" que confundía literalmente a todos excepto a Andre. Técnicamente, no es una tarifa de rendimiento, es una tarifa sobre algunas transacciones generadoras de ganancias que incurren en altos costes de gas y son fundamentales para el funcionamiento interno de la vault.
 * Each vault has multiple levels. Here are two examples that show where this fee is taken when the `harvest()` function is called.
-* yCRV Vault example:
+* yCRV Vault example: Ejemplo para la vault de yCRV:
   * Level 1: stablecoins earn interest in money markets \(compound, aave, dydx\)
   * Level 2: the level 1 tokens \(yDAI, yUSDC, yUSDT, and yTUSD\) are provided as liquidty to the yCRV pool to earn trading fees
   * Level 3: the strategy earns CRV token rewards which it recycles into yCRV—**this is the only level where the 5% fee is taken.**
