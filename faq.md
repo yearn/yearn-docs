@@ -51,79 +51,80 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿No puedo hacer todo esto yo mismo?
 
-* Sí, podrías hacerlo, pero las vaults sirven para ahorrar gas, mantener un buen ratio aval/deuda para que el aval no sea liquidado y cambia automáticamente a la estrategia que de el rendimiento más alto posible, incluso mientras estás durmiendo.
+* Sí, podrías hacerlo, pero las Vaults sirven para ahorrar gas, mantener un buen ratio aval/deuda para que el aval no sea liquidado y cambia automáticamente a la estrategia que de el rendimiento más alto posible, incluso mientras estás durmiendo.
 
-#### Veo que se muestra el ROI en la página de las vaults, ¿es el ROI actual?
+#### Veo que se muestra el ROI en la página de las Vaults, ¿es el ROI actual?
 
-* No, es un valor histórico promediado para la vault en cuestión. El APY / ganancias actuales no se muestran ya que las vaults son un producto en beta y se están probando en vivo. 
+* No, es un valor histórico promediado para la Vault en cuestión. El APY / ganancias actuales no se muestran ya que las Vaults son un producto en beta y se están probando en vivo. 
 * Varios sitios de terceras personas proporcionan el APY actual y otro tipo de información. Estos sitios pueden encontrarse más abajo en [Estadísticas](https://docs.yearn.finance/faq#statistics).
 
 #### ¿Cuáles son los riesgos?
 
-* Aunque los activos depositados no pueden disminuir, la deuda de la vault sí puede. Si una estrategia no logra superar a la deuda, una parte de los activos quedarán bloqueados de forma temporal. Si la estrategia vuelve a superar a la deuda, los activos se desbloquearán.
-  * Hay mecanismos en las vaults para evitarlo pero nada es totalmente seguro.
-* Hasta ahora, las vaults no han sido auditadas.
-* Riesgo de contrato inteligente \(comúnmente conocido como smart contract en la comunidad de habla inglesa\) con cualquier contrato con el que interactúen las vaults.
+* Aunque los activos depositados no pueden disminuir, la deuda de la Vault sí puede. Si una estrategia no logra superar a la deuda, una parte de los activos quedarán bloqueados de forma temporal. Si la estrategia vuelve a superar a la deuda, los activos se desbloquearán.
+  * Hay mecanismos en las Vaults para evitarlo pero nada es totalmente seguro.
+* Hasta ahora, las Vaults no han sido auditadas.
+* Riesgo de contrato inteligente \(comúnmente conocido como smart contract en la comunidad de habla inglesa\) con cualquier contrato con el que interactúen las Vaults.
 
 #### ¿Cuáles son las diferentes yVaults?
 
 **yLINK y yaLINK**
 
-* **¿Cuál es la diferencia entre la vault de LINK y la de aLINK?**
-  * Ninguna en términos de ganancias. El LINK depositado en la vault será depositado en Aave generando aLINK \( LINK que genera intereses en Aave\). Por tanto, depositando directamente en la vault de aLINK te saltas un paso del proceso.
-* **¿Por qué el rendimiento de las vaults de aLINK y LINK son diferentes?**
-  * aLINK tiene una "tarifa" de seguro del 0.5%  \(se devuelve cuando se supera \). La vault de LINK no tiene esta tarifa para evitar la aparición de un rendimiento negativo.
+* **¿Cuál es la diferencia entre la Vault de LINK y la de aLINK?**
+  * Ninguna en términos de ganancias. El LINK depositado en la Vault será depositado en Aave generando aLINK \( LINK que genera intereses en Aave\). Por tanto, depositando directamente en la vault de aLINK te saltas un paso del proceso.
+* **¿Por qué el rendimiento de las Vaults de aLINK y LINK son diferentes?**
+  * aLINK tiene una "tarifa" de seguro del 0.5%  \(se devuelve cuando se supera \). La Vault de LINK no tiene esta tarifa para evitar la aparición de un rendimiento negativo.
 
 **yETH y yWETH**
 
-* **¿Cuál es la diferencia entre las vaults de ETH y la de WETH?**
-  * Ninguna en términos de ganancias. El ETH depositado será convertido a WETH en cualquier caso. La vault de WETH hace más fácil a otros protocolos de Ethereum interactuar con esta vault.
-* **¿Qué hace la vault de ETH para protegerse de una liquidación?**
-  * Esta vault obtiene el precio de ETH directamente del oráculo de Maker \(Maker's Oracle Security Model\), un sistema que lee el precio del Oráculo con 1 hora de ventaja. Esto le da a la vault 1 hora para pagar la deuda de la CDP antes de que se produzca la liquidación del ETH que se usa como aval para el préstamo de DAI. Además, la vault aumenta el ratio de colateralización depositando las ganancias conseguidas en la CDP.
+* **¿Cuál es la diferencia entre las Vaults de ETH y la de WETH?**
+  * Ninguna en términos de ganancias. El ETH depositado será convertido a WETH en cualquier caso. La Vault de WETH hace más fácil a otros protocolos de Ethereum interactuar con esta Vault.
+* **¿Qué hace la Vault de ETH para protegerse de una liquidación?**
+  * Esta Vault obtiene el precio de ETH directamente del oráculo de Maker \(Maker's Oracle Security Model\), un sistema que lee el precio del Oráculo con 1 hora de ventaja. Esto le da a la Vault 1 hora para pagar la deuda de la CDP antes de que se produzca la liquidación del ETH que se usa como aval para el préstamo de DAI. Además, la vault aumenta el ratio de colateralización depositando las ganancias conseguidas en la CDP.
 
-**Otras vaults**
+**Otras Vaults**
 
-* Las vaults conocidas como v1 Money Market vaults, anteriormente llamadas iEarn, pueden ser encontradas [aquí](https://yearn.finance/earn).
-* El resto de las vaults pueden encontrarse [aquí](https://yearn.finance/vaults).
+* Las Vaults conocidas como v1 Money Market Vaults, anteriormente llamadas iEarn, pueden ser encontradas [aquí](https://yearn.finance/earn).
+* El resto de las Vaults pueden encontrarse [aquí](https://yearn.finance/vaults).
 
-#### Si la estrategia actual para la vault de yCRV está farmeando CRV, ¿se añadirán esos tokens a mi saldo cuando saque mis fondos de la vault?
+#### Si la estrategia actual para la Vault de yCRV está farmeando CRV, ¿se añadirán esos tokens a mi saldo cuando saque mis fondos de la Vault?
 
-* No. La vault farmeará CRV que será vendido en el mercado automáticamente. Cuando decidas retirar tus fondos de la vault, recibirás más tokens yCRV de los que depositaste inicialmente.
+* No. La Vault farmeará CRV que será vendido en el mercado automáticamente. Cuando decidas retirar tus fondos de la Vault, recibirás más tokens yCRV de los que depositaste inicialmente.
 
 #### ¿Por qué el token yCRV no vale $1?, es una moneda estable ¿verdad?
 
 * No, el token yCRV no vale $1, y NO es una moneda estable. Puedes pensar en yCRV como si fuera un índice de monedas estables \(yDAI+yUSDC+yUSDT+yTUSD\) que genera rendimientos y que también recibe tarifas \(más concretamente, tarifas de los intercambios hechos en la Y pool de Curve\). Por lo tanto, el precio del token yCRV no decrece. 
 
-#### Si retiro mis tokens yCRV de la vault de yCRV, ¿son retirados también de la Y pool de Curve? ¿Tengo que hacer algo más, como volver a depositarlos en la pool?
+#### Si retiro mis tokens yCRV de la Vault de yCRV, ¿son retirados también de la Y pool de Curve? ¿Tengo que hacer algo más, como volver a depositarlos en la pool?
 
-* Cuando retiras tus tokens yCRV de la vault, recibes de vuelta tu depósito de yCRV además de los intereses ganados, todo pagado en tokens yCRV. Dado que el token yCRV es lo que recibes de vuelta, este ya está de por sí stakeado en la Y pool de Curve generando redimientos en forma de tarifas pagadas a la hora de intercambiar monedas estables en la Y pool. No necesitas hacer nada más en Curve, a no ser que quieras stakear tus tokens [aquí](https://dao.curve.fi/minter/gauges) para generar CRV.
+* Cuando retiras tus tokens yCRV de la Vault, recibes de vuelta tu depósito de yCRV además de los intereses ganados, todo pagado en tokens yCRV. Dado que el token yCRV es lo que recibes de vuelta, este ya está de por sí stakeado en la Y pool de Curve generando redimientos en forma de tarifas pagadas a la hora de intercambiar monedas estables en la Y pool. No necesitas hacer nada más en Curve, a no ser que quieras stakear tus tokens [aquí](https://dao.curve.fi/minter/gauges) para generar CRV.
 
-#### ¿Por qué no se puede obtener un mejor rendimiento de la vault de YFI?
+#### ¿Por qué no se puede obtener un mejor rendimiento de la Vault de YFI?
 
-* No puedes esperar obtener el mismo rendimiento para dos monedas totalmente distintas. La nueva vault de sBTC sigue la misma estrategia que la vault de yCRV que usa la pool de liquidez de Curve. La respuesta obvia es que no hay muchas plataformas seguras que acepten depósitos de YFI por lo que no hay muchas estrategias válidas para la vault de YFI ahora mismo.
+* No puedes esperar obtener el mismo rendimiento para dos monedas totalmente distintas. La nueva v
+* Vault de sBTC sigue la misma estrategia que la Vault de yCRV que usa la pool de liquidez de Curve. La respuesta obvia es que no hay muchas plataformas seguras que acepten depósitos de YFI por lo que no hay muchas estrategias válidas para la vault de YFI ahora mismo.
 
-#### He depositado en una vault, ¿qué recibiré de vuelta cuando decida dejar de usarla?
+#### He depositado en una Vault, ¿qué recibiré de vuelta cuando decida dejar de usarla?
 
-* Cuando decidas sacar tus fondos de la vault, siempre obtendrás de vuelta el mismo tipo de monedas que depositaste.
+* Cuando decidas sacar tus fondos de la Vault, siempre obtendrás de vuelta el mismo tipo de monedas que depositaste.
 * Recibirás los fondos que depositaste más el rendimiento generado menos las posibles tarifas.
 
 #### ¿Cuáles son las tarifas ?
 
 * **Tarifa del 0.5%** sobre fondos retirados de estrategias activas.
-  * Cada vault tiene una cierta cantidad de los fondos totales inactivos mientras que la mayoría de estos participan activamente en la estrategia. Los fondos inativos son la diferencia entre`vault holdings` y `strategy holdings` que pueden consultarse en [feel the yearn](https://feel-the-yearn.app/).
-  * Cuando retiras tus fondos, si estos son extraídos de los fondos inactivos de la vault, no tendrás que pagar ninguna tarifa de retiro. En cambio, si los fondos son extraídos de la estrategia, se aplicará una tafica del 0.5% del total que se va a retirar.
+  * Cada Vault tiene una cierta cantidad de los fondos totales inactivos mientras que la mayoría de estos participan activamente en la estrategia. Los fondos inativos son la diferencia entre`vault holdings` y `strategy holdings` que pueden consultarse en [feel the yearn](https://feel-the-yearn.app/).
+  * Cuando retiras tus fondos, si estos son extraídos de los fondos inactivos de la Vault, no tendrás que pagar ninguna tarifa de retiro. En cambio, si los fondos son extraídos de la estrategia, se aplicará una tafica del 0.5% del total que se va a retirar.
 * **Tarifa del 5%** en rendimientos adicionales
-  * Para estrategias hechas por un miembro de la comunidad, como la nueva vault de yETH, un 10% de esta tarifa va destinada al creador de la estrategia. EL otro 90% va al tesoro desde donde es distribuída a los stakers del contracto de gobernanza.
+  * Para estrategias hechas por un miembro de la comunidad, como la nueva Vault de yETH, un 10% de esta tarifa va destinada al creador de la estrategia. EL otro 90% va al tesoro desde donde es distribuída a los stakers del contracto de gobernanza.
 
-#### ¿Podrías explicarme la tarfia del 5% en rendimientos adicionales?
+#### ¿Podrías explicarme la tarifa del 5% en rendimientos adicionales?
 
-* Anteriormente, esta se llamaba "tarifa del 5% sobre el gas subsidiado" que confundía literalmente a todos excepto a Andre. Técnicamente, no es una tarifa de rendimiento, es una tarifa sobre algunas transacciones generadoras de ganancias que incurren en altos costes de gas y son fundamentales para el funcionamiento interno de la vault.
+* Anteriormente, esta se llamaba "tarifa del 5% sobre el gas subsidiado" que confundía literalmente a todos excepto a Andre. Técnicamente, no es una tarifa de rendimiento, sino una tarifa sobre algunas transacciones generadoras de ganancias que incurren en altos costes de gas y que son fundamentales para el funcionamiento interno de la Vault.
 * Cada Vault está compuesta por distintos niveles. A continuación tienes dos ejemplos para ilustrar de donde se descuenta la tarifa cuando la función `harvest()` es llamada.
-* Ejemplo para la vault de yCRV:
+* Ejemplo para la Vault de yCRV:
   * Nivel 1: monedas estables ganan intereses en plataformas de lending \(compound, aave, dydx\)
   * Nivel 2: los tokens del nivel 1 \(yDAI, yUSDC, yUSDT y yTUSD\) son depositados como liquidez en la pool de yCRV para obtener tarifas de trading
   * Nivel 3: La estrategia farmea tokens CRV que son vendidos por yCRV—**este es el único nivel donde la tarifa del 5% es aplicada.**
-* Ejemplo para la vault de USDC:
+* Ejemplo para la Vault de USDC:
   * Nivel 1: Intereses generados por prestar las monedas en Compound
   * Nivel 2: COMP es vendido por USDC
   * Nivel 3: La estrategia farmea tokens DF de DForce que son vendidos por USDC—**este es el único nivel donde la tarifa del 5% es aplicada.**
@@ -142,17 +143,17 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### Rendimiento
 
 * Planeamos hacer un tablón en el futuro donde se mostrará claramente el APY actual de todas las posiciones que tiene abiertas. Actualmente, para las Vaults, ya que todavía están en versión beta, no mostramos el APY en vivo, pero este se publica en [twitter](https://twitter.com/iearnfinance) una vez al día. Puede estimar aproximadamente el rendimiento que está obteniendo observando cuál es la [estrategia actual](https://feel-the-yearn.vercel.app/) y verificando cuál es su APY.
-* Por ejemplo, si la vault yCRV está farmeando el token CRV, puedes verificar cuál es el rendimiento en la [página de inicio de Curve](https://www.curve.fi/) para pool Y.
+* Por ejemplo, si la Vault yCRV está farmeando el token CRV, puedes verificar cuál es el rendimiento en la [página de inicio de Curve](https://www.curve.fi/) para pool Y.
 
 ### Estrategias de las Vaults
 
 #### ¿Qué es una estrategia de una Vault?
 
-* Las estrategias de las Vaults de yearn son smart contracts para cada vault que le dice qué activos prestar, qué tokens farmear y donde deberían ser vendidos estos tokens farmeados.
+* Las estrategias de las Vaults de yearn son smart contracts para cada Vault que le dice qué activos prestar, qué tokens farmear y donde deberían ser vendidos estos tokens farmeados.
 
 #### ¿Cuáles son las estrategias actuales?
 
-* Puedes ver las estrategias activas para cada vault en [feel-the-yearn](https://feel-the-yearn.vercel.app/).
+* Puedes ver las estrategias activas para cada Vault en [feel-the-yearn](https://feel-the-yearn.vercel.app/).
 * En el futuro tenemos pensado hacer un tablón donde se podrá entender de forma sencilla las estrategias y el APY de cada una.
 
 #### ¿Quién controla las estrategias?
@@ -165,7 +166,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Cuál es el proceso a seguir para incluir mi estrategia en yearn?
 
-* Publícala en el foro y, si es aprobada, será utilizada en una de las vaults, además podrás recibir una compensación económica por ello.
+* Publícala en el foro y, si es aprobada, será utilizada en una de las Vaults, además podrás recibir una compensación económica por ello.
 
 #### ¿Cuándo cambia una estrategia y quién lo hace?, ¿es un proceso automático?
 
@@ -233,7 +234,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### yBorrow
 
 * [yborrow.finance](https://yborrow.finance/)
-* Credit delegation vaults for smart contract to smart contract lending \(testnet\).
+* Credit delegation Vaults for smart contract to smart contract lending \(testnet\).
 
 ## Comunicación
 
@@ -281,7 +282,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 * Stake your YFI and then you can cast your vote for YIPs that are on-chain on the voting [dashboard](https://ygov.finance/vote)
 
-#### ¿Puedo votar si tengo mis tokens YFI en la vault de YFI?
+#### ¿Puedo votar si tengo mis tokens YFI en la Vault de YFI?
 
 * No, your YFI must be staked in the governance [contract](https://ygov.finance/staking) in order to vote.
 
