@@ -189,20 +189,20 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### ¿Qué es Zap?
 
 * Zap permite a los usuarios intercambiar entre distintos tokens en una única transacción reduciendo el coste de gas de esta.
-* Los Zaps fueron hechos por DefiZap, ahora conocidos como Zapper.fi, como un tipo de servicio de enrutamiento todo en uno para DeFi.
+* Los Zaps fueron hechos por DefiZap, ahora conocidos como [Zapper.fi](https://zapper.fi), como un tipo de servicio de enrutamiento todo en uno para DeFi.
 * Zaps were made by DefiZap which is now [Zapper.fi](https://zapper.fi) as a type of all in one DeFi routing service.
 
 #### ¿Qué ventajas ofrece Zap?
 
 * "Zaps allow you get into a DeFi position in one transaction — it’s called zapping in." - [How to use Zaps guide](https://defitutorials.substack.com/p/how-to-use-defizap).
-* "Los Zaps te permiten acceder a una posición de DeFi en una única transacción - conocidas como zapping in." - Guía de cómo usar Zaps
+* "Los Zaps te permiten acceder a una posición de DeFi en una única transacción - conocidas como zapping in." - [Guía de cómo usar Zaps](https://defitutorials.substack.com/p/how-to-use-defizap).
   * Note that this is an old article and [Zapper](https://zapper.fi) was formed as a result of DeFiSnap + DeFiZap coming together to create the ultimate hub for Decentralized Finance aka \#DeFi. So some of the stuff in the article above is out of date, but you can still use Zaps on Zapper.fi.
-  * Ten en cuenta que este es un artículo antiguo y Zapper se formó como resultado de la unión de DeFiSnap + DeFiZap para crear el centro definitivo para las finanzas descentralizadas, también conocido como \#DeFi. Por lo tanto, algunas de las cosas explicadas en el artículo anterior están desactualizadas, pero aún puedes usar Zaps en Zapper.fi.
+  * Ten en cuenta que este es un artículo antiguo y [Zapper](https://zapper.fi) se formó como resultado de la unión de DeFiSnap + DeFiZap para crear el centro definitivo para las finanzas descentralizadas, también conocido como \#DeFi. Por lo tanto, algunas de las cosas explicadas en el artículo anterior están desactualizadas, pero aún puedes usar Zaps en Zapper.fi.
 
 #### Entonces, ¿qué puedo hacer con Zap en yearn?
 
 * With a zap you can take your DAI, for example, and get yCRV with it in one transaction. Normally, to turn DAI into yCRV, you would have to go to earn, deposit DAI and receive yDAI, then go to [Curve.fi - Yearn pool](https://www.curve.fi/iearn/deposit) and deposit your yDAI and then you would get yCRV. This is a lot to do, so instead you can do it in one transaction!
-* Con un Zap puedes coger, por ejemplo, tus tokens DAI y obtener yCRV con ellos en una única transacción. Normalmente, para convertir DAI en yCRV, tendrías que ir a earn, depositar DAI y recibir yDAI, luego ir a la pool de Yearn de Curve y depositar tu yDAI para acabar obteniendo  los tokens yCRV. Esto supone hacer un montón de transacciones, ¡pero con Zap puedes hacerlo en una única transacción!
+* Con un Zap puedes coger, por ejemplo, tus tokens DAI y obtener yCRV con ellos en una única transacción. Normalmente, para convertir DAI en yCRV, tendrías que ir a earn, depositar DAI y recibir yDAI, luego ir a la [pool de Yearn de Curve](https://www.curve.fi/iearn/deposit) y depositar tu yDAI para acabar obteniendo  los tokens yCRV. Esto supone hacer un montón de transacciones, ¡pero con Zap puedes hacerlo en una única transacción!
 
 #### Tiene muy buena pinta, ¿hay alguna desventaja?
 
@@ -214,9 +214,9 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Qué es yInsure?
 
-* yInsure, also known as **Cover**, is a pooled coverage system providing insurance against smart contract risk. yInsure, también conocido como Cover, es un sistema de cobertura conjunta que proporciona un seguro contra el riesgo de smart contract.
+* yInsure, also known as **Cover**, is a pooled coverage system providing insurance against smart contract risk. yInsure, también conocido como **Cover**, es un sistema de cobertura conjunta que proporciona un seguro contra el riesgo de smart contract.
 * yInsure no quiere KYC \(identificación del usuario\) y está suscrito a Nexus Mutual.
-* Learn more in this [article](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896). Puedes aprender más a cerca de yInsure en este artículo.
+* Learn more in this [article](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896). Puedes aprender más a cerca de yInsure en este [artículo](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896).
 
 ### Productos que actualmente están en Investigación & Desarrollo
 
@@ -272,7 +272,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### ¿Cómo puedo hacer una propuesta?
 
 * The default template for proposals can be found on [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance) if you make a post under proposals or discussion it will auto-fill in the template as well.
-* Puedes encontrar la plantilla para las propuestas en Github y en el foro si creas un post en la sección de propuestas o discusión, la plantilla se cargará automáticamente.
+* Puedes encontrar la plantilla para las propuestas en [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) y en el [foro](https://gov.yearn.finance) si creas un post en la sección de propuestas o discusión, la plantilla se cargará automáticamente.
 * El proceso consiste básicamente en:
   1. dicusión en el foro
   2. promoción a YIP \(normalmente hecho por los mods\), añadir la YIP a Github, enviarla para ser votada on-chain
@@ -287,17 +287,17 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### ¿Cómo puedo votar?
 
 * Stake your YFI and then you can cast your vote for YIPs that are on-chain on the voting [dashboard](https://ygov.finance/vote)
-* Stakea tus tokens YFI y entonces podrás votar por YIPs on-chain en el tablón de votaciones.
+* Stakea tus tokens YFI y entonces podrás votar por YIPs on-chain en el [tablón de votaciones](https://ygov.finance/vote).
 
 #### ¿Puedo votar si tengo mis tokens YFI en la Vault de YFI?
 
 * No, your YFI must be staked in the governance [contract](https://ygov.finance/staking) in order to vote.
-* No, tus tokens YFI deben estar stakeados en el contrato de gobernanza para poder votar.
+* No, tus tokens YFI deben estar stakeados en el [contrato de gobernanza](https://ygov.finance/staking) para poder votar.
 
 #### ¿Dónde puedo ver las YIPs?
 
 * You can view them on the voting [dashboard](https://ygov.finance/vote) if you login to your web3 account or at [yips.yearn.finance](https://yips.yearn.finance/all-yip).
-* Puedes verlas en el tablón de votaciones si conectas tu cuenta web3 o en .
+* Puedes verlas en el [tablón de votaciones](https://ygov.finance/vote) si conectas tu cuenta web3 o en [yips.yearn.finance](https://yips.yearn.finance/all-yip).
 
 #### ¿Por qué debería stakear? ¿Cuál es el APY \(Porcentaje de rendimiento anual\)?
 
@@ -306,12 +306,13 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### ¿Qué tengo que hacer para recibir recompensas con mis tokens YFI?
 
 * All you need to do is stake YFI at [ygov.finance/stake](https://ygov.finance/stake) and you will get rewards if the treasury is at or above 500k usd. You can check the treasury address [here](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
-* Todo lo que tienes que hacer es stakear tus tokens YFI en y recibirás recompensas si el tesoro del protocolo tiene más de $500k. Puedes ver la cuenta del tesoro aquí.
+* Todo lo que tienes que hacer es stakear tus tokens YFI en [ygov.finance/stake](https://ygov.finance/stake) y recibirás recompensas si el tesoro del protocolo tiene más de $500k. Puedes consultar la cuenta del tesoro [aquí](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
 * Fíjate que si stakeas, obtienes recompensas \(siempre y cuando no estén yendo al tesoro\), pero sólo puedes reclamarlas dentro de un intervalo de 3 días después de votar.
 
 #### A la hora de votar, ¿es importante tener stakeados mis tokens YFI?
 
 * Yes. You have to stake your YFI at [ygov.finance/stake](https://ygov.finance/stake) in the v2 tab under Governance V2 to have your votes count. As of now, you can vote without staking, but you will waste your gas and it won't count so make sure you have staked first if you want to vote.
+* Sí. Necesitas stakear tus tokens YFI en [ygov.finance/stake](https://ygov.finance/stake) en la sección Governance V2 para que tus votos cuenten. Ahora mismo, puedes votar sin stakear, pero solamente gastarás gas y no se tendrá en cuenta tu voto, así que asegúrate de stakear primero si quieres votar.
 
 #### ¿Qué pasa si quiero retirar mis tokens YFI antes de que acabe el período de espera?
 
