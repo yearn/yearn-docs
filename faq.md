@@ -218,7 +218,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 * yInsure no quiere KYC \(identificación del usuario\) y está suscrito a Nexus Mutual.
 * Learn more in this [article](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896). Puedes aprender más a cerca de yInsure en este artículo.
 
-### Products Currently in Research & Development Productos que actualmente están en Investigación & Desarrollo
+### Productos que actualmente están en Investigación & Desarrollo
 
 #### yTrade
 
@@ -287,23 +287,27 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### ¿Cómo puedo votar?
 
 * Stake your YFI and then you can cast your vote for YIPs that are on-chain on the voting [dashboard](https://ygov.finance/vote)
+* Stakea tus tokens YFI y entonces podrás votar por YIPs on-chain en el tablón de votaciones.
 
 #### ¿Puedo votar si tengo mis tokens YFI en la Vault de YFI?
 
 * No, your YFI must be staked in the governance [contract](https://ygov.finance/staking) in order to vote.
+* No, tus tokens YFI deben estar stakeados en el contrato de gobernanza para poder votar.
 
 #### ¿Dónde puedo ver las YIPs?
 
 * You can view them on the voting [dashboard](https://ygov.finance/vote) if you login to your web3 account or at [yips.yearn.finance](https://yips.yearn.finance/all-yip).
+* Puedes verlas en el tablón de votaciones si conectas tu cuenta web3 o en .
 
 #### ¿Por qué debería stakear? ¿Cuál es el APY \(Porcentaje de rendimiento anual\)?
 
-* You should stake if you want to vote on YIPs and get rewards that are generated from the yearn ecosystem. The APY for staking is currently not listed on the UI. You can ask on the chat what the rate is.
+* Deberías stakear si quieres votar por YIPs y recibir recompensas que son generadas del ecosistema de Yearn. El APY por stakear no se muestra ahora mismo en el UI. Puedes preguntar en el chat cuál es el valor actual.
 
 #### ¿Qué tengo que hacer para recibir recompensas con mis tokens YFI?
 
 * All you need to do is stake YFI at [ygov.finance/stake](https://ygov.finance/stake) and you will get rewards if the treasury is at or above 500k usd. You can check the treasury address [here](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
-* Note that if you stake you get rewards \(as long as they are not going to the treasury\) but you can only claim them within 3 days of voting.
+* Todo lo que tienes que hacer es stakear tus tokens YFI en y recibirás recompensas si el tesoro del protocolo tiene más de $500k. Puedes ver la cuenta del tesoro aquí.
+* Fíjate que si stakeas, obtienes recompensas \(siempre y cuando no estén yendo al tesoro\), pero sólo puedes reclamarlas dentro de un intervalo de 3 días después de votar.
 
 #### A la hora de votar, ¿es importante tener stakeados mis tokens YFI?
 
