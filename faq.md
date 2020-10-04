@@ -188,21 +188,25 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Qué es Zap?
 
-* Zap allows users to convert supported tokens with just one contract interaction to reduce transaction costs.
+* Zap permite a los usuarios intercambiar entre distintos tokens en una única transacción reduciendo el coste de gas de esta.
+* Los Zaps fueron hechos por DefiZap, ahora conocidos como Zapper.fi, como un tipo de servicio de enrutamiento todo en uno para DeFi.
 * Zaps were made by DefiZap which is now [Zapper.fi](https://zapper.fi) as a type of all in one DeFi routing service.
 
 #### ¿Qué ventajas ofrece Zap?
 
 * "Zaps allow you get into a DeFi position in one transaction — it’s called zapping in." - [How to use Zaps guide](https://defitutorials.substack.com/p/how-to-use-defizap).
+* "Los Zaps te permiten acceder a una posición de DeFi en una única transacción - conocidas como zapping in." - Guía de cómo usar Zaps
   * Note that this is an old article and [Zapper](https://zapper.fi) was formed as a result of DeFiSnap + DeFiZap coming together to create the ultimate hub for Decentralized Finance aka \#DeFi. So some of the stuff in the article above is out of date, but you can still use Zaps on Zapper.fi.
+  * Ten en cuenta que este es un artículo antiguo y Zapper se formó como resultado de la unión de DeFiSnap + DeFiZap para crear el centro definitivo para las finanzas descentralizadas, también conocido como \#DeFi. Por lo tanto, algunas de las cosas explicadas en el artículo anterior están desactualizadas, pero aún puedes usar Zaps en Zapper.fi.
 
 #### Entonces, ¿qué puedo hacer con Zap en yearn?
 
 * With a zap you can take your DAI, for example, and get yCRV with it in one transaction. Normally, to turn DAI into yCRV, you would have to go to earn, deposit DAI and receive yDAI, then go to [Curve.fi - Yearn pool](https://www.curve.fi/iearn/deposit) and deposit your yDAI and then you would get yCRV. This is a lot to do, so instead you can do it in one transaction!
+* Con un Zap puedes coger, por ejemplo, tus tokens DAI y obtener yCRV con ellos en una única transacción. Normalmente, para convertir DAI en yCRV, tendrías que ir a earn, depositar DAI y recibir yDAI, luego ir a la pool de Yearn de Curve y depositar tu yDAI para acabar obteniendo  los tokens yCRV. Esto supone hacer un montón de transacciones, ¡pero con Zap puedes hacerlo en una única transacción!
 
 #### Tiene muy buena pinta, ¿hay alguna desventaja?
 
-* Well, it does take a lot of gas and could be costly, even more so than doing it yourself manually, but if you have a big transaction and are in a rush it is a great method to get into a DeFi position or liquidity pool fast.
+* Bueno, se necesita mucho gas y podría ser costoso, incluso más que hacerlo tú mismo manualmente, pero si tienes una transacción grande y tienes prisa, es un excelente método para entrar rápidamente en una posición de DeFi o en una pool de liquidez. .
 
 ### yInsure / Cover
 
@@ -210,46 +214,46 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Qué es yInsure?
 
-* yInsure, also known as **Cover**, is a pooled coverage system providing insurance against smart contract risk.
-* It has no KYC requirement and is underwritten by Nexus Mutual.
-* Learn more in this [article](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896).
+* yInsure, also known as **Cover**, is a pooled coverage system providing insurance against smart contract risk. yInsure, también conocido como Cover, es un sistema de cobertura conjunta que proporciona un seguro contra el riesgo de smart contract.
+* yInsure no quiere KYC \(identificación del usuario\) y está suscrito a Nexus Mutual.
+* Learn more in this [article](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896). Puedes aprender más a cerca de yInsure en este artículo.
 
-### Products Currently in Research & Development Productos que actualmente están bajo Investigación & Desarrollo
+### Products Currently in Research & Development Productos que actualmente están en Investigación & Desarrollo
 
 #### yTrade
 
 * [ytrade.finance](https://ytrade.finance/)
-* Leveraged stable coin trades \(testnet\).
+* Operaciones apalancadas \(leveraged\) con monedas estables \(testnet\).
 
 #### yLiquidate
 
 * [yliquidate.finance](https://yliquidate.finance/)
-* 0 capital automated liquidations for Aave \(testnet\).
+* Liquidaciones automatizadas de capital para Aave \(testnet\).
 
 #### ySwap
 
 * [yswap.exchange](https://yswap.exchange/)
-* Single sided automated market maker \(testing in mainnet\).
+* Market maker unilateral automatizado \(prueba en mainnet\).
 
 #### yBorrow
 
 * [yborrow.finance](https://yborrow.finance/)
-* Credit delegation Vaults for smart contract to smart contract lending \(testnet\).
+* Vaults de delegación de crédito para smart contracts a contratos de lending \(testnet\).
 
 ## Comunicación
 
 * [Foro](https://gov.yearn.finance)
-  * A lot of real-time discussion happens on the telegram and discord but for a proposal to turn into a YIP \(Yearn Improvement Proposal\) it needs to be posted and discussed on the forum.
-  * This is the main place token holders check for governance related issues.
+  * Mucha discusión en tiempo real ocurre en Telegram y en Discord, pero para que una propuesta se convierta en una YIP \(Yearn Improvement Proposal\), debe publicarse y discutirse en el foro. 
+  * Este es el lugar principal donde los holders de YFI discuten a cerca de problemas relacionados con la gobernanza del protocolo.
 * [Discord](http://discord.yearn.finance/)
   * Incluídos canales para hablar en idiomas distintos al inglés.
 * [Telegram](https://t.me/yearnfinance) - Canal principal.
 * [Telegram](https://t.me/yearncommunity) - Canal de Trading/Social/Forks.
 * Twitter
-  * [yearn.finance](https://twitter.com/iearnfinance?s=20) - Twitter oficial de Yearn
-  * [Andre Cronje](https://twitter.com/AndreCronjeTech?s=20) - Desarrollador principal de Yearn
-  * [yLearnfinance](https://twitter.com/yLearnfinance) - Información a cerca de Yearn
-  * [Learn 2 Yearn](https://twitter.com/learn2yearn) - Información a acerca de Yearn
+  * [yearn.finance](https://twitter.com/iearnfinance?s=20) - Twitter oficial de Yearn.
+  * [Andre Cronje](https://twitter.com/AndreCronjeTech?s=20) - Desarrollador principal de Yearn.
+  * [yLearnfinance](https://twitter.com/yLearnfinance) - Información a cerca de Yearn.
+  * [Learn 2 Yearn](https://twitter.com/learn2yearn) - Información a acerca de Yearn.
 
 ## Gobernanza
 
