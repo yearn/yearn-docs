@@ -262,23 +262,25 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### ¿Qué es una YIP? ¿Por qué son importantes?
 
 * A YIP or Yearn Improvement Proposal is how features are added to the yearn ecosystem. Users start a proposal on the forum, discuss it and gauge the sentiment of if the proposal will be accepted. If a lot of users agree with it then it can be posted on-chain for everyone to vote on.
+* Una propuesta de mejora de Yearn o YIP es la forma de agregar características al ecosistema de Yearn. Los usuarios inician una propuesta en el foro, la discuten y evalúan si la propuesta será aceptada. Si muchos usuarios están de acuerdo con la propuesta, se puede publicar on-chain para que todos puedan votarla.
 
 #### ¿Cuánta gente tiene que votar para que una YIP sea aprobada on-chain?
 
-* The quorum is 20%. Which means that 20% of the staked YFI needs to vote on a proposal for it to pass or else it will fail. Also, it has to have at least 50% of the votes for yes.
-* You can post your proposal on-chain first but if people haven't talked about it, they probably won't vote for it.
+* El quorum es del 20%. Esto significa que el 20% de los tokens YFI stakeados deben votar la propuesta para que pase, o esta fracasará. Además, la propuesta debe tener al menos el 50% de los votos a favor.
+* Puedes publicar tu propuesta on-chain primero, pero si la gente no ha discutido a cerca de ella primero probablemente no votarán.
 
 #### ¿Cómo puedo hacer una propuesta?
 
 * The default template for proposals can be found on [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance) if you make a post under proposals or discussion it will auto-fill in the template as well.
-* The process is roughly:
-  1. forum discussion
-  2. promote to YIP \(usually done by mods\), add YIP to github, put on chain
-  3. announce
+* Puedes encontrar la plantilla para las propuestas en Github y en el foro si creas un post en la sección de propuestas o discusión, la plantilla se cargará automáticamente.
+* El proceso consiste básicamente en:
+  1. dicusión en el foro
+  2. promoción a YIP \(normalmente hecho por los mods\), añadir la YIP a Github, enviarla para ser votada on-chain
+  3. anunciarla
 
 #### ¿Quién puede hacer una propuesta?
 
-* Anyone can post a proposal both on the forum and on-chain.
+* Cualquier persona puede crear una propuesta en el foro y on-chain.
 
 ### Votaciones
 
