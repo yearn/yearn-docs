@@ -315,11 +315,11 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Cuál es la diferencia entre votar en una encuesta y una votación on-chain?
 
-* Una encuesta solo mide el sentimiento de lo que la comunidad piensa sobre la propuesta, mientras que una votación on-chain será vinculante y entrará en vigencia si se aprueba.
+* Una encuesta solo mide el sentimiento de la comunidad sobre la propuesta, mientras que una votación on-chain será vinculante y entrará en vigencia si se aprueba.
 
 #### ¿De qué va el nuevo sistema de votación que no cuesta gas?
 
-* Ahora tenemos un sistema de señalización off-chain que utiliza los tokens stakeados en ygov. Esto reemplaza las antiguas encuestas del foro que  eran informales y vulnerables a los ataques de sybil. Puedes elegir entre opciones múltiples y no cuesta gas usarlo, unicamente tienes que firmar un mensaje con tu wallet que no cuesta nada. Seguimos utilizando el sistema de votación on-chain normal para las YIPs.
+* Ahora tenemos un sistema de señalización off-chain que utiliza los tokens stakeados en ygov. Esto reemplaza las antiguas encuestas del foro que  eran informales y vulnerables a los ataques de sybil. Puedes elegir entre opciones múltiples y no cuesta gas usarlo, únicamente tienes que firmar un mensaje con tu wallet que no cuesta nada. Seguimos utilizando el sistema de votación on-chain normal para las YIPs.
 
 #### ¿Durante cuánto tiempo estarán bloqueados mis tokens YFI después de votar?
 
@@ -327,7 +327,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿¡Por qué no puedo reclamar mis recompensas de staking!?
 
-* Para poder reclamar tus recompensas de staking tienes que: 1\) haber stakeado tokens 2\) haber votado en los últimos 3 días. Esto será cambiado en una futura actualización.
+* Para poder reclamar tus recompensas de staking tienes que: 1\) haber stakeado tokens y 2\) haber votado en los últimos 3 días. Esto será cambiado en una futura actualización.
 
 ### yDAO
 
@@ -340,7 +340,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### A quién le importa, ¿Cómo puedo hacer dinero de esto?
 
-* No puedes. Su único objetivo es el de financiar projectos, los tokens YFI donados serán gastados y el valor de tu acción se diluirá.
+* No puedes. Su único objetivo es el de financiar proyectos, los tokens YFI donados serán gastados y el valor de tu acción se diluirá.
 
 #### ¿Quién puede unirse?
 
@@ -350,13 +350,12 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 * Ve a [Pokemol](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862) y regístrate con tu cuenta web3. Has click en "New Proposal" arriba a la derecha. Has click en "member".
   * Title: tu nombre/entidad.
-  * Description: “Pledging X amount of YFI in exchange for Y Shares” \(Por favor, haga que esto sabiendo que cada acción cuesta 0.1 YFI\).
+  * Description: “Pledging X amount of YFI in exchange for Y Shares” \(Por favor, rellena que esto sabiendo que cada acción cuesta 0.1 YFI\).
   * Link: Link a tu \(Página web, Twitter, Linkedin\) o la de tu entidad.
   * Shares Requested: Número de acciones que se quieren adquirir.
   * Token Tribute: La cantidad de YFI que vas a pagar.
   * Loot: Número de acciones que quieres adquirir.
-  * After you submitted the two transactions and are in the new member queue, you will need a sponsor. Please copy the link to your proposal and let us know you’d like to join in the [yDAO Telegram channel](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA)
-  * Después de enviar las dos transacciones necesarias y estés en la cola de miembros nuevos, necesitarás un patrocinador.
+  * Después de enviar las dos transacciones necesarias y de entrar en la cola de miembros nuevos, necesitarás un patrocinador. Copia el link a tu propuesta y haznos saber si te gustaría entrar [el canal de Telegram de yDAO](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA).
 
 #### ¿Cómo puedo solicitar financiación?
 
@@ -394,8 +393,8 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Se ha cambiado en alguna ocasión alguno de los firmates de la multisig?
 
-* Yes, [YIP-40](https://gov.yearn.finance/t/yip-40-replace-inactive-multisig-signers/3535) changed four of the signers
-* Outgoing signers were:
+* Sí, la [YIP-40](https://gov.yearn.finance/t/yip-40-replace-inactive-multisig-signers/3535) cambió 4 de los firmates.
+* Los firmantes que cedieron sus puestos fueron:
   * [Coopahtroopa](https://twitter.com/Cooopahtroopa/status/1285438650550038529)
   * [Michael, Curve.fi](https://twitter.com/CurveFinance/status/1285428322986389504)
   * [Calvin Liu](https://twitter.com/cjliu49/status/1285439553180798976)
@@ -411,7 +410,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Quién más escribe código para yearn? ¿Hay algún equipo?
 
-* Right now it's just Andre.
+*  Ahora mismo sólo Andre.
 
 ### ¿Le pagan a alguien por trabajar en yearn?
 
@@ -419,7 +418,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Quién puede trabajar para yearn?
 
-* You can make a YIP to apply for funding from the 500k USD treasury directly or ask the yDAO for funding.
+* Puedes hacer una YIP y solicitar financiación al tesoro del protocolo o solicitarla al yDAO.
 
 ### ¿Tenéis alguna oferta de trabajo abierta?
 
