@@ -449,8 +449,8 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Por qué la tarifa de retiro es tan alta?
 
-* If you're seeing higher than normal fees while using the yearn ecosystem then it may be due to Ethereum congestion and abnormally high gas costs. Check [Ethgasstation](https://ethgasstation.info/). Your options are to wait until gas prices drop or spend the money to process your transaction now.
-* If the gas prices are crazy high, that means there is an error and the transaction will not be able to process. For instance if you are trying to deposit a token you don't have or if there is no cover available for a contract at [http://yinsure.finance/](http://yinsure.finance/).
+* Si ves que la tarifa es más alta de lo normal cuando vas a usar algún producto del ecosistema de yearn puede ser por congestión en Ethereum que se traduce en un coste anormalmente alto del gas. Puedes comprobar el valor óptico del precio del gas en [Ethgasstation](https://ethgasstation.info/). Tus opciones son esperar a que los precios del gas bajen o pagar el precio del gas para enviar tu transacción ahora.
+* Si los precios del gas son una locura, eso significa que hay un error y la transacción no se procesará. Por ejemplo, si intentas depositar un token que no tienes o no hay covertura disponible para un contrato en [http://yinsure.finance/](http://yinsure.finance/).
 
 ## Projectos relacionados
 
@@ -461,7 +461,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### [Aave](https://app.aave.com/home)
 
-* Aave is an open source and non-custodial protocol enabling the creation of money markets. Users can earn interest on deposits and borrow assets.
+* Aave es un protocolo de código abierto y descentralizado que permite la creación de money makers. Los usuarios pueden ganar intereses sobre depósitos y prestar activos.
 
 ## Recursos
 
@@ -475,7 +475,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 * [https://gov.yearn.finance/t/yearn-contracts/1951](https://gov.yearn.finance/t/yearn-contracts/1951)
 * [https://etherscan.io/accounts/label/yearn-finance](https://etherscan.io/accounts/label/yearn-finance)
-  * sign-in required
+  * Es necesario registrarte.
 * [Delegated controller](https://etherscan.io/address/0x2be5d998c95de70d9a38b3d78e49751f10f9e88b#readContract)
 * [StrategyVaultTUSD](https://etherscan.io/address/0x35CEE4c61B7619956e0B2015B5411F93CBba817A#code)
 * [yLINK token](https://etherscan.io/address/0x881b06da56bb5675c54e4ed311c21e54c5025298#code)
@@ -509,9 +509,9 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### Últimas noticias sobre yearn
 
-* [yearn.finance](https://twitter.com/iearnfinance) - Offical Twitter of Yearn
+* [yearn.finance](https://twitter.com/iearnfinance) - Twitter oficial de yearn
 * [AndreCronjeTech](https://twitter.com/AndreCronjeTech)
-* [Yearn Finance](https://medium.com/iearn) - Offical Blog
+* [Yearn Finance](https://medium.com/iearn) -  Blog oficial
 
 ### Podcasts
 
