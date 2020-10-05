@@ -430,7 +430,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### Esfuerzos puestos en marcha para mejorar el ecosistema de Yearn
 
-* You can view the active YIPs [here](https://yips.yearn.finance/all-yip)
+* Puedes ver las YIPs [aquí](https://yips.yearn.finance/all-yip).
 
 ## Interfaz de usuario
 
@@ -440,7 +440,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ## Soporte técnico
 
-### I sent my ETH transaction but it says pending? How do I fix this? He enviado una transacción de ETH pero dice que está pendiente, ¿qué puedo hacer para arreglarlo?
+### He enviado una transacción en Ethereum pero dice que está pendiente, ¿qué puedo hacer para arreglarlo?
 
 * You should always make sure to set your gas properly if you want a transaction to go through quickly. Check current gas prices at [Ethgasstation](https://ethgasstation.info/) or [gasnow](https://www.gasnow.org/).
 * If you're using MetaMask and you put your transaction through but it's going too slow, you have the option to speed it up by clicking the `speed up` button below your last pending transaction under "activity". This should resend the same TX again with a higher gas price to get it confirmed faster.
