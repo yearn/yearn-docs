@@ -1,11 +1,11 @@
-# Table of contents
+# 目录
 
-- [FAQ \(Chinese\)](README.md)
+- [常问问题 \(中文版\)](README.md)
 
-## Additional Resources
+## 其他资源
 
 - [Github](https://github.com/iearn-finance)
 - [Medium](https://medium.com/iearn)
-- [Gov Forum](https://gov.yearn.finance/)
+- 管理 Forum](https://gov.yearn.finance/)
 - [Discord](https://discord.gg/sftUTp5)
 - [Telegram](https://t.me/yearnfinance)

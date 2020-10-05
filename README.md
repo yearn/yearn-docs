@@ -1,10 +1,10 @@
 # FAQ \(Chinese\)
 
-资产存入 yearn 是否安全？
+资产存入 yEarn 是否安全？
 
-- 请自己做好调查，并做决定是否将资产存入 yearn。
+- 请自己做好调查，并做决定是否将资产存入 yEarn。
 
-yearn 的代码经过审核了吗？
+yEarn 的代码经过审核了吗？
 
 - 代码已经通过审核，查看审核报告请点击以下連結：
 
@@ -22,15 +22,13 @@ yearn 的代码经过审核了吗？
 
 ### 产品
 
-[yearn.finance](https://yearn.finance/)
-
-- Yearn.Finance 是我们的使用者介面，是稳健收益, 快速兑换, 利率汇总, 保险，和机枪池等的产品入口
+- [yEarn.Finance](https://yearn.finance/) 是我们的使用者介面，是稳健收益, 快速兑换, 利率汇总, 保险，和机枪池等的产品入口
 
 #### 稳健收益\([https://yearn.finance/earn](https://yearn.finance/earn)\)
 
 - 通过智能合约自动寻找最优收益
 - 存入 DAI,USDC,USDT,TUSD,SUSD,WBTC 等资产，合约会自动在[Compound](https://compound.finance/)、[Dydx](https://dydx.exchange/)和 [Aave](https://app.aave.com/home)之间寻找最高收益。
-- 详细信息可以查询网址[Yearn Docs](https://docs.yearn.finance/)
+- 详细信息可以查询网址[yEarn Docs](https://docs.yearn.finance/)
 
 #### 快速兑换\([https://yearn.finance/zap](https://yearn.finance/zap)\)
 
@@ -43,9 +41,9 @@ yearn 的代码经过审核了吗？
 
 - 快速兑换允许您通过一次交易就能建立 DeFi 仓位。
 
-**在 yearn 上可以用快速兑换做什么？**
+**在 yEarn 上可以用快速兑换做什么？**
 
-- 以 DAI 为例，使用快速兑换你只需要一步就可以将 DAI 转化为 yCRV。如果正常操作，你需要首先去 yearn 的稳定收益平台，存入 DAI，收到 yDAI 后到[Curve.fi - Yearn pool](https://www.curve.fi/iearn/deposit) 存入 yDAI，才会获得 yCRV。
+- 以 DAI 为例，使用快速兑换你只需要一步就可以将 DAI 转化为 yCRV。如果正常操作，你需要首先去 yEarn 的稳定收益平台，存入 DAI，收到 yDAI 后到[Curve.fi - yEarn pool](https://www.curve.fi/iearn/deposit) 存入 yDAI，才会获得 yCRV。
 
 **快速兑换有什么劣势？**
 
@@ -55,7 +53,7 @@ yearn 的代码经过审核了吗？
 
 **什么是利率汇总池？**
 
-- 这里展示了部分 yearn 支持币种的利率。yearn 将会放入收益最高的 Defi 项目方。
+- 这里展示了部分 yEarn 支持币种的利率。yEarn 将会放入收益最高的 Defi 项目方。
 
 #### 机枪池\([https://yearn.finance/vaults](https://yearn.finance/vaults)\)
 
@@ -71,7 +69,7 @@ yearn 的代码经过审核了吗？
   - 将稳定币放入到挖矿项目
   - 扣除成本后的收益都将出售为机枪池资产，并将资产返回到机枪池
 
-**可以不通过 yearn 而自己理财吗？**
+**可以不通过 yEarn 而自己理财吗？**
 
 - 可以。但是机枪池会让你高枕无忧，节约 gas 费用，并且维持健康的质押率，自动获取最高收益。
 
@@ -135,13 +133,13 @@ yearn 的代码经过审核了吗？
 **收的费用去到了哪里？**
 
 - 他们去了专门的国库合约
-  - 地址：[Yearn Treasury Vault](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde)
+  - 地址：[yEarn Treasury Vault](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde)
 - 国库合约中保持了 50 万美元的限额，超过限额将会自动到治理合约
   - 当前地址：[ygov.finance governance staking](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992)
 
 **费用原来就打到这些地址吗？**
 
-- 不是，yearn 刚开始时直接打给了 Andre
+- 不是，yEarn 刚开始时直接打给了 Andre
   - 地址: [0x2d407ddb06311396fe14d4b49da5f0471447d45c](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c)
 - 之后我们将费用转移到了多重签名地址
   - 地址：[0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52)
@@ -157,7 +155,7 @@ yearn 的代码经过审核了吗？
 
 **h4 什么是机枪池策略？**
 
-- Yearn 的机枪池策略是针对每个机枪池制定的模块化智能合约，告诉它要借入什么资产，挖什么代币，在哪里出售挖出的代币。
+- yEarn 的机枪池策略是针对每个机枪池制定的模块化智能合约，告诉它要借入什么资产，挖什么代币，在哪里出售挖出的代币。
 
 **当前的策略是什么？**
 
@@ -172,7 +170,7 @@ yearn 的代码经过审核了吗？
 
 - 你可以在策略论坛上发布你的策略。详细说明它应该如何买/卖/挖资产和当前的年化收益。将会有一个专门的模板帮助你开始。
 
-**如何将我的策略在 yearn 上实现？**
+**如何将我的策略在 yEarn 上实现？**
 
 - 将策略发布在论坛，如果得到批准它将在机枪池執行，而你能获得些许收入。
 - - **机枪池策略什么时候改变，谁来改变，它是自动的吗？**
@@ -202,20 +200,20 @@ yearn 的代码经过审核了吗？
 
 ### YFI
 
-- Yearn 的官方数字代币
+- yEarn 的官方数字代币
 - 仅仅铸造 30000 枚，并且已经全流通
   - 治理可以铸造更多，如果提案通过。
 
 ### yTokens
 
-- 当您将资产存入任何 yearn 产品时，您的存入资产将被打包成为 yToken，类似于银行的存钱凭证。
+- 当您将资产存入任何 yEarn 产品时，您的存入资产将被打包成为 yToken，类似于银行的存钱凭证。
 - 举例：当您将 DAI 存入 y<span>.curve.</span>fi 时，您将收到 yDAI。
 - yToken 与您存入的资产不是一一对应的，yToken 经过聚合理财后将会增值。
-- 如果您将 yToken 继续存入 yearn 产品，您将会收到 yyToken。例如您将 yCRV 存入 vault，您将会收到 yyCRV。
+- 如果您将 yToken 继续存入 yEarn 产品，您将会收到 yyToken。例如您将 yCRV 存入 vault，您将会收到 yyCRV。
 
 ### yCRV
 
-- yCRV 时 yearn 在 <span>Curve</span>.fi Y 池的流动池占比凭证。
+- yCRV 时 yEarn 在 <span>Curve</span>.fi Y 池的流动池占比凭证。
 - 组成是`yDAI+yUSDC+yUSDT+yTUSD`
 - yCRV 代表了您在 Y 池占赚取利息的凭证，组成为 DAI, USDT, USDC 和 TUSD 。
 - 如何为 <span>Curve</span>.fi 的 Y 池提供流动性？\([https://guides.curve.fi/how-to-provide-liquidity-on-curve-fi-y-pool/](https://guides.curve.fi/how-to-provide-liquidity-on-curve-fi-y-pool/)\)
@@ -223,7 +221,7 @@ yearn 的代码经过审核了吗？
 
 ### yyCRV
 
-- yyCRV 是用户在 yearn 机枪池存入 yCRV 的流动性凭证。
+- yyCRV 是用户在 yEarn 机枪池存入 yCRV 的流动性凭证。
 - 组成是`yyDAI+yUSDC+yUSDT+yTUSD`
 - 当你将 yCRV 存入机枪池时将会收到 yyCRV 凭证。
 - yCRV 将会继续给您提供收益，同时您将会收到机枪池的收益和支付部分费用。
@@ -231,26 +229,26 @@ yearn 的代码经过审核了吗？
 ## 交流
 
 - [Forum](https://gov.yearn.finance/)
-  - 在电报和 discord 上可以进行实时沟通，但是进行 yearn 的社区提案需要到 forum 上讨论。
+  - 在电报和 discord 上可以进行实时沟通，但是进行 yEarn 的社区提案需要到 forum 上讨论。
 - [Discord](http://discord.yearn.finance)
   - 包含了非英文频道
 - [Telegram - Main Chat](https://t.me/yearnfinance)
 - [Telegram - Trading/Social/Fork Chat](https://t.me/yearncommunity)
 - 推特
-  - [yearn.finance](https://twitter.com/iearnfinance) - 的官方推特
-  - [Andre Cronje](https://twitter.com/AndreCronjeTech) - Yearn 的开发团队领导推特
+  - [yEarn.finance](https://twitter.com/iearnfinance) - 的官方推特
+  - [Andre Cronje](https://twitter.com/AndreCronjeTech) - yEarn 的开发团队领导推特
   - [yLearnfinance](https://twitter.com/yLearnfinance) - 相关学习知识推特
-  - [Learn 2 Yearn](https://twitter.com/learn2yearn) - 相关信息推特
+  - [Learn 2 yEarn](https://twitter.com/learn2yearn) - 相关信息推特
 
-## yearn 治理
+## yEarn 治理
 
-### 关于 yearn 的社区提案
+### 关于 yEarn 的社区提案
 
-#### 什么是 yearn 的社区提案，为什么它十分重要
+#### 什么是 yEarn 的社区提案，为什么它十分重要
 
-- yearn 改善提案帮助 yearn 的生态增加功能。用户在论坛中发起提案，充分讨论，并且评估提案通过的可能性。如果大量用户同意，则可以发起链上投票。
+- yEarn 改善提案帮助 yEarn 的生态增加功能。用户在论坛中发起提案，充分讨论，并且评估提案通过的可能性。如果大量用户同意，则可以发起链上投票。
 
-#### 通过 yearn 链上提案需要多少票？
+#### 通过 yEarn 链上提案需要多少票？
 
 - 法定票数要超过总质押票数的 20%才会生效，并且同意票数要超过 50%。
 - 您可以现在链上发起提案，但是如果没有经过论坛充分讨论，那么大家可能不会投票。
@@ -276,13 +274,13 @@ yearn 的代码经过审核了吗？
 
 - 质押你的 YFI，然后你可以在链上投票 [voting dashboard](https://ygov.finance/vote)
 
-#### 在哪里查看 yearn 的社区提案？
+#### 在哪里查看 yEarn 的社区提案？
 
 - 链接 web3 账号后可以在以下网址查看 [voting dashboard](https://ygov.finance/vote)或者 [yips.yearn.finance](https://yips.yearn.finance/all-yip)
 
   **为什么我需要质押才可以投票？年化收益有多高呢？**
 
-- 你需要质押才可以投票并且可以从 yearn 生态中获取收益。年化收益没有在网站列出，需要在 discord、telegram 里询问。
+- 你需要质押才可以投票并且可以从 yEarn 生态中获取收益。年化收益没有在网站列出，需要在 discord、telegram 里询问。
 
 #### 如何用我的 YFI 获得奖励？
 
@@ -317,15 +315,15 @@ yearn 的代码经过审核了吗？
 
 - 提取收益需要以下步骤 1.质押 YFI，2.进行了投票 3 天后才可以去提取收益。这个过程将会很快被优化。
 
-### yearn 的自治社区\([https://gov.yearn.finance/t/ydao-for-community-funding/2243](https://gov.yearn.finance/t/ydao-for-community-funding/2243)\)
+### yEarn 的自治社区\([https://gov.yearn.finance/t/ydao-for-community-funding/2243](https://gov.yearn.finance/t/ydao-for-community-funding/2243)\)
 
 #### ydao 的目的是什么？
 
-- 用于激励对 yearn 生态系统的增值贡献
+- 用于激励对 yEarn 生态系统的增值贡献
 
 #### 谁会关心什么目的，我怎么才能从这里获取钱？
 
-- 你不能获得收益。YFI 的捐款将会用于 yearn 的产品开发，你的股份将会被稀释。
+- 你不能获得收益。YFI 的捐款将会用于 yEarn 的产品开发，你的股份将会被稀释。
 
 #### 谁可以加入？
 
@@ -348,17 +346,17 @@ yearn 的代码经过审核了吗？
 
 #### 我不会说英语，什么时候会提供翻译呢？
 
-- 我们正在致力于将 yearn 产品翻译成为不同语言，但它需要时间。现在你可以在这里寻找自己的母语[Discord](http://discord.yearn.finance)。
+- 我们正在致力于将 yEarn 产品翻译成为不同语言，但它需要时间。现在你可以在这里寻找自己的母语[Discord](http://discord.yearn.finance)。
 
 ## 交流
 
-### IAndre 是 yearn 的负责人吗？
+### IAndre 是 yEarn 的负责人吗？
 
-- Andre 并不是 yearn 的负责人，YFI 代币持有人决定 yearn 的生态，Andre 是 yearn 生态的开发领导者
+- Andre 并不是 yEarn 的负责人，YFI 代币持有人决定 yEarn 的生态，Andre 是 yEarn 生态的开发领导者
 
 ### Andre 主要做什么？
 
-- Andre 是 yearn 生态系统产品开发的核心成员，主要内容有：收益、交易、闪兑、清算、借贷。他还负责运行和监督机枪池的运营。
+- Andre 是 yEarn 生态系统产品开发的核心成员，主要内容有：收益、交易、闪兑、清算、借贷。他还负责运行和监督机枪池的运营。
 
   **什么是多重签名？他们主要做什么？**
 
@@ -376,9 +374,9 @@ yearn 的代码经过审核了吗？
 - [Vasiliy Shapovalov, p2p.org](https://twitter.com/_vshapovalov/status/1299799139635679232)
 - [Mariano Conti, ex-MakerDAO](https://twitter.com/nanexcool)
 
-### Have the multisig signers changed?
+### 负责多重签名的负责人有变化吗?
 
-- 是的，[YIP-40](https://gov.yearn.finance/t/yip-40-replace-inactive-multisig-signers/3535) 更改了四个签名者
+- 有的，[YIP-40](https://gov.yearn.finance/t/yip-40-replace-inactive-multisig-signers/3535) 更改了四个签名者
 - 离任的签名者为：
   - [Coopahtroopa](https://twitter.com/Cooopahtroopa/status/1285438650550038529)
   - [Michael, Curve.fi](https://twitter.com/CurveFinance/status/1285428322986389504)
@@ -387,39 +385,39 @@ yearn 的代码经过审核了吗？
 
 ### Andre 可以做哪些决定？
 
-- Andre 能够建设 Yearn 生态并且提出新的产品。通常他会把自己的想法和建议放在 [forum]((https://gov.yearn.finance)) 上让大家查看。
+- Andre 能够建设 yEarn 生态并且提出新的产品。通常他会把自己的想法和建议放在 [forum]((https://gov.yearn.finance)) 上让大家查看。
 
 ### 多重签名小组会告诉 Andre 需要做什么吗？
 
 - 多重签名小组之间的联系非常紧密，但是 Andre 会将 YFI 代币持有人的决定放在首位。
 
-### 谁还在为 yearn 写代码？有一个团队吗？
+### 谁还在为 yEarn 写代码？有一个团队吗？
 
 - 目前代码贡献者只有 Andre。
 
-### 在 yearn 上工作会获得报酬吗？
+### 在 yEarn 上工作会获得报酬吗？
 
-- 当前还不会。但庆幸的是我们通过了 36 号社区提案\([https://yips.yearn.finance/YIPS/yip-36](https://yips.yearn.finance/YIPS/yip-36)\) ，建立了一个社区资金池，规模是 50 万 usd，我们现在可以为 Andre 支付工作报酬，代码审核资金，雇佣社区开发人员以及其他 yearn 生态运营需要的费用。
+- 当前还不会。但庆幸的是我们通过了 36 号社区提案\([https://yips.yearn.finance/YIPS/yip-36](https://yips.yearn.finance/YIPS/yip-36)\) ，建立了一个社区资金池，规模是 50 万 usd，我们现在可以为 Andre 支付工作报酬，代码审核资金，雇佣社区开发人员以及其他 yEarn 生态运营需要的费用。
 
-### 我如何参与 yearn 的工作呢？
+### 我如何参与 yEarn 的工作呢？
 
 - 你可以直接发起提案申请资金，或这直接向 yDAO 申请资金。
 
-### yearn 需要工作人员吗？
+### yEarn 需要工作人员吗？
 
-- 是的，我们需要各种人来帮助 yearn 生态系统丰富产品，使它蓬勃发展，并为 YFI 赋予价值。您可以在 Discord 或 Telegram 中询问或者在 forum 上发布信息。说明您认为可以为 Yearn 增值的方式，以及您认为应该从社区池中获得多少收益。此外，你可以到 yDAO 申请资金支持\([https://gov.yearn.finance/t/ydao-for-community-funding/2243](https://gov.yearn.finance/t/ydao-for-community-funding/2243)\)
+- 是的，我们需要各种人来帮助 yEarn 生态系统丰富产品，使它蓬勃发展，并为 YFI 赋予价值。您可以在 Discord 或 Telegram 中询问或者在 forum 上发布信息。说明您认为可以为 yEarn 增值的方式，以及您认为应该从社区池中获得多少收益。此外，你可以到 yDAO 申请资金支持\([https://gov.yearn.finance/t/ydao-for-community-funding/2243](https://gov.yearn.finance/t/ydao-for-community-funding/2243)\)
 
-### 如何参与 yearn 生态？
+### 如何参与 yEarn 生态？
 
 - 您可以直接使用您的 yfi 为社区提案投票，在论坛上讨论社区提案，参与电报和 discord 的讨论。如果你懂第二种语言，你可以帮助我们把社区提案翻译成对应的语言。
 
-### 如何参与改善 yearn 的生态系统？
+### 如何参与改善 yEarn 的生态系统？
 
 - 你可以点击以下链接为活跃的社区提案投票。\([https://yips.yearn.finance/all-yip](https://yips.yearn.finance/all-yip)\)
 
 ## 用户界面
 
-### 可以在手机上参与 Yearn 生态吗？
+### 可以在手机上参与 yEarn 生态吗？
 
 - 可以的，您连接钱包时选择 Metamask 选项就可以
 
@@ -427,7 +425,7 @@ yearn 的代码经过审核了吗？
 
 ### [Curve](https://www.curve.fi/)
 
-- Curve 是以太坊上的一个交易所流动性池（例如[Uniswap](https://app.uniswap.org)，旨在（1）高效稳定的代币交易（2）低风险，为流动性提供者提供的补充费用收入没有机会成本。 Curve 允许用户（以及智能合约，如 1inch，Paraswap，Totle 和 <span>Dex</span>.ag）在 DAI 和 USDC 之间进行交易，其定制的低延误，低价算法专门针对稳定币而设计，并能赚取费用。 在后台，流动资金池也被提供给 Compound 协议或 yearn.finance，在此它为流动资金提供者带来甚至更多的收入。
+- Curve 是以太坊上的一个交易所流动性池（例如[Uniswap](https://app.uniswap.org)，旨在（1）高效稳定的代币交易（2）低风险，为流动性提供者提供的补充费用收入没有机会成本。 Curve 允许用户（以及智能合约，如 1inch，Paraswap，Totle 和 <span>Dex</span>.ag）在 DAI 和 USDC 之间进行交易，其定制的低延误，低价算法专门针对稳定币而设计，并能赚取费用。 在后台，流动资金池也被提供给 Compound 协议或 yEarn.finance，在此它为流动资金提供者带来甚至更多的收入。
 - Curve 的 [常问问题](https://www.curve.fi/rootfaq) 网址 
 
 ### [Aave](https://app.aave.com/home)
@@ -436,9 +434,9 @@ yearn 的代码经过审核了吗？
 
 ## 学习资源
 
-### yearn 相关教学
+### yEarn 相关教学
 
-- [Learn Yearn](https://www.learnyearn.finance/)
+- [Learn yEarn](https://www.learnyearn.finance/)
 - [Medium.com/iearn](https://medium.com/iearn)
 - [yCosystem](https://ycosystem.info/)
 
@@ -472,19 +470,19 @@ yearn 的代码经过审核了吗？
 - [yieldfarming.info](https://yieldfarming.info/)
 - [yVault ROI Calculator](https://py-earn.herokuapp.com/)
 - [stats.finance/yearn](https://stats.finance/yearn)
-- [Feel The Yearn](https://feel-the-yearn.app/)
-- Yearn Initial Distribution [Dune Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
+- [Feel The yEarn](https://feel-the-yearn.app/)
+- yEarn Initial Distribution [Dune Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
 - Voting Stats [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/Lqnxzm7fa8NVhKC4kc37DDFPZgqXryaIjyLRYAYp)
 
 ### 最近新闻
 
-- [yearn.finance - Offical Twitter of Yearn](https://twitter.com/iearnfinance)
+- [yEarn.finance - Offical Twitter of yEarn](https://twitter.com/iearnfinance)
 - [AndreCronjeTech](https://twitter.com/AndreCronjeTech)
-- [Yearn Finance - Offical Blog](https://medium.com/iearn)
+- [yEarn Finance - Offical Blog](https://medium.com/iearn)
 
 ### 视频采访
 
-- [Andre Cronje and the Philosophy of Yearn Finance](https://anchor.fm/hasu-research/episodes/6-Andre-Cronje-and-the-Philosophy-of-Yearn-Finance-ei4vds)
+- [Andre Cronje and the Philosophy of yEarn Finance](https://anchor.fm/hasu-research/episodes/6-Andre-Cronje-and-the-Philosophy-of-Yearn-Finance-ei4vds)
 - [The FTX Podcast - Andre Cronje DeFI Architect](https://open.spotify.com/episode/6d14TJtQU7eB69azelpdeh)
 - [Zapper Community Call - With Andre](https://www.youtube.com/watch?v=venoiaiVZ-U)
 - [In DeFi My Money is Actually Mine. Its a Beautiful Concept But it Comes With Responsibilities - Andre Cronje](https://anchor.fm/camila-russo/episodes/In-DeFi-My-Money-is-Actually-Mine--Its-a-Beautiful-Concept-But-it-Comes-With-Responsibilities-Andre-Cronje-ehs3op)
@@ -492,11 +490,11 @@ yearn 的代码经过审核了吗？
 
 ### 博客文章
 
-- [Yearn Finance - 官方博客](https://medium.com/iearn)
+- [yEarn Finance - 官方博客](https://medium.com/iearn)
   - [Yinsure.finance: A new insurance primitive](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896)
   - [Delegated Vaults Explained](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
-  - [Yearn.finance v2](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613)
-  - [Yearn 管理 Forum](https://medium.com/iearn/yearn-governance-forum-7b7c9d0300ac)
+  - [yEarn.finance v2](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613)
+  - [yEarn 管理 Forum](https://medium.com/iearn/yearn-governance-forum-7b7c9d0300ac)
   - [YFI 奖励池](https://medium.com/iearn/yfi-rewards-pool-810ef9256ec6)
   - [YFI](https://medium.com/iearn/yfi-df84573db81)
 
