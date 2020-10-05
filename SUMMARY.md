@@ -2,24 +2,24 @@
 
 * [Introducción a Yearn](README.md)
 * [FAQ](faq.md)
-* [How-To Guides](how-to-guides/README.md)
-  * [How to Mint yUSD](how-to-guides/how-to-mint-yusd.md)
-  * [How to Add a Custom Token to MetaMask](how-to-guides/how-to-add-a-custom-token-to-metamask.md)
-  * [How To Participate in a yVault](how-to-guides/how-to-participate-in-a-yvault.md)
+* [Guías prácticas](how-to-guides/README.md)
+  * [Cómo crear yUSD](how-to-guides/how-to-mint-yusd.md)
+  * [Cómo agregar un token personalizado a MetaMask](how-to-guides/how-to-add-a-custom-token-to-metamask.md)
+  * [Cómo participar en una yVault](how-to-guides/how-to-participate-in-a-yvault.md)
   * [How To Understand yVault ROI](how-to-guides/how-to-understand-yvault-roi.md)
-  * [How To Make a YIP](how-to-guides/how-to-make-a-yip.md)
-* [Governance](governance.md)
-* [YFI and yTokens](yfi-and-ytokens.md)
+  * [Cómo crear una YIP](how-to-guides/how-to-make-a-yip.md)
+* [Gobernanza](governance.md)
+* [YFI y los yTokens](yfi-and-ytokens.md)
 * [yUSD](yusd.md)
 
-## Products
+## Productos <a id="products"></a>
 
 * [yVaults](products/yvaults.md)
 * [Earn](products/earn.md)
 * [Zap](products/zap.md)
 * [yInsure](products/yinsure.md)
 
-## R&D
+## I+D <a id="r-and-d"></a>
 
 * [yBorrow](r-and-d/yborrow.md)
 * [yLiquidate](r-and-d/yliquidate.md)

@@ -1,4 +1,4 @@
-# Governance
+# Gobernanza
 
 YFI holders govern the Yearn ecosystem and are eligble to receive a portion of protocol profits. Therefore, YFI represents a right to govern the platform and a claim on earnings. Profits are obtained from each of Yearn's products.
 

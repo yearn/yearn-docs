@@ -1,4 +1,6 @@
-# How-To Guides
+# Guías prácticas
+
+
 
 {% page-ref page="how-to-mint-yusd.md" %}
 

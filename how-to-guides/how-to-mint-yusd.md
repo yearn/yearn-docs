@@ -1,4 +1,4 @@
-# How to Mint yUSD
+# Cómo crear yUSD
 
 This visual guide will walk you through every step in minting yUSD at [https://vaults.finance/](https://vaults.finance/).
 

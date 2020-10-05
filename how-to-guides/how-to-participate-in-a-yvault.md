@@ -1,4 +1,4 @@
-# How To Participate in a yVault
+# Cómo participar en una yVault
 
 If you are here, it means you know what yVaults are and want to profit from them! There are X main steps to achieve your goal.
 
