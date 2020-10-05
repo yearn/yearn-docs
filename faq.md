@@ -306,28 +306,28 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Qué pasa si quiero retirar mis tokens YFI antes de que acabe el período de espera?
 
-* You can't, sorry. The lock lasts 3 days after you last voted, until then you cannot unstake your tokens.
-* If you try to unstake your tokens before the lock ends you will see a very high gas cost, this is an error, you will not be able to unstake until the 3 day lock has ended
+* No puedes, lo siento. El bloqueo dura 3 días después de tu última votación, hasta que acabe no puedes retirar tus tokens.
+* Si intentas retirar tus tokens antes de que acabe el período de espera podrás comprobar que el coste de gas de la transacción será muy alto. Esto no significa que si lo pagas podrás retirar tus tokens, sino que la transacción fallará y tendrás que esperar hasta que acabe el período de espera de 3 días.
 
 #### He votado y sé que el período de espera es de 3 días, ¿hay algún sitio donde pueda ver exactamente cuánto tiempo queda para poder retirar mis tokens YFI?
 
-* Yes! You can read the contract directly ygov.finance staking [contract](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992#readContract) go to 28 votelock and input your eth address. This will give you the eth block number when you can unstake.
+* ¡Sí! puedes leerlo directamente en el [contrato](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992#readContract) de staking. Ve al input 28 \(votelock\) y escribe la dirección de tu cuenta de ETH, te dirá el bloque exacto a partir del cual podrás retirar tus tokens.
 
 #### ¿Cuál es la diferencia entre votar en una encuesta y una votación on-chain?
 
-* A poll just gauges the sentiment of what the community is feeling on the proposal while a on-chain vote will be binding and will take effect if it passes.
+* Una encuesta solo mide el sentimiento de lo que la comunidad piensa sobre la propuesta, mientras que una votación on-chain será vinculante y entrará en vigencia si se aprueba.
 
 #### ¿De qué va el nuevo sistema de votación que no cuesta gas?
 
-* We now have an off-chain signaling system that uses staked balances from ygov. This replaces the older, informal forum polls which were vulnerable to sybil attacks. It can do multiple choice and doesn't cost gas to use, you sign with your wallet instead. We still use the normal on-chain voting system for YIPs.
+* Ahora tenemos un sistema de señalización off-chain que utiliza los tokens stakeados en ygov. Esto reemplaza las antiguas encuestas del foro que  eran informales y vulnerables a los ataques de sybil. Puedes elegir entre opciones múltiples y no cuesta gas usarlo, unicamente tienes que firmar un mensaje con tu wallet que no cuesta nada. Seguimos utilizando el sistema de votación on-chain normal para las YIPs.
 
 #### ¿Durante cuánto tiempo estarán bloqueados mis tokens YFI después de votar?
 
-* Your YFI is locked for 3 days after you vote. Tus tokens YFI estarán bloqueados durante 3 días después de votar.
+* Tus tokens YFI estarán bloqueados durante 3 días después de votar.
 
 #### ¿¡Por qué no puedo reclamar mis recompensas de staking!?
 
-* To claim your staking rewards you have to 1\) be staked and 2\) have voted within 3 days to be able to claim them. This will be fixed in an update soon.
+* Para poder reclamar tus recompensas de staking tienes que: 1\) haber stakeado tokens 2\) haber votado en los últimos 3 días. Esto será cambiado en una futura actualización.
 
 ### yDAO
 
@@ -336,26 +336,27 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Cuál es su utilidad/propósito/objetivo?
 
-* Used to fund value-added contributions to the yearn ecosystem.
+* Su objetivo es el de financiar contribuciones valiosas al ecosistema de yearn.
 
 #### A quién le importa, ¿Cómo puedo hacer dinero de esto?
 
-* You don't. This is solely for allocating funding for projects, and the YFI donated will be spent and your share value will be diluted.
+* No puedes. Su único objetivo es el de financiar projectos, los tokens YFI donados serán gastados y el valor de tu acción se diluirá.
 
 #### ¿Quién puede unirse?
 
-* Open for anyone to join with a base rate of 1 Share = 0.1 YFI.
+* Cualquier persona puede unirse adquiriendo una acción por 0.1 YFI.
 
 #### ¿Cómo puedo unirme?
 
-* Go here to [Pokemol](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862) sign in with your web3 account. Click New Proposal button in the top right. Click member.
-  * Title: your name/entity
-  * Description: “Pledging X amount of YFI in exchange for Y Shares” \(Please make this consistent with the amount being pledged at 0.1 YFI per share\)
-  * Link: Link to you or your entity \(Website, Twitter, Linkedin\)
-  * Shares Requested: The number of Shares being requested
-  * Token Tribute: The amount of YFI being pledged \(you will need to unlock YFI\)
-  * Loot: The number of shares being requested
+* Ve a [Pokemol](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862) y regístrate con tu cuenta web3. Has click en "New Proposal" arriba a la derecha. Has click en "member".
+  * Title: tu nombre/entidad.
+  * Description: “Pledging X amount of YFI in exchange for Y Shares” \(Por favor, haga que esto sabiendo que cada acción cuesta 0.1 YFI\).
+  * Link: Link a tu \(Página web, Twitter, Linkedin\) o la de tu entidad.
+  * Shares Requested: Número de acciones que se quieren adquirir.
+  * Token Tribute: La cantidad de YFI que vas a pagar.
+  * Loot: Número de acciones que quieres adquirir.
   * After you submitted the two transactions and are in the new member queue, you will need a sponsor. Please copy the link to your proposal and let us know you’d like to join in the [yDAO Telegram channel](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA)
+  * Después de enviar las dos transacciones necesarias y estés en la cola de miembros nuevos, necesitarás un patrocinador.
 
 #### ¿Cómo puedo solicitar financiación?
 
