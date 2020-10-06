@@ -51,19 +51,19 @@ Puedes aprender más sobre the token yUSD aquí: [https://docs.yearn.finance/yus
 
 ![](https://i.imgur.com/9uuGBV7.png)
 
-11\) Your deposit was successful!
+11\) ¡Tus tokens han sido depositados con éxito!
 
 ![](https://i.imgur.com/gxBiSep.png)
 
-12\) Now you can see your balance of yUSD here and in your wallet!
+12\) ¡Ahora puedes ver tu saldo de tokens yUSD aquí y en tu wallet !
 
 ![](https://i.imgur.com/nivD4q2.png)
 
-13\) Go to [https://addyearn.finance/](https://addyearn.finance/) and click `Add Token` to add yUSD to MetaMask then `Add Token` again in the MetaMask window.
+13\) Ve a [https://addyearn.finance/](https://addyearn.finance/) y has click en `Add Token` para añadir yUSD a MetaMask y después has click en `Add Token` de nuevo en la ventana de MetaMask.
 
 ![](https://i.imgur.com/BIlPYeb.png)
 
-## That's it!
+## ¡Eso es todo!
 
-If you have any further questions or get stuck somewhere, ask for help on the Support channel in our discord: [http://discord.yearn.finance](http://discord.yearn.finance)
+Si tienes alguna pregunta o te has quedado atascado en algún paso, pide ayuda en nuestro Discord: [http://discord.yearn.finance](http://discord.yearn.finance).
 
