@@ -20,13 +20,13 @@ The Controller opens a colleratlized debt position \(CDP\) at MakerDAO using ETH
 
 ### Delegated yVaults
 
-Volatile assets can also particpate in yield farming strategies as part of the deleagted yVault product. Currently, there is only one delegated yVaults: aLINK.
+Volatile assets can also particpate in yield farming strategies as part of the delegated yVault product. Currently, there is only one delegated yVault: aLINK.
 
-Profits generated from the delegated yVault are used to purchase more of the underlying asset. Once again representing _a continuous buy-and-hold strategy_. Depositors can withdraw their initial deposits and accrued profits, if any, at any time after a 0.5% withdrawal fee.
+Profits generated from the delegated yVault are used to purchase more of the underlying asset. Once again representing _a continuous buy-and-hold strategy_, allowing the depositor to remain 100% exposed to the asset. Depositors can withdraw their initial deposits and accrued profits, if any, at any time after a 0.5% fee taken on deposit.
 
 #### Mechanics
 
-The Controller deposits LINK into AAVE and borrows stablecoins. The initial health factor of these loans is always above 4, and if the health factor drops below 4 at any time the Controller repays a portion of the debt in order to maintain a health factor above 4.
+The Controller deposits LINK into AAVE and borrows stablecoins. If at any time the health factor drops below the vault's configured value \(currently set to 2\), the Controller repays a portion of the debt in order to maintain a health factor above its configured value.
 
 The stablecoins borrowed \(e.g., USDC, DAI, USDT, etc.\) depend on the strategy selected by the Controller. After obtaining stablecoins the Controller will deposit them into one of the yVaults identified above.
 
@@ -36,3 +36,4 @@ The stablecoins borrowed \(e.g., USDC, DAI, USDT, etc.\) depend on the strategy 
 
 - [Vaults Homepage](https://yearn.finance/vaults)
 - Medium Article: [yETH vault explained](https://medium.com/iearn/yeth-vault-explained-c29d6b93a371)
+- Medium Article: [Delegated Vaults Explained](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
