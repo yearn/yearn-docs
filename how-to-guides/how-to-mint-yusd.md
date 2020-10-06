@@ -6,7 +6,7 @@ Puedes aprender más sobre the token yUSD aquí: [https://docs.yearn.finance/yus
 
 ## Prerrequisitos
 
-* Debes tener DAI, USDC, TUSD o yCRV que usar para comprar yUSD.
+* Debes tener DAI, USDC, TUSD o yCRV disponible para comprar yUSD.
 * Debes tener una wallet compatible. Las posibilidades son: Metamask, Trustwallet, Trezor o Torus.
 
 ## Tutorial visual
@@ -19,7 +19,7 @@ Puedes aprender más sobre the token yUSD aquí: [https://docs.yearn.finance/yus
 
 ![](https://i.imgur.com/dXa0KbK.png)
 
-3\) Si tienes más una dirección en tu wallet, selecciona la que vas a usar para obtener yUSD y has click en `Next`
+3\) Si tienes más de una dirección en tu wallet, selecciona la que vas a usar para obtener yUSD y has click en `Next`
 
 ![](https://i.imgur.com/PzbFf0E.png)
 
