@@ -5,6 +5,8 @@ tags: 'docs, faq, published'
 
 # FAQ
 
+* As of this moment, not yet, but thanks to the passage of [YIP 36](https://yips.yearn.finance/YIPS/yip-36) and the creation of a community pool of funds that will be kept at 500k usd, we can now pay Andre for his work, fund audits, and pay for new devs to be hired along with anything else the the yearn ecosystem needs.
+
 ## General
 
 ### ¿Es seguro invertir dinero en yearn?
@@ -369,15 +371,15 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Está Andre Cronje a cargo de yearn?
 
-* Andre isn't in charge of Yearn, the YFI token holders make the decisions on what to build and governance decisions, Andre is the lead developer of the yearn ecosystem.
+* Andre no está a cargo de Yearn, los holders de YFI toman las decisiones sobre qué construir y decisiones de gobernanza, Andre es el desarrollador principal del ecosistema de Yearn.
 
 ### ¿Qué es lo que hace Andre?
 
-* Andre is the main developer building out the products that comprise the yearn ecosystem: Yearn, Ytrade, Yswap, Yliquidate, Yborrow. He is also currently in charge of running the Vaults and overseeing them.
+* Andre es el desarrollador principal que desarrolla los productos que componen el ecosistema de Yearn: Yearn, Ytrade, Yswap, Yliquidate, Yborrow. Actualmente también está a cargo de administrar las Vaults y supervisarlas.
 
 ### ¿Qué es la multisig y cuáles son sus funciones?
 
-* The multi-signature address is explained in detail in this [thread](https://gov.yearn.finance/t/yfi-minting-ownership/155). Basically, it is a 6 of 9 multi-signature account that has control over minting YFI if a vote to mint tokens has passed successfully.
+* La Multisig se explica en detalle en este [post](https://gov.yearn.finance/t/yfi-minting-ownership/155) del foro. Basicamente, es una cuenta de firmas múltiples \( requiere al menos 6 firmas de un total de 9\) que tiene control sobre la creación de YFI si una YIP para crear más tokens es propuesta y aprobada.
 
 ### ¿Quiénes son los 9 firmantes de la multisig?
 
@@ -402,11 +404,11 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Qué decisiones puede tomar Andre por su cuenta?
 
-* Andre can build out the Yearn ecosystem and come up with new products. Usually, he posts his thoughts and ideas on the [forum](https://gov.yearn.finance) for everyone to see.
+* Andre puede trabajar en productos relacionados con yearn y proponer nuevos productos. Normalmente, él cuenta sus piensamientos e ideas en el [foro](https://gov.yearn.finance/).
 
 ### ¿Los integrantes de la multisig le dicen a él lo que tiene que hacer?
 
-* They are in close contact with one another, but Andre's priorities are decided by YFI token holders via YIPs.
+* Ellos están en estrecho contacto entre sí, pero las prioridades de Andre las deciden los holders de YFI a través de las YIPs.
 
 ### ¿Quién más escribe código para yearn? ¿Hay algún equipo?
 
@@ -414,7 +416,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Le pagan a alguien por trabajar en yearn?
 
-* As of this moment, not yet, but thanks to the passage of [YIP 36](https://yips.yearn.finance/YIPS/yip-36) and the creation of a community pool of funds that will be kept at 500k usd, we can now pay Andre for his work, fund audits, and pay for new devs to be hired along with anything else the the yearn ecosystem needs.
+* Ahora mismo todavía no, pero gracias a la aprobación de la [YIP 36](https://yips.yearn.finance/YIPS/yip-36) y a la creación de una pool comunitaria de fondos que se mantendrá en $500k, ahora podemos pagar a Andre por su trabajo, financiar auditorías, contratar nuevos desarrolladores y pagar por cualquier otra cosa que necesite el ecosistema de yearn.
 
 ### ¿Quién puede trabajar para yearn?
 
@@ -422,11 +424,11 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Tenéis alguna oferta de trabajo abierta?
 
-* Yes, we do! We need all kinds of people to help make the yEarn ecosystem a thriving product and to give value to YFI. You can ask in the Discord or Telegram about applying or post on the forum. State how you think you can add value to Yearn, and how much you think you should be paid from the community pool. Also, you can go to the [yDAO](https://gov.yearn.finance/t/ydao-for-community-funding/2243) as well for funding on your work for the Yearn ecosystem.
+* ¡Sí! Necesitamos todo tipo de personas para ayudar a hacer del ecosistema yEarn un producto próspero y para dar valor a YFI. Puedes preguntar en Discord o Telegram sobre la aplicación o publicar un post en el foro. Indica cómo crees que puedes ayudar a mejorar Yearn y cuánto crees que deberías recibir del fondo comunitario por tu trabajo. Además, también puedes acudir al [yDAO](https://gov.yearn.finance/t/ydao-for-community-funding/2243) para obtener financiación por tu trabajo para Yearn.
 
 ### ¿Cómo puedo participar?
 
-* You can participate in YFI by voting on YIPs that are active, discussing the YIPs yet to be proposed on-chain on the forums and talking about YFI in the Telegram and Discord. If you know a second language help us translate the site and YIPs into that language.
+* Puedes participar en YFI votando en las YIPs que están activas, discutiendo las YIPs que aún no se han propuesto on-chain en los foros y hablando sobre YFI en Telegram y Discord. Si hablas un segundo idioma, ayúdanos a traducir el sitio y las YIPs a ese idioma.
 
 ### Esfuerzos puestos en marcha para mejorar el ecosistema de Yearn
 
@@ -442,9 +444,9 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### He enviado una transacción en Ethereum pero dice que está pendiente, ¿qué puedo hacer para arreglarlo?
 
-* You should always make sure to set your gas properly if you want a transaction to go through quickly. Check current gas prices at [Ethgasstation](https://ethgasstation.info/) or [gasnow](https://www.gasnow.org/).
-* If you're using MetaMask and you put your transaction through but it's going too slow, you have the option to speed it up by clicking the `speed up` button below your last pending transaction under "activity". This should resend the same TX again with a higher gas price to get it confirmed faster.
-* If you've tried everything and your transaction is still stuck pending, you can fix it by sending a transaction to the nonce of the first stuck transaction with a high gas price to overwrite the stuck queue. Here's a good [guide](https://ethgasstation.info/blog/stuck-transaction-guide) explaining how to do this.
+* Siempre deberías asegurarte de que estás usando el gas adecuado si quieres que tu transacción sea confirmada rápidamente. Comprueba el precio actual del gas en [Ethgasstation](https://ethgasstation.info/) o en [gasnow](https://www.gasnow.org/).
+* Si estás utilizando MetaMask y realizas una transacción pero va demasiado lenta, tienes la opción de acelerarla haciendo clic en el botón `speed up`debajo de tu última transacción pendiente en "activity". Esto debería reenviar la transacción de nuevo con un precio del gas más alto para confirmarla más rápido.
+* Si lo has intentado todo y tu transacción aún está pendiente, puedes solucionarlo enviando una transacción con el mismo "nonce" de la primera transacción atascada con un alto precio del gas para sobrescribir la que está pendiente. Aquí hay una buena [guía](https://ethgasstation.info/blog/stuck-transaction-guide/) que explica cómo hacer esto.
 
 ### ¿Por qué la tarifa de retiro es tan alta?
 
