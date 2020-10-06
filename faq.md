@@ -359,11 +359,11 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Cómo puedo solicitar financiación?
 
-* The same ways as joining except instead of click member click the funding tab and fill in the details of your request. You can ask in the [telegram chat](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA) if you have any questions.
+* De la misma forma que para unirte pero en vez de hacer click en "member" has click en la pestaña de "funding" y rellena el formulario con los detalles de tu petición. Puedes preguntar en [el chat de Telegram](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA) cualquier duda que tengas.
 
 #### No hablo inglés, ¿Cuándo estará todo disponible en otros idiomas?
 
-* We are working on translating to other languages but it will take time. For now you can go to your language in the global section in [Discord](http://discord.yearn.finance/).
+* Estamos trabajando en la traducción a otros idiomas pero puede llevar un poco de tiempo. Por ahora puedes hablar en otros idiomas en la sección global del [Discord](http://discord.yearn.finance/). 
 
 ## Comunidad
 
