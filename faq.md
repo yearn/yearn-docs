@@ -5,8 +5,6 @@ tags: 'docs, faq, published'
 
 # FAQ
 
-* As of this moment, not yet, but thanks to the passage of [YIP 36](https://yips.yearn.finance/YIPS/yip-36) and the creation of a community pool of funds that will be kept at 500k usd, we can now pay Andre for his work, fund audits, and pay for new devs to be hired along with anything else the the yearn ecosystem needs.
-
 ## General
 
 ### ¿Es seguro invertir dinero en yearn?
