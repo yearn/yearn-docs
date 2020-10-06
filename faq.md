@@ -195,15 +195,15 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### ¿Qué ventajas ofrece Zap?
 
 * "Los Zaps te permiten acceder a una posición de DeFi en una única transacción - conocidas como zapping in." - [Guía de cómo usar Zaps](https://defitutorials.substack.com/p/how-to-use-defizap).
-  * Ten en cuenta que este es un artículo antiguo y [Zapper](https://zapper.fi) se formó como resultado de la unión de DeFiSnap + DeFiZap para crear el centro definitivo para las finanzas descentralizadas, también conocido como \#DeFi. Por lo tanto, algunas de las cosas explicadas en el artículo anterior están desactualizadas, pero aún puedes usar Zaps en Zapper.fi.
+  * Ten en cuenta que este es un artículo antiguo y [Zapper](https://zapper.fi) se formó como resultado de la unión de DeFiSnap + DeFiZap para crear el centro definitivo para las finanzas descentralizadas, también conocido como \#DeFi. Por lo tanto, algunas de las cosas explicadas en el artículo anterior están desactualizadas, pero aún puedes usar Zaps en [Zapper.fi](https://zapper.fi/).
 
 #### Entonces, ¿qué puedo hacer con Zap en yearn?
 
-* Con un Zap puedes coger, por ejemplo, tus tokens DAI y obtener yCRV con ellos en una única transacción. Normalmente, para convertir DAI en yCRV, tendrías que ir a earn, depositar DAI y recibir yDAI, luego ir a la [pool de Yearn de Curve](https://www.curve.fi/iearn/deposit) y depositar tu yDAI para acabar obteniendo  los tokens yCRV. Esto supone hacer un montón de transacciones, ¡pero con Zap puedes hacerlo en una única transacción!
+* Con un Zap puedes coger, por ejemplo, tus tokens DAI y obtener yCRV con ellos en una única transacción. Normalmente, para convertir DAI en yCRV, tendrías que ir a earn, depositar DAI y recibir yDAI, luego ir a la [pool de Yearn de Curve](https://www.curve.fi/iearn/deposit) y depositar tu yDAI para acabar obteniendo  los tokens yCRV. Esto supone hacer un montón de transacciones, ¡pero con Zap puedes hacerlo en una única transacción!.
 
 #### Tiene muy buena pinta, ¿hay alguna desventaja?
 
-* Bueno, se necesita mucho gas y podría ser costoso, incluso más que hacerlo tú mismo manualmente, pero si tienes una transacción grande y tienes prisa, es un excelente método para entrar rápidamente en una posición de DeFi o en una pool de liquidez. .
+* Bueno, se necesita mucho gas y podría ser costoso, incluso más que hacerlo tú mismo manualmente, pero si tienes una transacción grande y tienes prisa, es un excelente método para entrar rápidamente en una posición de DeFi o en una pool de liquidez.
 
 ### yInsure / Cover
 
@@ -250,7 +250,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
   * [yearn.finance](https://twitter.com/iearnfinance?s=20) - Twitter oficial de Yearn.
   * [Andre Cronje](https://twitter.com/AndreCronjeTech?s=20) - Desarrollador principal de Yearn.
   * [yLearnfinance](https://twitter.com/yLearnfinance) - Información a cerca de Yearn.
-  * [Learn 2 Yearn](https://twitter.com/learn2yearn) - Información a acerca de Yearn.
+  * [Learn 2 Yearn](https://twitter.com/learn2yearn) - Información a cerca de Yearn.
 
 ## Gobernanza
 
@@ -391,9 +391,9 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 * [Vasiliy Shapovalov, p2p.org](https://twitter.com/_vshapovalov/status/1299799139635679232)
 * [Mariano Conti, ex-MakerDAO](https://twitter.com/nanexcool)
 
-### ¿Se ha cambiado en alguna ocasión alguno de los firmates de la multisig?
+### ¿Se ha cambiado en alguna ocasión alguno de los firmantes de la multisig?
 
-* Sí, la [YIP-40](https://gov.yearn.finance/t/yip-40-replace-inactive-multisig-signers/3535) cambió 4 de los firmates.
+* Sí, la [YIP-40](https://gov.yearn.finance/t/yip-40-replace-inactive-multisig-signers/3535) cambió 4 de los firmantes.
 * Los firmantes que cedieron sus puestos fueron:
   * [Coopahtroopa](https://twitter.com/Cooopahtroopa/status/1285438650550038529)
   * [Michael, Curve.fi](https://twitter.com/CurveFinance/status/1285428322986389504)
