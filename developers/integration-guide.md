@@ -50,7 +50,7 @@ The Yearn Subgraph is a GraphQL-based public API running on [The Graph](https://
 
 #### Interact
 
-- [Graph Explorer](https://thegraph.com/explorer/subgraph/juanmardefago/yearn-dev)
+- [Graph Explorer](https://thegraph.com/explorer/subgraph/iearn-finance/yearn-finance)
 
 #### Code
 
