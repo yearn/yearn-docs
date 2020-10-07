@@ -451,12 +451,12 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 * Si ves que la tarifa es más alta de lo normal cuando vas a usar algún producto del ecosistema de yearn puede ser por congestión en Ethereum que se traduce en un coste anormalmente alto del gas. Puedes comprobar el valor óptico del precio del gas en [Ethgasstation](https://ethgasstation.info/). Tus opciones son esperar a que los precios del gas bajen o pagar el precio del gas para enviar tu transacción ahora.
 * Si los precios del gas son una locura, eso significa que hay un error y la transacción no se procesará. Por ejemplo, si intentas depositar un token que no tienes o no hay covertura disponible para un contrato en [http://yinsure.finance/](http://yinsure.finance/).
 
-## Projectos relacionados
+## Proyectos relacionados
 
 ### [Curve](https://www.curve.fi)
 
 * Curve is an exchange liquidity pool on Ethereum \(like [Uniswap](https://app.uniswap.org/#/)\) designed for \(1\) extremely efficient stablecoin trading \(2\) low risk, supplemental fee income for liquidity providers, without an opportunity cost. Curve allows users \(and smart contracts like 1inch, Paraswap, Totle and Dex.ag\) to trade between DAI and USDC with a bespoke low slippage, low fee algorithm designed specifically for stablecoins and earn fees. Behind the scenes, the liquidity pool is also supplied to the Compound protocol or yearn.finance where it generates even more income for liquidity providers.
-* Curve [FAQ](https://www.curve.fi/rootfaq).
+* La [FAQ](https://www.curve.fi/rootfaq) de Curve.
 
 ### [Aave](https://app.aave.com/home)
 
