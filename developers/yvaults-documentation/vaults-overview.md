@@ -76,11 +76,11 @@ Governance manages the `Vaults`, `Controller`, and `Strategies` by calling funct
 - **Add vaults** for the Controller to manage, through `setVault()`, in order to introduce new vaults.
 - **Set address to receive management fees**, through `setRewards()` in order to upgrade the Treasury.
 
-#### Vault management
+#### Strategy management
 
 - **Set Strategist address**, through `setStrategist()`, in order for Strategists to receive their rewards and to interact with the system.
-- **Add an approved Strategy**, through `approveStrategy()`, in order for Strategists to be able to activate the Strategy in question.
-- **Remove an approved Strategy**, through `revokeStrategy()`, in order to prevent Strategists from being able to activate the Strategy in question.
+- **Add an approved Strategy**, through `approveStrategy()` on the Controller, in order for Strategists to be able to activate the Strategy in question.
+- **Remove an approved Strategy**, through `revokeStrategy()` on the Controller, in order to prevent Strategists from being able to activate the Strategy in question.
 
 ## Protocol Actors
 
