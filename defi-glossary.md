@@ -32,7 +32,7 @@ In DeFi, automated yield farming uses algorithmic arbitrage strategies to maximi
 
 ### Automated Market Maker
 
-An Automated Market Maker \(AMM\) is a decentralized asset trading pool that enables market participants to buy or sell cryptocurrencies. AMMs are non-custodial and permissionless. Most AMMs utilize either a constant product, constant mean, or constant sum market-making formula; however, the most common is a constant product market maker, most notably [Uniswap](https://uniswap.info/).
+An Automated Market Maker \(AMM\) is a decentralized asset trading pool that enables market participants to buy or sell cryptocurrencies. AMMs are non-custodial and permissionless in nature. Most AMMs utilize either a constant product, constant mean, or constant sum market-making formula; however, the most common is a constant product market maker, most notably [Uniswap](https://uniswap.info/).
 
 ### Balancer
 
