@@ -1,7 +1,5 @@
 # Deployed Contracts Registry
 
-## Deployed Contracts Registry
-
 Below is a list of relevant smart contracts and Github repositories for using and interacting with the Yearn product suite.
 
 ## Token Contracts
@@ -11,7 +9,7 @@ Below is a list of relevant smart contracts and Github repositories for using an
 The Yearn ecosystem is controlled by YFI token holders who submit and vote on proposals that govern the ecosystem.
 
 | Token | Address                                                                                                             |
-| :---- | :------------------------------------------------------------------------------------------------------------------ |
+| ----- | ------------------------------------------------------------------------------------------------------------------- |
 | [YFI](https://etherscan.io/token/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e)   | 0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e |
 
 ### v2 Yield Tokens
@@ -19,7 +17,7 @@ The Yearn ecosystem is controlled by YFI token holders who submit and vote on pr
 The v2 yield tokens can be used in one lender at a time. Currently being used on Curve’s Y Pool, Yearn’s yBTC pool and sUSD pool.
 
 | Token   | Address                                                                                                               | Github                                                                                   |
-| :------ | :-------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| ------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | [yDAIv2]((https://etherscan.io/address/0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01))  | 0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01 | [YDAIv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YDAIv2.sol)   |
 | [yUSDCv2](https://etherscan.io/address/0xd6aD7a6750A7593E092a9B218d66C0A814a3436e) |0xd6aD7a6750A7593E092a9B218d66C0A814a3436e | [YUSDCv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YUSDCv2.sol) |
 | [yUSDTv2](https://etherscan.io/address/0x83f798e925BcD4017Eb265844FDDAbb448f1707D) | 0x83f798e925BcD4017Eb265844FDDAbb448f1707D | [YUSDTv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YUSDTv2.sol) |
@@ -32,7 +30,7 @@ The v2 yield tokens can be used in one lender at a time. Currently being used on
 The v3 yield tokens allow the underlying assets to be spread across multiple lenders. Currently being used on Curve’s BUSD pool.
 
 | Token   | Address                                                                                                               | Github                                                                                   |
-| :------ | :-------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| ------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | [yDAIv3](https://etherscan.io/address/0xC2cB1040220768554cf699b0d863A3cd4324ce32)  | 0xC2cB1040220768554cf699b0d863A3cd4324ce32 | [YDAIv3.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YDAIv3.sol)   |
 | [yUSDCv3](https://etherscan.io/address/0x26EA744E5B887E5205727f55dFBE8685e3b21951) | 0x26EA744E5B887E5205727f55dFBE8685e3b21951 | [YUSDCv3.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YUSDCv3.sol) |
 | [yUSDTv3](https://etherscan.io/address/0xE6354ed5bC4b393a5Aad09f21c46E101e692d447) | 0xE6354ed5bC4b393a5Aad09f21c46E101e692d447 | [YUSDCv3.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YUSDCv3.sol) |
@@ -47,7 +45,7 @@ The `Controller` contract can be found [here](https://etherscan.io/address/0x9e6
 ### Vaults
 
 | Vault                                                          | Address                                      | GitHub                                                                                                 |
-| :------------------------------------------------------------- | :----------------------------------------- | :----------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
 | [WETH](0xe1237aa7f535b0cc33fd973d66cbf830354d16c7)             | 0xe1237aa7f535b0cc33fd973d66cbf830354d16c7 | [yWETH.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/vaults/yWETH.sol)   |
 | [YFI](0xba2e7fed597fd0e3e70f5130bcdbbfe06bb94fe1)              | 0xba2e7fed597fd0e3e70f5130bcdbbfe06bb94fe1 | [yVault.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/vaults/yVault.sol) |
 | [curve.fi/y LP](0x5dbcf33d8c2e976c6b560249878e6f1491bca25c)    | 0x5dbcf33d8c2e976c6b560249878e6f1491bca25c | [yVault.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/vaults/yVault.sol) |
@@ -61,7 +59,7 @@ The `Controller` contract can be found [here](https://etherscan.io/address/0x9e6
 ### Strategies
 
 | Strategy                                                                  | Address                                   | GitHub                                                                                                                                               | Vault                                                          |
-| :------------------------------------------------------------------------ | :----------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| ------------------------------------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | [StrategyMKRVaultDAIDelegate](0x932fc4fd0eee66f22f1e23fba74d7058391c0b15) | 0x932fc4fd0eee66f22f1e23fba74d7058391c0b15 | [StrategyMKRVaultDAIDelegate.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/strategies/StrategyMKRVaultDAIDelegate.sol) | [WETH](0xe1237aa7f535b0cc33fd973d66cbf830354d16c7)             |
 | [StrategyYFIGovernance](0x395f93350d5102b6139abfc84a7d6ee70488797c)       | 0x395f93350d5102b6139abfc84a7d6ee70488797c | [StrategyYFIGovernance.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/strategies/StrategyYFIGovernance.sol)             | [YFI](0xba2e7fed597fd0e3e70f5130bcdbbfe06bb94fe1)              |
 | [StrategyCurveYCRVVoter](0xc999fb87aca383a63d804a575396f65a55aa5ac8)      | 0xc999fb87aca383a63d804a575396f65a55aa5ac8 | [StrategyCurveYCRVVoter.sol](https://github.com/iearn-finance/yearn-protocol/blob/master/contracts/strategies/StrategyCurveYCRVVoter.sol)            | [curve.fi/y LP](0x5dbcf33d8c2e976c6b560249878e6f1491bca25c)    |
@@ -83,11 +81,11 @@ The aLINK vault uses the `StrategyControllerV2` [contract](https://etherscan.io/
 
 
 | Strategy                                                        | Strategy                                   | GitHub                                                                                                                           |
-| :-------------------------------------------------------------- | :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | [StrategyVaultUSDC](0x25faca21dd2ad7edb3a027d543e617496820d8d6) | 0x25faca21dd2ad7edb3a027d543e617496820d8d6 | [StrategyVaultUSDC.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/strategies/StrategyVaultUSDC.sol) |
 
 | Vault                                               | Address                                      | GitHub                                                                                                                   |
-| :-------------------------------------------------- | :----------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
 | [aLINK](0x29e240cfd7946ba20895a7a02edb25c210f9f324) | 0x29e240cfd7946ba20895a7a02edb25c210f9f324 | [yDelegatedVault.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/vaults/yDelegatedVault.sol) |
 
 ## Governance Contracts
@@ -95,7 +93,7 @@ The aLINK vault uses the `StrategyControllerV2` [contract](https://etherscan.io/
 YFI holders govern the Yearn ecosystem and are eligible to receive a portion of protocol profits. Therefore, YFI represents a right to govern the platform and a claim on earnings. Profits are obtained from each of Yearn's products. In order to claim profits, YFI holders stake their tokens into the Governance contract.
 
 | Contract                         | Status  | Address                                                                                                                    |
-| :------------------------------- | :------ | :------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------- |
 | [Governance Staking \(v2\)](https://etherscan.io/address/0xba37b002abafdd8e89a1995da52740bbc013d992#code)        | Live    | 0xba37b002abafdd8e89a1995da52740bbc013d992 |
 | [YearnGovernance \(Balancer v1\)](https://etherscan.io/address/0x3a22df48d84957f907e67f4313e3d43179040d6e#code)  | Old     | 0x3a22df48d84957f907e67f4313e3d43179040d6e |
 | [YearnRewards \(Yearn v1\)](https://etherscan.io/address/0x0001fb050fe7312791bf6475b96569d83f695c9f#code)        | Old     | 0x0001fb050fe7312791bf6475b96569d83f695c9f |
@@ -105,7 +103,7 @@ YFI holders govern the Yearn ecosystem and are eligible to receive a portion of 
 ## Status and Info Contracts
 
 | Utility                                                                                           | Summary                                                                                                                                                                                                                               |
-| :------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [YRegistry](https://etherscan.io/address/0x3ee41c098f9666ed2ea246f4d2558010e59d63a0#code)         | The Vault Registry is the single source of truth for active Yearn vaults. The registry allows users to query for active Yearn vaults and vault metadata \(details [here](https://hackmd.io/JDWZ6BAuSmm-VRQRp-bZXw#Vault-Registry-)\). |
 | [UniswapROI](https://etherscan.io/address/0xd04ca0ae1cd8085438fdd8c22a76246f315c2687#code)        | On-chain uniswap pool ROI calculator                                                                                                                                                                                                  |
 | [APROracle](https://etherscan.io/address/0x97ff4a1b787ade6b94cca95b61f79417c673331d#code)         | Allows on-chain rate comparison between Compound, Fulcrum, Aave, and dYdX.                                                                                                                                                            |
@@ -118,5 +116,5 @@ YFI holders govern the Yearn ecosystem and are eligible to receive a portion of 
 ## Utility Contracts
 
 | Utility       | Address                                                                                                                    |
-| :------------ | :------------------------------------------------------------------------------------------------------------------------- |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Curve's yPool | [0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8](https://etherscan.io/address/0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8#code) |
