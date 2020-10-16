@@ -1,7 +1,5 @@
 # Deployed Contracts Registry
 
-## Deployed Contracts Registry
-
 Below is a list of relevant smart contracts and Github repositories for using and interacting with the Yearn product suite.
 
 ## Token Contracts
@@ -18,14 +16,14 @@ The Yearn ecosystem is controlled by YFI token holders who submit and vote on pr
 
 The v2 yield tokens can be used in one lender at a time. Currently being used on Curve’s Y Pool, Yearn’s yBTC pool and sUSD pool.
 
-| Token                                                                                 | Address                                    | Github                                                                                   |
-| ------------------------------------------------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------- |
-| [yDAIv2](<(https://etherscan.io/address/0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01)>) | 0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01 | [YDAIv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YDAIv2.sol)   |
-| [yUSDCv2](https://etherscan.io/address/0xd6aD7a6750A7593E092a9B218d66C0A814a3436e)    | 0xd6aD7a6750A7593E092a9B218d66C0A814a3436e | [YUSDCv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YUSDCv2.sol) |
-| [yUSDTv2](https://etherscan.io/address/0x83f798e925BcD4017Eb265844FDDAbb448f1707D)    | 0x83f798e925BcD4017Eb265844FDDAbb448f1707D | [YUSDTv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YUSDTv2.sol) |
-| [ysUSDv2](https://etherscan.io/address/0xF61718057901F84C4eEC4339EF8f0D86D2B45600)    | 0xF61718057901F84C4eEC4339EF8f0D86D2B45600 | [YSUSDv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YSUSDv2.sol) |
-| [yTUSDv2](https://etherscan.io/address/0x73a052500105205d34daf004eab301916da8190f)    | 0x73a052500105205d34daf004eab301916da8190f | [YTUSDv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YTUSDv2.sol) |
-| [yWBTCv2](https://etherscan.io/address/0x04Aa51bbcB46541455cCF1B8bef2ebc5d3787EC9)    | 0x04Aa51bbcB46541455cCF1B8bef2ebc5d3787EC9 | [YWBTCv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YWBTCv2.sol) |
+| Token                                                                              | Address                                    | Github                                                                                   |
+| ---------------------------------------------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| [yDAIv2](https://etherscan.io/address/0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01)  | 0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01 | [YDAIv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YDAIv2.sol)   |
+| [yUSDCv2](https://etherscan.io/address/0xd6aD7a6750A7593E092a9B218d66C0A814a3436e) | 0xd6aD7a6750A7593E092a9B218d66C0A814a3436e | [YUSDCv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YUSDCv2.sol) |
+| [yUSDTv2](https://etherscan.io/address/0x83f798e925BcD4017Eb265844FDDAbb448f1707D) | 0x83f798e925BcD4017Eb265844FDDAbb448f1707D | [YUSDTv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YUSDTv2.sol) |
+| [ysUSDv2](https://etherscan.io/address/0xF61718057901F84C4eEC4339EF8f0D86D2B45600) | 0xF61718057901F84C4eEC4339EF8f0D86D2B45600 | [YSUSDv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YSUSDv2.sol) |
+| [yTUSDv2](https://etherscan.io/address/0x73a052500105205d34daf004eab301916da8190f) | 0x73a052500105205d34daf004eab301916da8190f | [YTUSDv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YTUSDv2.sol) |
+| [yWBTCv2](https://etherscan.io/address/0x04Aa51bbcB46541455cCF1B8bef2ebc5d3787EC9) | 0x04Aa51bbcB46541455cCF1B8bef2ebc5d3787EC9 | [YWBTCv2.sol](https://github.com/iearn-finance/itoken/blob/master/contracts/YWBTCv2.sol) |
 
 ### v3 Yield Tokens
 
