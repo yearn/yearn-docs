@@ -33,7 +33,6 @@
 
 - [Deployed Contracts Registry](developers/deployed-contracts-registry.md)
 - [Code Repositories](developers/code-repositories.md)
-- [Schema Diagrams](developers/schema-diagrams.md)
 - [Integration Guide](developers/integration-guide.md)
 - [yVaults Documentation](developers/yvaults-documentation/README.md)
   - [Vaults Overview](developers/yvaults-documentation/vaults-overview.md)
