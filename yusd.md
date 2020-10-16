@@ -31,7 +31,7 @@ At the base level, DAI, USDC, USDT, and TUSD are each wrapped into our 3rd gener
 
 At the next level up, yDAI, yUSDC, yUSDT, and yTUSD provide liquidity in the **Curve and Yearn partnership pool** \(curve.fi/y\). yCRV – the [LP token](https://docs.yearn.finance/defi-glossary#liquidity-providers) for this pool grows in value from fees charged on stablecoin swaps within the pool.
 
-It also generates  CRV rewards which are harvested in the next tier up.
+It also generates CRV rewards which are harvested in the next tier up.
 
 ### Tier 3: Sustainable Yield
 
@@ -51,4 +51,3 @@ At this tier the current strategy sits on top of the lower two tiers and **harve
   - The current strategy: [StrategyCurveYCRVVoter](https://etherscan.io/address/0xc999fb87AcA383A63D804A575396F65A55aa5aC8#code)
 - FAQ
   - [https://docs.yearn.finance/faq\#vaults](https://docs.yearn.finance/faq#vaults)
-  
