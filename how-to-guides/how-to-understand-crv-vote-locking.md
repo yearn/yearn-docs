@@ -30,9 +30,9 @@ See the [Curve Guide](https://guides.curve.fi/how-to-boost-your-crv-rewards-by-v
 
 Yearn deploys a single CRV vote locking strategy that is shared across its general Curve strategies:
 
-- [StrategyCurveYBUSDVoterProxy](https://etherscan.io/address/0x2ee856843bb65c244f527ad302d6d2853921727e#code)
-- [StrategyCurveBTCVoterProxy](https://etherscan.io/address/0x134c08fAeE4F902999a616e31e0B7e42114aE320#code)
-- [StrategyCurveYVoterProxy](https://etherscan.io/address/0x594a198048501A304267E63B3bAd0f0638da7628#code)
+- [StrategyCurveYBUSDVoterProxy](https://etherscan.io/address/0x112570655b32a8c747845e0215ad139661e66e7f#code)
+- [StrategyCurveBTCVoterProxy](https://etherscan.io/address/0x6d6c1ad13a5000148aa087e7cbfb53d402c81341#code)
+- [StrategyCurveYVoterProxy](https://etherscan.io/address/0x07db4b9b3951094b9e278d336adf46a036295de7#code)
 
 ### Locking CRV for veCRV
 
