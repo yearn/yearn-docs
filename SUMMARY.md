@@ -8,6 +8,7 @@
   - [How to Add a Custom Token to MetaMask](how-to-guides/how-to-add-a-custom-token-to-metamask.md)
   - [How To Participate in a yVault](how-to-guides/how-to-participate-in-a-yvault.md)
   - [How To Understand yVault ROI](how-to-guides/how-to-understand-yvault-roi.md)
+  - [How to Understand CRV Vote Locking](how-to-guides/how-to-understand-crv-vote-locking.md)
   - [How To Make a YIP](how-to-guides/how-to-make-a-yip.md)
   - [How to Contribute a yVault Strategy](how-to-guides/how-to-contribute-a-yvault-strategy.md)
 - [Governance](governance.md)
