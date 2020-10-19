@@ -8,18 +8,16 @@ Returns address of the strategy’s unwrapped token.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function want() external view returns (address);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |                Description |
-| :------ | -------------------------: |
+| Returns | Description |
+| :--- | ---: |
 | address | Strategy’s unwrapped token |
 
 ### deposit\(\)
@@ -28,11 +26,9 @@ Deposits `want` token into another smart contact defined by the strategy itself.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function deposit() external;
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -40,23 +36,21 @@ function deposit() external;
 
 ### withdraw\(address\)
 
-Withdraws strategy's non-core token (collects dust).
+Withdraws strategy's non-core token \(collects dust\).
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function withdraw(token_addr: address) external;
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Controller only
 
-| Parameter  | Type    |                        Description |
-| :--------- | :------ | ---------------------------------: |
-| token_addr | address | Token to be drained from Strategy. |
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| token\_addr | address | Token to be drained from Strategy. |
 
 ### withdraw\(uint256\)
 
@@ -64,19 +58,17 @@ Partially withdraws user funds from the contract. In case Strategy implements `h
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function withdraw(amount: uint256) external;
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Controller only
 
-| Parameter | Type    |            Description |
-| :-------- | :------ | ---------------------: |
-| amount    | uint256 | Amount to be withdrawn |
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| amount | uint256 | Amount to be withdrawn |
 
 ### withdrawAll\(\)
 
@@ -86,18 +78,16 @@ If strategy implements liquidity pools or lending platforms, then withdrawal fro
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function withdrawAll() external returns (uint256);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Controller only
 
-| Returns |          Description |
-| :------ | -------------------: |
+| Returns | Description |
+| :--- | ---: |
 | uint256 | The amount withdrawn |
 
 ### skim\(\)
@@ -106,11 +96,9 @@ Returns the remaining amount that can be borrowed from the lending platform. Use
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function skim() external;
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -126,18 +114,16 @@ Calculates the strategy `want` balance.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function balanceOf() external view returns (uint256);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |             Description |
-| :------ | ----------------------: |
+| Returns | Description |
+| :--- | ---: |
 | uint256 | Strategy `want` balance |
 
 ## [IVault](https://github.com/iearn-finance/yearn-protocol/blob/develop/interfaces/yearn/IVault.sol)
@@ -148,18 +134,16 @@ Returns the vault’s unwrapped native token address.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function token() external view returns (token_addr: address);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |                            Description |
-| :------ | -------------------------------------: |
+| Returns | Description |
+| :--- | ---: |
 | address | Vault’s unwrapped native token address |
 
 ### underlying\(\)
@@ -168,19 +152,17 @@ Returns the native underlying token. In case of aLINK delegated vault the `under
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 // This is only implemented in Delegated Vaults.
 function underlying() external view returns (token_addr: address);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |                     Description |
-| :------ | ------------------------------: |
+| Returns | Description |
+| :--- | ---: |
 | address | Native underlying token address |
 
 ### name\(\)
@@ -189,19 +171,17 @@ Returns the vault’s wrapped token name, e.g. “yearn Dai Stablecoin".
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function name() external view returns (string memory);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |                Description |
-| :------ | -------------------------: |
-| string  | Vault’s wrapped token name |
+| Returns | Description |
+| :--- | ---: |
+| string | Vault’s wrapped token name |
 
 ### symbol\(\)
 
@@ -209,19 +189,17 @@ Returns the vault’s wrapped token symbol, e.g. “yDai”
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function symbol() external view returns (string memory);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |                  Description |
-| :------ | ---------------------------: |
-| string  | Vault’s wrapped token symbol |
+| Returns | Description |
+| :--- | ---: |
+| string | Vault’s wrapped token symbol |
 
 ### decimals\(\)
 
@@ -229,19 +207,17 @@ Returns the amount of decimals for this vault’s wrapped token.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function decimals() external view returns (uint8);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |                                       Description |
-| :------ | ------------------------------------------------: |
-| uint8   | Amount of decimals for this vault’s wrapped token |
+| Returns | Description |
+| :--- | ---: |
+| uint8 | Amount of decimals for this vault’s wrapped token |
 
 ### controller\(\)
 
@@ -249,18 +225,16 @@ Returns Vault’s controller address.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function controller() external view returns (token_addr: address);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |                 Description |
-| :------ | --------------------------: |
+| Returns | Description |
+| :--- | ---: |
 | address | Vault’s controller contract |
 
 ### governance\(\)
@@ -269,18 +243,16 @@ Returns the address from Vault’s governance, currently multisig address `0xfeb
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function governance() external view returns (address);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |                 Description |
-| :------ | --------------------------: |
+| Returns | Description |
+| :--- | ---: |
 | address | Vault’s governance contract |
 
 ### getPricePerFullShare\(\)
@@ -297,18 +269,16 @@ Where "nativeTokenBalance" is the current balance of native token \(DAI, e.g.\) 
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function getPricePerFullShare() external view returns (uint256);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |                 Description |
-| :------ | --------------------------: |
+| Returns | Description |
+| :--- | ---: |
 | uint256 | Price of the Vault’s token. |
 
 ## [IController](https://github.com/iearn-finance/yearn-protocol/blob/develop/interfaces/yearn/IController.sol)
@@ -319,20 +289,18 @@ Calls `strategy.withdraw()` function for the amount defined in `unit256`. `token
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function withdraw(token_addr: address, amount: uint256) external;
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Vaults only
 
-| Parameter  | Type    |                                 Description |
-| :--------- | :------ | ------------------------------------------: |
-| token_addr | address | Token address that defines current strategy |
-| amount     | uint256 |                      Amount to be withdrawn |
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| token\_addr | address | Token address that defines current strategy |
+| amount | uint256 | Amount to be withdrawn |
 
 ### balanceOf\(address\)
 
@@ -340,22 +308,20 @@ Returns the balance of a specific token in the Strategy defined by `token_addr`.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function balanceOf(token_addr: address) external view returns (uint256);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Parameter  | Type    |                                 Description |
-| :--------- | :------ | ------------------------------------------: |
-| token_addr | address | Token address that defines current strategy |
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| token\_addr | address | Token address that defines current strategy |
 
-| Returns |                                  Description |
-| :------ | -------------------------------------------: |
+| Returns | Description |
+| :--- | ---: |
 | uint256 | Balance of a specific token in the Strategy. |
 
 ### earn\(address, uint256\)
@@ -364,37 +330,33 @@ Transfers to the strategy the yield generated from `harvest()` function \(when a
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function earn(token_addr: address, amount: uint256) external;
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Parameter  | Type    |            Description |
-| :--------- | :------ | ---------------------: |
-| token_addr | address |  Token to be withdrawn |
-| amount     | uint256 | Amount to be withdrawn |
+| Parameter | Type | Description |
+| :--- | :--- | ---: |
+| token\_addr | address | Token to be withdrawn |
+| amount | uint256 | Amount to be withdrawn |
 
 ### want\(address\)
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function want(token_addr: address) external view returns (address);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |                            Description |
-| :------ | -------------------------------------: |
+| Returns | Description |
+| :--- | ---: |
 | address | Strategy's or vault's unwrapped token. |
 
 {% hint style="info" %}
@@ -407,18 +369,16 @@ Returns the address of the TreasuryVault which is where the reward tokens go.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function rewards() external view returns (treasury_addr: address);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |            Description |
-| :------ | ---------------------: |
+| Returns | Description |
+| :--- | ---: |
 | address | TreasuryVault contract |
 
 ### vaults\(address\)
@@ -427,18 +387,16 @@ Returns the corresponding Vault address for specific token.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function vaults(token_addr: address) external view returns (vault_addr: address);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |                 Description |
-| :------ | --------------------------: |
+| Returns | Description |
+| :--- | ---: |
 | address | Corresponding Vault address |
 
 ### strategies\(address\)
@@ -447,17 +405,16 @@ Returns the corresponding Strategy address for specific Token.
 
 {% tabs %}
 {% tab title="Smart Contract" %}
-
 ```javascript
 function strategies(token_addr: address) external view
 returns (strategy_addr: address);
 ```
-
 {% endtab %}
 {% endtabs %}
 
 🔓 **Access**: Anyone
 
-| Returns |                    Description |
-| :------ | -----------------------------: |
+| Returns | Description |
+| :--- | ---: |
 | address | Corresponding Strategy address |
+

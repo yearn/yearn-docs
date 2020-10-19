@@ -8,10 +8,11 @@ For example, a user can deposit DAI into the Earn yDAI pool. Yearn will programt
 
 Earn is a key component of the yPool at Curve.Finance, which represents a basket of four yTokens: yDai, yUSDC, yUSDT, and yTUSD. The underlying four yTokens are constantly optimizing to yield the highest available interest in the market \(described above\), while also serving as a liquidity pool for these tokens. Users can interact with this pool to swap between any of the four tokens with little slippage. Therefore, liquidity providers of the yPool receive the optimized interest rates on their stablecoin deposits and trading fees from users swapping tokens from the pool.
 
-As of September 2020, the YTD annualized return for yPool liquidity providers is estimated to be 9.11%. Since yDAI+yUSD+yUSDT+yTUSD is a continuouslly accruing interest-bearing token, its price is above \$1 and is constantly increasing.
+As of September 2020, the YTD annualized return for yPool liquidity providers is estimated to be 9.11%. Since yDAI+yUSD+yUSDT+yTUSD is a continuouslly accruing interest-bearing token, its price is above $1 and is constantly increasing.
 
 ![](https://i.imgur.com/U4KcWyE.png)
 
 ## Resources
 
-- [Earn Homepage](https://yearn.finance/earn)
+* [Earn Homepage](https://yearn.finance/earn)
+
