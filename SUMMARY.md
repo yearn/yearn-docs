@@ -3,7 +3,7 @@
 * [Introduction to Yearn](README.md)
 * [FAQ](faq.md)
 * [DeFi Glossary](defi-glossary.md)
-* [How-To Guides](how-to-guides/README.md)
+* [Les tutos](how-to-guides/README.md)
   * [How to Mint yUSD](how-to-guides/how-to-mint-yusd.md)
   * [How to Add a Custom Token to MetaMask](how-to-guides/how-to-add-a-custom-token-to-metamask.md)
   * [How To Participate in a yVault](how-to-guides/how-to-participate-in-a-yvault.md)

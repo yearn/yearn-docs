@@ -16,7 +16,7 @@ La possession de veCRV permet de::
 
 ### Frais de trading
 
-50% de tous les frais de trading sur Curve à partir du 19 septembre 2020 vont être distribués aux possésseurs veCRV sous la forme de jetons CRV.
+50% de tous les frais de trading sur Curve à partir du 19 septembre 2020 vont être distribués aux possesseurs veCRV sous la forme de jetons CRV.
 
 ### Boost des récompenses
 
@@ -24,7 +24,7 @@ Le verrouillage des CRV pour obtenir des veCRV permet d'obtenir un boost des ré
 
 Le multiplicateur de boost actuel est déterminé par une formule qui dépend de la liquidité actuelle dans la jauge de pool en tant que fraction du montant total de liquidité fournie, et de la fraction des droits de vote que le veCRV offre par rapport au total de veCRV .
 
-Consultez [Curve Guide](https://guides.curve.fi/how-to-boost-your-crv-rewards-by-vote-locking/) pour plus de détails et les forules utilisées pour le calcul.  
+Consultez [Curve Guide](https://guides.curve.fi/how-to-boost-your-crv-rewards-by-vote-locking/) pour plus de détails et les formules utilisées pour le calcul.  
 
 ## Vérrouillage des CRV dans Yearn
 
@@ -43,7 +43,7 @@ Acutellement, la distribution des veCRV n'a pas encore débutée, une date doit 
 
 ### Recevoir les frais de trading
 
-En fonction de la part de Yearn de la quantité totale de veCRV, 50% des frais de trading seront réclamés sous forme de CRV. 10% de cette quantité sera ensuite vérouillé dans la DAO Curve pour obtenir plus de veCRV.
+En fonction de la part de Yearn de la quantité totale de veCRV, 50% des frais de trading seront réclamés sous forme de CRV. 10% de cette quantité sera ensuite verrouillé dans la DAO Curve pour obtenir plus de veCRV.
 
 ### Boost des récompenses de liquidité
 
