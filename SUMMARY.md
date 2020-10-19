@@ -9,6 +9,7 @@
   - [How To Participate in a yVault](how-to-guides/how-to-participate-in-a-yvault.md)
   - [How To Understand yVault ROI](how-to-guides/how-to-understand-yvault-roi.md)
   - [How To Make a YIP](how-to-guides/how-to-make-a-yip.md)
+  - [How to Contribute a yVault Strategy](how-to-guides/how-to-contribute-a-yvault-strategy.md)
 - [Governance](governance.md)
 - [YFI and yTokens](yfi-and-ytokens.md)
 - [yUSD](yusd.md)
