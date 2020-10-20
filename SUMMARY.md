@@ -11,8 +11,7 @@
   * [Comprendre le verrouillage des votes CRV](how-to-guides/how-to-understand-crv-vote-locking.md)
   * [How To Make a YIP](how-to-guides/how-to-make-a-yip.md)
 * [Governance](governance.md)
-* [YFI and yTokens](yfi-and-ytokens.md)
-* [yUSD](yusd.md)
+* [YFI et les yTokens](yfi-and-ytokens.md)
 
 ## Products
 
