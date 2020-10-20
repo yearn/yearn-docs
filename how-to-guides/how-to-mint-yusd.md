@@ -1,8 +1,8 @@
-# How to Mint yUSD
+# Comment obtenir des yUSD
 
-This visual guide will walk you through every step in minting yUSD at [https://vaults.finance](https://vaults.finance/).
+Ce tutoriel  vous guidera à travers chaque étape pour générer \(mint\) des yUSD sur [https://vaults.finance](https://vaults.finance/).
 
-You can learn more about yUSD here: [https://docs.yearn.finance/yusd](https://docs.yearn.finance/yusd)
+Vous pouvez en apprendre plus sur les yUSD ici: [https://docs.yearn.finance/yusd](https://docs.yearn.finance/yusd)
 
 ## Prerequisites
 

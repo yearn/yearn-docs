@@ -4,7 +4,7 @@
 * [FAQ](faq.md)
 * [DeFi Glossary](defi-glossary.md)
 * [Les tutos](how-to-guides/README.md)
-  * [How to Mint yUSD](how-to-guides/how-to-mint-yusd.md)
+  * [Comment obtenir des yUSD](how-to-guides/how-to-mint-yusd.md)
   * [How to Add a Custom Token to MetaMask](how-to-guides/how-to-add-a-custom-token-to-metamask.md)
   * [Comment utiliser un yVault](how-to-guides/how-to-participate-in-a-yvault.md)
   * [How To Understand yVault ROI](how-to-guides/how-to-understand-yvault-roi.md)
