@@ -9,7 +9,7 @@
   * [Comment utiliser un yVault](how-to-guides/how-to-participate-in-a-yvault.md)
   * [How To Understand yVault ROI](how-to-guides/how-to-understand-yvault-roi.md)
   * [Comprendre le verrouillage des CRV](how-to-guides/how-to-understand-crv-vote-locking.md)
-  * [How To Make a YIP](how-to-guides/how-to-make-a-yip.md)
+  * [Comme créer un YIP](how-to-guides/how-to-make-a-yip.md)
 * [Governance](governance.md)
 * [YFI et les yTokens](yfi-and-ytokens.md)
 

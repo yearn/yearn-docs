@@ -1,15 +1,15 @@
-# How To Make a YIP
+# Comme créer un YIP
 
-## Abstract
+## Résumé
 
-The yEarn Improvement Proposals \(`YIP`s\) describe standards for the yEarn platform, including core protocol specifications, client APIs, and contract standards. This is the definitive, `canonical` reference specification for the core logic.
+Les propositions d'amélioration \(`YIP` pour  yEarn Improvement Proposals\) décrivent les normes de la plate-forme yEarn, notamment les spécifications de  de base du protocole, les clients API  et les normes contractuelles. Il s'agit de la spécification de référence `canonical` définitive pour la logique centrale.
 
-## Contributing
+## Contribuer
 
-1. Review [YIP-0](https://github.com/iearn-finance/YIPS/blob/master/YIPS/yip-0.md).
-2. Fork the repository by clicking "Fork" in the top right.
-3. Add your YIP to your fork of the repository. There is a [template YIP here](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md).
-4. Submit a Pull Request to yEarn's [YIPs repository](https://github.com/iearn-finance/YIPS/).
+1. Lisez [YIP-0](https://github.com/iearn-finance/YIPS/blob/master/YIPS/yip-0.md).
+2. Dupliquez le répertoire en cliquant sur "Fork" en haut a droite.
+3. Ajoutez votre YIP a votre duplication du répertoire. Il y a un [exemple type ici](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md). 
+4. Soumettez "Pull Request" au [YIPSs repertoire](https://github.com/iearn-finance/YIPS/) de yEarn's.
 
 Your first PR should be a first draft of the final YIP. It must meet the formatting criteria enforced by the build \(largely, correct metadata in the header\). An editor will manually review the first PR for a new YIP and assign it a number before merging it. Make sure you include a `discussions-to` header with the URL to a new thread on [gov.yearn.finance](https://gov.yearn.finance/) where people can discuss the YIP as a whole.
 
