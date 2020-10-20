@@ -6,64 +6,65 @@ Vous pouvez en apprendre plus sur les yUSD ici: [https://docs.yearn.finance/yusd
 
 ## Prerequisites
 
-* You must have DAI, USDC, USDT, TUSD, or yCRV to use for buying yUSD.
-* You must use a supported wallet, either Metamask, Trustwallet, Trezor, or Torus.
+* Vous devez posséder des DAI, USDC, USDT, TUSD, ou yCRV pour obtenir des yUSD
 
-## Visual Walkthrough
+* Vous devez utiliser un portefeuille compatible, que ce soit Metamask, Trustwallet, Trezor, ou Torus.
 
-1\) Go to [https://vaults.finance](https://vaults.finance/) and click `Connect`
+## Etape par étape
+
+1\) Aller sur [https://vaults.finance](https://vaults.finance/) et cliquez sur `Connect`
 
 ![](https://i.imgur.com/8eSziEU.png)
 
-2\) Click on the wallet you are using, for this demo we'll use MetaMask
+2\) Cliquez sur le wallet que vous utilisez, dans cet exemple nous utiliserons MetaMask
 
 ![](https://i.imgur.com/dXa0KbK.png)
 
-3\) If you have multiple addresses in your wallet, select the one you're planning to use to mint yUSD then click `Next`
+3\)Si vous avez plusieurs adresses sur votre wallet, sélectionnez celle que vous souhaitez utiliser pour générer des yUSD puis cliquez sur `Next`
 
 ![](https://i.imgur.com/PzbFf0E.png)
 
-4\) Click `Connect`
+4\) Cliquez sur `Connect`
 
 ![](https://i.imgur.com/5SEL1Vy.png)
 
-5\) You will now see your address in the upper right corner \(this is the address mapped to my ens tracheopteryx.eth\). You will also see your balance of compatible tokens on the left.
+5\) Vous verrez maintenant votre adresse dans le coin supérieur droit. Vous verrez également votre solde de jetons compatibles sur la gauche. 
 
 ![](https://i.imgur.com/GDxMMQI.png)
 
-6\) Click `Depost All` to deposit all the tokens shown on the left into the yCRV vault to mint yUSD.
+6\) Cliquez sur `Depost All` pour déposer dans le vault yCRV tous les jetons indiqués sur la gauche pour pouvoir générer des yUSD.
 
 ![](https://i.imgur.com/JHSGFA3.png)
 
-7\) Click `Confirm` to approve your deposit or click `Edit` to increase the gas fee if Ethereum is busy \(check [https://ethgasstation.info](https://ethgasstation.info/) for current rates\). If you are depositing more than one type of token \(e.g. DAI and USDC\) you will need to do this step to approve each one.
+7\) Cliquez sur `Confirm` pour approver votre déport ou cliquez sur  `Edit`  pour augmenter les frais de fas si le réseau Ethereum est saturé  \(vérifier sur [https://ethgasstation.info](https://ethgasstation.info/) la quantité de gas conseillée au moment t\). Si vous déposez plusieurs types de jetons \(par exemple du DAI et du USDC\), vous devrez effectuer cette étape pour approuver chacun d'eux.
 
 ![](https://i.imgur.com/WNJlI34.png)
 
-8\) You will see this screen as the Ethereum blockchain processes your approval transaction.
+8\) Vous verrez cet écran pendant que la blockchain Ethereum traite votre transaction pour la demande d'approbation.
 
 ![](https://i.imgur.com/CpCDR2w.png)
 
-9\) Once the approval is processed, click `Confirm` to actually make the depost \(or edit the gas fee first as before if you want to increase it\).
+9\) Une fois l'approbation effectuée, cliquez sur `Confirm` pour réaliser le dépot \(ou modifiez les frais de gas comme expliqué précédemment si vous souhaitez les augmenter\).
 
 ![](https://i.imgur.com/Q3lpJLL.png)
 
-10\) You will see this screen as your transaction is processing. If this takes too long, you may not have set a high enough gas fee or you may have a stuck transaction, check our [FAQ page](https://docs.yearn.finance/faq#i-sent-my-eth-transaction-but-it-says-pending-how-do-i-fix-this) for how to resolve slow or stuck transactions.
+10\) Vous verrez cet écran pendant que la transaction est réalisée.Si cela prend trop de temps, vous avez peut être utiliser une quantité de gas trop faible ou vous avez peut être une transaction bloquée . Consultez notre [FAQ page](https://docs.yearn.finance/faq#i-sent-my-eth-transaction-but-it-says-pending-how-do-i-fix-this) pour apprendre à résoudre ces problèmes. 
 
 ![](https://i.imgur.com/9uuGBV7.png)
 
-11\) Your deposit was successful!
+11\) Votre dépôt est réussi !
 
 ![](https://i.imgur.com/gxBiSep.png)
 
-12\) Now you can see your balance of yUSD here and in your wallet!
+12\) 12\) Vous pouvez maintenant voir votre solde de yUSD ici et dans votre portefeuille!
 
 ![](https://i.imgur.com/nivD4q2.png)
 
-13\) Go to [https://addyearn.finance](https://addyearn.finance/) and click `Add Token` to add yUSD to MetaMask then `Add Token` again in the MetaMask window.
+13\) Allez sur [https://addyearn.finance](https://addyearn.finance/) et cliquez sur `Add Token` pour ajouter  yUSD sur MetaMask, puis cliquez une nouvelle fois sur  `Add Token` dans la fenêtre Metamask.
 
 ![](https://i.imgur.com/BIlPYeb.png)
 
-## That's it!
+## Et voilà !
 
-If you have any further questions or get stuck somewhere, ask for help on the Support channel in our discord: [http://discord.yearn.finance](http://discord.yearn.finance)
+Si vous avez d'autres questions ou si vous rencontrez des soucis quelque part, demandez de l'aide sur le canal d'assistance dans notre discord: [http://discord.yearn.finance](http://discord.yearn.finance)
 
