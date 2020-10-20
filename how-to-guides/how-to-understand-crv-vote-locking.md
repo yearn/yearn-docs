@@ -1,8 +1,8 @@
-# Comprendre le verrouillage des votes CRV
+# Comprendre le verrouillage des CRV
 
 Ceci est un aperçu du fonctionnement du verrouillage des votes CRV sur Curve Finance et de la manière dont les stratégies d'investissement Yearn en tirent parti pour augmenter le rendement.
 
-##  Verrouillage des votes CRV
+##  Verrouillage des CRV
 
 Verrouillage des votes, "Boosties", or "Vote boosting" sont des fonctionnalités de Curve Finance pour lesquelles le jeton CRV est verrouillé dans la DAO de Curve.
 
@@ -26,7 +26,7 @@ Le multiplicateur de boost actuel est déterminé par une formule qui dépend de
 
 Consultez [Curve Guide](https://guides.curve.fi/how-to-boost-your-crv-rewards-by-vote-locking/) pour plus de détails et les formules utilisées pour le calcul.  
 
-## Vérrouillage des CRV dans Yearn
+## Verrouillage des CRV dans Yearn
 
 Yearn déploie une seule stratégie de verrouillage des votes CRV qui est partagée pour l'intégralité de ses stratégies utilisant Curve:
 
