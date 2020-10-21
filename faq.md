@@ -100,8 +100,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Por qué no se puede obtener un mejor rendimiento de la Vault de YFI?
 
-* No puedes esperar obtener el mismo rendimiento para dos monedas totalmente distintas. La nueva v
-* Vault de sBTC sigue la misma estrategia que la Vault de yCRV que usa la pool de liquidez de Curve. La respuesta obvia es que no hay muchas plataformas seguras que acepten depósitos de YFI por lo que no hay muchas estrategias válidas para la vault de YFI ahora mismo.
+* No puedes esperar obtener el mismo rendimiento para dos monedas totalmente distintas. La nueva Vault de sBTC sigue la misma estrategia que la Vault de yCRV que usa la pool de liquidez de Curve. La respuesta obvia es que no hay muchas plataformas seguras que acepten depósitos de YFI por lo que no hay muchas estrategias válidas para la vault de YFI ahora mismo.
 
 #### He depositado en una Vault, ¿qué recibiré de vuelta cuando decida dejar de usarla?
 
