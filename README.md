@@ -29,7 +29,7 @@ Yearn Finance es un conjunto de productos financieros descentralizados \(DeFi\) 
 
 ## Gobernanza
 
-El ecosistema de Yearn está controlado por los holders de tokens YFI que envían y votan las propuestas que gobiernan el ecosistema. Las propuestas que cumplen con los requisitos de quorum \(&gt;20% de los tokens stakeados en el contrato de gobernanza\) y generan un apoyo mayoritario \(&gt;50% del voto\) son implementadas por una billetera multisig formada por 9 miembros. Los cambios deben estar firmados por 6 de los 9 firmantes de billetera multisig para que se implementen. Los miembros de la billetera multisig fueron elegidos por los holders de YFI y están sujetos a cambios en futuras votaciones. Consulte nuestra FAQ para conocer [la lista de firmantes de la multisig](https://docs.yearn.finance/faq#who-are-the-9-multisig-signers).
+El ecosistema de Yearn está controlado por los holders de tokens YFI que envían y votan las propuestas que gobiernan el ecosistema. Las propuestas que cumplen con los requisitos de quorum \(&gt;20% de los tokens stakeados en el contrato de gobernanza\) y generan un apoyo mayoritario \(&gt;50% del voto\) son implementadas por una billetera multisig formada por 9 miembros. Los cambios deben estar firmados por 6 de los 9 firmantes de billetera multisig para que se implementen. Los miembros de la billetera multisig fueron elegidos por los holders de YFI y están sujetos a cambios en futuras votaciones. Consulta nuestra FAQ para conocer [la lista de firmantes de la multisig](https://docs.yearn.finance/faq#who-are-the-9-multisig-signers).
 
 ## Involúcrate!
 

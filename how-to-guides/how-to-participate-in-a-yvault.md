@@ -47,9 +47,9 @@ Asegúrate de que tienes **suficiente ETH en tu wallet**.
 
 ### 8. Recibe tu yToken \(en este caso sería yDAI\)
 
-Los tokens yDAI que recibirás son tu **parte de la Vault de DAI.** La cantidad de yDAI en tu wallet se mantendrá constante en el tiempo pero su valor incrementará a medida que la Vault de DAI genera ganancias.
+Los tokens yDAI que recibirás son tu **parte de la Vault de DAI.** La cantidad de yDAI en tu wallet se mantendrá constante en el tiempo pero su valor incrementará a medida que la Vault de DAI genere ganancias.
 
-La cantidad de yDAI que recibirás será menor que 1 por cada DAI que depositas porque 1 yDAI cuesta más que 1 DAI.
+La cantidad de yDAI que recibirás será menor que 1 por cada DAI que deposites porque 1 yDAI cuesta más que 1 DAI.
 
 Por ejemplo, en el bloque número 10611372, un token yDAI era equivalente a 1.044 DAI. Por tanto, si hubieses depositado 100 DAI en ese momento, habrías recibido 95.78 yDAI \(100 / 1.044\).
 
