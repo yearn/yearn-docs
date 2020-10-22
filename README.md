@@ -1,39 +1,41 @@
 # Introduction sur Yearn
 
 {% hint style="info" %}
-Ces documents en developement constant de la part de la communaute YearnThese docs are in active development by the Yearn community.
+Ces documents en développement constant de la part de la communauté Yearn
 {% endhint %}
 
-Yearn Finance is a suite of decentralized finance \(DeFi\) products focused on creating a simple way to generate high risk-adjusted returns for depositors of various assets via best-in-class lending protocols, liquidity pools, and community-made yield farming strategies on Ethereum.
+Yearn Finance est une suite de produits financiers décentralisé \(DeFi\) visant à créer un moyen simple de générer des intérets ,ajustés au risque élevés pour les déposants de divers actifs via des protocoles de prêt de premier ordre, des pools de liquidités et des stratégies de rendement agricole \(yield farming\) sur Ethereum.
 
-## Core Products
+## Produits de base
 
-### Vaults
+### Vaults \(Coffres-forts\)
 
-* Community-developed yield farming robots
-* yVaults follow a unique strategy that are designed to maximize the yield of the deposited asset and minimize risk.
+* Robots de yield-farming développés par la communauté. 
+* Les yVaults suivent des stratégies uniques et conçues pour maximiser le rendement de l'actif déposé et minimiser les risques.
 
 ### Earn
 
-* Yield-aware dynamic money markets that serve as building blocks for yVaults
-* Earn performs profit switching for lending providers, moving your funds between dydx, Aave, Compound autonomously.
+*  Des marchés monétaires dynamiques et sensibles au rendement qui servent de blocs de construction pour les yVaults.
+* Earn réalise des échanges de protocoles pour obtenir les meilleurs intérets 
+
+  pour les fournisseurs de prêt déplaçant vos fonds entre dydx, Aave, Compound de manière autonome. 
 
 ### Zap
 
-* A tool that enables users to swap between various stablecoins and a basket of interest-bearing stablecoins \(yTokens\) or pools \(yCRV\)
-* Save on gas fees by Zapping directly into or out of Curve pools from the base assets.
+* Un outil qui permet aux utilisateurs d'échanger divers stablecoins contre un panier de stablecoin permettant de recevoir des intérêt \(yTokens\) ou prevenant de pools de liquidités  \(yCRV\)
+* Économisez sur les frais de gaz en rentrant ou sortant directement dans des pools Curve à partir des actifs de base.
 
 ### Cover
 
-* yInsure pooled insurance provides coverage against financial loss for various smart contracts and product offerings underwritten by Nexus Mutual.
+* L'assurance mutualisée yInsure offre une couverture contre les pertes financières pour divers contrats intelligents \(smqrt contracts\)  et offres de produits souscrits par Nexus Mutual.
 
 ## Governance
 
-The Yearn ecosystem is controlled by YFI token holders who submit and vote on proposals that govern the ecosystem. Proposals that meet quorum requirements \(&gt;20% of the tokens staked in the governance contract\) and generate a majority support \(&gt;50% of the vote\) are implemented by a 9 member multi-signature wallet. Changes must be signed by 6 out of the 9 wallet signers in order to be implemented. The members of the muliti-signature wallet were voted in by YFI holders and are subject to change from future governance votes. Please refer to our FAQ for [the list of the multisig signers](https://docs.yearn.finance/faq#who-are-the-9-multisig-signers).
+L'écosystème Yearn est contrôlé par les détenteurs de jetons YFI qui soumettent et votent sur les propositions qui régissent l'écosystème. Les propositions qui répondent aux exigences de quorum \(&gt; 20% des jetons mis en jeu dans le contrat de gouvernance\) et qui génèrent un soutien majoritaire \(&gt; 50% des voix\) sont mises en œuvre par un portefeuille multi-signature de 9 membres. Les modifications doivent être signées par 6 des 9 signataires du portefeuille pour être mises en œuvre. Les membres du portefeuille multi-signature ont été élus par les détenteurs de YFI et  peuvent être remplacé si la gouvernance le décide.. Veuillez vous référer à notre FAQ pour la liste[ des signataires multisig.](https://docs.yearn.finance/faq#)
 
 ## Get Involved
 
-Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
+Forum de Gouvernance  [https://gov.yearn.finance/](https://gov.yearn.finance/)
 
 Discord [http://discord.yearn.finance](http://discord.yearn.finance)
 
