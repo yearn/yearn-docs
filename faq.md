@@ -49,9 +49,9 @@ Mais si vous pensez que quelque chose peut être amélioré ou si vous avez trou
   * Utiliser ces stablecoins pour générer des intérets
   * Réinvestir les stablecoins engendrés.
 
-#### Can't I just do all this myself though?
+#### Mais je ne peux pas faire tout ça moi-même?
 
-* Yes you could, but vaults help you save on gas, keep it at a good collateral/debt ratio so you don't default, and auto optimizes for highest yielding stablecoin strategies, even when you are sleeping.
+* Oui, vous pouvez, mais les vaults vous aident à économiser sur les frais de gaz, à  maintenir à un bon ratio collatéral / dette afin de ne pas faire vous faire liquider, et à optimiser automatiquement  les stratégies utilisant des stablecoins pour générer des  intérets les plus important possibles, même lorsque vous dormez.
 
 #### I see ROI on the vaults page is it the current one?
 
