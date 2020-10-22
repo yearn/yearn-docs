@@ -7,47 +7,47 @@ tags: 'docs, faq, published'
 
 ## General
 
-### Is it safe to invest money in yearn?
+### Est-il sûr d'investir de l'argent dans yearn?
 
-* Please, do your own research and decide for yourself.
+* S'il vous plaît, faites vos propres recherches et décidez par vous-même.
 
-### Is yearn audited?
+### Est ce que yearn est audité?
 
-* Yes, you can find the list of audits [here](https://github.com/iearn-finance/audits).
+* Oui, vous pouvez retrouver la liste des audits [ici](https://github.com/iearn-finance/audits).
 
 ## Feedback & Support
 
-If you have questions about how to do anything, we can help you on:
+Si vous avez des questions sur la façon de faire quoi que ce soit, nous pouvons vous aider sur::
 
 * [Discord](http://discord.yearn.finance)
 * [Telegram](https://t.me/yearnfinance)
 
-But if you think something can be improved, or you found a bug, we want to squash it. Please post it here:
+Mais si vous pensez que quelque chose peut être amélioré ou si vous avez trouvé un bug, nous voulons le résoudre. Veuillez le poster ici:
 
 * [Github](https://github.com/iearn-finance) — create a new issue in the relevant repository.
 * [Forum](https://gov.yearn.finance/c/feedback/) — post in the feedback category.
 
-## Products
+## Produits
 
 ### yearn.finance
 
-* [yearn.finance](https://yearn.finance/) hosts UIs for the **Vaults**, **Earn**, **Zap**, **APR**, and **Cover** products.
+* [yearn.finance](https://yearn.finance/) héberge des interfaces utilisateur pour les produits  suivant:  **Vaults**, **Earn**, **Zap**, **APR**, et **Cover** .
 
-### Vaults
+### Vaults \(coffres-forts\)
 
 * [yearn.finance/vaults](https://yearn.finance/vaults)
 
-#### What is a Vault?
+#### Qu'est ce qu'un  Vault?
 
-* Vaults employ strategies to automate the best yield farming opportunities available.
-* They were designed so that the community could work together to build new strategies to find the best yield.
-* Andre explains [vaults](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) and [delegated vaults](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) in these two blog posts.
-* Simply put vaults can do this:
-  * Use any asset as liquidity.
-  * Use liquidity as collateral and manage collateral at a safe level so you never default.
-  * Borrow stablecoins.
-  * Put the stablecoins to work on some farming.
-  * Reinvest earned stablecoins.
+* Les Vaults utilisent des stratégies pour automatiser les meilleurs rendement disponibles.
+* Ils ont été conçus pour que la communauté puisse travailler ensemble pour élaborer de nouvelles stratégies afin de trouver le meilleur rendement.
+* Andre a expliqué les  [vaults](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) et les [delegated vaults](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) dans ces deux posts.
+* Simplement, les vaults peuvent faire cela:
+  * Utilisez n'importe quel actif comme liquidité.
+  * Utilisez la liquidité comme garantie \(collateral\) et gérez la garantie à un niveau sûr afin de ne jamais faire défaut.
+  * Emprunter des stablecoins.
+  * Utiliser ces stablecoins pour générer des intérets
+  * Réinvestir les stablecoins engendrés.
 
 #### Can't I just do all this myself though?
 
@@ -185,21 +185,21 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 * [yearn.finance/zap](https://yearn.finance/zap)
 
-#### What is Zap?
+#### Qu'est ce qu'un Zap?
 
 * Zap allows users to convert supported tokens with just one contract interaction to reduce transaction costs.
 * Zaps were made by DefiZap which is now [Zapper.fi](https://zapper.fi) as a type of all in one DeFi routing service.
 
-#### Why use a Zap?
+#### Pourquoi utiliser un Zap?
 
 * "Zaps allow you get into a DeFi position in one transaction — it’s called zapping in." - [How to use Zaps guide](https://defitutorials.substack.com/p/how-to-use-defizap).
   * Note that this is an old article and [Zapper](https://zapper.fi) was formed as a result of DeFiSnap + DeFiZap coming together to create the ultimate hub for Decentralized Finance aka \#DeFi. So some of the stuff in the article above is out of date, but you can still use Zaps on Zapper.fi.
 
-#### So what can I do with Zaps on yearn?
+#### Qu'est ce que l'on peut faire avec Zaps sur yearn ?
 
 * With a zap you can take your DAI, for example, and get yCRV with it in one transaction. Normally, to turn DAI into yCRV, you would have to go to earn, deposit DAI and receive yDAI, then go to [Curve.fi - Yearn pool](https://www.curve.fi/iearn/deposit) and deposit your yDAI and then you would get yCRV. This is a lot to do, so instead you can do it in one transaction!
 
-#### That sounds awesome, what's the downside?
+#### Cela semble génial, quel est l'inconvénient?
 
 * Well, it does take a lot of gas and could be costly, even more so than doing it yourself manually, but if you have a big transaction and are in a rush it is a great method to get into a DeFi position or liquidity pool fast.
 
@@ -207,13 +207,13 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 * [yinsure.finance](https://yinsure.finance/)
 
-#### What's yInsure?
+#### Qu'est ce que yInsure?
 
 * yInsure, also known as **Cover**, is a pooled coverage system providing insurance against smart contract risk.
 * It has no KYC requirement and is underwritten by Nexus Mutual.
 * Learn more in this [article](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896).
 
-### Products Currently in Research & Development
+### Produit en cours de développement 
 
 #### yTrade
 
