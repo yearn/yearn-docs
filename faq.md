@@ -454,7 +454,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### [Curve](https://www.curve.fi)
 
-* Curve is an exchange liquidity pool on Ethereum \(like [Uniswap](https://app.uniswap.org/#/)\) designed for \(1\) extremely efficient stablecoin trading \(2\) low risk, supplemental fee income for liquidity providers, without an opportunity cost. Curve allows users \(and smart contracts like 1inch, Paraswap, Totle and Dex.ag\) to trade between DAI and USDC with a bespoke low slippage, low fee algorithm designed specifically for stablecoins and earn fees. Behind the scenes, the liquidity pool is also supplied to the Compound protocol or yearn.finance where it generates even more income for liquidity providers.
+* Curve es una pool de intercambio de liquidez en Ethereum \(como [Uniswap](https://app.uniswap.org/#/)\) diseñado para \(1\) intercambio de monedas estables extremadamente eficiente \(2\) bajo riesgo, ingresos de tarifas suplementarias para los proveedores de liquidez, sin un costo de oportunidad. Curve permite a los usuarios \(y smart contracts como 1inch, Paraswap, Totle y Dex.ag\) intercambiar DAI por USDC con un algoritmo de baja tarifa y deslizamiento del precio diseñado específicamente para monedas estables. La pool de liquidez también suministra a Compound o yearn.finance donde genera aún más ingresos para los proveedores de liquidez.
 * La [FAQ](https://www.curve.fi/rootfaq) de Curve.
 
 ### [Aave](https://app.aave.com/home)
