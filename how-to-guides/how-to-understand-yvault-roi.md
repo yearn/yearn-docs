@@ -1,42 +1,44 @@
-# How To Understand yVault ROI
+# Comprendre le ROI du yVault
 
 ### ROI
 
+Êtes-vous un utilisateur avancé qui essaie de comprendre comment le retour sur investissement est calculé? Passer directement à "Pourquoi nous ne pouvons pas utiliser de formules d'intérêts composés ou linéaires pour estimer les rendements de yVaults"
+
 Are you an advanced user trying to understand how ROI is calculated? Skip directly to "[_Why we can't use compound or linear interest formulas to estimate yVaults returns_](https://docs.yearn.finance/how-to-guides/how-to-understand-yvault-roi#why-cant-we-use-compound-or-linear-interest-formulas-to-estimate-yvaults-returns)"
 
-If you are a beginner in DeFi or new to Yearn keep on reading.
+Si vous êtes un débutant en DeFi ou un nouvel utilisateur de Yearn, continuez à lire.
 
-#### ROI definition:
+#### Définition du ROI :
 
-> Return on investment \(ROI\) is a ratio between net profit \(over a period\) and cost of investment \(resulting from an investment of some resources at a point in time\). A high ROI means the investment's gains compare favorably to its cost. As a performance measure, ROI is used to evaluate the efficiency of an investment or to compare the efficiencies of several different investments.\[1\] In economic terms, it is one way of relating profits to capital invested. Source: [Wikipedia](https://https://en.wikipedia.org/wiki/Return_on_investment)
+> Le retour sur investissement \(ROI\) est un rapport entre le bénéfice net \(sur une période\) et le coût de l'investissement \(résultant d'un investissement de certaines ressources à un moment donné\). Un retour sur investissement élevé signifie que les gains de l'investissement se comparent favorablement à son coût. En tant que mesure de la performance, le retour sur investissement est utilisé pour évaluer l'efficacité d'un investissement ou pour comparer l'efficacité de plusieurs investissements différents. \[1\] En termes économiques, c'est une façon de relier les bénéfices aux capitaux investis. Source: [Wikipédia](https://en.wikipedia.org/wiki/Return_on_investment)
 
 * ROI is a key performance indicator \(KPI\) available in all Yearn Vaults \(yVaults\) located here: [https://yearn.finance/vaults](https://yearn.finance/vaults).
 * ROI is useful when comparing and assessing vault performance.
 * ROI presented in Yearn is a **yearly ROI**. You deposit X and 1 year later you receive X + \(X \* ROI\).
 * The ROI presented is a _current estimation_ based on data since the yVault's inception. If performance remains constant, after 1 year you will receive the displayed ROI. Rates are unstable currently, and fluctuate based on market/strategy.
 
-yVaults have different yield farming [strategies](https://docs.yearn.finance/faq#vault-strategies), which determine how assets are moved between liquidity pools. Strategies are created by the `Controller` who manages the yVault.
+yVaults a différentes [stratégies](https://docs.yearn.finance/faq#vault-stratégies) de rendement \(yield farming\), qui déterminent la façon dont les actifs sont déplacés entre les pools de liquidités. Les stratégies sont créées par le `Controller` qui gère le yVault.
 
-New strategies are also voted by the community through [governance proposals](https://gov.yearn.finance). A new strategy creates a new challenge in terms of ROI calculation.
+De nouvelles stratégies sont également votées par la communauté à travers des [propositions de gouvernance](https://gov.yearn.finance/). Une nouvelle stratégie crée un nouveau challenge en termes de calcul du ROI.
 
 * Individuals interested in participating in a yVault should monitor the ROI presented in the vault dashboard after a strategy change. The rate presented reflects the most recent ROI.
 * An individual participating before a strategy change might be interested in comparing ROI before and ROI after. Historic ROI, e.g. since yVault creation, can also help users understand performance and inform future decisions.
 
-## ROI calculation
+## Calcul du ROI 
 
-Even though yVaults have a compounding effect inherently, this compound interest is not fixed like in a CeFi savings account. Hence, the concept of [APY](https://www.investopedia.com/terms/a/apy.asp) and [APR](https://www.investopedia.com/terms/a/apr.asp) do not apply directly to yVaults. They are used by the community but interpreting them should be taken with a grain of salt.
+Même si le yVaults a un effet composé par nature, cet intérêt composé n'est pas fixe comme dans un compte d'épargne CeFi. Par conséquent, le concept [d'APY](https://www.investopedia.com/terms/a/apy.asp) et [d'APR](https://www.investopedia.com/terms/a/apr.asp) ne s'applique pas directement aux yVaults. Ils sont utilisés par la communauté, mais leur interprétation doit être prise des pincettes.
 
-### Why can't we use compound or linear interest formulas to estimate yVaults returns?
+### Pourquoi nous ne pouvons pas utiliser de formules d'intérêts composés ou linéaires pour estimer les rendements de yVaults ?
 
-* This shows the estimation of an asset that has interest / compounded interest applied to it:
+* Cela montre l'estimation d'un actif auquel sont appliqués des intérêts / intérêts composés:
 
 ![](https://i.imgur.com/OZKqesB.png)
 
-* This is the actual, measured performance of an asset in the yUSD vault:
+* Il s'agit de la performance réelle et mesurée d'un actif dans le vault yUSD:
 
 ![](https://i.imgur.com/NpogiO9.png)
 
-### Why does this happen?
+### Pourquoi cela arrive-t-il ?
 
 A bank's interest rate is constant: either linear or compounding. The interest rate is multiplied by the asset value each period.
 
