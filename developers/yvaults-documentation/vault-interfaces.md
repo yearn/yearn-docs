@@ -90,10 +90,6 @@ function skim() external;
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
-`skim()` is not currently in use by any Strategies.
-{% endhint %}
-
 ### function `withdrawAll()`
 
 Withdraws the entire amount of `want()` tokens available, and should always only be sending these to the Vault. This function should have access control enforcing the Controller only to be its allowed caller. Typically used when migrating strategies.
