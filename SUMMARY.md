@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction sur Yearn](README.md)
+* [Introduction de Yearn](README.md)
 * [FAQ](faq.md)
 * [DeFi Glossary](defi-glossary.md)
 * [Les tutos](how-to-guides/README.md)

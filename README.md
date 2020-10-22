@@ -1,4 +1,4 @@
-# Introduction sur Yearn
+# Introduction de Yearn
 
 {% hint style="info" %}
 Ces documents en développement constant de la part de la communauté Yearn
