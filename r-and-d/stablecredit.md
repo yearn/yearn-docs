@@ -1,26 +1,35 @@
 ---
-description: In Development
+Status: In Research & Development
 ---
 
 # StableCredit
+StableCredit is an upcoming product in research & development that combines three pillars of existing DeFi infrastructure: 
+<ul> 
+  <li>Minting synthetic debt (DAI, Synthetix);</li>
+  <li>Decentralized lending platform (Compound, AAVE);</li>
+  <li>Automated Market Maker (AMM) functionality (Uniswap, Sushiswap).</li> 
+</ul>
 
-{% embed url="https://medium.com/iearn/introducing-stablecredit-a-new-protocol-for-decentralized-lending-stablecoins-and-amms-7252a43ee56" caption="" %}
+## Mechanics
+StableCredit will enable users to deposit assets as collateral and obtain a line of credit (denominated in StableCredit USD) based on the dollar value of the assets at deposit. For example, a user can deposit 100 LINK and will obtain $1,100 worth of StableCredit USD (at the time of writing LINK is ~$11). StableCredit USD can then be traded for other assets available in the protocol. 
 
-## Explanations
+Exchange rates between StableCredit USD and assets in the protocol are determined by price feeds from oracles (Chainlink), and current utilization ratios of assets within the platform. For example, if liquidity providers have lent 100 DAI to the pool and 90 DAI is borrowed, the utilization ratio is 90%. Similar to how bonding curves work, there will then be a significant premium for any additional DAI borrowing (the cost to borrow DAI will be > $1). Users will be able to borrow up to 75% of the value of their collateral (i.e., utilization ratio of 75%). 
 
-1. Finematics [explains](https://twitter.com/finematics/status/1305188626008100865) the whole process in 30 secs.
-2. Andre joins the CODEUP 38 and [explains](https://www.youtube.com/watch?v=bdC3rNDChbw&feature=youtu.be&t=2002) the product himself.
-3. Economic Designs also takes a shot at [explaining](https://twitter.com/lisajytan/status/1304584889237270528) it.
-4. Bankless [discussed](https://www.youtube.com/watch?v=SkTuMVBLBNQ&feature=youtu.be), with Andre, StableCredit in detail.
+The AMM will also support single-sided liquidity exposure for liquidity providers (LPs). Current popular AMM models, such as Uniswap and Sushiswap, require LPs to deposit both assets in a liquidity pool. For example, in a ETH-USDC liquidity pool, the liquidity provider would be required to deposit ETH and USDC in a 50/50 ratio. This increases the barrier to entry for liquidity providers and also the capital requirements. Single-sided liquidity provisioning will enable LPs to deposit only one of the assets in the liquidity pool (i.e., either ETH or USDC). As a result, the barriers of entry to be a LP will be greatly reduced, and should contribute to an overall increase in capital efficiency.
 
-## Other concepts
+## Summary
+Users can: 
+<ul>
+  <li>Deposit collateral and obtain a line of credit (StableCredit USD);</li>
+  <li>Borrow other assets with this line of credit (similar to Aave or Compound);</li>
+  <li>Trade the asset borrowed for another asset in the pool (existing AMM functionality);</li>
+</ul>
 
-- Stablecredit uses single-sided [Automated Market Makers](https://docs.yearn.finance/defi-glossary#automated-market-maker). Here is more [info](https://www.youtube.com/watch?v=842acSWmBC4&t=336s) on how AMMs work.
-- [Collateral](https://docs.yearn.finance/defi-glossary#collateralization), Multicollateral.
-- MakerDAO and [MakerDAO CDPs](https://docs.yearn.finance/defi-glossary#maker) is a lending system which StableCredit builds on conceptually.
-- Utilization Ratio is the maximum amount of credit a user will get from the deposited amount.
 
-## What the user gets
-
-1. The user gets a Credit Line by providing "almost any token". Currently, any token available in the [CHAINLINK oracle \(price feeds\)](https://feeds.chain.link/).
-2. The credit line is given to the user in a StableCredit token. This is a new token minted. This token is a stable token. The user can only get up to 75% from the total amount deposited into the StableCredit contract. This 75% is called utilization ratio.
+## Additional Learning Resources & Background
+<ul>
+  <li><a href="https://medium.com/iearn/introducing-stablecredit-a-new-protocol-for-decentralized-lending-stablecoins-and-amms-7252a43ee56">Initial Medium Post introducing StableCredit</a></li>
+  <li><a href="https://twitter.com/finematics/status/1305188626008100865">Animation illustrating the mechanics of StableCredit</a></li>
+  <li><a href="https://www.youtube.com/watch?v=SkTuMVBLBNQ&feature=youtu.be">Bankless video about StableCredit, featuring Andre Cronje</a></li>
+  <li><a href="https://www.youtube.com/watch?v=bdC3rNDChbw&feature=youtu.be&t=2002">CODEUP 38 video about StableCredit, featuring Andre Cronje</a></li>   
+ </ul>
