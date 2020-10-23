@@ -369,10 +369,6 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 - Andre isn't in charge of Yearn, the YFI token holders make the decisions on what to build and governance decisions, Andre is the lead developer of the yearn ecosystem.
 
-### What does Andre do?
-
-- Andre is the main developer building out the products that comprise the yearn ecosystem: Yearn, Ytrade, Yswap, Yliquidate, Yborrow. He is also currently in charge of running the Vaults and overseeing them.
-
 ### What is the multisig and what do they do?
 
 - The multi-signature address is explained in detail in this [thread](https://gov.yearn.finance/t/yfi-minting-ownership/155). Basically, it is a 6 of 9 multi-signature account that has control over minting YFI if a vote to mint tokens has passed successfully.
@@ -408,15 +404,21 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ### Who else writes code for yearn? Is there a team?
 
-- Right now it's just Andre.
+- Yes! Meet the core dev-team behind Yearn:
+
+  - [@fubuloubu](https://gov.yearn.finance/u/fubuloubu)
+  - [@x48](https://gov.yearn.finance/u/x48)
+  - [@doug](https://gov.yearn.finance/u/doug)
+  - [@luciano](https://gov.yearn.finance/u/luciano)
+  - [@orbxball](https://gov.yearn.finance/u/orbxball)
 
 ### Does anyone get paid for working on yearn?
 
-- As of this moment, not yet, but thanks to the passage of [YIP 36](https://yips.yearn.finance/YIPS/yip-36) and the creation of a community pool of funds that will be kept at 500k usd, we can now pay Andre for his work, fund audits, and pay for new devs to be hired along with anything else the the yearn ecosystem needs.
+- Yes. Yearn has a core team that receives recurring payments. Grants are also distributed to valuable contributors in a monthly basis. Check [September Grants Announcement.](https://gov.yearn.finance/t/september-grants-announcement/7044)
 
 ### How can I work for yearn?
 
-- You can make a YIP to apply for funding from the 500k USD treasury directly or ask the yDAO for funding.
+- If you want to contribute to the project as well just reach out to our community managers on [Discord](http://discord.yearn.finance/)/[Telegram](https://t.me/yearnfinance)/[Twitter](https://twitter.com/iearnfinance). We'll also release soon a Contributor's Guide.
 
 ### Do you have any job openings?
 
