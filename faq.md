@@ -46,12 +46,12 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
   * Utilizar cualquier activo como liquidez.
   * Utilizar la liquidez como aval para un préstamo y gestionar el préstamo   para que el aval nunca sea liquidado.
   * Pedir prestadas monedas estables.
-  * Ponger las monedas estables a farmear.
+  * Poner las monedas estables a farmear (Yield farming).
   * Reinvertir las monedas estables ganadas.
 
 #### ¿No puedo hacer todo esto yo mismo?
 
-* Sí, podrías hacerlo, pero las Vaults sirven para ahorrar gas, mantener un buen ratio aval/deuda para que el aval no sea liquidado y cambia automáticamente a la estrategia que de el rendimiento más alto posible, incluso mientras estás durmiendo.
+* Sí, podrías hacerlo, pero las Vaults sirven para ahorrar gas, mantener un buen ratio aval/deuda para que el aval no sea liquidado y cambia automáticamente a la estrategia que dé el rendimiento más alto posible, incluso mientras estás durmiendo.
 
 #### Veo que se muestra el ROI en la página de las Vaults, ¿es el ROI actual?
 
