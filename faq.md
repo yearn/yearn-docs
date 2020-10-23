@@ -46,12 +46,12 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
   * Utilizar cualquier activo como liquidez.
   * Utilizar la liquidez como aval para un préstamo y gestionar el préstamo   para que el aval nunca sea liquidado.
   * Pedir prestadas monedas estables.
-  * Ponger las monedas estables a farmear.
+  * Poner las monedas estables a farmear (Yield farming).
   * Reinvertir las monedas estables ganadas.
 
 #### ¿No puedo hacer todo esto yo mismo?
 
-* Sí, podrías hacerlo, pero las Vaults sirven para ahorrar gas, mantener un buen ratio aval/deuda para que el aval no sea liquidado y cambia automáticamente a la estrategia que de el rendimiento más alto posible, incluso mientras estás durmiendo.
+* Sí, podrías hacerlo, pero las Vaults sirven para ahorrar gas, mantener un buen ratio aval/deuda para que el aval no sea liquidado y cambia automáticamente a la estrategia que dé el rendimiento más alto posible, incluso mientras estás durmiendo.
 
 #### Veo que se muestra el ROI en la página de las Vaults, ¿es el ROI actual?
 
@@ -110,7 +110,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### ¿Cuáles son las tarifas ?
 
 * **Tarifa del 0.5%** sobre fondos retirados de estrategias activas.
-  * Cada Vault tiene una cierta cantidad de los fondos totales inactivos mientras que la mayoría de estos participan activamente en la estrategia. Los fondos inativos son la diferencia entre`vault holdings` y `strategy holdings` que pueden consultarse en [feel the yearn](https://feel-the-yearn.app/).
+  * Cada Vault tiene una cierta cantidad de los fondos totales inactivos mientras que la mayoría de estos participan activamente en la estrategia. Los fondos inactivos son la diferencia entre`vault holdings` y `strategy holdings` que pueden consultarse en [feel the yearn](https://feel-the-yearn.app/).
   * Cuando retiras tus fondos, si estos son extraídos de los fondos inactivos de la Vault, no tendrás que pagar ninguna tarifa de retiro. En cambio, si los fondos son extraídos de la estrategia, se aplicará una tafica del 0.5% del total que se va a retirar.
 * **Tarifa del 5%** en rendimientos adicionales
   * Para estrategias hechas por un miembro de la comunidad, como la nueva Vault de yETH, un 10% de esta tarifa va destinada al creador de la estrategia. EL otro 90% va al tesoro desde donde es distribuída a los stakers del contracto de gobernanza.
