@@ -2,9 +2,9 @@
 
 ## YFI
 
-* Yearn Governance token
-* Only 30,000 minted and already fully distributed
-  * Governance can mint more, if proposal to do so passes.
+* Token de gobernanza de yEarn.
+*  Sólo 30,000 fueron creados y ya han sido distribuidos.
+  * La gobernanza puede crear más, pero sólo si una apruesta es aprobada.
 
 ## yTokens
 
