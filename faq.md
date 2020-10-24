@@ -46,7 +46,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
   * Utilizar cualquier activo como liquidez.
   * Utilizar la liquidez como aval para un préstamo y gestionar el préstamo   para que el aval nunca sea liquidado.
   * Pedir prestadas monedas estables.
-  * Poner las monedas estables a farmear (Yield farming).
+  * Poner las monedas estables a farmear \(Yield farming\).
   * Reinvertir las monedas estables ganadas.
 
 #### ¿No puedo hacer todo esto yo mismo?
@@ -409,7 +409,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Quién más escribe código para yearn? ¿Hay algún equipo?
 
-*  Ahora mismo sólo Andre.
+* Ahora mismo sólo Andre.
 
 ### ¿Le pagan a alguien por trabajar en yearn?
 
