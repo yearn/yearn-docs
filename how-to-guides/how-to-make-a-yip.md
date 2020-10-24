@@ -46,14 +46,14 @@ YIPs MUST pass some validation tests. The YIP repository ensures this by running
 
 Las YIPs DEBEN pasar algunos tests de validación.
 
-It is possible to run the YIP validator locally:
+Es posible correr el validador de YIPs localmente de la siguiente forma:
 
 ```ruby
 gem install yip_validator
 yip_validator <INPUT_FILES>
 ```
 
-## Copyright
+## Derechos de autor
 
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+Derechos de autor y derechos relacionados con renuncia a través de [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
 
