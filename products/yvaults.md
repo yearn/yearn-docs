@@ -1,40 +1,40 @@
 # yVaults
 
-The goal of the Vaults program is to empower the community to quickly and safely create and utilize the most effective yield farming robots created by the industry's best strategists.
+L'objectif des Vaults est de permettre à la communauté de créer et d'utiliser rapidement et en toute sécurité les robots agricoles \( yield farming robots \) avec les rendements les plus efficaces, créés par les meilleurs stratèges de l'industrie.
 
-yVaults have a 0.5% withdrawal fee and a 5% fee on additional yield whenever the `harvest()` function is called, [see the FAQ](https://docs.yearn.finance/faq#what-are-the-fees) for more details. Individual profits are allocated on a pro-rata basis determined by the share each depositor contributes to the pool.
+Les yVaults ont des frais de retrait de 0,5% et des frais de 5% sur le rendement supplémentaire chaque fois que la fonction `harvest()`  est appelée, voir la [FAQ](https://docs.yearn.finance/faq#quels-sont-les-frais) pour plus de détails. Les bénéfices individuels sont répartis au prorata, déterminé par la part de chaque déposant dans la pool.
 
-### Available yVaults
+### Les yVaults disponibles
 
-There are currently nine yVaults. You can access them here: [https://yearn.finance/vaults](https://yearn.finance/vaults) 1. ETH/WETH 2. YFI 3. yDAI+yUSDC+yUSDT+yTUSD \(yCRV\) 4. crvBUSD 5. crvBTC 6. DAI 7. TUSD 8. USDC 9. USDT
+Il existe actuellement neuf yVaults. Vous pouvez y accéder ici: [https://yearn.finance/vaults](https://yearn.finance/vaults) 1. 1. ETH/WETH 2. YFI 3. yDAI+yUSDC+yUSDT+yTUSD \(yCRV\) 4. crvBUSD 5. crvBTC 6. DAI 7. TUSD 8. USDC 9. USDT
 
-The tokens identified above are deposited into their respective yVaults and used to yield farm using current opportunities in the market.
+Les jetons identifiés ci-dessus sont déposés dans leurs yVaults respectifs et utilisés pour farmer en utilisant les opportunités actuelles sur le marché.
 
-The vaults are created and maintained by a Controller, who oversees the strategy execution. Profits generated from each respective vault are used to purchase more of the underlying asset in each vault \(e.g., the YFI vault's profits are used to purchase additional YFI\); therefore, _the vaults represent a a continuous buy-and-hold strategy._
+ Les vaults sont créés et gérés par un contrôleur, qui supervise l'exécution de la stratégie. Les bénéfices générés par chaque  vault  sont utilisés pour acheter davantage d'actif sous-jacent dans chaque vault \(par exemple, les bénéfices du vault YFI sont utilisés pour acheter des YFI supplémentaires\); _par conséquent, les coffres représentent une stratégie d'achat et de conservation continue \(buys-and-hold\)._
 
-### yETH Vault Mechanics
+### Méchanisme du Vault yETH  
 
-The Controller opens a colleratlized debt position \(CDP\) at MakerDAO using ETH as collateral and mints DAI. The DAI is deposited into the yDAI vault. The collateralization ratio—a metric of financial leverage—is targeted to always be at least 200%. Automated bots periodically pay down the DAI debt if the ratio falls below 200%. The DAI is redeemed from [Curve](http://curve.fi/) and is not purchased from the open market \(i.e., yDAI is burned and redeemed for DAI\). Excess DAI earned from yield farming are used to purchase additional ETH, which is deposited into the yETH vault.
+Le contrôleur ouvre une position de dette colatéralisée  \(CDP = colleratlized debt position \) sur MakerDAO en utilisant l'ETH comme garantie et génere  le DAI. Ce DAI est déposé dans le vault yDAI. Le ratio de garantie - une mesure de levier financier - doit toujours être d'au moins 200%. Les robots automatisés remboursent périodiquement la dette en DAI si le ratio tombe en dessous de 200%. Le DAI est échangé sur  [Curve](https://www.curve.fi/) et n'est pas acheté sur le marché libre \(c'est-à-dire que le yDAI est brûlé et échangé contre du DAI\). L'excédent de DAI obtenu grâce à l'agriculture de rendement est utilisé pour acheter de l'ETH supplémentaire, qui est déposé dans le vault yETH.
 
 ![](https://i.imgur.com/ZASptpX.png)
 
-### Delegated yVaults
+### Les yVaults délégués
 
-Volatile assets can also particpate in yield farming strategies as part of the delegated yVault product. Currently, there is only one delegated yVault: aLINK.
+Les actifs volatils peuvent également participer à des stratégies d'agriculture de rendement dans le cadre de produit délégué yVault. Actuellement, il n'y a qu'un seul yVault délégué: le aLINK. 
 
-Profits generated from the delegated yVault are used to purchase more of the underlying asset. Once again representing _a continuous buy-and-hold strategy_, allowing the depositor to remain 100% exposed to the asset. Depositors can withdraw their initial deposits and accrued profits, if any, at any time after a 0.5% fee taken on deposit.
+Les bénéfices générés par le yVault délégué sont utilisés pour acheter davantage de l'actif sous-jacent. Représentant à nouveau une stratégie d'achat et de conservation continue \(_continuous buy-and-hold strategy\)_, permettant au depositaire de rester exposé à 100% à l'actif. Les depositaire peuvent retirer leurs dépôts initiaux et les bénéfices accumulés, le cas échéant, à tout moment, moyennant des frais de 0,5% prélevés sur le dépôt.
 
-#### Mechanics
+#### Méchanisme
 
-The Controller deposits LINK into AAVE and borrows stablecoins. If at any time the health factor drops below the vault's configured value \(currently set to 2\), the Controller repays a portion of the debt in order to maintain a health factor above its configured value.
+Le contrôleur dépose du LINK dans AAVE et emprunte des stablecoins. Si à tout moment le health factor tombe en dessous de la valeur configurée du vault\(actuellement définie sur 2\), le contrôleur rembourse une partie de la dette afin de maintenir un health factor au-dessus de sa valeur configurée. 
 
-The stablecoins borrowed \(e.g., USDC, DAI, USDT, etc.\) depend on the strategy selected by the Controller. After obtaining stablecoins the Controller will deposit them into one of the yVaults identified above.
+Les stablecoins empruntés \(par exemple, USDC, DAI, USDT, etc.\) dépendent de la stratégie choisie par le contrôleur. Après avoir obtenu des stablecoins, le contrôleur les déposera dans l'un des yVaults indiqués ci-dessus.
 
 ![](https://i.imgur.com/8AVJU0d.png)
 
 ## Resources
 
 * [Vaults Homepage](https://yearn.finance/vaults)
-* Medium Article: [yETH vault explained](https://medium.com/iearn/yeth-vault-explained-c29d6b93a371)
-* Medium Article: [Delegated Vaults Explained](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
+* Article sur Medium: [yETH vault explained](https://medium.com/iearn/yeth-vault-explained-c29d6b93a371)
+* Article sur Medium: [Delegated Vaults Explained](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
 
