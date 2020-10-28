@@ -1,41 +1,47 @@
 # yInsure
 
-[yInsure](https://yinsure.finance/), also referred to as **Cover**, is a smart contract cover underwritten by [Nexus Mutual](https://nexusmutual.io/). It is decentralised and there is no KYC required to obtain cover. It consists of three components:
+[yInsure](https://yinsure.finance/), également appelée **Cover**, est une couverture de contrat intelligente souscrite par [Nexus Mutual.](https://nexusmutual.io/) Cela est décentralisé et il n'y a pas de KYC requis pour obtenir une couverture. Il se compose de trois éléments: 
 
-* **Cover Vaults** hold assets that are used to provide payment in the event of a claim;
-* **Covered Vaults** hold assets that the "cover holder" desires to be covered, and;
-* **Claim Governance** which represents the claim arbitration process
 
-The system consists of many market participants, including:
 
-* **Cover providers:** Deposits funds into the Cover Vaults
-* **Cover holders:** Pays premiums in order to obtain cover for their Covered Vaults
-* **Claimants:** Cover holders who have an approved claim and are entitled to payment
+* **Les vaults de couverture** détiennent des actifs qui sont utilisés pour payer en cas de sinistre;
+*  **Les vaults couverts** détiennent des actifs que le «détenteur de la couverture» désire couvrir, et;
+* **Gouvernance des réclamations** qui représente le processus d'arbitrage des réclamations 
 
-While smart contract cover can provide some protection against smart contract risks, it is **not** insurance.
+ Le système se compose de nombreux acteurs du marché, notamment: 
 
-## Cover Vaults
+* **Fournisseurs de couverture:** dépose des fonds dans les vaults de couverture 
+* **Titulaires de couverture:** paie des primes afin d'obtenir une couverture pour leurs vaults couverts 
+* **Réclamants:** les titulaires de la couverture qui ont une réclamation approuvée et ont droit à un paiement
 
-Contains the assets used in the capital pool, which can provide payment in the event of a claim. The Cover Vaults works as follows:
+Bien que la couverture de contrat intelligent puisse fournir une certaine protection contre les risques de contrat intelligent, il ne s'agit pas d'une assurance.
 
-* Cover providers deposit USDC to the vault, and in return receive yiUSDC.
-* yiUSDC represents cover provider's original deposit and ultimately the cover capital pool.
-* Cover providers receive initiation fees and weekly premiums paid by the cover holder.
-* If a claim is approved, USDC will be paid out of the cover vault to the cover holder \(claimant\).
 
-## Covered Vaults
 
-Contains the assets that cover holders desire to obtain insurance on. The Covered Vaults work as follows:
+## Les vaults de couverture
 
-* If a cover holder wishes to obtain cover on USDT, he/she would deposit USDT to the Covered Vault, and in return receive yiUSDT.
-* yiUSDT represents the cover holder's deposit and can be withdrawn at any time.
-* The covered sum is the value of the asset in dollars at deposit. The cover holder is charged a 0.1% initiation fee at deposit and ongoing 0.1% weekly fees.
+Contient les actifs utilisés dans le pool de capitaux, qui peuvent fournir un paiement en cas de réclamation. Le Cover Vaults fonctionne comme suit:
 
-The intention is that [yVaults](https://yearn.finance/vaults) \(such as yUSD\) can be Covered Vaults.
+* Les fournisseurs de couverture déposent USDC dans le vault et reçoivent en retour yiUSDC 
+* yiUSDC représente le dépôt initial du fournisseur de couverture et finalement la pool de capitaux de couverture.
+* Les fournisseurs de couverture reçoivent des frais d'initiation et des primes hebdomadaires   payés par le titulaire de la couverture.
+* Si une réclamation est approuvée, l'USDC sera payé sur le coffre-fort au détenteur de la couverture \(demandeur\).
 
-## Claim Governance
+ 
 
-Represents the claim arbitration process. This process works as follows:
+## Les vaults couverts
+
+Contient les actifs qui couvrent les détenteurs désireux d'obtenir une assurance. Les voûtes couvertes fonctionnent comme suit:
+
+* Si un détenteur de couverture souhaite obtenir une couverture sur l'USDT, il / elle déposera l'USDT dans le vault de couverte, et en retour recevra des yiUSDT
+*  yiUSDT représente le dépôt du détenteur de la couverture et peut être retiré à tout moment. 
+* La somme couverte est la valeur de l'actif en dollars lors du dépôt. Le détenteur de la couverture est facturé des frais d'initiation de 0,1% au dépôt et des frais hebdomadaires continus de 0,1%.
+
+la finalité est que les [yVaults](https://yearn.finance/vaults) \(comme yUSD\) puissent être des vaults couverts.
+
+## Gouvernance de réclamation 
+
+Représente le processus d'arbitrage des réclamations. Ce processus fonctionne comme suit:
 
 * Cover holders submit claims by staking the asset they received during deposit \(yiUSDT\).
 * Cover providers vote with the assets they received during deposit \(i.e., yiUSDC\) on whether the claim is valid or not.
@@ -45,13 +51,13 @@ Represents the claim arbitration process. This process works as follows:
 * If cover providers deny valid claims, cover holders will no longer use the system and ultimately make it unprofitable for cover providers.
 
 {% hint style="info" %}
-### **A Common Misconception: Not Insurance** <a id="9521"></a>
+### Une idée fausse courante: ce n'est pas une assurance **** <a id="9521"></a>
 
-The smart contract cover underwritten by Nexus Mutual is not a contract of insurance. It is a discretionary cover provided by members of the mutual to each other. Members have full discretion on which claims payments are made. Members are putting trust in the economic incentive model rather than an insurance company. Learn more on [Understanding Nexus Mutual](https://medium.com/nexus-mutual/understanding-nexus-mutual-bb2946dad919).
+La couverture smart contract souscrite par Nexus Mutual n'est pas un contrat d'assurance. Il s'agit d'une couverture discrétionnaire fournie entre les membres de la mutuelle. Les membres ont l'entière discrétion sur les demandes de paiement. Les membres font confiance au modèle d'incitation économique plutôt qu'à une compagnie d'assurance. En savoir plus en lisant: [Comprendre Nexus Mutual](https://medium.com/nexus-mutual/understanding-nexus-mutual-bb2946dad919).
 {% endhint %}
 
 ## Resources
 
-* [yInsure Homepage](http://yinsure.finance/)
-* Medium article: [yinsure.finance a new insurance primitive](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896)
+* [Page d'accueil de yInsure ](https://yinsure.finance/)
+* Article Medium : [yinsure.finance a new insurance primitive](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896)
 

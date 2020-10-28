@@ -14,5 +14,5 @@ En septembre 2020, le rendement annualisé depuis le début de l'année pour les
 
 ## Resources
 
-* [Earn Homepage](https://yearn.finance/earn)
+* [Page d'accueil de Earn](https://yearn.finance/earn)
 
