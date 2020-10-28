@@ -1,14 +1,14 @@
 # Earn
 
-Earn is a lending aggregator that strives to attain the highest yield for supported coins \(DAI, USDC, USDT, TUSD, sUSD, or wBTC\) at all times. It does this by programatically shifting these coins between several lending protocols \([AAVE](https://aave.com), [dYdX](https://dydx.exchange/), and [Compound](https://compound.finance)\) operating on the Ethereum blockchain.
+Earn est un agrégateur de prêts qui s'efforce d'atteindre à tout moment le rendement le plus élevé pour les stablecoins prient en charge \(DAI, USDC, USDT, TUSD, sUSD ou wBTC\). Il le fait en déplaçant de manière programmée ces jetons entre plusieurs protocoles de prêt \([AAVE](https://aave.com/), [dYdX](https://dydx.exchange/) et [Compound](https://compound.finance/)\) fonctionnant sur la blockchain Ethereum.
 
-For example, a user can deposit DAI into the Earn yDAI pool. Yearn will programtically deposit DAI into one of three lending protocols \(AAVE, dYdX, Compound\). Yearn will withdraw from one protocol and deposit to another automatically as interest rates change between protocols. As a result, the user will receive the most optimal interest on his or her DAI deposit at all times.
+Par exemple, un utilisateur peut déposer du DAI dans le pool Earn yDAI. Yearn déposera par de façon programmée le  DAI dans l'un des trois protocoles de prêt \(AAVE, dYdX, Compound\). Yearn se retirera d'un protocole et effectuera un dépôt dans un autre de façon automatique à mesure que les taux d'intérêt changent entre les protocoles. En conséquence, l'utilisateur recevra à tout moment l'intérêt le plus optimal sur son dépôt DAI.
 
 ![](https://i.imgur.com/jLlg0WU.png)
 
-Earn is a key component of the yPool at Curve.Finance, which represents a basket of four yTokens: yDai, yUSDC, yUSDT, and yTUSD. The underlying four yTokens are constantly optimizing to yield the highest available interest in the market \(described above\), while also serving as a liquidity pool for these tokens. Users can interact with this pool to swap between any of the four tokens with little slippage. Therefore, liquidity providers of the yPool receive the optimized interest rates on their stablecoin deposits and trading fees from users swapping tokens from the pool.
+Earn est un élément clé de la yPool chez Curve.Finance, qui représente un panier de quatre yTokens: yDai, yUSDC, yUSDT et yTUSD. Les quatre yTokens sous-jacents sont constamment optimisés pour générer le plus haut intérêt disponible sur le marché \(décrit ci-dessus\), tout en servant également de pool de liquidité pour ces jetons. Les utilisateurs peuvent interagir avec cette pool pour échanger entre l'un des quatre jetons avec peu de slippage. Par conséquent, les fournisseurs de liquidité du yPool reçoivent les taux d'intérêt optimisés sur leurs stablecoins  et les frais des utilisateurs échangeant des jetons de la pool.
 
-As of September 2020, the YTD annualized return for yPool liquidity providers is estimated to be 9.11%. Since yDAI+yUSD+yUSDT+yTUSD is a continuouslly accruing interest-bearing token, its price is above $1 and is constantly increasing.
+En septembre 2020, le rendement annualisé depuis le début de l'année pour les fournisseurs de liquidité yPool est estimé à 9,11%. Étant donné que yDAI + yUSD + yUSDT + yTUSD est un jeton avec un intérêt qui s'accumule en permanence, son prix est supérieur à 1 $ et augmente constamment.
 
 ![](https://i.imgur.com/U4KcWyE.png)
 
