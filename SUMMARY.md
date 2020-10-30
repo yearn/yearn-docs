@@ -18,23 +18,7 @@
 * [Zap](products/zap.md)
 * [yInsure](products/yinsure.md)
 
-## I+D <a id="r-and-d"></a>
-
-* [yBorrow](r-and-d/yborrow.md)
-* [yLiquidate](r-and-d/yliquidate.md)
-* [ySwap](r-and-d/yswap.md)
-* [yTrade](r-and-d/ytrade.md)
-* [Delegated Funding DAO Vaults](r-and-d/delegated-funding-dao-vaults.md)
-* [StableCredit](r-and-d/stablecredit.md)
-
-## Developers
-
-* [Integration Guide](developers/integration-guide.md)
-* [Dev Resources](developers/dev-resources/README.md)
-  * [Yearn Vault Schema](https://github.com/sambacha/yearn-vault-schema)
-  * [YIP Boilerplate](https://gist.github.com/sambacha/07c8580377cf7deec6be569322babcfd#file-yip-boilerplate-proposal-md)
-
-## Additional Resources
+## Recursos adicionales <a id="additional-resources"></a>
 
 * [Github](https://github.com/iearn-finance)
 * [Medium](https://medium.com/iearn)
