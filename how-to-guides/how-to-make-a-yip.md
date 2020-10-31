@@ -2,14 +2,14 @@
 
 ## Resumen
 
-Las propuestas de mejora de yEarn \(`YIPs`\) describen los estándares para la plataforma de yEarn, incluidas las especificaciones del protocolo central, las API del cliente y los estándares de los smart contracts. Esta es la especificación `canónica` definitiva de referencia para la lógica central.
+Las propuestas de mejora de Yearn \(`YIPs`\) describen los estándares para la plataforma de Yearn, incluidas las especificaciones del protocolo central, las API del cliente y los estándares de los smart contracts. Esta es la especificación `canónica` definitiva de referencia para la lógica central.
 
 ## Aportar
 
 1. Revisa la [YIP-0](https://github.com/iearn-finance/YIPS/blob/master/YIPS/yip-0.md).
 2. Crea un fork del repositorio haciendo click en "Fork" arriba a la derecha.
 3. Añade tu YIP a tu versión del repositorio. Hay una plantilla de YIP disponible [aquí](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md).
-4. Envía una PR \(Pull Request\) al [repositorio de YIPs](https://github.com/iearn-finance/YIPS/) de yEarn.
+4. Envía una PR \(Pull Request\) al [repositorio de YIPs](https://github.com/iearn-finance/YIPS/) de Yearn.
 
 Tu primer PR debería ser un primer borrador de la YIP final. Este debe cumplir todos los criterios de formato impuestos por el compilador \(en gran parte, metadatos correctos en el header\). Un editor revisará manualmente la primera PR para cada nueva YIP y le asignará un número antes de incluirla en el repositorio. Asegúrate de incluir en el header `discussions-to`  la URL del nuevo hilo creado en el [foro oficial](https://gov.yearn.finance/) donde la gente podrá discutir a cerca de la YIP y los cambios propuestos.
 
@@ -23,7 +23,7 @@ Cuando creas que tu YIP está madura y lista para avanzar más allá de la fase 
 
 * **WIP \(Work In Progress\)** - una YIP que aún está siendo desarrollada.
 * **Propuesta** - una YIP que está lista para ser revisada en una llamada de gobernanza.
-* **Aprobada** - una YIP que ha sido aceptada por la comunidad de yEarn para ser implementada.
+* **Aprobada** - una YIP que ha sido aceptada por la comunidad de Yearn para ser implementada.
 * **Implementada** - una YIP ha sido implementada y desplegada en mainnet.
 * **Rechazada** - una YIP que ha sido rechazada.
 

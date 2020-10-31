@@ -23,21 +23,21 @@ Esta guía visual te llevará paso a paso en el proceso de depositar fondos en u
 
 ### 4. Elige en cuál Vault quieres depositar, por ejemplo, la Vault de DAI.
 
-![has un ingreso en la vault de DAI](https://i.imgur.com/MuBrXD4.png)
+![haz un ingreso en la vault de DAI](https://i.imgur.com/MuBrXD4.png)
 
 ### 5. Escribe la cantidad de DAI que quieres depositar
 
 ![introduce la cantidad a depositar](https://i.imgur.com/zphKfXO.png)
 
-### 6. Has click en “Deposit”
+### 6. Haz click en “Deposit”
 
 ![deposita en la vault](https://i.imgur.com/MIVW5hn.png)
 
-Has click en **25%, 50%, 75% o 100%** para depositar el correspondiente porcentaje de tu wallet en la Vault.
+Haz click en **25%, 50%, 75% o 100%** para depositar el correspondiente porcentaje de tu wallet en la Vault.
 
-O has click en “Deposit All” si te gustaría **depositar el 100%** de los tokens seleccionados en la Vault. :::info Fíjate antes de hacer un depósito que hay **una tarifa de retiro del 0.5%** de los fondos depositados. Entre más tiempo dejes tus fondos dentro de la Vault, más probable será que las ganancias superen a la tarifa de retiro. :::
+O haz click en “Deposit All” si te gustaría **depositar el 100%** de los tokens seleccionados en la Vault. :::info Fíjate antes de hacer un depósito que hay **una tarifa de retiro del 0.5%** de los fondos depositados. Entre más tiempo dejes tus fondos dentro de la Vault, más probable será que las ganancias superen a la tarifa de retiro. :::
 
-### 7. Autoriza a yearn.finance para gastar tus tokens DAI \(sólo si es la primera vez\) y después has click en “Confirm” otra vez para aprobar el depósito.
+### 7. Autoriza a yearn.finance para gastar tus tokens DAI \(sólo si es la primera vez\) y después haz click en “Confirm” otra vez para aprobar el depósito.
 
 ![aprueba el permiso](https://i.imgur.com/zLEs1gd.png)
 

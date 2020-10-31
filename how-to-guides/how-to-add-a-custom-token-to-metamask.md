@@ -18,7 +18,7 @@ Así es cómo puedes añadir un token personalizado a Metamask. Esta guía usa y
 
 ![](https://i.imgur.com/rGbV1eT.png)
 
-4\) Copia la dirección del contrato de yUSD **0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c** en el campo llamado`Token Contract Address`.
+4\) Copia la dirección del contrato de yUSD **0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c** en el campo llamado `Token Contract Address`.
 
 ![](https://i.imgur.com/6H2JhRN.png)
 
@@ -26,11 +26,11 @@ Así es cómo puedes añadir un token personalizado a Metamask. Esta guía usa y
 
 ![](https://i.imgur.com/E12XN8x.png)
 
-6\) Escrive ahí **yUSD** y has click en `Next`
+6\) Escrive ahí **yUSD** y haz click en `Next`
 
 ![](https://i.imgur.com/kNkrqj3.png)
 
-7\) ¡Eso es todo! Ahora ya puedes consultar el balance de tus tokens yUSD. Has click en`Add Tokens` para acabar.
+7\) ¡Eso es todo! Ahora ya puedes consultar el balance de tus tokens yUSD. Has click en `Add Tokens` para acabar.
 
 ![](https://i.imgur.com/gkt6KME.png)
 
