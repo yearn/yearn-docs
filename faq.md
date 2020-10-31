@@ -7,11 +7,11 @@ tags: 'docs, faq, published'
 
 ## General
 
-### ¿Es seguro invertir dinero en yearn?
+### ¿Es seguro invertir dinero en Yearn?
 
 * Por favor, investiga por tu cuenta y toma la decisión tú solo.
 
-### ¿Ha sido yearn auditado?
+### ¿Ha sido Yearn auditado?
 
 * Sí, puedes encontrar la lista de audiciones de seguridad [aquí](https://github.com/iearn-finance/audits).
 
@@ -135,7 +135,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Han ido las tarifas siempre a ese contrato?
 
-* No, al comienzo de yearn iban directamente a la [cuenta](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c) de Andre.
+* No, al comienzo de Yearn iban directamente a la [cuenta](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c) de Andre.
 * Después, el control pasó a la [multisig](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) y las tarifas iban allí directamente.
 * Antes de la versión actual del contrato de gobernanza, las recompensas de staking iban [aquí](https://etherscan.io/address/0xb01419E74D8a2abb1bbAD82925b19c36C191A701).
 
@@ -148,7 +148,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Qué es una estrategia de una Vault?
 
-* Las estrategias de las Vaults de yearn son smart contracts escritos para cada Vault que le dice qué activos prestar, qué tokens farmear y dónde deberían ser vendidos estos tokens farmeados.
+* Las estrategias de las Vaults de Yearn son smart contracts escritos para cada Vault que le dice qué activos prestar, qué tokens farmear y dónde deberían ser vendidos estos tokens farmeados.
 
 #### ¿Cuáles son las estrategias actuales?
 
@@ -163,7 +163,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 * Por ahora, puedes hacer un post en el foro en la sección de estrategias detallando en qué consiste tu estrategia, es decir, qué debería comprar/vender/farmear y cuál es el rendimiento actual.
 
-#### ¿Cuál es el proceso a seguir para incluir mi estrategia en yearn?
+#### ¿Cuál es el proceso a seguir para incluir mi estrategia en Yearn?
 
 * Publícala en el foro y, si es aprobada, será utilizada en una de las Vaults, además podrás recibir una compensación económica por ello.
 
@@ -177,7 +177,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Qué es Earn?
 
-* Earn es un agregador de rendimientos para plataformas de préstados que se rebalancea para obtener el mayor rendimiento con cada interacción con el contrato.
+* Earn es un agregador de rendimientos para plataformas de préstams que se rebalancea para obtener el mayor rendimiento con cada interacción con el contrato.
 * Deposita DAI, USDC, USDT, TUSD o sUSD y Earn prestará los fondos automáticamente en la plataforma que ofrezca el mayor rendimiento. Las plataformas donde pueden ser depositados los fondos son [Compound](https://compound.finance/), [Dydx](https://dydx.exchange/) y [Aave](https://app.aave.com/home) \(Ddex y Fulcrum están excluídos de momento\).
 * Aprende más sobre Earn en la [documentación de Yearn](https://docs.yearn.finance/yearn.finance/yearn).
 
@@ -189,14 +189,13 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 * Zap permite a los usuarios intercambiar entre distintos tokens en una única transacción reduciendo el coste de gas de esta.
 * Los Zaps fueron hechos por DefiZap, ahora conocidos como [Zapper.fi](https://zapper.fi), como un tipo de servicio de enrutamiento todo en uno para DeFi.
-* Zaps were made by DefiZap which is now [Zapper.fi](https://zapper.fi) as a type of all in one DeFi routing service.
 
 #### ¿Qué ventajas ofrece Zap?
 
 * "Los Zaps te permiten acceder a una posición de DeFi en una única transacción - conocidas como zapping in." - [Guía de cómo usar Zaps](https://defitutorials.substack.com/p/how-to-use-defizap).
   * Ten en cuenta que este es un artículo antiguo y [Zapper](https://zapper.fi) se formó como resultado de la unión de DeFiSnap + DeFiZap para crear el centro definitivo para las finanzas descentralizadas, también conocido como \#DeFi. Por lo tanto, algunas de las cosas explicadas en el artículo anterior están desactualizadas, pero aún puedes usar Zaps en [Zapper.fi](https://zapper.fi/).
 
-#### Entonces, ¿qué puedo hacer con Zap en yearn?
+#### Entonces, ¿qué puedo hacer con Zap en Yearn?
 
 * Con un Zap puedes coger, por ejemplo, tus tokens DAI y obtener yCRV con ellos en una única transacción. Normalmente, para convertir DAI en yCRV, tendrías que ir a earn, depositar DAI y recibir yDAI, luego ir a la [pool de Yearn de Curve](https://www.curve.fi/iearn/deposit) y depositar tu yDAI para acabar obteniendo  los tokens yCRV. Esto supone hacer un montón de transacciones, ¡pero con Zap puedes hacerlo en una única transacción!.
 
@@ -335,7 +334,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Cuál es su utilidad/propósito/objetivo?
 
-* Su objetivo es el de financiar contribuciones valiosas al ecosistema de yearn.
+* Su objetivo es el de financiar contribuciones valiosas al ecosistema de Yearn.
 
 #### A quién le importa, ¿Cómo puedo hacer dinero de esto?
 
@@ -358,7 +357,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Cómo puedo solicitar financiación?
 
-* De la misma forma que para unirte pero en vez de hacer click en "member" has click en la pestaña de "funding" y rellena el formulario con los detalles de tu petición. Puedes preguntar en [el chat de Telegram](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA) cualquier duda que tengas.
+* De la misma forma que para unirte pero en vez de hacer click en "member" haz click en la pestaña de "funding" y rellena el formulario con los detalles de tu petición. Puedes preguntar en [el chat de Telegram](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA) cualquier duda que tengas.
 
 #### No hablo inglés, ¿Cuándo estará todo disponible en otros idiomas?
 
@@ -376,7 +375,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Qué es la multisig y cuáles son sus funciones?
 
-* La Multisig se explica en detalle en este [post](https://gov.yearn.finance/t/yfi-minting-ownership/155) del foro. Basicamente, es una cuenta de firmas múltiples \( requiere al menos 6 firmas de un total de 9\) que tiene control sobre la creación de YFI si una YIP para crear más tokens es propuesta y aprobada.
+* La Multisig se explica en detalle en este [post](https://gov.yearn.finance/t/yfi-minting-ownership/155) del foro. Básicamente, es una cuenta de firmas múltiples \( requiere al menos 6 firmas de un total de 9\) que tiene control sobre la creación de YFI si una YIP para crear más tokens es propuesta y aprobada.
 
 ### ¿Quiénes son los 9 firmantes de la multisig?
 
@@ -401,27 +400,27 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Qué decisiones puede tomar Andre por su cuenta?
 
-* Andre puede trabajar en productos relacionados con yearn y proponer nuevos productos. Normalmente, él cuenta sus piensamientos e ideas en el [foro](https://gov.yearn.finance/).
+* Andre puede trabajar en productos relacionados con Yearn y proponer nuevos productos. Normalmente, él cuenta sus piensamientos e ideas en el [foro](https://gov.yearn.finance/).
 
 ### ¿Los integrantes de la multisig le dicen a él lo que tiene que hacer?
 
 * Ellos están en estrecho contacto entre sí, pero las prioridades de Andre las deciden los holders de YFI a través de las YIPs.
 
-### ¿Quién más escribe código para yearn? ¿Hay algún equipo?
+### ¿Quién más escribe código para Yearn? ¿Hay algún equipo?
 
 * Ahora mismo sólo Andre.
 
-### ¿Le pagan a alguien por trabajar en yearn?
+### ¿Le pagan a alguien por trabajar en Yearn?
 
-* Ahora mismo todavía no, pero gracias a la aprobación de la [YIP 36](https://yips.yearn.finance/YIPS/yip-36) y a la creación de una pool comunitaria de fondos que se mantendrá en $500k, ahora podemos pagar a Andre por su trabajo, financiar auditorías, contratar nuevos desarrolladores y pagar por cualquier otra cosa que necesite el ecosistema de yearn.
+* Ahora mismo todavía no, pero gracias a la aprobación de la [YIP 36](https://yips.yearn.finance/YIPS/yip-36) y a la creación de una pool comunitaria de fondos que se mantendrá en $500k, ahora podemos pagar a Andre por su trabajo, financiar auditorías, contratar nuevos desarrolladores y pagar por cualquier otra cosa que necesite el ecosistema de Yearn.
 
-### ¿Quién puede trabajar para yearn?
+### ¿Quién puede trabajar para Yearn?
 
 * Puedes hacer una YIP y solicitar financiación al tesoro del protocolo o solicitarla al yDAO.
 
 ### ¿Tenéis alguna oferta de trabajo abierta?
 
-* ¡Sí! Necesitamos todo tipo de personas para ayudar a hacer del ecosistema yEarn un producto próspero y para dar valor a YFI. Puedes preguntar en Discord o Telegram sobre la aplicación o publicar un post en el foro. Indica cómo crees que puedes ayudar a mejorar Yearn y cuánto crees que deberías recibir del fondo comunitario por tu trabajo. Además, también puedes acudir al [yDAO](https://gov.yearn.finance/t/ydao-for-community-funding/2243) para obtener financiación por tu trabajo para Yearn.
+* ¡Sí! Necesitamos todo tipo de personas para ayudar a hacer del ecosistema Yearn un producto próspero y para dar valor a YFI. Puedes preguntar en Discord o Telegram sobre la aplicación o publicar un post en el foro. Indica cómo crees que puedes ayudar a mejorar Yearn y cuánto crees que deberías recibir del fondo comunitario por tu trabajo. Además, también puedes acudir al [yDAO](https://gov.yearn.finance/t/ydao-for-community-funding/2243) para obtener financiación por tu trabajo para Yearn.
 
 ### ¿Cómo puedo participar?
 
@@ -433,7 +432,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ## Interfaz de usuario
 
-### ¿Puedo usar las dApps de yearn en mi teléfono móvil?
+### ¿Puedo usar las dApps de Yearn en mi teléfono móvil?
 
 * Sí, puedes hacerlo si tienes un buscador con Metamask instalado.
 
@@ -447,7 +446,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Por qué la tarifa de retiro es tan alta?
 
-* Si ves que la tarifa es más alta de lo normal cuando vas a usar algún producto del ecosistema de yearn puede ser por congestión en Ethereum que se traduce en un coste anormalmente alto del gas. Puedes comprobar el valor óptico del precio del gas en [Ethgasstation](https://ethgasstation.info/). Tus opciones son esperar a que los precios del gas bajen o pagar el precio del gas para enviar tu transacción ahora.
+* Si ves que la tarifa es más alta de lo normal cuando vas a usar algún producto del ecosistema de Yearn puede ser por congestión en Ethereum que se traduce en un coste anormalmente alto del gas. Puedes comprobar el valor óptico del precio del gas en [Ethgasstation](https://ethgasstation.info/). Tus opciones son esperar a que los precios del gas bajen o pagar el precio del gas para enviar tu transacción ahora.
 * Si los precios del gas son una locura, eso significa que hay un error y la transacción no se procesará. Por ejemplo, si intentas depositar un token que no tienes o no hay covertura disponible para un contrato en [http://yinsure.finance/](http://yinsure.finance/).
 
 ## Proyectos relacionados
@@ -463,13 +462,13 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ## Recursos
 
-### ¿Dónde puedo aprender más sobre yearn?
+### ¿Dónde puedo aprender más sobre Yearn?
 
 * [Learn Yearn](https://www.learnyearn.finance/)
 * [Medium.com/iearn](https://medium.com/iearn)
 * [yCosystem](https://ycosystem.info/)
 
-### Lista de Smart Contracts relacionados con productos de yearn
+### Lista de Smart Contracts relacionados con productos de Yearn
 
 * [https://gov.yearn.finance/t/yearn-contracts/1951](https://gov.yearn.finance/t/yearn-contracts/1951)
 * [https://etherscan.io/accounts/label/yearn-finance](https://etherscan.io/accounts/label/yearn-finance)
@@ -491,7 +490,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 * [https://docs.yearn.finance/yearn.finance/yearn-1](https://docs.yearn.finance/yearn.finance/yearn-1)
 
-### Vaults Detail Reference
+### Referencia a detalles de las Vaults
 
 * [https://vaults.finance/](https://vaults.finance/)
 
@@ -505,9 +504,9 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 * Estadísticas de votación [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/Lqnxzm7fa8NVhKC4kc37DDFPZgqXryaIjyLRYAYp)
 * Estadísticas de las Vaults [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/g0bGfgloeXBd9C18jpBjdXi5KkQjR7IXYqFRUnHk)
 
-### Últimas noticias sobre yearn
+### Últimas noticias sobre Yearn
 
-* [yearn.finance](https://twitter.com/iearnfinance) - Twitter oficial de yearn
+* [yearn.finance](https://twitter.com/iearnfinance) - Twitter oficial de Yearn
 * [AndreCronjeTech](https://twitter.com/AndreCronjeTech)
 * [Yearn Finance](https://medium.com/iearn) -  Blog oficial
 
