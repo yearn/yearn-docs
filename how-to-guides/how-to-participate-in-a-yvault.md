@@ -15,7 +15,7 @@ Esta guía visual te llevará paso a paso en el proceso de depositar fondos en u
 
 ### 2. Selecciona tu wallet favorita
 
-![elige tu wallet](https://i.imgur.com/T6gJZA5.png)
+![elige tu wallet](https://i.imgur.com/T6gJZA5.png?1)
 
 ### 3. Escribe tu contraseña y has click en “Unlock”
 
