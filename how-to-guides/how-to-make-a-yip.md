@@ -11,7 +11,7 @@ Las propuestas de mejora de Yearn \(`YIPs`\) describen los estándares para la p
 3. Añade tu YIP a tu versión del repositorio. Hay una plantilla de YIP disponible [aquí](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md).
 4. Envía una PR \(Pull Request\) al [repositorio de YIPs](https://github.com/iearn-finance/YIPS/) de Yearn.
 
-Tu primer PR debería ser un primer borrador de la YIP final. Este debe cumplir todos los criterios de formato impuestos por el compilador \(en gran parte, metadatos correctos en el header\). Un editor revisará manualmente la primera PR para cada nueva YIP y le asignará un número antes de incluirla en el repositorio. Asegúrate de incluir en el header `discussions-to`  la URL del nuevo hilo creado en el [foro oficial](https://gov.yearn.finance/) donde la gente podrá discutir a cerca de la YIP y los cambios propuestos.
+Tu primer PR debería ser un primer borrador de la YIP final. Este debe cumplir todos los criterios de formato impuestos por el compilador \(en gran parte, metadatos correctos en el header\). Un editor revisará manualmente la primera PR para cada nueva YIP y le asignará un número antes de incluirla en el repositorio. Asegúrate de incluir en el header `discussions-to` la URL del nuevo hilo creado en el [foro oficial](https://gov.yearn.finance/) donde la gente podrá discutir a cerca de la YIP y los cambios propuestos.
 
 > Nota: Es importante que haya apoyo de la comunidad hacia la `YIP` propuesta. Depende del autor \(es\) llevar su propuesta a lo largo del proceso.
 

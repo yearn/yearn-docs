@@ -1,6 +1,6 @@
 # Cómo agregar un token personalizado a MetaMask
 
-Así es cómo puedes añadir un token personalizado a Metamask. Esta guía usa yUSD como ejemplo, pero la forma más fácil de hacerlo en dos clicks para yUSD y YFI es en  [https://addyearn.finance/](https://addyearn.finance/).
+Así es cómo puedes añadir un token personalizado a Metamask. Esta guía usa yUSD como ejemplo, pero la forma más fácil de hacerlo en dos clicks para yUSD y YFI es en [https://addyearn.finance/](https://addyearn.finance/).
 
 ![](https://i.imgur.com/BIlPYeb.png)
 
@@ -26,7 +26,7 @@ Así es cómo puedes añadir un token personalizado a Metamask. Esta guía usa y
 
 ![](https://i.imgur.com/E12XN8x.png)
 
-6\) Escrive ahí **yUSD** y haz click en `Next`
+6\) Escribe ahí **yUSD** y haz click en `Next`
 
 ![](https://i.imgur.com/kNkrqj3.png)
 

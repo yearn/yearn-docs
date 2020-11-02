@@ -1,6 +1,6 @@
 # Cómo obtener yUSD
 
-Esta guía visual te llevará paso a paso en el proceso de obtención de yUSD en  [https://vaults.finance/](https://vaults.finance/).
+Esta guía visual te llevará paso a paso en el proceso de obtención de yUSD en [https://vaults.finance/](https://vaults.finance/).
 
 Puedes aprender más sobre the token yUSD aquí: [https://docs.yearn.finance/yusd](https://docs.yearn.finance/yusd)
 
