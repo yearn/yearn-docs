@@ -1,6 +1,6 @@
 # Cómo obtener yUSD
 
-Esta guía visual te llevará paso a paso en el proceso de obtención de yUSD en  [https://vaults.finance/](https://vaults.finance/). 
+Esta guía visual te llevará paso a paso en el proceso de obtención de yUSD en  [https://vaults.finance/](https://vaults.finance/).
 
 Puedes aprender más sobre the token yUSD aquí: [https://docs.yearn.finance/yusd](https://docs.yearn.finance/yusd)
 
@@ -15,15 +15,15 @@ Puedes aprender más sobre the token yUSD aquí: [https://docs.yearn.finance/yus
 
 ![](https://i.imgur.com/8eSziEU.png)
 
-2\) Has click en la wallet que vas a usar, para la demostración usaremos Metamask:
+2\) Haz click en la wallet que vas a usar, para la demostración usaremos Metamask:
 
 ![](https://i.imgur.com/dXa0KbK.png)
 
-3\) Si tienes más de una dirección en tu wallet, selecciona la que vas a usar para obtener yUSD y has click en `Next`
+3\) Si tienes más de una dirección en tu wallet, selecciona la que vas a usar para obtener yUSD y haz click en `Next`
 
 ![](https://i.imgur.com/PzbFf0E.png)
 
-4\) Has click en `Connect`
+4\) Haz click en `Connect`
 
 ![](https://i.imgur.com/5SEL1Vy.png)
 
@@ -31,11 +31,11 @@ Puedes aprender más sobre the token yUSD aquí: [https://docs.yearn.finance/yus
 
 ![](https://i.imgur.com/GDxMMQI.png)
 
-6\) Has click en `Depost All` para depositar todos los tokens mostrados a la izquierda en la Vault de yCRV para obtener yUSD.
+6\) Haz click en `Depost All` para depositar todos los tokens mostrados a la izquierda en la Vault de yCRV para obtener yUSD.
 
 ![](https://i.imgur.com/JHSGFA3.png)
 
-7\) Has click en `Confirm` para aprobar tu depósito o has click en `Edit` para aumentar el gas que vas a usar en el caso de que Ethereum esté muy congestionado \(puedes visitar [https://ethgasstation.info/](https://ethgasstation.info/) para conocer el precio óptimo del gas\). Si vas a depositar más de un tipo de token \(por ejemplo, DAI y USDC\) tendrás que repetir este proceso para cada uno de ellos.
+7\) Haz click en `Confirm` para aprobar tu depósito o haz click en `Edit` para aumentar el gas que vas a usar en el caso de que Ethereum esté muy congestionado \(puedes visitar [https://ethgasstation.info/](https://ethgasstation.info/) para conocer el precio óptimo del gas\). Si vas a depositar más de un tipo de token \(por ejemplo, DAI y USDC\) tendrás que repetir este proceso para cada uno de ellos.
 
 ![](https://i.imgur.com/WNJlI34.png)
 
@@ -43,7 +43,7 @@ Puedes aprender más sobre the token yUSD aquí: [https://docs.yearn.finance/yus
 
 ![](https://i.imgur.com/CpCDR2w.png)
 
-9\) Cuando la transacción sea procesada, has click en `Confirm` para hacer el depósito en la Vault \(tal y como se hizo en el paso anterior, aquí también puedes modificar el gas si fuese necesario\).
+9\) Cuando la transacción sea procesada, haz click en `Confirm` para hacer el depósito en la Vault \(tal y como se hizo en el paso anterior, aquí también puedes modificar el gas si fuese necesario\).
 
 ![](https://i.imgur.com/Q3lpJLL.png)
 
