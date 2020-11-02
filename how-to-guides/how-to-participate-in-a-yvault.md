@@ -19,19 +19,19 @@ Esta guía visual te llevará paso a paso en el proceso de depositar fondos en u
 
 ### 3. Escribe tu contraseña y has click en “Unlock”
 
-![mete la contrase&#xF1;a de Metamask](https://i.imgur.com/crr1bm2.png)
+![mete la contrase&#xF1;a de Metamask](https://i.imgur.com/crr1bm2.png?1)
 
 ### 4. Elige en cuál Vault quieres depositar, por ejemplo, la Vault de DAI.
 
-![haz un ingreso en la vault de DAI](https://i.imgur.com/hPkA7pj.png)
+![haz un ingreso en la vault de DAI](https://i.imgur.com/hPkA7pj.png?1)
 
 ### 5. Escribe la cantidad de DAI que quieres depositar
 
-![introduce la cantidad a depositar](https://i.imgur.com/Br4Naah.png)
+![introduce la cantidad a depositar](https://i.imgur.com/Br4Naah.png?1)
 
 ### 6. Haz click en “Deposit”
 
-![deposita en la vault](https://i.imgur.com/XAj3GuN.png)
+![deposita en la vault](https://i.imgur.com/XAj3GuN.png?1)
 
 Haz click en **25%, 50%, 75% o 100%** para depositar el correspondiente porcentaje de tu wallet en la Vault.
 
@@ -39,7 +39,7 @@ O haz click en “Deposit All” si te gustaría **depositar el 100%** de los to
 
 ### 7. Autoriza a yearn.finance para gastar tus tokens DAI \(sólo si es la primera vez\) y después haz click en “Confirm” otra vez para aprobar el depósito.
 
-![aprueba el permiso](https://i.imgur.com/Sl5eGEI.png)
+![aprueba el permiso](https://i.imgur.com/Sl5eGEI.png?1)
 
 Necesitarás pagar la **tarifa de la transacción en Ether \(ETH\)** para autorizar a yearn.finance para gastar tus tokens DAI.
 
