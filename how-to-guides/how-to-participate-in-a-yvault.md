@@ -23,7 +23,7 @@ Esta guía visual te llevará paso a paso en el proceso de depositar fondos en u
 
 ### 4. Elige en cuál Vault quieres depositar, por ejemplo, la Vault de DAI.
 
-![has un ingreso en la vault de DAI](https://i.imgur.com/hPkA7pj.png)
+![has un ingreso en la vault de DAI](https://i.imgur.com/MuBrXD4.png)
 
 ### 5. Escribe la cantidad de DAI que quieres depositar
 
