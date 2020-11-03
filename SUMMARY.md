@@ -88,3 +88,7 @@
   * [Contributor Tools](community/contribute/contributor-tools.md)
   * [Writing Style Guide](community/contribute/writing-style-guide.md)
 
+---
+
+* [Getting Started with Github and Gitbook](getting-started-with-github-and-gitbook.md)
+
