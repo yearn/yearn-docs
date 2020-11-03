@@ -1,14 +1,13 @@
 # curvefi
 
-| Contract | ABI                                                                                                    | Address                                                                                  |
-| :------- | :----------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| Contract | ABI | Address |
+| :--- | :--- | :--- |
 | ICurveFi | [JSON](https://github.com/curvefi/curve-contract/blob/compounded/deployed/2020-01-21_mainnet/swap.abi) | [curve.fi](https://etherscan.io/address/0x2e60CF74d81ac34eB21eEff58Db4D385920ef419#code) |
 
 ## ICurveFi Interface
 
 {% tabs %}
 {% tab title="ICurveFi.sol" %}
-
 ```javascript
 // Solidity Interface
 
@@ -58,6 +57,6 @@ interface ICurveFi {
   ) external;
 }
 ```
-
 {% endtab %}
 {% endtabs %}
+

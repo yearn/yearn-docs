@@ -1,7 +1,6 @@
 # Introduction to Yearn
 
-Yearn Finance is a suite of products in Decentralized Finance \(DeFi\) that at its core provides lending aggregation, yield generation, and insurance on the Ethereum blockchain.
-The protocol is maintained and developed by various independent contributors within the cryptocurrency space. Management of the protocol is governed by YFI holders. Listed below are core products active in production, a brief description on the protocol's governance process, and links to active communication channels.
+Yearn Finance is a suite of products in Decentralized Finance \(DeFi\) that at its core provides lending aggregation, yield generation, and insurance on the Ethereum blockchain. The protocol is maintained and developed by various independent contributors within the cryptocurrency space. Management of the protocol is governed by YFI holders. Listed below are core products active in production, a brief description on the protocol's governance process, and links to active communication channels.
 
 ## Core Products
 
@@ -15,7 +14,7 @@ The first Yearn product was a lending aggregator. Funds are shifted between dYdX
 
 ### Zap
 
-A tool that enables users to swap into and out of (known as "Zapping") several liquidity pools available on Curve.Finance. These pools benefit from the lending aggregators discussed above, as well as earning users trading fees by partcipating as Liquidity Providers (LPs) on Curve.Fi. Currently users can use five stablecoins (BUSD, DAI, USDC, USDT, TUSD) and "Zap" into one of two pools (y.curve.fi or busd.curve.f) on Curve. Alternatively, users can "Zap" out of these two Curve pools and into one of the five base stablecoins.
+A tool that enables users to swap into and out of \(known as "Zapping"\) several liquidity pools available on Curve.Finance. These pools benefit from the lending aggregators discussed above, as well as earning users trading fees by partcipating as Liquidity Providers \(LPs\) on Curve.Fi. Currently users can use five stablecoins \(BUSD, DAI, USDC, USDT, TUSD\) and "Zap" into one of two pools \(y.curve.fi or busd.curve.f\) on Curve. Alternatively, users can "Zap" out of these two Curve pools and into one of the five base stablecoins.
 
 ### Cover
 
@@ -33,4 +32,5 @@ Discord [http://discord.yearn.finance](http://discord.yearn.finance)
 
 Telegram [https://t.me/yearnfinance](https://t.me/yearnfinance)
 
-Reddit [https://www.reddit.com/r/yearn_finance/](https://www.reddit.com/r/yearn_finance/)
+Reddit [https://www.reddit.com/r/yearn\_finance/](https://www.reddit.com/r/yearn_finance/)
+
