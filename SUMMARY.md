@@ -84,5 +84,7 @@
 
 ## Community
 
-* [Contributor Tools](community/contributor-tools.md)
+* [Contribute](community/contribute/README.md)
+  * [Contributor Tools](community/contribute/contributor-tools.md)
+  * [Writing Style Guide](community/contribute/writing-style-guide.md)
 
