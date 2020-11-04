@@ -7,11 +7,11 @@ tags: "docs, faq, published"
 
 ## General
 
-### Is it safe to invest money in yearn?
+### Is it safe to invest money in Yearn?
 
-- Please, do your own research and decide for yourself.
+- Please do your own research and decide for yourself.
 
-### Is yearn audited?
+### Is Yearn audited?
 
 - Yes, you can find the list of audits [here](https://github.com/iearn-finance/audits).
 
@@ -44,24 +44,23 @@ But if you think something can be improved, or you found a bug, we want to squas
 - Andre explains [vaults](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) and [delegated vaults](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) in these two blog posts.
 - Simply put vaults can do this:
   - Use any asset as liquidity.
-  - Use liquidity as collateral and manage collateral at a safe level so you never default.
+  - Use liquidity as collateral and manage collateral at a safe level in order to avoid a default.
   - Borrow stablecoins.
   - Put the stablecoins to work on some farming.
   - Reinvest earned stablecoins.
 
 #### Can't I just do all this myself though?
 
-- Yes you could, but vaults help you save on gas, keep it at a good collateral/debt ratio so you don't default, and auto optimizes for highest yielding stablecoin strategies, even when you are sleeping.
+- Yes you could, but vaults help you save on gas, keep a good collateral/debt ratio to avoid defaults, and auto optimizes for the highest yielding stablecoin strategies, even while you are sleeping.
 
-#### I see ROI on the vaults page is it the current one?
+#### I see ROI on the vaults page. Is it the current one?
 
 - No. This is the historical average for that vault. Current APY / returns are not shown as vaults are a beta product and being tested live.
 - Various third party sites provide APY and other info, they are listed below in [Statistics](https://docs.yearn.finance/faq#statistics).
 
 #### What are the risks?
 
-- While the assets deposited can't decrease, the debt of the vault can. If a strategy does not manage to outperform the debt, then a portion of the asset will be impermanently locked. If a strategy then outperforms the debt again, this asset will become unlocked.
-  - There are mechanisms in the vaults to prevent this but nothing is bulletproof.
+- While the assets deposited can't decrease, the debt of the vault can increase. If a strategy does not manage to outperform the debt, then a portion of the asset will be impermanently locked. If a strategy later outperforms the debt again, the asset will again be available to withdraw. There are mechanisms in the vaults to prevent this but nothing is bulletproof.
 - As of now, the Vaults have not been audited.
 - Smart contract risk with any contracts that the vaults interact with.
 
@@ -100,17 +99,17 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### Why can’t we get a better APY for the YFI vault?
 
-- You can’t just get same numbers for 2 completely different coins. The new sBTC is following the same strategy that the yCRV vault using curve liquidity pool. The obvious answer is that there aren’t much safe platforms accepting YFI as stake so there aren’t much valid strategies for the YFI vault right now.
+- You can’t get the same numbers for two completely different coins. The new sBTC is following the same strategy that the yCRV vault using curve liquidity pool. The obvious answer is that there aren’t many safe platforms accepting YFI as stake so there aren’t much valid strategies for the YFI vault right now.
 
 #### I deposited into a vault, what will I get out when I withdrawal?
 
-- You will always withdrawal only the coin type that you put in.
-- You will get the amount you put in, plus the pool yield you earned, minus the fees.
+- You can only withdraw the crypto asset type that you put in.
+- You will get the amount you originally put in, plus the yield you've earned, minus the fees.
 
 #### What are the Fees?
 
 - **0.5% fee** on funds withdrawn from active strategies
-  - Each vault has some amount of the total funds idle and most of them active in the strategy. The idle funds are the difference between `vault holdings` and `strategy holdings`, you can see them on [feel the yearn](https://feel-the-yearn.app/).
+  - Each vault has some amount of the total funds idle and most of them active in the strategy. The idle funds are the difference between `vault holdings` and `strategy holdings`, you can see them on [feel the Yearn](https://feel-the-Yearn.app/).
   - When you withdraw, if your funds come from the idle funds, you won't be charged any withdrawal fee. If they come from the strategy, you will be charged the 0.5% fee.
 - **5% fee** on additional yield
   - For community-made strategies, like the new yETH vault, currently 10% of this fee goes to the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
@@ -135,13 +134,13 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### Did the fees always go there?
 
-- No, when yearn started they went directly to Andre's [address](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c).
+- No, when Yearn started they went directly to Andre's [address](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c).
 - Then we handed off to the [multisig](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) and fees went directly there.
 - And before our current gov v2, staking rewards went [here](https://etherscan.io/address/0xb01419E74D8a2abb1bbAD82925b19c36C191A701)
 
 #### Yield
 
-- We plan to make a dashboard in the future that will clearly show your current APY of all the positions you have open. Currently for the Vaults as they are still in beta we are not showing the APY live, but it is post on [twitter](https://twitter.com/iearnfinance) around once a day. You can roughly estimate the yield you are getting by looking at what the [current strategy](https://feel-the-yearn.vercel.app/) is farming and checking what its APY is.
+- We plan to make a dashboard in the future that will clearly show your current APY of all the positions you have open. Currently for the Vaults as they are still in beta we are not showing the APY live, but it is post on [twitter](https://twitter.com/iearnfinance) around once a day. You can roughly estimate the yield you are getting by looking at what the [current strategy](https://feel-the-Yearn.vercel.app/) is farming and checking what its APY is.
 - For example if yCRV vault is farming the CRV token, you can check what the yield is on [Curve's homepage](https://www.curve.fi/) for the Y pool
 
 ### Vault Strategies
@@ -152,24 +151,24 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### What are the current strategies?
 
-- You can view the current strategies implemented at [feel-the-yearn](https://feel-the-yearn.vercel.app/).
+- You can view the current strategies implemented at [feel-the-Yearn](https://feel-the-Yearn.vercel.app/).
 - In the future we plan to make a dashboard to make the strategies and APY easy to understand.
 
 #### Who is in control of the strategies?
 
-- Andre and other developers write them but the multi-sig decides if they will be implemented or not.
+- Developers write them but the multi-sig, instructed by YFI voters, decides if they will be implemented or not.
 
 #### How can I make a strategy?
 
 - For now you can post your strategy on the forum in the strategy section. Detailing what it should buy/sell/farm and what the current APY is. There will be a template to help you get started.
 
-#### What is the process for getting my strategy onto yearn?
+#### What is the process for getting my strategy onto Yearn?
 
-- Post it on the forum and if it gets approved it will be used in the vaults and you can get paid for it.
+- Post it on the forum or get in touch with the developer team, if you get support for your idea and it ends up being implemented and approved, it will be used in the vaults and you can get paid for it.
 
 #### When does a strategy changes and who changes it? Is it automatic?
 
-- For now Andre watches the markets and writes strategies that he and the multi-sig thinks are safe while giving the highest yield. They change them according to current yields on the market.
+- Strategy creators watch the markets and write strategies that they think are safe while giving the highest yield. They change them according to current yields on the market.
 
 ### Earn
 
@@ -195,7 +194,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 - "Zaps allow you get into a DeFi position in one transaction — it’s called zapping in." - [How to use Zaps guide](https://defitutorials.substack.com/p/how-to-use-defizap).
   - Note that this is an old article and [Zapper](https://zapper.fi) was formed as a result of DeFiSnap + DeFiZap coming together to create the ultimate hub for Decentralized Finance aka \#DeFi. So some of the stuff in the article above is out of date, but you can still use Zaps on Zapper.fi.
 
-#### So what can I do with Zaps on yearn?
+#### So what can I do with Zaps on Yearn?
 
 - With a zap you can take your DAI, for example, and get yCRV with it in one transaction. Normally, to turn DAI into yCRV, you would have to go to earn, deposit DAI and receive yDAI, then go to [Curve.fi - Yearn pool](https://www.curve.fi/iearn/deposit) and deposit your yDAI and then you would get yCRV. This is a lot to do, so instead you can do it in one transaction!
 
@@ -246,9 +245,9 @@ But if you think something can be improved, or you found a bug, we want to squas
 - [Telegram](https://t.me/yearncommunity) - Trading/Social/Fork Chat.
 - Twitter
   - [yearn.finance](https://twitter.com/iearnfinance?s=20) - Official Twitter of Yearn
-  - [Andre Cronje](https://twitter.com/AndreCronjeTech?s=20) - Lead Developer of Yearn
+  - [Andre Cronje](https://twitter.com/AndreCronjeTech?s=20) - Yearn's founder and creator
   - [yLearnfinance](https://twitter.com/yLearnfinance) - Yearn Info
-  - [Learn 2 Yearn](https://twitter.com/learn2yearn) - Yearn Info
+  - [Learn 2 Yearn](https://twitter.com/learn2Yearn) - Yearn Info
 
 ## Governance
 
@@ -256,7 +255,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### What is a YIP? Why do they matter?
 
-- A YIP or Yearn Improvement Proposal is how features are added to the yearn ecosystem. Users start a proposal on the forum, discuss it and gauge the sentiment of if the proposal will be accepted. If a lot of users agree with it then it can be posted on-chain for everyone to vote on.
+- A YIP or Yearn Improvement Proposal is how features are added to the Yearn ecosystem. Users start a proposal on the forum, discuss it and gauge the sentiment of if the proposal will be accepted. If a lot of users agree with it then it can be posted on-chain for everyone to vote on.
 
 #### How many people need to vote to pass a YIP proposed on-chain?
 
@@ -291,7 +290,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### Why should I stake? What is the APY \(Annual Percentage Yield\)?
 
-- You should stake if you want to vote on YIPs and get rewards that are generated from the yearn ecosystem. The APY for staking is currently not listed on the UI. You can ask on the chat what the rate is.
+- You should stake if you want to vote on YIPs and get rewards that are generated from the Yearn ecosystem. The APY for staking is currently not listed on the UI. You can ask on the chat what the rate is.
 
 #### What do I have to do to get rewards with my YFI?
 
@@ -334,7 +333,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### What is its purpose?
 
-- Used to fund value-added contributions to the yearn ecosystem.
+- Used to fund value-added contributions to the Yearn ecosystem.
 
 #### Who cares, how do I make money from this?
 
@@ -365,13 +364,13 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ## Community
 
-### Is Andre Cronje in charge of yearn?
+### Does Yearn have a manifesto?
 
-- Andre isn't in charge of Yearn, the YFI token holders make the decisions on what to build and governance decisions, Andre is the lead developer of the yearn ecosystem.
+- Some contributors got together and wrote a post about how they think about the protocol, with others joining in to support it. It's available [on the forum](https://gov.yearn.finance/t/how-we-think-about-yearn/).
 
-### What does Andre do?
+### Is Andre Cronje in charge of Yearn?
 
-- Andre is the main developer building out the products that comprise the yearn ecosystem: Yearn, Ytrade, Yswap, Yliquidate, Yborrow. He is also currently in charge of running the Vaults and overseeing them.
+- Andre isn't in charge of Yearn, the YFI token holders make the decisions on how to govern Yearn, Andre is one of the developers in the Yearn ecosystem.
 
 ### What is the multisig and what do they do?
 
@@ -400,27 +399,33 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ### What decisions can Andre make on his own?
 
-- Andre can build out the Yearn ecosystem and come up with new products. Usually, he posts his thoughts and ideas on the [forum](https://gov.yearn.finance) for everyone to see.
+- Andre can build out the Yearn ecosystem and come up with new products. Usually, he posts his thoughts and ideas on the [forum](https://gov.yearn.finance) or on his [medium blog](https://andrecronje.medium.com) for everyone to see.
 
 ### Does the multisig group tell him what to do?
 
-- They are in close contact with one another, but Andre's priorities are decided by YFI token holders via YIPs.
+- They are in close contact with one another, but Andre's priorities are his own. They can be instructed via YIPs.
 
-### Who else writes code for yearn? Is there a team?
+### Who else writes code for Yearn? Is there a team?
 
-- Right now it's just Andre.
+- Yes! Meet some of the developers behind Yearn:
 
-### Does anyone get paid for working on yearn?
+  - [@fubuloubu](https://gov.yearn.finance/u/fubuloubu)
+  - [@x48](https://gov.yearn.finance/u/x48)
+  - [@doug](https://gov.yearn.finance/u/doug)
+  - [@luciano](https://gov.yearn.finance/u/luciano)
+  - [@orbxball](https://gov.yearn.finance/u/orbxball)
 
-- As of this moment, not yet, but thanks to the passage of [YIP 36](https://yips.yearn.finance/YIPS/yip-36) and the creation of a community pool of funds that will be kept at 500k usd, we can now pay Andre for his work, fund audits, and pay for new devs to be hired along with anything else the the yearn ecosystem needs.
+### Does anyone get paid for working on Yearn?
 
-### How can I work for yearn?
+- Yes. Yearn has a core team that receives recurring payments. Grants are also distributed to valuable contributors in a monthly basis. For instance, see the [September Grants Announcement](https://gov.yearn.finance/t/september-grants-announcement/7044).
 
-- You can make a YIP to apply for funding from the 500k USD treasury directly or ask the yDAO for funding.
+### How can I work for Yearn?
+
+- If you want to contribute to the project as well just reach out to our community managers on [Discord](http://discord.yearn.finance/)/[Telegram](https://t.me/yearnfinance)/[Twitter](https://twitter.com/iearnfinance). We'll also release soon a Contributor's Guide.
 
 ### Do you have any job openings?
 
-- Yes, we do! We need all kinds of people to help make the yEarn ecosystem a thriving product and to give value to YFI. You can ask in the Discord or Telegram about applying or post on the forum. State how you think you can add value to Yearn, and how much you think you should be paid from the community pool. Also, you can go to the [yDAO](https://gov.yearn.finance/t/ydao-for-community-funding/2243) as well for funding on your work for the Yearn ecosystem.
+- Yes, we do! We need all kinds of people to help make the Yearn ecosystem a thriving product and to give value to YFI. You can ask in the Discord or Telegram about applying or post on the forum. State how you think you can add value to Yearn, and how much you think you should be paid from the community pool. Also, you can go to the [yDAO](https://gov.yearn.finance/t/ydao-for-community-funding/2243) as well for funding on your work for the Yearn ecosystem.
 
 ### How to Participate?
 
@@ -446,7 +451,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ### Why is the withdrawal fee so high?
 
-- If you're seeing higher than normal fees while using the yearn ecosystem then it may be due to Ethereum congestion and abnormally high gas costs. Check [Ethgasstation](https://ethgasstation.info/). Your options are to wait until gas prices drop or spend the money to process your transaction now.
+- If you're seeing higher than normal fees while using the Yearn ecosystem then it may be due to Ethereum congestion and abnormally high gas costs. Check [Ethgasstation](https://ethgasstation.info/). Your options are to wait until gas prices drop or spend the money to process your transaction now.
 - If the gas prices are crazy high, that means there is an error and the transaction will not be able to process. For instance if you are trying to deposit a token you don't have or if there is no cover available for a contract at [http://yinsure.finance/](http://yinsure.finance/).
 
 ## Related Projects
@@ -462,7 +467,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ## Resources
 
-### Where can I learn more about yearn?
+### Where can I learn more about Yearn?
 
 - [Learn Yearn](https://www.learnyearn.finance/)
 - [Medium.com/iearn](https://medium.com/iearn)
@@ -524,7 +529,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 - [Yearn Finance - Offical Blog](https://medium.com/iearn)
   - [Yinsure.finance: A new insurance primitive](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896)
   - [Delegated Vaults Explained](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
-  - [Yearn.finance v2](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613?source=---------3------------------)
+  - [yearn.finance v2](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613?source=---------3------------------)
   - [Yearn Governance Forum](https://medium.com/iearn/yearn-governance-forum-7b7c9d0300ac?source=collection_home---6------2-----------------------)
   - [YFI rewards pool](https://medium.com/iearn/yfi-rewards-pool-810ef9256ec6)
   - [YFI](https://medium.com/iearn/yfi-df84573db81)
