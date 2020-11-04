@@ -409,6 +409,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 - Yes! Meet some of the developers behind Yearn:
 
+  - [@banteg](https://gov.yearn.finance/u/banteg)
   - [@fubuloubu](https://gov.yearn.finance/u/fubuloubu)
   - [@x48](https://gov.yearn.finance/u/x48)
   - [@doug](https://gov.yearn.finance/u/doug)
