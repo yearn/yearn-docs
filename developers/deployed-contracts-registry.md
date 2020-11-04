@@ -56,6 +56,7 @@ The `Controller` contract can be found [here](https://etherscan.io/address/0x9e6
 | [TUSD](https://etherscan.io/address/0x37d19d1c4e1fa9dc47bd1ea12f742a0887eda74a)                   | 0x37d19d1c4e1fa9dc47bd1ea12f742a0887eda74a | [yVault.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/vaults/yVault.sol) |
 | [USDC](https://etherscan.io/address/0x597ad1e0c13bfe8025993d9e79c69e1c0233522e)                   | 0x597ad1e0c13bfe8025993d9e79c69e1c0233522e | [yVault.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/vaults/yVault.sol) |
 | [USDT](https://etherscan.io/address/0x2f08119c6f07c006695e079aafc638b8789faf18)                   | 0x2f08119c6f07c006695e079aafc638b8789faf18 | [yVault.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/vaults/yVault.sol) |
+| [GUSD](https://etherscan.io/address/0xec0d8d3ed5477106c6d4ea27d90a60e594693c90)                   | 0xec0d8d3ed5477106c6d4ea27d90a60e594693c90 | [yVault.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/vaults/yVault.sol) |
 
 ### Strategies
 
