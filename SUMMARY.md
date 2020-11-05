@@ -13,12 +13,12 @@
 * [Governance](governance.md)
 * [YFI et les yTokens](yfi-and-ytokens.md)
 
-## Products
+## Produits
 
-* [yVaults](products/yvaults.md)
-* [Earn](products/earn.md)
-* [Zap](products/zap.md)
-* [yInsure](products/yinsure.md)
+* [yVaults](produits/yvaults.md)
+* [Earn](produits/earn.md)
+* [Zap](produits/zap.md)
+* [yInsure](produits/yinsure.md)
 
 ## R&D
 
