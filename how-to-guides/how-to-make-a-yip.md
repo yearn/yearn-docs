@@ -21,11 +21,11 @@ Cuando creas que tu YIP está madura y lista para avanzar más allá de la fase 
 
 ## Estados de una YIP
 
-* **WIP \(Work In Progress\)** - una YIP que aún está siendo desarrollada.
-* **Propuesta** - una YIP que está lista para ser revisada en una llamada de gobernanza.
-* **Aprobada** - una YIP que ha sido aceptada por la comunidad de Yearn para ser implementada.
-* **Implementada** - una YIP ha sido implementada y desplegada en mainnet.
-* **Rechazada** - una YIP que ha sido rechazada.
+- **WIP \(Work In Progress\)** - una YIP que aún está siendo desarrollada.
+- **Propuesta** - una YIP que está lista para ser revisada en una llamada de gobernanza.
+- **Aprobada** - una YIP que ha sido aceptada por la comunidad de Yearn para ser implementada.
+- **Implementada** - una YIP ha sido implementada y desplegada en mainnet.
+- **Rechazada** - una YIP que ha sido rechazada.
 
 ### Ejemplo de YIP
 
