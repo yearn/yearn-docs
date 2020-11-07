@@ -4,8 +4,8 @@ Esta guía visual te llevará paso a paso en el proceso de depositar fondos en u
 
 ## Prerrequisitos
 
-* Debes tener el token que puede ser depositado en una yVault. Por ejemplo, para la yVault de DAI, debes tener DAI.
-* Debes estar usando una de las wallets compatibles: Metamask, Trustwallet, Trezor o Torus.
+- Debes tener el token que puede ser depositado en una yVault. Por ejemplo, para la yVault de DAI, debes tener DAI.
+- Debes estar usando una de las wallets compatibles: Metamask, Trustwallet, Trezor o Torus.
 
 ## Tutorial visual
 
