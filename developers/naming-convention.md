@@ -1,10 +1,3 @@
----
-tags: 'brand, docs-v2'
-description: >-
-  In this document we lay out the set of naming conventions used in the Yearn
-  ecosystem. It covers product names (yVaults, yCover, etc.) and tokens.
----
-
 # Naming conventions
 
 ## yVaults
