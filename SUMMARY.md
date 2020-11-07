@@ -32,6 +32,7 @@
 
 ## Developers
 
+- [Naming Conventions](developers/naming-convention.md)
 - [Deployed Contracts Registry](developers/deployed-contracts-registry.md)
 - [Code Repositories](developers/code-repositories.md)
 - [Integration Guide](developers/integration-guide.md)
