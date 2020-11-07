@@ -7,16 +7,6 @@
   * [Cómo agregar un token personalizado a MetaMask](how-to-guides/how-to-add-a-custom-token-to-metamask.md)
   * [Cómo participar en una yVault](how-to-guides/how-to-participate-in-a-yvault.md)
   * [Cómo crear una YIP](how-to-guides/how-to-make-a-yip.md)
-* [Gobernanza](governance.md)
-* [YFI y los yTokens](yfi-and-ytokens.md)
-* [yUSD](yusd.md)
-
-## Productos <a id="products"></a>
-
-* [yVaults](products/yvaults.md)
-* [Earn](products/earn.md)
-* [Zap](products/zap.md)
-* [yInsure](products/yinsure.md)
 
 ## Recursos adicionales <a id="additional-resources"></a>
 
