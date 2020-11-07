@@ -8,22 +8,22 @@ Yearn Finance es un conjunto de productos financieros descentralizados \(DeFi\) 
 
 ### Vaults
 
-* Robots de yield farming desarrollados por la comunidad.
-* Las yVaults siguen una estrategia única que está diseñada para maximizar el rendimiento del activo depositado y minimizar el riesgo.
+- Robots de yield farming desarrollados por la comunidad.
+- Las yVaults siguen una estrategia única que está diseñada para maximizar el rendimiento del activo depositado y minimizar el riesgo.
 
 ### Earn
 
-* Money markets dinámicos que maximizan el rendimiento y que son usados como bloques de construcción para yVaults.
-* Earn mueve sus fondos de forma automática entre distintos proveedores de préstamos como dydx, Aave o Compound.
+- Money markets dinámicos que maximizan el rendimiento y que son usados como bloques de construcción para yVaults.
+- Earn mueve sus fondos de forma automática entre distintos proveedores de préstamos como dydx, Aave o Compound.
 
 ### Zap
 
-* Es una herramienta que permite a los usuarios intercambiar entre varias monedas estables y una cesta de monedas estables que generan intereses \(yTokens\) o pools \(yCRV\).
-* Ahorra gas entrando o saliendo directamente de las pools de Curve con los activos básicos \(normalmente son monedas estables\).
+- Es una herramienta que permite a los usuarios intercambiar entre varias monedas estables y una cesta de monedas estables que generan intereses \(yTokens\) o pools \(yCRV\).
+- Ahorra gas entrando o saliendo directamente de las pools de Curve con los activos básicos \(normalmente son monedas estables\).
 
 ### Cover
 
-* yInsure proporciona cobertura contra pérdidas financieras para varios smart contracts y demás productos respaldados por Nexus Mutual.
+- yInsure proporciona cobertura contra pérdidas financieras para varios smart contracts y demás productos respaldados por Nexus Mutual.
 
 ## Gobernanza
 
