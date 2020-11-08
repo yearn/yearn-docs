@@ -26,7 +26,7 @@
 * [yLiquidate](r-and-d/yliquidate.md)
 * [ySwap](r-and-d/yswap.md)
 * [yTrade](r-and-d/ytrade.md)
-* [Delegated Funding DAO Vaults](r-and-d/delegated-funding-dao-vaults.md)
+* [Délégation des fonds du DAO vault](r-and-d/delegated-funding-dao-vaults.md)
 * [StableCredit](r-and-d/stablecredit.md)
 
 ## Developers
@@ -37,7 +37,7 @@
 * [yVaults Documentation](developers/yvaults-documentation/README.md)
   * [Vaults Overview](developers/yvaults-documentation/vaults-overview.md)
   * [Vault Interfaces](developers/yvaults-documentation/vault-interfaces.md)
-* [Misc Resources](developers/misc-resources/README.md)
+* [Resources Diverses](developers/misc-resources/README.md)
   * [YIP Boilerplate](https://gist.github.com/sambacha/07c8580377cf7deec6be569322babcfd#file-yip-boilerplate-proposal-md)
   * [Admin Access Policy](developers/misc-resources/adminpolicy.md)
   * [Smart Contract API](developers/misc-resources/smart-contract-api/README.md)
