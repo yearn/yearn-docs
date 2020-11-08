@@ -73,7 +73,7 @@
 
 ## Additional Resources
 
-* [Team](additional-resources/team.md)
+* [L'Equipe](additional-resources/team.md)
 * [Github](https://github.com/iearn-finance)
 * [Medium](https://medium.com/iearn)
 * [Gov Forum](https://gov.yearn.finance/)

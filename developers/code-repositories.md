@@ -33,18 +33,18 @@ Yearn smart contracts repo: [https://github.com/iearn-finance/yearn-protocol](ht
 * [APR Oracle](https://github.com/iearn-finance/apr-oracle/tree/master/contracts)
 * [Utils](https://github.com/iearn-finance/yearn-protocol/tree/develop/contracts/utils)
 
-## Security
+## Securité
 
 * [Disclosures Repo](https://github.com/iearn-finance/yearn-security/tree/master/disclosures)
 
-## Misc
+## Divers
 
 * [Yearn multisig \(ychad.eth\) budget](https://github.com/iearn-finance/ychad-audit)
 * [Yearn improvement proposals](https://github.com/iearn-finance/YIPS)
 * [Collection of public audits](https://github.com/iearn-finance/audits)
 * [Yearn vault schema](https://github.com/sambacha/yearn-vault-schema)
 
-## Yearn Community Tools
+## Les outils pour la communauté Yearn
 
 * Yearn Discord FAQ Bot
   * Repo: [https://github.com/dgornjakovic/yfi-faq-bot](https://github.com/dgornjakovic/yfi-faq-bot)
