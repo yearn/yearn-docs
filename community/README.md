@@ -64,7 +64,7 @@ If you are a UI/UX designer, animator, or graphic designer Yearn needs your help
 
 Whether it is creating graphics to describe how our the Yearn systems such as strategies work, making Yearn easier to navigate, or simply adjusting misaligned text on our homepage, we welcome all designers aboard the Yearn ship.
 
-You can find us over on [Discord](https://discord.com/invite/6PNv2nF) at the #ui-ux channel and you can see our work log on our [Kanban Board](TODO: Create Design Project Board).
+You can find us over on [Discord](https://discord.com/invite/6PNv2nF) at the #ui-ux channel to learn more.
 
 ## Yearn Contributors
 
