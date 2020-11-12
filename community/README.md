@@ -1,6 +1,6 @@
 # Contribute
 
-## Yearn Community
+## Yearn Contributors
 
 Help build the future of finance, today. Shape your skills, help others, and help grow the Yearn ecosystem. If it’s not fun, we’re not doing it right. If you are interested in finding out a bit more of what Yearn means for builders see the [Yearn manifesto](https://gov.yearn.finance/t/how-we-think-about-yearn/7137).
 
