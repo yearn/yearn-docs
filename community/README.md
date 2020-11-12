@@ -20,7 +20,7 @@ If a yearn product isn't working like you think it should please visit the appro
 
 ### Leave Feedback
 
-Currently we use [Canny](https://yearnfinance.canny.io/) to raise general feedback.
+Currently we use [yGov Forums - Feedback](https://gov.yearn.finance/c/feedback/2) to raise general feedback.
 
 ### Documentation
 
