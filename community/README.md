@@ -113,13 +113,4 @@ See our wonderful list of contributors and statistics of contributions to the Ye
 
 #### Social
 
-- Twitter:
-  - [Official Twitter Account ](https://twitter.com/iearnfinance)
-  - [Andre Cronje](https://twitter.com/AndreCronjeTech)
-  - [Klim (CEO of YFI)](https://twitter.com/milkyklim)
-  - [Blue Kirby](https://twitter.com/bluekirbyfi)
-- [Medium](https://medium.com/iearn)
-- [Discord](https://discord.com/invite/6PNv2nF)
-- [Telegram](https://t.me/yearnfinance)
-- [Reddit](https://www.reddit.com/r/yearn_finance/)
-- [Github](https://github.com/iearn-finance)
+Relevant social links can be found in the left sidebar
