@@ -50,7 +50,7 @@ You can additionally see our ongoing progress on our [Github Project Board](http
 
 If you are interested in working on a particular project check out the list of Yearn products in the [General Resources](##general-resources) section below or if you want to directly check out our list of repos head on over to our [Docs: Code Repositories](https://docs.yearn.finance/developers/code-repositories).
 
-If you want a general overview of how our various services interact with one another for Vaults please see the schema and accompanying descriptions at **[Vaults Overview](https://docs.yearn.finance/developers/yvaults-documentation/vaults-overview)**. For an interactive schema strategy take a look at [yDAI]() to see how all the pieces of the smart contracts work together.
+If you want a general overview of how our various services interact with one another for Vaults please see the schema and accompanying descriptions at **[Vaults Overview](https://docs.yearn.finance/developers/yvaults-documentation/vaults-overview)**.
 
 If you are curious how **strategies** work, please check out **[ETHOnline 🛠️ Yearn Strats 101](https://www.youtube.com/watch?v=4gwZk-IaMRs)** from our Yearn Devs. To start writing a new Strategy of your own please visit **[Yearn Starter Pack Repo](https://github.com/iearn-finance/yearn-starter-pack)**.
 
