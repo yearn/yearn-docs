@@ -83,6 +83,6 @@
 - [Telegram](https://t.me/yearnfinance)
 - [Reddit](https://www.reddit.com/r/yearn_finance/)
 
-## Community
+## Contributors
 
-- [Contribute](community/contribute/README.md)
+- [Contribute](contributors/contribute/README.md)
