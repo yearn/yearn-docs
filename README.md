@@ -1,36 +1,40 @@
-# Introduction to Yearn
+# README \(Portuguese\)
 
-Yearn Finance is a suite of products in Decentralized Finance \(DeFi\) that at its core provides lending aggregation, yield generation, and insurance on the Ethereum blockchain.
-The protocol is maintained and developed by various independent contributors within the cryptocurrency space. Management of the protocol is governed by YFI holders. Listed below are core products active in production, a brief description on the protocol's governance process, and links to active communication channels.
+# Introdução à Yearn
 
-## Core Products
+A Yearn é um conjunto de produtos financeiros descentralizados (DeFi) cujo objetivo é criar uma maneira simples de gerar rendimentos altamente ajustados ao risco para depositantes de vários ativos, utilizando os melhores e mais rentáveis protocolos de crédito, 'pools' de liquidez e ferramentas comunitárias no ethereum para aproveitamento de incentivos à liquidez.
+
+## Principais produtos
 
 ### Vaults
 
-Capital pools that automatically generate yield based on opportunities present in the market. Vaults benefit users by socializing gas costs, automating the yield generation and rebalancing process, and automatically shifting capital as opportunities arise. End users also do not need to have a proficient knowledge of the underlying protocols involved or DeFi, thus the Vaults represent a passive-investing strategy.
+- Ferramentas automáticas, desenvolvidas pela comunidade, para aproveitamento de incentivos à liquidez
+- As yVaults seguem estratégias únicas que procuram maximizar retornos sobre determinado ativo depositado, enquanto minimizando também o risco.
 
 ### Earn
 
-The first Yearn product was a lending aggregator. Funds are shifted between dYdX, AAVE, and Compound automatically as interest rates change between these protocols. Users can deposit to these lending aggregator smart contracts via the Earn page. This product completely optimizes the interest accrual process for end-users to ensure they are obtaining the highest interest rates at all times among the platforms specified above.
+- Mercados financeiros dinâmicos e adaptáveis aos retornos que servem de base aos yVaults
+- A Earn executa automadamente a deslocação de fundos entre diversas plataformas de crédito (dydx, Aave e Compound) de forma a receber sempre a maior taxa de juro.
 
 ### Zap
 
-A tool that enables users to swap into and out of (known as "Zapping") several liquidity pools available on Curve.Finance. These pools benefit from the lending aggregators discussed above, as well as earning users trading fees by partcipating as Liquidity Providers (LPs) on Curve.Fi. Currently users can use five stablecoins (BUSD, DAI, USDC, USDT, TUSD) and "Zap" into one of two pools (y.curve.fi or busd.curve.f) on Curve. Alternatively, users can "Zap" out of these two Curve pools and into one of the five base stablecoins.
+- É uma ferramenta que permite aos usuários fazer trocas diretas entre stablecoins e uma gama de stablecoins geradoras de juro (yTokens) ou tokens representativos de uma 'pool' de liquidez (yCRV)
+- Economia em custos com gas usando a Zap para sair/entrar diretamente das 'pools' de liquidez da Curve.
 
 ### Cover
 
-Insurance that enables users to obtain coverage against financial loss for various smart contracts and/or protcols on the Ethereum blockchain. Cover is underwritten by Nexus Mutual.
+- Os seguros agrupados ('pooled') da yInsure fornecem cobertura contra perdas financeiras resultantes de erros de smart contracts em produtos subscritos pela Nexus Mutual.
 
-## Governance
+## Governância
 
-The Yearn ecosystem is controlled by YFI token holders who submit and vote on proposals that govern the ecosystem. Proposals that meet quorum requirements \(&gt;20% of the tokens staked in the governance contract\) and generate a majority support \(&gt;50% of the vote\) are implemented by a 9 member multi-signature wallet. Changes must be signed by 6 out of the 9 wallet signers in order to be implemented. The members of the multi-signature wallet were voted in by YFI holders and are subject to change from future governance votes. Please refer to our FAQ for [the list of the multisig signers](https://docs.yearn.finance/faq#who-are-the-9-multisig-signers).
+- O ecossistema da Yearn é controlado pelos detentores do token YFI, que submetem propostas e votam a favor ou contra a sua implementação. Propostas que alcancem o quórum (>20% dos tokens em staking no contrato de governância) e que os detentores de YFI aprovem são depois implementadas por um endereço multi-assinatura com 9 membros. Esses membros foram eleitos pelos detentores de YFI e podem mudar conforme propostas de governância futuras. Por favor visite a nossa página de FAQ se quiser saber mais sobre os [membros do endereço multiassinatura](https://docs.yearn.finance/faq#who-are-the-9-multisig-signers).
 
-## Communication Channels
+## Se quiser participar
 
-Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
+- [Fórum de governância](https://gov.yearn.finance/)
 
-Discord [http://discord.yearn.finance](http://discord.yearn.finance)
+- [Discord](https://discord.gg/JdbkVN)
 
-Telegram [https://t.me/yearnfinance](https://t.me/yearnfinance)
+- [Telegram](https://t.me/yearnfinance)
 
-Reddit [https://www.reddit.com/r/yearn_finance/](https://www.reddit.com/r/yearn_finance/)
+- [Reddit](https://www.reddit.com/r/yearn_finance/)
