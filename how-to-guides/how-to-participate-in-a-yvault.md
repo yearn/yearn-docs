@@ -1,61 +1,58 @@
-# How To Participate in a yVault
+# Cómo participar en una yVault
 
-This visual guide will walk you through every step in depositing funds in a [yVault](https://docs.yearn.finance/products/yvaults).
+Esta guía visual te llevará paso a paso en el proceso de depositar fondos en una [yVault](https://docs.yearn.finance/products/yvaults).
 
-## Prerequisites
+## Prerrequisitos
 
-- You must have the yVault's underlying token. For DAI yVault, you must have DAI.
-- You must use a supported wallet, either Metamask, Trustwallet, Trezor, or Torus.
+- Debes tener el token que puede ser depositado en una yVault. Por ejemplo, para la yVault de DAI, debes tener DAI.
+- Debes estar usando una de las wallets compatibles: Metamask, Trustwallet, Trezor o Torus.
 
-## Walkthrough
+## Tutorial visual
 
-### 1. Go to [Vaults page](https://yearn.finance/vaults) and click on “Connect your wallet”
+### 1. Ve a la página de [Vaults](https://yearn.finance/vaults) y has click en “Connect your wallet”
 
-![connect metamask](https://i.imgur.com/ShWcOX6.jpg)
+![Conecta tu wallet](https://i.imgur.com/ShWcOX6.jpg)
 
-### 2. Choose your favorite wallet
+### 2. Selecciona tu wallet favorita
 
-![choose wallet](https://i.imgur.com/TuabuVf.jpg)
+![elige tu wallet](https://i.imgur.com/T6gJZA5.png?1)
 
-### 3. Enter your password and click “Unlock”
+### 3. Escribe tu contraseña y has click en “Unlock”
 
-![metamask password](https://i.imgur.com/nep4a4D.jpg)
+![mete la contraseña de Metamask](https://i.imgur.com/crr1bm2.png?1)
 
-### 4. Choose which Vault you want to deposit into, for example, the DAI Vault
+### 4. Elige en cuál Vault quieres depositar, por ejemplo, la Vault de DAI.
 
-![deposit DAI vault](https://i.imgur.com/IcmANu3.jpg)
+![haz un ingreso en la vault de DAI](https://i.imgur.com/hPkA7pj.png?1)
 
-### 5. Enter the amount of DAI that you want to deposit
+### 5. Escribe la cantidad de DAI que quieres depositar
 
-![amount DAI vault](https://i.imgur.com/VaAGaOc.jpg)
+![introduce la cantidad a depositar](https://i.imgur.com/Br4Naah.png?1)
 
-### 6. Click “Deposit”
+### 6. Haz click en “Deposit”
 
-![deposit vault](https://i.imgur.com/RneAtGx.jpg)
+![deposita en la vault](https://i.imgur.com/XAj3GuN.png?1)
 
-Click on **25%, 50%, 75% or 100%** to deposit the corresponding proportion of your wallet into the Vault.
+Haz click en **25%, 50%, 75% o 100%** para depositar el correspondiente porcentaje de tu wallet en la Vault.
 
-Or click “Deposit All” if you would like to **deposit 100%** of the chosen digital asset from your wallet into the Vault.
-:::info
-Please note before you make a deposit that there is a **0.5% withdrawal fee**. The longer you leave the deposit to earn returns in the Vault, the more likely your returns will exceed the withdrawal fee.
-:::
+O haz click en “Deposit All” si te gustaría **depositar el 100%** de los tokens seleccionados en la Vault. :::info Fíjate antes de hacer un depósito que hay **una tarifa de retiro del 0.5%** de los fondos depositados. Entre más tiempo dejes tus fondos dentro de la Vault, más probable será que las ganancias superen a la tarifa de retiro. :::
 
-### 7. Approve yearn.finance to spend your DAI token (first time only) and then click “Confirm” again to approve the deposit
+### 7. Autoriza a yearn.finance para gastar tus tokens DAI )sólo si es la primera vez) y después haz click en “Confirm” otra vez para aprobar el depósito.
 
-![approve DAI vault](https://i.imgur.com/pPGoSiP.jpg)
+![aprueba el permiso](https://i.imgur.com/Sl5eGEI.png?1)
 
-You need to pay a **transaction fee in Ether (ETH)** to approve yearn.finance to spend your DAI.
+Necesitarás pagar la **tarifa de la transacción en Ether (ETH)** para autorizar a yearn.finance para gastar tus tokens DAI.
 
-Make sure there is **enough ETH in your wallet**.
+Asegúrate de que tienes **suficiente ETH en tu wallet**.
 
-### 8. Receive your yToken (in this case it would be yDAI)
+### 8. Recibe tu yToken (en este caso sería yDAI)
 
-The yDAI you receive is your **share of the DAI Vault**. The amount of yDAI in your wallet will **remain constant** over time but the value of it will increase as the DAI Vault earns returns.
+Los tokens yDAI que recibirás son tu **parte de la Vault de DAI.** La cantidad de yDAI en tu wallet se mantendrá constante en el tiempo pero su valor incrementará a medida que la Vault de DAI genere ganancias.
 
-The amount of yDAI you receive will be less than 1 per DAI you deposited because yDAI is worth more than 1 DAI.
+La cantidad de yDAI que recibirás será menor que 1 por cada DAI que deposites porque 1 yDAI cuesta más que 1 DAI.
 
-For example, at block number 10611372 yDAI was equal to 1.044 DAI. Therefore had you deposited 100 DAI, you would have received 95.78 yDAI (100 / 1.044).
+Por ejemplo, en el bloque número 10611372, un token yDAI era equivalente a 1.044 DAI. Por tanto, si hubieses depositado 100 DAI en ese momento, habrías recibido 95.78 yDAI (100 / 1.044).
 
-### 9. Track your earnings
+### 9. Seguimiento de tus ganancias
 
-[Yearn Party](https://yearn.party/) shows an approximate running total for how much you have earned in the Vault.
+[Yearn Party](https://yearn.party/) muestra de forma aproximada el total acumulado de cuánto has ganado en la Vault.
