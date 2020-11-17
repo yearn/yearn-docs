@@ -40,7 +40,7 @@ Created: 2020-09-01
 
 ## Validación
 
-Las YIPs DEBEN pasar algunos tests de validación. El repositorio de las YIPs se asegura de esto corriendo algunos tests usando [html-proofer](https://rubygems.org/gems/html-proofer) y [yip\_validator](https://rubygems.org/gems/yip_validator).
+Las YIPs DEBEN pasar algunos tests de validación. El repositorio de las YIPs se asegura de esto corriendo algunos tests usando [html-proofer](https://rubygems.org/gems/html-proofer) y [yip_validator](https://rubygems.org/gems/yip_validator).
 
 Es posible correr el validador de YIPs localmente de la siguiente forma:
 
@@ -52,4 +52,3 @@ yip_validator <INPUT_FILES>
 ## Derechos de autor
 
 Derechos de autor y derechos relacionados con renuncia a través de [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
-

@@ -39,7 +39,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 - Andre explica las [Vaults](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) y las [Vaults delegadas](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) en estas dos publicaciones.
 - En pocas palabras, las Vaults pueden hacer esto:
   - Utilizar cualquier activo como liquidez.
-  - Utilizar la liquidez como aval para un préstamo y gestionar el préstamo   para que el aval nunca sea liquidado.
+  - Utilizar la liquidez como aval para un préstamo y gestionar el préstamo para que el aval nunca sea liquidado.
   - Pedir prestadas monedas estables.
   - Poner las monedas estables a farmear \(Yield farming\).
   - Reinvertir las monedas estables ganadas.
@@ -50,7 +50,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### Veo que se muestra el ROI en la página de las Vaults, ¿es el ROI actual?
 
-- No, es un valor histórico promediado para la Vault en cuestión. El APY / ganancias actuales no se muestran ya que las Vaults son un producto en beta y se están probando en vivo. 
+- No, es un valor histórico promediado para la Vault en cuestión. El APY / ganancias actuales no se muestran ya que las Vaults son un producto en beta y se están probando en vivo.
 - Varios sitios de terceras personas proporcionan el APY actual y otro tipo de información. Estos sitios pueden encontrarse más abajo en [Estadísticas](https://docs.yearn.finance/faq#statistics).
 
 #### ¿Cuáles son los riesgos?
@@ -67,7 +67,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 - **¿Cuál es la diferencia entre la Vault de LINK y la de aLINK?**
   - Ninguna en términos de ganancias. El LINK depositado en la Vault será depositado en Aave generando aLINK \( LINK que genera intereses en Aave\). Por tanto, depositando directamente en la vault de aLINK te saltas un paso del proceso.
 - **¿Por qué el rendimiento de las Vaults de aLINK y LINK son diferentes?**
-  - aLINK tiene una "tarifa" de seguro del 0.5%  \(se devuelve cuando se supera \). La Vault de LINK no tiene esta tarifa para evitar la aparición de un rendimiento negativo.
+  - aLINK tiene una "tarifa" de seguro del 0.5% \(se devuelve cuando se supera \). La Vault de LINK no tiene esta tarifa para evitar la aparición de un rendimiento negativo.
 
 **yETH y yWETH**
 
@@ -85,9 +85,9 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 - No. La Vault farmeará CRV que será vendido en el mercado automáticamente. Cuando decidas retirar tus fondos de la Vault, recibirás más tokens yCRV de los que depositaste inicialmente.
 
-#### ¿Por qué el token yCRV no vale $1?, es una moneda estable ¿verdad?
+#### ¿Por qué el token yCRV no vale \$1?, es una moneda estable ¿verdad?
 
-- No, el token yCRV no vale $1, y NO es una moneda estable. Puedes pensar en yCRV como si fuera un índice de monedas estables \(yDAI+yUSDC+yUSDT+yTUSD\) que genera rendimientos y que también recibe tarifas \(más concretamente, tarifas de los intercambios hechos en la Y pool de Curve\). Por lo tanto, el precio del token yCRV no decrece. 
+- No, el token yCRV no vale \$1, y NO es una moneda estable. Puedes pensar en yCRV como si fuera un índice de monedas estables \(yDAI+yUSDC+yUSDT+yTUSD\) que genera rendimientos y que también recibe tarifas \(más concretamente, tarifas de los intercambios hechos en la Y pool de Curve\). Por lo tanto, el precio del token yCRV no decrece.
 
 #### Si retiro mis tokens yCRV de la Vault de yCRV, ¿son retirados también de la Y pool de Curve? ¿Tengo que hacer algo más, como volver a depositarlos en la pool?
 
@@ -126,7 +126,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### ¿A dónde van las tarifas recolectadas?
 
 - Van al [contrato](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde) del tesoro.
-- El tesoro recibirá las tarifas recolectadas hasta un límite máximo de $500k, cualquier cantidad extra será redirijida al [contrato](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992) de gobernanza.
+- El tesoro recibirá las tarifas recolectadas hasta un límite máximo de \$500k, cualquier cantidad extra será redirijida al [contrato](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992) de gobernanza.
 
 #### ¿Han ido las tarifas siempre a ese contrato?
 
@@ -192,7 +192,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### Entonces, ¿qué puedo hacer con Zap en Yearn?
 
-- Con un Zap puedes coger, por ejemplo, tus tokens DAI y obtener yCRV con ellos en una única transacción. Normalmente, para convertir DAI en yCRV, tendrías que ir a earn, depositar DAI y recibir yDAI, luego ir a la [pool de Yearn de Curve](https://www.curve.fi/iearn/deposit) y depositar tu yDAI para acabar obteniendo  los tokens yCRV. Esto supone hacer un montón de transacciones, ¡pero con Zap puedes hacerlo en una única transacción!.
+- Con un Zap puedes coger, por ejemplo, tus tokens DAI y obtener yCRV con ellos en una única transacción. Normalmente, para convertir DAI en yCRV, tendrías que ir a earn, depositar DAI y recibir yDAI, luego ir a la [pool de Yearn de Curve](https://www.curve.fi/iearn/deposit) y depositar tu yDAI para acabar obteniendo los tokens yCRV. Esto supone hacer un montón de transacciones, ¡pero con Zap puedes hacerlo en una única transacción!.
 
 #### Tiene muy buena pinta, ¿hay alguna desventaja?
 
@@ -233,7 +233,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 ## Comunicación
 
 - [Foro](https://gov.yearn.finance)
-  - Mucha discusión en tiempo real ocurre en Telegram y en Discord, pero para que una propuesta se convierta en una YIP \(Yearn Improvement Proposal\), debe publicarse y discutirse en el foro. 
+  - Mucha discusión en tiempo real ocurre en Telegram y en Discord, pero para que una propuesta se convierta en una YIP \(Yearn Improvement Proposal\), debe publicarse y discutirse en el foro.
   - Este es el lugar principal donde los holders de YFI discuten a cerca de problemas relacionados con la gobernanza del protocolo.
 - [Discord](http://discord.yearn.finance/)
   - Incluídos canales para hablar en idiomas distintos al inglés.
@@ -290,7 +290,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿Qué tengo que hacer para recibir recompensas con mis tokens YFI?
 
-- Todo lo que tienes que hacer es stakear tus tokens YFI en [ygov.finance/stake](https://ygov.finance/stake) y recibirás recompensas si el tesoro del protocolo tiene más de $500k. Puedes consultar la cuenta del tesoro [aquí](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
+- Todo lo que tienes que hacer es stakear tus tokens YFI en [ygov.finance/stake](https://ygov.finance/stake) y recibirás recompensas si el tesoro del protocolo tiene más de \$500k. Puedes consultar la cuenta del tesoro [aquí](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
 - Fíjate que si stakeas, obtienes recompensas \(siempre y cuando no estén yendo al tesoro\), pero sólo puedes reclamarlas dentro de un intervalo de 3 días después de votar.
 
 #### A la hora de votar, ¿es importante tener stakeados mis tokens YFI?
@@ -312,7 +312,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### ¿De qué va el nuevo sistema de votación que no cuesta gas?
 
-- Ahora tenemos un sistema de señalización off-chain que utiliza los tokens stakeados en ygov. Esto reemplaza las antiguas encuestas del foro que  eran informales y vulnerables a los ataques de sybil. Puedes elegir entre opciones múltiples y no cuesta gas usarlo, únicamente tienes que firmar un mensaje con tu wallet que no cuesta nada. Seguimos utilizando el sistema de votación on-chain normal para las YIPs.
+- Ahora tenemos un sistema de señalización off-chain que utiliza los tokens stakeados en ygov. Esto reemplaza las antiguas encuestas del foro que eran informales y vulnerables a los ataques de sybil. Puedes elegir entre opciones múltiples y no cuesta gas usarlo, únicamente tienes que firmar un mensaje con tu wallet que no cuesta nada. Seguimos utilizando el sistema de votación on-chain normal para las YIPs.
 
 #### ¿Durante cuánto tiempo estarán bloqueados mis tokens YFI después de votar?
 
@@ -356,7 +356,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 #### No hablo inglés, ¿Cuándo estará todo disponible en otros idiomas?
 
-- Estamos trabajando en la traducción a otros idiomas pero puede llevar un poco de tiempo. Por ahora puedes hablar en otros idiomas en la sección global del [Discord](http://discord.yearn.finance/). 
+- Estamos trabajando en la traducción a otros idiomas pero puede llevar un poco de tiempo. Por ahora puedes hablar en otros idiomas en la sección global del [Discord](http://discord.yearn.finance/).
 
 ## Comunidad
 
@@ -407,7 +407,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### ¿Le pagan a alguien por trabajar en Yearn?
 
-- Ahora mismo todavía no, pero gracias a la aprobación de la [YIP 36](https://yips.yearn.finance/YIPS/yip-36) y a la creación de una pool comunitaria de fondos que se mantendrá en $500k, ahora podemos pagar a Andre por su trabajo, financiar auditorías, contratar nuevos desarrolladores y pagar por cualquier otra cosa que necesite el ecosistema de Yearn.
+- Ahora mismo todavía no, pero gracias a la aprobación de la [YIP 36](https://yips.yearn.finance/YIPS/yip-36) y a la creación de una pool comunitaria de fondos que se mantendrá en \$500k, ahora podemos pagar a Andre por su trabajo, financiar auditorías, contratar nuevos desarrolladores y pagar por cualquier otra cosa que necesite el ecosistema de Yearn.
 
 ### ¿Quién puede trabajar para Yearn?
 
@@ -503,7 +503,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 - [yearn.finance](https://twitter.com/iearnfinance) - Twitter oficial de Yearn
 - [AndreCronjeTech](https://twitter.com/AndreCronjeTech)
-- [Yearn Finance](https://medium.com/iearn) -  Blog oficial
+- [Yearn Finance](https://medium.com/iearn) - Blog oficial
 
 ### Podcasts
 
@@ -527,4 +527,3 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 ### Logos
 
 - Pueden encontrarse en el Discord en el canal [\#media-resources](https://discord.com/channels/734804446353031319/736132884443955242/740325105904779326)
-

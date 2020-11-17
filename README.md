@@ -37,5 +37,4 @@ Discord [http://discord.yearn.finance](http://discord.yearn.finance)
 
 Telegram [https://t.me/yearnfinance](https://t.me/yearnfinance)
 
-Reddit [https://www.reddit.com/r/yearn\_finance/](https://www.reddit.com/r/yearn_finance/)
-
+Reddit [https://www.reddit.com/r/yearn_finance/](https://www.reddit.com/r/yearn_finance/)

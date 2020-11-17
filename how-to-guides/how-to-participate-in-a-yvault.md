@@ -19,7 +19,7 @@ Esta guía visual te llevará paso a paso en el proceso de depositar fondos en u
 
 ### 3. Escribe tu contraseña y has click en “Unlock”
 
-![mete la contrase&#xF1;a de Metamask](https://i.imgur.com/crr1bm2.png?1)
+![mete la contraseña de Metamask](https://i.imgur.com/crr1bm2.png?1)
 
 ### 4. Elige en cuál Vault quieres depositar, por ejemplo, la Vault de DAI.
 
@@ -37,23 +37,22 @@ Haz click en **25%, 50%, 75% o 100%** para depositar el correspondiente porcenta
 
 O haz click en “Deposit All” si te gustaría **depositar el 100%** de los tokens seleccionados en la Vault. :::info Fíjate antes de hacer un depósito que hay **una tarifa de retiro del 0.5%** de los fondos depositados. Entre más tiempo dejes tus fondos dentro de la Vault, más probable será que las ganancias superen a la tarifa de retiro. :::
 
-### 7. Autoriza a yearn.finance para gastar tus tokens DAI \(sólo si es la primera vez\) y después haz click en “Confirm” otra vez para aprobar el depósito.
+### 7. Autoriza a yearn.finance para gastar tus tokens DAI )sólo si es la primera vez) y después haz click en “Confirm” otra vez para aprobar el depósito.
 
 ![aprueba el permiso](https://i.imgur.com/Sl5eGEI.png?1)
 
-Necesitarás pagar la **tarifa de la transacción en Ether \(ETH\)** para autorizar a yearn.finance para gastar tus tokens DAI.
+Necesitarás pagar la **tarifa de la transacción en Ether (ETH)** para autorizar a yearn.finance para gastar tus tokens DAI.
 
 Asegúrate de que tienes **suficiente ETH en tu wallet**.
 
-### 8. Recibe tu yToken \(en este caso sería yDAI\)
+### 8. Recibe tu yToken (en este caso sería yDAI)
 
 Los tokens yDAI que recibirás son tu **parte de la Vault de DAI.** La cantidad de yDAI en tu wallet se mantendrá constante en el tiempo pero su valor incrementará a medida que la Vault de DAI genere ganancias.
 
 La cantidad de yDAI que recibirás será menor que 1 por cada DAI que deposites porque 1 yDAI cuesta más que 1 DAI.
 
-Por ejemplo, en el bloque número 10611372, un token yDAI era equivalente a 1.044 DAI. Por tanto, si hubieses depositado 100 DAI en ese momento, habrías recibido 95.78 yDAI \(100 / 1.044\).
+Por ejemplo, en el bloque número 10611372, un token yDAI era equivalente a 1.044 DAI. Por tanto, si hubieses depositado 100 DAI en ese momento, habrías recibido 95.78 yDAI (100 / 1.044).
 
 ### 9. Seguimiento de tus ganancias
 
 [Yearn Party](https://yearn.party/) muestra de forma aproximada el total acumulado de cuánto has ganado en la Vault.
-
