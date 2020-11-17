@@ -1,33 +1,33 @@
-# How To Make a YIP
+# Cómo crear una YIP
 
-## Abstract
+## Resumen
 
-The yEarn Improvement Proposals \(`YIP`s\) describe standards for the yEarn platform, including core protocol specifications, client APIs, and contract standards. This is the definitive, `canonical` reference specification for the core logic.
+Las propuestas de mejora de Yearn \(`YIPs`\) describen los estándares para la plataforma de Yearn, incluidas las especificaciones del protocolo central, las API del cliente y los estándares de los smart contracts. Esta es la especificación `canónica` definitiva de referencia para la lógica central.
 
-## Contributing
+## Aportar
 
-1. Review [YIP-0](https://github.com/iearn-finance/YIPS/blob/master/YIPS/yip-0.md).
-2. Fork the repository by clicking "Fork" in the top right.
-3. Add your YIP to your fork of the repository. There is a [template YIP here](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md).
-4. Submit a Pull Request to yEarn's [YIPs repository](https://github.com/iearn-finance/YIPS/).
+1. Revisa la [YIP-0](https://github.com/iearn-finance/YIPS/blob/master/YIPS/yip-0.md).
+2. Crea un fork del repositorio haciendo click en "Fork" arriba a la derecha.
+3. Añade tu YIP a tu versión del repositorio. Hay una plantilla de YIP disponible [aquí](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md).
+4. Envía una PR \(Pull Request\) al [repositorio de YIPs](https://github.com/iearn-finance/YIPS/) de Yearn.
 
-Your first PR should be a first draft of the final YIP. It must meet the formatting criteria enforced by the build \(largely, correct metadata in the header\). An editor will manually review the first PR for a new YIP and assign it a number before merging it. Make sure you include a `discussions-to` header with the URL to a new thread on [gov.yearn.finance](https://gov.yearn.finance/) where people can discuss the YIP as a whole.
+Tu primer PR debería ser un primer borrador de la YIP final. Este debe cumplir todos los criterios de formato impuestos por el compilador \(en gran parte, metadatos correctos en el header\). Un editor revisará manualmente la primera PR para cada nueva YIP y le asignará un número antes de incluirla en el repositorio. Asegúrate de incluir en el header `discussions-to` la URL del nuevo hilo creado en el [foro oficial](https://gov.yearn.finance/) donde la gente podrá discutir a cerca de la YIP y los cambios propuestos.
 
-> Note: It is important that their be community support behind a proposed `YIP` - It is up to the author\(s\) to shepard their proposal through the process.
+> Nota: Es importante que haya apoyo de la comunidad hacia la `YIP` propuesta. Depende del autor \(es\) llevar su propuesta a lo largo del proceso.
 
-If your YIP requires images, the image files should be included in a subdirectory of the `assets` folder for that YIP as follow: `assets/yip-X` \(for yip **X**\). When linking to an image in the YIP, use relative links such as `../assets/yip-X/image.png`.
+Si tu YIP requiere imágenes, los archivos de imagen deben incluirse en un subdirectorio de la carpeta `assets` para dicha YIP de la siguiente manera: `assets/yip-X` \(para una YIP **X**\). Cuando se vincule a una imagen dentro de la YIP, usa enlaces relativos como `../assets/yip-X/image.png`.
 
-When you believe your YIP is mature and ready to progress past the WIP phase, you should ask to have your issue added to the next governance call where it can be discussed for inclusion in a future platform upgrade. If the community agrees to include it, the YIP editors will update the state of your YIP to 'Approved'.
+Cuando creas que tu YIP está madura y lista para avanzar más allá de la fase WIP \(Work In Progress\), debes solicitar que tu issue se agregue a la próxima llamada de gobernanza donde se podrá discutir su inclusión en una futura actualización de la plataforma. Si la comunidad acepta incluirlo, los editores de las YIPs actualizarán el estado de tu YIP a 'Aprobada'.
 
-## YIP Statuses
+## Estados de una YIP
 
-- **WIP** - a YIP that is still being developed.
-- **Proposed** - a YIP that is ready to be reviewed in a governance call.
-- **Approved** - a YIP that has been accepted for implementation by the yEarn community.
-- **Implemented** - a YIP that has been released to mainnet.
-- **Rejected** - a YIP that has been rejected.
+- **WIP \(Work In Progress\)** - una YIP que aún está siendo desarrollada.
+- **Propuesta** - una YIP que está lista para ser revisada en una llamada de gobernanza.
+- **Aprobada** - una YIP que ha sido aceptada por la comunidad de Yearn para ser implementada.
+- **Implementada** - una YIP ha sido implementada y desplegada en mainnet.
+- **Rechazada** - una YIP que ha sido rechazada.
 
-### Example YIP
+### Ejemplo de YIP
 
 ```diff
 -Status: Proposed
@@ -38,17 +38,18 @@ Created: 2020-09-01
 +Last-Modified: 2020-09-08
 ```
 
-## Validation
+## Validación
 
-YIPs MUST pass some validation tests. The YIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer) and [yip_validator](https://rubygems.org/gems/yip_validator).
+Las YIPs DEBEN pasar algunos tests de validación. El repositorio de las YIPs se asegura de esto corriendo algunos tests usando [html-proofer](https://rubygems.org/gems/html-proofer) y [yip\_validator](https://rubygems.org/gems/yip_validator).
 
-It is possible to run the YIP validator locally:
+Es posible correr el validador de YIPs localmente de la siguiente forma:
 
 ```ruby
 gem install yip_validator
 yip_validator <INPUT_FILES>
 ```
 
-## Copyright
+## Derechos de autor
 
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+Derechos de autor y derechos relacionados con renuncia a través de [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+
