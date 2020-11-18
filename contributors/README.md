@@ -20,7 +20,7 @@ If no issue template is present, please include information such as your browser
 
 If the issue already exists, you can signal your support by adding a thumbs up to the existing issue or by adding helpful information.
 
-### Feedback
+### Leave Feedback
 
 Use the [Feedback](https://gov.yearn.finance/c/feedback/2) section of the governance forum to provide feedback.
 
