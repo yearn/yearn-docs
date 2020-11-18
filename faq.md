@@ -494,7 +494,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ### Registry of Tokens and Utility Contracts
 
-- [https://docs.yearn.finance/yearn.finance/yearn-1](https://docs.yearn.finance/yearn.finance/yearn-1)
+- [https://docs.yearn.finance/developers/deployed-contracts-registry](https://docs.yearn.finance/developers/deployed-contracts-registry)
 
 ### Vaults Detail Reference
 
