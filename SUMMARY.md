@@ -82,3 +82,7 @@
 - [Discord](http://discord.yearn.finance)
 - [Telegram](https://t.me/yearnfinance)
 - [Reddit](https://www.reddit.com/r/yearn_finance/)
+
+## Contributors
+
+- [Contribute](contributors/contribute/README.md)

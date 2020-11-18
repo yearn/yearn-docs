@@ -61,7 +61,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 #### What are the risks?
 
 - While the assets deposited can't decrease, the debt of the vault can increase. If a strategy does not manage to outperform the debt, then a portion of the asset will be impermanently locked. If a strategy later outperforms the debt again, the asset will again be available to withdraw. There are mechanisms in the vaults to prevent this but nothing is bulletproof.
-- As of now, the Vaults have not been audited.
+- As of now, only _some_ Vaults have been [audited](https://github.com/iearn-finance/yearn-audits/blob/bdb3868c98e4fe2427898db05154942a9192efb1/MixBytes%20-%20Yearn.Finance%20protocol%20v.1%20Smart%20Contracts%20Audit%20Security%20Audit%20Report.pdf).
 - Smart contract risk with any contracts that the vaults interact with.
 
 #### What are the different yVaults?
