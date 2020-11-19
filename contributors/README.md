@@ -12,11 +12,11 @@ We are always open to new suggestions or better ways of doing things. If you hav
 
 ### File a Bug
 
-If a Yearn product isn't working, please visit the appropriate Github repository listed under [General Resources](#general-resources) — or search in the [Yearn Github Repo](https://github.com/iearn-finance/yearn-protocol) — to see if the issue already exists. 
+If a Yearn product isn't working, please visit the appropriate Github repository listed under [General Resources](#general-resources) — or search in the [Yearn Github Repo](https://github.com/iearn-finance/yearn-protocol) — to see if the issue already exists.
 
-If it does not exist, please create a new issue following the template present in the repository. 
+If it does not exist, please create a new issue following the template present in the repository.
 
-If no issue template is present, please include information such as your browser version, device, etc. for that project so the developers can replicate it and fix it. 
+If no issue template is present, please include information such as your browser version, device, etc. for that project so the developers can replicate it and fix it.
 
 If the issue already exists, you can signal your support by adding a thumbs up to the existing issue or by adding helpful information.
 
@@ -26,7 +26,7 @@ Use the [Feedback](https://gov.yearn.finance/c/feedback/2) section of the govern
 
 ### Write Documentation
 
-The Yearn ecosystem is expanding and, as a result, so is the need for documentation. You can find the "official" Yearn Documentation [here](https://docs.yearn.finance/) — which provides high-level overviews *and* technical documentation. 
+The Yearn ecosystem is expanding and, as a result, so is the need for documentation. You can find the "official" Yearn Documentation [here](https://docs.yearn.finance/) — which provides high-level overviews _and_ technical documentation.
 
 Whether its writing _How To_ guides on using vaults or creating diagrams on how the protocol ties together, there is something for everyone. If you speak another language, translations might be up your alley!
 
@@ -60,7 +60,7 @@ If you are looking to integrate with Yearn, please visit our [Integration Guide]
 
 #### Designers
 
-We invite designers, animators, artists, and more to share your skills with the Yearn ecosystem! If you're interested in creating graphics that describe Yearn's systems, creating video explainers, fixing Yearn's UI/UX, or any other combination of things — hop into the #ui-ux channel or #media-resources channels in [Discord](https://docs.yearn.finance/developers/yvaults-documentation/vault-interfaces). 
+We invite designers, animators, artists, and more to share your skills with the Yearn ecosystem! If you're interested in creating graphics that describe Yearn's systems, creating video explainers, fixing Yearn's UI/UX, or any other combination of things — hop into the #ui-ux channel or #media-resources channels in [Discord](https://docs.yearn.finance/developers/yvaults-documentation/vault-interfaces).
 
 ## Yearn Contributors
 
