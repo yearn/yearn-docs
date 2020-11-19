@@ -48,7 +48,7 @@ If this sounds confusing, please let us know what we can clear up. In the meanti
 
 If you're a developer we need your help! Before you begin: Familiarize yourself with Yearn, its products, and its infrastructure by reading our [Documentation](https://docs.yearn.finance/).
 
-You can see our progress on our [Github Project Board](https://github.com/orgs/iearn-finance/projects/1) and you can immediately begin contributing where you see fit. We recommend checking out issues tagged as `help wanted` and reccommend sticking to the respective repository's coding guidelines (linting, formatting, PRs, etc). It's that simple 🙂. You can also join us on the #dev channel in [Discord](https://discord.com/invite/6PNv2nF).
+You can see our progress on our [Github Project Board](https://github.com/orgs/iearn-finance/projects/1) and you can immediately begin contributing where you see fit. We recommend checking out issues tagged as `help wanted` and recommend sticking to the respective repository's coding guidelines (linting, formatting, PRs, etc). It's that simple 🙂. You can also join us on the #dev channel in [Discord](https://discord.com/invite/6PNv2nF).
 
 If you are interested in working on a specific project, check out the list of Yearn products in the [General Resources](#general-resources) section below or check out our list of repos [here](https://docs.yearn.finance/developers/code-repositories).
 
