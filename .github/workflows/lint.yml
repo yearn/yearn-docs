@@ -5,34 +5,33 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   lint:
-
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v2
+      - name: Checkout repo
+        uses: actions/checkout@v2
 
-    - name: Cache modules
-      uses: actions/cache@v2
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
+      - name: Cache modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
-    - name: Setup node.js
-      uses: actions/setup-node@v1
-      with:
-          node-version: '12.x'
+      - name: Setup node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
 
-    - name: Install modules
-      run: npm install
+      - name: Install modules
+        run: npm install
 
-    - name: Run linter on
-      run: npm run lint:check
+      - name: Run linter on
+        run: npm run lint:check
