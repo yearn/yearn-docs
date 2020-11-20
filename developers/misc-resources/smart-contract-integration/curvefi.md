@@ -2,7 +2,7 @@
 
 | Contract | ABI                                                                                                    | Address                                                                                  |
 | :------- | :----------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
-| ICurveFi | [JSON](https://github.com/curvefi/curve-contract/blob/compounded/deployed/2020-01-21_mainnet/swap.abi) | [curve.fi](https://etherscan.io/address/0x2e60CF74d81ac34eB21eEff58Db4D385920ef419#code) |
+| ICurveFi | [JSON](https://github.com/curvefi/curve-contract/blob/master/contracts/pools/compound/pooldata.json) | [curve.fi](https://etherscan.io/address/0xA2B47E3D5c44877cca798226B7B8118F9BFb7A56) |
 
 ## ICurveFi Interface
 
