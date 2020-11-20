@@ -8,7 +8,7 @@ These docs are still being worked on.
 
 [1split.eth](https://etherscan.io/address/1split.eth#code) is an on-chain dex aggregator developed by [1inch.exchange](https://1inch.exchange/). The contract allows on-chain quotes and swaps between all ERC20 assets from MultiSwap, Oasis, 0x, Kyber, Uniswap, Synthetix, Synth Depot, Bancor, Airswap, and Curve.fi.
 
-This allows [iearn.finance](https://iearn.finance) to aggregate the best rates on-chain without any slippage for token swaps, when trying to determine the value in the strategy. The quote functionality is used to determine slippage and to calculate that into the overall strategy.
+This allows [yearn.finance](https://yearn.finance) to aggregate the best rates on-chain without any slippage for token swaps, when trying to determine the value in the strategy. The quote functionality is used to determine slippage and to calculate that into the overall strategy.
 
 ## apr.iearn.eth
 
@@ -28,10 +28,10 @@ The ROI is required for snapshots to be able to get 30 day, 7 day, or APR averag
 
 ## defizap.eth
 
-- ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into wBTC and ETH. wBTC deposited into iWBTC. Uniswap liquidity for iWBTC/ETH. [wBTCUnipool.DeFiZap.eth](https://defizap.com/zaps/unipoolwbtc) [4.21%](https://pools.fyi/#/returns/0x4d2f5cfba55ae412221182d8475bc85799a5644b)
-- ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into sETH and ETH. Uniswap liquidity for sETH/ETH [sETHUnipool.DeFiZap.eth](https://defizap.com/zaps/unipoolseth) [1.75%](https://pools.fyi/#/returns/0xe9cf7887b93150d4f2da7dfc6d502b216438f244)
-- ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into DAI and ETH. DAI deposited into [Chai](https://chai.money/). Uniswap liquidity for CHAI/ETH. [CHAIUnipool.DeFiZap.eth](https://defizap.com/zaps/unipoolchai) [-5.25%](https://pools.fyi/#/returns/0x6c3942b383bc3d0efd3f36efa1cbe7c8e12c8a2b?period=30)
-- ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into DAI and ETH. DAI deposited in [cDAI](https://compound.finance/). Uniswap liquidity for cDAI/ETH [cDAIPool.DeFiZap.eth](https://defizap.com/zaps/unipoolcdai) [4.79%](https://pools.fyi/#/returns/0x34E89740adF97C3A9D3f63Cc2cE4a914382c230b?period=30)
+- ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into wBTC and ETH. wBTC deposited into iWBTC. Uniswap liquidity for iWBTC/ETH. [wBTCUnipool.DeFiZap.eth](https://zapper.fi/invest) [4.21%](https://pools.fyi/#/returns/0x4d2f5cfba55ae412221182d8475bc85799a5644b)
+- ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into sETH and ETH. Uniswap liquidity for sETH/ETH [sETHUnipool.DeFiZap.eth](https://zapper.fi/invest) [1.75%](https://pools.fyi/#/returns/0xe9cf7887b93150d4f2da7dfc6d502b216438f244)
+- ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into DAI and ETH. DAI deposited into [Chai](https://chai.money/). Uniswap liquidity for CHAI/ETH. [CHAIUnipool.DeFiZap.eth](https://app.uniswap.org/#/add/ETH/0x06AF07097C9Eeb7fD685c692751D5C66dB49c215) [-5.25%](https://pools.fyi/#/returns/0x6c3942b383bc3d0efd3f36efa1cbe7c8e12c8a2b?period=30)
+- ETH split via [1split.eth](https://etherscan.io/address/1split.eth#code) into DAI and ETH. DAI deposited in [cDAI](https://compound.finance/). Uniswap liquidity for cDAI/ETH [cDAIPool.DeFiZap.eth](https://app.uniswap.org/#/add/ETH/0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643) [4.79%](https://pools.fyi/#/returns/0x34E89740adF97C3A9D3f63Cc2cE4a914382c230b?period=30)
 
 ## uniswap.exchange
 
