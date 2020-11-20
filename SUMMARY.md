@@ -85,4 +85,4 @@
 
 ## Contributors
 
-- [Contribute](contributors/contribute/README.md)
+- [Contribute](contributors/README.md)
