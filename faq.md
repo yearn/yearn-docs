@@ -51,7 +51,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 #### Veo que se muestra el ROI en la página de las Vaults, ¿es el ROI actual?
 
 - No, es un valor histórico promediado para la Vault en cuestión. El APY / ganancias actuales no se muestran ya que las Vaults son un producto en beta y se están probando en vivo.
-- Varios sitios de terceras personas proporcionan el APY actual y otro tipo de información. Estos sitios pueden encontrarse más abajo en [Estadísticas](https://docs.yearn.finance/faq#statistics).
+- Varios sitios de terceras personas proporcionan el APY actual y otro tipo de información. Estos sitios pueden encontrarse más abajo en [Estadísticas](https://docs.yearn.finance/v/spanish/faq#estadisticas).
 
 #### ¿Cuáles son los riesgos?
 
@@ -483,7 +483,7 @@ Por otro lado, si crees que algo puede mejorarse o has encontrado algún bug, no
 
 ### Registro de tokens y demás contratos
 
-- [https://docs.yearn.finance/yearn.finance/yearn-1](https://docs.yearn.finance/yearn.finance/yearn-1)
+- [https://docs.yearn.finance/developers/deployed-contracts-registry](https://docs.yearn.finance/developers/deployed-contracts-registry)
 
 ### Referencia a detalles de las Vaults
 

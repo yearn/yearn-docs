@@ -47,7 +47,7 @@ Puedes aprender más sobre the token yUSD aquí: [https://docs.yearn.finance/yus
 
 ![](https://i.imgur.com/Q3lpJLL.png)
 
-10. Verás esto en tu pantalla mientras tu transacción es procesada. Si tarda demasiado, puede ser que hayas usado un precio del gas demasiado bajo, por lo que puede que tu transacción se quede pendiente durante mucho tiempo. Mira la página de [preguntas frecuentes](https://docs.yearn.finance/faq#i-sent-my-eth-transaction-but-it-says-pending-how-do-i-fix-this) para saber qué hacer en este caso.
+10. Verás esto en tu pantalla mientras tu transacción es procesada. Si tarda demasiado, puede ser que hayas usado un precio del gas demasiado bajo, por lo que puede que tu transacción se quede pendiente durante mucho tiempo. Mira la página de [preguntas frecuentes](https://docs.yearn.finance/v/spanish/faq#he-enviado-una-transaccion-en-ethereum-pero-dice-que-esta-pendiente-que-puedo-hacer-para-arreglarlo) para saber qué hacer en este caso.
 
 ![](https://i.imgur.com/9uuGBV7.png)
 
