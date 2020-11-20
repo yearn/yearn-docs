@@ -25,7 +25,7 @@ If you have questions about how to do anything, we can help you on:
 But if you think something can be improved, or you found a bug, we want to squash it. Please post it here:
 
 - [Github](https://github.com/iearn-finance) — create a new issue in the relevant repository.
-- [Forum](https://gov.yearn.finance/c/feedback/) — post in the feedback category.
+- [Forum](https://gov.yearn.finance/c/general-chat/feedback/2) — post in the feedback category.
 
 ## Products
 
@@ -178,7 +178,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 - Earn is a yield aggregator for lending platforms that rebalances for highest yield during contract interaction.
 - Deposit DAI, USDC, USDT, TUSD, or sUSD and it will auto lend to the highest lending rate on these platforms [Compound](https://compound.finance/), [Dydx](https://dydx.exchange/) or [Aave](https://app.aave.com/home) \(Ddex and Fulcrum are currently disabled\).
-- Learn more in the [Yearn Docs](https://docs.yearn.finance/yearn.finance/yearn)
+- Learn more in the [Yearn Docs](https://docs.yearn.finance/products/earn)
 
 ### Zap
 
@@ -494,7 +494,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ### Registry of Tokens and Utility Contracts
 
-- [https://docs.yearn.finance/yearn.finance/yearn-1](https://docs.yearn.finance/yearn.finance/yearn-1)
+- [https://docs.yearn.finance/developers/deployed-contracts-registry](https://docs.yearn.finance/developers/deployed-contracts-registry)
 
 ### Vaults Detail Reference
 
