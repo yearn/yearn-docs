@@ -8,7 +8,7 @@ These docs are still being worked on.
 
 [1split.eth](https://etherscan.io/address/1split.eth#code) is an on-chain dex aggregator developed by [1inch.exchange](https://1inch.exchange/). The contract allows on-chain quotes and swaps between all ERC20 assets from MultiSwap, Oasis, 0x, Kyber, Uniswap, Synthetix, Synth Depot, Bancor, Airswap, and Curve.fi.
 
-This allows [yearn.finance](https://yearn.finance) to aggregate the best rates on-chain without any slippage for token swaps, when trying to determine the value in the strategy. The quote functionality is used to determine slippage and to calculate that into the overall strategy.
+This allows [iearn.finance](https://yearn.finance/earn) to aggregate the best rates on-chain without any slippage for token swaps, when trying to determine the value in the strategy. The quote functionality is used to determine slippage and to calculate that into the overall strategy.
 
 ## apr.iearn.eth
 
@@ -41,7 +41,7 @@ Uniswap is an on-chain liquidity pool for cross ERC20/ETH swaps. It allows ERC20
 
 ## iearn.eth
 
-[iearn.finance](https://iearn.finance) is a combination of these strategies. It analyzes the asset you want to invest and the highest returning strategy for it. So for ETH, it would analyze ETH vs cETH vs iETH vs aETH vs dETH. It would add % slippage as an adjusted result to offset the APR. After which it will calculate the highest volume pools that match the tokens. These strategies can be as simple as ETH into Compound, or as complex as ETH split to ETH/DAI, DAI into cDAI, and ETH/cDAI into Uniswap.
+[iearn.finance](https://yearn.finance/earn) is a combination of these strategies. It analyzes the asset you want to invest and the highest returning strategy for it. So for ETH, it would analyze ETH vs cETH vs iETH vs aETH vs dETH. It would add % slippage as an adjusted result to offset the APR. After which it will calculate the highest volume pools that match the tokens. These strategies can be as simple as ETH into Compound, or as complex as ETH split to ETH/DAI, DAI into cDAI, and ETH/cDAI into Uniswap.
 
 This is what the [iearn.finance] protocol does.
 
