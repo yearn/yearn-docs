@@ -1,7 +1,8 @@
 # Introduction to Yearn
 
-Yearn Finance is a suite of products in Decentralized Finance \(DeFi\) that at its core provides lending aggregation, yield generation, and insurance on the Ethereum blockchain.
-The protocol is maintained and developed by various independent contributors within the cryptocurrency space. Management of the protocol is governed by YFI holders. Listed below are core products active in production, a brief description on the protocol's governance process, and links to active communication channels.
+Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum blockchain. The protocol is maintained by various independent developers and is governed by YFI holders. 
+
+You can find brief descriptions of Yearn's core products, the governance process, and links to active communication channels below.
 
 ## Core Products
 
