@@ -4,4 +4,6 @@ description: Not recommended for retail use
 
 # yLiquidate
 
-{% embed url="https://yliquidate.finance/" caption="" %}
+<!-- markdown-link-check-disable -->
+
+{% embed url="https://yliquidate.finance" caption="" %}
