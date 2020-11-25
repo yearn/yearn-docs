@@ -55,7 +55,7 @@ A "Yearn boost" tool displaying Yearn's current active and potential boost is in
 
 - [curve.fi](https://www.curve.fi/usecrv) webpage
 - Curve [Guide](https://resources.curve.fi/guides/staking-your-crv) for staking CRV
-- Curve [Guide](https://guides.curve.fi/how-to-boost-your-crv-rewards-by-vote-locking) for vote locking
+- Curve [Guide](https://resources.curve.fi/guides/boosting-your-crv-rewards) for vote locking
 - Curve [FAQ](https://resources.curve.fi/faq/vote-locking-boost)
 - deFinn [Infographic](https://drive.google.com/uc?export=download&id=1DvytXXS0WXmJ65X4jg8vfuT-zWXFxxSk) on CRV Voting Boost and formula
 - Boost [calculator](https://dao.curve.fi/minter/calc)
