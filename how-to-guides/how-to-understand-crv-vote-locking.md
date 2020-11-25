@@ -24,7 +24,7 @@ Vote locking CRV into veCRV allows boosting of rewards earned by providing liqui
 
 The actual boost multiplier is determined by a formula that depends on the current pool gauge liquidity as a fraction out of the total amount of liquidity provided, and the fraction of voting power that the veCRV constitutes out of the total.
 
-See the [Curve Guide](https://guides.curve.fi/how-to-boost-your-crv-rewards-by-vote-locking/) for more details on the formula and its calculation.
+See the [Curve Guide](https://resources.curve.fi/guides/boosting-your-crv-rewards) for more details on the formula and its calculation.
 
 ## CRV Vote Locking in Yearn
 
@@ -55,7 +55,7 @@ A "Yearn boost" tool displaying Yearn's current active and potential boost is in
 
 - [curve.fi](https://www.curve.fi/usecrv) webpage
 - Curve [Guide](https://resources.curve.fi/guides/staking-your-crv) for staking CRV
-- Curve [Guide](https://guides.curve.fi/how-to-boost-your-crv-rewards-by-vote-locking) for vote locking
+- Curve [Guide](https://resources.curve.fi/guides/boosting-your-crv-rewards) for vote locking
 - Curve [FAQ](https://resources.curve.fi/faq/vote-locking-boost)
 - deFinn [Infographic](https://drive.google.com/uc?export=download&id=1DvytXXS0WXmJ65X4jg8vfuT-zWXFxxSk) on CRV Voting Boost and formula
 - Boost [calculator](https://dao.curve.fi/minter/calc)
