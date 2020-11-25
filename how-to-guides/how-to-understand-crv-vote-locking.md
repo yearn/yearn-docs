@@ -24,7 +24,7 @@ Vote locking CRV into veCRV allows boosting of rewards earned by providing liqui
 
 The actual boost multiplier is determined by a formula that depends on the current pool gauge liquidity as a fraction out of the total amount of liquidity provided, and the fraction of voting power that the veCRV constitutes out of the total.
 
-See the [Curve Guide](https://guides.curve.fi/how-to-boost-your-crv-rewards-by-vote-locking/) for more details on the formula and its calculation.
+See the [Curve Guide](https://resources.curve.fi/guides/boosting-your-crv-rewards) for more details on the formula and its calculation.
 
 ## CRV Vote Locking in Yearn
 
