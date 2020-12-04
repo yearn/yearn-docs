@@ -30,12 +30,6 @@
       - **Examples:** `yvBal-USDT-WETH`, `yvBal-WBTC-WETH`
     - Note: Since Balancer allows more than two tokens per pool, append as many `TOKEN` as needed for the pool in question.
 
-## yCover
-
-- Tokens for yCover are named following a similar methodology as yVaults, with the only difference being the two letter prefix.
-
-  - **Examples:** `ycUSDC`, `ycUni-USDT-WETH`
-
 ## yEarn
 
 These are Yearn's original yield-aware tokens, whose v2 and v3 contracts can be found [here](https://docs.yearn.finance/developers/deployed-contracts-registry#v2-yield-tokens).
