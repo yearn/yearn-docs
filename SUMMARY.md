@@ -32,6 +32,7 @@
 ## Developers
 
 * [Deployed Contracts Registry](developers/deployed-contracts-registry.md)
+* [test synchro githu/gitbook](developers/test-synchro-githu-gitbook.md)
 * [Code Repositories](developers/code-repositories.md)
 * [Integration Guide](developers/integration-guide.md)
 * [yVaults Documentation](developers/yvaults-documentation/README.md)
