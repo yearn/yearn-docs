@@ -45,6 +45,7 @@ If this sounds confusing, please let us know what we can clear up. In the meanti
 ##### Protocol Contributors:
 
 - [Developer Team List](https://docs.yearn.finance/additional-resources/team#protocol-and-development)
+- [How to submit a pull request](https://docs.yearn.finance/additional-resources/submit-pull-request)
 
 If you're a developer we need your help! Before you begin: Familiarize yourself with Yearn, its products, and its infrastructure by reading our [Documentation](https://docs.yearn.finance/).
 
