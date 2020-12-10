@@ -4,8 +4,6 @@ The Yearn Community Writing Style Guide summarizes the standards and best practi
 
 ## Writing Intent and Tone
 
----
-
 Yearn Community materials should cater to readers who are unfamiliar with the Yearn ecosystem. Writers should also assume that their readers have tight schedules and short attention spans, as after all, farming is honest but hard work.
 
 As such, Writers should focus on communicating concepts as clearly and succinctly as possible.
@@ -20,8 +18,6 @@ As such, Writers should focus on communicating concepts as clearly and succinctl
 - Link to basic terms if necessary.
 
 ## Writer Guidelines
-
----
 
 ### General Rules
 
@@ -40,8 +36,6 @@ As such, Writers should focus on communicating concepts as clearly and succinctl
 - Do not blindly accept Grammarly suggestions.
   - Review edits to make sure they make sense.
 
----
-
 **Use:**
 
 - [Oxford commas.](https://en.wikipedia.org/wiki/Serial_comma)
@@ -53,8 +47,6 @@ As such, Writers should focus on communicating concepts as clearly and succinctl
   - **Incorrect:** 15 percent
 - Double quotes `" "` for phrases, quotes, etc.
   - Do not use single `' '` quotes.
-
----
 
 **Avoid:**
 
@@ -72,14 +64,10 @@ As such, Writers should focus on communicating concepts as clearly and succinctl
 
 ### Abbreviations
 
----
-
 - Use parentheses to define abbreviated terms the first time they appear in a given document.
   - **Example:** A Yearn Improvement Proposal (YIP) is a proposal framework to support new initiatives and to expand the scope of existing ones.
 
 ### Acronyms, Decades and Cases
-
----
 
 Do not use apostrophes to pluralize acronyms or indicate decades. Add an "s" at the end.
 
@@ -110,8 +98,6 @@ Do not use apostrophes to pluralize acronyms or indicate decades. Add an "s" at 
 
 ### Currencies
 
----
-
 The examples below use dollars, but the same rules apply to all global currencies.
 
 - Use lowercase except when writing "US Dollar.”
@@ -126,8 +112,6 @@ The examples below use dollars, but the same rules apply to all global currencie
 
 ### Naming Conventions
 
----
-
 #### Cryptocurrencies
 
 - When directly referring to the creation, destruction, or manipulation of a token (particularly as it relates to tooling) or when referencing the token as a currency, in an instructional or conversational setting, or as a conceptual product of the Foundation or its systems:
@@ -140,8 +124,6 @@ The examples below use dollars, but the same rules apply to all global currencie
 
 Please see [Yearn Naming Conventions](developers/naming-convention.md)
 
----
-
 #### Yearn
 
 - When referring to Yearn as a smart contract system, use "The Yearn Protocol."
@@ -153,8 +135,6 @@ Please see [Yearn Naming Conventions](developers/naming-convention.md)
 
 ### Numbers
 
----
-
 - Spell out numbers below 10.
   - **Examples:** one, two, three, etc.
 - Use numerals for numbers above 10, unless starting a sentence.
@@ -163,8 +143,6 @@ Please see [Yearn Naming Conventions](developers/naming-convention.md)
   - **Casual:** "I'd like to make a billion dollars."
 
 ### Lists
-
----
 
 When bulleted and numbered lists contain complete sentences, capitalize the first word, and follow each with a period. If list items are phrases, no capitalization or punctuation is required.
 
@@ -182,7 +160,7 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
   - **Incorrect:** `*`
 - Alphabetize lists of names unless there is a clear priority at work.
 - Do not use ordered (numbered) lists unless order matters.
-- Ordered list items should use the `#1` repeated.
+- Ordered list items should use the `1. ` repeated.
   - Markdown will automatically generate numbers.
 
 **Example:**
@@ -195,18 +173,14 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
 
 ### Links
 
----
-
 - Use \[absolute links\](([https://docs.microsoft.com/en-us/contribute/how-to-write-links](https://docs.microsoft.com/en-us/contribute/how-to-write-links))) and standard web URLs when referencing external resources.
 - Create descriptive hyperlinks and avoid generic language.
-  - **Descriptive:** Learn more at [Yearn Documentation](https://docs.yearn.finance/)
-  - **Generic:** Learn more [here.](/en/contribute/content/)
-- Include a `.`inside the link for sentences that end with a link.
+  - **Correct - Descriptive:** (Learn more at [Yearn Documentation](https://docs.yearn.finance/)
+  - **Incorrect -Generic:** Learn more [here](/en/contribute/content/).
+- Include a `.`outside the link for sentences that end with a link.
 - When creating links for parallel translated documents, make sure to update relative links to reflect the correct heading.
 
 ### Tables of Contents
-
----
 
 - Include a table of contents for documents that span several pages and multiple sections.
 - Use the raw Markdown from the Table of Contents above as a template.
@@ -214,8 +188,6 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
 - The table of contents should list relevant sections for easy navigation.
 
 ## Markdown Guide
-
----
 
 Yearn documents posted on GitHub are written in Markdown, a text-to-HTML conversion tool for web writers.
 
@@ -241,8 +213,6 @@ Yearn documents posted on GitHub are written in Markdown, a text-to-HTML convers
   - This [cheat sheet](https://gist.github.com/rxaviers/7360908) lists emojis and their Markdown shortcuts.
 
 ## Best Practices and Resources
-
----
 
 Writers and contributors familiar with Yearn and cryptocurrency basics will have a better sense of where to apply their skills best.
 
@@ -285,7 +255,7 @@ Review the respective Contribute.md for each repository where pertinent before s
 
 #### Contributor Tools
 
-- The [Contributor Tools Guide](https://hackmd.io/0s6me4DrQjKgImWltttefA?view) guide introduces the tools regularly used by Yearn contributors.
+- The [Contributor Tools Guide](contributors/contributor-tools.md) guide introduces the tools regularly used by Yearn contributors.
 
 ### Express Interest
 
