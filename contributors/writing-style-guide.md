@@ -26,7 +26,7 @@ As such, Writers should focus on communicating concepts as clearly and succinctl
   - Copy rendered text into Grammarly and address any mistakes it flags.
     - HackMD does not identify spelling and grammatical errors.
     - Grammarly will miss errors if it’s given raw Markdown text.
-    - Be careful of copy and pasting code from grammarly to VScode, grammarly may mess with formatting.
+    - Be careful of copy and pasting code from Grammarly to VScode, Grammarly may mess with formatting.
 
 **Please Note**
 
@@ -38,8 +38,8 @@ As such, Writers should focus on communicating concepts as clearly and succinctl
 
 **Use:**
 
-- [Oxford commas.](https://en.wikipedia.org/wiki/Serial_comma)
-- [Pluralized, gender-neutral pronouns.](https://en.wikipedia.org/wiki/Singular_they)
+- [Oxford commas](https://en.wikipedia.org/wiki/Serial_comma).
+- [Pluralized, gender-neutral pronouns](https://en.wikipedia.org/wiki/Singular_they).
   - Use “they/their” instead of “he/she/his/hers.”
   - **Examples:** “When they…” or “If users choose to X, then their…”
 - The `%` symbol. Do not spell out "percent."
@@ -122,7 +122,7 @@ The examples below use dollars, but the same rules apply to all global currencie
 
 #### Yearn Products
 
-Please see [Yearn Naming Conventions](developers/naming-convention.md)
+Please see [Yearn Naming Conventions](developers/naming-convention.md).
 
 #### Yearn
 
@@ -164,19 +164,20 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
   - Markdown will automatically generate numbers.
 
 **Example:**
-
+```markdown
 1.  Item 1
-2.  Item 2
-3.  Item 3
-4.  Item 3a
-5.  Item 3b
+1.  Item 2
+1.  Item 3
+1.  Item 3a
+1.  Item 3b
+```
 
 ### Links
 
-- Use \[absolute links\](([https://docs.microsoft.com/en-us/contribute/how-to-write-links](https://docs.microsoft.com/en-us/contribute/how-to-write-links))) and standard web URLs when referencing external resources.
+- Use [absolute links]([https://docs.microsoft.com/en-us/contribute/how-to-write-links](https://docs.microsoft.com/en-us/contribute/how-to-write-links)) and standard web URLs when referencing external resources.
 - Create descriptive hyperlinks and avoid generic language.
   - **Correct - Descriptive:** (Learn more at [Yearn Documentation](https://docs.yearn.finance/)
-  - **Incorrect -Generic:** Learn more [here](/en/contribute/content/).
+  - **Incorrect - Generic:** Learn more [here](/en/contribute/content/).
 - Include a `.`outside the link for sentences that end with a link.
 - When creating links for parallel translated documents, make sure to update relative links to reflect the correct heading.
 
@@ -192,7 +193,7 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
 Yearn documents posted on GitHub are written in Markdown, a text-to-HTML conversion tool for web writers.
 
 - Include line breaks above and below headings.
-- Use top-level headers `#` only once per document.
+- Use top-level headers (`#`) only once per document.
   - Do not make multiple top-level headings.
 - Avoid repeat headings.
   - They will break auto-generated navigation.
