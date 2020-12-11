@@ -101,14 +101,14 @@ Do not use apostrophes to pluralize acronyms or indicate decades. Add an "s" at 
 The examples below use dollars, but the same rules apply to all global currencies.
 
 - Use lowercase except when writing "US Dollar.”
-- Use figures and the "$" sign in all except casual references, or amounts without a figure.
-  - **Standard:** "The book costs $4."
+- Use figures and the "\$" sign in all except casual references, or amounts without a figure.
+  - **Standard:** "The book costs \$4."
   - **Casual:** "Please give me a dollar."
-- For amounts under $1 million, follow this format:
-  - **Correct:** $4, $25, $500, $1,000, $650,000.
-- For amounts over $1 million, use the word, not numerals.
-  - **Correct:** "He is worth $4 million."
-  - **Incorrect:** "He is worth $4,000,000."
+- For amounts under \$1 million, follow this format:
+  - **Correct:** $4, $25, $500, $1,000, \$650,000.
+- For amounts over \$1 million, use the word, not numerals.
+  - **Correct:** "He is worth \$4 million."
+  - **Incorrect:** "He is worth \$4,000,000."
 
 ### Naming Conventions
 
@@ -164,6 +164,7 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
   - Markdown will automatically generate numbers.
 
 **Example:**
+
 ```markdown
 1.  Item 1
 1.  Item 2
@@ -174,7 +175,7 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
 
 ### Links
 
-- Use [absolute links]([https://docs.microsoft.com/en-us/contribute/how-to-write-links](https://docs.microsoft.com/en-us/contribute/how-to-write-links)) and standard web URLs when referencing external resources.
+- Use [absolute links](<[https://docs.microsoft.com/en-us/contribute/how-to-write-links](https://docs.microsoft.com/en-us/contribute/how-to-write-links)>) and standard web URLs when referencing external resources.
 - Create descriptive hyperlinks and avoid generic language.
   - **Correct - Descriptive:** (Learn more at [Yearn Documentation](https://docs.yearn.finance/)
   - **Incorrect - Generic:** Learn more [here](/en/contribute/content/).
