@@ -30,7 +30,7 @@
 | :--- | :--- | :--- |
 | [@franklin](https://gov.yearn.finance/u/franklin) | [@DeFiGod1](https://twitter.com/DeFiGod1) | N/A |
 | [@fameal](https://gov.yearn.finance/u/fameal) | [@fameal](https://twitter.com/fameal) | [@fameal](https://github.com/fameal) |
-| [@Dark](https://gov.yearn.finance/u/dark) | N/A | N/A |
+| [@Dark](https://gov.yearn.finance/u/dark) | [@Cryptouf](https://twitter.com/cryptouf) | N/A |
 
 ## Les subventions de la communauté
 
