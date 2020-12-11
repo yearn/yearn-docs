@@ -67,7 +67,6 @@ Google Docs is a collaborative writing platform, with features like suggestion e
   - Notes leave room for side discussions.
 - Avoid including direct links in a Google Doc.
   - Use the Markdown format to simplify conversion later on.
-    <!-- prettier-ignore -->
     - Incorrect: https://bad.link.com
     - Correct: [link](https://link.com)
 - Versions can be named, renamed, downloaded, or revisited at any time.
