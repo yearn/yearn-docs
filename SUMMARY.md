@@ -87,3 +87,4 @@
 ## Contributors
 
 - [Contribute](contributors/README.md)
+- [Contributor Tools](contributors/contributor-tools.md)
