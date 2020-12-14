@@ -27,7 +27,7 @@ Yearn Finance est une suite de produits financiers décentralisé \(DeFi\) visan
 
 ### Cover
 
-* L'assurance mutualisée yInsure offre une couverture contre les pertes financières pour divers contrats intelligents \(smqrt contracts\)  et offres de produits souscrits par Nexus Mutual.
+* L'assurance mutualisée yInsure offre une couverture contre les pertes financières pour divers contrats intelligents \(smart contracts\)  et offres de produits souscrits par Nexus Mutual.
 
 ## Governance
 
