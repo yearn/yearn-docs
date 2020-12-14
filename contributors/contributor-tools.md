@@ -31,6 +31,7 @@ Start participating in public discussions by joining the recommended channels be
 
 Yearn contributors host meetings when necessary on Google Hangouts. These are not centrally organized and arise organically within discussions between contributors or teams, as such, invitations are up to the individuals organizing these discussions. Invitations are sent to contributors by Discord or Telegram and Google Calendar automatically schedules the event and sends reminders.
 
+- [Jitsi Meet](http://meet.jit.si)
 - [Google Meet](https://meet.google.com/_meet)
 
 ## Writing Platforms
@@ -67,8 +68,8 @@ Google Docs is a collaborative writing platform, with features like suggestion e
   - Notes leave room for side discussions.
 - Avoid including direct links in a Google Doc.
   - Use the Markdown format to simplify conversion later on.
-    - Incorrect: https://bad.link.com
-    - Correct: [link](https://link.com)
+    - Incorrect: `https://bad.link.com`
+    - Correct: `[link](https://link.com)`
 - Versions can be named, renamed, downloaded, or revisited at any time.
   - Versions help other contributors quickly find and see any changes.
     - Example: Naming a Version
