@@ -6,9 +6,9 @@
 * [Subgraph](integration-guide.md#Subgraph)
 * [API](integration-guide.md#API)
 
-### Vault Registry <a id="Vault-Registry"></a>
+### Vault Registry <a id="Le Registre du Vault"></a>
 
-The Yearn Vault Registry \(aka yRegistry\) is a smart contract deployed on the ethereum mainnet. The Vault Registry is the single source of truth for active Yearn vaults. The registry allows users to query for active Yearn vaults and vault metadata \(see "[available data](integration-guide.md#Vault-Registry-Available-Data)" below\).
+Le Registre Yearn Vault \(aka yRegistry\) est un contrat intelligent déployé sur le réseau principal d'Ethereum. Le registre du vault est la seule source de vérité pour les "coffres" Yearn actifs. The registry allows users to query for active Yearn vaults and vault metadata \(see "[available data](integration-guide.md#Vault-Registry-Available-Data)" below\).
 
 #### Details
 
