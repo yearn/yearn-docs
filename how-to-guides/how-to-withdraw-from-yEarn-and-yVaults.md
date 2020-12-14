@@ -15,17 +15,17 @@ For the purpose of this guide, we will use the [curve.fi/y LP](https://www.curve
 
 ![](https://i.imgur.com/DzylU6s.png)
 
-1. Enter the amount you wish to withdraw:
+2. Enter the amount you wish to withdraw:
 
 ![](https://i.imgur.com/69A6y2Q.png)
 
    - You can choose from pre-defined percentages of your available balance, or enter a specific amount Alternatively, you can click on "Withdraw All" to trigger your wallet to start the transaction approval process for the full available amount in just one click.
 
-1. Complete the transaction:
+3. Complete the transaction:
    - Click the Withdraw button, approve the transaction in your wallet, and wait for the transaction to complete successfully.
    - Once completed, your wallet should contain your tokens.
    - Refreshing the Yearn vaults page, the yVault should be displaying updated values accordingly.
-1. In your wallet you will then have received:
+4. In your wallet you will then have received:
    - The unwrapped token you originally deposited (in this example DAI).
    - The actual token amount received may differ from the amount displayed in the UI, due to the 0.5% withdrawal fee which may be applied.
 
