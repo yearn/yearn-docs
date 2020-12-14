@@ -41,7 +41,7 @@ Mais si vous pensez que quelque chose peut être amélioré ou si vous avez trou
 
 * Les Vaults utilisent des stratégies pour automatiser les meilleurs rendement disponibles.
 * Ils ont été conçus pour que la communauté puisse travailler ensemble pour élaborer de nouvelles stratégies afin de trouver le meilleur rendement.
-* Andre a expliqué les  [vaults](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) et les [delegated vaults](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) dans ces deux posts.
+* Andre a expliqué les [vaults](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) et les [delegated vaults](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) dans ses deux posts.
 * Simplement, les vaults peuvent faire cela:
   * Utilisez n'importe quel actif comme liquidité.
   * Utilisez la liquidité comme garantie \(collateral\) et gérez la garantie à un niveau sûr afin de ne jamais faire défaut.
