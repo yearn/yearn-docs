@@ -13,11 +13,11 @@ For the purpose of this guide, we will use the [curve.fi/y LP](https://www.curve
    - Once you've connected your wallet, the website will display the balance you have deposited in each vault.
    - Scroll down through the page and click on the yVault you want to withdraw your funds from.
 
-     ![](https://i.imgur.com/DzylU6s.png)
+![](https://i.imgur.com/DzylU6s.png)
 
 1. Enter the amount you wish to withdraw:
 
-   ![](https://i.imgur.com/69A6y2Q.png)
+![](https://i.imgur.com/69A6y2Q.png)
 
    - You can choose from pre-defined percentages of your available balance, or enter a specific amount Alternatively, you can click on "Withdraw All" to trigger your wallet to start the transaction approval process for the full available amount in just one click.
 
