@@ -4,7 +4,7 @@
 Ces documents en développement constant de la part de la communauté Yearn
 {% endhint %}
 
-Yearn Finance est une suite de produits financiers décentralisé \(DeFi\) visant à créer un moyen simple de générer des intérêts ,ajustés au risque élevés pour les déposants de divers actifs via des protocoles de prêt de premier ordre, des pools de liquidités et des stratégies de rendement agricole \(yield farming\) sur Ethereum.
+Yearn Finance est une suite de produits financiers décentralisé \(DeFi\) visant à créer un moyen simple de générer des intérêts, ajustés au risque élevés pour les déposants de divers actifs via des protocoles de prêt de premier ordre, des pools de liquidités et des stratégies de rendement agricole \(yield farming\) sur Ethereum.
 
 ## Produits de base
 
