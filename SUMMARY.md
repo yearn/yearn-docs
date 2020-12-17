@@ -2,7 +2,7 @@
 
 * [Introduction de Yearn](README.md)
 * [FAQ](faq.md)
-* [DeFi Glossary](defi-glossary.md)
+* [DEFI Glossary](defi-glossary.md)
 * [Les tutos](how-to-guides/README.md)
   * [Comment obtenir des yUSD](how-to-guides/how-to-mint-yusd.md)
   * [Comment ajouter un jeton personnalisé sur Metamask](how-to-guides/how-to-add-a-custom-token-to-metamask.md)
