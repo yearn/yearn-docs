@@ -141,93 +141,98 @@ L’objectif de DeFi est d’améliorer la rentabilité des investisseurs dans D
 
 DeFi implique souvent des investissements à haut risque impliquant parfois des contrats intelligents qui n’ont pas été audités ou même examinés en profondeur \(un examen n’est pas aussi complet qu’un audit, mais peut également être inclus dans le cadre d’un audit\). Pour cette raison et d’autres, DeFi est classiquement considérée comme plus risquée que CeFi ou l’investissement traditionnel.
 
-## Delegation
+## Delegation_\(Déléguation\)_
 
-The concept of permitting a person, company, or organization the ability to borrow utilizing another owner's deposited collateral.
+Le concept de permettre à une personne, une entreprise ou une organisation d’emprunter en utilisant la garantie déposée par un autre propriétaire.
 
-## Delegated Fund DAO
 
-A Decentralized Autonomous Organization with access to Delegated Funds in the form of Liquidity Pool and governance tokens under delegated control. As of 2020, it is a new concept and seed investment strategy introduced by YFI Developer Andre Cronje that supports the development of Fair Launch coins, tokens, projects, and products that provide new ideas and concepts that support DeFi without taking any allocation of the coin, token, or share of ownership of the new project that applicants intend to be launched. It is meant to incentivize innovation from new or previous crypto builders and designers while being an experiment in providing a new avenue of procuring seed capital for DeFi builders and designers.
 
-## Derivative
+## Delegated Fund DAO _\(Fond délégués DAO\)_
 
-In investing, a derivative is an investment instrument or tool that is based on an underlying asset or assets. Investopedia describes it thus:
+Une organisation autonome décentralisée ayant accès à des fonds délégués sous la forme d’une réserve de liquidités et de jetons de gouvernance sous contrôle délégué.
 
-> Derivatives can be used to hedge a position, speculate on the directional movement of an underlying asset, or give leverage to holdings. Their value comes from the fluctuations of the values of the underlying asset. Originally, derivatives were used to ensure balanced exchange rates for goods traded internationally.
+La delegated fund DAO est un nouveau concept d’investissement précoce, créé en 2020 par Andre Cronje, le fondateur de Yearn et YFI, et qui a pour but de supporter le développement de lancements équitables de projets, produits et jetons qui apportent de nouvelles idées et concepts à la DeFi, sans prendre aucune part dans ces jetons ou ces projets. Cette DAO a pour but d’encourager l’innovation de nouveaux ou ancien développeurs et designers crypto, tout en expérimentant une nouvelle façon de procurer du capital à un stade précoce à ces inventeurs de la DeFi.  
+
+
+## Derivative _\(Produit dérivé\)_ 
+
+En investissement, un produit dérivé est un instrument ou un outil d’investissement qui repose sur un ou plusieurs actifs sous-jacents. Investopedia le décrit ainsi :
+
+> Les produits dérivés peuvent être utilisés pour couvrir une position, spéculer sur le mouvement directionnel d’un actif sous-jacent, ou donner un effet de levier aux avoirs. Leur valeur provient des fluctuations de la valeur de l’actif sous-jacent. À l’origine, les produits dérivés étaient utilisés pour assurer l’équilibre des taux de change pour les biens échangés au niveau international.
 >
-> In DeFi, since 2020 there now exists a crypto derivative that is a new type of investment or asset class. This crypto derivative is a representation of an underlying digital base asset such as Ethereum, Dai, Curve, or YFI. Examples of their respective derivatives are yETH, aDAI, yCRV, and yYFI.
+> Dans DeFi, depuis 2020, il existe maintenant un crypto-dérivé qui est un nouveau type d’investissement ou de classe d’actifs. Ce crypto-dérivé est une représentation d’un actif numérique de base sous-jacent tel que Ethereum, Dai, Curve ou YFI, avec certaines propriétés particulières. Des exemples de leurs dérivés respectifs sont yETH, aDAI, yCRV et yYFI.
 
-## DEX
+## DEX _\(Echange décentralisé\)_
 
-Decentralized EXchange. A cryptocurrency exchange that is decentralized, without a physical location. It is a Peer-2-Peer network operating on Smart Contracts where users buy and sell directly to one another, with only the DEX as a middleman. Without the high overhead and regulatory costs of doing business as a CEX, a DEX does not have to follow the stricter rules and regulations that CEXs must follow, and thus can be leaner, more profitable, and more efficient than a CEX. \(For example: How does one sue or arrest an automated Smart Contract which is running on a Virtual Machine that is globally distributed? \[Comment: TMI?\]\)
+Echange décentralisé. Un échange de cryptomonnaie qui est décentralisé, sans emplacement physique. Il s’agit d’un réseau pair-à-pair fonctionnant sur des smart contracts où les utilisateurs achètent et vendent directement entre eux, avec pour seul intermédiaire le smart contract du DEX. Sans les frais généraux et réglementaires élevés qu’implique l’activité d’un CEX, un DEX n’a pas à suivre les règles et réglementations plus strictes que doivent respecter les CEX, et peut donc être plus agile, plus rentable et plus efficace qu’un CEX. \(Par exemple : Comment poursuivre ou arrêter un smart contract automatisé qui fonctionne sur une machine virtuelle distribuée dans le monde entier ?\)
 
 ## Ethereum
 
-Bitcoin is the original cryptocurrency but Ethereum, which launched in July 2015, allows for much more complexity through the use of smart contracts and a Turing complete programming language.
+Bitcoin est la cryptomonnaie originale, mais Ethereum, qui a été lancé en juillet 2015, permet une complexité bien plus importante grâce à l’utilisation de contrats intelligents et d’un langage de programmation complet de Turing.
 
-Thanks to the ERC-20 protocol, Ethereum has many cryptocurrency coins such as LINK, CRV and YFI built on top of Ethereum, each with their own set of rules.
+Grâce au protocole ERC-20 d’Ethereum, plusieurs nouvelles cryptomonnaies comme LINK, CRV ou YFI on été construites sur Ethereum, chacun avec son propre ensemble de règles.
 
 ## ERC-20
 
-A cryptocurrency protocol based on the Ethereum blockchain. An ERC-20 coin, by definition, uses this protocol.
+Un protocole de cryptomonnaie basé sur la blockchain Ethereum. Par définition, un token ERC-20 utilise ce protocole.
 
-## Fair Launch
+## Fair Launch  _\(Lancement Équitable\)_
 
-A concept where a Developer decides to not seek outside investment and also does not hold back a share of a coin or token's launch for themselves or others. This is considered to be much fairer to early investors as their share of equity or ownership of a coin or token is not diluted by pre-investors or founders/founding teams.
+Un concept à partir duquel un développeur décide de ne pas chercher d’investissement externe et ne garde pas une partie des tokens de départ pour lui-même ou d’autres. Ce genre de lancement est considéré comme beaucoup plus équitable pour les premiers investisseurs publiques, leur part de tokens n’étant pas dilué par les parts de pré-investisseurs ou l’équipe fondatrice.
 
-## Fair Launch Coin or Token
+## Fair Launch Coin or Token _\(Lancement équitable de jeton\)_
 
-A Fair Launch coin or token is characterized by a launch that is fair to the public. This means that there was no Founder, Foundation or Development Team, Venture Capitalist, or early investor pre-allocation or pre-mining program to privately claim a portion of a coin's supply before its release for sale to the public. The first Fair Launch token was YFI, which was launched in 2020 by Developer Andre Cronje.
+Un Fair Launch de token ou de cryptomonnaie se caractérise par un lancement équitable pour le public. Cela signifie qu’il n’y a pas eu de programme d’allocation préalable du token au fondateur, à l’équipe de développement, ou a un fond de capital-risque pour obtenir une partie de de ces tokens en privé avant le lancement publique. Le premier Fair Launch a été YFI, lancé en 2020 par le développeur Andre Cronje.
 
-## Fiat
+## Fiat _\(monnaie fiduciaire\)_ 
 
-Investopedia's definition:
+Définition d’Investopedia :
 
-> Fiat money is a government-issued currency that is not backed by a physical commodity, such as gold or silver, but rather by the government that issued it.
+> La monnaie fiduciaire est une monnaie émise par le gouvernement qui n’est pas adossée à une marchandise physique, telle que l’or ou l’argent, mais par le gouvernement qui l’a émise.
 >
-> It usually requires fiat exchanged at a CEX or through local means such as Bitcoin ATMs to be able to purchase cryptocurrency with fiat currency.
+> Il faut généralement que la monnaie fiduciaire soit échangée dans un CEX ou par des moyens locaux tels que les distributeurs Bitcoin pour pouvoir acheter de la cryptomonnaie avec de la monnaie fiduciaire.
 
-## Financial Primitive
+## Financial Primitive _\(Primitive financière\)_
 
-A cryptocurrency-based financial generic building block. Financial Primitives are designed to efficiently and reliably perform one task. Financial Primitives may be combined to create smart contracts. These smart contract may even be stacked upon one another to implement financial trading strategies.
+Un module financier générique basé sur la cryptomonnaie. Les primitives financières sont conçues pour accomplir une tâche de manière efficace et fiable. Les primitives financières peuvent être combinées pour créer des smart contracts. Ces smart contracts peuvent même être reliés les uns sur les autres pour mettre en œuvre des stratégies de trading.
 
-## Flash Loan
+## Flash Loan _\(prêt instantané\)_
 
-A type of loan that is only possible in the world of cryptocurrencies. A Flash Loan is a type of loan where the asset, often Ethereum or an ERC-20 coin, is loaned out only for the duration of the length of time it takes to complete one transaction block on the blockchain. As long as the loan is paid back before the next transaction block begins there is no interest fee incurred by the borrower.
+Un type de prêt qui n’est possible que dans le monde des cryptomonnaies. Un prêt instantané est un type de prêt où l’actif, souvent ETH ou un token ERC-20, n’est prêté que pour la durée du temps nécessaire pour compléter un bloc de transaction sur la blockchain. Tant que le prêt est remboursé avant le début du bloc de transactions suivant, l’emprunteur ne paie pas de frais d’intérêt.
 
-Flash Loans allow for new types of investments that are nearly instantaneous algorithmic scripts to run in Smart Contracts that can be stacked upon one another for innovative yet sometimes risky investments. Flash Loans may also have vulnerabilities that may include systems vulnerabilities that take advantage of approved existing systems but are used in a novel malicious manner.
+Les Flash Loans permettent de nouveaux types d’investissement qui sont de quasiment instantanés scripts algorithmiques qui tournent sur des smart contracts, et qui peuvent être reliés les uns aux autres, créant des investissements innovants mais parfois risqués. Les systèmes de Flash Loans étant totalement nouveaux, ils peuvent aussi avoir des vulnérabilités imprévues qui prennent avantage du système tel qu’il est pour l’utiliser de manière malicieuse.
 
 ## FOMO
 
-Fear Of Missing Out. The feeling that everyone else seems to be getting rich, profiting, or generally having a great time without you. In investing, it's a feeling that your current portfolio isn't performing well enough when compared to newer and "shinier" investment choices and options.
+Fear Of Missing Out \(la peur de passer à côté\). Le sentiment que les autres semblent s’enrichir, ou plus généralement s’amuser, sans vous. En investissement, c’est le sentiment qu’un portefeuille ne performe pas assez bien en comparaison avec de nouveaux investissements oplus attirants.
 
-## Forced Liquidation
+## Forced Liquidation _\(liquidation forcée\)_ 
 
-Binance defines Forced Liquidation as:
+Binance définit la liquidation forcée comme suit :
 
-> In the context of cryptocurrencies, forced liquidation happens when the investor or trader is unable to fulfill the margin requirements for a leveraged position. The concept of liquidation applies to both futures and margin trading.
+> Dans le contexte des cryptomonnaies, la liquidation forcée se produit lorsque l’investisseur ou le négociant est incapable de remplir les exigences de marge pour une position à effet de levier. Le concept de liquidation s’applique à la fois aux contrats à terme et aux opérations sur marge.
 
-## Gas Fees
+## Gas Fees _\(Frais de gas\)_
 
-Gas fees are rewards paid to Proof Of Work miners to incentivize them to support the network's transactions which become written to the blockchain. In Ethereum, this gas fee unit amount is expressed in gwei. Withdrawals or transfers to or from CEXs, DEXs Liquidity Pools, and Wallets all incur a gas fee. The amount of this gas fee will vary in cost depending on supply and demand. As currently designed: when demand on Ethereum or an ERC-20 network is at its highest, gas fees are at also their highest.
+Les frais de gas sont des récompenses versées aux mineurs de Proof Of Work Ethereum pour les inciter à soutenir les transactions du réseau qui s’inscrivent dans la blockchain. Dans Ethereum, l’unité de ce frais de gas est exprimé en gwei. Les retraits ou les transferts vers ou depuis les CEX, les pools de liquidité des DEX et les portefeuilles entraînent tous un frais de gas. Le montant de cette redevance varie en fonction de l’offre et de la demande. Tel qu’il est actuellement conçu : lorsque la demande sur Ethereum ou un réseau ERC-20 est plus forte, les frais de gas sont également plus élevés.
 
-## Governance
+## Governance _\(Gouvernance\)_
 
-Governance refers to the control and use of a Governance coin, token, and/or project through various measures to grow the ecosystem or product and to maximize gains for governance token holders.
+La gouvernance fait référence au contrôle et à l’utilisation d’une pièce, d’un jeton et/ou d’un projet par le biais de diverses mesures afin de faire croître l’écosystème ou le produit, et de maximiser les gains pour les détenteurs de jetons de gouvernance.
 
-## Governance Token
+## Governance Token _\(Jeton de gouvernance\)_
 
-A token is used to govern the operations and influence the direction of a coin, token, and/or project controlled by the Governance Token. Holding these tokens are often profitable through direct price appreciation of popular governance tokens, but may come with other benefits that are only available to governance token holders and voters. Examples of governance tokens are MKR and YFI.
+Un jeton utilisé pour gouverner les opérations et influencer la direction d’une pièce, d’un jeton et/ou d’un projet contrôlé par le jeton de gouvernance. La détention de ces jetons est souvent rentable grâce à l’appréciation directe du prix des jetons de gouvernance populaire, mais peut s’accompagner d’autres avantages qui ne sont accessibles qu’aux détenteurs de jetons de gouvernance et aux électeurs. MKR et YFI sont des exemples de jetons de gouvernance.
 
 ## Gwei
 
-A unit of measurement of gas fees for transactions on the Ethereum network or ERC-20 coin networks.
+Unité de mesure des frais de gas pour les transactions sur le réseau Ethereum ou les réseaux de jetons ERC-20.
 
 ## HODL
 
-A misspelled word by a crypto investor on an online forum from the early days of cryptocurrency, HODL became a term that was embraced as an inside joke by the nascent community of investors, coders, and entrepreneurs who supported coins like Bitcoin and Ethereum in the early days. They believe in the long-term promise of cryptocurrencies and held their investments through periods of massive volatility or even no volatility \(i.e., price stagnation\).
+Un mot mal orthographié par un investisseur crypto sur un forum en ligne depuis les premiers jours de la cryptomonnaie, HODL est devenu un terme qui a été adopté comme une blague interne par la communauté naissante des investisseurs, codeurs et entrepreneurs qui soutenaient des cryptomonnaies comme Bitcoin et Ethereum à leurs débuts. Ils croient en la promesse à long terme des cryptomonnaies et ont maintenu leurs investissements pendant des périodes de volatilité massive ou même d’absence de volatilité \(c’est-à-dire de stagnation des prix\).
 
-The choice or decision to hold onto one's crypto investments through bull and bear markets is called HODLing.
+Le choix ou la décision de conserver ses investissements en cryptomonnaies sur les marchés haussiers et baissiers s’appelle le HODLING.
 
 ## HODLer
 
