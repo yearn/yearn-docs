@@ -2,105 +2,107 @@
 
 ## Aave
 
-[Aave](https://aave.com/) is an open-source and non-custodial lending protocol enabling the creation of money markets.
+[Aave](https://aave.com/) est un protocole de prêt non-gardien et open source permettant la création de marchés monétaires.
 
-Users can earn interest on deposits and also borrow assets. Aave provides depositors a Liquidity Token that represents an equivalent derivative deposit in an identical asset.
+Les utilisateurs peuvent percevoir des intérêts sur les dépôts et également emprunter des actifs. Aave fournit aux déposants un jeton de liquidité \(Liquidity Token\) qui représente un produit dérivé équivalent déposé dans un actif identique.
 
-For example, a user can deposit DAI and receive aDAI, which is a type of USD-based crypto derivative that essentially represents the value of the underlying DAI asset plus the interest gains from allowing the borrowing of one's DAI. That aDAI, could then also be used to implement further strategies to potentially amplify their gains even further.
+Par exemple, un utilisateur peut déposer un DAI et recevoir un aDAI, qui est un type de crypto-dérivé basé sur l’USD qui représente essentiellement la valeur de l’actif DAI sous-jacent plus les gains d’intérêt en permettant l’emprunt de son DAI. Cet aDAI pourrait alors être utilisé pour mettre en œuvre d’autres stratégies afin d’amplifier encore plus les gains.
 
 ## Alpha Code
 
-Early-stage prototype computer code, programs, and algorithms meant to solve a problem, and/or provide new digital goods or services. Alpha software comes with the expectation that the code is at an early prototype stage and is meant for an early testing phase meant for very limited testing.
+Prototype précoce de code informatique, programme, ou algorithme ayant pour but de résoudre un problème et/ou à fournir de nouveaux bien ou services numériques. Un logiciel Alpha est à un stade précoce de prototypage, destiné à être testé de façon limitée.
 
-Alpha code or software may be missing all or parts of expected software functionality. Planned features and the security of the software may also be very limited or even non-existent in many aspects.
+Il peut manquer a du code ou un logiciel Alpha toutes ou certaines des fonctionnalités attendues. Les fonctionnalités prévues et la sécurité du logiciel peuvent aussi être très limitées voire non-existantes sous beaucoup d’aspects.
 
 ## Audit
 
-An audit is either an internal or independent comprehensive review of a concept, system, process, company, or product. A comprehensive audit includes a thoughtful and in-depth look at the structure, strengths, weaknesses, and vulnerabilities of the thing or process being audited.
+Un audit est un examen complet, interne ou indépendant, d’un concept, d’un système, d’un processus, d’une entreprise ou d’un produit. Un audit complet comprend un examen réfléchi et approfondi de la structure, des forces, des faiblesses et des vulnérabilités de la chose ou du processus audité.
 
-Audits may be either informal or formal audits and are meant to be a tool to find and analyze weaknesses, so that issues and problems discovered during an audit may be remediated, mitigated, or corrected.
+Les audits peuvent être soit informels, soit formels, et sont censés être un outil permettant de trouver et d’analyser les faiblesses, de sorte que les questions et les problèmes découverts au cours d’un audit puissent être corrigés ou atténués.
 
 ## APY
 
-Annual Percentage Yield, a time-based measurement of the Return On Investment \(ROI\) on an asset. For example, $100 invested at 2% APY would yield $102 after one year, if there is no compounding of any interest earned on that $100 through the year. Assuming a static APY rate, the Monthly ROI would be 0.16%, in this case.
+Pourcentage de rendement annuel, une mesure temporelle du Retour sur Inestissement \(ROI\) d’un actif. Par exemple, $100 investis a 2% APY rapporteraient $102 après la première année, s’il n’y a pas de capitalisation des intérêts perçus sur ces $100 pendant l’année. En supposant un taux APY statique, le retour sur investissement \(ROI\) mensuel serait de 0.16% dans ce cas.
 
 ## Arbitrage
 
-The trading of a coin or crypto derivative, where the price spread between two different markets or exchanges for the same asset or product is utilized to earn greater profits.
+L’échange du dérivé d’une monnaie ou d’une crypto, où l’écart de prix entre deux marchés ou places d’échange est utilisé pour gagner plus de profits.
 
-In DeFi, automated yield farming uses algorithmic arbitrage strategies to maximize returns for investors. These arbitrage strategies may include buying, selling, lending, and/or providing liquidity of one or more digital assets, often in the same day.
+En DeFi, le yield farming automatisé utilise des stratégies d’arbitrage algorithmique dans le but de maximiser les profits des investisseurs. Ces stratégies d’arbitrage peuvent inlcure acheter, vendre, prêter, et/ou fournir de la liquidité d’un ou plusieurs actifs digitaux, souvent dans la même journée.
 
 ## Automated Market Maker
 
-An Automated Market Maker \(AMM\) is a decentralized asset trading pool that enables market participants to buy or sell cryptocurrencies. AMMs are non-custodial and permissionless in nature. Most AMMs utilize either a constant product, constant mean, or constant sum market-making formula; however, the most common is a constant product market maker, most notably [Uniswap](https://uniswap.info/).
+Un Automated Market Maker \(AMM\) est un pool de négociation d’actifs décentralisé qui permet aux acteurs du marché d’acheter ou de vendre des crypto-monnaies. Les AMM sont de nature non privative de liberté et sans autorisation. La plupart des AMM utilisent soit un produit constant, une moyenne constante ou une formule de création de marché à somme constante; cependant, le plus courant est un market maker constant, notamment [Uniswap](https://uniswap.info/).
 
 ## Balancer
 
-From the [Balancer](https://balancer.finance/) whitepaper definition:
+Tiré de la définition du whitepaper de [Balancer](https://balancer.finance/):
 
-> A Balancer Pool is an automated market maker with certain key properties that cause it to function as a self-balancing weighted portfolio and price sensor.
+> Une pool Balancer est un automated market maker avec certaines propriétés clés qui la font fonctionner comme un portfefeuille pondéré qui s’auto-rééquilibré, et un capteur de prix.
 >
-> Balancer turns the concept of an index fund on its head: instead of paying fees to portfolio managers to rebalance your portfolio, you collect fees from traders, who rebalance your portfolio by following arbitrage opportunities.
+> Balancer bouleverse le concept de fonds indiciel : au lieu de payer des frais aux gestionnaires de portefeuille pour rééquilibrer votre portefeuille, vous percevez des frais des traders, qui rééquilibrent votre portefeuille en suivant les opportunités d’arbitrage.
 >
-> Balancer uses a Constant Mean Market Maker \(CMMM\)that enables non-equal weights for pools \(e.g., 80/20 vs. 50/50\) and also allows LPs to provide single-sided liquidity.
+> Balancer utilise un Constant Mean Market Maker \(CMMM\) \(CMMM\) qui permet des pondérations non égales pour les pools \(par exemple, 80/20 contre 50/50 habituellement\) et permet également aux LP de fournir une liquidité unilatérale.
 
 ## Bear Market
 
-A period marked by prevailing negative investor sentiment about an asset or class of assets. A bear market can last weeks, months, or years.
+Une période marquée par un sentiment négatif dominant des investisseurs vis à vis d’un actif ou d’une classe d’actifs. Un bear market peut durer plusieurs semaines, mois, voire années.
 
 ## Beta Code
 
-Later stage prototype computer code, programs, and algorithms meant to solve a problem, and/or provide digital goods or services. Beta code comes with the expectation that the code has more functionality and stability as a mid-to-late stage prototype stage with a Beta testing phase, and that the software functionality, features, and security may still be limited.
+Prototype de code informatique, de programmes et d’algorithmes à un stade plus avancé que l’alpha, destiné à résoudre un problème et/ou à fournir des biens ou des services numériques. Le code bêta est conçu pour offrir davantage de fonctionnalités et de stabilité en tant que prototype de stade intermédiaire ou avancé, avec une phase de test bêta, et pour que les fonctionnalités, les caractéristiques et la sécurité du logiciel soient encore limitées.
 
-The codebase, process, system, and/or network is often opened up to a limited number of testers who stress test systems and provide feedback for improvements to the developer or development team.
+La base de code, le processus, le système et/ou le réseau sont souvent ouverts à un nombre limité de testeurs qui mettent l’accent sur les systèmes de test et fournissent un retour sur les améliorations au développeur ou à l’équipe de développement.
 
-Beta code development has the expectation of being one of the critical final phases before the potential public release of Version 1.0 software. Beta software is used with the expectation and understanding that there may still be minor to fatal bugs or security vulnerabilities hidden within this Beta software code or associated processes that may not have been uncovered by previous security reviews, testing, or audits.
+Le développement du code bêta est censé être l’une des phases finales critiques avant la publication éventuelle de la version 1.0 du logiciel. Le code bêta est utilisé en sachant qu’il peut encore y avoir des bugs mineurs ou fatals ou des vulnérabilités de sécurité cachées dans ce code bêta ou dans des processus associés qui n’ont pas été découverts lors de revues, de tests ou d’audits de sécurité antérieurs.
 
 ## Blockchain
 
-An immutable permanent public record or ledger of all transactions since the beginning of a cryptocurrency coin or token.
+Un registre public permanent et immuable de toutes les transactions ayant eu lieu depuis le début d’une cryptomonnaie ou d’un jeton.
 
 ## Bull market
 
-A period marked by prevailing positive investor sentiment about an asset or class of assets. A bull market can last weeks, months, or years, and can sometimes be marked by what economists call a Bubble, where there may be irrational overenthusiasm about an asset or class of assets, leading to explosive price growth followed by an explosive price crash.
+Une période marquée par un sentiment positif dominant des investisseurs à propos d’un actif ou d’une classe d’actifs. Un bull market peut durer plusieurs semaines, mois, voires années. Ces périodes peuvent parfois être marquées par ce que les économistes appellent une bulle , où il peut y avoir un excès d’enthousiasme irrationnel à propos d’un actif ou d’une catégorie d’actifs, conduisant à une croissance explosive des prix suivie d’un effondrement explosif des prix.
 
 ## CeFi
 
-Centralized Finance. In terms of cryptocurrency, CeFi is represented by centralized cryptocurrency exchanges, businesses, or organizations with a physical address, and usually with some sort of corporate structure. These CeFi businesses must follow all applicable laws, rules, and regulations in each country, state, or region in which they operate.
+La Finance Centralisée. Dans l’écosystème des cryptomonnaies, la CeFi est représentée par des entités centralisées comme des échanges de cryptomonnaies, des entreprises ou organisations avec une adresse physique, et généralement une certaine structure d’entreprise. Ces entreprises CeFi doivent suivre toutes les lois, règles et régulations de chaque pays, état, ou région dans lesquels ils opèrent.
 
 ## CEX
 
-A CEX is a Centralized Exchange, with a physical address and a corporate structure. Like other CeFi businesses, a CEX must follow all applicable laws, rules, money transmitter licenses, and regulations in each country, state, or region in which they operate. There are significant overhead costs in running a CEX including Corporate leaders, labor, rent and electricity, office supplies, significant legal expenses, and expensive money transmitter licenses to be able to operate in chosen countries, states, or regions.
+Un CEX est un échange centralisé, avec une adresse physique et une structure d’entreprise. Comme les autres entreprises de CeFi, un CEX doit respecter toutes les lois, règles, licences de transmission de fonds et réglementations applicables dans chaque pays, état, ou région où il opère. Le fonctionnement d’un CEX entraîne des frais généraux importants, notamment en ce qui concerne les dirigeants de l’entreprise, la main-d’œuvre, le loyer et l’électricité, les fournitures de bureau, les frais juridiques importants et les licences de transmission de fonds coûteuses pour pouvoir opérer dans les pays, états ou régions choisis.
+
+####  <a id="Coin---translated"></a>
 
 ## Coin
 
-A form of digital currency primarily used for payments or storage of wealth. Coins are secured by encryption algorithms. The market price of the coin represents the value of the ownership of a divisible unit of the coin or token \(another name for a coin, but a type of coin with greater functionality\) at a given moment in time. This coin or token can represent a share of the ownership and/or governance of a coin, token, protocol, company, or project and all of the benefits that this may entail.
+Une forme de monnaie numérique utilisée principalement pour les paiements ou le stockage de richesses. Les pièces sont sécurisées par des algorithmes de cryptage. Le prix du marché de la pièce représente la valeur de la propriété d’une unité divisible de la pièce ou du jeton \(un autre nom pour une pièce, mais un type de pièce avec une plus grande fonctionnalité\) à un moment donné dans le temps. Cette pièce ou ce jeton peut représenter une part de la propriété et/ou de la gouvernance d’une pièce, d’un jeton, d’un protocole, d’une entreprise ou d’un projet et de tous les avantages que cela peut entraîner.
 
 ## Collateralization
 
-The borrowing of a deposit asset or assets to seek further business activities such as Yield Farming. Collateralization can amplify gains or losses, and is thus, considered riskier than not borrowing funds.
+L’emprunt d’un ou de plusieurs actifs de dépôt pour réaliser d’autres activités telles que du yield farming. La constitution de garanties peut amplifier les gains ou les pertes, et est donc considérée comme plus risquée que l’emprunt de fonds.
 
 ## Composability
 
-The measure of the usability and ability of the product to be used as a building block \(or "money lego"\) in the construction of other products or domains. A protocol that is simple, powerful, and that functions well with other protocols would be considered to have high composability.
+La mesure de la facilité d’utilisation et de la capacité d’un produit à être utilisé comme un élément de base \(ou “money lego”\) dans la construction d’autres produits ou domaines. Un protocole simple, puissant, et qui fonctionne bien avec d’autres protocoles serait considéré comme ayant une composabilité élevée.
 
 ## Compound
 
-The DeFi platform [Compound](https://compound.finance/). From the Compound DAO's description:
+La plateforme de DeFi [Compound](https://compound.finance/). Tiré de la description de Compound DAO:
 
-> an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications.
+> Un protocole de taux d’intérêt algorithmique et autonome construit pour les developpeurs, afin d’ouvrir un univers d’applications financières ouvertes.
 >
-> Compound was built using community built interfaces and is an example of traditional institutional investors and CIIs \(Cryptocurrency Institutional Investors\) collaborating on a product that benefits both groups of investors, and the CeFi and DeFi communities.
+> Compound a été construit par des interfaces faites par la communauté, et est un exemple d’investisseurs institutionnels traditionnels et de CII \(Cryptocurrency Institutional Investors\) collaborant sur un produit qui bénéficie aux deux groupes d’investisseurs, les communautés CeFi et DeFi.
 
-## Compound Interest
+## Compound Interest _\(Intérêt composé\)_
 
-Once called the eighth wonder of the world by Einstein, compound interest allows greater interest rates and returns on investments by allowing interest gained to be automatically reinvested back in with the original deposits and accrued interest. This reinvestment period is based on the planned distribution of this interest which may be hourly, weekly, monthly, or an annual interest distribution.
+Autrefois appelé la huitième merveille du monde par Einstein, l’intérêt composé permet de meilleurs taux d’intérêts et de rendements sur les investissements en permettant aux intérêts gagnés d’être réinvestis automatiquement avec le dépôt d’origine et les intérêts cumulés. Cette période de réinvestissement est basée sur la distribution prévue de ces intérêts, qui peut être horaire, hebdomadaire, mensuelle ou annuelle.
 
-With compound interest, the greatest gains are often seen over a certain period in time, with a notably sharp rise in the value of investments seen at longer periods. In general, the longer a deposit benefits from compound interest, the much greater the overall gains when compared to gains made from simple interest.
+Avec l’intérêt composé, les gains les plus importants sont souvent réalisés sur une certaine période de temps, avec une augmentation notable de la valeur des investissements sur une plus longue période. En général, plus longtemps un dépôt bénéficie d’un intérêt composé, plus les gains globaux sont importants par rapport aux gains réalisés avec un intérêt simple.
 
-## Cryptocurrency
+## Cryptocurrency _\(Crypto Monnaie\)_ 
 
-A form of digital currency protected by encryption algorithms and represented as a digital coin or token. Cryptocurrency coins are programmed to systems and networks for:
+Une forme de monnaie numérique protégée par des algorithmes de cryptage et représentée sous la forme d’une pièce ou d’un jeton numérique. Les cryptomonnaies sont programmées pour les systèmes et les réseaux :
 
 * Minting
 * Release
@@ -109,33 +111,35 @@ A form of digital currency protected by encryption algorithms and represented as
 * Governance
 * Ability to make future changes
 
-These digital coins or tokens include a ledger or blockchain record of all transactions that occur on their respective networks.
+Ces pièces ou jetons numériques comprennent un registre ou une blockchain sur lesquels toutes les transactions qui ont lieu sur leurs réseaux respectifs sont conservées.
 
 ## Curve
 
-[Curve](https://compound.finance/) is a decentralized stablecoin Automated Market Maker \(AMM\), that offers low-slippage trades among stablecoins \(DAI, USDC, USDT, TUSD, BUSD, sUSD\) and other synthetic assets \(wrapped BTC\) on the Ethereum blockchain. One advantage to providing liquidity in similar assets such as the above USD equivalents is that it is one solution to mitigating Impermanent Loss \(IL\) for Liquidity Providers \(LPs\) for the crypto derivatives and the output of the Curve.Finance Smart Contract, which utilizes four USD digital equivalent tokens to form a composite token called CRV.
+[Curve](https://compound.finance/) est un automated market maker \(AMM\) décentralisé pour stablecoins, qui offre des transactions à faible _slippage_ entre les différents stablecoins \(DAI, USDC, USDT, TUSD, BUSD, sUSD\) et d’autres actifs synthétiques \(BTC enveloppés\) sur la blockchain Ethereum.
+
+L’avantage de fournir des liquidités dans des actifs similaires tels que les équivalents en USD ci-dessus est qu’il s’agit d’une solution pour atténuer les pertes non permanentes \(Impermanent Loss, IL\) pour les fournisseurs de liquidités \(LP\) pour les produits dérivés en crypto et ce que produit le smart contract de Curve.Finance, qui utilise quatre jetons numériques équivalents en USD pour former un jeton composite appelé CRV.
 
 ## dApp
 
-A 21st-century invention, a dApp is a decentralized Web3 application that normally runs on a blockchain. Advantages of dApps are that: they allow for new solutions to problems, they are decentralized and are thus rugged, and they are resistant to outages and censorship.
+Invention du 21e siècle, un dApp est une application Web3 décentralisée qui fonctionne habituellement sur une blockcain. Les avantages des dApps sont les suivants: ils permettent de trouver de nouvelles solutions aux problèmes, ils sont décentralisés et donc robustes, et ils résistent aux pannes et à la censure.
 
-dApps can provide decentralized software application services - such as the Brave browser - but it can also be used to trace and track goods, and can be used to enable international financial transactions without the delay, costs, and hassle of middlemen and bureaucracy. They can also be a keystone to the functionality of complex decentralized exchanges and crypto financial services such as price oracles.
+Les dApps peuvent fournir des services d’application numérique décentralisés - comme le navigateur Brave - mais peuvent aussi permettre de tracer et suivre des marchandises, de réaliser des transactions financières internationales sans les délais, coûts et tracas liés aux intermédiaires et à la bureaucratie. Ils peuvent également être la clé de voûte qui fait fonctionner des échanges décentralisés complexes et des services financiers cryptographiques tels que les oracles de prix.
 
 ## DAO
 
-Distributed Autonomous Organization. The first DAO was started in 2016. According to Wikipedia's definition, it is an:
+Organisation autonome distribuée. La première DAO a été lancée en 2016. Selon la définition de Wikipedia, il s’agit d’une :
 
-> "organization represented by rules encoded as a computer program that is transparent, controlled by the organization members and not influenced by a central government. A DAO's financial transaction record and program rules are maintained on a blockchain."
+> "organisation représentée par des règles codées sous la forme d’un programme informatique qui est transparent, contrôlé par les membres de l’organisation et qui n’est pas influencé par un gouvernement central. Le registre des transactions financières d’un DAO et les règles du programme sont maintenus sur une blockchain”.
 >
-> When implemented well, a DAO allows for real-world experiments in decentralized democratic organization and control, with more freedom of action and less regulatory oversight for DAO controlled projects and products when compared to legacy corporate structures and organizations.
+> Lorsqu’elle est bien mise en œuvre, une DAO permet des expériences réelles d’organisation et de contrôle démocratique décentralisé, avec plus de liberté d’action et moins de surveillance réglementaire pour les projets et les produits contrôlés par la DAO par rapport aux structures et organisations d’entreprises traditionnelles..
 
-## DeFi
+## DeFi _\(Finance Décentralisée\)_
 
-DeFi, or Decentralized Finance, is at its root a set of Smart Contracts running independently on blockchains such as the Ethereum network. Smart Contracts may or may not interact with other smart contracts and even other blockchains.
+DeFi, ou Decentralized Finance, est à la base un ensemble de contrats intelligents fonctionnant indépendamment sur des blockchains telles que le réseau Ethereum. Les contrats intelligents peuvent ou non interagir avec d’autres contrats intelligents et même d’autres blockchains.
 
-The goal of DeFi is to enhance the profitability of investors in DeFi through automated smart contracts seeking to maximize yields for invested funds. DeFi is marked by rapid innovative progression and testing of new ideas and concepts.
+L’objectif de DeFi est d’améliorer la rentabilité des investisseurs dans DeFi grâce à des contrats intelligents automatisés visant à maximiser les rendements des fonds investis. DeFi se caractérise par une progression innovante rapide et des tests de nouvelles idées et concepts.
 
-DeFi often involves high risk investing sometimes involving smart contracts that have not been audited or even thoroughly reviewed \(a review is not as comprehensive as an audit, but may also be included as part of an audit\). Due to this and other reasons, DeFi is conventionally considered to be riskier than CeFi or traditional investing.
+DeFi implique souvent des investissements à haut risque impliquant parfois des contrats intelligents qui n’ont pas été audités ou même examinés en profondeur \(un examen n’est pas aussi complet qu’un audit, mais peut également être inclus dans le cadre d’un audit\). Pour cette raison et d’autres, DeFi est classiquement considérée comme plus risquée que CeFi ou l’investissement traditionnel.
 
 ## Delegation
 
