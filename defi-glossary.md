@@ -470,7 +470,7 @@ Protocole d'amélioration de l'année \(YIP\). Les YIP potentiels sont généré
 
 Selon les règles de gouvernance actuelles, un quorum de 20% des jetons de gouvernance déposés est requis pour voter sur un YIP pour qu'il soit considéré comme un vote valide. Pour passer: un vote sur un YIP doit avoir une majorité de 50% + des jetons de gouvernance déposés votant en faveur du YIP pour qu'un YIP soit adopté. Ce YIP démocratiquement approuvé par la communauté est ensuite mis en œuvre par des signataires de portefeuille multisignature en charge des contrats intelligents derrière yEarn Finance.
 
-## yInsure \(Assurance Yearn\)
+## yInsure 
 
 Un nouveau type d'assurance inventé par le développeur YFI Andre Cronje pour les actifs cryptographiques et les dérivés cryptographiques avec souscription fournie par Nexus Mutual. Il s'agit d'un prototype pour un nouveau type d'assurance symbolique. Les jetons yInsure sont des jetons de liquidité de différents types qui permettent aux investisseurs de fournir des liquidités aux pools d'assurance crypto.
 
@@ -480,15 +480,15 @@ Andre explique un aspect innovant de ce prototype d'assurance crypto:
 
 > La conception de ce système permet à tout actif disposant d'une primitive financière d'être assuré, qu'il s'agisse d'un actif de base tel que DAI, ou d'un actif composite tel que aDAI ou yDAI.
 
-## yLiquidate \(Liquidité Y\)
+## yLiquidate 
 
 Un ensemble de contrats intelligents de liquidation automatisée pour Aave qui ne nécessite aucun capital. Il est actuellement en cours de développement dans un Testnet.
 
-## ySwap \(Échange Y\)
+## ySwap 
 
 Un Market Maker automatisé unilatéral \(AMM\) qui est en production mais au stade bêta de son développement.
 
-## yToken \(Jeton Y\)
+## yToken 
 
 Une classe d'actifs dérivée de crypto-monnaie inventée par le développeur Andre Cronje, un yToken représente un jeton de liquidité qui est donné en échange du dépôt d'un investisseur. Les yTokens sont utilisés dans les produits Yearn Finance pour une variété d'utilisations, notamment les prêts, les liquidités d'assurance \(yInsure\) et l'agriculture à rendement optimisé automatisé \(yVault\).
 
@@ -496,7 +496,7 @@ Des exemples de yTokens incluent yCRV, yYFI et yaLINK. Il s'agit de dérivés cr
 
 Cet actif dérivé de crypto-monnaie peut également être un dérivé de crypto-monnaie secondaire exécutant un contrat intelligent sur un autre dérivé de crypto-monnaie tel que aDAI, un jeton de liquidité Aave USD sur Aave.
 
-## yVault \(Coffre Y\)
+## yVault 
 
 Un agrégateur de prêts ajusté par programme, un arbitre et un agriculteur à rendement optimisé Les contrats intelligents Yearn sont considérés comme plus simples et moins risqués que leurs homologues yVault. En comparaison, les contrats intelligents yVault sont considérés comme plus complexes et plus risqués, mais ont en retour tendance à générer un retour sur investissement plus élevé.
 
