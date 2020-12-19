@@ -58,6 +58,7 @@ The `Controller` contract can be found [here](https://etherscan.io/address/0x9e6
 | [USDT](https://etherscan.io/address/0x2f08119c6f07c006695e079aafc638b8789faf18)                   | 0x2f08119c6f07c006695e079aafc638b8789faf18 | [yVault.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/vaults/yVault.sol) |
 | [GUSD](https://etherscan.io/address/0xec0d8d3ed5477106c6d4ea27d90a60e594693c90)                   | 0xec0d8d3ed5477106c6d4ea27d90a60e594693c90 | [yVault.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/vaults/yVault.sol) |
 | [curve.fi/compound LP](https://etherscan.io/address/0x629c759d1e83efbf63d84eb3868b564d9521c129)   | 0x629c759D1E83eFbF63d84eb3868B564d9521C129 | [yVault.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/vaults/yVault.sol) |
+| [curve.fi/mUSD LP](https://etherscan.io/address/0x1AEf73d49Dedc4b1778d0706583995958Dc862e6)       | 0x1AEf73d49Dedc4b1778d0706583995958Dc862e6 | [yVault.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/vaults/yVault.sol) |
 
 ### Strategies
 
@@ -74,6 +75,7 @@ The `Controller` contract can be found [here](https://etherscan.io/address/0x9e6
 | [StrategyUSDC3pool](https://etherscan.io/address/0x4720515963a9d40ca10b1ade806c1291e6c9a86d)          | 0x4720515963a9d40ca10b1ade806c1291e6c9a86d | [StrategyUSDC3pool.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/strategies/StrategyUSDC3pool.sol)                   | [USDC](https://etherscan.io/address/0x597ad1e0c13bfe8025993d9e79c69e1c0233522e)              |
 | [StrategyUSDT3pool](https://etherscan.io/address/0xc7e437033d849474074429cbe8077c971ea2a852)          | 0xc7e437033d849474074429cbe8077c971ea2a852 | [StrategyUSDT3pool.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/strategies/StrategyUSDT3pool.sol)                   | [USDT](https://etherscan.io/address/0x2f08119c6f07c006695e079aafc638b8789faf18)              |
 | [StrategyCurveCompoundVoterProxy](https://etherscan.io/address/0x530da5aef3c8f9ccbc75c97c182d6ee2284b643f) | 0x530da5aef3c8f9ccbc75c97c182d6ee2284b643f | [StrategyCurveCompoundVoterProxy.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/strategies/StrategyCurveCompoundVoterProxy.sol)        | [curve.fi/compound LP](https://etherscan.io/address/0x845838df265dcd2c412a1dc9e959c7d08537f8a2)         |
+| [StrategyCurvemUSDVoterProxy](https://etherscan.io/address/0xBA0c07BBE9C22a1ee33FE988Ea3763f21D0909a0) | 0xBA0c07BBE9C22a1ee33FE988Ea3763f21D0909a0 | [StrategyCurvemUSDVoterProxy.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/strategies/StrategyCurvemUSDVoterProxy.sol)        | [curve.fi/mUSD LP](https://etherscan.io/address/0x1aef73d49dedc4b1778d0706583995958dc862e6)         |
 
 ## Delegated Vault Contracts
 
