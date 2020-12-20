@@ -21,6 +21,7 @@
 - [Earn](products/earn.md)
 - [Zap](products/zap.md)
 - [yInsure](products/yinsure.md)
+- [yGift](products/ygift.md)
 
 ## R&D
 
