@@ -1,272 +1,272 @@
 ---
 title: faq.yearn.finance
-tags: "docs, faq, published"
+tags: "documenti, faq, pubblicato"
 ---
 
 # FAQ
 
-## General
+## Generale
 
-### Is it safe to invest money in Yearn?
+### È sicuro investire denaro su Yearn?
 
-- Please do your own research and decide for yourself.
+- Fate le vostre ricerche e decidete voi stessi.
 
-### Is Yearn audited?
+### Yearn è verificato?
 
-- Yes, you can find the list of audits [here](https://github.com/iearn-finance/audits).
+- Sì, potete trovare l'elenco delle verifiche [qui](https://github.com/iearn-finance/audits).
 
-## Feedback & Support
+## Feedback e Supporto
 
-If you have questions about how to do anything, we can help you on:
+Se avete domande su come fare qualcosa, possiamo aiutarvi su:
 
 - [Discord](http://discord.yearn.finance)
 - [Telegram](https://t.me/yearnfinance)
 
-But if you think something can be improved, or you found a bug, we want to squash it. Please post it here:
+Ma se pensate che qualcosa possa essere migliorato, o se avete trovato un bug, noi siamo qui per risolverlo. Vi preghiamo di pubblicarlo qui:
 
-- [Github](https://github.com/iearn-finance) — create a new issue in the relevant repository.
-- [Forum](https://gov.yearn.finance/c/general-chat/feedback/2) — post in the feedback category.
+- [Github](https://github.com/iearn-finance) — crea un nuovo argomento nel relativo repository.
+- [Forum](https://gov.yearn.finance/c/general-chat/feedback/2) — scrivi nella categoria feedback.
 
-## Products
+## Prodotti
 
 ### yearn.finance
 
-- [yearn.finance](https://yearn.finance/) hosts UIs for the **Vaults**, **Earn**, **Zap**, **APR**, and **Cover** products.
+- [yearn.finance](https://yearn.finance/) ospita gli UI per i prodotti **Vaults**, **Earn**, **Zap**, **APR** e **Cover**.
 
-### Vaults
+### Vault
 
 - [yearn.finance/vaults](https://yearn.finance/vaults)
 
-#### What is a Vault?
+#### Cos'è un Vault?
 
-- Vaults employ strategies to automate the best yield farming opportunities available.
-- They were designed so that the community could work together to build new strategies to find the best yield.
-- Andre explains [vaults](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) and [delegated vaults](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) in these two blog posts.
-- Simply put vaults can do this:
-  - Use any asset as liquidity.
-  - Use liquidity as collateral and manage collateral at a safe level in order to avoid a default.
-  - Borrow stablecoins.
-  - Put the stablecoins to work on some farming.
-  - Reinvest earned stablecoins.
+- I Vault impiegano strategie per automatizzare le migliori opportunità di rendimento per l'agricoltura disponibili.
+- Sono stati ideati in modo che la comunità potesse lavorare insieme per costruire nuove strategie per trovare la migliore resa.
+- Andre spiega [i vault](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) e [delegated vaults](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) in questi due post.
+- In poche parole, i Vault possono:
+  - Usare qualsiasi attivita come liquidità..
+  - Usare la liquidità come garanzia e gestire la garanzia a un livello sicuro per evitare un'inadempienza.
+  - Prendere in prestito le stablecoin.
+  - Impiegare le stablecoin per l'agricoltura.
+  - Reinvestire le stablecoin guadagnate.
 
-#### Can't I just do all this myself though?
+#### Non posso fare tutto questo da solo?
 
-- Yes you could, but vaults help you save on gas, keep a good collateral/debt ratio to avoid defaults, and auto optimizes for the highest yielding stablecoin strategies, even while you are sleeping.
+- Sì che puoi farlo, ma i vault ti aiutano a risparmiare sul gas, a mantenere un buon rapporto garanzie/debito per evitare le inadempienze e ottimizzare automaticamente per le strategie stablecoin a più alto rendimento, anche mentre stai dormendo.
 
-#### I see ROI on the vaults page. Is it the current one?
+#### Vedo il ROI sulla pagina dei vault. È quello attuale?
 
-- No. This is the historical average for that vault. Current APY / returns are not shown as vaults are a beta product and being tested live.
-- Various third party sites provide APY and other info, they are listed below in [Statistics](https://docs.yearn.finance/faq#statistics).
+- No. TQuesta è la media storica per quel vault. Gli attuali APY/rendimenti non vengono mostrati come vault, sono un prodotto beta e vengono testati dal vivo.
+- Vari siti di terze parti forniscono APY e altre informazioni, sono elencati qui sotto in [Statistiche](https://docs.yearn.finance/faq#statistics).
 
-#### What are the risks?
+#### Quali sono i rischi?
 
-- While the assets deposited can't decrease, the debt of the vault can increase. If a strategy does not manage to outperform the debt, then a portion of the asset will be impermanently locked. If a strategy later outperforms the debt again, the asset will again be available to withdraw. There are mechanisms in the vaults to prevent this but nothing is bulletproof.
-- As of now, only _some_ Vaults have been [audited](https://github.com/iearn-finance/yearn-audits/blob/bdb3868c98e4fe2427898db05154942a9192efb1/MixBytes%20-%20Yearn.Finance%20protocol%20v.1%20Smart%20Contracts%20Audit%20Security%20Audit%20Report.pdf).
-- Smart contract risk with any contracts that the vaults interact with.
+- Mentre gli asset depositati non possono diminuire, il debito del vault può aumentare. Se una strategia non riesce a superare il debito, allora una parte del patrimonio sarà definitivamente bloccata. Se una strategia in seguito supera di nuovo il debito, l'attività sarà di nuovo disponibile a ritirarsi. Esistono meccanismi nei vault per prevenire questo, ma nulla è a prova di proiettile.
+- Per ora, solo _alcuni_ Vault sono stati [controllati](https://github.com/iearn-finance/yearn-audits/blob/bdb3868c98e4fe2427898db05154942a9192efb1/MixBytes%20-%20Yearn.Finance%20protocol%20v.1%20Smart%20Contracts%20Audit%20Security%20Audit%20Report.pdf).
+- Smart contract risk con qualsiasi contratto con cui i vault interagiscono.
 
-#### What are the different yVaults?
+#### Quali sono i diversi yVaults?
 
-**yLINK and yaLINK**
+**yLINK e yaLINK**
 
-- **What's the difference between LINK and aLINK vaults?**
-  - None in terms of returns. Deposited LINK will be deposited into Aave generating aLINK \(Aave interest bearing LINK\). So depositing directly into aLINK vault you are one step ahead in the process.
-- **Why is the yield different for aLINK and LINK vaults?**
-  - aLINK has a 0.5% insurance "fee" \(this is returned when it is outperformed\). LINK vault doesn't have this fee to avoid double dipping.
+- **Qual è la differenza tra i vault LINK e aLINK?**
+  - Nessuna in termini di restituzioni. Il LINK depositato sarà depositato in Aave generando aLINK \(Aave interest bearing LINK\). Quindi depositando direttamente in un vault aLINK si è un passo avanti nel processo.
+- **Perchè il rendimento è diverso per i vault aLINK e LINK?**
+  - aLINK ha una "tassa" assicurativa dello 0,5% (che viene restituita quando viene superata). Il vault LINK non ha questa tassa per evitare la double dip.
 
-**yETH and yWETH**
+**yETH e yWETH**
 
-- **What's the difference between WETH and ETH vaults?**
-  - None in terms of returns. Deposited ETH it will be wrapped into WETH anyway. The WETH vault just makes it easier for other Ethereum protocols to interact with this vault.
-- **How does ETH vault protect itself from liquidation?**
-  - This vault reads ETH price directly from the Maker's OSM \(Oracle Security Model\), a system that reads Oracle price 1 hour in advance. This gives the vault 1 hour to pay the CDP debt before liquidation. Also, the vault keeps increasing collateralization by depositing profit on each harvest call.
+- **Qual è la differenza tra vault WETH e vault ETH?**
+  - Nessuna in termini di restituzioni. L'ETH depositato sarà comunque avvolto in WETH. Il vault WETH rende solo più facile l'interazione di altri protocolli dell'Ethereum con questo vault.
+- **In che modo il vault ETH si protegge dalla liquidazione?**
+  - Questo vault legge il prezzo dell'ETH direttamente dal Maker's OSM \(Oracle Security Model\), un sistema che legge il prezzo Oracle con 1 ora di anticipo. Questo dà al vault 1 ora di tempo per pagare il debito del CDP prima della liquidazione. Inoltre, il vault continua ad aumentare la collateralizzazione depositando profitti ad ogni harvest call.
 
-**Other Vaults**
+**Altri Vault**
 
-- v1 Money Market vaults, formerly called iEarn, can be found [here](https://yearn.finance/earn).
-- Additional vaults can be found [here](https://yearn.finance/vaults).
+- v1 Money Market vault, precedentemente chiamati iEarn, si trovano [qui](https://yearn.finance/earn).
+- Altri vault si trovano [qui](https://yearn.finance/vaults).
 
-#### If the current strategy for the yCRV vault is farming CRV does it just get added to my balance when I withdrawal?
+#### Se l'attuale strategia per il vault yCRV è CRV, viene semplicemente aggiunto al mio saldo quando lo ritiro?
 
-- No. The vault will farm CRV then sell it on the market automatically. When you withdrawal you will get more yCRV.
+- No. Il vault coltivere il CRV e poi lo vendera sul mercato automaticamente. Quando si ritira si ottiene più yCRV.
 
-#### Why isn't yCRV worth \$1, it's a stable coin right?
+#### Perché yCRV non vale \$1, é una moneta stabile, giusto?
 
-- No, yCRV is not worth \$1, and no it is NOT a stablecoin. You can think of yCRV as an index of yield bearing stablecoins \(yDAI+yUSDC+yUSDT+yTUSD\) that also generates yield \(trading fees from the Curve Y pool\) as well. Therefore the price of yCRV is non-decreasing.
+- No, yCRV non vale \$1, e no NON é una moneta stabile. Si può pensare a yCRV come ad un indice di rendimento di stablecoin \(yDAI+yUSDC+yUSDT+yUSDT+yTUSD\) che genera anche il rendimento \(commissioni di negoziazione dal pool Curve Y). Pertanto, il prezzo di yCRV non è in diminuzione.
 
-#### If I unstake my yCRV from the yCRV vault, does that then revert it back to the Curve Y pool at Curve, or do I have to do something else like restake it there?
+#### Se tolgo il mio yCRV dal vault di yCRV, questo lo riporta al pool Curve Y alla Curve, o devo fare qualcos'altro come reinvestirlo?
 
-- When you withdraw your yCRV from the vault, you get back yCRV + plus interest accrued - fees, all in yCRV. Since it is the yCRV token you got back, it is already staked in Curve Y pool making stablecoin swap fees. No need to do anything else with Curve, unless you want to stake it [here](https://dao.curve.fi/minter/gauges) to generate CRV.
+- Quando si ritira il proprio yCRV dal vault, si ottiene il yCRV + più gli interessi maturati - le tasse, tutto in yCRV. Dal momento che è il token yCRV che hai recuperato, è già investito nel pool di Curve Y, facendo le commissioni di swap stablecoin. Non c'è bisogno di fare altro con Curve, a meno che non vogliate investirlo [qui](https://dao.curve.fi/minter/gauges) per generare CRV.
 
-#### Why can’t we get a better APY for the YFI vault?
+#### Perchè non possiamo ottenere un APY migliore per il vault YFI?
 
-- You can’t get the same numbers for two completely different coins. The new sBTC is following the same strategy that the yCRV vault using curve liquidity pool. The obvious answer is that there aren’t many safe platforms accepting YFI as stake so there aren’t much valid strategies for the YFI vault right now.
+- Non si possono ottenere gli stessi numeri per due monete completamente diverse. Il nuovo sBTC sta seguendo la stessa strategia del vault yCRV utilizzando il liquidity pool di Curve. La risposta ovvia è che non ci sono molte piattaforme sicure che accettano YFI come staking, quindi in questo momento non ci sono molte strategie valide per il vault YFI.
 
-#### I deposited into a vault, what will I get out when I withdrawal?
+#### Ho depositato in un vault, cosa ne ricavo quando faccio un prelievo?
 
-- You can only withdraw the crypto asset type that you put in.
-- You will get the amount you originally put in, plus the yield you've earned, minus the fees.
+- È possibile ritirare solo il tipo di asset crittografato che si è inserito.
+- Riceverai l'importo che hai originariamente inserito, più il rendimento che hai guadagnato, meno le spese.
 
-#### What are the Fees?
+#### Quali sono le tasse?
 
-- **0.5% fee** on funds withdrawn from active strategies
-  - Each vault has some amount of the total funds idle and most of them active in the strategy. The idle funds are the difference between `vault holdings` and `strategy holdings`, you can see them on [feel the Yearn](https://feel-the-Yearn.app/).
-  - When you withdraw, if your funds come from the idle funds, you won't be charged any withdrawal fee. If they come from the strategy, you will be charged the 0.5% fee.
-- **5% fee** on additional yield
-  - For community-made strategies, like the new yETH vault, currently 10% of this fee goes to the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
+- **Tassa dello 0,5%** sui fondi prelevati dalle strategie attive
+  - Ogni vault ha una parte dei fondi totali inattivi e la maggior parte di essi è attiva nella strategia. I fondi inattivi sono la differenza tra i `fondi del vault` e i `fondi della strategia`, li puoi vedere su [feel the Yearn](https://feel-the-Yearn.app/).
+  - Quando ritiri, se i tuoi fondi provengono dai fondi inattivi, non ti verrà addebitata nessuna commissione di prelievo. Se provengono dalla strategia, ti verrà addebitata la tassa dello 0,5%.
+- **Tassa del 5%** sul rendimento supplementare
+  - Per le strategie di comunità, come il nuovo yETH vault, attualmente il 10% di questa quota va al creatore della strategia. L'altro 90% va alla tesoreria e viene poi distribuito alla governance.
 
-#### Can you explain the 5% fee on additional yield?
+#### Puoi spiegare la commissione del 5% sul rendimento aggiuntivo?
 
-- Formerly this was called a "5% fee on subsidized gas" which confused literally everyone except Andre. Technically it is not a performance fee — it's a fee on the some profit-generating transactions that incur high gas costs and are critical to the vault's internal functioning.
-- Each vault has multiple levels. Here are two examples that show where this fee is taken when the `harvest()` function is called.
-- yCRV Vault example:
-  - Level 1: stablecoins earn interest in money markets \(compound, aave, dydx\)
-  - Level 2: the level 1 tokens \(yDAI, yUSDC, yUSDT, and yTUSD\) are provided as liquidty to the yCRV pool to earn trading fees
-  - Level 3: the strategy earns CRV token rewards which it recycles into yCRV—**this is the only level where the 5% fee is taken.**
-- USDC Vault example:
-  - Level 1: Interest for being lent out at Compound
-  - Level 2: COMP liquidated to USDC
-  - Level 3: The strategy earns DF tokens rewards from DForce that get harvested and sold for USDC—**this is the only level where the 5% fee is taken.**
+- Prima si chiamava "tassa del 5% sul gas sovvenzionato", che confondeva letteralmente tutti tranne Andre. Tecnicamente non si tratta di una tassa di performance, ma di una tassa su alcune transazioni che generano profitti e che comportano costi elevati per il gas e che sono fondamentali per il funzionamento interno del vault.
+- Ogni vault ha diversi livelli. Qui ci sono due esempi che mostrano dove viene presa questa tassa quando viene richiesta la funzione `harvest()`.
+- Esempio di yCRV Vault:
+  - Livello 1: le stablecoin guadagnano interesse nei mercati monetari \(compound, aave, dydx\)
+  - Livello 2: i token di livello 1 (yDAI, yUSDC, yUSDT e yTUSD) sono forniti come liquidity pool di yCRV per guadagnare commissioni di trading
+  - Livello 3: la strategia guadagna premi in token CRV che ricicla in yCRV-**questo è l'unico livello in cui viene presa la tassa del 5%.**
+-  Esempio di USDC Vault:
+  - Livello 1: interesse per essere prestato a Compound
+  - Livello 2: COMP liquidata a USDC
+  - Livello 3: la strategia guadagna i token DF ricompensati da DForce che vengono raccolti e venduti per USDC-**questo è l'unico livello in cui viene presa la commissione del 5%.**
 
-#### Where do the fees go?
+#### Dove vanno a finire le commissioni?
 
-- They go to a dedicated treasury [contract](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde).
-- From the treasury they stay up to the \$500k limit, over that amount they are redirected to the governance staking [contract](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992).
+- Vanno ad una tesoreria dedicata [contratto](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde).
+- Dalla tesoreria rimangono fino al limite di \$500k, oltre tale importo vengono reindirizzati alla governance [contratto](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992).
 
-#### Did the fees always go there?
+#### Le tasse sono sempre andate lì?
 
-- No, when Yearn started they went directly to Andre's [address](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c).
-- Then we handed off to the [multisig](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) and fees went directly there.
-- And before our current gov v2, staking rewards went [here](https://etherscan.io/address/0xb01419E74D8a2abb1bbAD82925b19c36C191A701)
+- No, quando YEARN stata avviata, le tasse andavano direttamente all'indirizzo [indirizzo](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c) di Andre..
+- Poi abbiamo consegnato al [multisig](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) e i compensi sono andati direttamente lì.
+- E prima del nostro attuale gov v2, le ricompense in stake sandavano [qui](https://etherscan.io/address/0xb01419E74D8a2abb1bbAD82925b19c36C191A701)
 
-#### Yield
+#### Rendimento
 
-- We plan to make a dashboard in the future that will clearly show your current APY of all the positions you have open. Currently for the Vaults as they are still in beta we are not showing the APY live, but it is post on [twitter](https://twitter.com/iearnfinance) around once a day. You can roughly estimate the yield you are getting by looking at what the [current strategy](https://feel-the-Yearn.vercel.app/) is farming and checking what its APY is.
-- For example if yCRV vault is farming the CRV token, you can check what the yield is on [Curve's homepage](https://www.curve.fi/) for the Y pool
+- Abbiamo in programma di realizzare in futuro una dashboard che mostrerà chiaramente il vostra attuale APY di tutte le posizioni aperte. Attualmente per i vault, poiché sono ancora in beta, non mostriamo le APY live, ma vengono pubblicate su [twitter](https://twitter.com/iearnfinance) circa una volta al giorno. Puoi stimare approssimativamente il rendimento che stai ottenendo osservando quale [strategia attuale](https://feel-the-Yearn.vercel.app/) è l'agricoltura e verificando quale sia la sua APY.
+- Per esempio, se il vault di yCRV sta coltivando il token CRV, puoi controllare qual è la resa sul sito [homepage di Curve](https://www.curve.fi/) per il pool Y
 
-### Vault Strategies
+### Strategie del vault
 
-#### What is a Vault Strategy?
+#### Cos'è la strategia del Vault?
 
-- Yearn's vault strategies are modular smart contracts for each vault that tells it what assets to borrow, which assets to farm, and where it should sell the farmed assets.
+- Le strategie di YEARN dei vault sono smart contract modulari per ogni vault che indicano quali asset prendere in prestito, quali asset coltivare e dove vendere gli asset coltivati.
 
-#### What are the current strategies?
+#### Quali sono le strategie attuali?
 
-- You can view the current strategies implemented at [feel-the-Yearn](https://feel-the-Yearn.vercel.app/).
-- In the future we plan to make a dashboard to make the strategies and APY easy to understand.
+- È possibile visualizzare le strategie attuali implementate in [feel-the-Yearn](https://feel-the-Yearn.vercel.app/).
+- In futuro, abbiamo in programma di creare una dashboard per rendere le strategie e l'APY facili da capire.
 
-#### Who is in control of the strategies?
+#### Chi ha il controllo delle strategie?
 
-- Developers write them but the multi-sig, instructed by YFI voters, decides if they will be implemented or not.
+- Le scrivono gli sviluppatori, ma è il multi-sig, istruito dagli elettori YFI, a decidere se saranno implementate o meno.
 
-#### How can I make a strategy?
+#### Come posso creare una strategia?
 
-- For now you can post your strategy on the forum in the strategy section. Detailing what it should buy/sell/farm and what the current APY is. There will be a template to help you get started.
+- Per ora puoi pubblicare la tua strategia sul forum nella sezione strategie. Specificando cosa vorresti comprare/vendere/allevare e qual è l'APY attuale. Ci sarà un modello che ti aiuterò ad iniziare.
 
-#### What is the process for getting my strategy onto Yearn?
+#### Qual è il processo per far arrivare la mia strategia su YEARN?
 
-- Post it on the forum or get in touch with the developer team, if you get support for your idea and it ends up being implemented and approved, it will be used in the vaults and you can get paid for it.
+- Pubblicatela sul forum o contattate il team di sviluppo, se otterrete il supporto per la vostra idea e se finirà per essere implementata e approvata, verrà utilizzata nei vault e potrete essere pagati.
 
-#### When does a strategy changes and who changes it? Is it automatic?
+#### Quando cambia una strategia e chi la cambia? È automatica?
 
-- Strategy creators watch the markets and write strategies that they think are safe while giving the highest yield. They change them according to current yields on the market.
+- I creatori di strategie osservano i mercati e scrivono strategie che ritengono sicure e che danno il massimo rendimento. Le cambiano in base ai rendimenti attuali del mercato.
 
 ### Earn
 
 - [yearn.finance/earn](https://yearn.finance/earn)
 
-#### What is Earn?
+#### Che cos'è Earn?
 
-- Earn is a yield aggregator for lending platforms that rebalances for highest yield during contract interaction.
-- Deposit DAI, USDC, USDT, TUSD, or sUSD and it will auto lend to the highest lending rate on these platforms [Compound](https://compound.finance/), [Dydx](https://dydx.exchange/) or [Aave](https://app.aave.com/home) \(Ddex and Fulcrum are currently disabled\).
-- Learn more in the [Yearn Docs](https://docs.yearn.finance/products/earn)
+- Earn è un aggregatore di rendimento per piattaforme di prestito che riequilibra il rendimento più alto durante l'interazione del contratto.
+- Deposita DAI, USDC, USDT, USDT, TUSD, o sUSD e presterà automaticamente al tasso di prestito più alto su queste piattaforme [Compound](https://compound.finance/), [Dydx](https://dydx.exchange/) o [Aave](https://app.aave.com/home) \(Ddex e Fulcrum sono attualmente disabilitati\).
+- Per saperne di più, consulta i [Documenti Yearn](https://docs.yearn.finance/products/earn)
 
 ### Zap
 
 - [yearn.finance/zap](https://yearn.finance/zap)
 
-#### What is Zap?
+#### Che cos'è Zap?
 
-- Zap allows users to convert supported tokens with just one contract interaction to reduce transaction costs.
-- Zaps were made by DefiZap which is now [Zapper.fi](https://zapper.fi) as a type of all in one DeFi routing service.
+- Zap consente agli utenti di convertire i token supportati con una sola interazione contrattuale per ridurre i costi di transazione.
+- Gli Zap sono stati realizzati da DefiZap che ora è [Zapper.fi](https://zapper.fi) come un servizio di routing DeFi tutto in uno.
 
-#### Why use a Zap?
+#### Perchè utilizzare uno Zap?
 
-- "Zaps allow you get into a DeFi position in one transaction — it’s called zapping in." - [How to use Zaps guide](https://defitutorials.substack.com/p/how-to-use-defizap).
-  - Note that this is an old article and [Zapper](https://zapper.fi) was formed as a result of DeFiSnap + DeFiZap coming together to create the ultimate hub for Decentralized Finance aka \#DeFi. So some of the stuff in the article above is out of date, but you can still use Zaps on Zapper.fi.
+- "Gli Zap consentono di entrare in una posizione DeFi in una transazione - si chiama zapping in." - [Guida all'uso degli Zap](https://defitutorials.substack.com/p/how-to-use-defizap).
+  - Si noti che questo è un vecchio articolo e che [Zapper](https://zapper.fi) è stato creato come risultato dell'unione di DeFiSnap + DeFiZap per creare l'ultimo hub per la Finanza Decentrata alias \#DeFi. Quindi alcune informazioni contenute nell'articolo di cui sopra sono obsolete, ma è ancora possibile utilizzare Zaps su Zapper.fi.
 
-#### So what can I do with Zaps on Yearn?
+#### Allora cosa posso fare con Zaps su Yearn?
 
-- With a zap you can take your DAI, for example, and get yCRV with it in one transaction. Normally, to turn DAI into yCRV, you would have to go to earn, deposit DAI and receive yDAI, then go to [Curve.fi - Yearn pool](https://www.curve.fi/iearn/deposit) and deposit your yDAI and then you would get yCRV. This is a lot to do, so instead you can do it in one transaction!
+- Con uno zap puoi prendere il tuo DAI, per esempio, e ottenere yCRV in una sola transazione. Normalmente, per trasformare il DAI in yCRV, dovresti andare su Earn, depositare il DAI e ricevere yDAI, poi andare su [Curve.fi - Yearn pool](https://www.curve.fi/iearn/deposit) e depositare il tuo yDAI e poi riceverai yCRV. Questo è molto complesso, quindi invece si può fare in una sola transazione!
 
-#### That sounds awesome, what's the downside?
+#### Sembra fantastico, qual è il lato negativo?
 
-- Well, it does take a lot of gas and could be costly, even more so than doing it yourself manually, but if you have a big transaction and are in a rush it is a great method to get into a DeFi position or liquidity pool fast.
+- Beh, ci vuole molto gas e potrebbe essere costoso, anche più che farlo da soli manualmente, ma se hai una transazione importante e hai fretta è un ottimo metodo per entrare velocemente in una posizione DeFi o in un liquidity pool.
 
 ### yInsure / Cover
 
 - [yinsure.finance](https://yinsure.finance/)
 
-#### What's yInsure?
+#### Che cosa è yInsure?
 
-- yInsure, also known as **Cover**, is a pooled coverage system providing insurance against smart contract risk.
-- It has no KYC requirement and is underwritten by Nexus Mutual.
-- Learn more in this [article](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896).
+- yInsure, noto anche come **Cover**, è un sistema di copertura in pool che fornisce un'assicurazione contro lo smart contract risk.
+- Non ha nessun requisito KYC ed è sottoscritto da Nexus Mutual.
+- Scopri di più in questo [articolo](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896).
 
-### Products Currently in Research & Development
+### Prodotti Attualmente in Ricerca e Sviluppo
 
 #### yTrade
 
 - [ytrade.finance](https://ytrade.finance/)
-- Leveraged stable coin trades \(testnet\).
+- Negoziazioni stabili di monete con effetto leva \(testnet\).
 
 #### yLiquidate
 
 - [yliquidate.finance](https://yliquidate.finance/)
-- 0 capital automated liquidations for Aave \(testnet\).
+- 0 liquidazioni automatiche di capitale per Aave \(testnet\).
 
 #### ySwap
 
 - [yswap.exchange](https://yswap.exchange/)
-- Single sided automated market maker \(testing in mainnet\).
+- Market maker automatizzato su un solo lato \(testing in mainnet\).
 
 #### yBorrow
 
 - [yborrow.finance](https://yborrow.finance/)
-- Credit delegation vaults for smart contract to smart contract lending \(testnet\).
+- Delegazioni di credito per smart contract a smart contract \(testnet\).
 
-## Communication
+## Comunicazione
 
 - [Forum](https://gov.yearn.finance)
-  - A lot of real-time discussion happens on the telegram and discord but for a proposal to turn into a YIP \(Yearn Improvement Proposal\) it needs to be posted and discussed on the forum.
-  - This is the main place token holders check for governance related issues.
+  -Si discute molto in tempo reale sul Telegram e su Discord, ma perché una proposta si trasformi in una YIP \(YEARN Proposta di Miglioramento\) deve essere postata e discussa sul forum.
+  - Questo é il luogo principale in cui i titolari di token controllano le questioni relative alla governance.
 - [Discord](http://discord.yearn.finance/)
-  - Including non-English channels.
-- [Telegram](https://t.me/yearnfinance) - Main Chat.
-- [Telegram](https://t.me/yearncommunity) - Trading/Social/Fork Chat.
+  - Inclusi i canali non inglesi.
+- [Telegram](https://t.me/yearnfinance) - Chat principale.
+- [Telegram](https://t.me/yearncommunity) - Chat commerciale, sociale e di lavoro.
 - Twitter
-  - [yearn.finance](https://twitter.com/iearnfinance?s=20) - Official Twitter of Yearn
-  - [Andre Cronje](https://twitter.com/AndreCronjeTech?s=20) - Yearn's founder and creator
-  - [yLearnfinance](https://twitter.com/yLearnfinance) - Yearn Info
-  - [Learn 2 Yearn](https://twitter.com/learn2Yearn) - Yearn Info
+  - [yearn.finance](https://twitter.com/iearnfinance?s=20) - Twitter ufficiale di Yearn
+  - [Andre Cronje](https://twitter.com/AndreCronjeTech?s=20) - Il fondatore e creatore di Yearn
+  - [yLearnfinance](https://twitter.com/yLearnfinance) - Info su Yearn
+  - [Learn 2 Yearn](https://twitter.com/learn2Yearn) - Info su Yearn
 
 ## Governance
 
-### All about YIPs
+### Tutto su YIPs
 
-#### What is a YIP? Why do they matter?
+#### Cos'é un YIP? Perché sono importanti?
 
-- A YIP or Yearn Improvement Proposal is how features are added to the Yearn ecosystem. Users start a proposal on the forum, discuss it and gauge the sentiment of if the proposal will be accepted. If a lot of users agree with it then it can be posted on-chain for everyone to vote on.
+- Una proposta di miglioramento YIP o YEARN é il modo in cui le caratteristiche vengono aggiunte all'ecosistema YEARN. Gli utenti iniziano una proposta sul forum, ne discutono e valutano se la proposta sarà accettata. Se molti utenti sono d'accordo, la proposta potr essere pubblicata online per consentire a tutti di votare.
 
-#### How many people need to vote to pass a YIP proposed on-chain?
+#### Quante persone devono votare per approvare una proposta YIP?
 
-- The quorum is 20%. Which means that 20% of the staked YFI needs to vote on a proposal for it to pass or else it will fail. Also, it has to have at least 50% of the votes for yes.
-- You can post your proposal on-chain first but if people haven't talked about it, they probably won't vote for it.
+- Il quorum è del 20%. Il che significa che il 20% di YFI deve votare una proposta per farla approvare, altrimenti non verrà approvata. Inoltre, deve avere almeno il 50% dei voti per il sì.
+- Puoi pubblicare prima la tua proposta, ma se la gente non ne ha parlato, probabilmente non voterà a favore.
 
-#### How do I make a proposal?
+####  Come faccio a fare una proposta?
 
-- The default template for proposals can be found on [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance) if you make a post under proposals or discussion it will auto-fill in the template as well.
-- The process is roughly:
-  1. forum discussion
+-Il modello predefinito per le proposte può essere trovato su [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) + sul [forum](https://gov.yearn.finance) se fai un post sotto proposte o discussioni, si compilerà automaticamente anche nel modello.
+- Il procedimento è all'incirca il seguente:
+  1. discussione sul forum
   2. promote to YIP \(usually done by mods\), add YIP to github, put on chain
   3. announce
 
