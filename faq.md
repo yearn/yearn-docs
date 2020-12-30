@@ -115,17 +115,7 @@
 - Neste caso, só a 3ª transação (receber e vender os DF tokens) é que incorre a taxa de 5% de subsídio aos custos com gas.
 - Essa taxa é cobrada pois o sistema utiliza gas adicional que de outra forma não teria sido usado.
 
-<<<<<<< HEAD
-
-- **0.5% fee** on funds withdrawn from active strategies
-  - Each vault has some amount of the total funds idle and most of them active in the strategy. The idle funds are the difference between `vault holdings` and `strategy holdings`, you can see them on [feel the yearn](https://feel-the-yearn.app/).
-  - When you withdraw, if your funds come from the idle funds, you won't be charged any withdrawal fee. If they come from the strategy, you will be charged the 0.5% fee.
-- **5% fee** on additional yield
-  - # For community-made strategies, like the new yETH vault, currently 10% of this fee goes to the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
-
 ### Para onde vão as taxas?
-
-> > > > > > > ce18874... Add Portuguese version
 
 - As comissões são direcionadas para um contrato específico de tesouraria.
   - Endereço: Tesouraria Yearn
@@ -146,24 +136,11 @@
 - No futuro, estará disponível uma dashboard que te permite visualizar todas as tuas posições e investimentos, tal como as suas atuais APYs. Dado que os Vaults agora ainda estão em fase beta, atualmente as APYs não são mostradas no website, mas são postadas no [Twitter](https://twitter.com/iearnfinance) diariamente. É também possível obter uma estimativa aproximada observando a [atual estratégia](https://feel-the-yearn.vercel.app/) em vigor e verificando manualmente qual a sua APY.
 - Por exemplo, se a atual estratégia do vault yCRV é staking dos tokens LP da curve.fi/y pool na DAO da Curve de forma a receber CRV, pode-se usar as APYs disponibilizadas na [homepage da Curve](https://www.curve.fi/) como estimativas.
 
-<<<<<<< HEAD
-
-- No, when yearn started they went directly to Andre's [address](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c).
-- Then we handed off to the [multisig](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) and fees went directly there.
-- # And before our current gov v2, staking rewards went [here](https://etherscan.io/address/0xb01419E74D8a2abb1bbAD82925b19c36C191A701)
-
 ### Estratégias dos Vaults
-
-> > > > > > > ce18874... Add Portuguese version
 
 #### O que é a estratégia de um Vault?
 
-<<<<<<< HEAD
-
-- We plan to make a dashboard in the future that will clearly show your current APY of all the positions you have open. Currently for the Vaults as they are still in beta we are not showing the APY live, but it is post on [twitter](https://twitter.com/iearnfinance) around once a day. You can roughly estimate the yield you are getting by looking at what the [current strategy](https://feel-the-yearn.vercel.app/) is farming and checking what its APY is.
-- # For example if yCRV vault is farming the CRV token, you can check what the yield is on [Curve's homepage](https://www.curve.fi/) for the Y pool
 - As estratégias dos vaults da Yearn são smart contracts modulares para cada ciclo que 'diz' ao vault que ativos usar como colateral, que ativos pedir emprestado, que contrato/plataforma usar para receber incentivos á liquidez e onde vender os ativos recebidos como incentivo.
-  > > > > > > > ce18874... Add Portuguese version
 
 #### Quais são as estratégias atuais?
 
@@ -173,51 +150,25 @@
 
 - Atualmente, são escritas pelo Andre, mas necessitam aprovação do endereço multi-assinatura para serem implementadas.
 
-<<<<<<< HEAD
-
-- You can view the current strategies implemented at [feel-the-yearn](https://feel-the-yearn.vercel.app/).
-- # In the future we plan to make a dashboard to make the strategies and APY easy to understand.
-
 #### Como é que eu posso desenvolver uma estratégia?
-
-> > > > > > > ce18874... Add Portuguese version
 
 - Para já, a melhor maneira é postar nos fóruns da yearn na seção das Estratégias, detalhando que ativos usa, de que maneira os usa, quais os incentivos á liquidez que aproveita, como/onde vende os incentivos recebidos, etc. Eventualmente, será disponibilizado um template para facilitar a criação de estratégias.
 
-<<<<<<< HEAD
-
-- # Andre and other developers write them but the multi-sig decides if they will be implemented or not.
-
 #### Como é que uma estratégia muda e quem é que a muda?
-
-> > > > > > > ce18874... Add Portuguese version
 
 - Para já, o Andre está atento aos mercados e desenvolve estratégias que ele e o comitê multi-assinatura considerem seguras, mas suficientemente rentáveis. Dependo dos diferentes retornos disponíveis no mercado, podem ser alteradas.
 
 ## Earn
 
-<<<<<<< HEAD
-
-#### What is the process for getting my strategy onto yearn?
-
-- # Post it on the forum and if it gets approved it will be used in the vaults and you can get paid for it.
 - [yearn.finance/earn](https://yearn.finance/earn)
 
 ### O que é a Earn?
-
-> > > > > > > ce18874... Add Portuguese version
 
 - A Earn é um agregador de rendimentos que utiliza diferentes plataformas de crédito (lending&borrowing) e distribui fundos por essas plataformas de forma a receber o juro mais alto possível, sendo que redistribui os fundos entre plataformas automaticamente de forma a receber sempre o maior rendimento possível.
 - Deposite stablecoins - DAI, USDC, TUSD, USDT ou sUSD - na Earn e serão automaticamente emprestadas á plataforma que pague a maior taxa de juro atualmente, de entre a [Compound](https://compound.finance/), a [Dydx](https://dydx.exchange/), a [Aave](https://app.aave.com/home) ou a dForce (a DDex e a Fulcrum estão atualmente desativadas).
 - Aprende mais em [Yearn Docs](https://docs.yearn.finance/yearn.finance/yearn).
 
-<<<<<<< HEAD
-
-- # For now Andre watches the markets and writes strategies that he and the multi-sig thinks are safe while giving the highest yield. They change them according to current yields on the market.
-
 ## Zap
-
-> > > > > > > ce18874... Add Portuguese version
 
 - [yearn.finance/zap](https://yearn.finance/zap)
 
@@ -260,15 +211,7 @@
 
 ## Outros produtos atualmente em fase de teste
 
-<<<<<<< HEAD
-
-#### So what can I do with Zaps on yearn?
-
-=======
-
 ### yTrade
-
-> > > > > > > ce18874... Add Portuguese version
 
 - [ytrade.finance](ytrade.finance)
 - Trades alavancadas entre diferentes stablecoins (testnet)
@@ -342,18 +285,13 @@
   - Canal social/de trading
 
 - Twitter
-  <<<<<<< HEAD
-  - [yearn.finance](https://twitter.com/iearnfinance?s=20) - Official Twitter of Yearn
-  - [Andre Cronje](https://twitter.com/AndreCronjeTech?s=20) - Lead Developer of Yearn
-  - [yLearnfinance](https://twitter.com/yLearnfinance) - Yearn Info
-  - # [Learn 2 Yearn](https://twitter.com/learn2yearn) - Yearn Info
+
   - [yearn.finance](https://twitter.com/iearnfinance?s=20) - Twitter oficial da Yearn
   - [Andre Cronje](https://twitter.com/AndreCronjeTech?s=20) - Programador-chefe da Yearn
   - [yLearnfinance](https://twitter.com/yLearnfinance) - Informações relativas á Yearn
   - [Learn 2 Yearn](https://twitter.com/learn2yearn) - Informações relativas á Yearn
 
 <br>
->>>>>>> ce18874... Add Portuguese version
 
 # Governância
 
@@ -361,12 +299,8 @@
 
 ### O que são YIPs e porque é que interessam?
 
-<<<<<<< HEAD
-
-- # A YIP or Yearn Improvement Proposal is how features are added to the yearn ecosystem. Users start a proposal on the forum, discuss it and gauge the sentiment of if the proposal will be accepted. If a lot of users agree with it then it can be posted on-chain for everyone to vote on.
 - Uma YIP ou Yearn Improvement Proposal é modo como alterações são feitas ao ecossistema da yearn. O(s) utilizador(es) cria uma proposta nos fóruns, discute-a com a comunidade e mede a recetividade da comunidade para com a mudança em causa. Se for claro que se trata de uma proposta suportada pela maior parte da comunidade, então a proposta será postada on-chain (ou seja, na própria blockchain) para que os detentores votem com o seu YFI.
 - Qualquer holder de YFI pode submeter uma proposta on-chain mas se esta não for postada e discutida nos fóruns pela comunidade, é pouco provável que os detentores votem em seu favor.
-  > > > > > > > ce18874... Add Portuguese version
 
 ### Quantos detentores têm de votar para passar um YIP proposto on-chain?
 
@@ -402,12 +336,8 @@
 
 ### Qual é a vantagem de eu colocar YFI na governância? Qual é o retorno anual (APY)?
 
-<<<<<<< HEAD
-
-- # You should stake if you want to vote on YIPs and get rewards that are generated from the yearn ecosystem. The APY for staking is currently not listed on the UI. You can ask on the chat what the rate is.
 - Tu deves procurar fazer staking de YFI no contrato de governância caso estejas interessado em votar nas YIPs e receber as recompensas geradas pelo ecossistema da yearn (as receitas resultantes das diferentes taxas cobradas).
 - O retorno atual proveniente dessas recompensas não é apresentado atualmente na webpage, dado que a yearn só gera receitas há relativamente pouco tempo e não são, para já, constantes. No entanto, podes perguntar no Discord ou no Telegram caso queiras saber qual a melhor maneira de o estimar.
-  > > > > > > > ce18874... Add Portuguese version
 
 ### O que é que eu tenho de fazer com o meu YFI para receber recompensas?
 
@@ -452,13 +382,7 @@
 
 - Post introdutório nos [fóruns](https://gov.yearn.finance/t/ydao-for-community-funding/2243)
 
-<<<<<<< HEAD
-
-- # Used to fund value-added contributions to the yearn ecosystem.
-
 ### Qual é o objetivo da yDAO?
-
-> > > > > > > ce18874... Add Portuguese version
 
 - Financiar contribuições criadoras de valor para o ecossistema da yearn.
 
@@ -489,16 +413,6 @@
 
 # Comunidade
 
-<<<<<<< HEAD
-
-### Is Andre Cronje in charge of yearn?
-
-- Andre isn't in charge of Yearn, the YFI token holders make the decisions on what to build and governance decisions, Andre is the lead developer of the yearn ecosystem.
-
-### What does Andre do?
-
-- # Andre is the main developer building out the products that comprise the yearn ecosystem: Yearn, Ytrade, Yswap, Yliquidate, Yborrow. He is also currently in charge of running the Vaults and overseeing them.
-
 ## O Andre Cronje está no comando da yearn?
 
 - Não, o Andre não controla a yearn, quem o faz são os detentores de YFI, que tomam todas as decisões de governância. No entanto, o Andre é o programador-chefe e o responsável por grande parte das contribuições técnicas.
@@ -506,7 +420,6 @@
 ## O que é que o Andre faz exatamente?
 
 - O Andre é o principal programador e contribuidor técnico para a implementação e desenvolvimento de todos os produtos que formam o ecossistema da yearn: Yearn, Ytrade, Yswap, Yinsure, Yliquidate, Yborrow, etc. Além disso, ele é responsável também, no momento, pela execução das estratégias dos Vaults e da sua supervisão.
-  > > > > > > > ce18874... Add Portuguese version
 
 ## O que é que é o endereço multi-assinatura e o que é que ele faz?
 
@@ -534,29 +447,10 @@
 
 ## Que decisões é que o Andre pode tomar independentemente?
 
-<<<<<<< HEAD
-
-- # Andre can build out the Yearn ecosystem and come up with new products. Usually, he posts his thoughts and ideas on the [forum](https://gov.yearn.finance) for everyone to see.
 - O Andre pode desenvolver o ecossistema da yearn autonomamente, desenvolvendo os produtos atuais e criando/concebendo novos produtos e ideias. Normalmente, ele posta as suas ideias e motivações nos [fóruns](https://gov.yearn.finance/) para que toda a gente veja e discuta.
-  > > > > > > > ce18874... Add Portuguese version
 
 ## Quem mais escreve código para a yearn, existe alguma equipe?
 
-<<<<<<< HEAD
-
-- They are in close contact with one another, but Andre's priorities are decided by YFI token holders via YIPs.
-
-### Who else writes code for yearn? Is there a team?
-
-- Right now it's just Andre.
-
-### Does anyone get paid for working on yearn?
-
-- As of this moment, not yet, but thanks to the passage of [YIP 36](https://yips.yearn.finance/YIPS/yip-36) and the creation of a community pool of funds that will be kept at 500k usd, we can now pay Andre for his work, fund audits, and pay for new devs to be hired along with anything else the the yearn ecosystem needs.
-
-### How can I work for yearn?
-
-- # You can make a YIP to apply for funding from the 500k USD treasury directly or ask the yDAO for funding.
 - Por enquanto é só o Andre.
 
 ## Há alguém que receba um salário para trabalhar na yearn?
@@ -574,18 +468,10 @@
 
 ## Como participar?
 
-> > > > > > > ce18874... Add Portuguese version
-
 - Podes participar na yearn votando em YIPs ativas, discutindo as YIPs que ainda não chegaram a votação on-chain, discutindo a yearn e YFI no telegram ou discord, ajudando usuários inexperientes, promovendo a yearn nas redes sociais, etc.
 - Para além disso, se sabes uma linguagem que ainda não está disponível, podes nos ajudar a traduzir este site e todas as YIPs disponíveis.
 
-<<<<<<< HEAD
-
-- # Yes, we do! We need all kinds of people to help make the yEarn ecosystem a thriving product and to give value to YFI. You can ask in the Discord or Telegram about applying or post on the forum. State how you think you can add value to Yearn, and how much you think you should be paid from the community pool. Also, you can go to the [yDAO](https://gov.yearn.finance/t/ydao-for-community-funding/2243) as well for funding on your work for the Yearn ecosystem.
-
 ## Esforços decorrentes para melhorar o ecossistema da Yearn:
-
-> > > > > > > ce18874... Add Portuguese version
 
 - Podes encontrar os YIPs ativos [aqui](https://yips.yearn.finance/all-yip).
 
@@ -612,12 +498,7 @@
 - Se a taxa que observas quando tentas retirar o teu depósito é excessivamente alta, é possível que a ethereum esteja altamente congestionada e os preços de gas estejam muito altos. Confirme os preços de gas em [ethgasstation.info](https://ethgasstation.info/). Nesse caso, a única coisa que podes fazer é esperar que os preços baixem ou pagar uma taxa alta para teres os teus fundos disponíveis no momento.
 - Se o preço da transação for absurdamente alto, é possível que exista um erro e que a transação não possa sequer ser processada. Por exemplo, podes estar a tentar depositar um ativo que não tens ou a tentar comprar um seguro em [yinsure.finance](http://yinsure.finance/) quando não existe cobertura disponível.
 
-<<<<<<< HEAD
-
-- If you're seeing higher than normal fees while using the yearn ecosystem then it may be due to Ethereum congestion and abnormally high gas costs. Check [Ethgasstation](https://ethgasstation.info/). Your options are to wait until gas prices drop or spend the money to process your transaction now.
-- # If the gas prices are crazy high, that means there is an error and the transaction will not be able to process. For instance if you are trying to deposit a token you don't have or if there is no cover available for a contract at [http://yinsure.finance/](http://yinsure.finance/).
 <br>
->>>>>>> ce18874... Add Portuguese version
 
 # Projetos Relacionados
 
@@ -633,15 +514,7 @@
 
 ## Recursos
 
-<<<<<<< HEAD
-
-### Where can I learn more about yearn?
-
-=======
-
 ### Onde é que eu posso aprender mais sobre a yearn?
-
-> > > > > > > ce18874... Add Portuguese version
 
 - [Learn Yearn](https://www.learnyearn.finance/)
 - [Medium.com/iearn](https://medium.com/iearn)
