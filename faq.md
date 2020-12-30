@@ -101,7 +101,7 @@
 ### Quais são as taxas?
 
 - Existe uma taxa de 0.5% sobre o total dos fundos retirados do vault.
-  - Cada vault tem uma parte dos fundos inativos e maior parte dos fundos a serem usados para a estratégia atual. Os fundos inativos são a diferença entre o montante total detido pelo vault e o montante detido pela própria estratégia. Estes montantes podem ser visualizados em feel-the-yearn (link).
+  - Cada vault tem uma parte dos fundos inativos e maior parte dos fundos a serem usados para a estratégia atual. Os fundos inativos são a diferença entre o montante total detido pelo vault e o montante detido pela própria estratégia. Estes montantes podem ser visualizados em [feel-the-yearn](https://feel-the-yearn.vercel.app/).
   - Quando retiras os teus fundos, se eles vierem dos fundos inativos, não é cobrada nenhuma taxa. Se vierem da estratégia, no entanto, será cobrada uma taxa de 0.5% do total.
 - Além disso, determinadas transações geradoras de lucro que a estratégia execute resultam numa taxa de 5% para subsidiar os custos com gas sempre que a funcão harvest() é chamada.
   - Para estratégias criadas pela comunidade, como o novo vault yETH, 10% dessa taxa de 5% é recebida pelo criador da estratégia, enquanto que o resto acresce à tesouraria da yearn.
@@ -119,7 +119,7 @@
 
 - As comissões são direcionadas para um contrato específico de tesouraria.
   - Endereço: Tesouraria Yearn
-- Até chegarem ao limite de \$500k, continuam na tesouraria, e, assim que se chegue a esse limite, o excesso é reencaminhado para o contrato de governância (??governance staking contract??).
+- Até chegarem ao limite de \$500k, continuam na tesouraria, e, assim que se chegue a esse limite, o excesso é reencaminhado para o [contrato de governância](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992).
   - Endereço: ygov.finance governance staking
 
 ### As taxas sempre foram parar nesses endereços?
@@ -341,7 +341,7 @@
 
 ### O que é que eu tenho de fazer com o meu YFI para receber recompensas?
 
-- A única coisa que tens de fazer é assegurar que tens o teu YFI em staking no contrato de governância, em [ygov.finance/stake](https://ygov.finance/stake), e receberás recompensas desde que a tesouraria esteja acima do fundo operacional de \$500k. Podes ver o endereço da tesouraria aqui (link).
+- A única coisa que tens de fazer é assegurar que tens o teu YFI em staking no contrato de governância, em [ygov.finance/stake](https://ygov.finance/stake), e receberás recompensas desde que a tesouraria esteja acima do fundo operacional de \$500k. Podes ver o endereço da tesouraria [aqui](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
 - Note, no entanto, que se as quiseres remover tens de ter votado nos últimos 3 dias.
 
 ### É obrigatório ter o meu YFI em staking para participar nas votações?
