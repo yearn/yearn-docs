@@ -164,6 +164,7 @@ For a document's final draft, name it "Final draft, moving to GitHub." Post a li
 - [GitHub Desktop](https://desktop.github.com/)
 - [Broken Link Checker](https://ahrefs.com/broken-link-checker)
 - [Markdown Table Maker](https://gsuite.google.com/marketplace/app/markdowntablemaker/46507245362): for Google Sheets.
+- [Table Convert](https://tableconvert.com/): Generate Markdown tables from various sources.
 - [Code Blocks](https://gsuite.google.com/marketplace/app/code_blocks/100740430168?pann=cwsdp&hl=en): for formatting blocks of code in a doc or adding Markdown.
 - [Markdown Conversion](https://github.com/lmmx/gdocs2md-html): for Google Drive.
   - A long [stack-exchange thread](https://webapps.stackexchange.com/questions/44047/how-can-google-docs-and-markdown-play-nice) on this use case.
