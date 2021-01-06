@@ -6,7 +6,16 @@ yVaults have a 0.5% withdrawal fee and a 5% fee on additional yield whenever the
 
 ### Available yVaults
 
-There are currently nine yVaults. You can access them here: [https://yearn.finance/vaults](https://yearn.finance/vaults) 1. ETH/WETH 2. YFI 3. yDAI+yUSDC+yUSDT+yTUSD \(yCRV\) 4. crvBUSD 5. crvBTC 6. DAI 7. TUSD 8. USDC 9. USDT
+There are currently nine yVaults. You can access them here: [https://yearn.finance/vaults](https://yearn.finance/vaults) 
+1. ETH/WETH 
+2. YFI 
+3. yDAI+yUSDC+yUSDT+yTUSD \(yCRV\) 
+4. crvBUSD 
+5. crvBTC 
+6. DAI 
+7. TUSD 
+8. USDC 
+9. USDT
 
 The tokens identified above are deposited into their respective yVaults and used to yield farm using current opportunities in the market.
 
