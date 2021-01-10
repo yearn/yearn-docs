@@ -1,7 +1,7 @@
 # Table of contents
 
 - [README \(Portuguese\)](README.md)
-- [FAQ \(Portuguese\)](FAQ.md)
+- [FAQ \(Portuguese\)](faq.md)
 - [YIP Summary \(Portuguese\)](YIPSUMMARY.md)
 
 ## Additional Resources
