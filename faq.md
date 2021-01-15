@@ -119,9 +119,9 @@ According to YIPs [51](https://yips.yearn.finance/YIPS/yip-51), [52](https://yip
 - **0% fee** on any funds withdrawn from any V2 vault.
 - **2% annualized management fee** that goes to the treasury (accrued per block, collected on each harvest).
 - **20% fee** on additinal yield
-  -Half (10%) goes to the treasury.
-    -from the 10% going to the treasury, 5% goes to the operation fund and 5% to YFI stakers ([YIP-54](https://yips.yearn.finance/YIPS/yip-54)).
-  -Half (10%) goes to the strategist as reward.
+  - Half (10%) goes to the treasury.
+    - from the 10% going to the treasury, 5% goes to the operation fund and 5% to YFI stakers ([YIP-54](https://yips.yearn.finance/YIPS/yip-54)).
+  - Half (10%) goes to the strategist as reward.
   
 #### Can you explain the 5% fee on additional yield?
 
