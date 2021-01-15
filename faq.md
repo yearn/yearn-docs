@@ -107,18 +107,20 @@ But if you think something can be improved, or you found a bug, we want to squas
 - You will get the amount you originally put in, plus the yield you've earned, minus the fees.
 
 #### What are the Fees?
-- For V1 vaults, the fee structute is the following:
+
+For V1 vaults, the fee structute is the following:
 - **0.5% fee** on funds withdrawn from active strategies
   - Each vault has some amount of the total funds idle and most of them active in the strategy. The idle funds are the difference between `vault holdings` and `strategy holdings`, you can see them on [feel the Yearn](https://feel-the-Yearn.app/).
   - When you withdraw, if your funds come from the idle funds, you won't be charged any withdrawal fee. If they come from the strategy, you will be charged the 0.5% fee.
 - **5% fee** on additional yield
   - For community-made strategies, like the new yETH vault, currently 10% of this fee goes to the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
-- According to YIPs 51, 52 and 54 the fee struture of V2 vaults is the following:
+
+According to YIPs [51](https://yips.yearn.finance/YIPS/yip-51), [52](https://yips.yearn.finance/YIPS/yip-52) and [54](https://yips.yearn.finance/YIPS/yip-54) the fee struture of V2 vaults is the following:
 - **0% fee** on any funds withdrawn from any V2 vault.
 - **2% annualized management fee** that goes to the treasury (accrued per block, collected on each harvest).
 - **20% fee** on additinal yield
   -Half (10%) goes to the treasury.
-    -from the 10% going to the treasury, 5% goes to the operation fund and 5% to YFI stakers (YIP-54).
+    -from the 10% going to the treasury, 5% goes to the operation fund and 5% to YFI stakers ([YIP-54](https://yips.yearn.finance/YIPS/yip-54)).
   -Half (10%) goes to the strategist as reward.
   
 #### Can you explain the 5% fee on additional yield?
