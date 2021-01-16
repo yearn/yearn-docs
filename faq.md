@@ -117,8 +117,8 @@ For V1 vaults, the fee structute is the following:
 
 According to YIPs [51](https://yips.yearn.finance/YIPS/yip-51), [52](https://yips.yearn.finance/YIPS/yip-52) and [54](https://yips.yearn.finance/YIPS/yip-54) the fee struture of V2 vaults is the following:
 - **0% fee** on any funds withdrawn from any V2 vault.
-- **2% annualized management fee** that goes to the treasury (accrued per block, collected on each harvest).
-- **20% fee** on additinal yield
+- **2% annualized management fee** that goes to the treasury (accrued per block, collected on each harvest and applied on all the funds managed by the strategy).
+- **20% performance fee** collected and distributed on each harvest call (only if the strategy reports gains)
   - Half (10%) goes to the treasury.
     - from the 10% going to the treasury, 5% goes to the operation fund and 5% to YFI stakers ([YIP-54](https://yips.yearn.finance/YIPS/yip-54)).
   - Half (10%) goes to the strategist as reward.
