@@ -108,20 +108,20 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### What are the Fees?
 
-Vault Version | Management Fee | Performance Fee | Withdrawal Fee|
----|---|---|---|
-v1 | N/A | 5% | 0.5% |
-v2 | 2% | 20% | N/A |
+| Vault Version | Management Fee | Performance Fee | Withdrawal Fee |
+| ------------- | -------------- | --------------- | -------------- |
+| v1            | N/A            | 5%              | 0.5%           |
+| v2            | 2%             | 20%             | N/A            |
 
 **Notes:**
 
 - **Withdrawal Fee** only applies on funds withdrawn from active Strategies.
-   - Each vault has some amount of the total funds idle and most of them active in the Strategy.
-   - Idle funds is the difference between `vault holdings` and `strategy holdings`, and can be seen on [feel the Yearn](https://feel-the-Yearn.app/).
+  - Each vault has some amount of the total funds idle and most of them active in the Strategy.
+  - Idle funds is the difference between `vault holdings` and `strategy holdings`, and can be seen on [feel the Yearn](https://feel-the-Yearn.app/).
   - When there is a withdrawal, if idle funds can cover the full amount, there will not be a withdrawal fee applied. If funds will need to be pulled from the Strategy in order to cover the withdrawal request, the Withdrawal Fee is applied.
 - **Performance Fee** is only applied on the performance gains.
-   - For v1 vaults, the proceeds from this fee is split between Treasury and Strategist 90:10. 
-   - For v2 vaults, the split between Treasury and Strategist is 50:50.
+  - For v1 vaults, the proceeds from this fee is split between Treasury and Strategist 90:10.
+  - For v2 vaults, the split between Treasury and Strategist is 50:50.
 - **Management Fee** is annualized and assigned to Treasury. It accrues per block, is collected on each harvest and is applied on the total of the funds managed by the Strategy.
 - **Further reading**, see [YIP-51](https://yips.yearn.finance/YIPS/yip-51), [YIP-52](https://yips.yearn.finance/YIPS/yip-52), [YIP-54](https://yips.yearn.finance/YIPS/yip-54), and [YIP-56](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929).
 
