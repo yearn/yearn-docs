@@ -120,7 +120,7 @@ According to YIPs [51](https://yips.yearn.finance/YIPS/yip-51), [52](https://yip
 - **2% annualized management fee** that goes to the treasury (accrued per block, collected on each harvest and applied on all the funds managed by the strategy).
 - **20% performance fee** collected and distributed on each harvest call (only if the strategy reports gains)
   - Half (10%) goes to the treasury.
-    - from the 10% going to the treasury, 5% goes to the operation fund and 5% to YFI stakers according to [YIP-54](https://yips.yearn.finance/YIPS/yip-54). The most recent      governance votation [YIP-56](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929) a.k.a B.A.B.Y eliminated the 5% going to YFI stakers and implemented buybacks of YFI with the fees collectedby the treasury.
+    - from the 10% going to the treasury, 5% goes to the operation fund and 5% to YFI stakers according to [YIP-54](https://yips.yearn.finance/YIPS/yip-54). The most recent governance votation [YIP-56](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929) a.k.a B.A.B.Y eliminated the 5% going to YFI stakers and implemented buybacks of YFI with the fees collectedby the treasury.
     
   - Half (10%) goes to the strategist as reward.
   
