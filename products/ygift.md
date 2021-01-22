@@ -19,7 +19,6 @@ Anyone can create and send a yGift. It is possible to add an image or mp4 video,
 
 ![](https://i.imgur.com/F9iUgTm.png)
 
-
 ## How to Tip a yGift
 
 After a yGift has been sent, people can add more funds to it by tipping it! Are you feeling generous? Tip contributor's gift and share some love!
@@ -27,14 +26,11 @@ After a yGift has been sent, people can add more funds to it by tipping it! Are 
 1. Access the page of the yGift you want to tip;
 2. Click on "tip". Set amount and write a nice message
 
-
 ![](https://i.imgur.com/7crWB2h.png)
-
 
 You can only tip a yGift on the **previous chosen token**. If the yGift was minted with yUSD being the token (even if initial amount was set to 0), then the tips have to be in yUSD.
 
 Tips are always **immediately available** and not subject to locking or vesting.
-
 
 ## Collecting your yGift funds
 
@@ -42,6 +38,6 @@ Received a yGift? Congratulations! If the gift contains a non-zero "Gift Amount"
 
 ![](https://i.imgur.com/ok83Onu.png)
 
-## Contribute! 
+## Contribute!
 
 yGift is a Yearn project built by the community, for the community! Want to be part of it? Check out [yGift Github](https://github.com/iearn-finance/ygift) and [yGift Discord](https://discord.gg/a7A7QGNzGk) and share your ideas!
