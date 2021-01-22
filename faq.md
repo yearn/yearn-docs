@@ -108,22 +108,23 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### What are the Fees?
 
-For V1 vaults, the fee structure is the following:
-- **0.5% fee** on funds withdrawn from active strategies
-  - Each vault has some amount of the total funds idle and most of them active in the strategy. The idle funds are the difference between `vault holdings` and `strategy holdings`, you can see them on [feel the Yearn](https://feel-the-Yearn.app/).
-  - When you withdraw, if your funds come from the idle funds, you won't be charged any withdrawal fee. If they come from the strategy, you will be charged the 0.5% fee.
-- **5% fee** on additional yield
-  - For community-made strategies, like the new yETH vault, currently 10% of this fee goes to the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
+Vault Version | Management Fee | Performance Fee | Withdrawal Fee|
+---|---|---|---|
+v1 | N/A | 5% | 0.5% |
+v2 | 2% | 20% | N/A |
 
-According to YIPs [51](https://yips.yearn.finance/YIPS/yip-51), [52](https://yips.yearn.finance/YIPS/yip-52) and [54](https://yips.yearn.finance/YIPS/yip-54) the fee structure of V2 vaults is the following:
-- **0% fee** on any funds withdrawn from any V2 vault.
-- **2% annualized management fee** that goes to the treasury (accrued per block, collected on each harvest and applied on all the funds managed by the strategy).
-- **20% performance fee** collected and distributed on each harvest call (only if the strategy reports gains)
-  - Half (10%) goes to the treasury.
-    - from the 10% going to the treasury, 5% goes to the operation fund and 5% to YFI stakers according to [YIP-54](https://yips.yearn.finance/YIPS/yip-54). The most recent governance votation [YIP-56](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929) a.k.a B.A.B.Y eliminated the 5% going to YFI stakers and implemented buybacks of YFI with the fees collectedby the treasury.
-    
-  - Half (10%) goes to the strategist as reward.
-  
+**Notes:**
+
+- **Withdrawal Fee** only applies on funds withdrawn from active Strategies.
+   - Each vault has some amount of the total funds idle and most of them active in the Strategy.
+   - Idle funds is the difference between `vault holdings` and `strategy holdings`, and can be seen on [feel the Yearn](https://feel-the-Yearn.app/).
+  - When there is a withdrawal, if idle funds can cover the full amount, there will not be a withdrawal fee applied. If funds will need to be pulled from the Strategy in order to cover the withdrawal request, the Withdrawal Fee is applied.
+- **Performance Fee** is only applied on the performance gains.
+   - For v1 vaults, the proceeds from this fee is split between Treasury and Strategist 90:10. 
+   - For v2 vaults, the split between Treasury and Strategist is 50:50.
+- **Management Fee** is annualized and assigned to Treasury. It accrues per block, is collected on each harvest and is applied on the total of the funds managed by the Strategy.
+- **Further reading**, see [YIP-51](https://yips.yearn.finance/YIPS/yip-51), [YIP-52](https://yips.yearn.finance/YIPS/yip-52), [YIP-54](https://yips.yearn.finance/YIPS/yip-54), and [YIP-56](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929).
+
 #### Can you explain the 5% fee on additional yield?
 
 - Formerly this was called a "5% fee on subsidized gas" which confused literally everyone except Andre. Technically it is not a performance fee — it's a fee on the some profit-generating transactions that incur high gas costs and are critical to the vault's internal functioning.
