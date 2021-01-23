@@ -21,6 +21,7 @@
 - [Earn](products/earn.md)
 - [Zap](products/zap.md)
 - [yInsure](products/yinsure.md)
+- [yGift](products/ygift.md)
 
 ## R&D
 
@@ -87,3 +88,5 @@
 ## Contributors
 
 - [Contribute](contributors/README.md)
+- [Contributor Tools](contributors/contributor-tools.md)
+- [Writing Style Guide](contributors/writing-style-guide.md)
