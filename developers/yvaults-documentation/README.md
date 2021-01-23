@@ -1,2 +1,1 @@
 # yVaults Documentation
-

@@ -11,6 +11,3 @@ For the end user there is no difference, pick the yVault that matches your token
 {% page-ref page="v2-yvaults/" %}
 
 {% page-ref page="yvaults.md" %}
-
-
-

@@ -43,12 +43,11 @@ At this tier the current strategy sits on top of the lower two tiers and **harve
 
 ## Resources
 
-* yUSD
-  * CoinGecko: [https://www.coingecko.com/en/coins/yusd](https://www.coingecko.com/en/coins/yusd)
-  * yUSD Token contract: [0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c](https://etherscan.io/address/0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c)
-* Code
-  * The vaults.finance source code on [GitHub](https://github.com/banteg/yearn-recycle)
-  * The current strategy: [StrategyCurveYCRVVoter](https://etherscan.io/address/0xc999fb87AcA383A63D804A575396F65A55aa5aC8#code)
-* FAQ
-  * [https://docs.yearn.finance/faq\#vaults](https://docs.yearn.finance/faq#vaults)
-
+- yUSD
+  - CoinGecko: [https://www.coingecko.com/en/coins/yusd](https://www.coingecko.com/en/coins/yusd)
+  - yUSD Token contract: [0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c](https://etherscan.io/address/0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c)
+- Code
+  - The vaults.finance source code on [GitHub](https://github.com/banteg/yearn-recycle)
+  - The current strategy: [StrategyCurveYCRVVoter](https://etherscan.io/address/0xc999fb87AcA383A63D804A575396F65A55aa5aC8#code)
+- FAQ
+  - [https://docs.yearn.finance/faq\#vaults](https://docs.yearn.finance/faq#vaults)

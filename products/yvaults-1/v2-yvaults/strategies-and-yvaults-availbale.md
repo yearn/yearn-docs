@@ -33,6 +33,3 @@ To check which vaults are currently LIVE, please, have a look at the V2 yRegistr
 ### [StrategyGenericLevCompFarm](https://etherscan.io/address/0x4d7d4485fd600c61d840ccbec328bfd76a050f87) \(also used in DAI yVault\)
 
 ![https://github.com/vasa-develop/defi-diagrams/](../../../.gitbook/assets/strategygenericlevcompfarm%20%281%29.jpg)
-
-
-

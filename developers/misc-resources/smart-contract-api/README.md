@@ -1,2 +1,1 @@
 # Smart Contract API
-

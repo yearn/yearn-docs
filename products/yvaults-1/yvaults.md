@@ -32,7 +32,6 @@ The stablecoins borrowed \(e.g., USDC, DAI, USDT, etc.\) depend on the strategy 
 
 ## Resources
 
-* [Vaults Homepage](https://yearn.finance/vaults)
-* Medium Article: [yETH vault explained](https://medium.com/iearn/yeth-vault-explained-c29d6b93a371)
-* Medium Article: [Delegated Vaults Explained](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
-
+- [Vaults Homepage](https://yearn.finance/vaults)
+- Medium Article: [yETH vault explained](https://medium.com/iearn/yeth-vault-explained-c29d6b93a371)
+- Medium Article: [Delegated Vaults Explained](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
