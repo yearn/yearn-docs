@@ -294,7 +294,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### Does staking my YFI matter for voting?
 
-- Yes. You have to stake your YFI at [ygov.finance/stake](https://ygov.finance/stake) in the v2 tab under Governance V2 or in [yYFI vault](https://yearn.finance/vaults) to have your votes count. Since Yearn uses [Snapshot](https://snapshot.page/#/yearn) for off-chain votations, for each YIP voted off-chain there'll be a snapshot at a given block of all the YFI tokens staked in governance and in the vault. Only people with YFI staked in governance or in the vault at the time of the snapshot will be able to vote in that YIP.
+- Yes. You have to stake your YFI at [ygov.finance/stake](https://ygov.finance/stake) in the v2 tab under Governance V2 or in the [yYFI vault](https://yearn.finance/vaults) to have your votes counted. Since Yearn uses [Snapshot](https://snapshot.page/#/yearn) for off-chain votations, for each YIP voted off-chain there'll be a snapshot at a given block of all the YFI tokens staked in governance and in the vault. Only people with YFI staked in governance or in the vault at the time of the snapshot will be able to vote in that YIP.
 
 #### What’s the difference between voting for a poll on the forum and an off-chain vote?
 
