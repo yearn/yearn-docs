@@ -29,26 +29,26 @@ This visual guide will walk you through every step in depositing funds in a [yVa
 
 ![amount DAI vault](https://i.imgur.com/VaAGaOc.jpg)
 
-### 6. Click “Deposit”
+
+### 6. Approve 2 transactions
+
+
+Depositing requires 2 transactions (make sure there is **enough ETH in your wallet** to cover this):
+- confirmation (first time only)
+  - Enter from 0 to 100% of your wallet DAI balance then click "Deposit"
+  - confirm transaction in your wallet
+- deposit
+  - Enter from 0 to 100% of your wallet DAI balance then click "Deposit"
+  - confirm transaction in your wallet
+
+**Important**: Please note before you make a deposit that there is a **0.5% withdrawal fee**. The longer you leave the deposit to earn returns in the Vault, the more likely your returns will exceed the withdrawal fee.
 
 ![deposit vault](https://i.imgur.com/RneAtGx.jpg)
 
-Click on **25%, 50%, 75% or 100%** to deposit the corresponding proportion of your wallet into the Vault.
-
-Or click “Deposit All” if you would like to **deposit 100%** of the chosen digital asset from your wallet into the Vault.
-:::info
-Please note before you make a deposit that there is a **0.5% withdrawal fee**. The longer you leave the deposit to earn returns in the Vault, the more likely your returns will exceed the withdrawal fee.
-:::
-
-### 7. Approve yearn.finance to spend your DAI token (first time only) and then click “Confirm” again to approve the deposit
-
 ![approve DAI vault](https://i.imgur.com/pPGoSiP.jpg)
 
-You need to pay a **transaction fee in Ether (ETH)** to approve yearn.finance to spend your DAI.
 
-Make sure there is **enough ETH in your wallet**.
-
-### 8. Receive your yToken (in this case it would be yDAI)
+### 7. Receive your yToken (in this case it would be yDAI)
 
 The yDAI you receive is your **share of the DAI Vault**. The amount of yDAI in your wallet will **remain constant** over time but the value of it will increase as the DAI Vault earns returns.
 
@@ -56,6 +56,6 @@ The amount of yDAI you receive will be less than 1 per DAI you deposited because
 
 For example, at block number 10611372 yDAI was equal to 1.044 DAI. Therefore had you deposited 100 DAI, you would have received 95.78 yDAI (100 / 1.044).
 
-### 9. Track your earnings
+### 8. Track your earnings
 
 [Yearn Party](https://yearn.party/) shows an approximate running total for how much you have earned in the Vault.
