@@ -157,4 +157,3 @@ The community has been actively creating tools and guides on this topic.
 
 - [https://github.com/thegismar/yearn_roi/blob/master/yearn_vaults_ROI_calc.ipynb](https://github.com/thegismar/yearn_roi/blob/master/yearn_vaults_ROI_calc.ipynb) provides a mathemathical explanation on how ROI is calculated with some caveats. \(This repository is no longer being maintained\).
 - [Statistics FAQ](https://docs.yearn.finance/faq#statistics)
-- [yVault ROI performance over time graph](https://py-earn.herokuapp.com/graph)

@@ -502,7 +502,6 @@ But if you think something can be improved, or you found a bug, we want to squas
 ### Statistics
 
 - [yieldfarming.info](https://yieldfarming.info/)
-- [yVault ROI Calculator](https://py-earn.herokuapp.com/)
 - [stats.finance/yearn](https://stats.finance/yearn)
 - [Feel The Yearn](https://feel-the-yearn.vercel.app/)
 - Initial Distribution [Dune Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
