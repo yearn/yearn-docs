@@ -85,9 +85,9 @@ But if you think something can be improved, or you found a bug, we want to squas
 - v1 Money Market vaults, formerly called iEarn, can be found [here](https://v1.yearn.finance/earn).
 - Additional vaults can be found [here](https://yearn.finance/vaults).
 
-#### If the current strategy for the yCRV vault is farming CRV does it just get added to my balance when I withdrawal?
+#### If the current strategy for the yCRV vault is farming CRV does it just get added to my balance when I withdraw?
 
-- No. The vault will farm CRV then sell it on the market automatically. When you withdrawal you will get more yCRV.
+- No. The vault will farm CRV then sell it on the market automatically. When you withdraw you will get more yCRV.
 
 #### Why isn't yCRV worth \$1, it's a stable coin right?
 
@@ -101,7 +101,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 - You can’t get the same numbers for two completely different coins. The new sBTC is following the same strategy that the yCRV vault using curve liquidity pool. The obvious answer is that there aren’t many safe platforms accepting YFI as stake so there aren’t much valid strategies for the YFI vault right now.
 
-#### I deposited into a vault, what will I get out when I withdrawal?
+#### I deposited into a vault, what will I get out when I withdraw?
 
 - You can only withdraw the crypto asset type that you put in.
 - You will get the amount you originally put in, plus the yield you've earned, minus the fees.
