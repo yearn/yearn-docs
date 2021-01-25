@@ -123,8 +123,9 @@ But if you think something can be improved, or you found a bug, we want to squas
   - For v1 vaults, the proceeds from this fee is split between Treasury and Strategist 90:10.
   - For v2 vaults, the split between Treasury and Strategist is 50:50.
 - **Management Fee** is annualized and assigned to Treasury. It accrues per block, is collected on each harvest and is applied on the total of the funds managed by the Strategy.
+<!-- markdown-link-check-disable -->
 - **Further reading**, see [YIP-51](https://yips.yearn.finance/YIPS/yip-51), [YIP-52](https://yips.yearn.finance/YIPS/yip-52), [YIP-54](https://yips.yearn.finance/YIPS/yip-54), and [YIP-56](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929).
-
+<!-- markdown-link-check-enable-->
 #### Yield
 
 - We plan to make a dashboard in the future that will clearly show your current APY of all the positions you have open. Currently for the Vaults as they are still in beta we are not showing the APY live, but it is post on [twitter](https://twitter.com/iearnfinance) around once a day. You can roughly estimate the yield you are getting by looking at what the [current strategy](https://feel-the-Yearn.vercel.app/) is farming and checking what its APY is.
