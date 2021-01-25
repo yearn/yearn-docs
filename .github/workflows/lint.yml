@@ -34,7 +34,7 @@ jobs:
         run: npm install
 
       - name: Run linter on
-        run: npm run lint:check
+        run: npm run lint:fix
 
       - name: Check markdown links
         uses: gaurav-nelson/github-action-markdown-link-check@v1
