@@ -1,14 +1,13 @@
 # curvefi
 
-| Contract | ABI                                                                                                  | Address                                                                             |
-| :------- | :--------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- |
+| Contract | ABI | Address |
+| :--- | :--- | :--- |
 | ICurveFi | [JSON](https://github.com/curvefi/curve-contract/blob/master/contracts/pools/compound/pooldata.json) | [curve.fi](https://etherscan.io/address/0xA2B47E3D5c44877cca798226B7B8118F9BFb7A56) |
 
 ## ICurveFi Interface
 
 {% tabs %}
 {% tab title="ICurveFi.sol" %}
-
 ```javascript
 // Solidity Interface
 
@@ -58,6 +57,6 @@ interface ICurveFi {
   ) external;
 }
 ```
-
 {% endtab %}
 {% endtabs %}
+

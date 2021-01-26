@@ -12,4 +12,5 @@
 
 {% page-ref page="how-to-understand-yvault-roi.md" %}
 
-{% page-ref page="how-to-withdraw-from-yEarn-and-yVaults.md" %}
+{% page-ref page="how-to-withdraw-from-yearn-and-yvaults.md" %}
+
