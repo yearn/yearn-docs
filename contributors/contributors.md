@@ -44,7 +44,7 @@ If this sounds confusing, please let us know what we can clear up. In the meanti
 
 **Protocol Contributors:**
 
-- [Developer Team List](https://docs.yearn.finance/additional-resources/team#protocol-and-development)
+* [Developer Team List](https://docs.yearn.finance/additional-resources/team#protocol-and-development)
 
 If you're a developer we need your help! Before you begin: Familiarize yourself with Yearn, its products, and its infrastructure by reading our [Documentation](https://docs.yearn.finance/).
 
@@ -70,29 +70,30 @@ See our wonderful list of contributors along with individual contribution stats 
 
 ### Yearn Products
 
-- [Yearn.Finance](https://yearn.finance/), [Github](https://github.com/iearn-finance/iearn-finance)
-- [Yearn Governance](https://ygov.finance/), [Github](https://github.com/iearn-finance/ygov-finance)
-- [Yearn Insurance](https://yinsure.finance/), [Github](https://github.com/iearn-finance/yinsure-finance)
-- [Yearn Borrow](https://yborrow.finance/), [Github](https://github.com/iearn-finance/iborrow-finance)
-- [Yearn Swap](https://yswap.exchange/), [Github](https://github.com/iearn-finance/yswap-finance)
-- [Yearn Documentation](https://docs.yearn.finance/), [Github](https://github.com/iearn-finance/docs)
-- [Yearn Forum](https://gov.yearn.finance/)
+* [Yearn.Finance](https://yearn.finance/), [Github](https://github.com/iearn-finance/iearn-finance)
+* [Yearn Governance](https://ygov.finance/), [Github](https://github.com/iearn-finance/ygov-finance)
+* [Yearn Insurance](https://yinsure.finance/), [Github](https://github.com/iearn-finance/yinsure-finance)
+* [Yearn Borrow](https://yborrow.finance/), [Github](https://github.com/iearn-finance/iborrow-finance)
+* [Yearn Swap](https://yswap.exchange/), [Github](https://github.com/iearn-finance/yswap-finance)
+* [Yearn Documentation](https://docs.yearn.finance/), [Github](https://github.com/iearn-finance/docs)
+* [Yearn Forum](https://gov.yearn.finance/)
 
 #### List of Yearn Tools
 
-- Yearn Discord FAQ Bot, [Github](https://github.com/dgornjakovic/yfi-faq-bot)
-- [Yearn Party](https://yearn.party/), [Github](https://github.com/x48-crypto/yearn-party)
-- [Yearn Tools \(Based off Yearn API\)](https://yearn.tools/), [Github](https://github.com/yearn-integrations/api)
+* Yearn Discord FAQ Bot, [Github](https://github.com/dgornjakovic/yfi-faq-bot)
+* [Yearn Party](https://yearn.party/), [Github](https://github.com/x48-crypto/yearn-party)
+* [Yearn Tools \(Based off Yearn API\)](https://yearn.tools/), [Github](https://github.com/yearn-integrations/api)
 
 #### Contributors Websites
 
-- [yCosystem \(Yearn Community Aggregator\)](https://ycosystem.info/) - Repository Of Yearn Links
-- [Vaults Finance](https://vaults.finance/) - One click deposit into vaults
-- [LearnYearn](https://learnyearn.finance/) Additional explainers and content
-- [Yearn Stats](https://stats.finance) - Vault Statistics
-- [YFI Address Stats](https://www.yfistats.com/) - TVL and vault pricing information built by @Bob_The_Buidler
-- [Yieldfarming](https://yieldfarming.info/), [Github](https://github.com/yieldfarming/yieldfarming)
-- [Feel-the-yearn](https://feel-the-yearn.app) - Table of current active strategies
-- [yVault ROI Calculator](https://yvault-roi.netlify.app/)
-- [Yearn Snapshot](https://yearn.snapshot.page/)
-- [Yearn Newsletter](https://yearn.substack.com/) - Weekly YFI newsletter run by [@yfi_nomad](https://twitter.com/yfi_nomad)
+* [yCosystem \(Yearn Community Aggregator\)](https://ycosystem.info/) - Repository Of Yearn Links
+* [Vaults Finance](https://vaults.finance/) - One click deposit into vaults
+* [LearnYearn](https://learnyearn.finance/) Additional explainers and content
+* [Yearn Stats](https://stats.finance) - Vault Statistics
+* [YFI Address Stats](https://www.yfistats.com/) - TVL and vault pricing information built by @Bob\_The\_Buidler
+* [Yieldfarming](https://yieldfarming.info/), [Github](https://github.com/yieldfarming/yieldfarming)
+* [Feel-the-yearn](https://feel-the-yearn.app) - Table of current active strategies
+* [yVault ROI Calculator](https://yvault-roi.netlify.app/)
+* [Yearn Snapshot](https://yearn.snapshot.page/)
+* [Yearn Newsletter](https://yearn.substack.com/) - Weekly YFI newsletter run by [@yfi\_nomad](https://twitter.com/yfi_nomad)
+
