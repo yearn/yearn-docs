@@ -1,5 +1,3 @@
-# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
 name: Check
 
@@ -10,33 +8,26 @@ on:
     branches: [master]
 
 jobs:
-  lint:
+
+  linter:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
+      # with:
+      #   # Make sure the actual branch is checked out when running on pull requests
+      #   ref: ${{ github.head_ref }}
 
-      - name: Cache modules
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+    - name: Prettify code
+      uses: creyD/prettier_action@v3.1
+      with:
+        # This part is also where you can pass other options, for example:
+        prettier_options: --write **/*.{js,md}
+        commit_message: "CI: Run linter"
 
-      - name: Setup node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: "12.x"
-
-      - name: Install modules
-        run: npm install
-
-      - name: Run linter on
-        run: npm run lint:fix
-
-      - name: Check markdown links
-        uses: gaurav-nelson/github-action-markdown-link-check@v1
-        with:
-          use-quiet-mode: "yes"
+    - name: Check markdown links
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+        config-file: 'mlc_config.json'
