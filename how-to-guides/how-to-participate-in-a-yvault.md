@@ -4,8 +4,8 @@ This visual guide will walk you through every step in depositing funds in a [yVa
 
 ## Prerequisites
 
-* You must have the yVault's underlying token. For DAI yVault, you must have DAI.
-* You must use a supported wallet, either Metamask, Trustwallet, Trezor, or Torus.
+- You must have the yVault's underlying token. For DAI yVault, you must have DAI.
+- You must use a supported wallet, either Metamask, Trustwallet, Trezor, or Torus.
 
 ## Walkthrough
 
@@ -56,4 +56,3 @@ For example, at block number 10611372 yDAI was equal to 1.044 DAI. Therefore had
 ### 9. Track your earnings
 
 [Yearn Party](https://yearn.party/) shows an approximate running total for how much you have earned in the Vault.
-

@@ -10,9 +10,9 @@ Vote locking CRV rewards yields **veCRV** \(voting escrow CRV tokens\). The long
 
 veCRV enables its holders to:
 
-* participate in Curve governance;
-* **earn trading fees**; and
-* **boost rewards** from liquidity provided.
+- participate in Curve governance;
+- **earn trading fees**; and
+- **boost rewards** from liquidity provided.
 
 ### Trading fees
 
@@ -30,10 +30,10 @@ See the [Curve Guide](https://resources.curve.fi/guides/boosting-your-crv-reward
 
 Yearn deploys a single CRV vote locking strategy that is shared across its general Curve strategies:
 
-* [StrategyCurveYBUSDVoterProxy](https://etherscan.io/address/0x112570655b32a8c747845e0215ad139661e66e7f#code)
-* [StrategyCurveBTCVoterProxy](https://etherscan.io/address/0x6d6c1ad13a5000148aa087e7cbfb53d402c81341#code)
-* [StrategyCurveYVoterProxy](https://etherscan.io/address/0x07db4b9b3951094b9e278d336adf46a036295de7#code)
-* [StrategyCurve3CrvVoterProxy](https://etherscan.io/address/0xC59601F0CC49baa266891b7fc63d2D5FE097A79D#code)
+- [StrategyCurveYBUSDVoterProxy](https://etherscan.io/address/0x112570655b32a8c747845e0215ad139661e66e7f#code)
+- [StrategyCurveBTCVoterProxy](https://etherscan.io/address/0x6d6c1ad13a5000148aa087e7cbfb53d402c81341#code)
+- [StrategyCurveYVoterProxy](https://etherscan.io/address/0x07db4b9b3951094b9e278d336adf46a036295de7#code)
+- [StrategyCurve3CrvVoterProxy](https://etherscan.io/address/0xC59601F0CC49baa266891b7fc63d2D5FE097A79D#code)
 
 ### Locking CRV for veCRV
 
@@ -53,11 +53,10 @@ A "Yearn boost" tool displaying Yearn's current active and potential boost is in
 
 ## More information
 
-* [curve.fi](https://www.curve.fi/usecrv) webpage
-* Curve [Guide](https://resources.curve.fi/guides/staking-your-crv) for staking CRV
-* Curve [Guide](https://resources.curve.fi/guides/boosting-your-crv-rewards) for vote locking
-* Curve [FAQ](https://resources.curve.fi/faq/vote-locking-boost)
-* deFinn [Infographic](https://drive.google.com/uc?export=download&id=1DvytXXS0WXmJ65X4jg8vfuT-zWXFxxSk) on CRV Voting Boost and formula
-* Boost [calculator](https://dao.curve.fi/minter/calc)
-* Yearn CurveDAO proxy strategy [diagram](https://twitter.com/bantg/status/1308680661801340929)
-
+- [curve.fi](https://www.curve.fi/usecrv) webpage
+- Curve [Guide](https://resources.curve.fi/guides/staking-your-crv) for staking CRV
+- Curve [Guide](https://resources.curve.fi/guides/boosting-your-crv-rewards) for vote locking
+- Curve [FAQ](https://resources.curve.fi/faq/vote-locking-boost)
+- deFinn [Infographic](https://drive.google.com/uc?export=download&id=1DvytXXS0WXmJ65X4jg8vfuT-zWXFxxSk) on CRV Voting Boost and formula
+- Boost [calculator](https://dao.curve.fi/minter/calc)
+- Yearn CurveDAO proxy strategy [diagram](https://twitter.com/bantg/status/1308680661801340929)

@@ -1,13 +1,14 @@
 # uniswap
 
-| Contract | Address |
-| :--- | :--- |
-| Uniswap | [0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95](https://etherscan.io/address/0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95#code) |
+| Contract | Address                                                                                                                    |
+| :------- | :------------------------------------------------------------------------------------------------------------------------- |
+| Uniswap  | [0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95](https://etherscan.io/address/0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95#code) |
 
 ## Uniswap Interface
 
 {% tabs %}
 {% tab title="IuniswapExchange.sol" %}
+
 ```javascript
 // Solidity Interface
 
@@ -53,6 +54,6 @@ interface IuniswapExchange {
   function totalSupply() external view returns (uint256);
 }
 ```
+
 {% endtab %}
 {% endtabs %}
-
