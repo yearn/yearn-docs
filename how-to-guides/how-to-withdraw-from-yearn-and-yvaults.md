@@ -19,7 +19,7 @@ For the purpose of this guide, we will use the [curve.fi/y LP](https://www.curve
 
 ![](https://i.imgur.com/69A6y2Q.png)
 
-   - You can choose from pre-defined percentages of your available balance, or enter a specific amount Alternatively, you can click on "Withdraw All" to trigger your wallet to start the transaction approval process for the full available amount in just one click.
+- You can choose from pre-defined percentages of your available balance, or enter a specific amount Alternatively, you can click on "Withdraw All" to trigger your wallet to start the transaction approval process for the full available amount in just one click.
 
 3. Complete the transaction:
    - Click the Withdraw button, approve the transaction in your wallet, and wait for the transaction to complete successfully.
@@ -40,4 +40,3 @@ For the purpose of this guide, we will use the [curve.fi/y LP](https://www.curve
 - When the withdrawal fee is applied, the complexity of the transaction is larger, which has an impact on gas used. This may result in different gas fees. As a reference, below is a table with the estimated gas cost associated with withdrawing from vaults as per the time of this writing:
 
 ![](https://i.imgur.com/ZN15p1S.png)
-
