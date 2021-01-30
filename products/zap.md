@@ -8,5 +8,4 @@ The following assets can be zapped _into_ curve.fi pools: DAI, USDC, USDT, TUSD,
 
 ## Resources
 
-* [Zap Homepage](https://yearn.finance/zap)
-
+- [Zap Homepage](https://yearn.finance/zap)
