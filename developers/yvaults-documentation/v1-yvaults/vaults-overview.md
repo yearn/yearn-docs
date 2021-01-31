@@ -89,7 +89,7 @@ Governance manages the `Vaults`, `Controller`, and `Strategies` by calling funct
 A Yearn end-user.
 
 - Deposits funds into vaults, to receive LP tokens, through calling `deposit()`;
-- Withdraws funds from vaults, by depositing (effectively burning) LP tokens into vaults and receiving the corresponding deposit token amount back in return, through calling `withdraw()`. If the vault does not have enough funds to handle the withdrawal, this triggers a cascading `withdraw()` call via the `Controller` to the Strategy to liquidate enough funds to process the withdrawal.
+- Withdraws funds from vaults, by depositing \(effectively burning\) LP tokens into vaults and receiving the corresponding deposit token amount back in return, through calling `withdraw()`. If the vault does not have enough funds to handle the withdrawal, this triggers a cascading `withdraw()` call via the `Controller` to the Strategy to liquidate enough funds to process the withdrawal.
 
 ### Keeper
 

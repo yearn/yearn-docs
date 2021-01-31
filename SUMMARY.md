@@ -10,14 +10,16 @@
   - [How To Participate in a yVault](how-to-guides/how-to-participate-in-a-yvault.md)
   - [How to Understand CRV Vote Locking](how-to-guides/how-to-understand-crv-vote-locking.md)
   - [How To Understand yVault ROI](how-to-guides/how-to-understand-yvault-roi.md)
-  - [How To Withdraw from yEarn and yVaults](how-to-guides/how-to-withdraw-from-yEarn-and-yVaults.md)
-- [Governance](governance.md)
+  - [How To Withdraw from yEarn and yVaults](how-to-guides/how-to-withdraw-from-yearn-and-yvaults.md)
 - [YFI and yTokens](yfi-and-ytokens.md)
 - [yUSD](yusd.md)
 
 ## Products
 
-- [yVaults](products/yvaults.md)
+- [yVaults](products/yvaults-1/README.md)
+  - [V2 yVaults](products/yvaults-1/v2-yvaults/README.md)
+    - [Strategies and yVaults available](products/yvaults-1/v2-yvaults/strategies-and-yvaults-availbale.md)
+  - [V1 yVaults](products/yvaults-1/yvaults.md)
 - [Earn](products/earn.md)
 - [Zap](products/zap.md)
 - [yInsure](products/yinsure.md)
@@ -39,8 +41,10 @@
 - [Code Repositories](developers/code-repositories.md)
 - [Integration Guide](developers/integration-guide.md)
 - [yVaults Documentation](developers/yvaults-documentation/README.md)
-  - [Vaults Overview](developers/yvaults-documentation/vaults-overview.md)
-  - [Vault Interfaces](developers/yvaults-documentation/vault-interfaces.md)
+  - [V2 yVaults](developers/yvaults-documentation/v2-yvaults.md)
+  - [V1 yVaults](developers/yvaults-documentation/v1-yvaults/README.md)
+    - [Vaults Overview](developers/yvaults-documentation/v1-yvaults/vaults-overview.md)
+    - [Vault Interfaces](developers/yvaults-documentation/v1-yvaults/vault-interfaces.md)
 - [Misc Resources](developers/misc-resources/README.md)
   - [YIP Boilerplate](https://gist.github.com/sambacha/07c8580377cf7deec6be569322babcfd#file-yip-boilerplate-proposal-md)
   - [Admin Access Policy](developers/misc-resources/adminpolicy.md)
@@ -87,6 +91,6 @@
 
 ## Contributors
 
-- [Contribute](contributors/README.md)
+- [Contribute](contributors/contributors.md)
 - [Contributor Tools](contributors/contributor-tools.md)
 - [Writing Style Guide](contributors/writing-style-guide.md)

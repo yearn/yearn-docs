@@ -30,7 +30,7 @@ As such, Writers should focus on communicating concepts as clearly and succinctl
 
 **Please Note**
 
-- When migrating to a new document (i.e., from Google Docs to HackMD):
+- When migrating to a new document \(i.e., from Google Docs to HackMD\):
   - Leave a note in the old file.
   - Provide a link to the latest version.
 - Do not blindly accept Grammarly suggestions.
@@ -52,20 +52,20 @@ As such, Writers should focus on communicating concepts as clearly and succinctl
 
 - [First-person language.](https://en.wikipedia.org/wiki/Grammatical_person)
   - **Examples:** I, we, our, etc.
-- [Second-person language](https://en.wikipedia.org/wiki/Grammatical_person) (unless it is appropriate for a guide or action page).
+- [Second-person language](https://en.wikipedia.org/wiki/Grammatical_person) \(unless it is appropriate for a guide or action page\).
   - **Examples:** "You then..." or "Now you should..."
 - Exclamation points.
 - Footnotes.
 - References to deprecated names for Yearn Components.
-  - **Examples:** yyCRV or yUSD instead of yvCurve-Y (see: [Yearn Naming Conventions](../developers/naming-convention.md)).
+  - **Examples:** yyCRV or yUSD instead of yvCurve-Y \(see: [Yearn Naming Conventions](../developers/naming-convention.md)\).
 - Parentheses for stating additional information.
-  - **Incorrect:** Development Grants are larger sized ($5,000 to $50,000) grants aimed at individuals or teams building projects around vaults and the broader Yearn ecosystem.
+  - **Incorrect:** Development Grants are larger sized \($5,000 to $50,000\) grants aimed at individuals or teams building projects around vaults and the broader Yearn ecosystem.
   - **Correct:** Development Grants are generally larger sized grants, ranging from $5,000 to $50,000, aimed at individuals or teams building projects around vaults and the broader Yearn ecosystem.
 
 ### Abbreviations
 
 - Use parentheses to define abbreviated terms the first time they appear in a given document.
-  - **Example:** A Yearn Improvement Proposal (YIP) is a proposal framework to support new initiatives and to expand the scope of existing ones.
+  - **Example:** A Yearn Improvement Proposal \(YIP\) is a proposal framework to support new initiatives and to expand the scope of existing ones.
 
 ### Acronyms, Decades and Cases
 
@@ -91,7 +91,7 @@ Do not use apostrophes to pluralize acronyms or indicate decades. Add an "s" at 
 
 #### Title Case
 
-- **The [Title Case Converter](https://titlecaseconverter.com/) will keep titles consistent.**
+- **The** [**Title Case Converter**](https://titlecaseconverter.com/) **will keep titles consistent.**
 - Follow the New York Times standard.
 - Capitalize the first and last words, all nouns, pronouns, verbs, adverbs, and adjectives.
 - Lowercase all articles, conjunctions, and prepositions.
@@ -114,7 +114,7 @@ The examples below use dollars, but the same rules apply to all global currencie
 
 #### Cryptocurrencies
 
-- When directly referring to the creation, destruction, or manipulation of a token (particularly as it relates to tooling) or when referencing the token as a currency, in an instructional or conversational setting, or as a conceptual product of the Foundation or its systems:
+- When directly referring to the creation, destruction, or manipulation of a token \(particularly as it relates to tooling\) or when referencing the token as a currency, in an instructional or conversational setting, or as a conceptual product of the Foundation or its systems:
   - Use the proper prefix if necessary and capitalized TLA version: `wETH`
   - **Example:** “wETH is a token that represents Ether 1:1 and conforms to the ERC20 token standard.”
 - Similarly, when referring to exchange pairs:
@@ -148,10 +148,10 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
 
 - _Don't_ use a list with only 1 item.
 - Use [parallel construction](https://en.wikipedia.org/wiki/Parallelism_%28grammar%29) for each item in a list.
-- Start with the same [part of speech](https://en.wikipedia.org/wiki/Part_of_speech) for each item (in this case, a verb).
+- Start with the same [part of speech](https://en.wikipedia.org/wiki/Part_of_speech) for each item \(in this case, a verb\).
 - Use the same verb [tense](https://en.wikipedia.org/wiki/Grammatical_tense#English) for each item.
 - Use the same [voice](https://en.wikipedia.org/wiki/Voice_%28grammar%29) for each item.
-- Use the same sentence type (statement, question, exclamation) for each item.
+- Use the same sentence type \(statement, question, exclamation\) for each item.
 - List items that include definitions should look like this:
   - **Team:** Yearn Protocol Developers and Contributors
   - **Community**: General participants in Yearn forums and chat
@@ -159,13 +159,13 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
   - **Correct:** `-`
   - **Incorrect:** `*`
 - Alphabetize lists of names unless there is a clear priority at work.
-- Do not use ordered (numbered) lists unless order matters.
-- Ordered list items should use the `1. ` repeated.
+- Do not use ordered \(numbered\) lists unless order matters.
+- Ordered list items should use the `1.` repeated.
   - Markdown will automatically generate numbers.
 
 **Example:**
 
-```markdown
+```text
 1.  Item 1
 1.  Item 2
 1.  Item 3
@@ -177,7 +177,7 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
 
 - Use [absolute links](https://docs.microsoft.com/en-us/contribute/how-to-write-links) and standard web URLs when referencing external resources.
 - Create descriptive hyperlinks and avoid generic language.
-  - **Correct - Descriptive:** (Learn more at [Yearn Documentation](https://docs.yearn.finance/)
+  - **Correct - Descriptive:** \(Learn more at [Yearn Documentation](https://docs.yearn.finance/)
   - **Incorrect - Generic:** Learn more [here](https://docs.yearn.finance/).
 - Include a `.`outside the link for sentences that end with a link.
 - When creating links for parallel translated documents, make sure to update relative links to reflect the correct heading.
@@ -194,7 +194,7 @@ When bulleted and numbered lists contain complete sentences, capitalize the firs
 Yearn documents posted on GitHub are written in Markdown, a text-to-HTML conversion tool for web writers.
 
 - Include line breaks above and below headings.
-- Use top-level headers (`#`) only once per document.
+- Use top-level headers \(`#`\) only once per document.
   - Do not make multiple top-level headings.
 - Avoid repeat headings.
   - They will break auto-generated navigation.
@@ -253,7 +253,7 @@ Review the respective Contribute.md for each repository where pertinent before s
 - Check for an associated maintenance guide before starting work on a given document if applicable.
 - A document maintenance guide outlines standards to help Reviewers and contributors when maintaining a given resource.
   - The rules described within a document-specific maintenance guide supersede other guides.
-  - If a discrepancy is glaring or unreasonable, bring the issue to an admin in the [#documentation](https://discord.com/channels/734804446353031319/748476302121762866) channel on Yearn's discord.
+  - If a discrepancy is glaring or unreasonable, bring the issue to an admin in the [\#documentation](https://discord.com/channels/734804446353031319/748476302121762866) channel on Yearn's discord.
 
 #### Contributor Tools
 
@@ -261,8 +261,8 @@ Review the respective Contribute.md for each repository where pertinent before s
 
 ### Express Interest
 
-- Check out the [Getting Started guide]() for contributing to Documentation.
-- Join the [#documentation](https://discord.com/channels/734804446353031319/748476302121762866) channel on Yearn's Discord, read the pinned messages, and reach out to a channel admin.
+- Check out the [Getting Started guide](writing-style-guide.md) for contributing to Documentation.
+- Join the [\#documentation](https://discord.com/channels/734804446353031319/748476302121762866) channel on Yearn's Discord, read the pinned messages, and reach out to a channel admin.
 - Yearn community team members and senior contributors help onboard new contributors via Discord or Telegram chats where applicable.
 - Feel free to discuss personal interests and relevant skills to help determine a well-suited project/issue and jump right in.
 - To understand strengths you can also provide relevant examples of past projects, work, and experience.
@@ -272,14 +272,14 @@ Review the respective Contribute.md for each repository where pertinent before s
 ### Collaborate
 
 - When accepting an assignment, be sure to collaborate early and often.
-- Visit [#documentation](https://discord.com/channels/734804446353031319/748476302121762866) or corresponding Telegram chat regularly.
+- Visit [\#documentation](https://discord.com/channels/734804446353031319/748476302121762866) or corresponding Telegram chat regularly.
 - Coordinate with other members.
   - Ask as many questions as necessary
   - Ask for feedback when stuck.
   - Provide frequent progress updates.
 - Develop a plan that defines an approach for an assignment.
   - Produce a project outline. Clarify the what so we can agree on the how.
-  - Set achievable deadlines. Timeboxing is good :)
+  - Set achievable deadlines. Timeboxing is good :\)
   - Assign and divide tasks with other contributors.
     - Multiple contributors should not start work on similar projects individually. Please check that the same issue does not already exist in the Github Issues for that Repository, and if it does please coordinate with whoever is working on it to divide the work if needed.
 
@@ -291,7 +291,7 @@ Review the respective Contribute.md for each repository where pertinent before s
 
 #### Final Drafts and Submissions
 
-- Transfer approved final drafts from Google Docs to HackMD or DrawIO(for diagrams) if need be.
+- Transfer approved final drafts from Google Docs to HackMD or DrawIO\(for diagrams\) if need be.
 - Let the team know when a project is ready for final review by moving your issue to the status of `Pending Review` on Github and messaging in the appropriate Discord or Telegram channel.
 - Once reviewed, submit completed projects for approval as a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) on GitHub.
   - Ensure to update any relevant issues and the project board on GitHub

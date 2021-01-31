@@ -1,4 +1,4 @@
-# How to understand CRV vote locking
+# How to Understand CRV Vote Locking
 
 This is an overview of how CRV vote locking works on Curve Finance, and how Yearn investment strategies takes advantage of this in order to increase yield.
 
@@ -6,7 +6,7 @@ This is an overview of how CRV vote locking works on Curve Finance, and how Year
 
 Vote locking, "Boosties", or "Vote boosting" is a Curve Finance feature where CRV is locked into the Curve DAO.
 
-Vote locking CRV rewards yields **veCRV** (voting escrow CRV tokens). The longer time period that CRV is locked for, the more veCRVs are received. The minimum locking period is 1 week and the maximum period is 4 years.
+Vote locking CRV rewards yields **veCRV** \(voting escrow CRV tokens\). The longer time period that CRV is locked for, the more veCRVs are received. The minimum locking period is 1 week and the maximum period is 4 years.
 
 veCRV enables its holders to:
 
@@ -47,7 +47,7 @@ Based on Yearn's share of the total veCRV, 50% of trading fees will be claimed a
 
 ### Bosting liquidity rewards
 
-Actual boost provided by Curve vote locking will be determined by a formula as [described above](#Reward-boosting), but will crucially be depending on the total amount of liquidity provided in Curve pools by Yearn and its relative voting power, i.e. its share of the current total of veCRV issued.
+Actual boost provided by Curve vote locking will be determined by a formula as [described above](how-to-understand-crv-vote-locking.md#Reward-boosting), but will crucially be depending on the total amount of liquidity provided in Curve pools by Yearn and its relative voting power, i.e. its share of the current total of veCRV issued.
 
 A "Yearn boost" tool displaying Yearn's current active and potential boost is in development and will be released once available.
 

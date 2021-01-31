@@ -8,19 +8,19 @@ Yearn contributors work with tools geared towards promoting open-source feedback
 
 ### Discord
 
-Various Yearn teams (documentation, development etc) host AMAs, ideation, discussions, and follows-ups on Yearn's Discord Channel, an open-source platform geared towards improving team communication. The [Yearn Discord](http://discord.yearn.finance/) lists all channels and users.
+Various Yearn teams \(documentation, development etc\) host AMAs, ideation, discussions, and follows-ups on Yearn's Discord Channel, an open-source platform geared towards improving team communication. The [Yearn Discord](http://discord.yearn.finance/) lists all channels and users.
 
 Start participating in public discussions by joining the recommended channels below.
 
-- [#general](https://discord.com/channels/734804446353031319/734862139386232902)
-- [#governance](https://discord.com/channels/734804446353031319/734805853768777738)
-- [#support](https://discord.com/channels/734804446353031319/734811808401063966)
-- [#dev](https://discord.com/channels/734804446353031319/735311380646723684)
-- [#documentation](https://discord.com/channels/734804446353031319/748476302121762866)
+- [\#general](https://discord.com/channels/734804446353031319/734862139386232902)
+- [\#governance](https://discord.com/channels/734804446353031319/734805853768777738)
+- [\#support](https://discord.com/channels/734804446353031319/734811808401063966)
+- [\#dev](https://discord.com/channels/734804446353031319/735311380646723684)
+- [\#documentation](https://discord.com/channels/734804446353031319/748476302121762866)
 
 **Pro Tips:**
 
-- Visit [#documentation](https://discord.com/channels/734804446353031319/748476302121762866) regularly.
+- Visit [\#documentation](https://discord.com/channels/734804446353031319/748476302121762866) regularly.
   - It's an excellent channel for collaboration.
 - Coordinate with other members.
 - Share early and share often.
@@ -49,12 +49,11 @@ Many Yearn Doc contributors prepare their long-form documentation in [HackMD](ht
   - Copy text from the rendered preview into Grammarly and address any errors it flags.
   - Grammarly will miss errors if it’s given raw Markdown text.
 
-**Pro Tip:**
-Install the HackMD Google Chrome [extension](https://chrome.google.com/webstore/detail/hackmd-it/cnephjboabhkldgfpdokefccdofncdjh?hl=en) to make searching easier.
+**Pro Tip:** Install the HackMD Google Chrome [extension](https://chrome.google.com/webstore/detail/hackmd-it/cnephjboabhkldgfpdokefccdofncdjh?hl=en) to make searching easier.
 
 ### Gitbook
 
-Yearn Documentation contributors use Gitbook as a graphical user interface (GUI) to edit content and update personal Github repositories. It is an in-browser editor and as a result improves efficiency compared to using special programs which may be more difficult for non-technical users to navigate.
+Yearn Documentation contributors use Gitbook as a graphical user interface \(GUI\) to edit content and update personal Github repositories. It is an in-browser editor and as a result improves efficiency compared to using special programs which may be more difficult for non-technical users to navigate.
 
 ### Google Docs
 
@@ -127,7 +126,7 @@ If you are using Google Docs to write, consider using Visual Studio Code and ins
     - **Correct:** `(SOMETHING)`
     - **Incorrect:** `\(SOMETHING\)`
 - Add tasks using check-boxes as projects grow.
-  - A dash and brackets (`- []`) on a new line show up as a check-box in GitHub's UI.
+  - A dash and brackets \(`- []`\) on a new line show up as a check-box in GitHub's UI.
   - **Example:**
     - \[ \]
 - Ensure there is a single hard return at the end of a .md file.
@@ -150,12 +149,11 @@ If you are using Google Docs to write, consider using Visual Studio Code and ins
   - **Incorrect:** `Meeting Transcript Episode 01.md`
 - Use descriptive names for Markdown files and versions.
   - Filenames should contain information specific to the contents of the file.
-    - Context is provided from the directory or through the presentation layer (e.g., GitBooks).
+    - Context is provided from the directory or through the presentation layer \(e.g., GitBooks\).
   - **Correct:** `meeting-summary-ep-01.md`
   - **Incorrect:** `scientific-governance-and-risk-meeting-summary-ep-01.md`
 
-**Pro Tip:**
-For a document's final draft, name it "Final draft, moving to GitHub." Post a link to the HackMD file or a relevant page on GitHub.
+**Pro Tip:** For a document's final draft, name it "Final draft, moving to GitHub." Post a link to the HackMD file or a relevant page on GitHub.
 
 ### Miscellaneous
 

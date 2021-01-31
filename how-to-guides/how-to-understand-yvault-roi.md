@@ -139,7 +139,7 @@ When Jane now looks at her balance of wrapped tokens, she will see that they hav
 
 $$F = I * P = 95.7 * 1.05 = 100.5$$
 
-At this point, she could withdraw and receive her initial yCRV deposit and an additional amount of yCRV tokens, giving her a return of 0.5% on her initial investment (ignoring the 0.5% withdrawal fee).
+At this point, she could withdraw and receive her initial yCRV deposit and an additional amount of yCRV tokens, giving her a return of 0.5% on her initial investment \(ignoring the 0.5% withdrawal fee\).
 
 ### Conclusions
 

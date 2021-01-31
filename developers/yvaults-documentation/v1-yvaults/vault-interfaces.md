@@ -19,12 +19,12 @@ function want() external view returns (address);
 {% endtabs %}
 
 |        |     | type    | desc                                               |
-| ------ | --- | ------- | -------------------------------------------------- |
+| :----- | :-- | :------ | :------------------------------------------------- |
 | Output | 0   | address | Address of the token the Strategy takes as deposit |
 
 ### function `deposit()`
 
-Deposits token (same as `want()` returns) into a smart contact specified by the Strategy.
+Deposits token \(same as `want()` returns\) into a smart contact specified by the Strategy.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -55,12 +55,12 @@ function withdraw(address) external;
 {% endtabs %}
 
 |       |     | type    | desc                       |
-| ----- | --- | ------- | -------------------------- |
+| :---- | :-- | :------ | :------------------------- |
 | Input | 0   | address | ERC-20 token to be drained |
 
 ### function `withdraw(uint256)`
 
-Partially withdraws funds (denominated in `want()` token) from the Strategy, and should always only be sending these to the Vault. In case the Strategy implements `harvest()`, a withdrawal fee may be applied. This function should have access control enforcing the Controller only to be its allowed caller.
+Partially withdraws funds \(denominated in `want()` token\) from the Strategy, and should always only be sending these to the Vault. In case the Strategy implements `harvest()`, a withdrawal fee may be applied. This function should have access control enforcing the Controller only to be its allowed caller.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -73,7 +73,7 @@ function withdraw(uint256) external;
 {% endtabs %}
 
 |       |     | type | desc                   |
-| ----- | --- | ---- | ---------------------- |
+| :---- | :-- | :--- | :--------------------- |
 | Input | 0   | uint | Amount to be withdrawn |
 
 ### function `skim()`
@@ -111,7 +111,7 @@ function withdrawAll() external returns (uint256);
 {% endtabs %}
 
 |        |     | type    | desc                 |
-| ------ | --- | ------- | -------------------- |
+| :----- | :-- | :------ | :------------------- |
 | Output | 0   | uint256 | The amount withdrawn |
 
 ### function `balanceOf()`
@@ -129,7 +129,7 @@ function balanceOf() external view returns (uint256);
 {% endtabs %}
 
 |        |     | type    | desc                              |
-| ------ | --- | ------- | --------------------------------- |
+| :----- | :-- | :------ | :-------------------------------- |
 | Output | 0   | uint256 | Strategy's `want()` token balance |
 
 ## IVault
@@ -151,7 +151,7 @@ function token() external view returns (address);
 {% endtabs %}
 
 |        |     | type    | desc                                   |
-| ------ | --- | ------- | -------------------------------------- |
+| :----- | :-- | :------ | :------------------------------------- |
 | Output | 0   | address | Vault’s unwrapped native token address |
 
 ### function `underlying()`
@@ -170,7 +170,7 @@ function underlying() external view returns (address);
 {% endtabs %}
 
 |        |     | type    | desc                                              |
-| ------ | --- | ------- | ------------------------------------------------- |
+| :----- | :-- | :------ | :------------------------------------------------ |
 | Output | 0   | address | Delegated Vault’s underlying native token address |
 
 ### function `name()`
@@ -188,7 +188,7 @@ function name() external view returns (string memory);
 {% endtabs %}
 
 |        |     | type   | desc                       |
-| ------ | --- | ------ | -------------------------- |
+| :----- | :-- | :----- | :------------------------- |
 | Output | 0   | string | Vault’s wrapped token name |
 
 ### function `symbol()`
@@ -206,7 +206,7 @@ function symbol() external view returns (string memory);
 {% endtabs %}
 
 |        |     | type   | desc                         |
-| ------ | --- | ------ | ---------------------------- |
+| :----- | :-- | :----- | :--------------------------- |
 | Output | 0   | string | Vault’s wrapped token symbol |
 
 ### function `decimals()`
@@ -224,7 +224,7 @@ function decimals() external view returns (uint8);
 {% endtabs %}
 
 |        |     | type  | desc                                         |
-| ------ | --- | ----- | -------------------------------------------- |
+| :----- | :-- | :---- | :------------------------------------------- |
 | Output | 0   | uint8 | No of decimals of the vault's wrapped token. |
 
 ### func `controller()`
@@ -242,7 +242,7 @@ function controller() external view returns (address);
 {% endtabs %}
 
 |        |     | type    | desc                        |
-| ------ | --- | ------- | --------------------------- |
+| :----- | :-- | :------ | :-------------------------- |
 | Output | 0   | address | Vault’s Controller contract |
 
 ### function `governance()`
@@ -260,7 +260,7 @@ function governance() external view returns (address);
 {% endtabs %}
 
 |        |     | type    | desc                        |
-| ------ | --- | ------- | --------------------------- |
+| :----- | :-- | :------ | :-------------------------- |
 | Output | 0   | address | Vault’s Governance contract |
 
 ### function `getPricePerFullShare()`
@@ -286,12 +286,12 @@ function getPricePerFullShare() external view returns (uint256);
 {% endtabs %}
 
 |        |     | type    | desc                                                                         |
-| ------ | --- | ------- | ---------------------------------------------------------------------------- |
+| :----- | :-- | :------ | :--------------------------------------------------------------------------- |
 | Output | 0   | uint256 | Price of the Vault’s wrapped token denominated in the unwrapped native token |
 
 ### function `deposit()`
 
-Deposits the specified amount of the native unwrapped token (same as `token()` returns) into the Vault.
+Deposits the specified amount of the native unwrapped token \(same as `token()` returns\) into the Vault.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -304,12 +304,12 @@ function deposit(uint256) external;
 {% endtabs %}
 
 |       |     | type    | desc                              |
-| ----- | --- | ------- | --------------------------------- |
+| :---- | :-- | :------ | :-------------------------------- |
 | Input | 0   | uint256 | Amount to deposit into the Vault. |
 
 ### function `depositAll()`
 
-Deposits the maximum available amount of the native unwrapped token (same as `token()` returns) into the Vault.
+Deposits the maximum available amount of the native unwrapped token \(same as `token()` returns\) into the Vault.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -323,7 +323,7 @@ function depositAll() external;
 
 ### function `withdraw()`
 
-Withdraws the specified amount of the native unwrapped token (same as `token()` returns) from the Vault.
+Withdraws the specified amount of the native unwrapped token \(same as `token()` returns\) from the Vault.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -336,12 +336,12 @@ function withdraw(uint256) external;
 {% endtabs %}
 
 |       |     | type    | desc                               |
-| ----- | --- | ------- | ---------------------------------- |
+| :---- | :-- | :------ | :--------------------------------- |
 | Input | 0   | uint256 | Amount to withdraw from the Vault. |
 
 ### function `withdrawAll()`
 
-Withdraws the maximum available amount of the native unwrapped token (same as `token()` returns) from the Vault.
+Withdraws the maximum available amount of the native unwrapped token \(same as `token()` returns\) from the Vault.
 
 {% tabs %}
 {% tab title="Solidity" %}
@@ -372,7 +372,7 @@ function withdraw(address, uint256) external;
 {% endtabs %}
 
 |       |     | type    | desc                                     |
-| ----- | --- | ------- | ---------------------------------------- |
+| :---- | :-- | :------ | :--------------------------------------- |
 | Input | 0   | address | Address of the Strategy to withdraw from |
 | Input | 1   | uint256 | Amount to withdraw                       |
 
@@ -391,7 +391,7 @@ function balanceOf(address) external view returns (uint256);
 {% endtabs %}
 
 |        |     | type    | desc                               |
-| ------ | --- | ------- | ---------------------------------- |
+| :----- | :-- | :------ | :--------------------------------- |
 | Input  | 0   | address | Token that is used in the Strategy |
 | Output | 0   | uint256 | Balance of the specified token     |
 
@@ -410,14 +410,14 @@ function earn(address, uint256) external;
 {% endtabs %}
 
 |       |     | type    | desc                                                 |
-| ----- | --- | ------- | ---------------------------------------------------- |
+| :---- | :-- | :------ | :--------------------------------------------------- |
 | Input | 0   | address | Token to be withdrawn to the Vault from the Strategy |
 | Input | 1   | uint256 | Amount to be withdrawn                               |
 
 ### function `want()`
 
 {% hint style="info" %}
-Not used by the currently deployed controller. Please refer to [`Strategy.want()`](#function-want) instead.
+Not used by the currently deployed controller. Please refer to [`Strategy.want()`](vault-interfaces.md#function-want) instead.
 {% endhint %}
 
 {% tabs %}
@@ -445,7 +445,7 @@ function rewards() external view returns (address);
 {% endtabs %}
 
 |        |     | type    | desc              |
-| ------ | --- | ------- | ----------------- |
+| :----- | :-- | :------ | :---------------- |
 | Output | 0   | address | Treasury contract |
 
 ### function `vaults()`
@@ -463,7 +463,7 @@ function vaults(address) external view returns (address);
 {% endtabs %}
 
 |        |     | type    | desc                                                      |
-| ------ | --- | ------- | --------------------------------------------------------- |
+| :----- | :-- | :------ | :-------------------------------------------------------- |
 | Input  | 0   | address | Token to find a Vault address for                         |
 | Output | 0   | address | Vault address that is associated with the specified token |
 
@@ -482,6 +482,6 @@ function strategies(address) external view returns (address);
 {% endtabs %}
 
 |        |     | type    | desc                                                         |
-| ------ | --- | ------- | ------------------------------------------------------------ |
+| :----- | :-- | :------ | :----------------------------------------------------------- |
 | Input  | 0   | address | Token to find a Strategy address for                         |
 | Output | 0   | address | Strategy address that is associated with the specified token |
