@@ -29,7 +29,6 @@ This visual guide will walk you through every step in depositing funds in a [yVa
 
 ![amount DAI vault](https://i.imgur.com/VaAGaOc.jpg)
 
-
 ### 6. Approve and Deposit
 
 Depositing for the first time requires making two transactions, one approval, and one deposit. Approval is one-time, subsequent deposits can be made in a single transaction. Please ensure there is **ETH in your wallet** to cover the gas cost on Ethereum.
@@ -46,7 +45,6 @@ Depositing for the first time requires making two transactions, one approval, an
 ![deposit vault](https://i.imgur.com/RneAtGx.jpg)
 
 ![approve DAI vault](https://i.imgur.com/pPGoSiP.jpg)
-
 
 ### 7. Receive your yToken (in this case it would be yDAI)
 
