@@ -242,76 +242,50 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### What is a YIP? Why do they matter?
 
-- A YIP or Yearn Improvement Proposal is how features are added to the Yearn ecosystem. Users start a proposal on the forum, discuss it and gauge the sentiment of if the proposal will be accepted. If a lot of users agree with it then it can be posted on-chain for everyone to vote on.
+- A YIP or Yearn Improvement Proposal is how features are added to the Yearn ecosystem. Users start a proposal on the forum, discuss it and gauge the sentiment of if the proposal will be accepted. If a lot of users agree with it then it can be posted on [Snapshot](https://snapshot.page/#/yearn) for everyone to vote on without spending gas.
 
-#### How many people need to vote to pass a YIP proposed on-chain?
+#### How many people need to vote to pass a YIP proposed?
 
-- The quorum is 20%. Which means that 20% of the staked YFI needs to vote on a proposal for it to pass or else it will fail. Also, it has to have at least 50% of the votes for yes.
-- You can post your proposal on-chain first but if people haven't talked about it, they probably won't vote for it.
+- According to [YIP-55](https://gov.yearn.finance/t/yip-55-formalize-the-yip-process/7959) a proposal should be discussed in the forum for at least three days. If after three days there is a 25% “For” vote in the forum poll it will then move to formal voting via Snapshot.
+- As established in [YIP-55](https://gov.yearn.finance/t/yip-55-formalize-the-yip-process/7959) there isn't any quorum requirement for a YIP to be approved, but the votation on [Snapshot](https://snapshot.page/#/yearn) must be open for at least five days and have a majority support (> 50%) in order to pass.
 
 #### How do I make a proposal?
 
 - The default template for proposals can be found on [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance) if you make a post under proposals or discussion it will auto-fill in the template as well.
 - The process is roughly:
-  1. forum discussion
-  2. promote to YIP \(usually done by mods\), add YIP to github, put on chain
+  1. forum discussion (minimum three days)
+  2. promote to YIP \(usually done by mods\), add YIP to github, put on Snapshot (minimum five days off-chain votation)
   3. announce
 
 #### Who can make a proposal?
 
-- Anyone can post a proposal both on the forum and on-chain.
+- Anyone can post a proposal on the forum for discussion within the community. If it's promoted to off-chain votation (via [Snapshot](https://snapshot.page/#/yearn)), only someone holding 1 YFI can submit it to Snapshot. In case your proposal made it to off-chain votation and you don't have enough YFI, mods will help you.
 
 ### Voting
 
 #### How do I vote?
 
-- Stake your YFI and then you can cast your vote for YIPs that are on-chain on the voting [dashboard](https://ygov.finance/vote)
+- Stake your YFI in the governance [contract](https://ygov.finance/stake) or deposit it in the [yYFI vault](https://yearn.finance/vaults) to be able to vote off-chain (gasless) for YIPs on [Snapshot](https://snapshot.page/#/yearn).
 
-#### Can I vote if my YFI is in the YFI vault?
+#### Can I vote if my YFI isn't in the governance contract or in the yYFI vault, for instance providing liquidity in a DEX or in a Maker CDP?
 
-- No, your YFI must be staked in the governance [contract](https://ygov.finance/staking) in order to vote.
+- No, you'll only vote with the YFI that you have in the governance [contract](https://ygov.finance/staking) and in the [yYFI vault](https://yearn.finance/vaults) prior to the snapshot taken at the start of each off-chain votation.
 
 #### Where can I view the YIPs?
 
-- You can view them on the voting [dashboard](https://ygov.finance/vote) if you login to your web3 account or at [yips.yearn.finance](https://yips.yearn.finance/all-yip).
+- You can view them on [Snapshot](https://snapshot.page/#/yearn) or at [yips.yearn.finance](https://yips.yearn.finance/all-yip).
 
-#### Why should I stake? What is the APY \(Annual Percentage Yield\)?
+#### Why should I stake? Do I get any rewards?
 
-- You should stake if you want to vote on YIPs and get rewards that are generated from the Yearn ecosystem. The APY for staking is currently not listed on the UI. You can ask on the chat what the rate is.
-
-#### What do I have to do to get rewards with my YFI?
-
-- All you need to do is stake YFI at [ygov.finance/stake](https://ygov.finance/stake) and you will get rewards if the treasury is at or above 500k usd. You can check the treasury address [here](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
-- Note that if you stake you get rewards \(as long as they are not going to the treasury\) but you can only claim them within 3 days of voting.
+- You should stake only if you want to vote on YIPs. After [YIP-56](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929) there isn't any rewards distributed to governance stakers. Instead, all the fees collected by the protocol are used to buy back YFI on the open market. These YFI is used to reward contributors and other Yearn initiatives.
 
 #### Does staking my YFI matter for voting?
 
-- Yes. You have to stake your YFI at [ygov.finance/stake](https://ygov.finance/stake) in the v2 tab under Governance V2 to have your votes count. As of now, you can vote without staking, but you will waste your gas and it won't count so make sure you have staked first if you want to vote.
+- Yes. You have to stake your YFI at [ygov.finance/stake](https://ygov.finance/stake) in the v2 tab under Governance V2 or in the [yYFI vault](https://yearn.finance/vaults) to have your votes counted. Since Yearn uses [Snapshot](https://snapshot.page/#/yearn) for off-chain votations, for each YIP voted off-chain there'll be a snapshot at a given block of all the YFI tokens staked in governance and in the vault. Only people with YFI staked in governance or in the vault at the time of the snapshot will be able to vote in that YIP.
 
-#### What if I want to take my YFI out before the end of the vote lock?
+#### What’s the difference between voting for a poll on the forum and an off-chain vote?
 
-- You can't, sorry. The lock lasts 3 days after you last voted, until then you cannot unstake your tokens.
-- If you try to unstake your tokens before the lock ends you will see a very high gas cost, this is an error, you will not be able to unstake until the 3 day lock has ended
-
-#### I voted and I know the vote lock is 3 days, is there anywhere I can see exactly how long I have left till I can unstake my YFI?
-
-- Yes! You can read the contract directly ygov.finance staking [contract](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992#readContract) go to 28 votelock and input your eth address. This will give you the eth block number when you can unstake.
-
-#### What’s the difference between voting for a poll on the forum and an on-chain vote?
-
-- A poll just gauges the sentiment of what the community is feeling on the proposal while a on-chain vote will be binding and will take effect if it passes.
-
-#### What about the new gasless voting thing?
-
-- We now have an off-chain signaling system that uses staked balances from ygov. This replaces the older, informal forum polls which were vulnerable to sybil attacks. It can do multiple choice and doesn't cost gas to use, you sign with your wallet instead. We still use the normal on-chain voting system for YIPs.
-
-#### How long is my YFI tied up if I stake it?
-
-- Your YFI is locked for 3 days after you vote.
-
-#### Why can't I claim my staking rewards!
-
-- To claim your staking rewards you have to 1\) be staked and 2\) have voted within 3 days to be able to claim them. This will be fixed in an update soon.
+- A poll just gauges the sentiment of what the community is feeling on the proposal while an off-chain vote (via [Snapshot](https://snapshot.page/#/yearn)) will be binding and will take effect if it passes.
 
 ### yDAO
 
@@ -417,11 +391,11 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ### How to Participate?
 
-- You can participate in YFI by voting on YIPs that are active, discussing the YIPs yet to be proposed on-chain on the forums and talking about YFI in the Telegram and Discord. If you know a second language help us translate the site and YIPs into that language.
+- You can participate in YFI by voting on YIPs that are active, discussing the YIPs yet to be proposed off-chain on the forums and talking about YFI in the Telegram and Discord. If you know a second language help us translate the site and YIPs into that language.
 
 ### Ongoing efforts to improve the Yearn ecosystem
 
-- You can view the active YIPs [here](https://yips.yearn.finance/all-yip)
+- You can view the active YIPs in the [Snapshot](https://snapshot.page/#/yearn) website or [here](https://yips.yearn.finance/all-yip).
 
 ## User Interface
 
