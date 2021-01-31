@@ -11,7 +11,6 @@
   - [How to Understand CRV Vote Locking](how-to-guides/how-to-understand-crv-vote-locking.md)
   - [How To Understand yVault ROI](how-to-guides/how-to-understand-yvault-roi.md)
   - [How To Withdraw from yEarn and yVaults](how-to-guides/how-to-withdraw-from-yEarn-and-yVaults.md)
-- [Governance](governance.md)
 - [YFI and yTokens](yfi-and-ytokens.md)
 - [yUSD](yusd.md)
 
@@ -21,6 +20,7 @@
 - [Earn](products/earn.md)
 - [Zap](products/zap.md)
 - [yInsure](products/yinsure.md)
+- [yGift](products/ygift.md)
 
 ## R&D
 
@@ -87,3 +87,5 @@
 ## Contributors
 
 - [Contribute](contributors/README.md)
+- [Contributor Tools](contributors/contributor-tools.md)
+- [Writing Style Guide](contributors/writing-style-guide.md)

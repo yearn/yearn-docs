@@ -61,7 +61,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 #### What are the risks?
 
 - While the assets deposited can't decrease, the debt of the vault can increase. If a strategy does not manage to outperform the debt, then a portion of the asset will be impermanently locked. If a strategy later outperforms the debt again, the asset will again be available to withdraw. There are mechanisms in the vaults to prevent this but nothing is bulletproof.
-- As of now, only _some_ Vaults have been [audited](https://github.com/iearn-finance/yearn-audits/blob/bdb3868c98e4fe2427898db05154942a9192efb1/MixBytes%20-%20Yearn.Finance%20protocol%20v.1%20Smart%20Contracts%20Audit%20Security%20Audit%20Report.pdf).
+- As of now, only _some_ Vaults have been [audited](https://github.com/iearn-finance/yearn-security/tree/master/audits).
 - Smart contract risk with any contracts that the vaults interact with.
 
 #### What are the different yVaults?
@@ -82,12 +82,12 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 **Other Vaults**
 
-- v1 Money Market vaults, formerly called iEarn, can be found [here](https://yearn.finance/earn).
+- v1 Money Market vaults, formerly called iEarn, can be found [here](https://v1.yearn.finance/earn).
 - Additional vaults can be found [here](https://yearn.finance/vaults).
 
-#### If the current strategy for the yCRV vault is farming CRV does it just get added to my balance when I withdrawal?
+#### If the current strategy for the yCRV vault is farming CRV does it just get added to my balance when I withdraw?
 
-- No. The vault will farm CRV then sell it on the market automatically. When you withdrawal you will get more yCRV.
+- No. The vault will farm CRV then sell it on the market automatically. When you withdraw you will get more yCRV.
 
 #### Why isn't yCRV worth \$1, it's a stable coin right?
 
@@ -101,42 +101,29 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 - You can’t get the same numbers for two completely different coins. The new sBTC is following the same strategy that the yCRV vault using curve liquidity pool. The obvious answer is that there aren’t many safe platforms accepting YFI as stake so there aren’t much valid strategies for the YFI vault right now.
 
-#### I deposited into a vault, what will I get out when I withdrawal?
+#### I deposited into a vault, what will I get out when I withdraw?
 
 - You can only withdraw the crypto asset type that you put in.
 - You will get the amount you originally put in, plus the yield you've earned, minus the fees.
 
 #### What are the Fees?
 
-- **0.5% fee** on funds withdrawn from active strategies
-  - Each vault has some amount of the total funds idle and most of them active in the strategy. The idle funds are the difference between `vault holdings` and `strategy holdings`, you can see them on [feel the Yearn](https://feel-the-Yearn.app/).
-  - When you withdraw, if your funds come from the idle funds, you won't be charged any withdrawal fee. If they come from the strategy, you will be charged the 0.5% fee.
-- **5% fee** on additional yield
-  - For community-made strategies, like the new yETH vault, currently 10% of this fee goes to the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
+| Vault Version | Management Fee | Performance Fee | Withdrawal Fee |
+| ------------- | -------------- | --------------- | -------------- |
+| v1            | N/A            | 5%              | 0.5%           |
+| v2            | 2%             | 20%             | N/A            |
 
-#### Can you explain the 5% fee on additional yield?
+**Notes:**
 
-- Formerly this was called a "5% fee on subsidized gas" which confused literally everyone except Andre. Technically it is not a performance fee — it's a fee on the some profit-generating transactions that incur high gas costs and are critical to the vault's internal functioning.
-- Each vault has multiple levels. Here are two examples that show where this fee is taken when the `harvest()` function is called.
-- yCRV Vault example:
-  - Level 1: stablecoins earn interest in money markets \(compound, aave, dydx\)
-  - Level 2: the level 1 tokens \(yDAI, yUSDC, yUSDT, and yTUSD\) are provided as liquidty to the yCRV pool to earn trading fees
-  - Level 3: the strategy earns CRV token rewards which it recycles into yCRV—**this is the only level where the 5% fee is taken.**
-- USDC Vault example:
-  - Level 1: Interest for being lent out at Compound
-  - Level 2: COMP liquidated to USDC
-  - Level 3: The strategy earns DF tokens rewards from DForce that get harvested and sold for USDC—**this is the only level where the 5% fee is taken.**
-
-#### Where do the fees go?
-
-- They go to a dedicated treasury [contract](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde).
-- From the treasury they stay up to the \$500k limit, over that amount they are redirected to the governance staking [contract](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992).
-
-#### Did the fees always go there?
-
-- No, when Yearn started they went directly to Andre's [address](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c).
-- Then we handed off to the [multisig](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) and fees went directly there.
-- And before our current gov v2, staking rewards went [here](https://etherscan.io/address/0xb01419E74D8a2abb1bbAD82925b19c36C191A701)
+- **Withdrawal Fee** only applies on funds withdrawn from active Strategies.
+  - Each vault has some amount of the total funds idle and most of them active in the Strategy.
+  - Idle funds is the difference between `vault holdings` and `strategy holdings`, and can be seen on [feel the Yearn](https://feel-the-Yearn.app/).
+  - When there is a withdrawal, if idle funds can cover the full amount, there will not be a withdrawal fee applied. If funds will need to be pulled from the Strategy in order to cover the withdrawal request, the Withdrawal Fee is applied.
+- **Performance Fee** is only applied on the performance gains.
+  - For v1 vaults, the proceeds from this fee is split between Treasury and Strategist 90:10.
+  - For v2 vaults, the split between Treasury and Strategist is 50:50.
+- **Management Fee** is annualized and assigned to Treasury. It accrues per block, is collected on each harvest and is applied on the total of the funds managed by the Strategy.
+- **Further reading**, see [YIP-51](https://yips.yearn.finance/YIPS/yip-51), [YIP-52](https://yips.yearn.finance/YIPS/yip-52), [YIP-54](https://yips.yearn.finance/YIPS/yip-54), and [YIP-56](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929).
 
 #### Yield
 
@@ -172,7 +159,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ### Earn
 
-- [yearn.finance/earn](https://yearn.finance/earn)
+- [yearn.finance/earn](https://v1.yearn.finance/earn)
 
 #### What is Earn?
 
@@ -255,76 +242,50 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### What is a YIP? Why do they matter?
 
-- A YIP or Yearn Improvement Proposal is how features are added to the Yearn ecosystem. Users start a proposal on the forum, discuss it and gauge the sentiment of if the proposal will be accepted. If a lot of users agree with it then it can be posted on-chain for everyone to vote on.
+- A YIP or Yearn Improvement Proposal is how features are added to the Yearn ecosystem. Users start a proposal on the forum, discuss it and gauge the sentiment of if the proposal will be accepted. If a lot of users agree with it then it can be posted on [Snapshot](https://snapshot.page/#/yearn) for everyone to vote on without spending gas.
 
-#### How many people need to vote to pass a YIP proposed on-chain?
+#### How many people need to vote to pass a YIP proposed?
 
-- The quorum is 20%. Which means that 20% of the staked YFI needs to vote on a proposal for it to pass or else it will fail. Also, it has to have at least 50% of the votes for yes.
-- You can post your proposal on-chain first but if people haven't talked about it, they probably won't vote for it.
+- According to [YIP-55](https://gov.yearn.finance/t/yip-55-formalize-the-yip-process/7959) a proposal should be discussed in the forum for at least three days. If after three days there is a 25% “For” vote in the forum poll it will then move to formal voting via Snapshot.
+- As established in [YIP-55](https://gov.yearn.finance/t/yip-55-formalize-the-yip-process/7959) there isn't any quorum requirement for a YIP to be approved, but the votation on [Snapshot](https://snapshot.page/#/yearn) must be open for at least five days and have a majority support (> 50%) in order to pass.
 
 #### How do I make a proposal?
 
 - The default template for proposals can be found on [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance) if you make a post under proposals or discussion it will auto-fill in the template as well.
 - The process is roughly:
-  1. forum discussion
-  2. promote to YIP \(usually done by mods\), add YIP to github, put on chain
+  1. forum discussion (minimum three days)
+  2. promote to YIP \(usually done by mods\), add YIP to github, put on Snapshot (minimum five days off-chain votation)
   3. announce
 
 #### Who can make a proposal?
 
-- Anyone can post a proposal both on the forum and on-chain.
+- Anyone can post a proposal on the forum for discussion within the community. If it's promoted to off-chain votation (via [Snapshot](https://snapshot.page/#/yearn)), only someone holding 1 YFI can submit it to Snapshot. In case your proposal made it to off-chain votation and you don't have enough YFI, mods will help you.
 
 ### Voting
 
 #### How do I vote?
 
-- Stake your YFI and then you can cast your vote for YIPs that are on-chain on the voting [dashboard](https://ygov.finance/vote)
+- Stake your YFI in the governance [contract](https://ygov.finance/stake) or deposit it in the [yYFI vault](https://yearn.finance/vaults) to be able to vote off-chain (gasless) for YIPs on [Snapshot](https://snapshot.page/#/yearn).
 
-#### Can I vote if my YFI is in the YFI vault?
+#### Can I vote if my YFI isn't in the governance contract or in the yYFI vault, for instance providing liquidity in a DEX or in a Maker CDP?
 
-- No, your YFI must be staked in the governance [contract](https://ygov.finance/staking) in order to vote.
+- No, you'll only vote with the YFI that you have in the governance [contract](https://ygov.finance/staking) and in the [yYFI vault](https://yearn.finance/vaults) prior to the snapshot taken at the start of each off-chain votation.
 
 #### Where can I view the YIPs?
 
-- You can view them on the voting [dashboard](https://ygov.finance/vote) if you login to your web3 account or at [yips.yearn.finance](https://yips.yearn.finance/all-yip).
+- You can view them on [Snapshot](https://snapshot.page/#/yearn) or at [yips.yearn.finance](https://yips.yearn.finance/all-yip).
 
-#### Why should I stake? What is the APY \(Annual Percentage Yield\)?
+#### Why should I stake? Do I get any rewards?
 
-- You should stake if you want to vote on YIPs and get rewards that are generated from the Yearn ecosystem. The APY for staking is currently not listed on the UI. You can ask on the chat what the rate is.
-
-#### What do I have to do to get rewards with my YFI?
-
-- All you need to do is stake YFI at [ygov.finance/stake](https://ygov.finance/stake) and you will get rewards if the treasury is at or above 500k usd. You can check the treasury address [here](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
-- Note that if you stake you get rewards \(as long as they are not going to the treasury\) but you can only claim them within 3 days of voting.
+- You should stake only if you want to vote on YIPs. After [YIP-56](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929) there isn't any rewards distributed to governance stakers. Instead, all the fees collected by the protocol are used to buy back YFI on the open market. These YFI is used to reward contributors and other Yearn initiatives.
 
 #### Does staking my YFI matter for voting?
 
-- Yes. You have to stake your YFI at [ygov.finance/stake](https://ygov.finance/stake) in the v2 tab under Governance V2 to have your votes count. As of now, you can vote without staking, but you will waste your gas and it won't count so make sure you have staked first if you want to vote.
+- Yes. You have to stake your YFI at [ygov.finance/stake](https://ygov.finance/stake) in the v2 tab under Governance V2 or in the [yYFI vault](https://yearn.finance/vaults) to have your votes counted. Since Yearn uses [Snapshot](https://snapshot.page/#/yearn) for off-chain votations, for each YIP voted off-chain there'll be a snapshot at a given block of all the YFI tokens staked in governance and in the vault. Only people with YFI staked in governance or in the vault at the time of the snapshot will be able to vote in that YIP.
 
-#### What if I want to take my YFI out before the end of the vote lock?
+#### What’s the difference between voting for a poll on the forum and an off-chain vote?
 
-- You can't, sorry. The lock lasts 3 days after you last voted, until then you cannot unstake your tokens.
-- If you try to unstake your tokens before the lock ends you will see a very high gas cost, this is an error, you will not be able to unstake until the 3 day lock has ended
-
-#### I voted and I know the vote lock is 3 days, is there anywhere I can see exactly how long I have left till I can unstake my YFI?
-
-- Yes! You can read the contract directly ygov.finance staking [contract](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992#readContract) go to 28 votelock and input your eth address. This will give you the eth block number when you can unstake.
-
-#### What’s the difference between voting for a poll on the forum and an on-chain vote?
-
-- A poll just gauges the sentiment of what the community is feeling on the proposal while a on-chain vote will be binding and will take effect if it passes.
-
-#### What about the new gasless voting thing?
-
-- We now have an off-chain signaling system that uses staked balances from ygov. This replaces the older, informal forum polls which were vulnerable to sybil attacks. It can do multiple choice and doesn't cost gas to use, you sign with your wallet instead. We still use the normal on-chain voting system for YIPs.
-
-#### How long is my YFI tied up if I stake it?
-
-- Your YFI is locked for 3 days after you vote.
-
-#### Why can't I claim my staking rewards!
-
-- To claim your staking rewards you have to 1\) be staked and 2\) have voted within 3 days to be able to claim them. This will be fixed in an update soon.
+- A poll just gauges the sentiment of what the community is feeling on the proposal while an off-chain vote (via [Snapshot](https://snapshot.page/#/yearn)) will be binding and will take effect if it passes.
 
 ### yDAO
 
@@ -430,11 +391,11 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 ### How to Participate?
 
-- You can participate in YFI by voting on YIPs that are active, discussing the YIPs yet to be proposed on-chain on the forums and talking about YFI in the Telegram and Discord. If you know a second language help us translate the site and YIPs into that language.
+- You can participate in YFI by voting on YIPs that are active, discussing the YIPs yet to be proposed off-chain on the forums and talking about YFI in the Telegram and Discord. If you know a second language help us translate the site and YIPs into that language.
 
 ### Ongoing efforts to improve the Yearn ecosystem
 
-- You can view the active YIPs [here](https://yips.yearn.finance/all-yip)
+- You can view the active YIPs in the [Snapshot](https://snapshot.page/#/yearn) website or [here](https://yips.yearn.finance/all-yip).
 
 ## User Interface
 
@@ -503,7 +464,6 @@ But if you think something can be improved, or you found a bug, we want to squas
 ### Statistics
 
 - [yieldfarming.info](https://yieldfarming.info/)
-- [yVault ROI Calculator](https://py-earn.herokuapp.com/)
 - [stats.finance/yearn](https://stats.finance/yearn)
 - [Feel The Yearn](https://feel-the-yearn.vercel.app/)
 - Initial Distribution [Dune Dashboard](https://explore.duneanalytics.com/dashboard/yearn)

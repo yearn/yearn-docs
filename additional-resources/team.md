@@ -13,9 +13,9 @@
 | Team Member                                               | Twitter                                                 | Github                                         |
 | :-------------------------------------------------------- | :------------------------------------------------------ | :--------------------------------------------- |
 | [@andre.cronje](https://gov.yearn.finance/u/andre.cronje) | [@AndreCronjeTech](https://twitter.com/andrecronjetech) | [@andrecronje](https://github.com/andrecronje) |
-| [@doug](https://gov.yearn.finance/u/doug)                 | [@doug_molinam](https://twitter.com/doug_molinam)       | [@dmolina79](https://github.com/dmolina79)     |
+| [@doug](https://gov.yearn.finance/u/doug)                 | [@doug_storming](https://twitter.com/doug_storming)     | [@dougstorm](https://github.com/dougstorm)     |
 | [@fubuloubu](https://gov.yearn.finance/u/fubuloubu)       | [@fubuloubu](https://twitter.com/fubuloubu)             | [@fubuloubu](https://github.com/fubuloubu)     |
-| [@luciano](https://gov.yearn.finance/u/luciano)           | [@lbertenasco](https://twitter.com/lbertenasco)         | [@lbertenasco](https://github.com/lbertenasco) |
+| [@lbertenasco](https://gov.yearn.finance/u/lbertenasco)   | [@lbertenasco](https://twitter.com/lbertenasco)         | [@lbertenasco](https://github.com/lbertenasco) |
 | [@x48](https://gov.yearn.finance/u/x48)                   | [@x48_crypto](https://twitter.com/x48_crypto)           | [@x48-crypto](https://github.com/x48-crypto/)  |
 
 ## Academic "Public Good"

@@ -6,13 +6,13 @@ yVaults have a 0.5% withdrawal fee and a 5% fee on additional yield whenever the
 
 ### Available yVaults
 
-An updated list of the active yVaults can be found in [https://yearn.finance/vaults](https://yearn.finance/vaults). In [feel-the-yearn](https://feel-the-yearn.app/vaults) you can find not only the list of active yVaults, but also their respective strategies and the address of the token than can be deposited into each yVault.
+You can access the list of currently available vaults at [https://yearn.finance/vaults](https://yearn.finance/vaults). Tokens are deposited into their respective yVaults and are then reinvested based on the best current opportunities in the market.
 
-The vaults are created and maintained by a Controller, who oversees the strategy execution. Profits generated from each respective vault are used to purchase more of the underlying asset in each vault \(e.g., the YFI vault's profits are used to purchase additional YFI\); therefore, _the vaults represent a a continuous buy-and-hold strategy._
+Profits generated are used to purchase more of the underlying asset of each vault \(e.g., the YFI vault's profits are used to purchase additional YFI\); therefore, _the vaults represent a continuous buy-and-hold strategy._
 
 ### yETH Vault Mechanics
 
-The Controller opens a colleratlized debt position \(CDP\) at MakerDAO using ETH as collateral and mints DAI. The DAI is deposited into the yDAI vault. The collateralization ratio—a metric of financial leverage—is targeted to always be at least 200%. Automated bots periodically pay down the DAI debt if the ratio falls below 200%. The DAI is redeemed from [Curve](http://curve.fi/) and is not purchased from the open market \(i.e., yDAI is burned and redeemed for DAI\). Excess DAI earned from yield farming are used to purchase additional ETH, which is deposited into the yETH vault.
+The Controller opens a collateralized debt position \(CDP\) at MakerDAO using ETH as collateral and mints DAI. The DAI is deposited into the yDAI vault. The collateralization ratio—a metric of financial leverage—is targeted to always be at least 200%. Automated bots periodically pay down the DAI debt if the ratio falls below 200%. The DAI is redeemed from [Curve](http://curve.fi/) and is not purchased from the open market \(i.e., yDAI is burned and redeemed for DAI\). Excess DAI earned from yield farming are used to purchase additional ETH, which is deposited into the yETH vault.
 
 ![](https://i.imgur.com/ZASptpX.png)
 

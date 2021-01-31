@@ -16,7 +16,7 @@
       - In this case, `pool` is taken directly from Curve.fi's UI, and we can adjust for capitalization as needed. In the case of the `3pool`, the redundant "Pool" is removed.
     - Symbol: `yvCurve-pool`
       - **Examples:** `yvCurve-sBTC`, `yvCurve-3pool`, `yvCurve-Y`
-    - Note: In this methodology, `yvCurve-Y` replaces the previously used `yUSD`. In the future, `yUSD` will be used to refer to the Meta Vault token.
+    - Note: In this methodology, `yvCurve-Y` refers to the vault previously known as `yUSD`. Please see below for a more detailed discussion on proper use of `yUSD`.
   - Uniswap
     - Name: `Uniswap + v${self.version()} + TOKEN-TOKEN + Pool yVault`
       - **Examples:** `Uniswap v2 USDT-WETH Pool yVault`, `Uniswap v2 WBTC-WETH Pool yVault`
@@ -29,6 +29,12 @@
     - Symbol: `yvBal-TOKEN-TOKEN`
       - **Examples:** `yvBal-USDT-WETH`, `yvBal-WBTC-WETH`
     - Note: Since Balancer allows more than two tokens per pool, append as many `TOKEN` as needed for the pool in question.
+
+## yUSD
+
+- While the term `yUSD` was used to refer to the Curve Y Pool yVault in the past, under our updated naming convention this vault token is now `yvCurve-Y`. However, usage of `yUSD` is still permissable when referring to the asset itself.
+  - **Example:** Yearn pays monthly grants in `yUSD`.
+- In the future, if Yearn creates a new `yUSD` that is a collection of several yVault tokens (as has been previously discussed), then the current `yUSD` will simply be referred to as `yvCurve-Y` and only the new token will be `yUSD`.
 
 ## yEarn
 
