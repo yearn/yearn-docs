@@ -30,18 +30,18 @@ This visual guide will walk you through every step in depositing funds in a [yVa
 ![amount DAI vault](https://i.imgur.com/VaAGaOc.jpg)
 
 
-### 6. Approve 2 transactions
+### 6. Approve and Deposit
 
+Depositing for the first time requires making two transactions, one approval, and one deposit. Approval is one-time, subsequent deposits can be made in a single transaction. Please ensure there is **ETH in your wallet** to cover the gas cost on Ethereum.
 
-Depositing requires 2 transactions (make sure there is **enough ETH in your wallet** to cover this):
-- confirmation (first time only)
+- Approval (first time only)
   - Enter from 0 to 100% of your wallet DAI balance then click "Deposit"
-  - confirm transaction in your wallet
-- deposit
+  - Confirm the transaction in your wallet
+- Deposit
   - Enter from 0 to 100% of your wallet DAI balance then click "Deposit"
-  - confirm transaction in your wallet
+  - Confirm the transaction in your wallet
 
-**Important**: Please note before you make a deposit that there is a **0.5% withdrawal fee**. The longer you leave the deposit to earn returns in the Vault, the more likely your returns will exceed the withdrawal fee.
+**Please note:** Depending on the vault you deposit into, fees may be applied. For more info see the [relevant section in the FAQ](../faq.md#what-are-the-fees).
 
 ![deposit vault](https://i.imgur.com/RneAtGx.jpg)
 
