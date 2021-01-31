@@ -1,28 +1,34 @@
-# YFI and yTokens
+# YFI et les yTokens
 
-## YFI
+## 
 
-- Yearn Governance token
-- Only 30,000 minted and already fully distributed
-  - Governance can mint more, if proposal to do so passes.
+## YFI et les yTokens Comment <a id="YFI-et-les-yTokens"></a>
 
-## yTokens
+### YFI <a id="YFI"></a>
 
-- When you deposit into any yearn service your deposit is wrapped and returned as a yToken representing the liquidity provided
-- For example, if you deposit DAI in y.curve.fi you will receive yDAI in return
-- Amounts of yToken and deposited token will differ since the yToken represents a share of a pool that is increasing in value
-- If you deposit a yToken into another yearn service you will get a yyToken back
+* Le jeton de gouvernance de Yearn
+* Seulement 30,000 jetons émis et déjà tous distribués.
+  * Governance can mint more, if proposal to do so passes.
+  * La Gouvernance peut en émettre plus, si une proposition pour le faire est votée.
 
-## yUSD
+### yTokens <a id="yTokens"></a>
 
-- See our [doc on yUSD](https://docs.yearn.finance/yusd) for detailed info
-- LP token for yearn's yCRV yVault
-- aka `yyCRV` or `yyDAI+yUSDC+yUSDT+yTUSD`
-- When you deposit yCRV into the yVault you receive yUSD\*\*\*\* LP tokens
-- earns interest via yCRV, fees and yield farming rewards via the vault strategy
+* Quand vous déposez dans un service Yearn, le dépôt est enveloppé et retourné comme un yToken représentant la liquidité fournie.
+* Par exemple, si vous déposez du DAI dans [y.curve.fi](http://y.curve.fi/), vous recevrez yDAI en retour.
+* Les quantités de yToken et de tokens déposés vont varier puisque le yToken représente la part d’une pool dont la valeur augmente.
+* Si vous déposez un yToken dans un autre service de Yearn, vous recevrez un yyToken.
 
-## yCRV
+### yUSD <a id="yUSD"></a>
 
-- LP token for yearn's Y pool at Curve.fi/y
-- Aka `yDAI+yUSDC+yUSDT+yTUSD`
-- Interest earning token representing your share of the Y pool composed of DAI, USDT, USDC, and TUSD
+* Lire notre [doc on yUSD](https://docs.yearn.finance/yusd) pour plus d’information.
+* LP token pour le yVault yCRV de Yearn.
+* Aussi appelé `yyCRV` ou `yyDAI+yUSDC+yUSDT+yTUSD`
+* Quand vous déposez yCRV dans le yVault vous recevez yUSD\*\*\*\* LP tokens.
+* Ce token gagne des intérêts via yCRV, les frais, et des récompenses de yield farming.
+
+### yCRV <a id="yCRV"></a>
+
+* Token de liquidité pour la pool Y de [Curve.fi/y](http://curve.fi/y)
+* Aussi appelé `yDAI+yUSDC+yUSDT+yTUSD`
+* Token qui gagne des intérêts et représent votre part de la pool Y composée de DAI, , USDT, USDC, and TUSD
+
