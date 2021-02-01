@@ -18,7 +18,7 @@
 
 - [yVaults](products/yvaults-1/README.md)
   - [V2 yVaults](products/yvaults-1/v2-yvaults/README.md)
-    - [Strategies and yVaults available](products/yvaults-1/v2-yvaults/strategies-and-yvaults-availbale.md)
+    - [Strategies and yVaults available](products/yvaults-1/v2-yvaults/strategies-and-yvaults-available.md)
   - [V1 yVaults](products/yvaults-1/yvaults.md)
 - [Earn](products/earn.md)
 - [Zap](products/zap.md)

@@ -6,7 +6,7 @@ The goal of the yVaults program is to empower the community to quickly and safel
 
 Currently there are 2 versions of the yVaults available in our [yearn.finance](https://yearn.finance/vaults) website. You can see from the list which vaults are V1 and which are V2.
 
-For the end user there is no difference, pick the yVault that matches your tokens and APY desired.
+For the end user the main difference is the fees charged, find [here](https://docs.yearn.finance/faq#what-are-the-fees) the explanation. Once you understand it, pick the yVault that matches your tokens and APY desired.
 
 {% page-ref page="v2-yvaults/" %}
 
