@@ -16,7 +16,7 @@ veCRV enables its holders to:
 
 ### Trading fees
 
-50% of all Curve trading fees from September 19 2020 and onwards will be distributed to veCRV holders, in the form of CRV tokens.
+50% of all Curve trading fees from September 19 2020 onwards will be distributed to veCRV holders, in the form of CRV tokens.
 
 ### Reward boosting
 
@@ -45,11 +45,11 @@ Actual veCRV distribution has not yet begun, with a date for this still to be an
 
 Based on Yearn's share of the total veCRV, 50% of trading fees will be claimed as CRV, out of which 10% will in turn be locked into the Curve DAO for more veCRV.
 
-### Bosting liquidity rewards
+### Boosting liquidity rewards
 
 Actual boost provided by Curve vote locking will be determined by a formula as [described above](#Reward-boosting), but will crucially be depending on the total amount of liquidity provided in Curve pools by Yearn and its relative voting power, i.e. its share of the current total of veCRV issued.
 
-A "Yearn boost" tool displaying Yearn's current active and potential boost is in development and will be released once available.
+A "Yearn boost" tool displaying Yearn's current active and potential boost is available [here] (https://crv.ape.tax/).
 
 ## More information
 
