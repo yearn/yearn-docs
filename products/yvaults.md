@@ -2,7 +2,7 @@
 
 The goal of the Vaults program is to empower the community to quickly and safely create and utilize the most effective yield farming robots created by the industry's best strategists.
 
-yVaults have a 0.5% withdrawal fee and a 5% fee on additional yield whenever the `harvest()` function is called, [see the FAQ](https://docs.yearn.finance/faq#what-are-the-fees) for more details. Individual profits are allocated on a pro-rata basis determined by the share each depositor contributes to the pool.
+yVaults have charge fees on deposited assets and the generated yield, [see the FAQ](https://docs.yearn.finance/faq#what-are-the-fees) for more details. Individual profits are allocated on a pro-rata basis determined by the share each depositor contributes to the pool.
 
 ### Available yVaults
 
