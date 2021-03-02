@@ -30,7 +30,7 @@ The Yearn ecosystem is expanding and, as a result, so is the need for documentat
 
 Whether its writing _How To_ guides on using vaults or creating diagrams on how the protocol ties together, there is something for everyone. If you speak another language, translations might be up your alley!
 
-You can see our progress on the [Github Project Board](https://github.com/orgs/iearn-finance/projects/2) where you can look through any issue that interests you. Before contributing: Please see our [How to Use Github](https://hackmd.io/4U35op0ORoGT24lzPhbGNQ) guide and ensure that your PRs adhere to our [Writing Style Guide](https://hackmd.io/dXQecpkJQX6XRy4y7k7j3g).
+You can see our progress on the [Github Project Board](https://github.com/orgs/yearn/projects/2) where you can look through any issue that interests you. Before contributing: Please see our [How to Use Github](https://hackmd.io/4U35op0ORoGT24lzPhbGNQ) guide and ensure that your PRs adhere to our [Writing Style Guide](https://hackmd.io/dXQecpkJQX6XRy4y7k7j3g).
 
 We use a combination of HackMD, Gitbook, and Github for our [Documentation](https://docs.yearn.finance/) and we use [DrawIO](https://draw.io) with Google Drive for our diagrams & schemas. If you are a grammar stickler, you can see our [Reviewer Guide](https://hackmd.io/juTKNn3xTpKJgFDo2AglLw).
 
@@ -48,7 +48,7 @@ If this sounds confusing, please let us know what we can clear up. In the meanti
 
 If you're a developer we need your help! Before you begin: Familiarize yourself with Yearn, its products, and its infrastructure by reading our [Documentation](https://docs.yearn.finance/).
 
-You can see our progress on our [Github Project Board](https://github.com/orgs/iearn-finance/projects/1) and you can immediately begin contributing where you see fit. We recommend checking out issues tagged as `help wanted` and recommend sticking to the respective repository's coding guidelines (linting, formatting, PRs, etc). It's that simple 🙂. You can also join us on the #dev channel in [Discord](https://discord.com/invite/6PNv2nF).
+You can see our progress on our [Github Project Board](https://github.com/orgs/yearn/projects/1) and you can immediately begin contributing where you see fit. We recommend checking out issues tagged as `help wanted` and recommend sticking to the respective repository's coding guidelines (linting, formatting, PRs, etc). It's that simple 🙂. You can also join us on the #dev channel in [Discord](https://discord.com/invite/6PNv2nF).
 
 If you are interested in working on a specific project, check out the list of Yearn products in the [General Resources](#general-resources) section below or check out our list of repos [here](https://docs.yearn.finance/developers/code-repositories).
 
@@ -75,7 +75,7 @@ See our wonderful list of contributors along with individual contribution stats 
 - [Yearn Insurance](https://yinsure.finance/), [Github](https://github.com/yearn/yinsure-finance)
 - [Yearn Borrow](https://yborrow.finance/), [Github](https://github.com/yearn/iborrow-finance)
 - [Yearn Swap](https://yswap.exchange/), [Github](https://github.com/yearn/yswap-finance)
-- [Yearn Documentation](https://docs.yearn.finance/), [Github](https://github.com/yearn/docs)
+- [Yearn Documentation](https://docs.yearn.finance/), [Github](https://github.com/yearn/yearn-docs)
 - [Yearn Forum](https://gov.yearn.finance/)
 
 #### List of Yearn Tools

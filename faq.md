@@ -13,7 +13,7 @@ tags: "docs, faq, published"
 
 ### Is Yearn audited?
 
-- Yes, you can find the list of audits [here](https://github.com/yearn/audits).
+- Yes, you can find audit reports in the [/yearn-security repo](https://github.com/yearn/yearn-security/tree/master/audits).
 
 ## Feedback & Support
 

@@ -19,7 +19,7 @@
   - Repo: [https://github.com/yearn/yswap-finance](https://github.com/yearn/yswap-finance)
 - Yearn Documentation
   - Site: [https://docs.yearn.finance](https://docs.yearn.finance/)
-  - Repo: [https://github.com/yearn/docs](https://github.com/yearn/docs)
+  - Repo: [https://github.com/yearn/yearn-docs](https://github.com/yearn/yearn-docs)
 
 ## Smart Contracts
 
@@ -35,13 +35,14 @@ Yearn smart contracts repo: [https://github.com/yearn/yearn-protocol](https://gi
 
 ## Security
 
-- [Disclosures Repo](https://github.com/yearn/yearn-security/tree/master/disclosures)
+- [Security policy](https://github.com/yearn/yearn-protocol/blob/develop/SECURITY.md)
+- [Security disclosures](https://github.com/yearn/yearn-security/tree/master/disclosures)
+- [Audits](https://github.com/yearn/yearn-security/tree/master/audits)
 
 ## Misc
 
 - [Yearn multisig \(ychad.eth\) budget](https://github.com/yearn/ychad-audit)
 - [Yearn improvement proposals](https://github.com/yearn/YIPS)
-- [Collection of public audits](https://github.com/yearn/audits)
 - [Yearn vault schema](https://github.com/sambacha/yearn-vault-schema)
 
 ## Yearn Community Tools
