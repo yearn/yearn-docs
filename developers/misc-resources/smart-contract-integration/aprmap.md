@@ -1,8 +1,8 @@
 # aprmap
 
-| Contract  | ABI                                                                                            | Address                                                                                                |
-| :-------- | :--------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------- |
-| IIEarnAPR | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/IEarnAPR.json) | [iapr.iearn.eth](https://etherscan.io/address/0x9cad8ab10daa9af1a9d2b878541f41b697268eec#readContract) |
+| Contract  | ABI                                                                                    | Address                                                                                                |
+| :-------- | :------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------- |
+| IIEarnAPR | [JSON](https://github.com/yearn/uniswap-roi/blob/master/build/contracts/IEarnAPR.json) | [iapr.iearn.eth](https://etherscan.io/address/0x9cad8ab10daa9af1a9d2b878541f41b697268eec#readContract) |
 
 ## IIEarnAPR Interface
 

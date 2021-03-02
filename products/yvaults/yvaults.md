@@ -1,6 +1,6 @@
 # V1 yVaults
 
-V1 yVaults have a 0.5% withdrawal fee and a 5% fee on additional yield whenever the `harvest()` function is called, [see the FAQ](https://docs.yearn.finance/faq#what-are-the-fees) for more details. Individual profits are allocated on a pro-rata basis determined by the share each depositor contributes to the pool.
+V1 yVaults have a 0.5% withdrawal fee and a 20% fee on additional yield whenever the `harvest()` function is called, [see the FAQ](https://docs.yearn.finance/faq#what-are-the-fees) for more details. Individual profits are allocated on a pro-rata basis determined by the share each depositor contributes to the pool.
 
 ### Available yVaults
 

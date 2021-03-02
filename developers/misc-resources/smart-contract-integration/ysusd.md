@@ -1,9 +1,9 @@
 # ysusd
 
-| Contract | ABI                                                                                    | Address                                                                                    |
-| :------- | :------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
-| ySUSD    | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/ySUSD.json) | [ysusd.iearn.eth](https://etherscan.io/address/0x36324b8168f960A12a8fD01406C9C78143d41380) |
-| ySUSDv2  | [JSON](https://github.com/iearn-finance/itoken/blob/master/build/contracts/ySUSD.json) | [ysusd.iearn.eth](https://etherscan.io/address/0xF61718057901F84C4eEC4339EF8f0D86D2B45600) |
+| Contract | ABI                                                                            | Address                                                                                    |
+| :------- | :----------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
+| ySUSD    | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/ySUSD.json) | [ysusd.iearn.eth](https://etherscan.io/address/0x36324b8168f960A12a8fD01406C9C78143d41380) |
+| ySUSDv2  | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/ySUSD.json) | [ysusd.iearn.eth](https://etherscan.io/address/0xF61718057901F84C4eEC4339EF8f0D86D2B45600) |
 
 ## IySUSD Interface
 

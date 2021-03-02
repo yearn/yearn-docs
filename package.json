@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iearn-finance/docs.git"
+    "url": "git+https://github.com/yearn/docs.git"
   },
   "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/iearn-finance/docs/issues"
+    "url": "https://github.com/yearn/docs/issues"
   },
   "homepage": "https://docs.yearn.finance/",
   "devDependencies": {

@@ -4,44 +4,44 @@
 
 - Yearn.Finance
   - Site: [https://yearn.finance](https://yearn.finance/)
-  - Repo: [https://github.com/iearn-finance/iearn-finance](https://github.com/iearn-finance/iearn-finance)
+  - Repo: [https://github.com/yearn/iearn-finance](https://github.com/yearn/iearn-finance)
 - Yearn Governance
   - Site: [https://ygov.finance](https://ygov.finance/)
-  - Repo: [https://github.com/iearn-finance/ygov-finance](https://github.com/iearn-finance/ygov-finance)
+  - Repo: [https://github.com/yearn/ygov-finance](https://github.com/yearn/ygov-finance)
 - Yearn Insurance
   - Site: [https://yinsure.finance](https://yinsure.finance/)
-  - Repo: [https://github.com/iearn-finance/yinsure-finance](https://github.com/iearn-finance/yinsure-finance)
+  - Repo: [https://github.com/yearn/yinsure-finance](https://github.com/yearn/yinsure-finance)
 - Yearn Borrow
   - Site: [https://yborrow.finance](https://yborrow.finance/)
-  - Repo: [https://github.com/iearn-finance/iborrow-finance](https://github.com/iearn-finance/iborrow-finance)
+  - Repo: [https://github.com/yearn/iborrow-finance](https://github.com/yearn/iborrow-finance)
 - Yearn Swap
   - Site: [https://yswap.exchange](https://yswap.exchange/)
-  - Repo: [https://github.com/iearn-finance/yswap-finance](https://github.com/iearn-finance/yswap-finance)
+  - Repo: [https://github.com/yearn/yswap-finance](https://github.com/yearn/yswap-finance)
 - Yearn Documentation
   - Site: [https://docs.yearn.finance](https://docs.yearn.finance/)
-  - Repo: [https://github.com/iearn-finance/docs](https://github.com/iearn-finance/docs)
+  - Repo: [https://github.com/yearn/docs](https://github.com/yearn/docs)
 
 ## Smart Contracts
 
-Yearn smart contracts repo: [https://github.com/iearn-finance/yearn-protocol](https://github.com/iearn-finance/yearn-protocol)
+Yearn smart contracts repo: [https://github.com/yearn/yearn-protocol](https://github.com/yearn/yearn-protocol)
 
-- [Controllers](https://github.com/iearn-finance/yearn-protocol/tree/develop/contracts/controllers)
-- [Registries](https://github.com/iearn-finance/yearn-protocol/tree/develop/contracts/registries)
-- [Vaults](https://github.com/iearn-finance/yearn-protocol/tree/develop/contracts/vaults)
-- [Strategies](https://github.com/iearn-finance/yearn-protocol/tree/develop/contracts/strategies)
-- [iToken Wrappers](https://github.com/iearn-finance/itoken/tree/master/contracts)
-- [APR Oracle](https://github.com/iearn-finance/apr-oracle/tree/master/contracts)
-- [Utils](https://github.com/iearn-finance/yearn-protocol/tree/develop/contracts/utils)
+- [Controllers](https://github.com/yearn/yearn-protocol/tree/develop/contracts/controllers)
+- [Registries](https://github.com/yearn/yearn-protocol/tree/develop/contracts/registries)
+- [Vaults](https://github.com/yearn/yearn-protocol/tree/develop/contracts/vaults)
+- [Strategies](https://github.com/yearn/yearn-protocol/tree/develop/contracts/strategies)
+- [iToken Wrappers](https://github.com/yearn/itoken/tree/master/contracts)
+- [APR Oracle](https://github.com/yearn/apr-oracle/tree/master/contracts)
+- [Utils](https://github.com/yearn/yearn-protocol/tree/develop/contracts/utils)
 
 ## Security
 
-- [Disclosures Repo](https://github.com/iearn-finance/yearn-security/tree/master/disclosures)
+- [Disclosures Repo](https://github.com/yearn/yearn-security/tree/master/disclosures)
 
 ## Misc
 
-- [Yearn multisig \(ychad.eth\) budget](https://github.com/iearn-finance/ychad-audit)
-- [Yearn improvement proposals](https://github.com/iearn-finance/YIPS)
-- [Collection of public audits](https://github.com/iearn-finance/audits)
+- [Yearn multisig \(ychad.eth\) budget](https://github.com/yearn/ychad-audit)
+- [Yearn improvement proposals](https://github.com/yearn/YIPS)
+- [Collection of public audits](https://github.com/yearn/audits)
 - [Yearn vault schema](https://github.com/sambacha/yearn-vault-schema)
 
 ## Yearn Community Tools

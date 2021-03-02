@@ -13,7 +13,7 @@ tags: "docs, faq, published"
 
 ### Is Yearn audited?
 
-- Yes, you can find the list of audits [here](https://github.com/iearn-finance/audits).
+- Yes, you can find the list of audits [here](https://github.com/yearn/audits).
 
 ## Feedback & Support
 
@@ -61,7 +61,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 #### What are the risks?
 
 - While the assets deposited can't decrease, the debt of the vault can increase. If a strategy does not manage to outperform the debt, then a portion of the asset will be impermanently locked. If a strategy later outperforms the debt again, the asset will again be available to withdraw. There are mechanisms in the vaults to prevent this but nothing is bulletproof.
-- As of now, only _some_ Vaults have been [audited](https://github.com/iearn-finance/yearn-security/tree/master/audits).
+- As of now, only _some_ Vaults have been [audited](https://github.com/yearn/yearn-security/tree/master/audits).
 - Smart contract risk with any contracts that the vaults interact with.
 
 #### What are the different yVaults?
@@ -110,18 +110,17 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 | Vault Version | Management Fee | Performance Fee | Withdrawal Fee |
 | ------------- | -------------- | --------------- | -------------- |
-| v1            | N/A            | 5%              | 0.5%           |
+| v1            | N/A            | 20%             | 0.5%           |
 | v2            | 2%             | 20%             | N/A            |
 
 **Notes:**
 
+- **Actual fees may differ** for vaults at certain times. This may have to do with vault migration processes, or the bootstrapping of new vaults and strategies. You can confirm the fees currently applied for a vault in the vaults section of the yearn.finance website. Hovering over a vault's version number will display a tooltip with a break down.
 - **Withdrawal Fee** only applies on funds withdrawn from active Strategies.
   - Each vault has some amount of the total funds idle and most of them active in the Strategy.
   - Idle funds is the difference between `vault holdings` and `strategy holdings`, and can be seen on [feel the Yearn](https://feel-the-Yearn.app/).
   - When there is a withdrawal, if idle funds can cover the full amount, there will not be a withdrawal fee applied. If funds will need to be pulled from the Strategy in order to cover the withdrawal request, the Withdrawal Fee is applied.
-- **Performance Fee** is only applied on the performance gains.
-  - For v1 vaults, the proceeds from this fee is split between Treasury and Strategist 90:10.
-  - For v2 vaults, the split between Treasury and Strategist is 50:50.
+- **Performance Fee** is applied on performance gains. The proceeds from this fee is split between Treasury and Strategist 50:50.
 - **Management Fee** is annualized and assigned to Treasury. It accrues per block, is collected on each harvest and is applied on the total of the funds managed by the Strategy.
 - **Further reading**, see [YIP-51](https://yips.yearn.finance/YIPS/yip-51), [YIP-52](https://yips.yearn.finance/YIPS/yip-52), [YIP-54](https://yips.yearn.finance/YIPS/yip-54), and [YIP-56](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929).
 
@@ -251,7 +250,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### How do I make a proposal?
 
-- The default template for proposals can be found on [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance) if you make a post under proposals or discussion it will auto-fill in the template as well.
+- The default template for proposals can be found on [Github](https://github.com/yearn/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance) if you make a post under proposals or discussion it will auto-fill in the template as well.
 - The process is roughly:
   1. forum discussion (minimum three days)
   2. promote to YIP \(usually done by mods\), add YIP to github, put on Snapshot (minimum five days off-chain votation)
@@ -409,7 +408,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 - You should always make sure to set your gas properly if you want a transaction to go through quickly. Check current gas prices at [Ethgasstation](https://ethgasstation.info/) or [gasnow](https://www.gasnow.org/).
 - If you're using MetaMask and you put your transaction through but it's going too slow, you have the option to speed it up by clicking the `speed up` button below your last pending transaction under "activity". This should resend the same TX again with a higher gas price to get it confirmed faster.
-- If you've tried everything and your transaction is still stuck pending, you can fix it by sending a transaction to the nonce of the first stuck transaction with a high gas price to overwrite the stuck queue. Here's a good [guide](https://ethgasstation.info/blog/stuck-transaction-guide) explaining how to do this.
+- If you've tried everything and your transaction is still stuck pending, you can fix it by sending a transaction to the nonce of the first stuck transaction with a high gas price to overwrite the stuck queue. Here's a good [guide](https://resources.curve.fi/guides/more.../dropping-and-replacing-a-stuck-transaction) explaining how to do this.
 
 ### Why is the withdrawal fee so high?
 
