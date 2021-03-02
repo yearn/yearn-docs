@@ -12,7 +12,7 @@ We are always open to new suggestions or better ways of doing things. If you hav
 
 ### File a Bug
 
-If a Yearn product isn't working, please visit the appropriate Github repository listed under [General Resources](#general-resources) — or search in the [Yearn Github Repo](https://github.com/iearn-finance/yearn-protocol) — to see if the issue already exists.
+If a Yearn product isn't working, please visit the appropriate Github repository listed under [General Resources](#general-resources) — or search in the [Yearn Github Repo](https://github.com/yearn/yearn-protocol) — to see if the issue already exists.
 
 If it does not exist, please create a new issue following the template present in the repository.
 
@@ -54,7 +54,7 @@ If you are interested in working on a specific project, check out the list of Ye
 
 If you want an overview on how our services interact with one another in Vaults, please see the schema and accompanying descriptions in the [Vaults Overview](https://docs.yearn.finance/developers/yvaults-documentation/vaults-overview).
 
-If you're wondering how **strategies** work, please check out [ETHOnline 🛠️ Yearn Strats 101](https://www.youtube.com/watch?v=4gwZk-IaMRs) — hosted by our Yearn Devs. To start writing a Strategy of your own, please visit the [Yearn Starter Pack Repo](https://github.com/iearn-finance/yearn-starter-pack).
+If you're wondering how **strategies** work, please check out [ETHOnline 🛠️ Yearn Strats 101](https://www.youtube.com/watch?v=4gwZk-IaMRs) — hosted by our Yearn Devs. To start writing a Strategy of your own, please visit the [Yearn Starter Pack Repo](https://github.com/yearn/yearn-starter-pack).
 
 If you are looking to integrate with Yearn, please visit our [Integration Guide](https://docs.yearn.finance/developers/integration-guide) and check out our [Interface Documentation](https://docs.yearn.finance/developers/yvaults-documentation/vault-interfaces).
 
@@ -70,12 +70,12 @@ See our wonderful list of contributors along with individual contribution stats 
 
 ### Yearn Products
 
-- [Yearn.Finance](https://yearn.finance/), [Github](https://github.com/iearn-finance/iearn-finance)
-- [Yearn Governance](https://ygov.finance/), [Github](https://github.com/iearn-finance/ygov-finance)
-- [Yearn Insurance](https://yinsure.finance/), [Github](https://github.com/iearn-finance/yinsure-finance)
-- [Yearn Borrow](https://yborrow.finance/), [Github](https://github.com/iearn-finance/iborrow-finance)
-- [Yearn Swap](https://yswap.exchange/), [Github](https://github.com/iearn-finance/yswap-finance)
-- [Yearn Documentation](https://docs.yearn.finance/), [Github](https://github.com/iearn-finance/docs)
+- [Yearn.Finance](https://yearn.finance/), [Github](https://github.com/yearn/iearn-finance)
+- [Yearn Governance](https://ygov.finance/), [Github](https://github.com/yearn/ygov-finance)
+- [Yearn Insurance](https://yinsure.finance/), [Github](https://github.com/yearn/yinsure-finance)
+- [Yearn Borrow](https://yborrow.finance/), [Github](https://github.com/yearn/iborrow-finance)
+- [Yearn Swap](https://yswap.exchange/), [Github](https://github.com/yearn/yswap-finance)
+- [Yearn Documentation](https://docs.yearn.finance/), [Github](https://github.com/yearn/docs)
 - [Yearn Forum](https://gov.yearn.finance/)
 
 #### List of Yearn Tools

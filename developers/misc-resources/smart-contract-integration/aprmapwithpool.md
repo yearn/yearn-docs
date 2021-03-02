@@ -2,7 +2,7 @@
 
 | Contract          | ABI                                                                                                    | Address                                                                                                   |
 | :---------------- | :----------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
-| IIEarnAPRWithPool | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/IEarnAPRWithPool.json) | [iapradj.iearn.eth](https://etherscan.io/address/0xAE8F37F0e8AD690486bFA2495113d7E94B7a7Ba6#readContract) |
+| IIEarnAPRWithPool | [JSON](https://github.com/yearn/uniswap-roi/blob/master/build/contracts/IEarnAPRWithPool.json) | [iapradj.iearn.eth](https://etherscan.io/address/0xAE8F37F0e8AD690486bFA2495113d7E94B7a7Ba6#readContract) |
 
 ## IIEarnAPRWithPool Interface
 

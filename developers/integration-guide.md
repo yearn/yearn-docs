@@ -22,7 +22,7 @@ The Yearn Vault Registry \(aka yRegistry\) is a smart contract deployed on the e
 
 #### Code
 
-- [https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/registries/YRegistry.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/contracts/registries/YRegistry.sol)
+- [https://github.com/yearn/yearn-protocol/blob/develop/contracts/registries/YRegistry.sol](https://github.com/yearn/yearn-protocol/blob/develop/contracts/registries/YRegistry.sol)
 
 #### Available data <a id="Vault-Registry-Available-Data"></a>
 
@@ -115,6 +115,6 @@ Yearn API is a collection of Serverless API endpoints focused on Yearn integrati
 
 | Link                                                     | Code                                                                                             | By                                        |
 | :------------------------------------------------------- | :----------------------------------------------------------------------------------------------- | :---------------------------------------- |
-| [https://yearn.finance](https://yearn.finance)           | [https://github.com/iearn-finance/iearn-finance](https://github.com/iearn-finance/iearn-finance) | [Yearn](https://twitter.com/iearnfinance) |
+| [https://yearn.finance](https://yearn.finance)           | [https://github.com/yearn/iearn-finance](https://github.com/yearn/iearn-finance) | [Yearn](https://twitter.com/iearnfinance) |
 | [https://yearn.party](https://yearn.party)               | [https://github.com/x48-crypto/yearn-party](https://github.com/x48-crypto/yearn-party)           | [x48](https://twitter.com/x48_crypto)     |
 | [https://feel-the-yearn.app](https://feel-the-yearn.app) |                                                                                                  | [Graham](https://twitter.com/grahamu)     |

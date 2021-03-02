@@ -13,7 +13,7 @@ tags: "docs, faq, published"
 
 ### Is Yearn audited?
 
-- Yes, you can find the list of audits [here](https://github.com/iearn-finance/audits).
+- Yes, you can find the list of audits [here](https://github.com/yearn/audits).
 
 ## Feedback & Support
 
@@ -61,7 +61,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 #### What are the risks?
 
 - While the assets deposited can't decrease, the debt of the vault can increase. If a strategy does not manage to outperform the debt, then a portion of the asset will be impermanently locked. If a strategy later outperforms the debt again, the asset will again be available to withdraw. There are mechanisms in the vaults to prevent this but nothing is bulletproof.
-- As of now, only _some_ Vaults have been [audited](https://github.com/iearn-finance/yearn-security/tree/master/audits).
+- As of now, only _some_ Vaults have been [audited](https://github.com/yearn/yearn-security/tree/master/audits).
 - Smart contract risk with any contracts that the vaults interact with.
 
 #### What are the different yVaults?
@@ -250,7 +250,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 
 #### How do I make a proposal?
 
-- The default template for proposals can be found on [Github](https://github.com/iearn-finance/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance) if you make a post under proposals or discussion it will auto-fill in the template as well.
+- The default template for proposals can be found on [Github](https://github.com/yearn/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance) if you make a post under proposals or discussion it will auto-fill in the template as well.
 - The process is roughly:
   1. forum discussion (minimum three days)
   2. promote to YIP \(usually done by mods\), add YIP to github, put on Snapshot (minimum five days off-chain votation)
