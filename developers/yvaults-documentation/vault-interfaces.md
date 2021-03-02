@@ -2,7 +2,7 @@
 
 ## IStrategy
 
-Source code: [yearn-protocol/develop/interfaces/yearn/IStrategy.sol](https://github.com/yearn/yearn-protocol/blob/develop/interfaces/yearn/IStrategy.sol)
+Source code: [yearn-protocol/develop/interfaces/yearn/IStrategy.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/interfaces/yearn/IStrategy.sol)
 
 ### function `want()`
 
@@ -134,7 +134,7 @@ function balanceOf() external view returns (uint256);
 
 ## IVault
 
-Source code: [yearn-protocol/develop/interfaces/yearn/IVault.sol](https://github.com/yearn/yearn-protocol/blob/develop/interfaces/yearn/IVault.sol)
+Source code: [yearn-protocol/develop/interfaces/yearn/IVault.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/interfaces/yearn/IVault.sol)
 
 ### function `token()`
 
@@ -355,7 +355,7 @@ function withdrawAll() external;
 
 ## IController
 
-Source code: [yearn-protocol/develop/interfaces/yearn/IController.sol](https://github.com/yearn/yearn-protocol/blob/develop/interfaces/yearn/IController.sol)
+Source code: [yearn-protocol/develop/interfaces/yearn/IController.sol](https://github.com/iearn-finance/yearn-protocol/blob/develop/interfaces/yearn/IController.sol)
 
 ### function `withdraw()`
 

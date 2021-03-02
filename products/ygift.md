@@ -40,4 +40,4 @@ Received a yGift? Congratulations! If the gift contains a non-zero "Gift Amount"
 
 ## Contribute!
 
-yGift is a Yearn project built by the community, for the community! Want to be part of it? Check out [yGift Github](https://github.com/yearn/ygift) and [yGift Discord](https://discord.gg/a7A7QGNzGk) and share your ideas!
+yGift is a Yearn project built by the community, for the community! Want to be part of it? Check out [yGift Github](https://github.com/iearn-finance/ygift) and [yGift Discord](https://discord.gg/a7A7QGNzGk) and share your ideas!

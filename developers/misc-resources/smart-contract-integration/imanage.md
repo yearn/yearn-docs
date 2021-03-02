@@ -1,8 +1,8 @@
 # imanage
 
-| Contract      | ABI                                                                                        | Address                                                                                                   |
-| :------------ | :----------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
-| IIEarnManager | [JSON](https://github.com/yearn/uniswap-roi/blob/master/build/contracts/IEarnManager.json) | [imanage.iearn.eth](https://etherscan.io/address/0x318135fbd0b40d48fcef431ccdf6c7926450edfb#readContract) |
+| Contract      | ABI                                                                                                | Address                                                                                                   |
+| :------------ | :------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
+| IIEarnManager | [JSON](https://github.com/iearn-finance/uniswap-roi/blob/master/build/contracts/IEarnManager.json) | [imanage.iearn.eth](https://etherscan.io/address/0x318135fbd0b40d48fcef431ccdf6c7926450edfb#readContract) |
 
 ## IIEarnManager Interface
 
