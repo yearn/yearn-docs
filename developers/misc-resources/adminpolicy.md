@@ -6,8 +6,8 @@ These docs are still being worked on.
 
 ## v2 Yield Tokens
 
-| Contract | ABI                                                                                    | Address                                                                                                  |
-| :------- | :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
+| Contract | ABI                                                                            | Address                                                                                                  |
+| :------- | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
 | yDAIv2   | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/yDAI.json)  | [ydaiv2.iearn.eth](https://etherscan.io/address/0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01#readContract) |
 | yUSDCv2  | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/yUSDC.json) | [yusdcv2.iearn.eth](https://etherscan.io/address/0xd6aD7a6750A7593E092a9B218d66C0A814a3436e)             |
 | yUSDTv2  | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/yUSDT.json) | [yusdtv2.iearn.eth](https://etherscan.io/address/0x83f798e925BcD4017Eb265844FDDAbb448f1707D)             |
@@ -65,8 +65,8 @@ As per set_new_COMPOUND
 
 ## Utility Contracts
 
-| Contract          | ABI                                                                                                    | Address                                                                                                   |
-| :---------------- | :----------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
+| Contract          | ABI                                                                                            | Address                                                                                                   |
+| :---------------- | :--------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
 | APROracle         | [JSON](https://github.com/yearn/apr-oracle/blob/master/build/contracts/APROracle.json)         | [apr.iearn.eth](https://etherscan.io/address/0x97ff4a1b787ade6b94cca95b61f79417c673331d#code)             |
 | UniswapROI        | [JSON](https://github.com/yearn/uniswap-roi/blob/master/build/contracts/UniswapROI.json)       | [uniroi.iearn.eth](https://etherscan.io/address/0xd04ca0ae1cd8085438fdd8c22a76246f315c2687#readContract)  |
 | UniswapAPR        | [JSON](https://github.com/yearn/uniswap-roi/blob/master/build/contracts/UniswapAPR.json)       | [uniapr.iearn.eth](https://etherscan.io/address/0x4c70D89A4681b2151F56Dc2c3FD751aBb9CE3D95#readContract)  |

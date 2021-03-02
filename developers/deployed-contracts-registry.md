@@ -16,8 +16,8 @@ The Yearn ecosystem is controlled by YFI token holders who submit and vote on pr
 
 The v2 yield tokens can be used in one lender at a time. Currently being used on Curve’s Y Pool, Yearn’s yBTC pool and sUSD pool.
 
-| Token                                                                              | Address                                    | Github                                                                                   |
-| ---------------------------------------------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| Token                                                                              | Address                                    | Github                                                                           |
+| ---------------------------------------------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------- |
 | [yDAIv2](https://etherscan.io/address/0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01)  | 0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01 | [YDAIv2.sol](https://github.com/yearn/itoken/blob/master/contracts/YDAIv2.sol)   |
 | [yUSDCv2](https://etherscan.io/address/0xd6aD7a6750A7593E092a9B218d66C0A814a3436e) | 0xd6aD7a6750A7593E092a9B218d66C0A814a3436e | [YUSDCv2.sol](https://github.com/yearn/itoken/blob/master/contracts/YUSDCv2.sol) |
 | [yUSDTv2](https://etherscan.io/address/0x83f798e925BcD4017Eb265844FDDAbb448f1707D) | 0x83f798e925BcD4017Eb265844FDDAbb448f1707D | [YUSDTv2.sol](https://github.com/yearn/itoken/blob/master/contracts/YUSDTv2.sol) |
@@ -29,8 +29,8 @@ The v2 yield tokens can be used in one lender at a time. Currently being used on
 
 The v3 yield tokens allow the underlying assets to be spread across multiple lenders. Currently being used on Curve’s BUSD pool.
 
-| Token                                                                              | Address                                    | Github                                                                                   |
-| ---------------------------------------------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| Token                                                                              | Address                                    | Github                                                                           |
+| ---------------------------------------------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------- |
 | [yDAIv3](https://etherscan.io/address/0xC2cB1040220768554cf699b0d863A3cd4324ce32)  | 0xC2cB1040220768554cf699b0d863A3cd4324ce32 | [YDAIv3.sol](https://github.com/yearn/itoken/blob/master/contracts/YDAIv3.sol)   |
 | [yUSDCv3](https://etherscan.io/address/0x26EA744E5B887E5205727f55dFBE8685e3b21951) | 0x26EA744E5B887E5205727f55dFBE8685e3b21951 | [YUSDCv3.sol](https://github.com/yearn/itoken/blob/master/contracts/YUSDCv3.sol) |
 | [yUSDTv3](https://etherscan.io/address/0xE6354ed5bC4b393a5Aad09f21c46E101e692d447) | 0xE6354ed5bC4b393a5Aad09f21c46E101e692d447 | [YUSDCv3.sol](https://github.com/yearn/itoken/blob/master/contracts/YUSDCv3.sol) |
@@ -44,8 +44,8 @@ The `Controller` contract can be found [here](https://etherscan.io/address/0x9e6
 
 ### Vaults
 
-| Vault                                                                                             | Address                                    | GitHub                                                                                                 |
-| ------------------------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| Vault                                                                                             | Address                                    | GitHub                                                                                         |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------- |
 | [WETH](https://etherscan.io/address/0xe1237aa7f535b0cc33fd973d66cbf830354d16c7)                   | 0xe1237aa7f535b0cc33fd973d66cbf830354d16c7 | [yWETH.sol](https://github.com/yearn/yearn-protocol/blob/develop/contracts/vaults/yWETH.sol)   |
 | [YFI](https://etherscan.io/address/0xba2e7fed597fd0e3e70f5130bcdbbfe06bb94fe1)                    | 0xba2e7fed597fd0e3e70f5130bcdbbfe06bb94fe1 | [yVault.sol](https://github.com/yearn/yearn-protocol/blob/develop/contracts/vaults/yVault.sol) |
 | [curve.fi/3pool LP](https://etherscan.io/address/0x9cA85572E6A3EbF24dEDd195623F188735A5179f#code) | 0x9cA85572E6A3EbF24dEDd195623F188735A5179f | [yVault.sol](https://github.com/yearn/yearn-protocol/blob/develop/contracts/vaults/yVault.sol) |
@@ -62,8 +62,8 @@ The `Controller` contract can be found [here](https://etherscan.io/address/0x9e6
 
 ### Strategies
 
-| Strategy                                                                                                   | Address                                    | GitHub                                                                                                                                                       | Vault                                                                                           |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| Strategy                                                                                                   | Address                                    | GitHub                                                                                                                                               | Vault                                                                                           |
+| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | [StrategyCurve3CrvVoterProxy](https://etherscan.io/address/0xC59601F0CC49baa266891b7fc63d2D5FE097A79D)     | 0xC59601F0CC49baa266891b7fc63d2D5FE097A79D | [StrategyCurve3CrvVoterProxy.sol](https://github.com/yearn/yearn-protocol/blob/develop/contracts/strategies/StrategyCurve3CrvVoterProxy.sol)         | [curve.fi/3pool LP](https://etherscan.io/address/0x9ca85572e6a3ebf24dedd195623f188735a5179f)    |
 | [StrategyMKRVaultDAIDelegate](https://etherscan.io/address/0x932fc4fd0eee66f22f1e23fba74d7058391c0b15)     | 0x932fc4fd0eee66f22f1e23fba74d7058391c0b15 | [StrategyMKRVaultDAIDelegate.sol](https://github.com/yearn/yearn-protocol/blob/develop/contracts/strategies/StrategyMKRVaultDAIDelegate.sol)         | [WETH](https://etherscan.io/address/0xe1237aa7f535b0cc33fd973d66cbf830354d16c7)                 |
 | [StrategyYFIGovernance](https://etherscan.io/address/0x395f93350d5102b6139abfc84a7d6ee70488797c)           | 0x395f93350d5102b6139abfc84a7d6ee70488797c | [StrategyYFIGovernance.sol](https://github.com/yearn/yearn-protocol/blob/develop/contracts/strategies/StrategyYFIGovernance.sol)                     | [YFI](https://etherscan.io/address/0xba2e7fed597fd0e3e70f5130bcdbbfe06bb94fe1)                  |
@@ -85,12 +85,12 @@ The stable coins borrowed \(e.g., USDC, DAI, USDT, etc.\) depend on the strategy
 
 The aLINK vault uses the `StrategyControllerV2` [contract](https://etherscan.io/address/0x2be5d998c95de70d9a38b3d78e49751f10f9e88b#code). The source code for `StrategyControllerV2` is [here](https://github.com/yearn/vaults/blob/master/contracts/controllers/StrategyControllerV2.sol).
 
-| Strategy                                                                                     | Strategy                                   | GitHub                                                                                                                           |
-| -------------------------------------------------------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| Strategy                                                                                     | Strategy                                   | GitHub                                                                                                                   |
+| -------------------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
 | [StrategyVaultUSDC](https://etherscan.io/address/0x25faca21dd2ad7edb3a027d543e617496820d8d6) | 0x25faca21dd2ad7edb3a027d543e617496820d8d6 | [StrategyVaultUSDC.sol](https://github.com/yearn/yearn-protocol/blob/develop/contracts/strategies/StrategyVaultUSDC.sol) |
 
-| Vault                                                                            | Address                                    | GitHub                                                                                                                   |
-| -------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Vault                                                                            | Address                                    | GitHub                                                                                                           |
+| -------------------------------------------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
 | [aLINK](https://etherscan.io/address/0x29e240cfd7946ba20895a7a02edb25c210f9f324) | 0x29e240cfd7946ba20895a7a02edb25c210f9f324 | [yDelegatedVault.sol](https://github.com/yearn/yearn-protocol/blob/develop/contracts/vaults/yDelegatedVault.sol) |
 
 ## Governance Contracts

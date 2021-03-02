@@ -1,7 +1,7 @@
 # yusdc
 
-| Contract | ABI                                                                                    | Address                                                                                      |
-| :------- | :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
+| Contract | ABI                                                                            | Address                                                                                      |
+| :------- | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
 | yUSDCv1  | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/yUSDC.json) | [yusdc.iearn.eth](https://etherscan.io/address/0xa2609b2b43ac0f5ebe27deb944d2a399c201e3da)   |
 | yUSDCv2  | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/yUSDC.json) | [yusdcv2.iearn.eth](https://etherscan.io/address/0xd6aD7a6750A7593E092a9B218d66C0A814a3436e) |
 | yUSDCv3  | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/yUSDC.json) | [yusdcv3.iearn.eth](https://etherscan.io/address/0x26EA744E5B887E5205727f55dFBE8685e3b21951) |
