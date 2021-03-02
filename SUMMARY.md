@@ -16,10 +16,10 @@
 
 ## Products
 
-- [yVaults](products/yvaults-1/README.md)
-  - [V2 yVaults](products/yvaults-1/v2-yvaults/README.md)
-    - [Strategies and yVaults available](products/yvaults-1/v2-yvaults/strategies-and-yvaults-available.md)
-  - [V1 yVaults](products/yvaults-1/yvaults.md)
+- [yVaults](products/yvaults/README.md)
+  - [V2 yVaults](products/yvaults/v2-yvaults/README.md)
+    - [Strategies and yVaults available](products/yvaults/v2-yvaults/strategies-and-yvaults-available.md)
+  - [V1 yVaults](products/yvaults/yvaults.md)
 - [Earn](products/earn.md)
 - [Zap](products/zap.md)
 - [yInsure](products/yinsure.md)

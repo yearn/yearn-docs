@@ -51,7 +51,7 @@
 - Added to [duneanalytics.com](https://www.duneanalytics.com/) dashboards
 - Integrated [renproject.io](https://renproject.io/)
 - Curve Finance yToken pool deployed to [y.curve.fi](https://y.curve.fi/)
-- Added [Nexus Mutual](https://app.nexusmutual.io/#/SmartContractCover) cover for [iearn.finance](http://iearn.finance/) and [y.curve.fi](https://y.curve.fi/)
+- Added [Nexus Mutual](https://app.nexusmutual.io/#/SmartContractCover) cover for iearn.finance and [y.curve.fi](https://y.curve.fi/)
 - [paraswap.io](https://paraswap.io/#/DAI-TUSD/1000) integrates [y.curve.fi](https://y.curve.fi/)
 - [defisnap.io](https://www.defisnap.io/) included v2 yTokens
 - [0x](https://0x.org/) integrates [y.curve.fi](https://y.curve.fi/)
