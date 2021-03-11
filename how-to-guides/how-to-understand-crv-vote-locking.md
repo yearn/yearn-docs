@@ -49,7 +49,7 @@ Based on Yearn's share of the total veCRV, 50% of trading fees will be claimed a
 
 Actual boost provided by Curve vote locking will be determined by a formula as [described above](#Reward-boosting), but will crucially be depending on the total amount of liquidity provided in Curve pools by Yearn and its relative voting power, i.e. its share of the current total of veCRV issued.
 
-A "Yearn boost" tool displaying Yearn's current active and potential boost is available [here] (https://crv.ape.tax/).
+A "Yearn boost" tool displaying Yearn's current active and potential boost is available [here](https://crv.ape.tax/).
 
 ## More information
 
