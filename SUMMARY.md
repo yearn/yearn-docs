@@ -10,6 +10,7 @@
   - [How To Participate in a yVault](how-to-guides/how-to-participate-in-a-yvault.md)
   - [How to Understand CRV Vote Locking](how-to-guides/how-to-understand-crv-vote-locking.md)
   - [How To Understand yVault ROI](how-to-guides/how-to-understand-yvault-roi.md)
+  - [How to Understand yveCRV](how-to-guides/how-to-understand-yveCRV.md)
   - [How To Withdraw from yEarn and yVaults](how-to-guides/how-to-withdraw-from-yEarn-and-yVaults.md)
 - [YFI and yTokens](yfi-and-ytokens.md)
 - [yUSD](yusd.md)
