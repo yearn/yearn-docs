@@ -16,7 +16,7 @@ To check which vaults are currently LIVE, please, have a look at the V2 yRegistr
 
 ![https://github.com/vasa-develop/defi-diagrams/](https://raw.githubusercontent.com/vasa-develop/defi-diagrams/master/diagrams/yearn/vaults-v2/strategies/StrategyGenericLevCompFarm.jpg)
 
-### [HEGIC ](https://etherscan.io/address/0xe11ba472f74869176652c35d30db89854b5ae84d)yVault
+## [HEGIC yVault](https://etherscan.io/address/0xe11ba472f74869176652c35d30db89854b5ae84d)
 
 ### [StrategyHegicWBTC](https://etherscan.io/address/0x0ce77bc655afaac83947c2e859819185966ca825#code)
 
@@ -28,7 +28,7 @@ To check which vaults are currently LIVE, please, have a look at the V2 yRegistr
 
 ![https://github.com/vasa-develop/defi-diagrams/](https://raw.githubusercontent.com/vasa-develop/defi-diagrams/master/diagrams/yearn/vaults-v2/strategies/StrategyHegicETH.jpg)
 
-### USDC yVault
+## USDC yVault
 
 ### [StrategyGenericLevCompFarm](https://etherscan.io/address/0x4d7d4485fd600c61d840ccbec328bfd76a050f87) \(also used in DAI yVault\)
 
