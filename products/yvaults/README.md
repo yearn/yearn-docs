@@ -2,7 +2,7 @@
 
 One of Yearn's most popular products are the yVaults.
 
-The goal of the yVaults program is to empower the community to quickly and safely create and utilize the most effective yield farming robots created by the industry's best strategists. The goal of the Vaults program is to empower the community to quickly and safely create and utilize the most effective yield farming robots created by the industry's best strategists.
+The goal of the Vaults program is to empower the community to quickly and safely create and utilize the most effective yield farming robots created by the industry's best strategists.
 
 yVaults have charge fees on deposited assets and the generated yield, [see the FAQ](https://docs.yearn.finance/faq#what-are-the-fees) for more details. Profits generated are used to purchase more of the underlying asset of each vault \(e.g., the YFI vault's profits are used to purchase additional YFI\); therefore, _the vaults represent a continuous buy-and-hold strategy._ Withdrawals are allocated on a pro-rata basis determined by the share each depositor contributes to the pool.
 
