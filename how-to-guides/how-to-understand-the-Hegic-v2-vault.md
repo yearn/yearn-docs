@@ -91,7 +91,7 @@ Hegic earns options trading fees from trading that occurs on the Hegic protocol.
 |  2  | The remainder when the number of Hegic tokens in the vault are divided by 888,000                             | Assuming the rewards from a Hegic staking lot are greater than the lending rewards on Cream then the smaller the remainder, the greater the rewards |
 |  3  | wBTC options volume on Hegic                                                                                  | More [volume](https://duneanalytics.com/slash125/hegic-v2) means a higher yield                                                                     |
 |  4  | Price of wBTC relative to Hegic                                                                               | The higher the [price of wBTC relative to Hegic](https://www.coingecko.com/en/coins/hegic), the more Hegic can be bought with the wBTC rewards      |
-|  5  | Slippage on Sushiswap                                                                                           | The lower the slippage the greater the amount of Hegic received, therefore the greater the return                                                   |
+|  5  | Slippage on Sushiswap                                                                                         | The lower the slippage the greater the amount of Hegic received, therefore the greater the return                                                   |
 |  6  | Ethereum gas fees                                                                                             | The lower the [gas fees](https://bitinfocharts.com/comparison/ethereum-transactionfees.html), the greater the return                                |
 
 ## Which protocols are used by the strategy?
