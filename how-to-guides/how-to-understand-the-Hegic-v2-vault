@@ -12,9 +12,9 @@ Deposit Hegic into the yHegic vault [here](https://yearn.finance/vaults).
 
 As with all vaults, if you are depositing for the first time two transactions are required. First you need to approve the transaction. This allows Hegic to be deposited into Yearn vaults. And then you decide how much Hegic you would like to deposit. Click [here](https://docs.yearn.finance/how-to-guides/how-to-participate-in-a-yvault) for a general guide. 
 
-The Hegic token contract address is 0x584bc13c7d411c00c01a62e8019472de68768430
+The Hegic token contract address is [here](https://etherscan.io/address/0x584bc13c7d411c00c01a62e8019472de68768430).
 
-And the contract of the vault is here 0xe11ba472F74869176652C35D30dB89854b5ae84D
+And the contract of the vault is here [here](https://etherscan.io/address/0xe11ba472f74869176652c35d30db89854b5ae84d).
 
 ## What are the benefits of depositing into this vault?
 
@@ -31,11 +31,9 @@ Hegic is an options protocol and the token enables you to earn options trading f
 
 Hegic pays rewards in WBTC or ETH depending on whether the staking lot is for WBTC or ETH options. The Hegic vault then sells these rewards for Hegic on Sushiswap so that your holding of Hegic increases.
 
-The vault strategist decides the assignment of the strategies based on market conditions.
-The change is sent to the strategist multi-sig where other strategists review the change and execute the transaction.
+The vault strategist decides the assignment of the strategies based on market conditions. The change is sent to the strategist multi-sig where other strategists review the change and execute the transaction.
 
 For example, in early March 2021, Hegic's ETH pool did not have enough liquidity and so ETH lot holders would not have got any profit. To mitigate the lack of liquidity in the ETH pool at the time, the yvHegic vault had more WBTC lots than ETH lots.
-
 
 ## Where do the rewards come from?
 
@@ -82,12 +80,6 @@ All assets and protocols on Ethereum are exposed to something going wrong with E
 You are exposed to the risk of loss of funds from smart contract risk from Yearn vaults and the Hegic Protocol.
 
 Any losses that occur due to the Hegic protocol can be covered [here](https://yearn.finance/cover).
-
-## What security measures are in place?
-
-[would be good to add audits and anything else that has been carried out here]
-
-Yearn v2 vaults latest DefiSafety score may be found [here](https://defisafety.com/2021/01/27/yearn-v2-finance/).
 
 ## What affects the yield?
 
