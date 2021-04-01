@@ -14,4 +14,6 @@
 
 {% page-ref page="how-to-understand-yveCRV.md" %}
 
+{% page-ref page="how-to-understand-the-Hegic-v2-vault.md" %}
+
 {% page-ref page="how-to-withdraw-from-yEarn-and-yVaults.md" %}
