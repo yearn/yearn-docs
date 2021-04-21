@@ -18,9 +18,16 @@
 ## Products
 
 * [yVaults](products/yvaults/README.md)
-  * [V2 yVaults](products/yvaults/v2-yvaults/README.md)
-    * [Strategies and yVaults available](products/yvaults/v2-yvaults/strategies-and-yvaults-available.md)
+  * [V2 yVaults](products/yvaults/v2-yvaults.md)
   * [V1 yVaults](products/yvaults/yvaults.md)
+  * [yVaults Descriptions and Strategies](products/yvaults/strategies-and-yvaults-available/README.md)
+    * [Yearn and Curve Synergy](products/yvaults/strategies-and-yvaults-available/yearn-and-curve-synergy/README.md)
+      * [veCRV-DAO yVault](products/yvaults/strategies-and-yvaults-available/yearn-and-curve-synergy/vecrv-dao-yvault.md)
+      * [Understanding Curve 🚀 Boost Multipliers](products/yvaults/strategies-and-yvaults-available/yearn-and-curve-synergy/understanding-curve-boost-multipliers.md)
+    * [v1 yVaults Descriptions](products/yvaults/strategies-and-yvaults-available/v1-yvaults-descriptions.md)
+    * [v1 Curve Finance Based Vaults](products/yvaults/strategies-and-yvaults-available/v1-curve-finance-based-vaults.md)
+    * [v2 yVault Descriptions](products/yvaults/strategies-and-yvaults-available/v2-yvault-descriptions.md)
+    * [Retired Vaults](products/yvaults/strategies-and-yvaults-available/retired-vaults.md)
 * [Earn](products/earn.md)
 * [Zap](products/zap.md)
 * [yInsure](products/yinsure.md)

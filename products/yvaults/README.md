@@ -10,7 +10,11 @@ Currently, there are 2 versions of the yVaults available at [yearn.finance](http
 
 For the end-user the main difference is the fees charged, the [relevant section in the FAQ](https://docs.yearn.finance/faq#what-are-the-fees) has more details. Once you understand it, pick the yVault that matches your tokens and the APY desired.
 
-{% page-ref page="v2-yvaults/" %}
+{% page-ref page="v2-yvaults.md" %}
 
 {% page-ref page="yvaults.md" %}
+
+{% page-ref page="strategies-and-yvaults-available/" %}
+
+
 
