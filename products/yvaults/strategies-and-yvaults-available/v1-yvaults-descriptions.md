@@ -1,4 +1,4 @@
-# v1 yVaults Descriptions
+# v1 yVault Descriptions
 
 These v1 yVaults run single asset time-tested strategies.
 
