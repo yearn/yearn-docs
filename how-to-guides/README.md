@@ -12,8 +12,7 @@
 
 {% page-ref page="how-to-understand-yvault-roi.md" %}
 
-{% page-ref page="how-to-understand-yveCRV.md" %}
+{% page-ref page="how-to-understand-yvecrv.md" %}
 
-{% page-ref page="how-to-understand-the-Hegic-v2-vault.md" %}
+{% page-ref page="how-to-withdraw-from-yearn-and-yvaults.md" %}
 
-{% page-ref page="how-to-withdraw-from-yEarn-and-yVaults.md" %}

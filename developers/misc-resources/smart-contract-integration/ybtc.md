@@ -1,15 +1,14 @@
 # ybtc
 
-| Contract | ABI                                                                            | Address                                                                                                  |
-| :------- | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| yBTC     | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/yWBTC.json) | [ybtc.iearn.eth](https://etherscan.io/address/0x04ef8121ad039ff41d10029c91ea1694432514e9#readContract)   |
-| yBTCv2   | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/yWBTC.json) | [ybtcv2.iearn.eth](https://etherscan.io/address/0x04Aa51bbcB46541455cCF1B8bef2ebc5d3787EC9#readContract) |
+| Contract | ABI | Address |
+| :--- | :--- | :--- |
+| yBTC | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/yWBTC.json) | [ybtc.iearn.eth](https://etherscan.io/address/0x04ef8121ad039ff41d10029c91ea1694432514e9#readContract) |
+| yBTCv2 | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/yWBTC.json) | [ybtcv2.iearn.eth](https://etherscan.io/address/0x04Aa51bbcB46541455cCF1B8bef2ebc5d3787EC9#readContract) |
 
 ## IyBTC Interface
 
 {% tabs %}
 {% tab title="IyBTC.sol" %}
-
 ```javascript
 // Solidity Interface
 
@@ -38,7 +37,6 @@ interface IyBTC {
   function getPricePerFullShare() external view returns (uint256);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -46,7 +44,6 @@ interface IyBTC {
 
 {% tabs %}
 {% tab title="TokenInterface.sol" %}
-
 ```javascript
 // https://theethereum.wiki/w/index.php/ERC20_Token_Standard
 contract ERC20Interface {
@@ -65,6 +62,6 @@ contract ERC20Interface {
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
+
