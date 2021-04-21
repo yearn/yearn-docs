@@ -23,7 +23,7 @@
   - [V1 yVaults](products/yvaults/yvaults.md)
 - [Earn](products/earn.md)
 - [Zap](products/zap.md)
-- [yInsure](products/yinsure.md)
+- [Protect](products/protect.md)
 - [yGift](products/ygift.md)
 
 ## R&D
