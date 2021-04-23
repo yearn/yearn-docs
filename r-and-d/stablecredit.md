@@ -1,5 +1,5 @@
 ---
-Status: En Rechercghe & Développement
+Status: En Recherche & Développement
 ---
 
 # StableCredit
