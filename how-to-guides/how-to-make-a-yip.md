@@ -21,11 +21,11 @@ When you believe your YIP is mature and ready to progress past the WIP phase, yo
 
 ## YIP Statuses
 
-* **WIP** - a YIP that is still being developed.
-* **Proposed** - a YIP that is ready to be reviewed in a governance call.
-* **Approved** - a YIP that has been accepted for implementation by the yEarn community.
-* **Implemented** - a YIP that has been released to mainnet.
-* **Rejected** - a YIP that has been rejected.
+- **WIP** - a YIP that is still being developed.
+- **Proposed** - a YIP that is ready to be reviewed in a governance call.
+- **Approved** - a YIP that has been accepted for implementation by the yEarn community.
+- **Implemented** - a YIP that has been released to mainnet.
+- **Rejected** - a YIP that has been rejected.
 
 ### Example YIP
 
@@ -40,7 +40,7 @@ Created: 2020-09-01
 
 ## Validation
 
-YIPs MUST pass some validation tests. The YIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer) and [yip\_validator](https://rubygems.org/gems/yip_validator).
+YIPs MUST pass some validation tests. The YIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer) and [yip_validator](https://rubygems.org/gems/yip_validator).
 
 It is possible to run the YIP validator locally:
 
@@ -52,4 +52,3 @@ yip_validator <INPUT_FILES>
 ## Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
-
