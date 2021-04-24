@@ -18,6 +18,16 @@
 - [yEarn](yearn-finance/earn.md)
 - [Protect](yearn-finance/protect.md)
 
+## Governance
+
+- [Governance Process](governance/governance-process/README.md)
+  - [Discussion](governance/governance-process/discussion.md)
+  - [Proposal](governance/governance-process/proposal.md)
+  - [Voting](governance/governance-process/voting.md)
+  - [implementation](governance/governance-process/implementation.md)
+- [Yearn Improvement Proposals (YIPs)](governance/yearn-improvement-proposals.md)
+- [YFI](governance/yfi.md)
+
 ##Yearn Products
 
 - [Partner Releases](yearn-products/partner-releases/README.md)
