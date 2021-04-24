@@ -1,8 +1,8 @@
 # Protect
 
-[Protect](https://yearn.finance/cover), which utilizes the [**Cover Protocol**](https://www.coverprotocol.com/#protocol), enables the potential to recover assets in the event of a hack, exploit, bug or other circumstances defined by Cover's [Claims Guidelines](https://docs.coverprotocol.com/product/claims-guidelines-v2).   
-  
-The Cover Protocol provides smart contract coverage underwritten by [Nexus Mutual](https://nexusmutual.io/). It is decentralized and does not require identity verification of participants. There are three total components:
+[Protect](https://yearn.finance/cover/), which utilizes the[Cover Protocol](https://www.coverprotocol.com/#protocol), enables the potential to recover assets int he event of a hack, exploit, but or other circumstances defined by Cover's [Claims Guideline](https://docs.coverprotocol.com/product/claims-guidelines-v2) 
+
+The Cover Protocol is decentralized and does not require identity verification of participants. There are three total components:
 
 - **Cover Vaults** hold assets that are used to provide payment in the event of a claim;
 - **Covered Vaults** hold assets that the "cover holder" desires to be covered, and;
