@@ -6,7 +6,7 @@
   - Site: [https://yearn.finance](https://yearn.finance/)
   - Repo: [https://github.com/yearn/yearn-finance](https://github.com/yearn/yearn-finance)
 - Yearn.Finance v1
-  - Site: [https://v1.yearn.finance/]
+  - Site: [https://v1.yearn.finance/](https://v1.yearn.finance/)
   - Repo: [https://github.com/yearn/iearn-finance](https://github.com/yearn/iearn-finance)
 - Yearn Documentation
   - Site: [https://docs.yearn.finance](https://docs.yearn.finance/)
