@@ -2,7 +2,7 @@
 
 ## Frontends
 
-- Yearn.Finance V2
+- Yearn.Finance v2
   - Site: [https://yearn.finance](https://yearn.finance/)
   - Repo: [https://github.com/yearn/yearn-finance](https://github.com/yearn/yearn-finance)
 - Yearn.Finance v1
