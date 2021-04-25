@@ -4,7 +4,7 @@ Status: En Recherche & Développement
 
 # StableCredit
 
-StableCredit est un nouveau produit en recherche et développement qui combine trois piliers de l'infrastructure DeFi existante :
+StableCredit est un nouveau produit en recherche et développement qui combine trois piliers de l'infrastructure DeFi existante:
 
 - Création de dette synthétique (DAI, Synthetix).
 - Plateforme de prêt décentralisées (Compound, AAVE).
