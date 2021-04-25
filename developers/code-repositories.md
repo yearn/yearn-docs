@@ -5,6 +5,9 @@
 - Yearn.Finance V2
   - Site: [https://yearn.finance](https://yearn.finance/)
   - Repo: [https://github.com/yearn/yearn-finance](https://github.com/yearn/yearn-finance)
+- Yearn.Finance v1
+  - Site: [https://v1.yearn.finance/]
+  - Repo: [https://github.com/yearn/iearn-finance](https://github.com/yearn/iearn-finance)
 - Yearn Documentation
   - Site: [https://docs.yearn.finance](https://docs.yearn.finance/)
   - Repo: [https://github.com/yearn/yearn-docs](https://github.com/yearn/yearn-docs)
@@ -79,9 +82,6 @@ Yearn smart contracts repo: [https://github.com/yearn/yearn-protocol](https://gi
 
 
 ## Inactive
-- Yearn.Finance v1
-  - Site: Archived
-  - Repo: [https://github.com/yearn/iearn-finance](https://github.com/yearn/iearn-finance)
 - Yearn Governance
   - Site: [https://ygov.finance](https://ygov.finance/)
   - Repo: [https://github.com/yearn/ygov-finance](https://github.com/yearn/ygov-finance)
