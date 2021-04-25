@@ -81,10 +81,10 @@
 ## Additional Resources
 
 - [Team](additional-resources/team.md)
-- [Github](https://github.com/iearn-finance)
+- [Github](https://github.com/yearn)
 - [Medium](https://medium.com/iearn)
 - [Gov Forum](https://gov.yearn.finance/)
-- [Discord](http://discord.yearn.finance)
+- [Discord](https://discord.gg/JmGtgD2ntU)
 - [Telegram](https://t.me/yearnfinance)
 - [Reddit](https://www.reddit.com/r/yearn_finance/)
 
