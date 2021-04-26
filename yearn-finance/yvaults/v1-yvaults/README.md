@@ -4,17 +4,11 @@ V1 yVaults have a 0.5% withdrawal fee and a 20% fee on additional yield whenever
 
 ### Available yVaults
 
-You can access them here: [https://yearn.finance/vaults](https://yearn.finance/vaults) . You will see a list of vaults and their version.
+You can access them here: [https://yearn.finance/vaults](https://yearn.finance/vaults). You will see a list of vaults and their version.
 
 The tokens displayed are deposited into their respective yVaults and used to yield farm using current opportunities in the market.
 
 The vaults are created and maintained by a Controller, who oversees the strategy execution. Profits generated from each respective vault are used to purchase more of the underlying asset in each vault \(e.g., the YFI vault's profits are used to purchase additional YFI\); therefore, _the vaults represent a continuous buy-and-hold strategy._
-
-### yETH Vault Mechanics
-
-The Controller opens a collateralized debt position \(CDP\) at MakerDAO using ETH as collateral and mints DAI. The DAI is deposited into the yDAI vault. The collateralization ratio—a metric of financial leverage—is targeted to always be at least 200%. Automated bots periodically pay down the DAI debt if the ratio falls below 200%. The DAI is redeemed from [Curve](http://curve.fi/) and is not purchased from the open market \(i.e., yDAI is burned and redeemed for DAI\). Excess DAI earned from yield farming is used to purchase additional ETH, which is deposited into the yETH vault.
-
-![](https://i.imgur.com/ZASptpX.png)
 
 ### Delegated yVaults
 

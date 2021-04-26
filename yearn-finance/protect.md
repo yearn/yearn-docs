@@ -1,6 +1,6 @@
 # Protect
 
-[Protect](https://yearn.finance/cover/), which utilizes the[Cover Protocol](https://www.coverprotocol.com/#protocol), enables the potential to recover assets int he event of a hack, exploit, but or other circumstances defined by Cover's [Claims Guideline](https://docs.coverprotocol.com/product/claims-guidelines-v2) 
+[Protect](https://yearn.finance/cover/), which utilizes the [Cover Protocol](https://www.coverprotocol.com/#protocol), enables the potential to recover assets in the event of a hack, exploit, but or other circumstances defined by Cover's [Claims Guideline](https://docs.coverprotocol.com/product/claims-guidelines-v2)
 
 The Cover Protocol is decentralized and does not require identity verification of participants. There are three total components:
 
