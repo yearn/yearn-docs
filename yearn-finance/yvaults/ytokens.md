@@ -24,17 +24,6 @@ yUSD makes DeFi simple by automatically maximizing yield and minimizing risk for
 
 These are created and regularly updated by Yearn's community, all under the **control of Yearn governance.**
 
-### How to Get yUSD
-
-Full visual walkthrough here: [How to Mint yUSD](how-to-guides/how-to-mint-yusd.md).
-
-_Supported wallets: Metamask, Trustwallet, Trezor, or Torus._
-
-1. Load your wallet with DAI, USDC, USDT, TUSD, or yCRV.
-2. Go to [vaults.finance](https://vaults.finance/).
-3. Connect your wallet.
-4. Deposit your coins into the vault, receive yUSD.
-
 ### yUSD in Detail
 
 You may also see yUSD referred to as `yyCRV` and `yyDAI+yUSDC+yUSDT+yTUSD` – both of these names are accurate and describe yUSD's composition.
@@ -69,5 +58,3 @@ At this tier the current strategy sits on top of the lower two tiers and **harve
   - The current strategy: [StrategyCurveYVoterProxy](https://etherscan.io/address/0x07db4b9b3951094b9e278d336adf46a036295de7#code)
 - FAQ
   - [https://docs.yearn.finance/faq\#vaults](https://docs.yearn.finance/faq#vaults)
-
-

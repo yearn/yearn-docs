@@ -1,6 +1,6 @@
 # Table of contents
 
-- [Introduction to Yearn](README.md)
+- [Introduction](README.md)
 
 ## Yearn Finance
 
@@ -8,13 +8,7 @@
   - [V2 yVaults](yearn-finance/yvaults/v2-yvaults/README.md)
     - [V2 yVaults Descriptions & Strategies](yearn-finance/yvaults/v2-yvaults/v2-descriptions.md)
   - [V1 yVaults](yearn-finance/yvaults/v1-yvaults/README.md)
-    - [V1 yVaults Descriptions & Strategies](yearn-finance/yvaults/v1-yvaults/v1-descriptions.md)
-    - [V1 Curve Finance Based Vaults](yearn-finance/yvaults/v1-yvaults/curve-vaults.md)
-  - [Yearn and Curve Synergy](yearn-finance/yearn-curve-synergy/README.md)
-    - [veCRV-DAO yVault](yearn-finance/yearn-curve-synergy/vecrv-dao-yvault.md)
-    - [Understanding Curve Boost Multipliers](yearn-finance/yearn-curve-synergy/curve-boosties.md)
   - [yTokens](yearn-finance/yvaults/ytokens.md)
-  - [Retired Vaults](yearn-finance/yvaults/retired-vaults.md)
 - [yEarn](yearn-finance/earn.md)
 - [Protect](yearn-finance/protect.md)
 
@@ -46,14 +40,13 @@
 - [Guides](resources/guides/README.md)
   - [How to Add a Custom Token to MetaMask](resources/guides/how-to-add-a-custom-token-to-metamask.md)
   - [How to Make a YIP](resources/guides/how-to-make-a-yip.md)
-  - [How to Mint yUSD](resources/guides/how-to-mint-yusd.md)
   - [How to Participate in a yVault](resources/guides/how-to-participate-in-a-yvault.md)
   - [How to Understand CRV Vote Locking](resources/guides/how-to-understand-crv-vote-locking.md)
   - [How to Understand yVault ROI](resources/guides/how-to-understand-yVault-ROI.md)
   - [How to Understand yveCRV](resources/guides/how-to-understand-yveCRV.md)
   - [How to Withdraw from yEarn and yVaults](resources/guides/how-to-withdraw-from-yearn-and-yvaults.md)
 - [Links](resources/links.md)
-- [FAQ](resources/faq/faq.md)
+- [FAQ](resources/faq/README.md)
   - [DeFi Glossary](resources/faq/defi-glossary.md)
 - [Team](resources/team.md)
 
