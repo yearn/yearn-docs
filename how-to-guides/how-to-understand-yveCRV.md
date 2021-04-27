@@ -1,4 +1,4 @@
-# How to understand yveCRV
+# How to Understand yveCRV
 
 On February 6th 2021 Yearn Finance launched its latest product, yveCRV.
 
@@ -8,13 +8,13 @@ yveCRV stands for veCRV-DAO yVault and is [listed on CoinGecko](https://www.coin
 
 ### List of tokens
 
-- **CRV** - Curve DAO Token
-- **veCRV** - voting escrow CRV tokens (the longer it’s locked up for, the greater the rewards), you can read more about CRV vote locking [here](how-to-understand-crv-vote-locking.md).
-- **yveCRV** - the “y” prefix is used for all of Yearn’s vaults
+* **CRV** - Curve DAO Token
+* **veCRV** - voting escrow CRV tokens \(the longer it’s locked up for, the greater the rewards\), you can read more about CRV vote locking [here](how-to-understand-crv-vote-locking.md).
+* **yveCRV** - the “y” prefix is used for all of Yearn’s vaults
 
 ## How do I participate?
 
-Deposit CRV into the yveCRV vault: https://yearn.finance/vaults
+Deposit CRV into the yveCRV vault: [https://yearn.finance/vaults](https://yearn.finance/vaults)
 
 As with all vaults, if you are depositing for the first time two transactions are required. First you need to approve the transaction. This allows CRV to be deposited into Yearn vaults. And then you decide how much CRV you would like to deposit. Pleas refer to the [general guide](how-to-participate-in-a-yvault.md) for more information.
 
@@ -24,17 +24,17 @@ Alternatively, you can buy yveCRV directly on [Sushiswap](https://app.sushiswap.
 
 Depositing CRV in this vault allows you to earn:
 
-- Trading fees from Curve Finance
-- Additional CRV rewards
-- A boost to your CRV rewards that you cannot get elsewhere
+* Trading fees from Curve Finance
+* Additional CRV rewards
+* A boost to your CRV rewards that you cannot get elsewhere
 
-Rewards are shown here: https://crv.ape.tax/
+Rewards are shown here: [https://crv.ape.tax/](https://crv.ape.tax/)
 
 ## How is this vault different from the other vaults?
 
 Other vaults increase your holding in the token that you deposit. For example, the yETH vault increases your ETH holdings.
 
-The yveCRV vault pays weekly rewards in LP 3pool Curve (3CRV). 3CRV is a combination of DAI+USDT+USDC. Please refer to [Curve's website](https://www.curve.fi/3pool) for current weights. DAI, USDT and USDC are USD stablecoins therefore 3CRV is expected to maintain a price close to \$1.
+The yveCRV vault pays weekly rewards in LP 3pool Curve \(3CRV\). 3CRV is a combination of DAI+USDT+USDC. Please refer to [Curve's website](https://www.curve.fi/3pool) for current weights. DAI, USDT and USDC are USD stablecoins therefore 3CRV is expected to maintain a price close to $1.
 
 The other key difference is that **deposited CRV is locked forever**. It **cannot be withdrawn**, as the vault perpetually re-locks CRV upon their expiration. Instead you earn a stream of 3CRV rewards for as long as people continue to trade on the Curve Finance protocol.
 
@@ -52,10 +52,10 @@ They continue to accrue so don’t worry if you forget or don’t want to pay ga
 
 ## What are the risks?
 
-- You have to determine the risks for yourself.
-- You are exposed to smart contract risk from Yearn vaults and Curve Finance.
-- Any losses that occur due to the Curve Finance protocol can be mitigated by [purchasing Cover](https://yearn.finance/cover).
-- yveCRV earns trading fees from trading that occurs on Curve Finance. If trading fees are lower than expected then your returns will be lower than expected. Trading volume data on Curve Finance is available from [Coingecko](https://www.coingecko.com/en/exchanges/curve#statistics).
+* You have to determine the risks for yourself.
+* You are exposed to smart contract risk from Yearn vaults and Curve Finance.
+* Any losses that occur due to the Curve Finance protocol can be mitigated by [purchasing Cover](https://yearn.finance/cover).
+* yveCRV earns trading fees from trading that occurs on Curve Finance. If trading fees are lower than expected then your returns will be lower than expected. Trading volume data on Curve Finance is available from [Coingecko](https://www.coingecko.com/en/exchanges/curve#statistics).
 
 ## Is it true that I can earn even more rewards from Sushi and Pickle?
 
@@ -81,4 +81,5 @@ Subscribe to Yearn’s weekly [state of the vaults](https://medium.com/yearn-sta
 
 ## Still have questions?
 
-Please visit [Telegram or discord](../README.md#communication_channels) and ask away!
+Please visit [Telegram or discord](../#communication_channels) and ask away!
+

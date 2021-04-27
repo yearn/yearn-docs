@@ -26,11 +26,11 @@
 
 ## Communications
 
-| Team Member                                       | Twitter                                   | Github                               |
-| :------------------------------------------------ | :---------------------------------------- | :----------------------------------- |
-| [@franklin](https://gov.yearn.finance/u/franklin) | [@DeFiGod1](https://twitter.com/DeFiGod1) | N/A                                  |
-| [@fameal](https://gov.yearn.finance/u/fameal)     | [@fameal](https://twitter.com/fameal)     | [@fameal](https://github.com/fameal) |
-| [@Dark](https://gov.yearn.finance/u/dark)         | N/A                                       | N/A                                  |
+| Team Member                                       | Twitter                                   | Github                                       |
+| :------------------------------------------------ | :---------------------------------------- | :------------------------------------------- |
+| [@franklin](https://gov.yearn.finance/u/franklin) | [@DeFiGod1](https://twitter.com/DeFiGod1) | N/A                                          |
+| [@fameal](https://gov.yearn.finance/u/fameal)     | [@fameal](https://twitter.com/fameal)     | [@fameal](https://github.com/fameal)         |
+| [@Dark](https://gov.yearn.finance/u/dark)         | N/A                                       | [@DarkGhost7](https://github.com/DarkGhost7) |
 
 ## Community Grants
 

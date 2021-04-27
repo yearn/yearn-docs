@@ -10,7 +10,7 @@ Most people do not hold enough Hegic for a staking lot and so the vault allows t
 
 Deposit Hegic into the yHegic vault [here](https://yearn.finance/vaults).
 
-As with all vaults, if you are depositing for the first time two transactions are required. First you need to approve the transaction. This allows Hegic to be deposited into Yearn vaults. And then you decide how much Hegic you would like to deposit. Click [here](https://docs.yearn.finance/how-to-guides/how-to-participate-in-a-yvault) for a general guide. 
+As with all vaults, if you are depositing for the first time two transactions are required. First you need to approve the transaction. This allows Hegic to be deposited into Yearn vaults. And then you decide how much Hegic you would like to deposit. Click [here](https://docs.yearn.finance/how-to-guides/how-to-participate-in-a-yvault) for a general guide.
 
 The Hegic token contract address is [here](https://etherscan.io/address/0x584bc13c7d411c00c01a62e8019472de68768430).
 
@@ -86,7 +86,7 @@ Any losses that occur due to the Hegic protocol can be covered [here](https://ye
 Hegic earns options trading fees from trading that occurs on the Hegic protocol. If options trading fees are lower than expected then your returns will be lower.
 
 | No. | Dependency                                                                                                    | Directional Impact                                                                                                                                  |
-|:---:| ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-: | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 |  1  | The rewards from a Hegic staking lot and the Hegic [lending rate on Cream](https://app.cream.finance/markets) | The higher the rewards on Hegic or Cream, the greater the return                                                                                    |
 |  2  | The remainder when the number of Hegic tokens in the vault are divided by 888,000                             | Assuming the rewards from a Hegic staking lot are greater than the lending rewards on Cream then the smaller the remainder, the greater the rewards |
 |  3  | wBTC options volume on Hegic                                                                                  | More [volume](https://duneanalytics.com/slash125/hegic-v2) means a higher yield                                                                     |
@@ -96,17 +96,17 @@ Hegic earns options trading fees from trading that occurs on the Hegic protocol.
 
 ## Which protocols are used by the strategy?
 
-| No. | Protocol name | Type                                      | Use in Strategy                                               |
-|:---:| ------------- | ----------------------------------------- | ------------------------------------------------------------- |
-|  1  | [Hegic](https://www.hegic.co/)         | wBTC or ETH call and put options protocol | Staking Hegic to earn rewards                                 |
-|  2  | [Sushiswap](https://sushi.com/)    | Automated Market Maker                    | Swap ETH or wBTC for Hegic                                    |
-|  3  | [Cream](https://app.cream.finance/markets)         | Lending protocol                          | Lending the Hegic that is not used in a staking lot, on Cream |
+| No. | Protocol name                              | Type                                      | Use in Strategy                                               |
+| :-: | ------------------------------------------ | ----------------------------------------- | ------------------------------------------------------------- |
+|  1  | [Hegic](https://www.hegic.co/)             | wBTC or ETH call and put options protocol | Staking Hegic to earn rewards                                 |
+|  2  | [Sushiswap](https://sushi.com/)            | Automated Market Maker                    | Swap ETH or wBTC for Hegic                                    |
+|  3  | [Cream](https://app.cream.finance/markets) | Lending protocol                          | Lending the Hegic that is not used in a staking lot, on Cream |
 
 ## Which assets are used by the strategy?
 
-| No. |                         Asset name                         | Type                                           | Use in Strategy                                               |
-|:---:|:----------------------------------------------------------:| ---------------------------------------------- | ------------------------------------------------------------- |
-|  1  |     [Hegic](https://www.coingecko.com/en/coins/hegic)      | Governance token of the Hegic protocol         | Earned by the Hegic vault                                     |
+| No. |                         Asset name                         | Type                                           | Use in Strategy                                                 |
+| :-: | :--------------------------------------------------------: | ---------------------------------------------- | --------------------------------------------------------------- |
+|  1  |     [Hegic](https://www.coingecko.com/en/coins/hegic)      | Governance token of the Hegic protocol         | Earned by the Hegic vault                                       |
 |  2  | [wBTC](https://www.coingecko.com/en/coins/wrapped-bitcoin) | Wrapped bitcoin on Ethereum (ann ERC-20 token) | Earned from wBTC options trading, swapped to Hegic on Sushiswap |
 |  3  |     [ETH](https://www.coingecko.com/en/coins/ethereum)     | ETH the asset                                  | Earned from ETH options trading, swapped to Hegic on Sushiswap  |
 
@@ -117,4 +117,3 @@ Subscribe to Yearn’s weekly [state of the vaults](https://medium.com/yearn-sta
 ## Still have questions?
 
 Please visit [Telegram or discord](../README.md#communication_channels) and ask away!
-
