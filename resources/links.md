@@ -6,7 +6,7 @@
 * [Telegram](https://t.me/yearnfinance)
 * [Reddit](https://www.reddit.com/r/yearn_finance/)
 
-### Collaborate 
+### Collaborate
 
 * [Github](https://github.com/yearn)
 * [Governance Forum](https://gov.yearn.finance)
@@ -18,16 +18,17 @@
 
 ### Vaults Detail Reference
 
-* [https://vaults.finance/](https://vaults.finance/)
+* [Vaults at Yearn](https://medium.com/yearn-state-of-the-vaults/the-vaults-at-yearn-9237905ffed3)
+* [yVaults v2 Strategies](https://yearn-hub.vercel.app/)
 
-### Stats
+### Statistics
 
-* [yieldfarming.info](https://yieldfarming.info/)
-* [stats.finance/yearn](https://stats.finance/yearn)
-* [Feel The Yearn](https://feel-the-yearn.vercel.app/)
-* Initial Distribution [Dune Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
-* Voting Stats [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/Lqnxzm7fa8NVhKC4kc37DDFPZgqXryaIjyLRYAYp)
-* Vaults Stats [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/g0bGfgloeXBd9C18jpBjdXi5KkQjR7IXYqFRUnHk)
+* [Yearn Dashboard](https://yearn.vision)
+* [Yearn TVL](https://yearn.science/)
+* [Initial Distribution Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
+* [Voting Stats Dashboard](https://explore.duneanalytics.com/public/dashboards/Lqnxzm7fa8NVhKC4kc37DDFPZgqXryaIjyLRYAYp)
+* [Vaults Stats Dashboard](https://explore.duneanalytics.com/public/dashboards/g0bGfgloeXBd9C18jpBjdXi5KkQjR7IXYqFRUnHk)
+* [Yearn API](https://vaults.finance/all)
 
 ### News
 
