@@ -22,7 +22,7 @@ The Yearn ecosystem is controlled by YFI token holders who submit and vote on of
 
 Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
 
-Discord [http://discord.yearn.finance](https://discord.gg/BUAFD9DUe)
+Discord [http://discord.yearn.finance](http://discord.yearn.finance)
 
 Telegram [https://t.me/yearnfinance](https://t.me/yearnfinance)
 

@@ -19,7 +19,7 @@
   - [Discussion](governance/governance-process/discussion.md)
   - [Proposal](governance/governance-process/proposal.md)
   - [Voting](governance/governance-process/voting.md)
-  - [implementation](governance/governance-process/implementation.md)
+  - [Implementation](governance/governance-process/implementation.md)
 - [Yearn Improvement Proposals (YIPs)](governance/yearn-improvement-proposals.md)
 
 ##Yearn Products
