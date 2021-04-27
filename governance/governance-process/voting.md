@@ -5,11 +5,12 @@
 - Holding or staking YFI in the following places will enable you to vote on Yearn's [Snapshot](https://snapshot.page/#/yearn) page:
 	- Your wallet
 	- YFI yVault V2 (equivalent to holding the yvYFI token)
-	- Balancer
-	- Uniswap
-	- Sushiswap
-	- MakerDAO
-	- Unit Protocol
+	- Balancer YFI/WETH LP token
+	- Uniswap YFI/WETH LP token
+	- Sushiswap YFI/WETH LP token staked in MasterChef
+	- MakerDAO YFI collateral
+	- Unit Protocol YFI collateral
+	- Bancor
 
 ## Where can I view the YIPs?
 
