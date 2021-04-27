@@ -1,27 +1,34 @@
 ---
-Status: In Research & Development
+Status: En Recherche & Développement
 ---
 
 # StableCredit
 
-StableCredit is an upcoming product in research & development that combines three pillars of existing DeFi infrastructure:
+StableCredit est un nouveau produit en recherche et développement qui combine trois piliers de l'infrastructure DeFi existante :
 
-## Explications
+- Création de dette synthétique (DAI, Synthetix).
+- Plateforme de prêt décentralisées (Compound, AAVE).
+- Fonctionnalités des Automated Market Makers, AMM (Uniswap, Sushiswap). 
 
-1. Finematics [explique](https://twitter.com/finematics/status/1305188626008100865) le processus complet en 30 secs.
-2. Andre rejoint  le CODEUP 38 et [expllique](https://www.youtube.com/watch?v=bdC3rNDChbw&feature=youtu.be&t=2002) le produit lui meme.
-3. Economic Designs also takes a shot at [explaining](https://twitter.com/lisajytan/status/1304584889237270528) it.
-4. Bankless [discussed](https://www.youtube.com/watch?v=SkTuMVBLBNQ&feature=youtu.be), with Andre, StableCredit in detail.
+## Mécanismes
 
-## Les autres concepts
+StableCredit permettra aux utilisateurs le dépôt d'actifs comme collatéral et l'obtention d'une ligne de crédit (exprimée en StableCredit USD) basée sur la valeur en dollar de l'actif déposé. Par exemple, un utilisateur peut déposer 100 LINK et obtiendra 1100$ de StableCredit USD (le LINK valant ~11$ à l'écriture de ces lignes). Le StableCredit USD peut être échangé pour d'autres actifs disponibles dans le protocole. 
 
-* Stablecredit uses single-sided [Automated Market Makers](https://docs.yearn.finance/defi-glossary#automated-market-maker). Here is more [info](https://www.youtube.com/watch?v=842acSWmBC4&t=336s) on how AMMs work.
-* [Collateral](https://docs.yearn.finance/defi-glossary#collateralization), Multicollateral.
-* MakerDAO and [MakerDAO CDPs](https://docs.yearn.finance/defi-glossary#maker) is a lending system which StableCredit builds on conceptually.
-* Utilization Ratio is the maximum amount of credit a user will get from the deposited amount.
+Les cours de change entre le StableCredit USD et les actifs dans le protocol sont déterminés par les prix fournis par des oracles (Chainlink), ainsi que l'actuel ratio d'utilisation des actifs au sein de la plateforme. Par exemple, si les fournisseurs de liquidité (LP) ont prêté 100 DAI à la pool et que 90 DAI sont empruntés, le ration d'utilisation est de 90%. Comme les systèmes utilisant des courbes de liaison (Bonding Curves), il y aura une prime importante pour tout emprunt additionnel de DAI (le coût d'emprunt du DAI sera > \$1). Les utilisateurs pourront emprunter jusqu'à 75% de la valeur de leur collatéral (exemple pour un ration d'utilisation de 75%).
 
-## Qu'est ce que l'utilisateur recoit ?
+L'AMM permettra aussi l'exposition de liquidité unilatéral pour les fournisseurs de liquidité (LPs). Actuellement, les modèles populaires d'AMM, comme  Uniswap ou SushiSwap, requièrent des LPs qu'ils déposent les 2 actifs dans la pool. Par exemple, dans une pool de liquidité ETH-USDC, les fournisseurs de liquidités doivent déposer de l'ETH et de l'USDC à un ration de 50/50. Cela augmente la barrière à l'entrée ainsi que le capital nécessaire. L'approvisionnement unilatéral en liquidités permettra aux LP de ne déposer qu'un seul des actifs dans la pool de liquidités. (dans cet exemple, soit de l'ETH soit de l'USDC). La barrière à l'entrée pour devenir un LP est donc grandement réduite et cela contribue à une efficacité du capital déposée accrue. 
 
-1. Les utilisateurs recoivent une ligne de credit The user gets a Credit Line by providing "almost any token". Currently, any token available in the [CHAINLINK oracle \(price feeds\)](https://feeds.chain.link/).
-2. The credit line is given to the user in a StableCredit token. This is a new token minted. This token is a stable token. The user can only get up to 75% from the total amount deposited into the StableCredit contract. This 75% is called utilization ratio.
+## Résumé
 
+Les utilisateurs peuvent:
+
+- Déposer du collatéral et obtenir une ligne de crédit (StableCredit USD).
+- Emprunter d'aurtes actifs avec cette ligne de crédit (similaire à Aave ou Compound).
+- Échanger l'actif emprunté pour un autre actif dans la pool (fonctionnalité des AMM existantes).
+
+## Ressources pédagogiques supplémentaires et contexte (en anglais)
+
+- [Post Medium original : Introducing StableCredit](https://medium.com/iearn/introducing-stablecredit-a-new-protocol-for-decentralized-lending-stablecoins-and-amms-7252a43ee56)
+- [Animation illustrant les mécanismes de StableCredit](https://twitter.com/finematics/status/1305188626008100865)
+- [Vidéo de Bankless à propos de StableCredit, avec Andre Cronje](https://www.youtube.com/watch?v=SkTuMVBLBNQ)
+- [Vidéo CODEUP 38 à propos de StableCredit, avec Andre Cronje](https://www.youtube.com/watch?v=bdC3rNDChbw&feature=youtu.be&t=2002)
