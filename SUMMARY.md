@@ -22,20 +22,20 @@
   - [Implementation](governance/governance-process/implementation.md)
 - [Yearn Improvement Proposals (YIPs)](governance/yearn-improvement-proposals.md)
 
-##Yearn Products
+## Yearn Ecosystem
 
-- [Partner Releases](yearn-products/partner-releases/README.md)
-  - [Zap](yearn-products/partner-releases/zap.md)
-- [R&D](yearn-products/r-and-d/README.md)
-  - [yLiquidate](yearn-products/r-and-d/yliquidate.md)
-  - [yBorrow](yearn-products/r-and-d/yborrow.md)
-  - [yTrade](yearn-products/r-and-d/ytrade.md)
-  - [ySwap](yearn-products/r-and-d/yswap.md)
-  - [StableCredit](yearn-products/r-and-d/stablecredit.md)
-  - [Delegated Funding DAO Vaults](yearn-products/r-and-d/delegated-funding-dao-vaults.md)
-- [yGift](yearn-products/ygift.md)
+- [Collaborative Releases](yearn-ecosystem/collaborative-releases/README.md)
+  - [Zap](yearn-ecosystem/collaborative-releases/zap.md)
+- [R&D](yearn-ecosystem/r-and-d/README.md)
+  - [yLiquidate](yearn-ecosystem/r-and-d/yliquidate.md)
+  - [yBorrow](yearn-ecosystem/r-and-d/yborrow.md)
+  - [yTrade](yearn-ecosystem/r-and-d/ytrade.md)
+  - [ySwap](yearn-ecosystem/r-and-d/yswap.md)
+  - [StableCredit](yearn-ecosystem/r-and-d/stablecredit.md)
+  - [Delegated Funding DAO Vaults](yearn-ecosystem/r-and-d/delegated-funding-dao-vaults.md)
+- [yGift](yearn-ecosystem/ygift.md)
 
-##Resources
+## Resources
 
 - [Guides](resources/guides/README.md)
   - [How to Add a Custom Token to MetaMask](resources/guides/how-to-add-a-custom-token-to-metamask.md)
