@@ -76,7 +76,7 @@ But if you think something can be improved, or you found a bug, we want to squas
 **yETH and yWETH**
 
 - **What's the difference between WETH and ETH vaults?**
-  - None in terms of returns. Deposited ETH it will be wrapped into WETH anyway. The WETH vault just makes it easier for other Ethereum protocols to interact with this vault.
+  - None in terms of returns. Deposited ETH will be wrapped into WETH anyway. The WETH vault just makes it easier for other Ethereum protocols to interact with this vault.
 - **How does ETH vault protect itself from liquidation?**
   - This vault reads ETH price directly from the Maker's OSM \(Oracle Security Model\), a system that reads Oracle price 1 hour in advance. This gives the vault 1 hour to pay the CDP debt before liquidation. Also, the vault keeps increasing collateralization by depositing profit on each harvest call.
 
