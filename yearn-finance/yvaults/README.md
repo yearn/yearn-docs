@@ -12,4 +12,3 @@ For the end user the main difference is the fees charged, the [relevant section 
 
 {% page-ref page="v2-yvaults/" %}
 
-{% page-ref page="yvaults.md" %}

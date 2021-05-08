@@ -1,3 +1,5 @@
+# yTokens
+
 ## yTokens
 
 [Glossary definition](https://docs.yearn.finance/defi-glossary#ytoken).
@@ -12,9 +14,9 @@ yTokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards
 
 ## yCRV
 
-- LP token for yearn's Y pool at Curve.fi/y
-- Aka `yDAI+yUSDC+yUSDT+yTUSD`
-- Interest earning token representing your share of the Y pool composed of DAI, USDT, USDC, and TUSD
+* LP token for yearn's Y pool at Curve.fi/y
+* Aka `yDAI+yUSDC+yUSDT+yTUSD`
+* Interest earning token representing your share of the Y pool composed of DAI, USDT, USDC, and TUSD
 
 ## yUSD
 
@@ -50,11 +52,12 @@ At this tier the current strategy sits on top of the lower two tiers and **harve
 
 ## Resources
 
-- yUSD
-  - CoinGecko: [https://www.coingecko.com/en/coins/yusd](https://www.coingecko.com/en/coins/yusd)
-  - yUSD Token contract: [0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c](https://etherscan.io/address/0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c)
-- Code
-  - The vaults.finance source code on [GitHub](https://github.com/banteg/yearn-recycle)
-  - The current strategy: [StrategyCurveYVoterProxy](https://etherscan.io/address/0x07db4b9b3951094b9e278d336adf46a036295de7#code)
-- FAQ
-  - [https://docs.yearn.finance/faq\#vaults](https://docs.yearn.finance/faq#vaults)
+* yUSD
+  * CoinGecko: [https://www.coingecko.com/en/coins/yusd](https://www.coingecko.com/en/coins/yusd)
+  * yUSD Token contract: [0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c](https://etherscan.io/address/0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c)
+* Code
+  * The vaults.finance source code on [GitHub](https://github.com/banteg/yearn-recycle)
+  * The current strategy: [StrategyCurveYVoterProxy](https://etherscan.io/address/0x07db4b9b3951094b9e278d336adf46a036295de7#code)
+* FAQ
+  * [https://docs.yearn.finance/faq\#vaults](https://docs.yearn.finance/faq#vaults)
+
