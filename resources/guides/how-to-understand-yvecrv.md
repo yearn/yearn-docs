@@ -81,5 +81,5 @@ Subscribe to Yearn’s weekly [state of the vaults](https://medium.com/yearn-sta
 
 ## Still have questions?
 
-Please visit [Telegram or discord](https://github.com/philburrrt/yearn-docs/tree/3ef838c892bd5002a810571d3d864a853f38ec9b/resources/README.md#communication_channels) and ask away!
+Please visit [Telegram or discord](../#communication_channels) and ask away!
 
