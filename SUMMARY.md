@@ -5,21 +5,17 @@
 ## Yearn Finance
 
 - [yVaults](yearn-finance/yvaults/README.md)
-  - [V2 yVaults](yearn-finance/yvaults/v2-yvaults/README.md)
-    - [V2 yVaults Descriptions & Strategies](yearn-finance/yvaults/v2-yvaults/v2-descriptions.md)
-  - [V1 yVaults](yearn-finance/yvaults/v1-yvaults/README.md)
-  - [yTokens](yearn-finance/yvaults/ytokens.md)
+  - [Overview](yearn-finance/yvaults/overview.md)
+  - [Vaults and Strategies](yearn-finance/yvaults/vaults-and-strategies.md)
+  - [Vault Tokens](yearn-finance/yvaults/vault-tokens.md)
+  - [yVault Advantages](yearn-finance/yvaults/yvault-advantages.md)
 - [yEarn](yearn-finance/earn.md)
 - [Protect](yearn-finance/protect.md)
 
 ## Governance
 
 - [YFI](governance/yfi.md)
-- [Governance Process](governance/governance-process/README.md)
-  - [Discussion](governance/governance-process/discussion.md)
-  - [Proposal](governance/governance-process/proposal.md)
-  - [Voting](governance/governance-process/voting.md)
-  - [Implementation](governance/governance-process/implementation.md)
+- [Governance Process](governance/governance-process.md)
 - [Yearn Improvement Proposals (YIPs)](governance/yearn-improvement-proposals.md)
 
 ## Yearn Ecosystem
@@ -46,9 +42,10 @@
   - [How to Understand yveCRV](resources/guides/how-to-understand-yveCRV.md)
   - [How to Withdraw from yEarn and yVaults](resources/guides/how-to-withdraw-from-yearn-and-yvaults.md)
 - [Links](resources/links.md)
-- [FAQ](resources/faq/README.md)
-  - [DeFi Glossary](resources/faq/defi-glossary.md)
 - [Team](resources/team.md)
+- [FAQ](resources/faq/faq.md)
+- [DeFi Glossary](resources/defi-glossary.md)
+
 
 ## Developers
 
