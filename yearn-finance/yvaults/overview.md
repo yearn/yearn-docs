@@ -2,7 +2,7 @@
 
 ## What are yVaults?
 
-[yVaults](https://yearn.finance/vaults) are like savings accounts for your crypto assets. Simp that it then routes it through a strategy which seeks out the highest yield available in DeFi. 
+[yVaults](https://yearn.finance/vaults) are like savings accounts for your crypto assets. Simp that it then routes it through a strategy which seeks out the highest yield available in DeFi.
 
 ## V2 yVault Features:
 
@@ -14,3 +14,4 @@
 ## V1 Vaults
 
 V1 yVaults have a 0.5% withdrawal fee and a 20% fee on additional yield whenever the `harvest()` function is called, [see the FAQ](https://docs.yearn.finance/faq#what-are-the-fees) for more details. Individual profits are allocated on a pro-rata basis determined by the share each depositor contributes to the pool.
+
