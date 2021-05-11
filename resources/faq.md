@@ -1,8 +1,3 @@
-k---
-title: faq.yearn.finance
-tags: 'docs, faq, published'
----
-
 # FAQ
 
 ## Products
