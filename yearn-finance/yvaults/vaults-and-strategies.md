@@ -1,8 +1,6 @@
 # Vault and Strategy Contract Links
 
-When you deposit, your funds first go to the vault contract and then are deployed to various strategy contracts.
-
-Guardians and strategists monitor deposits in order ensure the optimal returns and to be available during critical situations. 
+After depositing, your funds first go to the vault contract and then are deployed to one or more strategy contracts. Guardians and strategists monitor deposits in order ensure optimal returns and to be available during critical situations. 
 
 ## Single Asset Vaults
 

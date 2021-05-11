@@ -46,7 +46,6 @@ Represents the claim arbitration process. This process works as follows:
 - Any tokenized ERC-20 token can be covered. Base assets \(LINK, ETH, etc.\) or composite assets such as aLINK or yaLINK can also be covered.
 - If cover providers deny valid claims, cover holders will no longer use the system and ultimately make it unprofitable for cover providers.
 
-{% hint style="info" %}
 
 ### **A Common Misconception: Not Insurance** <a id="9521"></a>
 

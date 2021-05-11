@@ -1,14 +1,12 @@
 # Vault Tokens
 
-[yVault Tokens](https://docs.yearn.finance/defi-glossary#ytoken) are like a deposit receipt. They represent a user's share of the yVault that they are participating in.
+[yVault Tokens](https://docs.yearn.finance/resources/defi-glossary.md#ytoken) are like a deposit receipt. They represent a user's share of the yVault that they are participating in.
 
-For example, if you deposit DAI in y.curve.fi you will receive yDAI in return. yDai would be the yVault Token.
+**For example**, if you deposit YFI in a yVault you will receive yvYFI in return. yvYFI would be the yVault Token.
 
-If your yVault generates profit, your balance of yVault Tokens will increase. This happens because they represent a share of a pool that reinvests profits into the original token token.
+If your yVault generates profit, your balance of yVault Tokens will increase. This happens because they represent a share of a pool that reinvests profits into the original native token.
 
-Once a user's liquidity is withdrawn from the yVault, their yVault Token will be burned.
-
-yVault Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transfered and traded as any other common Ethereum token.
+Once a user's liquidity is withdrawn from the yVault, their yVault Token will be burned. yVault Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transferred and traded as any other common Ethereum token.
 
 ## V2 yVault Tokens
 
