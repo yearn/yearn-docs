@@ -1,6 +1,6 @@
 # Yearn Improvement Proposals 
 
-Yearn Improvement Proposals (YIPs)  
+Yearn Improvement Proposals (YIPs) define standards that governance has agreed on or is considering implementing.
 
 ## Approved
 
