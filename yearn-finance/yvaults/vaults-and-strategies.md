@@ -1,10 +1,12 @@
 # Vault and Strategy Contract Links
 
-When you deposit in a vault, your tokens are deposited into vault **contract** where it is then deployed to different **strategies**.
+When you deposit, your funds first go to the vault contract and then are deployed to various strategy contracts.
+
+Guardians and strategists monitor deposits in order ensure the optimal returns and to be available during critical situations. 
 
 ## Single Asset Vaults
 
-| Vault                     | Contract       | Strategies                 |
+| Vault Name                | Vault Contract | Strategy Contract          |
 |---------------------------|----------------|----------------------------|
 |YFI|[YFI yVault](https://etherscan.io/address/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1)|[StrategyLenderYieldOptimiser](https://etherscan.io/address/0x6a97FC93e39b3f792f1fD6e01565ff412B002D20#code), [StrategyMakerYFIDAIDelegate](https://etherscan.io/address/0xd7c172cBB4BeE22511611e92377b0fB375bbFd43)|
 |1INCH|[1INCH yVault](https://etherscan.io/address/0xB8C3B7A2A618C552C23B1E4701109a9E756Bab67)|[StrategyLenderYieldOptimiser](https://etherscan.io/address/0x86eD4F77d40182b8686a25e125FB3f5a04203CaA), [Strategy1INCHGovernance](0xB12F6A5776EDd2e923fD1Ce93041B2000A22dDc7)|
