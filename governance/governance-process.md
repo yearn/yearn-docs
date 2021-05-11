@@ -26,7 +26,9 @@ It is recommended to get as much feedback as possible from the various channels 
 ## Requirements to pass YIP
 - 3 day discussion on the [forum](https://gov.yearn.finance/)
   - At least 25% vote 'for' the change
+- 1 YFI in possession to submit to snapshot
 - 5 day [snapshot](https://snapshot.org/#/ybaby.eth) with over 50% passing votes
+
 
 ## Making a proposal
 

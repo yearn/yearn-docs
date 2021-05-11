@@ -7,10 +7,9 @@ Yearn Improvement Proposals (YIPs) define standards that governance has agreed o
 |Number|Title|Author|
 |------|-----|------|
 |[34](https://yips.yearn.finance/YIPS/yip-34)|Add Synthetix (SNX) to yVaults|[Substreight](https://github.com/substreight)|
-|[51](https://yips.yearn.finance/YIPS/yip-51)|Set Vault v2 Fee Structure|[banteg](https://github.com/banteg), [lehnberg](https://github.com/lehnberg), [milkyklim](https://github.com/milkyklim), [tracheoptery](https://github.com/tracheopteryx)|
 |[52](https://yips.yearn.finance/YIPS/yip-52)|Make Strategist Skin in Game Partner for Make Benefit of Glorious Brain of Yearn|[banteg](https://github.com/banteg), [lehnberg](https://github.com/lehnberg), [milkyklim](https://github.com/milkyklim)|
-|[54](https://yips.yearn.finance/YIPS/yip-54)|Formalize Operations Funding|[banteg](https://github.com/banteg), [lehnberg](https://github.com/lehnberg), [lex_node](https://github.com/lex_node)|[milkyklim](https://github.com/milkyklim), [tracheopteryx](https://github.com/tracheopteryx)|
 
+## Implemented
 
 |Number|Title|Author|
 |------|-----|------|
@@ -29,6 +28,8 @@ Yearn Improvement Proposals (YIPs) define standards that governance has agreed o
 |[41](https://yips.yearn.finance/YIPS/yip-41)|Temporarily Empower Multisig|[tracheopteryx](https://github.com/tracheopteryx), [Joe Mahon](https://github.com/Substreight), [franklin501](https://github.com/franklin501), Michael Anderson, Vance Spencer|
 |[44](https://yips.yearn.finance/YIPS/yip-44)|Improve YIP categories|[sam bacha](sam@freighttrust.com)|
 |[45](https://yips.yearn.finance/YIPS/yip-45)|Add a bounty for proposing YIPs that are implemented|[Sunil Srivatsa](https://github.com/alphastorm)|
+|[51](https://yips.yearn.finance/YIPS/yip-51)|Set Vault v2 Fee Structure|[banteg](https://github.com/banteg), [lehnberg](https://github.com/lehnberg), [milkyklim](https://github.com/milkyklim), [tracheoptery](https://github.com/tracheopteryx)|
+|[54](https://yips.yearn.finance/YIPS/yip-54)|Formalize Operations Funding|[banteg](https://github.com/banteg), [lehnberg](https://github.com/lehnberg), [lex_node](https://github.com/lex_node)|[milkyklim](https://github.com/milkyklim), [tracheopteryx](https://github.com/tracheopteryx)|
 |[55](https://gov.yearn.finance/t/yip-55-formalize-the-yip-process/7959/7)|Formalize the YIP Process|[franklin](https://github.com/franklin501)|
 |[56](https://snapshot.org/#/yearn/proposal/Qmb6gBzjvgLMazSrQQGVcjutLNdkVyM2Lh6yckMzdoaHWZ)|BABY: Buyback and Build|[lex_node](https://github.com/lex_node), [tracheopteryx](https://github.com/tracheopteryx), [Artem K](https://github.com/banteg), [Klim K](https://github.com/milkyklim), [Ryan Watkins](https://twitter.com/RyanWatkins_), [lehnberg](https://github.com/lehnberg)|
 |[57](https://snapshot.org/#/yearn/proposal/QmX8oYTSkaXSARYZn7RuQzUufW9bVVQtwJ3zxurWrquS9a)| Funding Yearn's Future| [aleks-blockchaincap](https://gov.yearn.finance/u/aleks-blockchaincap/summary), [Artem K](https://github.com/banteg), [dudesahn](https://twitter.com/dudesahn), [ekrenzke](https://gov.yearn.finance/u/ekrenzke), [lehnberg](https://github.com/lehnberg), [Klim K](https://github.com/milkyklim), [Ryan Watkins](https://twitter.com/RyanWatkins_), [srs-parafi](https://gov.yearn.finance/u/srs-parafi/summary), [tracheopteryx](https://github.com/tracheopteryx), [vooncer](https://gov.yearn.finance/u/vooncer/summary), [yfi-cent](https://gov.yearn.finance/u/yfi-cent/summary)|
