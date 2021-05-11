@@ -1,14 +1,15 @@
 # ysusd
 
-| Contract | ABI | Address |
-| :--- | :--- | :--- |
-| ySUSD | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/ySUSD.json) | [ysusd.iearn.eth](https://etherscan.io/address/0x36324b8168f960A12a8fD01406C9C78143d41380) |
-| ySUSDv2 | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/ySUSD.json) | [ysusd.iearn.eth](https://etherscan.io/address/0xF61718057901F84C4eEC4339EF8f0D86D2B45600) |
+| Contract | ABI                                                                            | Address                                                                                    |
+| :------- | :----------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
+| ySUSD    | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/ySUSD.json) | [ysusd.iearn.eth](https://etherscan.io/address/0x36324b8168f960A12a8fD01406C9C78143d41380) |
+| ySUSDv2  | [JSON](https://github.com/yearn/itoken/blob/master/build/contracts/ySUSD.json) | [ysusd.iearn.eth](https://etherscan.io/address/0xF61718057901F84C4eEC4339EF8f0D86D2B45600) |
 
 ## IySUSD Interface
 
 {% tabs %}
 {% tab title="IySUSD.sol" %}
+
 ```javascript
 // Solidity Interface
 
@@ -37,6 +38,7 @@ interface IySUSD {
   function getPricePerFullShare() external view returns (uint256);
 }
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -44,6 +46,7 @@ interface IySUSD {
 
 {% tabs %}
 {% tab title="TokenInterface.sol" %}
+
 ```javascript
 // https://theethereum.wiki/w/index.php/ERC20_Token_Standard
 contract ERC20Interface {
@@ -62,6 +65,6 @@ contract ERC20Interface {
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 }
 ```
+
 {% endtab %}
 {% endtabs %}
-
