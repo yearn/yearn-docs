@@ -22,6 +22,7 @@
     - [Strategies and yVaults available](products/yvaults/v2-yvaults/strategies-and-yvaults-available.md)
   - [V1 yVaults](products/yvaults/yvaults.md)
 - [Earn](products/earn.md)
+- [Woofy Finance](products/woofy-finance.md)
 - [Zap](products/zap.md)
 - [yInsure](products/yinsure.md)
 - [yGift](products/ygift.md)
