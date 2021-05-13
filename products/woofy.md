@@ -15,15 +15,16 @@ At its core, WOOFY solves two problems: YFI not being dog themed, and the price 
 #### Converting YFI to WOOFY
 
 - **Step 1**: Visit https://woofy.finance
-- **Step 2**: Click 'Woof'
-- **Step 2**: Approve YFI
-- **Step 3**: Deposit YFI
+- **Step 2**: Select 'Woof' above the swap interface
+- **Step 3**: Enter the amount of YFI you would like to convert 
+- **Step 4**: Approve the YFI
+- **Step 5**: Click 'Woof' below the swap interface
 
 #### Converting WOOFY to YFI
 
 - **Step 1**: Visit https://woofy.finance
-- **Step 2**: Click 'Unwoof'
-- **Step 2**: Approve WOOFY
-- **Step 3**: Deposit WOOFY
+- **Step 2**: Select 'Unwoof' above the swap interface
+- **Step 3**: Enter the amount of WOOFY you would like to convert 
+- **Step 4**: Click 'Unwoof' below the swap interface
 
 If it's your first time holding either token after the exchange, make sure to click 'Add Token' above the token's logo so that it will appear in your wallet.
