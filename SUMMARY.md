@@ -11,6 +11,7 @@
   - [yVault Advantages](yearn-finance/yvaults/yvault-advantages.md)
 - [yEarn](yearn-finance/earn.md)
 - [Protect](yearn-finance/protect.md)
+- [Woofy](yearn-finance/woofy.md)
 
 ## Governance
 
