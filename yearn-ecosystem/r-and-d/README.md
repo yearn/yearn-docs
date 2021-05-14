@@ -4,8 +4,14 @@ description: Not recommended for retail use
 
 # Research and Development
 
-## Production deployments  
+{% page-ref page="stablecredit.md" %}
 
-R&D products are unaudited and potentially incomplete contracts that are released using the Yearn Deployer address.
+{% page-ref page="yborrow.md" %}
 
-These projects are tested publically in order to gain exposure to rational actors who may enounter issues that are difficult or impossible to find in a closed enviroment. 
+{% page-ref page="yliquidate.md" %}
+
+{% page-ref page="yswap.md" %}
+
+{% page-ref page="ytrade.md" %}
+
+{% page-ref page="delegated-funding-dao-vaults.md" %}
