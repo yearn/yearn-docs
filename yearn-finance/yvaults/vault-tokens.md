@@ -4,7 +4,7 @@
 
 **For example**, if you deposit YFI in a yVault you will receive yvYFI in return. yvYFI would be the yVault Token.
 
-If your yVault generates profit, your balance of yVault Tokens will increase. This happens because they represent a share of a pool that reinvests profits into the original native token.
+If your yVault generates profit, the share price of your yVault tokens will increase. This happens because there are more underlying tokens in the yVault to redeem upon withdrawal.
 
 Once a user's liquidity is withdrawn from the yVault, their yVault Token will be burned. yVault Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transferred and traded as any other common Ethereum token.
 
