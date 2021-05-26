@@ -1,40 +1,51 @@
 # Table of contents
 
-- [Introduction to Yearn](README.md)
-- [FAQ](faq.md)
-- [DeFi Glossary](defi-glossary.md)
-- [How-To Guides](how-to-guides/README.md)
-  - [How to Add a Custom Token to MetaMask](how-to-guides/how-to-add-a-custom-token-to-metamask.md)
-  - [How To Make a YIP](how-to-guides/how-to-make-a-yip.md)
-  - [How to Mint yUSD](how-to-guides/how-to-mint-yusd.md)
-  - [How To Participate in a yVault](how-to-guides/how-to-participate-in-a-yvault.md)
-  - [How to Understand CRV Vote Locking](how-to-guides/how-to-understand-crv-vote-locking.md)
-  - [How To Understand yVault ROI](how-to-guides/how-to-understand-yvault-roi.md)
-  - [How to Understand yveCRV](how-to-guides/how-to-understand-yveCRV.md)
-  - [How To Withdraw from yEarn and yVaults](how-to-guides/how-to-withdraw-from-yEarn-and-yVaults.md)
-- [YFI and yTokens](yfi-and-ytokens.md)
-- [yUSD](yusd.md)
+- [Introduction](README.md)
 
-## Products
+## Yearn Finance
 
-- [yVaults](products/yvaults/README.md)
-  - [V2 yVaults](products/yvaults/v2-yvaults/README.md)
-    - [Strategies and yVaults available](products/yvaults/v2-yvaults/strategies-and-yvaults-available.md)
-  - [V1 yVaults](products/yvaults/yvaults.md)
-- [Earn](products/earn.md)
-- [Woofy](products/woofy.md)
-- [Zap](products/zap.md)
-- [yInsure](products/yinsure.md)
-- [yGift](products/ygift.md)
+- [yVaults](yearn-finance/yvaults/README.md)
+  - [Overview](yearn-finance/yvaults/overview.md)
+  - [Vaults and Strategies](yearn-finance/yvaults/vaults-and-strategies.md)
+  - [Vault Tokens](yearn-finance/yvaults/vault-tokens.md)
+  - [yVault Advantages](yearn-finance/yvaults/yvault-advantages.md)
+- [yEarn](yearn-finance/earn.md)
+- [Woofy](yearn-finance/woofy.md)
 
-## R&D
+## Governance
 
-- [yBorrow](r-and-d/yborrow.md)
-- [yLiquidate](r-and-d/yliquidate.md)
-- [ySwap](r-and-d/yswap.md)
-- [yTrade](r-and-d/ytrade.md)
-- [Delegated Funding DAO Vaults](r-and-d/delegated-funding-dao-vaults.md)
-- [StableCredit](r-and-d/stablecredit.md)
+- [YFI](governance/yfi.md)
+- [Governance Process](governance/governance-process.md)
+- [Yearn Improvement Proposals (YIPs)](governance/yearn-improvement-proposals.md)
+
+## Yearn Ecosystem
+
+- [Collaborative Releases](yearn-ecosystem/collaborative-releases/README.md)
+  - [Zap](yearn-ecosystem/collaborative-releases/zap.md)
+- [R&D](yearn-ecosystem/r-and-d/README.md)
+  - [yLiquidate](yearn-ecosystem/r-and-d/yliquidate.md)
+  - [yBorrow](yearn-ecosystem/r-and-d/yborrow.md)
+  - [yTrade](yearn-ecosystem/r-and-d/ytrade.md)
+  - [ySwap](yearn-ecosystem/r-and-d/yswap.md)
+  - [StableCredit](yearn-ecosystem/r-and-d/stablecredit.md)
+  - [Delegated Funding DAO Vaults](yearn-ecosystem/r-and-d/delegated-funding-dao-vaults.md)
+- [yGift](yearn-ecosystem/ygift.md)
+
+## Resources
+
+- [Guides](resources/guides/README.md)
+  - [How to Add a Custom Token to MetaMask](resources/guides/how-to-add-a-custom-token-to-metamask.md)
+  - [How to Make a YIP](resources/guides/how-to-make-a-yip.md)
+  - [How to Participate in a yVault](resources/guides/how-to-participate-in-a-yvault.md)
+  - [How to Understand CRV Vote Locking](resources/guides/how-to-understand-crv-vote-locking.md)
+  - [How to Understand yVault ROI](resources/guides/how-to-understand-yVault-ROI.md)
+  - [How to Understand yveCRV](resources/guides/how-to-understand-yveCRV.md)
+  - [How to Withdraw from yEarn and yVaults](resources/guides/how-to-withdraw-from-yearn-and-yvaults.md)
+- [Links](resources/links.md)
+- [Team](resources/team.md)
+- [FAQ](resources/faq.md)
+- [DeFi Glossary](resources/defi-glossary.md)
+
 
 ## Developers
 
@@ -78,16 +89,6 @@
     - [yusdc](developers/misc-resources/smart-contract-integration/yusdc.md)
     - [yusdt](developers/misc-resources/smart-contract-integration/yusdt.md)
     - [zap](developers/misc-resources/smart-contract-integration/zap.md)
-
-## Additional Resources
-
-- [Team](additional-resources/team.md)
-- [Github](https://github.com/yearn)
-- [Medium](https://medium.com/iearn)
-- [Gov Forum](https://gov.yearn.finance/)
-- [Discord](https://discord.gg/JmGtgD2ntU)
-- [Telegram](https://t.me/yearnfinance)
-- [Reddit](https://www.reddit.com/r/yearn_finance/)
 
 ## Contributors
 
