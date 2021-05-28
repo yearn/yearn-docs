@@ -42,10 +42,10 @@ Yearn Improvement Proposals (YIPs) define standards that governance has agreed o
 |Number|Title|Author|
 |------|-----|------|
 |[2](https://yips.yearn.finance/YIPS/yip-2)|Burn YFI for fees	|[Andre Cronje](https://github.com/andrecronje)|
-|[5]()|Reducing YFI weekly supply|[Damir Bandalo](https://github.com/sikiriki12)|
-|[8]()|Halving YFI weekly supply the same as bitcoin|steamer.eth|
-|[14]()|Yearn Rewards Reserve	|[YieldBouncer](https://github.com/yieldbouncer)|
-|[30]()|YFI Inflation Schedule|[Substreight](https://github.com/substreight), [DeltaTiger](https://github.com/deltatigernz), [Hannes Graah](https://github.com/Graadient), [Daryl lau](https://github.com/Daryllautk), yfi_whale|
-|[31]()|YFI Inflation Distribution|[Substreight](https://github.com/substreight), [DeltaTiger](https://github.com/deltatigernz), [Hannes Graah](https://github.com/Graadient), [Daryl lau](https://github.com/Daryllautk)|
-|[42]()|Add RenBTC to yVaults|[Azeem](https://github.com/zu-ctrl)|
-|[43]()|Improve YIP categories|[sam bacha](sam@freighttrust.com)|
+|[5](https://yips.yearn.finance/YIPS/yip-5)|Reducing YFI weekly supply|[Damir Bandalo](https://github.com/sikiriki12)|
+|[8](https://yips.yearn.finance/YIPS/yip-8)|Halving YFI weekly supply the same as bitcoin|steamer.eth|
+|[14](https://yips.yearn.finance/YIPS/yip-14)|Yearn Rewards Reserve	|[YieldBouncer](https://github.com/yieldbouncer)|
+|[30](https://yips.yearn.finance/YIPS/yip-30)|YFI Inflation Schedule|[Substreight](https://github.com/substreight), [DeltaTiger](https://github.com/deltatigernz), [Hannes Graah](https://github.com/Graadient), [Daryl lau](https://github.com/Daryllautk), yfi_whale|
+|[31](https://yips.yearn.finance/YIPS/yip-31)|YFI Inflation Distribution|[Substreight](https://github.com/substreight), [DeltaTiger](https://github.com/deltatigernz), [Hannes Graah](https://github.com/Graadient), [Daryl lau](https://github.com/Daryllautk)|
+|[42](https://yips.yearn.finance/YIPS/yip-42)|Add RenBTC to yVaults|[Azeem](https://github.com/zu-ctrl)|
+|[43](https://yips.yearn.finance/YIPS/yip-43)|Improve YIP categories|[sam bacha](sam@freighttrust.com)|
