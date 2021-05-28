@@ -42,6 +42,8 @@
   - [How to Understand yveCRV](resources/guides/how-to-understand-yveCRV.md)
   - [How to Withdraw from yEarn and yVaults](resources/guides/how-to-withdraw-from-yearn-and-yvaults.md)
 - [Links](resources/links.md)
+- [Security Audits](resources/audits.md)
+- [Financials](resources/financials.md)
 - [Team](resources/team.md)
 - [FAQ](resources/faq.md)
 - [DeFi Glossary](resources/defi-glossary.md)
