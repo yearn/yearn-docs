@@ -1,6 +1,6 @@
-# Yearn Improvement Proposals 
+# Proposal Repository
 
-Yearn Improvement Proposals (YIPs) define standards that governance has agreed on or is considering implementing.
+Yearn Improvement Propsoals (YIPs), Yearn Delegaiton Proposals (YDPs) and Yearn Signaling Proposals (YSPs) are all tools that token holders use to maintain and grow the protocol. 
 
 ## Approved
 

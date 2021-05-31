@@ -15,8 +15,9 @@
 ## Governance
 
 - [YFI](governance/yfi.md)
-- [Governance Process](governance/governance-process.md)
-- [Yearn Improvement Proposals (YIPs)](governance/yearn-improvement-proposals.md)
+- [Governance and Operations](governance/governance-and-operations.md)
+- [Proposal Process](governance/proposal-process.md)
+- [Proposal Repository](governance/proposal-repository.md)
 
 ## Yearn Ecosystem
 
