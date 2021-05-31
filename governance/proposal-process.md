@@ -1,4 +1,4 @@
-# Governance Process
+# Proposal Process
 
 The Yearn ecosystem is controlled by YFI token holders who submit and vote on off-chain proposals that govern the ecosystem. Proposals that generate a majority support (>50% of the vote) are implemented by a 9 member multi-signature wallet. 
 
@@ -15,23 +15,22 @@ It is recommended to get as much feedback as possible from the various channels 
 
 # Proposal
 
-## Yearn Improvement Proposals (YIPs)
+## Types of proposals
 
- A YIP or Yearn Improvement Proposals is the formal vehicle for making changes to the protocol or surrounding DAO. It's a simple post detailing what you think needs to be done, why you want to do it, and how it's possible.  
+**Yearn Improvement Proposals** (YIPs) are an all-encompassing vehicle for exercising power that token holders are granted. After [YIP-61](https://gov.yearn.finance/t/yip-61-governance-2-0/10460), **Yearn Delegation Proposals** (YDPs) were introduced, which allow token holders to change where any discrete decision-making power is delegated.
 
 ![](https://i.imgur.com/ZRNp2Zq.png)
 *Yearn Improvement Proposals at Snapshot*
 
-## Previous and current YIPs
-- Previous: [YIP Repository](https://docs.yearn.finance/governance/yearn-improvement-proposals)
+### Previous and current proposals
+- Previous: [Proposal Repository](https://docs.yearn.finance/governance/yearn-improvement-proposals)
 - Current: [Snapshot](https://snapshot.page/#/yearn) 
 
-## Requirements to pass YIP
+### Requirements to pass proposals
 - 3 day discussion on the [forum](https://gov.yearn.finance/)
   - At least 25% vote 'for' the change
 - 1 YFI in possession to submit to snapshot
 - 5 day [snapshot](https://snapshot.org/#/ybaby.eth) with over 50% passing votes
-
 
 ## Making a proposal
 
