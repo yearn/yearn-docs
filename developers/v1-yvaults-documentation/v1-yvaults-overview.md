@@ -1,4 +1,8 @@
-# Vaults Overview
+---
+description: This documentation only covers v1 vaults. v2 vault developer documentation coming soon. 
+---
+
+# v1 Vaults Overview
 
 This document gives a _generalized and high level overview_ of how the protocol and its actors, smart contracts, and other services interact with each other. The aim is to build intuition about how Yearn products work.
 
