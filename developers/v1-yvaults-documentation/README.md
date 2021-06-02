@@ -1,4 +1,4 @@
-# yVaults Documentation
+# v1 yVaults Documentation
 
 {% page-ref page="vault-interfaces.md" %}
 

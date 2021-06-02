@@ -1,4 +1,8 @@
-# Vault Interfaces
+---
+description: This documentation only covers v1 vaults. v2 vault developer documentation coming soon. 
+---
+
+# v1 yVault Interfaces
 
 ## IStrategy
 
