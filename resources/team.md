@@ -46,7 +46,7 @@
 |Alexey Karpenko|[@kaplansky1](https://twitter.com/kaplansky1/status/1285427247286046725)|0x74630370197b4c4795bFEeF6645ee14F8cf8997D|
 |Daryl Lau|[@daryllautk](https://twitter.com/Daryllautk/status/1285434908383444992)|0x99BC02c239025E431D5741cC1DbA8CE77fc51CE3|
 |devops199fan|[@devops199fan](https://twitter.com/devops199fan/status/1285430347954622464)|0x48f2bd7513da5Bb9F7BfD54Ea37c41650Fd5f3a3|
-|Ryan Watckins|[@RyanWatkins_](https://twitter.com/RyanWatkins_)|0x757280Bd46fC5B1C8b85628E800c443525Afc09b|
+|Ryan Watkins|[@RyanWatkins_](https://twitter.com/RyanWatkins_)|0x757280Bd46fC5B1C8b85628E800c443525Afc09b|
 |Leo Cheng|[@leokcheng](https://twitter.com/leokcheng)|0x7321ED86B0Eb914b789D6A4CcBDd3bB10f367153|
 |Mariano Conti|[@nanexcool](https://twitter.com/nanexcool)|0x6F2A8Ee9452ba7d336b3fba03caC27f7818AeAD6|
 |Vasiliy Shapovalov|[@_vshapovalov](https://twitter.com/_vshapovalov/status/1299799139635679232)|0x6E83d6f57012D74e0F131753f8B5Ab557824507D|
