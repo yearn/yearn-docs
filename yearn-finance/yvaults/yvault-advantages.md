@@ -42,9 +42,6 @@ Because yVaults batch your transaction with many other depositors, it is cumulat
 
 Yearn utilizes the Iron Bank (C.R.E.A.M. Finance) to access credit that is used to enhance yVault yields. Only white-listed addresses have this feature available to them, meaning that typically, individuals are not able to do this on their own. 
 
-![](https://i.imgur.com/lXjwpV6.png)
-*The Iron Bank interface at [yearn.fi](https://yearn.fi/lend/)*
-
 Some strategies also implement [flash loans](https://docs.yearn.finance/resources/defi-glossary#flash-loan), which is typically a back-end service that requires development experience to take advantage of. 
 
 ## Partnerships
