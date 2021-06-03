@@ -4,6 +4,9 @@
 
 [yVaults](https://yearn.finance/vaults) are like savings accounts for your crypto assets. They accept your deposit, then route it through a strategies which seek out the highest yield available in DeFi. 
 
+![](https://i.imgur.com/yXnJqsn.png)
+*yVaults at yearn.finance*
+
 ## Zap in with any asset 
 
 Thanks to [Zapper](https://zapper.fi/), yVaults are extremely easy to deposit into. As long as you hold a token that can be swapped on Uniswap with less than 1% slippage, the vault will accept the token, convert it into what's required for the vault, and deposit all in the same transaction.
