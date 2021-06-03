@@ -45,7 +45,7 @@
 - [Links](resources/links.md)
 - [Security Audits](resources/audits.md)
 - [Financials](resources/financials.md)
-- [Team](resources/team.md)
+- [Mutlisig](resources/multisig.md)
 - [FAQ](resources/faq.md)
 - [DeFi Glossary](resources/defi-glossary.md)
 
