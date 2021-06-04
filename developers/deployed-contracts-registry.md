@@ -12,6 +12,15 @@ The Yearn ecosystem is controlled by YFI token holders who submit and vote on pr
 | ---------------------------------------------------------------------------- | ------------------------------------------ |
 | [YFI](https://etherscan.io/token/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e) | 0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e |
 
+
+### WOOFY
+
+YFI can be transformed into WOOFY through [Woofy Finance](https://woofy.finance/). It is effectively the same thing as YFI with a smaller denomination. The rate is 1 YFI = 1,000,000 WOOFY. 
+
+| Token                                                                        | Address                                    |
+| ---------------------------------------------------------------------------- | ------------------------------------------ |
+| [WOOFY](https://etherscan.io/token/0xd0660cd418a64a1d44e9214ad8e459324d8157f1)| 0xd0660cd418a64a1d44e9214ad8e459324d8157f1 |
+
 ### v2 Yield Tokens
 
 The v2 yield tokens can be used in one lender at a time. Currently being used on Curve’s Y Pool, Yearn’s yBTC pool and sUSD pool.
