@@ -19,6 +19,9 @@ It is recommended to get as much feedback as possible from the various channels 
 
  A YIP or Yearn Improvement Proposals is the formal vehicle for making changes to the protocol or surrounding DAO. It's a simple post detailing what you think needs to be done, why you want to do it, and how it's possible.  
 
+![](https://i.imgur.com/ZRNp2Zq.png)
+*Yearn Improvement Proposals at Snapshot*
+
 ## Previous and current YIPs
 - Previous: [YIP Repository](https://docs.yearn.finance/governance/yearn-improvement-proposals)
 - Current: [Snapshot](https://snapshot.page/#/yearn) 
