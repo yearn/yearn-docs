@@ -1,6 +1,6 @@
 # Vault Tokens
 
-[yVault Tokens](https://docs.yearn.finance/resources/defi-glossary.md#ytoken) are like a deposit receipt. They represent a user's share of the yVault that they are participating in.
+[yVault Tokens](https://docs.yearn.finance/resources/defi-glossary#ytoken) are like a deposit receipt. They represent a user's share of the yVault that they are participating in.
 
 **For example**, if you deposit YFI in a yVault you will receive yvYFI in return. yvYFI would be the yVault Token.
 
