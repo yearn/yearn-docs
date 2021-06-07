@@ -15,7 +15,7 @@ Locking CRV allows users to boost the CRV rewards they are receiving when provid
 ![](https://i.imgur.com/QaMMdr7.png)
 *Curve's vote-locking interface*
 
-Using the Backscratcher yVault, Yearn is locks up a significant amount of CRV indefinitely, and distributes the boosts to various yVaults.  
+Using the Backscratcher yVault, Yearn locks up a significant amount of CRV indefinitely, and distributes the boosts to various yVaults.  
 
 ### Backscratcher yVault
 
