@@ -5,21 +5,29 @@
 - [Discord](https://discord.yearn.finance)
 - [Telegram](https://t.me/yearnfinance)
 - [Reddit](https://www.reddit.com/r/yearn_finance/)
+- [Github](https://github.com/yearn)
+- [TG Price Chat](https://t.me/yearncommunity)
+- [TG ANN](https://t.me/yearnupdates)
 
 ### Updates
 
 - [Twitter](https://twitter.com/iearnfinance) 
-- [Medium](https://medium.com/iearn) 
+- [Medium](https://medium.com/iearn)
+- [Yearn Newsletter](https://yearn.substack.com/)
+- [Weekly Governance Newsletter](https://medium.com/yearn-governance-roundup)
+- [Weekly Vault Updates Newsletter](https://medium.com/yearn-state-of-the-vaults) 
 
 ### Collaborate
 
 - [Github](https://github.com/yearn)
 - [Governance Forum](https://gov.yearn.finance)
+- [Yearn Contribute](https://contribute.yearn.rocks/)
 
 ### Learn
 
 - [Learn Yearn](https://www.learnyearn.finance/)
 - [yCosystem](https://ycosystem.info/)
+- [Yearn FAQ](https://docs.yearn.finance/faq)
 
 ### Vaults Detail Reference
 
@@ -35,6 +43,20 @@
 - [Vaults Stats Dashboard](https://explore.duneanalytics.com/public/dashboards/g0bGfgloeXBd9C18jpBjdXi5KkQjR7IXYqFRUnHk)
 - [Yearn API](https://vaults.finance/all)
 
+### General Websites
+- [yCosystem](https://yfi.fyi/)
+- [Dune Analytics](https://duneanalytics.com/projects/yearn)
+- [CoinGecko](https://www.coingecko.com/en/coins/yearn-finance)
+- [Defi Market Cap](https://defimarketcap.io/protocol/yearn-vault)
+
+### Community Calculators
+- [Feel-the-yearn](https://feel-the-yearn.app/)
+- [yVault ROI Calc](https://yvault-roi.netlify.app/)
+- [Yearn ROI Calc](https://yearn-roi.xyz/)
+- [Yearn Party](https://yearn.party/)
+- [Yieldfarming](https://yieldfarming.info/)
+- [stats.finance](https://stats.finance/yearn)
+- [Track a Vault](https://trackavault.com/)
 
 ### Media Resources
 
