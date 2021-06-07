@@ -6,25 +6,25 @@
 
 #### What is a Vault?
 
-- [yVaults](https://docs.yearn.finance/yearn-finance/yvaults)
+- [yVaults](https://docs.yearn.finance/yearn-finance/yvaults/overview#what-are-yvaults)
 
 #### How is vault growth calculated?
 
-- [Vault Returns](https://docs.yearn.finance/yearn-finance/yvaults/#growth)
+- [Vault Returns](https://docs.yearn.finance/resources/guides/how-to-understand-yvault-roi#roi-calculation)
 
 #### Can I deposit and any token into any vault?
 
-- [Zap](https://docs.yearn.finance/yearn-finance/yvaults/#zap)
+- [Zap](https://docs.yearn.finance/yearn-finance/yvaults/overview#zap-in-with-any-asset)
 
 #### What is the fee structure?
 
-- [Detailed description of fees](https://docs.yearn.finance/yearn-finance/yvaults/#fee-structure)
+- [Detailed description of fees](https://docs.yearn.finance/yearn-finance/yvaults/overview#yvault-fee-structure)
 
 ### Vault Strategies
 
 #### What is a Vault Strategy?
 
-- [Strategies](https://docs.yearn.finance/yearn-finance/yvaults/#strategies)
+- [Strategies](https://docs.yearn.finance/yearn-finance/yvaults/vaults-and-strategies)
 
 #### Where can I find current strategies?
 
@@ -32,7 +32,7 @@
 
 #### Who is in control of the strategies?
 
-- [Strategists and Guardians](https://docs.yearn.finance/yvaults/#v2-yvaults-features)
+- [Strategists and Guardians](https://docs.yearn.finance/yearn-finance/yvaults/vaults-and-strategies)
 
 #### What is the process for getting my strategy onto Yearn?
 
@@ -46,21 +46,17 @@
 
 ## Governance
 
-#### Who are Yearn's core developers?
-
-- [Yearn's Team](https://gov.yearn.finance/resources/team/)
-
 #### Who is on the multisig?
 
-- [Yearn's Multisig](https://gov.yearn.finance/resources/team/)
+- [Yearn's Multisig](https://gov.yearn.finance/t/yip-62-change-two-multisig-signers/10758/)
 
 #### What is a YIP?
 
-- [Yearn Improvement Proposals](https://gov.yearn.finance/governance/yearn-improvement-proposals)
+- [Yearn Improvement Proposals](https://docs.yearn.finance/governance/proposal-process#proposal)
 
 #### How do I vote?
 
-- [Voting Details](https://gov.yearn.finance/governance/voting)
+- [Voting Details](https://docs.yearn.finance/governance/proposal-process#voting)
 
 ## Security
 
@@ -70,7 +66,7 @@
 
 #### Is Yearn audited?
 
-- [Security Audit Repository](https://docs.yearn.finance/resources/security-audits)
+- [Security Audit Repository](https://docs.yearn.finance/resources/audits)
 
 #### Where should I report a bug?
 
@@ -84,16 +80,16 @@
 
 #### Does yearn hire or pay contributors?
 
-- [Contributors](https://gov.yearn.finance/contributors/contributors)
+- [Contributors](https://docs.yearn.finance/contributors/contributors#how-to-contribute)
 
 ## Related Projects
 
-- [Curve Finance](https://docs.yearn.finance/yearn-ecosystem/curve/)
-- [CREAM Finance](https://docs.yearn.finance/yearn-ecosystem/c.r.e.a.m-finance/)
-- [SushiSwap](https://docs.yearn.finance/yearn-ecosystem/sushiswap/)
-- [Akropolis](https://docs.yearn.finance/yearn-ecosystem/akropolis/)
-- [Pickle Finance](https://docs.yearn.finance/yearn-ecosystem/pickle-finance/)
-- [Keep3r](https://docs.yearn.finance/yearn-ecosystem/keep3r/)
+- [Curve Finance](https://curve.fi)
+- [CREAM Finance](https://cream.finance)
+- [SushiSwap](https://www.sushi.com)
+- [Akropolis](https://www.akropolis.io)
+- [Pickle Finance](https://pickle.fyi)
+- [Keep3r](https://keep3r.network)
 
 ## Resources
 
