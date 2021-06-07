@@ -15,8 +15,9 @@
 ## Governance
 
 - [YFI](governance/yfi.md)
-- [Governance Process](governance/governance-process.md)
-- [Yearn Improvement Proposals (YIPs)](governance/yearn-improvement-proposals.md)
+- [Governance and Operations](governance/governance-and-operations.md)
+- [Proposal Process](governance/proposal-process.md)
+- [Proposal Repository](governance/proposal-repository.md)
 
 ## Yearn Ecosystem
 
@@ -38,13 +39,12 @@
   - [How to Make a YIP](resources/guides/how-to-make-a-yip.md)
   - [How to Participate in a yVault](resources/guides/how-to-participate-in-a-yvault.md)
   - [How to Understand CRV Vote Locking](resources/guides/how-to-understand-crv-vote-locking.md)
-  - [How to Understand yVault ROI](resources/guides/how-to-understand-yVault-ROI.md)
-  - [How to Understand yveCRV](resources/guides/how-to-understand-yveCRV.md)
-  - [How to Withdraw from yEarn and yVaults](resources/guides/how-to-withdraw-from-yearn-and-yvaults.md)
+  - [How to Understand yVault ROI](resources/guides/how-to-understand-yvault-roi.md)
+  - [How to Understand yveCRV](resources/guides/how-to-understand-yvecrv.md)
+  - [How to Understand the Hegic v2 Vault](resources/guides/how-to-understand-the-hegic-v2-vault.md)
 - [Links](resources/links.md)
 - [Security Audits](resources/audits.md)
 - [Financials](resources/financials.md)
-- [Team](resources/team.md)
 - [FAQ](resources/faq.md)
 - [DeFi Glossary](resources/defi-glossary.md)
 

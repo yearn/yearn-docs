@@ -20,6 +20,9 @@ As with all vaults, if you are depositing for the first time two transactions ar
 
 Alternatively, you can buy yveCRV directly on [Sushiswap](https://app.sushiswap.fi/swap). The contract address is [0xc5bddf9843308380375a611c18b50fb9341f502a](https://etherscan.io/address/0xc5bddf9843308380375a611c18b50fb9341f502a).
 
+![](https://i.imgur.com/DrnPl9N.png)
+*Buying yveCRV on Sushiswap*
+
 ## What are the benefits of depositing into this vault?
 
 Depositing CRV in this vault allows you to earn:

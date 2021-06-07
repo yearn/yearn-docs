@@ -2,6 +2,8 @@
 
 After depositing, your funds first go to the vault contract and then are deployed to one or more strategy contracts. Guardians and strategists monitor deposits in order ensure optimal returns and to be available during critical situations. 
 
+Detailed information on the vaults and their strategies can be found at [The Vaults at Yearn](https://medium.com/yearn-state-of-the-vaults/the-vaults-at-yearn-9237905ffed3).
+
 ## Single Asset Vaults
 
 | Vault Name                | Vault Contract | Strategy Contract          |
@@ -47,6 +49,7 @@ After depositing, your funds first go to the vault contract and then are deploye
 |3Crv|[yearn Curve.fi DAI/USDC/USDT](https://etherscan.io/address/0x9cA85572E6A3EbF24dEDd195623F188735A5179f#code)|[StrategyCurve3CrvVoterProxy](https://etherscan.io/address/0xC59601F0CC49baa266891b7fc63d2D5FE097A79D#code)|
 |crvEURS|[yearn Curve.fi EURS/sEUR](https://etherscan.io/address/0x98B058b2CBacF5E99bC7012DF757ea7CFEbd35BC#code)|[StrategyCurveEURVoterProxy](https://etherscan.io/address/0x22422825e2dFf23f645b04A3f89190B69f174659#code)|
 |crvHBTC|[yearn Curve.fi hBTC/wBTC](https://etherscan.io/token/0x46AFc2dfBd1ea0c0760CAD8262A5838e803A37e5)|[StrategyCurveHBTCVoterProxy](https://etherscan.io/address/0xE02363cB1e4E1B77a74fAf38F3Dbb7d0B70F26D7#code)|
+|crvALUSD|[Curve alUSD Pool yVault](https://etherscan.io/address/0xA74d4B67b3368E83797a35382AFB776bAAE4F5C8)|[CurvealUSD3CRV-fVoterProxy](https://etherscan.io/address/0x31CD90D60516ED18750bA49b2C9d1053190F40d9#readContract)
 
 ## Locked Token Vaults
 
