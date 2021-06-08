@@ -23,7 +23,7 @@ Yearn smart contracts repo: [https://github.com/yearn/yearn-protocol](https://gi
 - [Registries](https://github.com/yearn/yearn-protocol/tree/develop/contracts/registries)
 - [Vaults](https://github.com/yearn/yearn-protocol/tree/develop/contracts/vaults)
 - [Strategies](https://github.com/yearn/brownie-strategy-mix)
-- [iToken Wrappers](https://github.com/yearn/brownie-strategie-mix)
+- [iToken Wrappers](https://github.com/yearn/brownie-strategy-mix)
 - [APR Oracle](https://github.com/yearn/apr-oracle/tree/master/contracts)
 - [Utils](https://github.com/yearn/yearn-protocol/tree/develop/contracts/utils)
 

@@ -16,7 +16,7 @@ The first Yearn product was a lending aggregator. Funds are shifted between dYdX
 
 ## Governance
 
-The Yearn ecosystem is controlled by YFI token holders who submit and vote on off-chain proposals that govern the ecosystem. Proposals that generate a majority support \(&gt;50% of the vote\) are implemented by a 9 member multi-signature wallet. Changes must be signed by 6 out of the 9 wallet signers in order to be implemented. The members of the multi-signature wallet were voted in by YFI holders and are subject to change from future governance votes. Please refer to our FAQ for [the list of the multisig signers](https://docs.yearn.finance/faq#who-are-the-9-multisig-signers) and more information about the [governance process](https://docs.yearn.finance/faq#governance).
+The Yearn ecosystem is controlled by YFI token holders who submit and vote on off-chain proposals that govern the ecosystem. Proposals that generate a majority support \(&gt;50% of the vote\) are implemented by a 9 member multi-signature wallet. Changes must be signed by 6 out of the 9 wallet signers in order to be implemented. The members of the multi-signature wallet were voted in by YFI holders and are subject to change from future governance votes. Please refer to our FAQ for [the list of the multisig signers](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) and more information about the [governance process](https://docs.yearn.finance/resources/faq#governance).
 
 ## Communication Channels
 

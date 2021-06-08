@@ -1,6 +1,6 @@
 # How To Participate in a yVault
 
-This visual guide will walk you through every step in depositing funds in a [yVault](https://docs.yearn.finance/products/yvaults).
+This visual guide will walk you through every step in depositing funds in a [yVault](https://docs.yearn.finance/yearn-finance/yvaults/overview).
 
 ## Prerequisites
 
