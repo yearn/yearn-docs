@@ -49,6 +49,15 @@
 - [DeFi Glossary](resources/defi-glossary.md)
 
 
+## Contributors
+
+- [Contribute](contributors/README.md)
+- [Contributor Tools](contributors/contributor-tools.md)
+- [Writing Style Guide](contributors/writing-style-guide.md)
+- [Working on Docs](contributors/working-on-docs.md)
+- [Coordinape](https://docs.coordinape.com/)
+- 
+
 ## Developers
 
 - [Naming Conventions](developers/naming-convention.md)
@@ -91,10 +100,3 @@
     - [yusdc](developers/misc-resources/smart-contract-integration/yusdc.md)
     - [yusdt](developers/misc-resources/smart-contract-integration/yusdt.md)
     - [zap](developers/misc-resources/smart-contract-integration/zap.md)
-
-## Contributors
-
-- [Contribute](contributors/README.md)
-- [Contributor Tools](contributors/contributor-tools.md)
-- [Writing Style Guide](contributors/writing-style-guide.md)
-- [Coordinape](https://docs.coordinape.com/)
