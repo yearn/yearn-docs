@@ -2,7 +2,7 @@
 
 **IF YOU HAVE ANY QUESTIONS** post in the #documentation channel on [discord](https://discord.gg/vqhqQT7s)
 
-Yearn's documentation repository is hosted publically on GitHub in order to foster and encourage open source collaboration. We utilize GitBook's simple folder and file structure format to make it easy for new contributors to onboard and edit. 
+Yearn's documentation repository is hosted on GitHub in order to foster and encourage open source collaboration. 
 
 ---
 
@@ -10,15 +10,9 @@ Yearn's documentation repository is hosted publically on GitHub in order to fost
 
 In order to contribute to Yearn docs, you will need to be able to write with Markdown syntax. It's extremely easy to learn. Use this [cheat sheet](https://www.markdownguide.org/cheat-sheet/) to get started.
 
-If you have no experience with GitHub or desire to learn, the only way you will be able to submit changes is with this [form](https://m3uu5ubgyl1.typeform.com/to/D5J8IpeS).
+If you have no experience cloning and working on a repository, you can make your edits or additions in [HackMD](https://hackmd.io) and then create an issue in GitHub that contains the Markdown copy. Just create a profile on Discord, and that can be linked to create a HackMD account.
 
-It will ask you for a link to your [HackMD](https://hackmd.io/) page. If you are editing an existing page, copy the entire page, edit what you need to change and submit the entire page with its changes. Only send one HackMD link per page edited. 
-
-You will also either need the title of your new page or a link to the existing page that you are editing. 
-
-**Alternatively**, you can make your edits or additions in HackMD and then create an issue in GitHub. This will require both a HackMD and a GitHub account, but is technically very simple to do.
-
-Here's how: 
+Here's how to contribute using issues: 
 
 1. Create an issue in https://github.com/yearn/yearn-docs
 
