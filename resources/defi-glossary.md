@@ -1,20 +1,20 @@
-# DeFi Glossary
+# Từ điển DeFi (Việt hóa bởi y.at/🤖💵💵💰💰)
 
 ### Aave
 
-[Aave](https://aave.com/) is an open-source and non-custodial lending protocol enabling the creation of money markets.
+[Aave](https://aave.com/) là một giao thức cho vay mã-nguồn-mở và không-giữ-hộ, mở ra sự hình thành của các thị trường tiền tệ.
 
-Users can earn interest on deposits and also borrow assets. Aave provides depositors a Liquidity Token that represents an equivalent derivative deposit in an identical asset.
+Người dùng có được một khoản lãi khi gửi tiền vào, cũng như có khả năng vay các loại tài sản (mã thuật số). Aave cấp cho người gửi một Tôken bảo chứng Thanh khoản (có thể dùng để rút cả vốn lẫn lãi bất cứ lúc nào, không phải chờ đợi hay nhờ đến người khác vì tất cả đã lập trình sẵn) đại diện cho lượng tiền gửi tương ứng với tài sản số đó.
 
-For example, a user can deposit DAI and receive aDAI, which is a type of USD-based crypto derivative that essentially represents the value of the underlying DAI asset plus the interest gains from allowing the borrowing of one's DAI. That aDAI, could then also be used to implement further strategies to potentially amplify their gains even further.
+Chẳng hạn, chị C có thể ký gửi đồng DAI và được cấp lại tôken aDAI—một loại tiền số phái sinh dựa trên đồng đô-la Mỹ (USD), về cơ bản tương đương với giá trị của tài sản DAI gốc cộng với khoản lãi từ việc cho vay lượng DAI đó. aDAI nói trên còn có thể tiếp tục được sử dụng cho nhiều chiến lược khác, giúp tăng khoản lãi lên nhiều hơn.
 
-### Alpha Code
+### Alpha Code (Mã Alpha)
 
-Early-stage prototype computer code, programs, and algorithms meant to solve a problem, and/or provide new digital goods or services. Alpha software comes with the expectation that the code is at an early prototype stage and is meant for an early testing phase meant for very limited testing.
+Bản mẫu thô sơ của mã máy tính, chương trình hay thuật toán để giải quyết một vấn đề, và/hoặc cung cấp hàng hóa cũng như dịch vụ số mới. Mác phần mềm Alpha có nghĩa là nó đang ở giai đoạn vừa hình thành, mục đích để thử nghiệm sơ bộ và rất giới hạn.
 
-Alpha code or software may be missing all or parts of expected software functionality. Planned features and the security of the software may also be very limited or even non-existent in many aspects.
+Mã hay phần mềm Alpha có thể thiếu nhiều hoặc tất cả các tính năng mong muốn. Tương lai cũng như tính an toàn của nó là rất mờ mịt và thấp, thậm chí không tồn tại ở nhiều khía cạnh.
 
-### Audit
+### Audit (Kiểm toán)
 
 An audit is either an internal or independent comprehensive review of a concept, system, process, company, or product. A comprehensive audit includes a thoughtful and in-depth look at the structure, strengths, weaknesses, and vulnerabilities of the thing or process being audited.
 
@@ -22,7 +22,7 @@ Audits may be either informal or formal audits and are meant to be a tool to fin
 
 ### APY
 
-Annual Percentage Yield, a time-based measurement of the Return On Investment \(ROI\) on an asset. For example, $100 invested at 2% APY would yield $102 after one year, if there is no compounding of any interest earned on that \$100 through the year. Assuming a static APY rate, the Monthly ROI would be 0.16%, in this case.
+Phần Trăm Lãi Suất Hàng Năm (Annual Percentage Yield), một cách đo Lợi Nhuận Qua Đầu Tư hay "Return On Investment" \(ROI\) theo thời gian của một tài sản. Ví dụ, đầu tư $100 với 2% APY sẽ mang lại $102 sau một năm, nếu không tính lãi kép (gộp khoản lãi trên \$100 vào vốn gốc để tiếp tục thu lời ở bất cứ thời điểm nào trước khi hết năm). Nếu như APY không đổi, tỷ suất ROI Hàng Tháng sẽ là 0.16%.
 
 ### Arbitrage
 
