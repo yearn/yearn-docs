@@ -23,7 +23,7 @@ It is recommended to get as much feedback as possible from the various channels 
 *Yearn Improvement Proposals at Snapshot*
 
 ### Previous and current proposals
-- Previous: [Proposal Repository](https://gov.yearn.finance/c/proposals/5)
+- Previous: [Proposal Repository](https://docs.yearn.finance/governance/proposal-repository)
 - Current: [Snapshot](https://snapshot.page/#/yearn) 
 
 ### Requirements to pass proposals
