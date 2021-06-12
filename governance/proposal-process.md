@@ -2,7 +2,7 @@
 
 The Yearn ecosystem is controlled by YFI token holders who submit and vote on off-chain proposals that govern the ecosystem. Proposals that generate a majority support (>50% of the vote) are implemented by a 9 member multi-signature wallet. 
 
-Changes must be signed by 6 out of the 9 wallet signers in order to be implemented. The [members of the multi-signature wallet](https://docs.yearn.finance/resources/team) were voted in by YFI holders and are subject to change from future governance votes. 
+Changes must be signed by 6 out of the 9 wallet signers in order to be implemented. The [members of the multi-signature wallet](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) were voted in by YFI holders and are subject to change from future governance votes. 
 # Discussion
 
 Discussion regarding changes in the protocol happen on a variety of platforms such as:
@@ -23,7 +23,7 @@ It is recommended to get as much feedback as possible from the various channels 
 *Yearn Improvement Proposals at Snapshot*
 
 ### Previous and current proposals
-- Previous: [Proposal Repository](https://docs.yearn.finance/governance/yearn-improvement-proposals)
+- Previous: [Proposal Repository](https://docs.yearn.finance/governance/proposal-repository)
 - Current: [Snapshot](https://snapshot.page/#/yearn) 
 
 ### Requirements to pass proposals

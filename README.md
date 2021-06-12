@@ -1,31 +1,29 @@
-# Giới thiệu
+# Introduction
 
-Yearn Finance là một bộ các ứng dụng trong thế giới Tài chính Phi Tập trung (DeFi), cung cấp tính năng cho vay tổng hợp, tạo lãi suất và bảo hiểm trên chuỗi khối (blockchain) Ethereum. Giao thức Yearn Finance được duy trì bởi hàng loạt lập trình viên độc lập và do những người nắm giữ đồng YFI quản lý.
+Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum blockchain. The protocol is maintained by various independent developers and is governed by YFI holders.
 
-Bạn có thể xem tóm lược các ứng dụng cốt lõi, quá trình quản trị và liên kết đến những kênh trò chuyện sôi nổi của Yearn ngay dưới đây.
+You can find brief descriptions of Yearn's core products, the governance process, and links to active communication channels below.
 
-## Ứng dụng Cốt lõi
+## Core Products
 
-### Vault (Kho bạc)
+### Vaults
 
-Là các bể góp vốn, tự động mang lại lãi suất dựa theo cơ hội trên thị trường. Vault (Kho bạc) có lợi cho người dùng nhờ gộp chung phí gas (từ đó giảm bớt phí gas cho từng cá nhân), tự động hóa quá trình tạo lãi và tái cân bằng, cũng như tự khắc dịch chuyển vốn khi xuất hiện cơ hội mới. Người dùng bình thường cũng không cần kiến thức chuyên sâu về DeFi hay các giao thức ngầm, nên Vault (Kho bạc) giống như một hình thức tài khoản tiết kiệm hoặc chiến lược đầu tư phòng vệ.
+Capital pools that automatically generate yield based on opportunities present in the market. Vaults benefit users by socializing gas costs, automating the yield generation and rebalancing process, and automatically shifting capital as opportunities arise. End users also do not need to have a proficient knowledge of the underlying protocols involved or DeFi, thus the Vaults represent a passive-investing strategy.
 
-### Earn (Kiếm tiền)
+### Earn
 
-Là ứng dụng đầu tiên của Yearn, mang lại tính năng cho vay tổng hợp. Vốn được dịch chuyển tự động giữa dYdX, AAVE và Compound tùy theo giao thức nào có lãi suất cao nhất. Điều đó giúp tối ưu hóa hoàn toàn quá trình tích lãi cho người dùng bình thường, đảm bảo luôn luôn thu lời tối đa từ các nền tảng trên.
+The first Yearn product was a lending aggregator. Funds are shifted between dYdX, AAVE, and Compound automatically as interest rates change between these protocols. Users can deposit to these lending aggregator smart contracts via the Earn page. This product completely optimizes the interest accrual process for end-users to ensure they are obtaining the highest interest rates at all times among the platforms specified above.
 
-## Governance (Quản trị)
+## Governance
 
-Hệ sinh thái Yearn do những người nắm giữ đồng YFI quản lý. Họ sẽ trình bày và biểu quyết các đề xuất ngoại-chuỗi (off-chain). Đề xuất nào với số đông ủng hộ \(&gt;50% lượng biểu quyết\) sẽ được thực hiện bởi một ví đa-ký ("multi-signature" hay "multisig") gồm 9 thành viên. Các thay đổi phải được ký bởi 6 trên 9 thành viên đó để đi vào hiện thực. Thành viên của ví đa-ký (multisig) do những người nắm giữ đồng YFI bầu lên và có thể thay đổi tùy theo biểu quyết quản trị trong tương lai. Xin vui lòng đến mục Câu Hỏi Thường Gặp (FAQ) của chúng tôi để xem [danh sách thành viên ví đa-ký (multisig)](https://docs.yearn.finance/faq#who-are-the-9-multisig-signers) và thêm thông tin chi tiết về [quá trình quản trị](https://docs.yearn.finance/faq#governance).
+The Yearn ecosystem is controlled by YFI token holders who submit and vote on off-chain proposals that govern the ecosystem. Proposals that generate a majority support \(&gt;50% of the vote\) are implemented by a 9 member multi-signature wallet. Changes must be signed by 6 out of the 9 wallet signers in order to be implemented. The members of the multi-signature wallet were voted in by YFI holders and are subject to change from future governance votes. Please refer to our FAQ for [the list of the multisig signers](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) and more information about the [governance process](https://docs.yearn.finance/resources/faq#governance).
 
-## Kênh Trao đổi
+## Communication Channels
 
-Diễn đàn Quản trị [https://gov.yearn.finance/](https://gov.yearn.finance/)
+Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
 
 Discord [http://discord.yearn.finance](http://discord.yearn.finance)
 
 Telegram [https://t.me/yearnfinance](https://t.me/yearnfinance)
 
 Reddit [https://www.reddit.com/r/yearn_finance/](https://www.reddit.com/r/yearn_finance/)
-
-(_Việt hóa bởi y.at/🤖💵💵💰💰_)

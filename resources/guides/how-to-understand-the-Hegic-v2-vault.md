@@ -59,7 +59,7 @@ Yes, [here](https://etherscan.io/address/0x0Ce77bc655aFaAc83947c2e859819185966Ca
 
 ## What are the fees charged by Yearn?
 
-Yearn charges a 2% annual management fee on all v2 vaults and a 20% performance fee. More information on the fee structure may be found [here](https://docs.yearn.finance/faq#what-are-the-fees).
+Yearn charges a 2% annual management fee on all v2 vaults and a 20% performance fee. More information on the fee structure may be found [here](https://docs.yearn.finance/resources/faq#what-is-the-fee-structure).
 
 ## What are the fees charged by Ethereum?
 

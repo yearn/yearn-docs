@@ -27,7 +27,7 @@
 
 - [Learn Yearn](https://www.learnyearn.finance/)
 - [yCosystem](https://ycosystem.info/)
-- [Yearn FAQ](https://docs.yearn.finance/faq)
+- [Yearn FAQ](https://docs.yearn.finance/resources/faq)
 
 ### Vaults Detail Reference
 
@@ -50,12 +50,11 @@
 - [Defi Market Cap](https://defimarketcap.io/protocol/yearn-vault)
 
 ### Community Calculators
-- [Feel-the-yearn](https://feel-the-yearn.app/)
+- [Feel the Yearn](https://feel-the-yearn.app/vaults)
 - [yVault ROI Calc](https://yvault-roi.netlify.app/)
 - [Yearn ROI Calc](https://yearn-roi.xyz/)
 - [Yearn Party](https://yearn.party/)
 - [Yieldfarming](https://yieldfarming.info/)
-- [stats.finance](https://stats.finance/yearn)
 - [Track a Vault](https://trackavault.com/)
 
 ### Media Resources
