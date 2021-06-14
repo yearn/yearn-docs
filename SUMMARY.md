@@ -4,8 +4,8 @@
 
 # Yearn Finance
 
-- [yVaults](yvaults/README.md)
-    - [Visão Geral](yvaults/overview.md)
+- [yVaults](yearn-finance/yvaults/README.md)
+    - [Visão Geral](yearn-finance/yvaults/overview.md)
 
 # Governança
 - [YIP Resumo](governance/YIPSUMMARY.md)
