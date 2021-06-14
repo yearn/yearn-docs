@@ -1,14 +1,9 @@
 # Table of contents
 
-- [README \(Portuguese\)](README.md)
-- [FAQ \(Portuguese\)](faq.md)
-
-# Yearn Finance
-- [yVaults](yvaults/README.md)
-- [Visão Geral](yvaults/overview.md)
-
-# Governança
-- [YIP Resumo \(Portuguese\)](YIPSUMMARY.md)
+- [INTRO](README.md)
+- [FAQ](faq.md)
+- [yVault Visão Geral](vaults/overview.md)
+- [YIP Resumo](YIPSUMMARY.md)
 
 ## Additional Resources
 
