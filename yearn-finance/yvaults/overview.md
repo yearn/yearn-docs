@@ -5,7 +5,6 @@
 [yVaults](https://yearn.finance/vaults) são como contas de poupança para seus cripto ativos. Elas aceitam o seu depósito, e o encaminham por estratégias que buscam os maiores rendimentos disponíveis em DeFi.
 
 ![](https://i.imgur.com/yXnJqsn.png)
-*yVaults no site yearn.finance*
 
 ## Zapeando qualquer ativo
 
