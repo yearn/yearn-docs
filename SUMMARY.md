@@ -1,12 +1,18 @@
 # Table of contents
 
-- [INTRO](README.md)
-- [FAQ](faq.md)
-- [yVault Visão Geral](vaults/overview.md)
-- [YIP Resumo](YIPSUMMARY.md)
+- [Introdução](README.md)
+
+# Yearn Finance
+
+- [yVaults](yvaults/README.md)
+    - [Visão Geral](yvaults/overview.md)
+
+# Governança
+- [YIP Resumo](governance/YIPSUMMARY.md)
 
 ## Additional Resources
 
+- [FAQ](resources/faq.md)
 - [Github](https://github.com/iearn-finance)
 - [Medium](https://medium.com/iearn)
 - [Gov Forum](https://gov.yearn.finance/)
