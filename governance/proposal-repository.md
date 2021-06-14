@@ -1,6 +1,6 @@
 # Proposal Repository
 
-Yearn Improvement Propsoals (YIPs), Yearn Delegaiton Proposals (YDPs) and Yearn Signaling Proposals (YSPs) are all tools that token holders use to maintain and grow the protocol. 
+Yearn Improvement Proposals (YIPs), Yearn Delegation Proposals (YDPs) and Yearn Signaling Proposals (YSPs) are all tools that token holders use to maintain and grow the protocol. 
 
 ## Approved
 
