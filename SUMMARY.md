@@ -1,4 +1,4 @@
-# Table of contents
+# Índice
 
 - [Introdução](README.md)
 
@@ -6,11 +6,12 @@
 
 - [yVaults](yearn-finance/yvaults/README.md)
     - [Visão Geral](yearn-finance/yvaults/overview.md)
+- [Earn](yearn-finance/earn.md)
 
 # Governança
 - [YIP Resumo](governance/YIPSUMMARY.md)
 
-## Additional Resources
+## Recursos Adicionais
 
 - [FAQ](resources/faq.md)
 - [Github](https://github.com/iearn-finance)
