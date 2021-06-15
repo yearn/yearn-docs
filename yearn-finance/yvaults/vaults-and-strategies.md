@@ -4,4 +4,4 @@ After depositing, your funds first go to the vault contract and then are deploye
  
 **Vault and strategy descriptions:** [The Vaults at Yearn](https://medium.com/yearn-state-of-the-vaults/the-vaults-at-yearn-9237905ffed3).
 
-**Vault and strategy contracts:** [Yearn Hub](https://yearn-hub.vercel.app/)
+**Vault and strategy contracts:** [Yearn Watch](https://yearn.watch/)
