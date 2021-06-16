@@ -7,6 +7,7 @@
 - [yVaults](yearn-finance/yvaults/README.md)
     - [Visão Geral](yearn-finance/yvaults/overview.md)
     - [Vaults e Estratégias](yearn-finance/yvaults/vaults-and-strategies.md)
+    - [Tokens da Vault](yearn-finance/yvaults/vault-tokens.md)
 - [Earn](yearn-finance/earn.md)
 
 # Governança
