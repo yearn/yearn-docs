@@ -6,6 +6,7 @@ The key protocols to which Yearn’s vaults are exposed are lending protocols, A
 
 ## Lending Protocols
 
+One of the simplest strategies is collateralized lending which involves lending assets on lending protocols to earn a yield. For example, the optimized lending strategy used by the Dai vault lends Dai on the highest yielding lending protocol.
 
 Yearn’s vaults are exposed to the lending protocols Aave, Compound Finance, dYdX and Alpha Homora.
 
