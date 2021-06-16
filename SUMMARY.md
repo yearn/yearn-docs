@@ -1,8 +1,8 @@
 # 目录
 
 - [Yearn简介 \(中文版\)](README.md)
-- [常问问题 \(中文版\)](常问问题.md)
-- [所有的Yearn治理提案摘要 \(中文版\)](所有的Yearn治理提案摘要.md)
+- [常问问题 \(中文版\)](resources/faq.md)
+- [所有的Yearn治理提案摘要 \(中文版\)](governance/proposal-repository.md)
 
 ## 其他资源 <a id="additional-resources"></a>
 
