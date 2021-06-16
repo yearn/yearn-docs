@@ -2,7 +2,7 @@
 
 - [Introdução](README.md)
 
-# Yearn Finance
+## Yearn Finance
 
 - [yVaults](yearn-finance/yvaults/README.md)
     - [Visão Geral](yearn-finance/yvaults/overview.md)
@@ -10,7 +10,7 @@
     - [Tokens da Vault](yearn-finance/yvaults/vault-tokens.md)
 - [Earn](yearn-finance/earn.md)
 
-# Governança
+## Governança
 - [YIP Resumo](governance/YIPSUMMARY.md)
 
 ## Recursos Adicionais
