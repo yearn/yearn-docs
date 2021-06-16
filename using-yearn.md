@@ -1,96 +1,96 @@
-# Using Yearn       
+# Sử dụng Yearn       
 
-Thanks to a feature called 'zap', it's extremely easy to deposit into any vault with almost any token. 
+Nhờ tính năng có tên 'zap', bạn sẽ thấy cực kỳ dễ dàng khi ký gửi vào bất cứ Vault (Kho bạc) nào với hầu hết mọi Tôken.
 
-Here's how it works: 
+Cách dùng như sau: 
 
-First, **Connect your wallet** using the button at the top right corner. Multiple types of wallets are supported, but most people use [MetaMask](https://metamask.io/), which can be downloaded for free as a Chrome extension or through the Apple and Android app stores. Make sure that your wallet is connected to the Ethereum network. 
+Đầu tiên, **Kết nối ví của bạn** bằng nút tương ứng ở góc trên bên phải. Nhiều loại ví đều được hỗ trợ, nhưng hầu hết mọi người sử dụng [MetaMask](https://metamask.io/), vốn có thể tải xuống miễn phí dưới dạng tiện ích mở rộng Chrome extension, hoặc từ App Store của Apple và Android. Đồng thời, hãy kết nối ví của bạn đúng với mạng Ethereum chính (Mainnet). 
 
 <p align="center">
   <img width="1266.75" height="345.75" src="https://i.imgur.com/H0Uc8e8.png">
 </p>
 
-## If you **already have the required token** for the vault that you would like to deposit in: 
+## Nếu bạn **đã có Tôken cần thiết** cho Vault (Kho bạc) muốn ký gửi rồi: 
 
-1. Select the vault that you would like to deposit into.
-2. Enter the amount of tokens you want to deposit into the vault. If you are depositing ETH, make sure you have enough ETH left over to pay for future transactions that you might need to make. 
+1. Chọn Vault (Kho bạc) muốn ký gửi vào.
+2. Nhập lượng Tôken để ký gửi vào. Nếu ký gửi đồng ETH, đừng quên chừa lại một chút ETH để trang trải phí gas cho các giao dịch khác khi cần trong tương lai. 
 
 <p align="center">
   <img width="914.26" height="360.75" src="https://i.imgur.com/LGdRAMQ.png">
 </p>
 
-3. Click 'Approve' or 'Deposit' button, depending on if you have previously approved 
-4. Your wallet will ask you to confirm the transaction. This will take about 3 minutes, but you can speed it up by [paying a higher gas fee to the network](https://blog.leverj.io/how-to-set-the-gas-limit-and-gas-price-in-metamask-1b33c38c32fd). If your transaction gets stuck, see [this guide](https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-Speed-Up-or-Cancel-a-Pending-Transaction) on speeding up or cancelling the transaction.
+3. Click nút 'Duyệt' hoặc 'Ký gửi', nếu trước đó đã duyệt tôken này rồi
+4. Ví cá nhân sẽ yêu cầu bạn xác nhận giao dịch. Tác vụ này thường tốn khoảng 3 phút, nhưng có thể nhanh gấp nhiều lần nếu [trả phí gas cao hơn cho mạng](https://blog.leverj.io/how-to-set-the-gas-limit-and-gas-price-in-metamask-1b33c38c32fd). Trong trường hợp giao dịch bị tắc nghẽn, hãy xem [hướng dẫn này](https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-Speed-Up-or-Cancel-a-Pending-Transaction) để biết cách tăng tốc hoặc hủy bỏ giao dịch đó.
 
 <p align="center">
   <img width="258.75" height=" 459.75" src="https://i.imgur.com/BkXBANS.png">
 </p>
 
-6. When your transaction succeeds, you will see your deposited balance in the vault's interface, which should appear at the top of the vault list.
+6. Khi giao dịch thành công, bạn sẽ thấy số dư ký gửi tương ứng trên giao diện của Vault (Kho bạc), thường xuất hiện trên đầu danh sách các kho.
 
 <p align="center">
   <img width="928.5" height="93.75" src="https://i.imgur.com/JvNQ3l2.png">
 </p>
 
-When you're ready to withdraw: 
+Khi muốn rút: 
 
-1. Select the vault that you would like to withdraw from.
-2. Enter the amount you want to withdraw, or click 'Max' to withdraw the entire balance.
+1. Chọn Vault (Kho bạc) muốn rút.
+2. Nhập lượng cần rút, hoặc click 'Tối đa' để rút toàn bộ số dư.
 
 <p align="center">
   <img width="910.5" height="361.5" src="https://i.imgur.com/Y3NsCRb.png">
 </p>
 
-3. Click 'Withdraw'
-4. Your wallet will ask you to confirm the transaction. See step 4 above for more details. 
-5. When your transaction succeeds, the tokens will show up in your wallet again
+3. Click 'Rút'
+4. Ví cá nhân sẽ yêu cầu bạn xác nhận giao dịch. Xem bước 4 ở trên để biết thêm chi tiết. 
+5. Khi giao dịch thành công, số Tôken sẽ xuất hiện trở lại trong ví của bạn
 
-## If you **don't have the required token** for the vault that you would like to deposit in:
+## Nếu bạn **chưa có Tôken cần thiết** cho Vault (Kho bạc) muốn ký gửi vào:
 
-This can be a common occurrence, because many of Yearn's vaults generate yield by using [Curve Finance](http://curve.finance/) liquidity provider (LP) tokens, which are acquired through depositing into a Curve pool. 
+Tình huống này rất thường gặp, bởi các Vault (Kho bạc) ở Yearn tạo lãi bằng cách tận dụng tôken của bên cung cấp thanh khoản ('Liquidity Provider' hay viết tắt là LP) qua ứng dụng [Curve Finance](http://curve.finance/), vốn thu được sau khi ký gửi vào một bể góp vốn của Curve.
 
-So for instance, if you would rather deposit into the crvSTETH vault instead of the ETH vault, and accept the additional risk that comes with the curve pool and an ETH derivative (stETH) in return for higher yield, but you only have ETH in your wallet, your ETH will need to be converted to a crvSTETH token before it is accepted in the vault. 
+Ví dụ, nếu muốn ký gửi vào kho crvSTETH (khác với kho ETH), chấp nhận thêm rủi ro gắn liền với bể góp vốn Curve và một phái sinh của ETH (stETH) để thu về lãi suất cao hơn, nhưng lại chỉ có ETH trong ví cá nhân, ETH của bạn sẽ cần phải quy đổi sang tôken crvSTETH trước khi gửi được vào kho tương ứng. 
 
-Thankfully, do to Yearn's 'zap' feature, this can all be done in the same transaction as your deposit. Here's how it works using the crvSTETH vault as an example:
+Rất may, nhờ tính năng 'zap' của Yearn, tất cả những bước rắc rối trên đều được tính hết vào chỉ một giao dịch lúc ký gửi vào. Dưới đây là hướng dẫn dựa trên kho crvSTETH làm ví dụ:
 
-**NOTE:** Zapping a token into a vault will require more transactions than depositing the native token. This means you will be paying more in gas and potentially lose value to slippage when the token is swapped or deposited into a pool. Yearn limits slippage to 1% and the transaction will fail if slippage exceeds that, in which case you will have to swap or deposit the tokens manually. See our [zap](https://docs.yearn.finance/yearn-finance/yvaults/overview#zap-in-with-any-asset) section for more details.
+**CHÚ Ý:** 'Zap' tôken vào một kho sẽ cần nhiều giao tác hơn việc ký gửi tôken chuẩn. Điều này nghĩa là bạn sẽ phải trả nhiều phí gas hơn, cũng như có khả năng mất chút tiền do hiện tượng 'trượt giá' khi tôken được bán đổi hay ký gửi vào bể góp vốn. Yearn hạn chế trượt giá ở mức 1%, tức là giao dịch sẽ thất bại nếu trượt giá cao hơn thế (tránh mất quá nhiều tiền vô ích). Trong trường hợp này, bạn sẽ phải bán đổi hoặc ký gửi tôken một cách thủ công. Hãy xem mục [zap](https://docs.yearn.finance/yearn-finance/yvaults/overview#zap-in-with-any-asset) của chúng tôi để biết thêm chi tiết.
 
-1. Select the crvSTETH vault
-2. Click the dropdown box by the 'Approve' or 'Deposit' button 
-3. Select which token you would like to be converted into crvSTETH. It will only display the tokens that are in your wallet.
+1. Chọn kho crvSTETH
+2. Click ô thả-xuống cạnh nút 'Duyệt' hay 'Ký gửi' 
+3. Chọn tôken muốn quy đổi thành crvSTETH. Danh sách sẽ chỉ hiện các tôken đang có trong ví của bạn.
 
 <p align="center">
   <img width="909" height="363" src="https://i.imgur.com/6K1luO7.png">
 </p>
 
-4. Enter the amount of tokens you would like to deposit and click 'Approve' or 'Deposit' depending on whether or not you have previously approved the token. 
-4. Confirm the transaction through your wallet. See step 4 in the section above for more details. 
-5. When your transaction succeeds, you will see your deposited balance in the vault's interface, which should appear at the top of the vault list.
+4. Nhập lượng tôken muốn nạp rồi click 'Duyệt' hoặc 'Ký gửi', nếu trước đó đã duyệt tôken này rồi. 
+5. Xác nhận giao dịch ở ví của bạn. Xem bước 4 ở mục phía trên để biết thêm chi tiết. 
+6. Khi giao dịch thành công, bạn sẽ thấy số dư ký gửi tương ứng trên giao diện của Vault (Kho bạc), thường xuất hiện trên đầu danh sách các kho.
 
-When you're ready to withdraw: 
+Khi muốn rút: 
 
-1. Select the crvSTETH vault
-2. Click the dropdown box by the 'Withdraw' button
+1. Chọn kho crvSTETH
+2. Click ô thả-xuống cạnh nút 'Rút'
 
 <p align="center">
   <img width="915.75" height="600.75" src="https://i.imgur.com/2UyXKN0.png">
 </p>
 
-3. Select which asset you would like to receive upon withdrawal. Your options will be the crvSTETH, ETH, BTC, DAI, USDC or USDT
-3. Enter the amount you want to withdraw, or click 'Max' to withdraw the entire balance.
-4. Confirm the approval if needed, and then approve the withdrawal transaction.
-5. When your transaction succeeds, the tokens will show up in your wallet again
+3. Chỉ định loại tài sản muốn thu về sau khi rút. Bạn có thể chọn crvSTETH, ETH, BTC, DAI, USDC hoặc USDT
+4. Nhập lượng muốn rút, hoặc click 'Tối đa' để rút toàn bộ số dư.
+5. Xác nhận duyệt nếu cần, sau đó duyệt giao tác rút.
+6. Khi giao dịch thành công, số Tôken tương ứng sẽ xuất hiện trong ví của bạn
 
-## Tools to track your funds 
+## Các công cụ để theo dõi tiền của bạn
 
-If you would like to see how your USD balance changes while your assets are in a vault, connect your wallet to [zapper.fi](https://zapper.fi) or a similar portfolio tracking product.This is also the easiest way to tell how much profit the vault has made for you. 
+Nếu muốn xem thay đổi số dư (thường đo theo đô-la Mỹ USD) khi tài sản của mình đang ký gửi trong một Vault (Kho bạc), hãy kết nối ví cá nhân với [zapper.fi](https://zapper.fi) hoặc bất kỳ ứng dụng theo dõi đầu tư tương tự. Đây cũng là cách đơn giản nhất để xem lượng lợi nhuận đã tích lũy được.
 
-Your balance WILL NOT increase continuously. Profit will be distributed to your share of the vault when the harvest() function is called, which happens on a fluctuating basis. 
+Số dư SẼ KHÔNG tăng liên tục. Lợi nhuận được chia theo phần của bạn trong Vault (Kho bạc) khi hệ thống gọi chức năng harvest(), vốn diễn ra bất thường.
 
-Community resources to monitor your returns:
+Các nguồn (từ cộng đồng) để giám sát lợi nhuận:
 
 - [Zapper](https://zapper.fi/)
 - [Zerion](https://app.zerion.io/)
-- [Yearn Vault ROI Calculator](https://yearn-roi.xyz/#/)
+- [Bộ tính ROI Kho bạc Yearn](https://yearn-roi.xyz/#/)
 - [yVault ROI](https://yvault-roi.netlify.app/)
 - [https://trackavault.com/](https://trackavault.com/)
