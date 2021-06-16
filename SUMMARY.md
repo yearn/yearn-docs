@@ -2,7 +2,7 @@
 
 - [Yearn简介 \(中文版\)](README.md)
 
-# 治理
+## 治理
 
 - [所有的Yearn治理提案摘要 \(中文版\)](governance/proposal-repository.md)
 
