@@ -2,14 +2,14 @@
 
 ## 什么是机枪池（yVaults）?
 
-[yVaults](https://yearn.finance/vaults)就像是你加密资产的储蓄账户。他们收取你的存款，然后通过一种策略来寻找DeFi的最高收益。
+机枪池[yVaults](https://yearn.finance/vaults)就像是你加密资产的储蓄账户。他们收取你的存款，然后通过一种策略来寻找DeFi的最高收益。
 
 ![](https://i.imgur.com/yXnJqsn.png)
 *yVaults at yearn.finance*
 
 ## 用任何资产进行Zap
 
-多亏了[Zapper](https://zapper.fi/), 你可以非常容易地将资产存入yVault。只要你持有可以在Uniswap上以低于1%的滑点进行交易的代币，机枪池就会收取该代币，将其转换为机枪池所需的代币，并在同一笔交易中将这些代币全部存入机枪池中。
+多亏了[Zapper](https://zapper.fi/), 你可以非常容易地将资产存入机枪池。只要你持有可以在Uniswap上以低于1%的滑点进行交易的代币，机枪池就会收取该代币，将其转换为机枪池所需的代币，并在同一笔交易中将这些代币全部存入机枪池中。
 
 当提款时，用户将能够重新获得以下代币之一：
 - ETH, WETH, DAI, USDT, USDC, WBTC
