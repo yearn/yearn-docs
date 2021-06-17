@@ -7,7 +7,7 @@
 ![](https://i.imgur.com/yXnJqsn.png)
 *yVaults at yearn.finance*
 
-## 用任何资产来Zap
+## 用任何资产进行Zap
 
 多亏了[Zapper](https://zapper.fi/), 你可以非常容易地将资产存入yVault。只要你持有可以在Uniswap上以低于1%的滑点进行交易的代币，机枪池就会收取该代币，将其转换为机枪池所需的代币，并在同一笔交易中将这些代币全部存入机枪池中。
 
