@@ -1,5 +1,6 @@
 # Table of contents
 
+- [Giới thiệu](README.md)
 - [Sử dụng Yearn](using-yearn.md)
 
 ## Governance
