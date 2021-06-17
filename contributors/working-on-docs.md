@@ -62,6 +62,7 @@ Cloning a repository is ideal if you are working on more than one page.
 2. Install [GitHub Desktop](https://desktop.github.com)
 3. Install [Visual Code Studio](https://code.visualstudio.com) (VSCode)
 4. Fork the [yearn/yearn-docs](https://github.com/yearn/yearn-docs) repository
+    - If you are translating, fork the branch that has the name of the language you are translating to. For example, Portuguese is the [portuguese](https://github.com/yearn/yearn-docs/tree/portuguese) docs are contained branch. You will need the same file structure as this branch to merge changes into it.
 
 ![](https://i.imgur.com/vVpFt7a.jpeg)
 
