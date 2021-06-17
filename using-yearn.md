@@ -54,7 +54,7 @@
 
 多亏于Yearn的'zap'功能，这一切都可以在与你的存款相同的交易中完成。以下是使用crvSTETH机枪池作为示例的操作：
 
-**注意：**将代币转移到机枪池中将需要比存入原生代币更多的交易。这意味着当代币被交换或存入池中时，你将支付更多的gas费用，并且可能会因滑点而损失价值。Yearn将滑点限制为1%，如果滑点超过该值，交易将会失败，在这种情况下，你必须自己手动交换或存入代币。有关更多详细信息，请参阅我们的[zap](https://docs.yearn.finance/yearn-finance/yvaults/overview#zap-in-with-any-asset)章节。
+**注意**：将代币转移到机枪池中将需要比存入原生代币更多的交易。这意味着当代币被交换或存入池中时，你将支付更多的gas费用，并且可能会因滑点而损失价值。Yearn将滑点限制为1%，如果滑点超过该值，交易将会失败，在这种情况下，你必须自己手动交换或存入代币。有关更多详细信息，请参阅我们的[zap](https://docs.yearn.finance/yearn-finance/yvaults/overview#zap-in-with-any-asset)章节。
 
 - 选择crvSTETH机枪池
 - 点击'Approve批准'或'Deposit存款'按钮旁边的下拉框
