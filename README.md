@@ -1,30 +1,29 @@
-# Introduction
+# प्रस्तावना
 
-Yearn Finance is a suite of products in Decentralized Finance \(DeFi\) that provides lending aggregation, yield generation, and insurance on the Ethereum blockchain. The protocol is maintained by various independent developers and is governed by YFI holders.
+ईयर फाइनेंस विकेंद्रीकृत वित्त (डीफाई) में उत्पादों का एक संग्रह है जो एथेरियम ब्लॉकचेन पर उधार एकत्रीकरण, उपज उत्पादन और बीमा प्रदान करता है। संलेख विभिन्न स्वतंत्र डेवलपर्स द्वारा अनुरक्षित किया जाता है और वाईएफआई(YFI) धारकों के द्वारा शासित होता है।
 
-You can find brief descriptions of Yearn's core products, the governance process, and links to active communication channels below.
+आप ईयर के मुख्य उत्पादों, शासन प्रक्रिया और सक्रिय संचार प्रणाली के लिंक का संक्षिप्त वर्णन नीचे पा सकते हैं।
 
-## Core Products
+## मुख्य उत्पादों
 
-### Vaults
+### तिजोरी
 
-Capital pools that automatically generate yield based on opportunities present in the market. Vaults benefit users by socializing gas costs, automating the yield generation and rebalancing process, and automatically shifting capital as opportunities arise. End users also do not need to have a proficient knowledge of the underlying protocols involved or DeFi, thus the Vaults represent a passive-investing strategy.
+पूंजी टंकी जो बाजार में मौजूद अवसरों के आधार पर स्वतः ब्याज उत्पन्न करते हैं। तिजोरी से गैस की लागत का सामाजिककरण करके, ब्याज उत्पादन और पुनर्संतुलन प्रक्रिया को स्वचालित करके, और अवसरों के रूप में स्वचालित रूप से धन/पूंजी मे बदलाव करके उपयोगकर्ताओं का फ़ायदा करता है। अंतिम उपयोगकर्ताओं को भी शामिल अंतर्निहित प्रोटोकॉल या डीफाई के कुशल ज्ञान की आवश्यकता नहीं है, इस प्रकार तिजोरी एक निष्क्रिय-निवेश रणनीति का प्रतिनिधित्व करते हैं।
 
-### Earn
+### कमाएं
 
-The first Yearn product was a lending aggregator. Funds are shifted between dYdX, AAVE, and Compound automatically as interest rates change between these protocols. Users can deposit to these lending aggregator smart contracts via the Earn page. This product completely optimizes the interest accrual process for end-users to ensure they are obtaining the highest interest rates at all times among the platforms specified above.
+पहला ईयर उत्पाद एक उधार कलेक्टर था। जैसे ही इन प्रोटोकॉल/संलेख के बीच ब्याज दरें बदलती हैं, धन स्वचालित रूप से dYdX(डेवेडाक्स ), AAVE (आवे) और Compound (कंपाउंड) के बीच हिलाये जाते हैं। उपयोगकर्ता इन उधार एग्रीगेटर/कलेक्टर होशियार अनुबंध(स्मार्ट कॉन्ट्रैक्ट्स) को अर्न पेज के माध्यम से जमा कर सकते हैं। यह उत्पाद अंतिम उपयोगकर्ताओं के लिए ब्याज उपार्जन प्रक्रिया को पूरी तरह से स्वचालित करता है ताकि यह सुनिश्चित हो सके कि वे ऊपर निर्दिष्ट प्लेटफार्मों के बीच हर समय उच्चतम ब्याज दर प्राप्त कर रहे हैं।
 
-## Governance
+## शासन
 
-The Yearn ecosystem is controlled by YFI token holders who submit and vote on off-chain proposals that govern the ecosystem. Proposals that generate a majority support \(&gt;50% of the vote\) are implemented by a 9 member multi-signature wallet. Changes must be signed by 6 out of the 9 wallet signers in order to be implemented. The members of the multi-signature wallet were voted in by YFI holders and are subject to change from future governance votes. Please refer to our FAQ for [the list of the multisig signers](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) and more information about the [governance process](https://docs.yearn.finance/resources/faq#governance).
+ईयर पारिस्थितिकी तंत्र को वाईएफआई(YFI) टोकन धारकों द्वारा नियंत्रित किया जाता है जो पारिस्थितिकी तंत्र को नियंत्रित करने वाले ऑफ-चेन प्रस्तावों को प्रस्तुत और मत करते हैं। बहुमत समर्थन \(+50% मत\) उत्पन्न करने वाले प्रस्तावों को 9 सदस्यीय बहु-हस्ताक्षर वॉलेट द्वारा कार्यान्वित किया जाता है। परिवर्तनों को लागू करने के लिए 9 बटुआ हस्ताक्षरकर्ताओं में से 6 द्वारा हस्ताक्षर किए जाने चाहिए। बहु-हस्ताक्षर बटुआ के सदस्यों को वाईएफआई(YFI) धारकों द्वारा मत दिया गया था और भविष्य के शासन मतों से परिवर्तन के अधीन हैं। कृपया  [बहु-हस्ताक्षर की सूची](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) और [शासन प्रक्रिया] के बारे में अधिक जानकारी के लिए ये लिंक पर जैन https://docs.yearn.finance/resources/faq#governance)।
 
-## Communication Channels
+## संचार प्रणाली
 
-Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
+शासन मंच [https://gov.yearn.finance/](https://gov.yearn.finance/)
 
-Discord [http://discord.yearn.finance](http://discord.yearn.finance)
+डिस्कॉर्ड  [http://discord.yearn.finance](http://discord.yearn.finance)
 
-Telegram [https://t.me/yearnfinance](https://t.me/yearnfinance)
+टेलीग्राम [https://t.me/yearnfinance](https://t.me/yearnfinance)
 
-Reddit [https://www.reddit.com/r/yearn\_finance/](https://www.reddit.com/r/yearn_finance/)
-
+रेडिट [https://www.reddit.com/r/yearn_finance/](https://www.reddit.com/r/yearn_finance/)
