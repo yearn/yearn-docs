@@ -10,7 +10,6 @@
   - [Vaults and Strategies](yearn-finance/yvaults/vaults-and-strategies.md)
   - [Vault Tokens](yearn-finance/yvaults/vault-tokens.md)
   - [yVault Advantages](yearn-finance/yvaults/yvault-advantages.md)
-- [yEarn](yearn-finance/earn.md)
 - [Woofy](yearn-finance/woofy.md)
 
 ## Governance
@@ -56,9 +55,9 @@
 - [Deployed Contracts Registry](developers/deployed-contracts-registry.md)
 - [Code Repositories](developers/code-repositories.md)
 - [Integration Guide](developers/integration-guide.md)
-- [v1-yVaults Documentation](developers/v1-yvaults-documentation/README.md)
-  - [v1-yVaults Overview](developers/yvaults-documentation/v1-yvaults-overview.md)
-  - [v1-yVault Interfaces](developers/yvaults-documentation/v1-yvault-interfaces.md)
+- [v1 yVaults Documentation](developers/v1-yvaults-documentation/README.md)
+  - [v1 yVaults Overview](developers/v1-yvaults-documentation/v1-yvaults-overview.md)
+  - [v1 yVault Interfaces](developers/v1-yvaults-documentation/v1-yvault-interfaces.md)
 - [Misc Resources](developers/misc-resources/README.md)
   - [YIP Boilerplate](https://gist.github.com/sambacha/07c8580377cf7deec6be569322babcfd#file-yip-boilerplate-proposal-md)
   - [Admin Access Policy](developers/misc-resources/adminpolicy.md)
