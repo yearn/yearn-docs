@@ -13,7 +13,6 @@ CRV is distributed continuously to users who stake certain liquidity provider to
 Locking CRV allows users to boost the CRV rewards they are receiving when providing liquidity in eligible pools. The amount of the boost is determined by how much CRV was locked and their relative stake in the pool. 
 
 ![](https://i.imgur.com/QaMMdr7.png)
-*Curve's vote-locking interface*
 
 Using the Backscratcher yVault, Yearn locks up a significant amount of CRV indefinitely, and distributes the boosts to various yVaults.  
 
@@ -26,7 +25,6 @@ Users deposit CRV into the yVault which is locked infinitely. In return they rec
 Additionally, 10% of all CRV earned by Yearn Finance is deposited into Backscratcher and locked infinitely. Because of this, people who want to stake CRV will always receive a higher share of the Backscratcher yVault's revenue than staking directly through Curve. They also can earn emissions of tokens like SUSHI and PICKLE for providing liquidity. 
 
 ![](https://i.imgur.com/UfCikwk.png)
-*The yvBOOST-ETH vault at [yearn.finance](https://yearn.finance/vaults), which lets users receive rewards from Pickle and Sushi on top of Backscratcher earnings*
 
 Users will never be able to withdraw their original CRV, but because of the incentives on yveCRV liquidity and the value that the token accrues from various sources of revenue, they will be able to swap it for another asset for some price. 
 
