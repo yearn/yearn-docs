@@ -1,7 +1,5 @@
 # Usando a Yearn       
 
-Thanks to a feature called 'zap', it's extremely easy to deposit into any vault with almost any token.
-
 Graças a um recurso chamado 'zap', depositar em qualquer vault com quase qualquer token é extremamente simples.
 
 Como funciona:
