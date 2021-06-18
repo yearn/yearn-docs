@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Introduction](README.md)
-* [Using Yearn](using-yearn.md)
+* [प्रस्तावना](README.md)
+* [ईयरन का उपयोग करन](using-yearn.md)
 
