@@ -1,26 +1,26 @@
-# Using Yearn       
+# ईयर का उपयोग करना       
 
-Thanks to a feature called 'zap', it's extremely easy to deposit into any vault with almost any token. 
+'ज़ैप' नामक एक विशेषता के कारन, लगभग कोईी भी टोकन को किसी भी तिजोरी में जमा करना बेहद आसान है। 
 
-Here's how it works: 
+ये काम कैसे करता है : 
 
-First, **Connect your wallet** using the button at the top right corner. Multiple types of wallets are supported, but most people use [MetaMask](https://metamask.io/), which can be downloaded for free as a Chrome extension or through the Apple and Android app stores. Make sure that your wallet is connected to the Ethereum network. 
+सबसे पहले, ऊपरी दाएं कोने में स्थित बटन का उपयोग करके **अपना बटुआ जुडिये**। कई प्रकार के बटुवे  समर्थित हैं, लेकिन अधिकांश लोग [मेटामास्क] (https://metamask.io/) का उपयोग करते हैं, जिसे क्रोम एक्सटेंशन के रूप में या ऐप्पल और एंड्रॉइड ऐप दुकान के माध्यम से मुफ्त में डाउनलोड किया जा सकता है। सुनिश्चित करें कि आपका वॉलेट एथेरियम नेटवर्क से जुड़ा है।
 
 <p align="center">
   <img width="1266.75" height="345.75" src="https://i.imgur.com/H0Uc8e8.png">
 </p>
 
-## If you **already have the required token** for the vault that you would like to deposit in: 
+## यदि आपके पास उस तिजोरी के लिए **पहले से ही आवश्यक टोकन** है, जिसमें आप जमा करना चाहते हैं तो:
 
-1. Select the vault that you would like to deposit into.
-2. Enter the amount of tokens you want to deposit into the vault. If you are depositing ETH, make sure you have enough ETH left over to pay for future transactions that you might need to make. 
+1. उस तिजोरी का चयन करें जिसमें आप टोकन जमा करना चाहते हैं।
+2. टोकन की राशि दर्ज करें जिसे आप तिजोरी में जमा करना चाहते हैं। यदि आप ईटीएच(ETH) जमा कर रहे हैं, तो सुनिश्चित करें कि आपके पास भविष्य के लेन-देन के भुगतान करने के लिए पर्याप्त ईटीएच(ETH) बचा है जो आपको करने की आवश्यकता हो सकती है।
 
 <p align="center">
   <img width="914.26" height="360.75" src="https://i.imgur.com/LGdRAMQ.png">
 </p>
 
-3. Click 'Approve' or 'Deposit' button, depending on if you have previously approved 
-4. Your wallet will ask you to confirm the transaction. This will take about 3 minutes, but you can speed it up by [paying a higher gas fee to the network](https://blog.leverj.io/how-to-set-the-gas-limit-and-gas-price-in-metamask-1b33c38c32fd). If your transaction gets stuck, see [this guide](https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-Speed-Up-or-Cancel-a-Pending-Transaction) on speeding up or cancelling the transaction.
+3. 'स्वीकृति' या 'जमा' बटन पर क्लिक करें, यह इस पर निर्भर करता है कि आपने पहले स्वीकृत किया है या नहीं 
+4. आपका वॉलेट आपसे लेनदेन की पुष्टि करने के लिए कहेगा। इसमें लगभग ३ मिनट का समय लगेगा, लेकिन आप [नेटवर्क को अधिक गैस शुल्क देकर] इसे गति दे सकते हैं।(https://blog.leverj.io/how-to-set-the-gas-limit-and-gas-price-in-metamask-1b33c38c32fd). यदि आपका लेन-देन अटक जाता है, तो [यह मार्गदर्शिका] देखें(https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-Speed-Up-or-Cancel-a-Pending-Transaction) लेन-देन में तेजी लाने या रद्द करने पर।
 
 <p align="center">
   <img width="258.75" height=" 459.75" src="https://i.imgur.com/BkXBANS.png">
