@@ -5,7 +5,6 @@
 机枪池[yVaults](https://yearn.finance/vaults)就像是你加密资产的储蓄账户。机枪池收取你的存款，然后通过各种策略以寻找DeFi中最高的收益。
 
 ![](https://i.imgur.com/yXnJqsn.png)
-*yVaults at yearn.finance*
 
 ## 用任何资产进行Zap
 
