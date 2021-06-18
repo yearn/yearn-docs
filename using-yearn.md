@@ -26,30 +26,30 @@
   <img width="258.75" height=" 459.75" src="https://i.imgur.com/BkXBANS.png">
 </p>
 
-6. When your transaction succeeds, you will see your deposited balance in the vault's interface, which should appear at the top of the vault list.
+6. जब आपका लेन-देन सफल हो जाता है, तो आप तिजोरी के इंटरफ़ेस में अपनी जमा राशि देखेंगे, जो तिजोरी सूची के ऊपर दिखाई देनी चाहिए।
 
 <p align="center">
   <img width="928.5" height="93.75" src="https://i.imgur.com/JvNQ3l2.png">
 </p>
 
-When you're ready to withdraw: 
+जब आप पैसे निकलने के लिए तैयार हों: 
 
-1. Select the vault that you would like to withdraw from.
-2. Enter the amount you want to withdraw, or click 'Max' to withdraw the entire balance.
+1. उस तिजोरी का चयन करें जिसे आप पैसे निकलनाा चाहते हैं।
+2. वह राशि दर्ज करें जिसे आप निकालना चाहते हैं, या संपूर्ण शेष राशि निकालने के लिए 'अधिकतम(Max)' पर क्लिक करें।
 
 <p align="center">
   <img width="910.5" height="361.5" src="https://i.imgur.com/Y3NsCRb.png">
 </p>
 
-3. Click 'Withdraw'
-4. Your wallet will ask you to confirm the transaction. See step 4 above for more details. 
-5. When your transaction succeeds, the tokens will show up in your wallet again
+3. 'वापसी'(Wothdraw) पर क्लिक करें।
+4. आपका बटुआ आपसे लेनदेन की पुष्टि करने के लिए कहेगा। अधिक जानकारी के लिए ऊपर चरण 4 देखें।
+5. जब आपका लेन-देन सफल हो जाता है, तो टोकन आपके बटुए में फिर से दिखाई देंगे।
 
-## If you **don't have the required token** for the vault that you would like to deposit in:
+## यदि आपके पास उस तिजोरी के लिए **आवश्यक टोकन** नहीं है जिसमें आप जमा करना चाहते हैं:
 
-This can be a common occurrence, because many of Yearn's vaults generate yield by using [Curve Finance](http://curve.finance/) liquidity provider (LP) tokens, which are acquired through depositing into a Curve pool. 
+यह एक सामान्य घटना है, क्योंकि कई ईयर की तिजायरिओं मे [कर्व फाइनेंस] (http://curve.finance/) नकद प्रदाता (एलपी) टोकन का उपयोग करके ब्याज उत्पन्न करते हैं, जिन्हें कर्व पूल में जमा करके हासिल किया जाता है।
 
-So for instance, if you would rather deposit into the crvSTETH vault instead of the ETH vault, and accept the additional risk that comes with the curve pool and an ETH derivative (stETH) in return for higher yield, but you only have ETH in your wallet, your ETH will need to be converted to a crvSTETH token before it is accepted in the vault. 
+उदाहरण के लिए, यदि आप ETH बटुआ के बजाय crvSTETH बटुआ में जमा करना चाहते हैं, और उच्च ब्याज के बदले में कर्व पूल और ETH व्युत्पन्न (stETH) के साथ आने वाले अतिरिक्त जोखिम को स्वीकार करते हैं, लेकिन आपके पास केवल ETH है बटुवे में, आपके ETH को तिजोरी में स्वीकार करने से पहले एक crvSTETH टोकन में परिवर्तित करने की आवश्यकता होगी।
 
 Thankfully, due to Yearn's 'zap' feature, this can all be done in the same transaction as your deposit. Here's how it works using the crvSTETH vault as an example:
 
