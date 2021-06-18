@@ -27,4 +27,3 @@
 टेलीग्राम [https://t.me/yearnfinance](https://t.me/yearnfinance)
 
 रेडिट [https://www.reddit.com/r/yearn_finance/](https://www.reddit.com/r/yearn_finance/)
-
