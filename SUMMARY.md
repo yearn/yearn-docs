@@ -1,6 +1,7 @@
 # Índice
 
 - [Introdução](README.md)
+- [Usando a Yearn](using-yearn.md)
 
 ## Yearn Finance
 
