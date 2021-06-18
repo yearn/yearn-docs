@@ -62,6 +62,7 @@ Cloning a repository is ideal if you are working on more than one page.
 2. Install [GitHub Desktop](https://desktop.github.com)
 3. Install [Visual Code Studio](https://code.visualstudio.com) (VSCode)
 4. Fork the [yearn/yearn-docs](https://github.com/yearn/yearn-docs) repository
+    - If you are translating, fork the branch that has the name of the language you are translating to. For example, Portuguese is the [portuguese](https://github.com/yearn/yearn-docs/tree/portuguese) docs are contained branch. You will need the same file structure as this branch to merge changes into it.
 
 ![](https://i.imgur.com/vVpFt7a.jpeg)
 
@@ -84,13 +85,13 @@ Cloning a repository is ideal if you are working on more than one page.
 
 ![](https://i.imgur.com/XE2Ghim.jpg)
 
-12. Now, your changes are commited to your local branch. In order to push them to your public GitHub repo, click 'publish branch'
+12. Now, your changes are committed to your local branch. In order to push them to your public GitHub repo, click 'publish branch'
 13. You now see a notification suggesting to make a pull request (PR) both on GitHub Desktop and the website. If you don't see this, you can go to https://github.com/yearn/yearn-docs and create one from there
 14. Click on 'create pull request' and you should see the following screen
 
 ![](https://i.imgur.com/r8JuC84.jpg)
 
-15. Make sure the base repository is 'yearn/yearn-docs' and the base is 'master'. The head repository should be '\<your-username>/yearn-docs' and the compare should be '\<your-branch-name>'
+15. Make sure the base repository is 'yearn/yearn-docs' and the base is 'master'. (unless you are contributing to translated versions, in which case, the base should be the name of the language you are translating) The head repository should be 'your-username/yearn-docs' and the compare should be 'your-branch-name'
 16. Make sure that your PR has all of the information needed to contextualize the change and that your changes comply with the [Writing Style Guide](https://docs.yearn.finance/contributors/writing-style-guide). Once you create a pull request, it will be sent to the repo admins who can approve it to be merged into the live site. 
 
 
