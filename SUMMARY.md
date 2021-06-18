@@ -3,6 +3,11 @@
 - [Yearn简介 \(中文版\)](README.md)
 - [如何使用Yearn](using-yearn.md)
 
+## Yearn Finance
+
+- [yVaults](yearn-finance/yvaults/README.md)
+    - [概述](yearn-finance/yvaults/overview.md)
+
 ## 治理
 
 - [所有的Yearn治理提案摘要 \(中文版\)](governance/proposal-repository.md)
