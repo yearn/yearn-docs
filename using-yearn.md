@@ -1,4 +1,4 @@
-# ईयर का उपयोग करना       
+# ईयरन का उपयोग करना       
 
 'ज़ैप' नामक एक विशेषता के कारन, लगभग कोईी भी टोकन को किसी भी तिजोरी में जमा करना बेहद आसान है। 
 
@@ -47,47 +47,47 @@
 
 ## यदि आपके पास उस तिजोरी के लिए **आवश्यक टोकन** नहीं है जिसमें आप जमा करना चाहते हैं:
 
-यह एक सामान्य घटना है, क्योंकि कई ईयर की तिजायरिओं मे [कर्व फाइनेंस] (http://curve.finance/) नकद प्रदाता (एलपी) टोकन का उपयोग करके ब्याज उत्पन्न करते हैं, जिन्हें कर्व पूल में जमा करके हासिल किया जाता है।
+यह एक सामान्य घटना है, क्योंकि कई ईयरन की तिजायरिओं मे [कर्व फाइनेंस] (http://curve.finance/) नकद प्रदाता (एलपी) टोकन का उपयोग करके ब्याज उत्पन्न करते हैं, जिन्हें कर्व पूल में जमा करके हासिल किया जाता है।
 
 उदाहरण के लिए, यदि आप ETH बटुआ के बजाय crvSTETH बटुआ में जमा करना चाहते हैं, और उच्च ब्याज के बदले में कर्व पूल और ETH व्युत्पन्न (stETH) के साथ आने वाले अतिरिक्त जोखिम को स्वीकार करते हैं, लेकिन आपके पास केवल ETH है बटुवे में, आपके ETH को तिजोरी में स्वीकार करने से पहले एक crvSTETH टोकन में परिवर्तित करने की आवश्यकता होगी।
 
-Thankfully, due to Yearn's 'zap' feature, this can all be done in the same transaction as your deposit. Here's how it works using the crvSTETH vault as an example:
+शुक्र है, ईयरन की 'ज़ैप' सुविधा के कारण, यह सब उसी लेन-देन में किया जा सकता है जिसमें आपकी जमा राशि है। यहां एक उदाहरण के रूप में crvSTETH वॉल्ट का उपयोग करके यह कैसे काम करता है:
 
-**NOTE:** Zapping a token into a vault will require more transactions than depositing the native token. This means you will be paying more in gas and potentially lose value to slippage when the token is swapped or deposited into a pool. Yearn limits slippage to 1% and the transaction will fail if slippage exceeds that, in which case you will have to swap or deposit the tokens manually. See our [zap](https://docs.yearn.finance/yearn-finance/yvaults/overview#zap-in-with-any-asset) section for more details.
+**टिप्पणी:** किसी टोकन को तिजोरी में रखने के लिए मूल टोकन जमा करने की तुलना में अधिक लेन-देन की आवश्यकता होगी। इसका मतलब है कि आप गैस में अधिक भुगतान करेंगे और टोकन की अदला-बदली या पूल में जमा होने पर संभावित रूप से फिसलन के कारण पैसे खो देंगे। ईयरन की फिसलन की सीमा 1% है और यदि फिसलन इससे अधिक हो जाती है तो लेनदेन विफल हो जाएगा, इस स्थिति में आपको टोकन को मैन्युअल रूप से लेन देन या निक्षेप करनाा होगा। अधिक जानकारी के लिए हमारा [zap](https://docs.yearn.finance/yearn-finance/yvaults/overview#zap-in-with-any-asset) अनुभाग देखें।
 
-1. Select the crvSTETH vault
-2. Click the dropdown box by the 'Approve' or 'Deposit' button 
-3. Select which token you would like to be converted into crvSTETH. It will only display the tokens that are in your wallet.
+1. crvSTETH वॉल्ट का चयन करें
+2. 'स्वीकृति' या 'निक्षेप' बटन द्वारा ड्रॉपडाउन बॉक्स पर क्लिक करें
+3. चुनें कि आप किस टोकन को crvSTETH में बदलना चाहते हैं। यह केवल आपके बटुए में मौजूद टोकन प्रदर्शित करेगा।
 
 <p align="center">
   <img width="909" height="363" src="https://i.imgur.com/6K1luO7.png">
 </p>
 
-4. Enter the amount of tokens you would like to deposit and click 'Approve' or 'Deposit' depending on whether or not you have previously approved the token. 
-4. Confirm the transaction through your wallet. See step 4 in the section above for more details. 
-5. When your transaction succeeds, you will see your deposited balance in the vault's interface, which should appear at the top of the vault list.
+4. टोकन की राशि दर्ज करें जिसे आप जमा करना चाहते हैं और 'स्वीकृति' या 'जमा' पर क्लिक करें,ये इस पर निर्भर करता है कि आपने पहले टोकन को मंजूरी दी है या नहीं। 
+5. अपने वॉलेट के माध्यम से लेनदेन की पुष्टि करें। अधिक जानकारी के लिए उपरोक्त अनुभाग में चरण 4 देखें। 
+6. जब आपका लेन-देन सफल हो जाता है, तो आप तिजोरी के इंटरफ़ेस में अपनी जमा राशि देखेंगे, जो तिजोरी सूची में सबसे ऊपर दिखाई देनी चाहिए।
 
-When you're ready to withdraw: 
+जब आप रुपया निकलने के लिए तैयार हों: 
 
-1. Select the crvSTETH vault
-2. Click the dropdown box by the 'Withdraw' button
+1. crvSTETH वॉल्ट का चयन करें
+2. 'वापसी' बटन द्वारा ड्रॉपडाउन बॉक्स पर क्लिक करें
 
 <p align="center">
   <img width="915.75" height="600.75" src="https://i.imgur.com/2UyXKN0.png">
 </p>
 
-3. Select which asset you would like to receive upon withdrawal. Your options will be the crvSTETH, ETH, BTC, DAI, USDC or USDT
-3. Enter the amount you want to withdraw, or click 'Max' to withdraw the entire balance.
-4. Confirm the approval if needed, and then approve the withdrawal transaction.
-5. When your transaction succeeds, the tokens will show up in your wallet again
+3. निकास/वापसीी पर आप कौनसी संपत्ति/टोकन प्राप्त करना चाहते हैं, इसका चयन करें। आपके विकल्प होंगे crvSTETH, ETH, BTC, DAI, USDC या USDT
+3. वह राशि दर्ज करें जिसे आप निकालना चाहते हैं, या संपूर्ण शेष राशि निकालने के लिए 'अधिकतम' पर क्लिक करें।
+4. यदि आवश्यक हो तो अनुमोदन की पुष्टि करें, और फिर निकासी लेनदेन को मंजूरी दें।
+5. जब आपका लेन-देन सफल हो जाता है, तो टोकन आपके बटुए में फिर से दिखाई देंगे।
 
-## Tools to track your funds 
+## आपके पैसे का पता रखने के लिए साधन 
 
-If you would like to see how your USD balance changes while your assets are in a vault, connect your wallet to [zapper.fi](https://zapper.fi) or a similar portfolio tracking product.This is also the easiest way to tell how much profit the vault has made for you. 
+अगर आप देखना चाहते हैं कि आपकी संपत्ति/पैसे के तिजोरी में रहने के दौरान आपका यूएसडी (USD) शेष कैसे बदलता है, तो अपने वॉलेट को [zapper.fi](https://zapper.fi) या इसी तरह के पोर्टफोलियो/निवेश सूची ट्रैकिंग उत्पाद से कनेक्ट करें। यह भी सबसे आसान तरीका है। यह बताने के लिए कि तिजोरी ने आपके लिए कितना लाभ कमाया है। 
 
-Your balance WILL NOT increase continuously. Profit will be distributed to your share of the vault when the harvest() function is called, which happens on a fluctuating basis. 
+आपका बैलेंस लगातार नहीं बढ़ेगा। जब हार्वेस्ट () फ़ंक्शन बुलाया जाता है, जो उतार-चढ़ाव के आधार पर होता है, तब लाभ आपके तिजोरी के हिस्से में वितरित किया जाएगा।
 
-Community resources to monitor your returns:
+आपके ब्याज की निगरानी के लिए सामुदायिक संसाधन:
 
 - [Zapper](https://zapper.fi/)
 - [Zerion](https://app.zerion.io/)
