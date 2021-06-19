@@ -1,30 +1,30 @@
 # Woofy
 
-WOOFY´ú±ÒÊÇYFIµÄÀ¶¹·»ï°é´ú±Ò¡£ ÀûÓÃÌØÊâµÄWoof¼¼Êõ£¬ËüÔÊÐíÁ½ÖÖ´ú±ÒÖ®¼ä½øÐÐË«Ïò×ª»»£¬´Ó¶øÊ¹WOOFY³ÖÓÐÕßÄÜ¹»ÒÔ¸üÇáËÉµÄ·½Ê½½Ó´¥YFI¡£
+WOOFYä»£å¸æ˜¯YFIçš„è“ç‹—ä¼™ä¼´ä»£å¸ã€‚ åˆ©ç”¨ç‰¹æ®Šçš„WoofæŠ€æœ¯ï¼Œå®ƒå…è®¸ä¸¤ç§ä»£å¸ä¹‹é—´è¿›è¡ŒåŒå‘è½¬æ¢ï¼Œä»Žè€Œä½¿WOOFYæŒæœ‰è€…èƒ½å¤Ÿä»¥æ›´è½»æ¾çš„æ–¹å¼æŽ¥è§¦YFIã€‚
 
-´Ó±¾ÖÊÉÏ½²£¬WOOFY½â¾öÁËÁ½¸öÎÊÌâ£ºYFI²»ÊÇÒÔ¹·ÎªÖ÷ÌâµÄ£¬ÒÔ¼°µ¥¸öYFIÒÔÃÀÔª¼Æ¼Û¹ý¸ß¡£
+ä»Žæœ¬è´¨ä¸Šè®²ï¼ŒWOOFYè§£å†³äº†ä¸¤ä¸ªé—®é¢˜ï¼šYFIä¸æ˜¯ä»¥ç‹—ä¸ºä¸»é¢˜çš„ï¼Œä»¥åŠå•ä¸ªYFIä»¥ç¾Žå…ƒè®¡ä»·è¿‡é«˜ã€‚
 
-**1 YFI = 1,000,000 WOOFY**. YFIºÍWOOFYÊ¼ÖÕ¿ÉÒÔÊ¹ÓÃ[WOOFYºÏÔ¼](https://etherscan.io/address/0xd0660cd418a64a1d44e9214ad8e459324d8157f1#code)»ò[WoofyÍøÕ¾](https://woofy.finance/)ÒÔ¹Ì¶¨»ãÂÊÏà»¥×ª»»¡£
+**1 YFI = 1,000,000 WOOFY**. YFIå’ŒWOOFYå§‹ç»ˆå¯ä»¥ä½¿ç”¨[WOOFYåˆçº¦](https://etherscan.io/address/0xd0660cd418a64a1d44e9214ad8e459324d8157f1#code)æˆ–[Woofyç½‘ç«™](https://woofy.finance/)ä»¥å›ºå®šæ±‡çŽ‡ç›¸äº’è½¬æ¢ã€‚
 
-## ÈçºÎWoofºÍUnwoof
+## å¦‚ä½•Woofå’ŒUnwoof
 
 ![](https://i.imgur.com/HqfCYZX.png)
 
-[WOOFY](https://etherscan.io/address/0xd0660cd418a64a1d44e9214ad8e459324d8157f1)¿ÉÒÔÍ¨¹ýÔÚ[WoofyÍøÕ¾](https://woofy.finance/)ÉÏ´æ·ÅYFIÀ´´´½¨£¨¡°woofed¡±£©¡£ËüÒ²¿ÉÒÔËæÊ±±»¶Ò»»³É£¨¡°unwoofed¡±£©µÈÁ¿µÄYFI¡£
+[WOOFY](https://etherscan.io/address/0xd0660cd418a64a1d44e9214ad8e459324d8157f1)å¯ä»¥é€šè¿‡åœ¨[Woofyç½‘ç«™](https://woofy.finance/)ä¸Šå­˜æ”¾YFIæ¥åˆ›å»ºï¼ˆâ€œwoofedâ€ï¼‰ã€‚å®ƒä¹Ÿå¯ä»¥éšæ—¶è¢«å…‘æ¢æˆï¼ˆâ€œunwoofedâ€ï¼‰ç­‰é‡çš„YFIã€‚
 
-#### ½«YFI×ª»»ÎªWOOFY
+#### å°†YFIè½¬æ¢ä¸ºWOOFY
 
-- **²½Öè1**: ·ÃÎÊ https://woofy.finance
-- **²½Öè2**: Ñ¡Ôñ½»Ò×½çÃæÉÏ·½µÄ¡°Woof¡±Ñ¡Ïî
-- **²½Öè3**: ÊäÈëÄúÒª×ª»»µÄYFIÊýÁ¿
-- **²½Öè4**: Åú×¼Ê¹ÓÃYFI
-- **²½Öè5**: µ¥»÷½»»»½çÃæÏÂ·½µÄ¡°Woof¡±°´Å¥
+- **æ­¥éª¤1**: è®¿é—® https://woofy.finance
+- **æ­¥éª¤2**: é€‰æ‹©äº¤æ˜“ç•Œé¢ä¸Šæ–¹çš„â€œWoofâ€é€‰é¡¹
+- **æ­¥éª¤3**: è¾“å…¥æ‚¨è¦è½¬æ¢çš„YFIæ•°é‡
+- **æ­¥éª¤4**: æ‰¹å‡†ä½¿ç”¨YFI
+- **æ­¥éª¤5**: å•å‡»äº¤æ¢ç•Œé¢ä¸‹æ–¹çš„â€œWoofâ€æŒ‰é’®
 
-#### ½«WOOFY×ª»»ÎªYFI
+#### å°†WOOFYè½¬æ¢ä¸ºYFI
 
-- **²½Öè1**: ·ÃÎÊ https://woofy.finance
-- **²½Öè2**: Ñ¡Ôñ½»Ò×½çÃæÉÏ·½µÄ¡°Unwoof¡±Ñ¡Ïî
-- **²½Öè3**: ÊäÈëÄúÒª×ª»»µÄWOOFYÊýÁ¿
-- **²½Öè4**: µ¥»÷½»»»½çÃæÏÂ·½µÄ¡°Unwoof¡±°´Å¥
+- **æ­¥éª¤1**: è®¿é—® https://woofy.finance
+- **æ­¥éª¤2**: é€‰æ‹©äº¤æ˜“ç•Œé¢ä¸Šæ–¹çš„â€œUnwoofâ€é€‰é¡¹
+- **æ­¥éª¤3**: è¾“å…¥æ‚¨è¦è½¬æ¢çš„WOOFYæ•°é‡
+- **æ­¥éª¤4**: å•å‡»äº¤æ¢ç•Œé¢ä¸‹æ–¹çš„â€œUnwoofâ€æŒ‰é’®
 
-Èç¹ûÕâÊÇÄúÔÚ½»»»ºóµÚÒ»´Î³ÖÓÐÆäÖÐÈÎºÎÒ»¸ö´ú±Ò£¬ÇëÈ·±£µ¥»÷´ú±ÒÍ¼±êÉÏ·½µÄ¡°Ìí¼Ó´ú±Ò¡±°´Å¥£¬ÒÔ±ãËü»á³öÏÖÔÚÄúµÄÇ®°üÖÐ¡£
+å¦‚æžœè¿™æ˜¯æ‚¨åœ¨äº¤æ¢åŽç¬¬ä¸€æ¬¡æŒæœ‰å…¶ä¸­ä»»ä½•ä¸€ä¸ªä»£å¸ï¼Œè¯·ç¡®ä¿å•å‡»ä»£å¸å›¾æ ‡ä¸Šæ–¹çš„â€œæ·»åŠ ä»£å¸â€æŒ‰é’®ï¼Œä»¥ä¾¿å®ƒä¼šå‡ºçŽ°åœ¨æ‚¨çš„é’±åŒ…ä¸­ã€‚
