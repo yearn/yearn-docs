@@ -22,7 +22,7 @@ Backscratcher yVault以对Curve和Yearn都有利的方式来应用流动性挖�
 
 用户将CRV存入无限锁定的yVault。作为交换，他们会收到一个代表Backscratcher池份额的代币。通过Curve的费用分配，从Curve中获得的收入会被分发到Backscratcher池中，而存款人可以每周赎出他们的份额。 
 
-另外，Yearn Finance赚取的所有CRV的10%会被存入Backscratcher中并无限期地锁定。因此，对于想质押CRV的用户来说，于其在Curve自行质押，他们可通过Backscratcher yVault质押以获得更高的份额。此外，他们还可以通过提供流动性赚取额外的SUSHI和PICKLE等代币。
+另外，Yearn Finance赚取的所有CRV的10%会被存入Backscratcher中并被无限期地锁定。因此，对于想质押CRV的用户来说，于其在Curve自行质押，他们可通过Backscratcher yVault质押以获得更高的份额。此外，他们还可以通过提供流动性赚取额外的SUSHI和PICKLE等代币。
 
 ![](https://i.imgur.com/UfCikwk.png)
 
@@ -34,7 +34,7 @@ Backscratcher yVault以对Curve和Yearn都有利的方式来应用流动性挖�
 
 在以太坊区块链上的复利操作需要交易费用。这可能会很昂贵并且会减少回报。
 
-由于yVaults将你与许多其他存款人的交易分批进行，因此使用机枪池的成本会更低，而回报会更高。目前，gas费用是由Keep3r网络承担的，这意味着用户可在不承担任何费用的情况下得到自動复利的好处。 
+由于yVaults将你与许多其他存款人的交易分批进行，因此使用机枪池的成本会更低，而回报会更高。目前，gas费用是由Keep3r网络承担的，这意味着用户可在不承担任何费用的情况下得到自动复利的好处。 
 
 ## 杠杆 
 
