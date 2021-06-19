@@ -1,22 +1,26 @@
 # 目录
 
-- [Yearn简介 \(中文版\)](README.md)
+- [Yearn简介](README.md)
 - [如何使用Yearn](using-yearn.md)
 
 ## Yearn Finance
 
 - [yVaults](yearn-finance/yvaults/README.md)
     - [概述](yearn-finance/yvaults/overview.md)
+    - [机枪池和策略](yearn-finance/yvaults/vaults-and-strategies.md)
+    - [机枪池代币](yearn-finance/yvaults/vault-tokens.md)
+    - [Yearn如何为你提高收益](yearn-finance/yvaults/yvault-advatanges.md)
+- [Woofy](yearn-finance/woofy.md)
 
 ## 治理
 
-- [所有的Yearn治理提案摘要 \(中文版\)](governance/proposal-repository.md)
+- [所有的Yearn治理提案摘要](governance/proposal-repository.md)
 
 ## 资源
 
-- [常问问题 \(中文版\)](resources/faq.md)
+- [常问问题](resources/faq.md)
 
-## 其他资源 <a id="additional-resources"></a>
+## 其他资源
 
 - [Github](https://github.com/iearn-finance)
 - [Medium](https://medium.com/iearn)
