@@ -45,7 +45,7 @@ Specifically, these proposals allow token holders to make the following decision
 |YIP Power|YFI Holders have the power to propose a YIP on anything not already delegated|
 ### yTeams
 
-Each yTeam has an objective and discrete powers which are defined by token holders. They can be broken further into membership pools, which are separate groups of contributors working towards similar goals as the overarching team. Additionally, one membership pool can bet a part of multiple yTeams.
+Each yTeam has an objective and discrete powers which are defined by token holders. They can be broken further into membership pools, which are separate groups of contributors working towards similar goals as the overarching team. Additionally, one membership pool can be a part of multiple yTeams.
 
 | yTeam | Objective | Membership Pool |
 |-------|-----------|-----------------|
