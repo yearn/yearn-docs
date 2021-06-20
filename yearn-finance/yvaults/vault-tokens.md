@@ -7,6 +7,7 @@
 当你的yVault产生利润，你的yVault代币的份额价值也会增加。这是因为yVault产生利润后，机枪池内会有更多的基础代币可以让用户在提款时被赎出。
 
 ![](https://i.imgur.com/OtK6kAA.png)
+
 *[Etherscan](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1#readContract)上的 yvYFI代币，显示其名称，总资产和份额价值。*
 
 一旦用户从yVault中提出流动性，他们的yVault代币会被烧毁。yVault代币是[ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/)，这意味着它们就像其他常见的以太坊代币一样，可被转移或用于交易。

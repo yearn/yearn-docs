@@ -9,7 +9,7 @@
     - [概述](yearn-finance/yvaults/overview.md)
     - [机枪池和策略](yearn-finance/yvaults/vaults-and-strategies.md)
     - [机枪池代币](yearn-finance/yvaults/vault-tokens.md)
-    - [Yearn如何为你提高收益](yearn-finance/yvaults/yvault-advatanges.md)
+    - [Yearn如何为你提高收益](yearn-finance/yvaults/yvault-advantages.md)
 - [Woofy](yearn-finance/woofy.md)
 
 ## 治理
