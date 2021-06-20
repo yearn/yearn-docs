@@ -14,7 +14,7 @@
 
 ## 治理
 
-- [所有的Yearn治理提案摘要](governance/proposal-repository.md)
+- [提案库](governance/proposal-repository.md)
 
 ## 资源
 
