@@ -14,5 +14,6 @@
 
 ## Quản trị
 
+- [YFI](governance/yfi.md)
 - [Tổng hợp các Đề xuất](governance/proposal-repository.md)
 
