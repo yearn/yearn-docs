@@ -7,3 +7,4 @@
 
 - [yVaults](yearn-finance/yvaults/README.md)
     - [तिजोरी और रणनीतियाँ](yearn-finance/yvaults/vaults-and-strategies.md)
+    - [सारांश](yearn-finance/yvaults/overview.md)
