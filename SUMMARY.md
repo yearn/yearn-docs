@@ -15,6 +15,8 @@
 ## 治理
 
 - [提案库](governance/proposal-repository.md)
+- [提案流程](governance/proposal-process.md)
+- [YFI](governance/yfi.md)
 
 ## 资源
 
