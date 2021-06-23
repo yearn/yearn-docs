@@ -34,7 +34,7 @@ In return, control over the locked CRV's boosts is given to Yearn, and utilized 
 
 Compounding yield requires transaction fees to be paid to the Ethereum blockchain. This can be expensive and cut into returns. 
 
-Because yVaults batch your transaction with many other depositors, it is cumulatively lower cost and higher return to farm using the vaults. Currently, gas costs are covered by the Keep3r network, meaning that users are compounding returns while bearing no cost. 
+Because yVaults batch your transaction with many other depositors, it is cumulatively lower cost and higher return to earn yield using the vaults. Currently, gas costs are covered by the Keep3r network, meaning that users are compounding returns while bearing no cost. 
 
 ## Leverage 
 
