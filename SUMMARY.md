@@ -10,6 +10,7 @@
     - [Vaults e Estratégias](yearn-finance/yvaults/vaults-and-strategies.md)
     - [Tokens da Vault](yearn-finance/yvaults/vault-tokens.md)
 - [Earn](yearn-finance/earn.md)
+- [Woofy](year-finance/woofy.md)
 
 ## Governança
 - [YIP Resumo](governance/YIPSUMMARY.md)

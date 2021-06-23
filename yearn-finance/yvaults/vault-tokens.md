@@ -7,6 +7,7 @@
 Se sua yVault gerar lucro, o preço dos seus tokens da sua yVault vão subir. Isso ocorre porque existem mais tokens subjacentes na yVault para redimir na retirada.
 
 ![](https://i.imgur.com/OtK6kAA.png)
+
 *O token yvYFI em [Etherscan](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1#readContract), mostrando seu nome, total de ativos e preço.*
 
 Once a user's liquidity is withdrawn from the yVault, their yVault Token will be burned. yVault Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transferred and traded as any other common Ethereum token.
