@@ -10,3 +10,4 @@
     - [सारांश](yearn-finance/yvaults/overview.md)
     - [तिजोरी टोकन](yearn-finance/yvaults/vault-tokens.md)
     - [ईयरन आपकी उपज(ब्याज) कैसे बढ़ाता है](yearn-finance/yvaults/yvault-advantages.md)
+- [Woofy](yearn-finance/woofy.md)
