@@ -13,7 +13,8 @@
 - [Woofy](year-finance/woofy.md)
 
 ## Governança
-- [YIP Resumo](governance/YIPSUMMARY.md)
+- [YIP Resumo](governance/proposal-repository.md)
+- [Governança e Operações](governance/governance-and-operations.md)
 
 ## Recursos Adicionais
 
