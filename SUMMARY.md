@@ -9,6 +9,7 @@
     - [Visão Geral](yearn-finance/yvaults/overview.md)
     - [Vaults e Estratégias](yearn-finance/yvaults/vaults-and-strategies.md)
     - [Tokens da Vault](yearn-finance/yvaults/vault-tokens.md)
+    - [Como a Yearn aumenta o seu rendimento](yearn-finance/yvaults/yvault-advantages.md)
 - [Earn](yearn-finance/earn.md)
 - [Woofy](year-finance/woofy.md)
 
