@@ -37,6 +37,7 @@ Yearn Improvement Proposals (YIPs), Yearn Delegation Proposals (YDPs) e Yearn Si
 |[60](https://snapshot.org/#/ybaby.eth/proposal/QmNqAqRKMFcoRjaRYAKCVETij6sjJ4S1293kbpYDMVvcjB)|Airdrops das Vaults da Yearn|[lehnberg](https://github.com/lehnberg)|
 |[61](https://snapshot.org/#/ybaby.eth/proposal/QmSMyYeKrRpnA7Xn56o2NtbCUzxmhzCupL7LxMA1reXxq4)|Governança 2.0|[tracheopteryx](https://github.com/tracheopteryx), [lex_node](https://github.com/lex-node)|
 
+
 ## Rejeitadas
 
 | Número | Título                             | Autor          |
