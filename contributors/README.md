@@ -82,8 +82,6 @@ When you decide to start, this reading material is going to come handy:
 - Mint your own DAI: https://medium.com/ethereum-grid/forking-ethereum-mainnet-mint-your-own-dai-d8b62a82b3f7
 - Dev Docs: https://docs.yearn.finance/developers/deployed-contracts-registry
 
-Once your strategy is done
-
 Once you have the strategy ready. This will guide you further down the road.
 
 - Vault naming standard: https://github.com/iearn-finance/yearn-assets/blob/master/naming-standard.md
