@@ -14,4 +14,5 @@
 
 ## शासन 
 
+- [YFI](governance/yfi.md)
 - [शासन और संचालन](governance/governance-and-operations.md)
