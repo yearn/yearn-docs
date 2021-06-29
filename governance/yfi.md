@@ -13,7 +13,7 @@ The YFI token is a tool for coordination between Yearn's contributors, community
 
 Responsibilities of YFI token holders, and how the token itself plays into the Yearn is meant to be dynamic. All of its functions can be modified by the community at any time, and there have been multiple instances of this already. 
 
-From the week of YFI's emergence, there was formal discussion around emissions, supply and powers of token holders.
+From the week of YFI's emergence, there was extensive discussion around emissions, supply and powers of token holders.
 
 ### Distribution
 
@@ -31,9 +31,9 @@ Starting with [YIP-36](https://yips.yearn.finance/YIPS/yip-36), a portion of sta
 
 [YIP-56](https://snapshot.org/#/yearn/proposal/Qmb6gBzjvgLMazSrQQGVcjutLNdkVyM2Lh6yckMzdoaHWZ) disbanded the staking system all-together and opted for a buyback system. This directed more capital to Yearn's treasury while benefiting token holders by taking YFI off of the open market. With this, the YFI Governance Vault was retired, and holders were allowed to participate in governance while holding YFI elsewhere.
 
-### Minting YFI and Funding Yearn's Future
+### Minting YFI
 
-Being one of the few protocols with no premine, fund for development or equity issuance to the people who are building it, token holders voted to mint 6,666 YFI. 1/3 of the YFI would be vested to key contributors and 2/3 would go to the treasury to be deployed and controlled by governance.
+YFI holders voted to mint 6,666 YFI. 1/3 of the newly minted YFI would be vested to key contributors and 2/3 of the newly minted YFI would go to the treasury to be deployed and controlled by governance.
 
 After [YIP-57](https://snapshot.org/#/yearn/proposal/QmX8oYTSkaXSARYZn7RuQzUufW9bVVQtwJ3zxurWrquS9a) passed, all tokens were minted within a single day.  
 
@@ -42,7 +42,7 @@ After [YIP-57](https://snapshot.org/#/yearn/proposal/QmX8oYTSkaXSARYZn7RuQzUufW9
 
 Governance 2.0, described in [YIP-61](https://snapshot.org/#/ybaby.eth/proposal/QmSMyYeKrRpnA7Xn56o2NtbCUzxmhzCupL7LxMA1reXxq4), expanded YFI token holder's responsibilities from creating and voting on Yearn Improvement Proposals (YIPs), to creating and voting on Yearn Delegation Proposals (YDPs) and Yearn Signaling Proposals (YSPs). 
 
-YSPs allow token holders to formally request that a yTeam executes a decision with th power they are entitled to. This allows token holders to have a voice while avoiding a drawn out YIP process. yTeams can choose to respect the suggestion or not, and if they don't it can become an issue as a formal YIP.
+YSPs allow token holders to formally request that a yTeam executes a decision with th power they are entitled to. This allows token holders to have a voice while avoiding a drawn-out YIP process. yTeams can choose to respect the suggestion or not, and if they don't it can become an issue as a formal YIP.
 
 YDPs are proposals that change where any discrete decision-making power is delegated. This is relevant in Governance 2.0 as it introduces yTeams, who are given an objective, and certain powers that can be modified by token holders. 
 
