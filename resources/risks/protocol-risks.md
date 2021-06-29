@@ -1,6 +1,6 @@
 # Protocol Risks
 
-Yearn’s core products are the vaults. Each vault runs at least one strategy, and each strategy is exposed to at least one protocol. Strategy and protocol risks are described [here] and [here] respectively.
+Yearn’s core products are the vaults. Each vault runs at least one strategy, and each strategy is exposed to at least one protocol. Strategy and protocol risks are described [here](https://docs.yearn.finance/resources/risks/strategy-risks) and [here](https://docs.yearn.finance/resources/risks/protocol-risks) respectively.
 
 The key protocols to which Yearn’s vaults are exposed are lending protocols, AMMs and protocols that enable leverage.
 
@@ -17,7 +17,7 @@ Yearn’s vaults are exposed to the lending protocols Aave, Compound Finance, dY
 ||Liquidations do not occur as expected|
 |Market|The value of the loans exceed the value of the collateral|
 ||Low demand for borrowing leads to low yields|
-||Accepted assets blow-up|
+||Accepted assets become impaired|
 |Oracle|Incorrect price feed causes the collateral to go to such a value that the loan is liquidated|
 
 ## Automated Market Makers
@@ -32,7 +32,7 @@ Examples of the AMMs to which Yearn’s vaults are exposed are Curve Finance, Su
 |Market|Lack of liquidity for the token being exchanged|
 ||Trading volumes reduce leading to lower fees|
 ||Impermanent loss due to the pool’s token prices changing relative to each other|
-|Technological|v|
+|Technological|Smart contract risk from interacting with AMMs|
 |Governance|Token holders vote to change the AMM adversely|
 
 ## Leverage-enabling protocols
