@@ -1,6 +1,6 @@
 # Governance and Operations
 
-Since [YIP-61: Governance 2.0](https://gov.yearn.finance/t/yip-61-governance-2-0/10460) passed on April 25th, 2021, yearn began the transition into a **multi-DAO** structure, managed by **constrained delegation**. This approach allows protocol development to not be stiffened by bureaucracy while maintaining a sufficient level of decentralization. 
+Since [YIP-61: Governance 2.0](https://gov.yearn.finance/t/yip-61-governance-2-0/10460) passed on April 25th, 2021, Yearn began the transition into a **multi-DAO** structure, managed by **constrained delegation**. This approach allows protocol development to not be stiffened by bureaucracy while maintaining a sufficient level of decentralization. 
 
 Multi-DAO refers to the fluid number of decentralized autonomous organizations (DAOs) that contribute to the protocol in some unique way. These independent groups consist of YFI holders, yTeams and the Multisig.
 
@@ -8,7 +8,7 @@ Multi-DAO refers to the fluid number of decentralized autonomous organizations (
 - **yTeams** focus on specific aspects of the protocol or relevant operations
 - **Multisig** members execute or veto any on-chain decisions
 
-Token holders have ultimate say over what yTeams exist, who is part of the Multisig, and the limitations of each group's operational control. The term 'constrained delgation' originates from token holders delegating specific powers to various groups that build and manage yearn.
+Token holders have ultimate say over what yTeams exist, who is part of the Multisig, and the limitations of each group's operational control. The term 'constrained delgation' originates from token holders delegating specific powers to various groups that build and manage Yearn.
 
 A simplified flow of governance would look like this:
 
