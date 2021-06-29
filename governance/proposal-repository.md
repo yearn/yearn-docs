@@ -36,6 +36,7 @@ Yearn Improvement Proposals (YIPs), Yearn Delegation Proposals (YDPs) and Yearn 
 |[59](https://snapshot.org/#/yearn/proposal/QmdRCXH6BQpNcucoZqAtS5hQKjckE2428qiZoWjxmJXbs3)|Temporarily extend Multisig empowerment|[lehnberg](https://github.com/lehnberg)|
 |[60](https://snapshot.org/#/ybaby.eth/proposal/QmNqAqRKMFcoRjaRYAKCVETij6sjJ4S1293kbpYDMVvcjB)|Airdrops to Yearn Vaults|[lehnberg](https://github.com/lehnberg)|
 |[61](https://snapshot.org/#/ybaby.eth/proposal/QmSMyYeKrRpnA7Xn56o2NtbCUzxmhzCupL7LxMA1reXxq4)|Governance 2.0|[tracheopteryx](https://github.com/tracheopteryx), [lex_node](https://github.com/lex-node)|
+|[62](https://snapshot.org/#/ybaby.eth/proposal/QmddCbGYbkooZ1zp8oYnbBz6frXLRc9xbkapXcuZcdzmMF)|Change Two Multisig Signers|[lehnberg](https://github.com/lehnberg), [tracheopteryx](https://github.com/tracheopteryx), [Klim K](https://github.com/milkyklim), [banteg](https://github.com/banteg)|
 
 ## Rejected
 

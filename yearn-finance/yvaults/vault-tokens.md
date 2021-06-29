@@ -7,6 +7,7 @@
 If your yVault generates profit, the share price of your yVault tokens will increase. This happens because there are more underlying tokens in the yVault to redeem upon withdrawal.
 
 ![](https://i.imgur.com/OtK6kAA.png)
+
 *The yvYFI token at [Etherscan](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1#readContract), showing its name, total assets and price per share.*
 
 Once a user's liquidity is withdrawn from the yVault, their yVault Token will be burned. yVault Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transferred and traded as any other common Ethereum token.
