@@ -16,6 +16,7 @@
 ## Governança
 - [YFI](governance/yfi.md)
 - [YIP Resumo](governance/proposal-repository.md)
+- [Processo de Proposta](governance/proposal-process.md)
 - [Governança e Operações](governance/governance-and-operations.md)
 
 ## Recursos Adicionais
