@@ -19,3 +19,6 @@
 - [Processo de Proposta](governance/proposal-process.md)
 - [Governança e Operações](governance/governance-and-operations.md)
 
+## Recursos
+- [FAQ](resources/faq.md)
+- [Links](resources/links.md)
