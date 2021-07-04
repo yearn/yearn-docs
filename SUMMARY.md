@@ -22,3 +22,4 @@
 ## Recursos
 - [FAQ](resources/faq.md)
 - [Links](resources/links.md)
+- [Auditorias de Segurança](resources/audits.md)
