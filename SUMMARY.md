@@ -10,6 +10,7 @@
   - [Vaults and Strategies](yearn-finance/yvaults/vaults-and-strategies.md)
   - [Vault Tokens](yearn-finance/yvaults/vault-tokens.md)
   - [yVault Advantages](yearn-finance/yvaults/yvault-advantages.md)
+- [Earn](yearn-finance/earn.md)
 - [Woofy](yearn-finance/woofy.md)
 
 ## Governance
