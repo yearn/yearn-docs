@@ -16,3 +16,4 @@
 
 - [YFI](governance/yfi.md)
 - [शासन और संचालन](governance/governance-and-operations.md)
+- [प्रस्ताव प्रक्रिया](governance/proposal-process.md)
