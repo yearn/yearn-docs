@@ -19,7 +19,7 @@
     
 ## डाओ की  जिम्मेदारियां
 
-![](https://i.imgur.com/IDysF5O.png)
+![](https://g7iatbzbbqlh2l2c5tlqjkinsa6dcsuktwnrmw2pgfa67wq6efiq.arweave.net/N9AJhyEMFn0vQuzXBKkNkDwxSoqdmxZbTzFB79oeIVE)
 
 ### टोकन धारक 
 
