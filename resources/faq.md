@@ -127,7 +127,7 @@
 
 #### I'm having issues with yearn.fi
 
-- The only officially supported UI is yearn.finance. Anyone can build an interface ontop of Yearn's smart contracts, and all of those interfaces can have unique problems. Yearn's co-founder is involved with the development of yearn.fi, but it includes experimental features not officially supported yet. Use at your own risk
+- This website is one of many front-ends maintained by separate groups of developers. Consider getting in touch with the yearn.fi development team via their website or through social media channels.
 
 ## Careers and contributors
 
