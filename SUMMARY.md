@@ -17,3 +17,7 @@
 - [YFI](governance/yfi.md)
 - [Tổng hợp các Đề xuất](governance/proposal-repository.md)
 - [Quá trình Đề xuất](governance/proposal-process.md)
+
+## Tài nguyên
+
+- [Liên kết](resources/links.md)
