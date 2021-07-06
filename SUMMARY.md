@@ -21,3 +21,4 @@
 ## Tài nguyên
 
 - [Liên kết](resources/links.md)
+- [Tình hình Tài chính](resoures/financials.md)
