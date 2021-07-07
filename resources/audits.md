@@ -32,19 +32,19 @@ Date: 11/05/2020
 
 ## Yearn Vaults V2
 
-#### Yearn Vault V2 (Vyper) Audit by MixBytes
+#### Yearn Vault V2 (Vyper) Audit
 
 Author: MixBytes
 Date: 12/02/2020
 [Report](https://github.com/yearn/yearn-security/raw/master/audits/202012_MixBytes_yearn-vaults/MixBytes_Yearn_Vault_v_2_Smart_Contract_Audit_Report_Vyper_part.pdf)
 
-#### Yearn Vault V2 (Solidity) Audit by MixBytes
+#### Yearn Vault V2 (Solidity) Audit
 
 Author: MixBytes
 Date: 12/03/2020
 [Report](https://github.com/yearn/yearn-security/raw/master/audits/202012_MixBytes_yearn-vaults/MixBytes_Yearn_Vault_v_2_Smart_Contract_Audit_Report_Solidity_part.pdf)
 
-#### Yearn V2 Audit by Martinet Lee and Jun-You Liu
+#### Yearn V2 Audit
 
 Author: Martinet Lee and Jun-You Liu
 Dates: 12/04/2020
