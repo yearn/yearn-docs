@@ -15,6 +15,7 @@
 ## Quản trị
 
 - [YFI](governance/yfi.md)
+- [Quản trị và Hoạt động](governance/governance-and-operations.md)
 - [Tổng hợp các Đề xuất](governance/proposal-repository.md)
 - [Quá trình Đề xuất](governance/proposal-process.md)
 
