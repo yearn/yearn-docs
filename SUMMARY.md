@@ -22,5 +22,5 @@
 ## Tài nguyên
 
 - [Liên kết](resources/links.md)
-- [Tình hình Tài chính](resoures/financials.md)
+- [Tình hình Tài chính](resources/financials.md)
 - [Kiểm chứng Độ An toàn](https://github.com/yearn/yearn-security/tree/master/audits)
