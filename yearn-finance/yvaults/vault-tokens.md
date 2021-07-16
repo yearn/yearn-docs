@@ -10,7 +10,7 @@
 
 *yvYFI टोकन पर [Etherscan](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1#readContract), अपना नाम, कुल संपत्ति और प्रति शेयर मूल्य दिखा रहा है।*
 
-एक बार उपयोगकर्ता के पैसे  yVault से  निकले जाने के बाद , उनका yVault टोकन जलाया जाएगा। yVault टोकन [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/) हैं, जिसका अर्थ है कि उन्हें किसी अन्य सामान्य एथेरियम टोकन के रूप में स्थानांतरित और व्यापार किया जा सकता है।
+एक बार उपयोगकर्ता के पैसे  yVault से  निकाले जाने के बाद , उनका yVault टोकन जलाया जाएगा। yVault टोकन [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/) हैं, जिसका अर्थ है कि उन्हें किसी अन्य सामान्य अथेरियम टोकन के रूप में स्थानांतरित और व्यापार किया जा सकता है।
 
 ## V2 yVault टोकन
 
