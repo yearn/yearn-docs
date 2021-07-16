@@ -1,14 +1,14 @@
-# Table of contents
+# Table of Contents
 
 - [Giới thiệu](README.md)
 - [Sử dụng Yearn](using-yearn.md)
 
 ## Yearn Finance
 
-- [yVaults](yearn-finance/yvaults/README.md)
+- [yVault (Kho bạc của Yearn)](yearn-finance/yvaults/README.md)
   - [Tổng quan](yearn-finance/yvaults/overview.md)
   - [Các Vault và Chiến lược](yearn-finance/yvaults/vaults-and-strategies.md)
-  - [Tôken của Vault](yearn-finance/yvaults/vault-tokens.md)
+  - [Tôken của Vault (Kho bạc)](yearn-finance/yvaults/vault-tokens.md)
   - [Yearn tăng lợi tức cho bạn bằng cách nào?](yearn-finance/yvaults/yvault-advantages.md)
 - [Woofy](yearn-finance/woofy.md)
 
@@ -24,3 +24,4 @@
 - [Liên kết](resources/links.md)
 - [Tình hình Tài chính](resources/financials.md)
 - [Kiểm chứng Độ An toàn](https://github.com/yearn/yearn-security/tree/master/audits)
+- [Hướng dẫn](resources/guides/README.md)
