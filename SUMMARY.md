@@ -25,3 +25,5 @@
 - [Tình hình Tài chính](resources/financials.md)
 - [Kiểm chứng Độ An toàn](https://github.com/yearn/yearn-security/tree/master/audits)
 - [Hướng dẫn](resources/guides/README.md)
+  - [Cách Thêm Tôken Khác vào ví MetaMask](resources/guides/how-to-add-a-custom-token-to-metamask.md)
+
