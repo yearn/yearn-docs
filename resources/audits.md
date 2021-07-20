@@ -32,12 +32,6 @@ Date: 11/05/2020
 
 ## Yearn Vaults V2
 
-### Yearn v2 Vaults Security Assessment
-
-Author: Trail of Bits
-Date: 04/30/2021
-[Report](https://github.com/yearn/yearn-security/raw/master/audits/20210719_ToB_yearn_vaultsv2/ToB_-_Yearn_Vault_v_2_Smart_Contracts_Audit_Report.pdf)
-
 ### Yearn Vault V2 (Vyper) Audit
 
 Author: MixBytes
@@ -98,6 +92,12 @@ Date: 04/06/2021
 Author: MixBytes
 Date: 04/15/2021
 [Report](https://github.com/yearn/yearn-security/blob/master/audits/20210423_MixBytes_yearn_curve_voter_proxy/MixBytes_-_Curve_Voter_Proxy_Security_Audit_Report.pdf)
+
+### Yearn v2 Vaults Security Assessment
+
+Author: Trail of Bits
+Date: 04/30/2021
+[Report](https://github.com/yearn/yearn-security/raw/master/audits/20210719_ToB_yearn_vaultsv2/ToB_-_Yearn_Vault_v_2_Smart_Contracts_Audit_Report.pdf)
 
 ### Yearn Generic Aave Strategy
 
