@@ -47,7 +47,7 @@ Date: 12/03/2020
 ### Yearn V2 Audit
 
 Author: Martinet Lee and Jun-You Liu
-Dates: 12/04/2020
+Date: 12/04/2020
 [Report](https://github.com/yearn/yearn-security/raw/master/audits/202000_Mixed_yearn-finance/YearnV2_%20our%20gotcha%20notes%20-%20HackMD.pdf)
 
 ## Yearn Vault Strategies
