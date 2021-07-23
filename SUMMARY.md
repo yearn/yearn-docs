@@ -22,4 +22,7 @@
 ## 资源
 
 - [常问问题](resources/faq.md)
+- [链接](resources/links.md)
+- [安全审计](resources/audits.md)
+- [财务数据](resources/financials.md)
 

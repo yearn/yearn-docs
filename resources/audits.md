@@ -2,6 +2,8 @@
 
 Yearn Finance将用户安全放在首位。在Yearn的主网页面上启用任何机枪池之前，它会经过业界领先的开发者和审计员的测试和审查。
 
+https://github.com/yearn/yearn-security/tree/master/audits
+
 ## Earn协议
 
 ### Earn DAI池审计
