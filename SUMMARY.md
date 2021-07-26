@@ -11,7 +11,7 @@
     - [Tokens da Vault](yearn-finance/yvaults/vault-tokens.md)
     - [Como a Yearn aumenta o seu rendimento](yearn-finance/yvaults/yvault-advantages.md)
 - [Earn](yearn-finance/earn.md)
-- [Woofy](year-finance/woofy.md)
+- [Woofy](yearn-finance/woofy.md)
 
 ## Governança
 - [YFI](governance/yfi.md)
