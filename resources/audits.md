@@ -50,6 +50,12 @@ Author: Martinet Lee and Jun-You Liu
 Dates: 12/04/2020
 [Report](https://github.com/yearn/yearn-security/raw/master/audits/202000_Mixed_yearn-finance/YearnV2_%20our%20gotcha%20notes%20-%20HackMD.pdf)
 
+### Yearn Liquity Stability Pool Strategy
+
+Author: MixBytes
+Date: 06/02/2021
+[Report](https://github.com/yearn/yearn-security/raw/master/audits/20210616_MixBytes_yearn_liquity_stabily_pool/MixBytes_-_Yearn_Liquity_stability_pool_Security_Audit_Report.pdf)
+
 ## Yearn Vault Strategies
 
 ### Yearn Vault V2 yCRV Strategy
@@ -110,12 +116,6 @@ Date: 04/23/2021
 Author: MixBytes
 Date: 05/24/2021
 [Report](https://github.com/yearn/yearn-security/raw/master/audits/20210526_MixBytes_yearn_strategies_snx/MixBytes_-_Yearn_Strategies_SNX_Contracts_Audit_Report.pdf)
-
-### Yearn Liquity Stability Pool Strategy
-
-Author: MixBytes
-Date: 06/02/2021
-[Report](https://github.com/yearn/yearn-security/raw/master/audits/20210616_MixBytes_yearn_liquity_stabily_pool/MixBytes_-_Yearn_Liquity_stability_pool_Security_Audit_Report.pdf)
 
 ## Other Contracts
 
