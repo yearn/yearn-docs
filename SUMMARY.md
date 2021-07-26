@@ -102,6 +102,6 @@
 - [Contribute](contributors/README.md)
 - [Contributor Tools](contributors/contributor-tools.md)
 - [Documentation](contributors/documentation/README.md)
-  - [Writing Style Guide](contributors/writing-style-guide.md)
-  - [Working on Docs](contributors/working-on-docs.md)
+  - [Writing Style Guide](contributors/documentation/writing-style-guide.md)
+  - [Working on Docs](contributors/documentation/working-on-docs.md)
 - [Coordinape](https://docs.coordinape.com/)
