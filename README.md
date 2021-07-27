@@ -17,6 +17,7 @@ Das erste Yearn-Produkt war ein Kreditaggregator. Die Geldmittel werden automati
 ## Governance
 Das Yearn-Ecosystem wird von YFI-Token-Besitzern kontrolliert, die Vorschläge zur Steuerung des Ecosystems außerhalb der Kette einreichen und darüber abstimmen. Vorschläge, die eine Mehrheitsunterstützung (>50% der Stimmen) generieren, werden von einem Multi-Signatur-Wallet umgesetzt, welches neun Mitglieder umfasst. Änderungen müssen von sechs der neun Wallet-Unterzeichner unterschrieben werden, um implementiert zu werden. Die Mitglieder des Multi-Signatur-Wallets wurden von den YFI-Inhabern gewählt und können sich bei zukünftigen Abstimmungen der Governance ändern. Die Liste der Multisig-Unterzeichner(https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) und weitere Informationen über den Governance-Prozess(https://docs.yearn.finance/resources/faq#governance) findest du in unseren FAQ.
 
+
 ## Kommunikationskanäle
 
 Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
