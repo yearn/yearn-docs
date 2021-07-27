@@ -19,14 +19,15 @@ Das Yearn-Ecosystem wird von YFI-Token-Besitzern kontrolliert, die Vorschläge z
 
 
 ## Kommunikationskanäle
+Governance Forum https://gov.yearn.finance/
 
-Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
+Discord http://discord.yearn.finance
 
-Discord [http://discord.yearn.finance](http://discord.yearn.finance)
+Telegram https://t.me/yearnfinance
 
-Telegram [https://t.me/yearnfinance](https://t.me/yearnfinance)
+Reddit https://www.reddit.com/r/yearn_finance/
 
-Reddit [https://www.reddit.com/r/yearn_finance/](https://www.reddit.com/r/yearn_finance/)
+
 
 
 
