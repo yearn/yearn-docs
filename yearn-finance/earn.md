@@ -14,4 +14,4 @@ Ab September 2020 wird die annualisierte YTD-Rendite für yPool-Liquiditätsanbi
 
 ## Ressourcen
 
-- [Earn Homepage](https://v1.yearn.finance/earn)
+- [Earn Startseite](https://v1.yearn.finance/earn)
