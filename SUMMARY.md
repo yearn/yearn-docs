@@ -24,4 +24,4 @@
 
 - [लिंक](resources/links.md)
 - [मार्गदर्शक](resources/guides/README.md)
-    - [मेटामास्क-में-अनोखी-मुद्रा-जोड़ें](resources/guides/how-to-add-a-custom-token-to-metamask)
+    - [मेटामास्क-में-अनोखी-मुद्रा-जोड़ें](resources/guides/how-to-add-a-custom-token-to-metamask.md)
