@@ -1,24 +1,24 @@
-# Introduction
+# Вступление
 
-Yearn Finance комплекс продуктов  in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum blockchain. The protocol is maintained by various independent developers and is governed by YFI holders.
+Yearn Finance - это пакет продуктов в экосистеме Децентрализованных финансов (DeFi), агрегирующий сферы кредитования, генерации доходностей и страхования на блокчейне Ethereum. Протокол поддерживается независимыми разработчиками и управляется держателями токенов YFI.
 
-You can find brief descriptions of Yearn's core products, the governance process, and links to active communication channels below.
+Ниже вы можете найти краткое описание основных продуктов Yearn, процесс управления протоколом и ссылки на каналы для связи.
 
-## Core Products
+## Основные продукты
 
-### Vaults
+### Хранилища
 
-Capital pools that automatically generate yield based on opportunities present in the market. Vaults benefit users by socializing gas costs, automating the yield generation and rebalancing process, and automatically shifting capital as opportunities arise. End users also do not need to have a proficient knowledge of the underlying protocols involved or DeFi, thus the Vaults represent a passive-investing strategy.
+Это пулы с размещенными в них активами, автоматически генерирующие доходность, в зависимости от текущих возможностей на рынке. Хранилища приносят выгоду пользователям за счет разделения комиссий за газ, автоматизации процесса генерации дохода и ребалансировки активов, а также благодаря автоматизации перемещения средств по мере появления возможностей на рынке. Конечным пользователям не требуются специальные навыки и знания об используемых в Defi протоколах, потому Хранилища представляют собой стратегию пассивного инвестирования.
 
-### Earn
+### Доходность
 
-The first Yearn product was a lending aggregator. Funds are shifted between dYdX, AAVE, and Compound automatically as interest rates change between these protocols. Users can deposit to these lending aggregator smart contracts via the Earn page. This product completely optimizes the interest accrual process for end-users to ensure they are obtaining the highest interest rates at all times among the platforms specified above.
+Первым продуктом экосистемы Yearn был агрегатор для сферы кредитования. Средства перемещаются между dYdX, AAVE и Compound автоматически как только процентная ставка становится более выгодной в том или ином продукте. Пользователи могут депонировать свои средства в смарт - контракты агрегатора через страницу раздела Earn. Этот продукт самостоятельно оптимизирует распределение средств конечных пользователей между указанными выше продуктами для получения максимальной доходности.
 
-## Governance
+## Управление
 
-The Yearn ecosystem is controlled by YFI token holders who submit and vote on off-chain proposals that govern the ecosystem. Proposals that generate a majority support \(&gt;50% of the vote\) are implemented by a 9 member multi-signature wallet. Changes must be signed by 6 out of the 9 wallet signers in order to be implemented. The members of the multi-signature wallet were voted in by YFI holders and are subject to change from future governance votes. Please refer to our FAQ for [the list of the multisig signers](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) and more information about the [governance process](https://docs.yearn.finance/resources/faq#governance).
+Вся экосистема Yearn контролируется держателями токенов YFI, которые вносят предложения и голосуют "за" или "против" них, напрямую влияя на развитие Yearn. Предложения, получающие поддержку большинства \(&gt;более 50% от числа проголосовавших\), внедряются 9 подписантами кошелька с функцией мульти - подписи. Данные изменения должны быть подписаны 6 из 9 подписантов для реализации предложения. Подписанты были избраны держтелями токенов YFI в ходе голосования и могут быть смещены с этого поста в ходе дальнейших голосований. Больше информации о [процессе управления](https://docs.yearn.finance/resources/faq#governance) в целом, и о [подписантах в частности](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig), вы можете найти в нашем FAQ. 
 
-## Communication Channels
+## Каналы для связи
 
 Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
 
