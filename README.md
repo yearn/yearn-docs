@@ -20,7 +20,7 @@ Yearn Finance - это пакет продуктов в экосистеме Д�
 
 ## Каналы для связи
 
-Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
+Форум по вопросам управления [https://gov.yearn.finance/](https://gov.yearn.finance/)
 
 Discord [http://discord.yearn.finance](http://discord.yearn.finance)
 
