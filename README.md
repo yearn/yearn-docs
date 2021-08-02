@@ -1,10 +1,12 @@
 # 紹介
 
-Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum blockchain. The protocol is maintained by various independent developers and is governed by YFI holders.
+Yearn Financeは、分散型金融（DeFi）のプロダクト一式です。
+レンディングアグリゲーション、イールドジェネレーション、保険をEthereumブロックチェーン上で提供しています。
+プロトコルはそれぞれの開発者によって維持され、YFIホルダーによって統治されています。
 
-You can find brief descriptions of Yearn's core products, the governance process, and links to active communication channels below.
+Yearnのコアプロダクトの簡単な説明、ガバナンスプロセス、活発なコミュニケーションへのチャンネルリンクが以下に記載されています。
 
-## Core Products
+## コアプロダクト
 
 ### Vaults
 
