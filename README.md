@@ -10,17 +10,32 @@ Yearnのコアプロダクトの簡単な説明、ガバナンスプロセス、
 
 ### Vaults
 
-Capital pools that automatically generate yield based on opportunities present in the market. Vaults benefit users by socializing gas costs, automating the yield generation and rebalancing process, and automatically shifting capital as opportunities arise. End users also do not need to have a proficient knowledge of the underlying protocols involved or DeFi, thus the Vaults represent a passive-investing strategy.
+キャピタルプールは市場に存在する機会に基づいて自動的に利回りを生成します。
+ヴォールトは、ガスコストの社会化、イールドジェネレーションとリバランスプロセスの自動化、より良いプールへの資本の自動シフトによって、ユーザーに利益をもたらします。
+エンドユーザーはプロトコルやDeFiに関する基本的な知識を必要としません。
+結果として、ヴォールトはパッシブな投資戦略を代理しています。
 
 ### Earn
 
-The first Yearn product was a lending aggregator. Funds are shifted between dYdX, AAVE, and Compound automatically as interest rates change between these protocols. Users can deposit to these lending aggregator smart contracts via the Earn page. This product completely optimizes the interest accrual process for end-users to ensure they are obtaining the highest interest rates at all times among the platforms specified above.
+Yearnの最初のプロダクトは、レンディング・アグリゲーターでした。
+資産は、dYdX、AAVE、Compoundの各プロトコル間で金利が変化すると自動でシフトします。
+ユーザーはEarnページからこれらのレンディング・アグリゲーター・スマートコントラクトに入金することができます。
+このプロダクトは、エンドユーザーの金利発生プロセスを完全に最適化し、上記のプラットフォームの中で常に最高の金利を得られるようにします。
 
 ## Governance
 
-The Yearn ecosystem is controlled by YFI token holders who submit and vote on off-chain proposals that govern the ecosystem. Proposals that generate a majority support \(&gt;50% of the vote\) are implemented by a 9 member multi-signature wallet. Changes must be signed by 6 out of the 9 wallet signers in order to be implemented. The members of the multi-signature wallet were voted in by YFI holders and are subject to change from future governance votes. Please refer to our FAQ for [the list of the multisig signers](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) and more information about the [governance process](https://docs.yearn.finance/resources/faq#governance).
+Yearnのエコシステムは、YFIトークンの保有者がエコシステムに管理されたオフチェーンプロポーザルを提出し、投票することで管理されています。
+多数の支持を得た提案は、9人のメンバーで構成されるマルチ・シグネチャー・ウォレットによって実行されます。
+9人のウォレットメンバーのうち6人の署名がないと変更は実行されません。
+マルチ・シグネチャー・ウォレットのメンバーはYFIホルダーによって投票され、将来のガバナンス投票により変更する可能性があります。
+詳しくはFAQを参考にしてください。
+[the list of the multisig signers]
+(https://docs.yearn.finance/resources/faq#who-is-on-the-multisig)
+[governance process]
+(https://docs.yearn.finance/resources/faq#governance)
 
-## Communication Channels
+
+## コミュニケーションチャンネル
 
 Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
 
