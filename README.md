@@ -2,7 +2,7 @@
 
 Yearn Financeは、分散型金融（DeFi）のプロダクト一式です。
 レンディングアグリゲーション、イールドジェネレーション、保険をEthereumブロックチェーン上で提供しています。
-プロトコルはそれぞれの開発者によって維持され、YFIホルダーによって統治されています。
+プロトコルはそれぞれの開発者によって維持され、YFIホルダーによって管理されています。
 
 Yearnのコアプロダクトの簡単な説明、ガバナンスプロセス、活発なコミュニケーションへのチャンネルリンクが以下に記載されています。
 
@@ -22,22 +22,22 @@ Yearnの最初のプロダクトは、レンディング・アグリゲーター
 ユーザーはEarnページからこれらのレンディング・アグリゲーター・スマートコントラクトに入金することができます。
 このプロダクトは、エンドユーザーの金利発生プロセスを完全に最適化し、上記のプラットフォームの中で常に最高の金利を得られるようにします。
 
-## Governance
+## ガバナンス
 
 Yearnのエコシステムは、YFIトークンの保有者がエコシステムに管理されたオフチェーンプロポーザルを提出し、投票することで管理されています。
 多数の支持を得た提案は、9人のメンバーで構成されるマルチ・シグネチャー・ウォレットによって実行されます。
 9人のウォレットメンバーのうち6人の署名がないと変更は実行されません。
 マルチ・シグネチャー・ウォレットのメンバーはYFIホルダーによって投票され、将来のガバナンス投票により変更する可能性があります。
 詳しくはFAQを参考にしてください。
-[the list of the multisig signers]
+[マルチ・シグのリストについて]
 (https://docs.yearn.finance/resources/faq#who-is-on-the-multisig)
-[governance process]
+[ガバナンス進行について]
 (https://docs.yearn.finance/resources/faq#governance)
 
 
 ## コミュニケーションチャンネル
 
-Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
+ガバナンス提案 [https://gov.yearn.finance/](https://gov.yearn.finance/)
 
 Discord [http://discord.yearn.finance](http://discord.yearn.finance)
 
