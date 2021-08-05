@@ -1,6 +1,6 @@
 # Introduction
 
-Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum blockchain. The protocol is maintained by various independent developers and is governed by YFI holders.
+Yearn Finance is a suite of products in Decentralized Finance (DeFi) that is designed to generate yield on smart contract platforms like Ethereum. The protocol is maintained by various independent developers and is governed by YFI holders.
 
 You can find brief descriptions of Yearn's core products, the governance process, and links to active communication channels below.
 
@@ -20,10 +20,10 @@ The Yearn ecosystem is controlled by YFI token holders who submit and vote on of
 
 ## Communication Channels
 
-Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
+[Governance Forum](https://gov.yearn.finance/)
 
-Discord [http://discord.yearn.finance](http://discord.yearn.finance)
+[Discord](http://discord.yearn.finance)
 
-Telegram [https://t.me/yearnfinance](https://t.me/yearnfinance)
+[Telegram](https://t.me/yearnfinance)
 
-Reddit [https://www.reddit.com/r/yearn_finance/](https://www.reddit.com/r/yearn_finance/)
+[Reddit](https://www.reddit.com/r/yearn_finance/)
