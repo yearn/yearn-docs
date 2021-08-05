@@ -20,9 +20,18 @@ When withdrawing, users will be able to zap back into one of the following token
 |v1|0.5%|5%|-|
 |v2|-|20%|2%|
 
-- Withdrawal Fee: One time fee during withdrawal
-- Performance Fee: Percent deducted from income 
-- Management Fee: Percent deducted from total balance per year.
+**Withdrawal Fee**: One time fee charged to your balance upon withdrawal. This has been turned off for all vaults and only existed in the v1 iteration.
+
+**Performance Fee**: Deducted from yield earned every time a vault harvests a strategy. 
+
+**Management Fee**: Flat rate taken from vault deposits over a year. The fee is extracted by minting new shares of the vault, thereby diluting vault participants. This is done at the time of harvest, and calculated based off of time since the previous harvest. 
+
+For example, a vault takes about .0055% of deposits per day on average (2 (percent)/365 (days)): 
+- It would dilute vault tokens by 5 * .0055% after 5 days without harvesting
+- It would dilute vault tokens by 7 * .0055% on the next harvest if it had not happened for 7 days
+- Vaults will only harvest if it is profitable after fees so that users won't withdraw less than their deposit
+
+On the [yearn.finance](https://yearn.finance/) user interface, yield is displayed as net APY. This means that both fees and compounding returns are taken into consideration in the rates presented. Since harvests don't occur on a set basis, yield is estimated based off of historical data. For more information, see [How to Understand yVault ROI](https://docs.yearn.finance/resources/guides/how-to-understand-yvault-roi)
 
 ## v2 yVault Improvements
 
