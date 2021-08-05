@@ -1,32 +1,34 @@
 # Overview
 
-## What are yVaults?
+## yVaultsとは?
 
-[yVaults](https://yearn.finance/vaults) are like savings accounts for your crypto assets. They accept your deposit, then route it through a strategies which seek out the highest yield available in DeFi. 
+[yVaults](https://yearn.finance/vaults)は、暗号資産のための貯蓄口座のようなものです。
+あなたの入金を受け入れ、DeFiの中で最も高い利回りを追求する戦略を経ています。
 
 ![](https://i.imgur.com/yXnJqsn.png)
 
-## Zap in with any asset 
+## あらゆる資産にザップイン
 
-Thanks to [Zapper](https://zapper.fi/), yVaults are extremely easy to deposit into. As long as you hold a token that can be swapped on Uniswap with less than 1% slippage, the vault will accept the token, convert it into what's required for the vault, and deposit all in the same transaction.
+[Zapper](https://zapper.fi/)のおかげで、yVaultsへの入金が非常に簡単になりました。
+Uniswapにて1%以下のスリッページで交換できるトークンを持っていれば、vaultはそのトークンを受け入れて必要なものに変換し、同じトランザクションで全てを入金します。
 
-When withdrawing, users will be able to zap back into one of the following tokens: 
+引き出しの際、ユーザーは以下のトークンのいずれかのトークンにザップバックすることができます。
 - ETH, WETH, DAI, USDT, USDC, WBTC
 
-## yVault Fee Structure
+## yVaultの料金体系
 
-|yVault Version|Withdrawal Fee|Performance Fee|Management Fee|
+|yVault バージョン|出金手数料|運用報酬|管理手数料|
 |--------------|:-----------:|:-------------:|:------------:|
 |v1|0.5%|5%|-|
 |v2|-|20%|2%|
 
-- Withdrawal Fee: One time fee during withdrawal
-- Performance Fee: Percent deducted from income 
-- Management Fee: Percent deducted from total balance per year.
+- 出金手数料: 出金時に1回だけ発生する手数料
+- 運用報酬: 収入からの控除率
+- 管理手数料: 年間の総残高からの控除率
 
-## v2 yVault Improvements
+## v2 yVaultの改善点
 
-- **Up to 20 strategies per vault:** This will increase the flexibility to manage capital efficiently during different market scenarios. Each strategy has a capital cap. This is useful to avoid over allocating funds to a strategy which cannot increase APY anymore.
-- **Strategist and Guardian are the new Controllers:** The Controller concept is not available in V2 yVaults and has been replaced by a Guardian and the Strategy creator \(strategist\). These 2 actors oversee strategy performance and are empowered to take action to improve capital management or act on critical situations.
-- **Automated vault housekeeping \(Keep3r network\):** `harvest()` and `earn()` calls are now automated through the Keep3r bots network. These 2 function calls are used to purchase new underlying collateral by selling the earned tokens while moving the profits back to the vault and later into strategies. The keep3r network takes the heavy lifting of doing these calls and running with the gas costs in exchange for keep3r tokens. This approach unloads humans from these housekeeping tasks.
-- **Bouncers and Guest lists**: Yearn has created an unique development process for new vaults. All vaults are launched as Test Vaults \(tyvToken\) to start with. Test vaults have a cap and therefore their strategies as well. Also, the Bouncer has a guest list of wallets which can interact by depositing and withdrawing funds in the Test Vaults. This approach prevents uninformed users from potentially losing funds in a not production ready product.
+- **各vaultに最大20のストラテジーを搭載:** これにより、様々な市場シナリオの中で効率的に資本を管理する柔軟性が高まります。各戦略にはキャピタルキャップが設定されています。これは、APYの増加が望めないストラテジーに資金を過剰に配分することを避けるために有効です。
+- **新しいコントローラーとしてのストラテジーとガーディアン:** V2 yVaultsではコントローラーの概念はなく、代わりにガーディアンとストラテジークリエーター（ストラテジスト）が採用されています。この2つのアクターは、戦略のパフォーマンスを監督し、資本管理の改善や危機的な状況に対応するための行動を取る権限を持っています。
+- **自動化されたvaultの維持管理 \(Keep3r network\):** `harvest()` と `earn()`の呼び出しは、Keep3rのボットネットワークを通じて自動化されました。これらの2つの関数コールは、獲得したトークンを売却して新たな基礎となる担保を購入するために使用され、利益は金庫に戻し、後に戦略に組み込むことができます。keep3rネットワークは、これらのコールを実行し、keep3rトークンと引き換えにガスコストを処理するという重い仕事を引き受けています。このアプローチにより、人間はこれらの維持管理タスクから解放されます。
+- **バウンサーとゲストリスト**: Yearnでは、新しいVaultのために独自の開発プロセスを設けています。すべての金庫は、最初にテストVaults(tyvToken\)としてローンチされます。テストVaultsには上限が設けられており、そのために戦略もあります。また、バウンサーは、テストVaultsに資金を入出金することで相互に作用できるウォレットのゲストリストを持っています。この方法により、知識のないユーザーが、製品化されていないプロダクトで資金を失う可能性を防ぐことができます。
