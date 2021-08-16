@@ -1,106 +1,106 @@
 # Using Yearn       
 
-Thanks to a feature called 'zap', it's extremely easy to deposit into any vault with almost any token. 
+'zap' adı verilen bir özellik sayesinde, hemen hemen her token ile herhangi bir vault'a para yatırmak son derece kolaydır.
 
-Here's how it works: 
+Nasıl çalıştığına bakalım:
 
-First, **Connect your wallet** using the button at the top right corner. Multiple types of wallets are supported, but most people use [MetaMask](https://metamask.io/), which can be downloaded for free as a Chrome extension or through the Apple and Android app stores. Make sure that your wallet is connected to the Ethereum network. 
+Birinci, sağ üst köşedeki **Connect your wallet** düğmesini kullanarak Cüzdanınızı bağlayın. Birden fazla soğuk cüzdan desteklenir fakat insanlar çoğunlukla chrome’un uzantısı olup apple ve android storedan ücretsiz indirilebildiği için [MetaMask](https://metamask.io/) kullanmayı tercih ediyor. Cüzdanınızın Ethereum ağına bağlı olduğundan emin olun.
 
 <p align="center">
   <img width="1266.75" height="345.75" src="https://i.imgur.com/H0Uc8e8.png">
 </p>
 
-## If you **already have the required token** for the vault that you would like to deposit in: 
+## Eğer elinizde yatırım yapacağınız vault için gerekli olan token varsa:
 
-1\. Select the vault that you would like to deposit into.
+1\. yatırım yapmak istediğiniz vault'u seçin
 
-2\. Enter the amount of tokens you want to deposit into the vault. If you are depositing ETH, make sure you have enough ETH left over to pay for future transactions that you might need to make. 
+2\. Valult'a yatırmak istediğiniz token miktarını girin ETH yatıracaksanız, bir sonraki yapacağınız işlem için ihtiyacınız olacak işlem bedeli kadar ETH’i hesabınızda tuttuğunuzdan emin olun.
 
 <p align="center">
   <img width="914.26" height="360.75" src="https://i.imgur.com/LGdRAMQ.png">
 </p>
 
-3\. Click 'Approve' or 'Deposit' button, depending on if you have previously approved.
+3\. Daha önce onaylayıp onaylamadığınıza bağlı olarak 'Onayla(Approve)' veya 'Para Yatır(Deposit)' düğmesini tıklayın.
 
-4\. Your wallet will ask you to confirm the transaction. This will take about 3 minutes, but you can speed it up by [paying a higher gas fee to the network](https://blog.leverj.io/how-to-set-the-gas-limit-and-gas-price-in-metamask-1b33c38c32fd). If your transaction gets stuck, see [this guide](https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-Speed-Up-or-Cancel-a-Pending-Transaction) on speeding up or cancelling the transaction.
+4\. Cüzdanınız sizden işlemi onaylamanızı isteyecektir. Bu yaklaşık 3 dakika sürecektir, ancak işlemi [daha yüksek bir gaz bedeli](https://blog.leverj.io/how-to-set-the-gas-limit-and-gas-price-in-metamask-1b33c38c32fd) ödeyerek hızlandırabilirsiniz. İşleminiz takılı kalırsa, işlemi hızlandırmak veya iptal etmek için [bu kılavuza](https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-Speed-Up-or-Cancel-a-Pending-Transaction) bakın.
 
 <p align="center">
   <img width="258.75" height=" 459.75" src="https://i.imgur.com/BkXBANS.png">
 </p>
 
-5\. When your transaction succeeds, you will see your deposited balance in the vault's interface, which should appear at the top of the vault list.
+5\. işleminiz gerçekleştiğinde yatırım yaptığınız vault ilk sıraya yükselecektir ve yatırdığınız meblağ vault’unuzu ara yüzünde görünecektir.
 
 <p align="center">
   <img width="928.5" height="93.75" src="https://i.imgur.com/JvNQ3l2.png">
 </p>
 
-When you're ready to withdraw: 
+Yatırdığınızı geri çekmeye hazır olduğunuzda:
 
-1\. Select the vault that you would like to withdraw from.
+1\. Çekme işlemini yapmak istediğiniz vault’u seçin.
 
-2\. Enter the amount you want to withdraw, or click 'Max' to withdraw the entire balance.
+2\. Çekmek istediğiniz tutarı girin veya tüm bakiyeyi çekmek için 'Max' seçeneğine tıklayın.
 
 <p align="center">
   <img width="910.5" height="361.5" src="https://i.imgur.com/Y3NsCRb.png">
 </p>
 
-3\. Click 'Withdraw'.
+3\. 'Withdraw'ı tıklayın.
 
-4\. Your wallet will ask you to confirm the transaction. See step 4 above for more details.
+4\. Cüzdanınız sizden işlemi onaylamanızı isteyecektir. Detaylı bilgi için yukarıdaki 4.adıma bakın.
 
-5\. When your transaction succeeds, the tokens will show up in your wallet again.
+5\. İşleminiz gerçekleştiğinde tokenlar tekrar cüzdanınızda görünecektir.
 
-## If you **don't have the required token** for the vault that you would like to deposit in:
+## Eğer elinizde yatırım yapacağınız vault için **gerekli olan token yoksa**
 
-This can be a common occurrence, because many of Yearn's vaults generate yield by using [Curve Finance](http://curve.finance/) liquidity provider (LP) tokens, which are acquired through depositing into a Curve pool. 
+Bu yaygın bir durum olabilir, çünkü Yearn vaultlarının çoğu, [Curve Finance](http://curve.finance/)'a yatırım yaparak elde edilen liquidity provider(likuidite sağlayıcı) (LP) token'leri ile getiri sağlar.
 
-So for instance, if you would rather deposit into the crvSTETH vault instead of the ETH vault, and accept the additional risk that comes with the curve pool and an ETH derivative (stETH) in return for higher yield, but you only have ETH in your wallet, your ETH will need to be converted to a crvSTETH token before it is accepted in the vault. 
+Örneğin, daha yüksek kar payı için ETH vault yerine crvSTETH vault’a para yatırmayı tercih ediyorsanız ve Curve havuzlarının ve ETH türevi token'lerin(STETH) barındırdığı riski kabul ediyorsanız ama cüzdanınızda sadece ETH varsa vault’a eklemeden önce STETH token’a dönüştürmeniz gerekir.
 
-Thankfully, due to Yearn's 'zap' feature, this can all be done in the same transaction as your deposit. Here's how it works using the crvSTETH vault as an example:
+Neyse ki Yearn'in 'zap' özelliği sayesinde, tüm bu para yatırma işleminiz tek seferde yapılabilir. Örnek olarak crvSTETH Vault'unun nasıl çalıştığı aşağıda açıklanmıştır:
 
-**NOTE:** Zapping a token into a vault will require more transactions than depositing the native token. This means you will be paying more in gas and potentially lose value to slippage when the token is swapped or deposited into a pool. Yearn limits slippage to 1% and the transaction will fail if slippage exceeds that, in which case you will have to swap or deposit the tokens manually. See our [zap](https://docs.yearn.finance/yearn-finance/yvaults/overview#zap-in-with-any-asset) section for more details.
+**NOT:** Vault'a yatırmak üzere her hangi bir token'ı dönüştürmek(zap etmek), vault'un kendi yerel token'ını yatırmaktan daha fazla işlem gerektirir. Bu, token’ın takas edildiğinde veya bir havuza yatırıldığında daha fazla gaz ödeyeceğiniz ve potansiyel olarak slipajdan dolayı token’ın değer kaybedeceği anlamına gelir. Yearn slipajı %1 ile sınırlar ve slipaj bunu aşarsa işlem başarısız olur, bu durumda token'ları manuel olarak takas etmeniz veya yatırmanız gerekir. Ayrıntılı bilgi için [zap](https://docs.yearn.finance/yearn-finance/yvaults/overview#zap-in-with-any-asset) bölümümüze bakın.
 
-1\. Select the crvSTETH vault.
+1\. crvSTETH kasasını seçin.
 
-2\. Click the dropdown box by the 'Approve' or 'Deposit' button.
+2\. 'Approve' veya 'Deposit' düğmesinin yanındaki açılır kutuyu tıklayın.
 
-3\. Select which token you would like to be converted into crvSTETH. It will only display the tokens that are in your wallet.
+3\. crvSTETH'e dönüştürülmesini istediğiniz token'ı seçin. Yalnızca cüzdanınızdaki token'nları gösterir.
 
 <p align="center">
   <img width="909" height="363" src="https://i.imgur.com/6K1luO7.png">
 </p>
 
-4\. Enter the amount of tokens you would like to deposit and click 'Approve' or 'Deposit' depending on whether or not you have previously approved the token. 
+4\. Yatırmak istediğiniz token miktarını girin ve token'ı daha önce onaylayıp onaylamadığınıza bağlı olarak 'Approve' veya 'Deposit' seçeneğine tıklayın.
 
-5\. Confirm the transaction through your wallet. See step 4 in the section above for more details.
+5\. İşlemi cüzdanınızdan onaylayın. Daha fazla ayrıntı için yukarıdaki bölümdeki 4. adıma bakın.
 
-6\. When your transaction succeeds, you will see your deposited balance in the vault's interface, which should appear at the top of the vault list.
+6\. işleminiz gerçekleştiğinde yatırım yaptığınız vault ilk sıraya yükselecektir ve yatırdığınız meblağ vault’unuzu ara yüzünde görünecektir.
 
-When you're ready to withdraw: 
+Yatırdığınızı geri çekmeye hazır olduğunuzda:
 
-1\. Select the crvSTETH vault.
+1\. crvSTETH vault'unu seçin.
 
-2\. Click the dropdown box by the 'Withdraw' button.
+2\. 'Withdraw' düğmesinin yanındaki açılır kutuyu tıklayın.
 
 <p align="center">
   <img width="915.75" height="600.75" src="https://i.imgur.com/2UyXKN0.png">
 </p>
 
-3\. Select which asset you would like to receive upon withdrawal. Your options will be the crvSTETH, ETH, BTC, DAI, USDC or USDT.
+3\. Çektiğinizde hangi token'ı almak istediğiniz seçin. Seçenekleriniz crvSTETH, ETH, BTC, DAI, USDC veya USDT olacaktır.
 
-4\. Enter the amount you want to withdraw, or click 'Max' to withdraw the entire balance.
+4\. Çekmek istediğiniz tutarı girin veya tüm bakiyeyi çekmek için 'Max' seçeneğine tıklayın.
 
-5\. Confirm the approval if needed, and then approve the withdrawal transaction.
+5\. Gerekirse onayı kabul edin ve ardından para çekme işlemini onaylayın.
 
-6\. When your transaction succeeds, the tokens will show up in your wallet again.
+6\. İşleminiz gerçekleştiğinde tokenlar tekrar cüzdanınızda görünecektir.
 
-## Tools to track your funds 
+## Fonlarınızı takip etmek için araçlar
 
-If you would like to see how your USD balance changes while your assets are in a vault, connect your wallet to [zapper.fi](https://zapper.fi) or a similar portfolio tracking product.This is also the easiest way to tell how much profit the vault has made for you. 
+Varlıklarınız bir Vault’tayken USD bakiyenizin nasıl değiştiğini görmek istiyorsanız, cüzdanınızı [zapper.fi](https://zapper.fi) veya benzer bir portföy izleme ürünlerine bağlayın. Bu, Vault'un sizin için ne kadar kâr getirdiğini de söylemenin en kolay yoludur.
 
-Your balance WILL NOT increase continuously. Profit will be distributed to your share of the vault when the harvest() function is called, which happens on a fluctuating basis. 
+Bakiyeniz sürekli olarak ARTMAYACAKTIR. Kar, dalgalı bir temelde gerçekleşen hasat() işlevi çağrıldığında kasadaki payınıza dağıtılacaktır.
 
-Community resources to monitor your returns:
+Geri dönüşleri takip edebilmek için topluluk kaynakları:
 
 - [Zapper](https://zapper.fi/)
 - [Zerion](https://app.zerion.io/)
