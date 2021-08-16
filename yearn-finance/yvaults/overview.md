@@ -1,41 +1,42 @@
-# Overview
+# Genel Bakış
 
-## What are yVaults?
+## yVault'lar nedir?
 
-[yVaults](https://yearn.finance/vaults) are like savings accounts for your crypto assets. They accept your deposit, then route it through a strategies which seek out the highest yield available in DeFi. 
+[yVault'lar](https://yearn.finance/vaults), kripto varlıklarınız için tasarruf hesapları gibidir. Depozitonuzu kabul ederler, ardından DeFi'de mevcut olan en yüksek verimi sağlayan bir stratejiye yönlendirirler.
 
 ![](https://i.imgur.com/yXnJqsn.png)
 
-## Zap in with any asset 
+## Herhangi bir aktifle takas edin
 
-Thanks to [Zapper](https://zapper.fi/), yVaults are extremely easy to deposit into. As long as you hold a token that can be swapped on Uniswap with less than 1% slippage, the vault will accept the token, convert it into what's required for the vault, and deposit all in the same transaction.
+[Zapper](https://zapper.fi/) sayesinde yVault'lara para yatırmak son derece kolaydır. %1'den daha az slipajla  Uniswap'ta takas edilebilecek bir token'iniz olduğu sürece, vault token'i kabul edecek, vault için gerekli olana dönüştürecek ve hepsini aynı işlemde yatıracaktır.
 
-When withdrawing, users will be able to zap back into one of the following tokens: 
+Geri çekerken, kullanıcılar aşağıdaki token'lardan birile tekrar takas edebilirler:
 - ETH, WETH, DAI, USDT, USDC, WBTC
 
-## yVault Fee Structure
+## yVault Ücretlendirme Yapısı
 
-|yVault Version|Withdrawal Fee|Performance Fee|Management Fee|
+|yVault Sürümü|Çekme Ücreti|Performans Ücreti|Yönetim Ücreti|
 |--------------|:-----------:|:-------------:|:------------:|
 |v1|0.5%|5%|-|
 |v2|-|20%|2%|
 
-**Withdrawal Fee**: One time fee charged to your balance upon withdrawal. This has been turned off for all vaults and only existed in the v1 iteration.
+**Para Çekme Ücreti**: Çektiğinizde bakiyenize bir kerelik ücret yansıtılır. Bu, tüm vault'lar için kapatıldı ve yalnızca v1 yinelemesinde mevcuttu.
 
-**Performance Fee**: Deducted from yield earned every time a vault harvests a strategy. 
+**Performans Ücreti**: Bir vault bir stratejiyi her hasat ettiğinde kazanılan verimden düşülür.
 
-**Management Fee**: Flat rate taken from vault deposits over a year. The fee is extracted by minting new shares of the vault, thereby diluting vault participants. This is done at the time of harvest, and calculated based off of time since the previous harvest. 
+**Yönetim Ücreti**: Bir yıl boyunca vault mevduatlarından alınan sabit oran. Ücret, vault'un yeni hisselerinin basılmasıyla elde edilir, böylece vault katılımcıları seyreltilir. Bu, hasat zamanında yapılır ve önceki hasattan bu yana geçen süreye göre hesaplanır.
 
-For example, a vault takes about .0055% of deposits per day on average (2 (percent)/365 (days)): 
-- It would dilute vault tokens by 5 * .0055% after 5 days without harvesting
-- It would dilute vault tokens by 7 * .0055% on the next harvest if it had not happened for 7 days
-- Vaults will only harvest if it is profitable after fees so that users won't withdraw less than their deposit
+Örneğin, bir kasa günde ortalama olarak mevduatın yaklaşık %0,0055'ini alır (2 (yüzde)/365 (gün)):
+- Hasat yapıldıktan 5 gün sonra vault token'larını % 5 * .0055 oranında seyreltir
+- 7 gün boyunca gerçekleşmemiş olsaydı, bir sonraki hasatta vault token'larını %7 * .0055 oranında seyreltirdi
+- - Vault'lar, yalnızca ücretlerden sonra kârlıysa hasat eder, böylece kullanıcılar yatırdıkları depozitodan daha azını çekmez
 
-On the [yearn.finance](https://yearn.finance/) user interface, yield is displayed as net APY. This means that both fees and compounding returns are taken into consideration in the rates presented. Since harvests don't occur on a set basis, yield is estimated based off of historical data. For more information, see [How to Understand yVault ROI](https://docs.yearn.finance/resources/guides/how-to-understand-yvault-roi)
+[yearn.finance](https://yearn.finance/) kullanıcı arayüzünde getiri net APY olarak görüntülenir. Bu, sunulan oranlarda hem ücretlerin hem de bileşik getirilerin dikkate alındığı anlamına gelir. Hasatlar belirli bir temelde gerçekleşmediğinden, verim geçmiş verilere dayalı olarak tahmin edilmektedir. Detaylı bilgi için bkz. [yVault YG'yi Anlama](https://docs.yearn.finance/resources/guides/how-to-understand-yvault-roi)
 
-## v2 yVault Improvements
+## v2 yVault İyileştirmeleri
 
-- **Up to 20 strategies per vault:** This will increase the flexibility to manage capital efficiently during different market scenarios. Each strategy has a capital cap. This is useful to avoid over allocating funds to a strategy which cannot increase APY anymore.
-- **Strategist and Guardian are the new Controllers:** The Controller concept is not available in V2 yVaults and has been replaced by a Guardian and the Strategy creator \(strategist\). These 2 actors oversee strategy performance and are empowered to take action to improve capital management or act on critical situations.
-- **Automated vault housekeeping \(Keep3r network\):** `harvest()` and `earn()` calls are now automated through the Keep3r bots network. These 2 function calls are used to purchase new underlying collateral by selling the earned tokens while moving the profits back to the vault and later into strategies. The keep3r network takes the heavy lifting of doing these calls and running with the gas costs in exchange for keep3r tokens. This approach unloads humans from these housekeeping tasks.
-- **Bouncers and Guest lists**: Yearn has created an unique development process for new vaults. All vaults are launched as Test Vaults \(tyvToken\) to start with. Test vaults have a cap and therefore their strategies as well. Also, the Bouncer has a guest list of wallets which can interact by depositing and withdrawing funds in the Test Vaults. This approach prevents uninformed users from potentially losing funds in a not production ready product.
+- **Vault başına 20 stratejiye kadar:** Bu, farklı piyasa senaryolarında sermayeyi verimli bir şekilde yönetme esnekliğini artıracaktır. Her stratejinin bir sermaye sınırı vardır. Bu, artık APY'yi artıramayacak bir stratejiye aşırı fon tahsis etmekten kaçınmak için yararlıdır.
+- **Stratejistler ve Guardian yeni Kontrolörlerdir:** kontrolör konsepti V2 yVaults'ta mevcut değildir ve yerini bir Guardian ve Strateji oluşturucu \(stratejist\) almıştır.
+- Bu 2 aktör, strateji performansını denetler ve sermaye yönetimini iyileştirmek veya kritik durumlarda eyleme geçmek için  harekete geçme yetkisine sahiptir.
+- **Otomatik Vault temizliği \(Keep3r ağı\):** `harvest()` ve `earn()` çağrıları artık Keep3r bot ağı üzerinden otomatik hale getirildi. Bu 2 işlev çağrısı, kazançları kasaya ve daha sonra stratejilere geri taşırken kazanılan token'leri satarak yeni temel teminat satın almak için kullanılır. Keep3r ağı, bu çağrıları yapmanın ve gaz maliyetleriyle birlikte çalışmanın ağır yükünü keep3r token'leri karşılığında alır. Bu tutum, insanları ek işlemlerden kurtarır. 
+- **Koruma ve Davetli listeleri**: Yearn, yeni vault'lar için benzersiz bir geliştirme süreci yarattı. Başlangıç için tüm vault'lar Test vault'ları \(tyvToken\) olarak başlatıldı. Test vault'larının ve dolayısıyla stratejilerinin de bir üst sınırı vardır. Ayrıca, Koruma, Test Vault'larına para yatırarak ve çekerek etkileşimde bulunabilen bir misafir cüzdan listesine sahiptir. Bu tutum, bilgisiz kullanıcıların üretime hazır olmayan bir üründe potansiyel olarak para kaybetmelerini önler.
