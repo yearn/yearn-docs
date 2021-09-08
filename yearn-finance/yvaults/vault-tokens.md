@@ -22,7 +22,7 @@ Once a user's liquidity is withdrawn from the yVault, their yVault Token will be
 | USDC | [USDC](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) | [yvUSDC](https://etherscan.io/token/0x5f18c75abdae578b483e5f43f12a39cf75b973a9) |
 | HEGIC | [HEGIC](https://etherscan.io/token/0x584bC13c7D411c00c01A62e8019472dE68768430) | [HEGIC](https://etherscan.io/token/0x584bC13c7D411c00c01A62e8019472dE68768430) |
 | DAI | [DAI](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) | [yvDAI](https://etherscan.io/token/0xdA816459F1AB5631232FE5e97a05BBBb94970c95) |
-| WBTC | [WBTC](https://etherscan.io/address/0xcb550a6d4c8e3517a939bc79d0c7093eb7cf56b5) | [WBTC yVault](https://etherscan.io/token/0xcb550a6d4c8e3517a939bc79d0c7093eb7cf56b5) |
+| WBTC | [WBTC](https://etherscan.io/token/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599) | [WBTC yVault](https://etherscan.io/token/0xcb550a6d4c8e3517a939bc79d0c7093eb7cf56b5) |
 | USDT | [USDT](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) | [yvUDST](https://etherscan.io/token/0x7Da96a3891Add058AdA2E826306D812C638D87a7) |
 | crvIB | [Curve Iron Bank Pool](https://etherscan.io/token/0x5282a4ef67d9c33135340fb3289cc1711c13638c) | [yCurve-IronBank](https://etherscan.io/token/0x27b7b1ad7288079A66d12350c828D3C00A6F07d7) |
 | crvSETH | [Curve sETH Pool](https://etherscan.io/token/0xa3d87fffce63b53e0d54faa1cc983b7eb0b74a9c) | [yvCurve-sETH](https://etherscan.io/token/0x986b4AFF588a109c09B50A03f42E4110E29D353F) |
