@@ -18,7 +18,7 @@ Once a user's liquidity is withdrawn from the yVault, their yVault Token will be
 | :--- | :--- | :--- | 
 | YFI | [YFI](https://etherscan.io/token/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e) | [yvYFI](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1) |
 | 1INCH | [1INCH](https://etherscan.io/token/0x111111111117dc0aa78b770fa6a738034120c302) | [yv1INCH](https://etherscan.io/token/0xB8C3B7A2A618C552C23B1E4701109a9E756Bab67) |
-| WETH | [WETH](https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2) | [yvWETH](https://etherscan.io/address/0xa258C4606Ca8206D8aA700cE2143D7db854D168c) |
+| WETH | [WETH](https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2) | [yvWETH](https://etherscan.io/token/0xa258C4606Ca8206D8aA700cE2143D7db854D168c) |
 | USDC | [USDC](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) | [yvUSDC](https://etherscan.io/token/0x5f18c75abdae578b483e5f43f12a39cf75b973a9) |
 | HEGIC | [HEGIC](https://etherscan.io/token/0x584bC13c7D411c00c01A62e8019472dE68768430) | [HEGIC](https://etherscan.io/token/0x584bC13c7D411c00c01A62e8019472dE68768430) |
 | DAI | [DAI](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f) | [yvDAI](https://etherscan.io/token/0xdA816459F1AB5631232FE5e97a05BBBb94970c95) |
