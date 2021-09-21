@@ -1,6 +1,6 @@
 # Introducción
 
-Yearn Finance es un grupo de productos financieros dentro de las finanzas descentralizadas o (DeFi) cuyo objetivo es generar rendimiento de capital en plataformas con contratos inteligentes como Ethereum. El protocolo es mantenido por desarrolladores independientes y gobernado por holders del token YFI.
+Yearn Finance es un grupo de productos financieros dentro de las finanzas descentralizadas o DeFi cuyo objetivo es generar rendimiento de capital en plataformas con contratos inteligentes como Ethereum. El protocolo es mantenido por desarrolladores independientes y gobernado por holders del token YFI.
 
 Puedes encontrar una breve descripción de los productos centrales de Yearn, el proceso de gobernanza y los enlaces para los canales de comunicación activos al pie de esta página.
 
