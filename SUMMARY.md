@@ -1,6 +1,7 @@
 # Table of contents
 
 - [Introducción a Yearn](README.md)
+- [Cómo usar Yearn](using-yearn.md)
 - [FAQ](faq.md)
 - [Guías prácticas](how-to-guides/README.md)
   - [Cómo obtener yUSD](how-to-guides/how-to-mint-yusd.md)
