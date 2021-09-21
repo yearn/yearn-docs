@@ -1,40 +1,26 @@
-# Introducción a Yearn
+#Introducción
 
-Esta documentación está en continuo desarrollo por parte de la comunidad de Yearn.
+Yearn Finance es un grupo de productos financieros dentro de las finanzas descentralizadas o (DeFi) cuyo objetivo es generar rendimiento de capital en plataformas con contratos inteligentes como Ethereum. El protocolo es mantenido por desarrolladores independientes y gobernado por holders del token YFI.
 
-Yearn Finance es un conjunto de productos financieros descentralizados \(DeFi\) centrados en crear una forma sencilla de generar rendimientos de riesgo ajustado para los depositantes de diferentes activos a través de los mejores protocolos de préstamos, pools de liquidez y estrategias de yield farming desarrolladas por la comunidad en Ethereum.
+Puedes encontrar una breve descripción de los productos centrales de Yearn, el proceso de gobernanza y los enlaces para los canales de comunicación activos al pie de esta página.
 
-## Productos principales
+##Productos centrales
+###Vaults
 
-### Vaults
+Fondos de liquidez que generan rendimiento de capital basados en oportunidades presentes en el mercado. Las Vaults benefician a los usuarios socializando el coste del gas, automatizando la generación de rendimiento de capital y balanceando el proceso así como moviendo el capital a medida que surgen nuevas oportunidades. El usuario final no necesita tener conocimientos de los protocolos subyacentes involucrados en Defi por lo que las vaults representan una estrategia de inversión pasiva.
 
-- Robots de yield farming desarrollados por la comunidad.
-- Las yVaults siguen una estrategia única que está diseñada para maximizar el rendimiento del activo depositado y minimizar el riesgo.
+###Earn
+El primer producto de Yearn fue un agregador de préstamos. Los fondos cambiaban de dYdX, AAVE, y Compound automáticamente a medida que los ratios de interés cambiaban entre esos protocolos. Los usuarios pueden depositar en estos agregadores de préstamos en contratos inteligentes a través de la página de Yearn de Earn.
 
-### Earn
+##Gobernanza 
+El ecosistema de Yearn está controlado por los holders del token YFI los cuales se someten y votan en las propuestas off-chain que gobiernan el ecosistema. Las propuestas que generan apoyo mayoritario (>50% de los votos) son implementados por la cartera multifirma conformada por 9 miembros. Los cambios deben ser firmados por al menos 6 de los 9 miembros de la cartera multifirma para poder ser implementados. Los miembros de la cartera multifirma han sido elegidos por votación por los holders de YFI y son sujetos a cambio a través de futuros votos de gobernanza. Por favor refiérase a nuestras FAQ para la [lista de miembros de cartera multifirma](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) y más información sobre [nuestro proceso de gobernanza](https://docs.yearn.finance/resources/faq#governance).  
 
-- Money markets dinámicos que maximizan el rendimiento y que son usados como bloques de construcción para yVaults.
-- Earn mueve sus fondos de forma automática entre distintos proveedores de préstamos como dydx, Aave o Compound.
+##Canales de comunicación
 
-### Zap
+[Governance Forum](https://gov.yearn.finance/)
 
-- Es una herramienta que permite a los usuarios intercambiar entre varias monedas estables y una cesta de monedas estables que generan intereses \(yTokens\) o pools \(yCRV\).
-- Ahorra gas entrando o saliendo directamente de las pools de Curve con los activos básicos \(normalmente son monedas estables\).
+[Discord](http://discord.yearn.finance)
 
-### Cover
+[Telegram](https://t.me/yearnfinance)
 
-- yInsure proporciona cobertura contra pérdidas financieras para varios smart contracts y demás productos respaldados por Nexus Mutual.
-
-## Gobernanza
-
-El ecosistema de Yearn está controlado por los holders de tokens YFI que envían y votan las propuestas que gobiernan el ecosistema. Las propuestas que cumplen con los requisitos de quorum \(&gt;20% de los tokens stakeados en el contrato de gobernanza\) y generan un apoyo mayoritario \(&gt;50% del voto\) son implementadas por una billetera multisig formada por 9 miembros. Los cambios deben estar firmados por 6 de los 9 firmantes de billetera multisig para que se implementen. Los miembros de la billetera multisig fueron elegidos por los holders de YFI y están sujetos a cambios en futuras votaciones. Consulta nuestra FAQ para conocer [la lista de firmantes de la multisig](https://docs.yearn.finance/v/spanish/faq#quienes-son-los-9-firmantes-de-la-multisig).
-
-## Involúcrate!
-
-Foro de la gobernanza [https://gov.yearn.finance/](https://gov.yearn.finance/)
-
-Discord [http://discord.yearn.finance](http://discord.yearn.finance)
-
-Telegram [https://t.me/yearnfinance](https://t.me/yearnfinance)
-
-Reddit [https://www.reddit.com/r/yearn_finance/](https://www.reddit.com/r/yearn_finance/)
+[Reddit](https://www.reddit.com/r/yearn_finance/)
