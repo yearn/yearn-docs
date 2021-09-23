@@ -1,20 +1,20 @@
-# Vault Tokens
+# Los tokens de las Vaults
 
-[yVault Tokens](https://docs.yearn.finance/resources/defi-glossary#ytoken) are like a deposit receipt. They represent a user's share of the yVault that they are participating in.
+Los [Tokens de yVaults](https://docs.yearn.finance/resources/defi-glossary#ytoken) son como recibos de participación para los depositos. Representan una participación en la yVault en la que están participando.
 
-**For example**, if you deposit YFI in a yVault you will receive yvYFI in return. yvYFI would be the yVault Token.
+**Por ejemplo**, si depositas YFI en una yVault recibirás yvFYI a cambio. yvFYI será el token del yvault. 
 
-If your yVault generates profit, the share price of your yVault tokens will increase. This happens because there are more underlying tokens in the yVault to redeem upon withdrawal.
+Si tu yVault genera rendimiento, el precio de la participación de tu token del yVault aumentará. Esto pasa porque hay mas cantidad del token subyacente en el yVault a retirar.
 
 ![](https://i.imgur.com/OtK6kAA.png)
 
-*The yvYFI token at [Etherscan](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1#readContract), showing its name, total assets and price per share.*
+*El token yvYFI en [Etherscan](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1#readContract), muestra su nombre, total de activos y precio por participación.*
 
-Once a user's liquidity is withdrawn from the yVault, their yVault Token will be burned. yVault Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transferred and traded as any other common Ethereum token.
+Una vez un usuario retira su liquidez de la yVault su token de la yVault es quemado. Los tokens de la yVault son [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), lo que significa que pueden ser tansferidos e intercambiados como cualquier otro token en la red de ETH.
 
-## V2 yVault Tokens
+## Tokens de yVault v2
 
-| Vault | Input Token | Output Token | 
+| Vault | Token entrada | Token salida | 
 | :--- | :--- | :--- | 
 | YFI | [YFI](https://etherscan.io/token/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e) | [yvYFI](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1) |
 | 1INCH | [1INCH](https://etherscan.io/token/0x111111111117dc0aa78b770fa6a738034120c302) | [yv1INCH](https://etherscan.io/token/0xB8C3B7A2A618C552C23B1E4701109a9E756Bab67) |
@@ -38,9 +38,9 @@ Once a user's liquidity is withdrawn from the yVault, their yVault Token will be
 | crvBBTC | [Curve BBTC Pool yVault](https://etherscan.io/address/0x8fA3A9ecd9EFb07A8CE90A6eb014CF3c0E3B32Ef) | [yvCurve-BBTC](https://etherscan.io/token/0x8fA3A9ecd9EFb07A8CE90A6eb014CF3c0E3B32Ef) | 
 | yvBOOST | [Yearn Compounding veCRV yVault](https://etherscan.io/address/0x9d409a0A012CFbA9B15F6D4B36Ac57A46966Ab9a) | [yvBOOST](https://etherscan.io/token/0x9d409a0A012CFbA9B15F6D4B36Ac57A46966Ab9a) | 
 
-## V1 yVault Tokens
+## Tokens de la yVault v1
 
-| Vault | Input Token | Output Token |
+| Vault | Token entrada | Token salida |
 | :--- | :--- | :--- |
 | crvLINK | [linkCRV](https://etherscan.io/token/0xcee60cfa923170e4f8204ae08b4fa6a3f5656f3a) | [yvlinkCRV](https://etherscan.io/token/0x96Ea6AF74Af09522fCB4c28C269C26F59a31ced6) |
 | crvUSDP | [usdp3CRV](https://etherscan.io/token/0x7Eb40E450b9655f4B3cC4259BCC731c63ff55ae6) | [yvusdp3CRV](https://etherscan.io/token/0x1B5eb1173D2Bf770e50F10410C9a96F7a8eB6e75) |
