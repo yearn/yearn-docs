@@ -1,41 +1,41 @@
-# Overview
+# Visión general
 
-## What are yVaults?
+## ¿Qué son las yVaults?
 
-[yVaults](https://yearn.finance/vaults) are like savings accounts for your crypto assets. They accept your deposit, then route it through a strategies which seek out the highest yield available in DeFi. 
+Las [yVaults](https://yearn.finance/vaults) son como cuentas de ahorros para cripto-activos. Aceptan depósitos los cuales están expuestos a estrategias que buscan la mayor rentabilidad disponible en DeFI.
 
 ![](https://i.imgur.com/yXnJqsn.png)
 
-## Zap in with any asset 
+## Deposita cualquier activo
 
-Thanks to [Zapper](https://zapper.fi/), yVaults are extremely easy to deposit into. As long as you hold a token that can be swapped on Uniswap with less than 1% slippage, the vault will accept the token, convert it into what's required for the vault, and deposit all in the same transaction.
+Gracias a [Zapper](https://zapper.fi/), es muy fácil depositar en las yVaults siempre y cuando tengas un token que puedas intercambiar (hacer Zap) en Uniswap con menos de 1% de deslizamiento. La vault acepta el token, lo convierte en el token requerido por la misma y lo deposita, todo en la misma transacción. 
 
-When withdrawing, users will be able to zap back into one of the following tokens: 
+Cuando retiras, puedes hacer Zap de vuelta a uno de los siguientes tokens: 
 - ETH, WETH, DAI, USDT, USDC, WBTC
 
-## yVault Fee Structure
+## Structura de comision de la yVault
 
-|yVault Version|Withdrawal Fee|Performance Fee|Management Fee|
+|Versión de yVault|Comisión de retiro|Comisión de desempeño|Comisión de gestión|
 |--------------|:-----------:|:-------------:|:------------:|
 |v1|0.5%|5%|-|
 |v2|-|20%|2%|
 
-**Withdrawal Fee**: One time fee charged to your balance upon withdrawal. This has been turned off for all vaults and only existed in the v1 iteration.
+**Comisión de retiro**: Comisión única cobrada de tu balance en el momento del retiro. Esto fue eliminado de todas las vaults y solo existió en la iteración V1.
 
-**Performance Fee**: Deducted from yield earned every time a vault harvests a strategy. 
+**Comisión de desempeño**: Deducida del rendimiento obtenido cada vez que la vault obtiene el rendimiento (harvests) de la estrategia.
 
-**Management Fee**: Flat rate taken from vault deposits over a year. The fee is extracted by minting new shares of the vault, thereby diluting vault participants. This is done at the time of harvest, and calculated based off of time since the previous harvest. 
+**Comisión de gestión**: Tarifa fija cobrada de los depósitos de la vault en el transcurso de 1 año. Se obtiene creando nuevas acciones de la vault lo que hace que se diluyan los participantes de la misma. Esto se realiza al momento de cosechar los rendimientos de la misma (harvest) y se calcula con base en el tiempo desde la cosecha anterior.
 
-For example, a vault takes about .0055% of deposits per day on average (2 (percent)/365 (days)): 
-- It would dilute vault tokens by 5 * .0055% after 5 days without harvesting
-- It would dilute vault tokens by 7 * .0055% on the next harvest if it had not happened for 7 days
-- Vaults will only harvest if it is profitable after fees so that users won't withdraw less than their deposit
+Por ejemplo, si una vault toma aproximadamente .0055% de los depósitos diarios de media (2 (percent)/365 (days)): 
+- Diluirá los tokens de la vault entre 5 por .0055% después de 5 días sin cosecha.
+- Diluirá los tokens de la vault entre 7 por .0055% después de 7 días sin cosecha.
+- Las vaults solo serán cosechadas si es rentable después de las comisiones para que el usuario no retire menos de lo depositado.
 
-On the [yearn.finance](https://yearn.finance/) user interface, yield is displayed as net APY. This means that both fees and compounding returns are taken into consideration in the rates presented. Since harvests don't occur on a set basis, yield is estimated based off of historical data. For more information, see [How to Understand yVault ROI](https://docs.yearn.finance/resources/guides/how-to-understand-yvault-roi)
+En la interfaz de [yearn.finance](https://yearn.finance/), la rentabilidad se muestra como APY (porcentaje de rentabilidad anual) neto. Esto quiere decir que tanto las comisiones como los retornos compuestos son tomados en consideración en los ratios presentados. Como las cosechas no ocurren en un momento establecido, la rentabilidad es estimada basada en data histórica. Para mas información, ver [Cómo entender el ROI de las yVault](https://docs.yearn.finance/resources/guides/how-to-understand-yvault-roi)
 
-## v2 yVault Improvements
+## Mejoras de las yVault v2
 
-- **Up to 20 strategies per vault:** This will increase the flexibility to manage capital efficiently during different market scenarios. Each strategy has a capital cap. This is useful to avoid over allocating funds to a strategy which cannot increase APY anymore.
-- **Strategist and Guardian are the new Controllers:** The Controller concept is not available in V2 yVaults and has been replaced by a Guardian and the Strategy creator \(strategist\). These 2 actors oversee strategy performance and are empowered to take action to improve capital management or act on critical situations.
-- **Automated vault housekeeping \(Keep3r network\):** `harvest()` and `earn()` calls are now automated through the Keep3r bots network. These 2 function calls are used to purchase new underlying collateral by selling the earned tokens while moving the profits back to the vault and later into strategies. The keep3r network takes the heavy lifting of doing these calls and running with the gas costs in exchange for keep3r tokens. This approach unloads humans from these housekeeping tasks.
-- **Bouncers and Guest lists**: Yearn has created an unique development process for new vaults. All vaults are launched as Test Vaults \(tyvToken\) to start with. Test vaults have a cap and therefore their strategies as well. Also, the Bouncer has a guest list of wallets which can interact by depositing and withdrawing funds in the Test Vaults. This approach prevents uninformed users from potentially losing funds in a not production ready product.
+- **Hasta 20 estrategias por vault:** Esto aumenta la flexibilidad de manejo de capital de forma eficiente durante los diferentes escenarios de mercado. Cada estrategia tiene un máximo de capital. Esto es útil para evitar la sobre localización de fondos a una estrategia que no pueda aumentar más el APY. 
+- **Estrategas y guardianes son los nuevos controllers:** El concepto de controller no está disponible en vaults v2 y han sido reemplazados por Guardian y el creador de la estrategia (Estratega). Estos dos actores pueden supervisar el desempeño de la estrategia y tienen el poder de tomar acciones para mejorar la gestión del capital o actuar en una situación crítica.
+- **Mantenimiento de vault automatizado \(red de Keep3r\):** Las funciones de `cosechar()` y `ganar()` son automatizadas a través de bots de la red de Keep3r. Estas 2 funciones son utilizadas para comprar nuevos colaterales subyacentes vendiendo los tokens ganados y moviendo las ganancias a las vaults y a su vez a las distintas estrategias. La red de Keep3r se encarga del difícil trabajo de ejecutar estas funciones y cubre el coste del gas a cambio de tokens de Keep3r. Este enfoque elimina a los humanos del proceso de mantenimiento de la vault.
+- **Seguridad y lista de invitados**Yearn ha creado un proceso de desarrollo único para nuevas vaults. Todas las nuevas Vaults son lanzadas como vaults de prueba \(tyvToken\) para empezar. Estas vaults de prueba y sus estrategias tienen un techo. Además el seguridad tiene una lista de carteras de permitidas (lista de invitados) con las que puede interactuar, depositando y retirando fondos de las mismas.Este enfoque previene a usuarios desinformados de potenciales pérdidas de fondos en un producto que no está listo para producción.
