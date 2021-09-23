@@ -4,7 +4,7 @@ Gracias a la función llamada "Zap", es muy fácil depositar en cualquier vault 
 
 Así es como funciona:
 
-Primero, conecta tu cartera usando el botón de la esquina superior derecha. Hay múltiples carteras soportadas, pero la más utilizada es [Metamask](https://metamask.io/), cuya extensión de Chrome puedes descargar gratuitamente o a través de las tiendas de aplicaciones de Android y Apple. Asegurate de que la cartera está conectada a la red de Ethereum.
+Primero, **conecta tu cartera** usando el botón de la esquina superior derecha. Hay múltiples carteras soportadas, pero la más utilizada es [Metamask](https://metamask.io/), cuya extensión de Chrome puedes descargar gratuitamente o a través de las tiendas de aplicaciones de Android y Apple. Asegurate de que la cartera está conectada a la red de Ethereum.
 
 <p align="center">
   <img width="1266.75" height="345.75" src="https://i.imgur.com/H0Uc8e8.png">
