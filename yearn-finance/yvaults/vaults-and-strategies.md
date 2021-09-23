@@ -1,7 +1,7 @@
-# Vaults and Strategies 
+# Vaults y sus estrategias
 
-After depositing, your funds first go to the vault contract and then are deployed to one or more strategy contracts. Guardians and strategists monitor deposits in order ensure optimal returns and to be available during critical situations. 
+Después de depositar, sus fondos van primero al contrato de la vault para luego ser desplegados en uno o más contratos de estrategias. Guardianes y estrategas monitorean los depósitos de manera de asegurar el retorno óptimo y para estar disponibles en caso de situaciones críticas.
  
-**Vault and strategy descriptions:** [The Vaults at Yearn](https://medium.com/yearn-state-of-the-vaults/the-vaults-at-yearn-9237905ffed3)
-
-**Vault and strategy contracts:** [Yearn Watch](https://yearn.watch/)
+ **Descripciones de Vaults y estrategias:** [Las vaults de Yearn](https://medium.com/yearn-state-of-the-vaults/the-vaults-at-yearn-9237905ffed3)
+ 
+**Contratos de vaults y estrategias:** [Yearn Watch](https://yearn.watch/)
