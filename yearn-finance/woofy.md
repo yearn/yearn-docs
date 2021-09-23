@@ -5,13 +5,11 @@ WOOFYは、2つの問題を解決します。YFIが犬をテーマにしてい�
 
 **1 YFI = 1,000,000 WOOFY**. YFIとWOOFYは、「WOOFYコントラクト」（https://etherscan.io/address/0xd0660cd418a64a1d44e9214ad8e459324d8157f1#code）または「Woofyウェブサイト」（https://woofy.finance/）により、常にその固定レートで交換することができます。
 
-
 ## WoofとUnwoofについて
 
 ![](https://i.imgur.com/HqfCYZX.png)
 
 [WOOFY](https://etherscan.io/address/0xd0660cd418a64a1d44e9214ad8e459324d8157f1)は、[Woofyウェブサイト](https://woofy.finance/)にYFIを入金することで創造（"woofed"）できます。また、いつでも同額のYFIに償還（"unwoofed"）することができます。
-
 
 #### YFIをWOOFYに変換
 
