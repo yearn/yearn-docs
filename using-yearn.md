@@ -1,4 +1,4 @@
-# Como usar Yearn
+# ¿Cómo usar Yearn?
 
 Gracias a la función llamada "Zap", es muy fácil depositar en cualquier vault con gran variedad de tokens.
 
@@ -58,7 +58,7 @@ Por ejemplo, si prefieres depositar en la vault de crvSTETH y no en la vault de 
 
 Por suerte, debido al "zap" de Yearn, todo esto puede realizarse en la misma transacción en el momento del depósito. Así es como funciona usando la vault crvSTETH como ejemplo : 
 
-**NOTE:** Hacer "zap" para poder depositar en la vault requerirá más transacciones que depositar simplemente el token requerido. Esto significa que pagarás más gas y potencialmente perderás valor cuando el token se intercambie o deposite en el fondo de liquidez.
+**NOTA:** Hacer "zap" para poder depositar en la vault requerirá más transacciones que depositar simplemente el token requerido. Esto significa que pagarás más gas y potencialmente perderás valor cuando el token se intercambie o deposite en el fondo de liquidez. Yearn limita el deslizamiento a 1% y la transferencia fallará si excede ese porcentaje, en ese caso deberá intercambiar o depositar los tokens manualmente. Ver nuestra sección de [zap](https://docs.yearn.finance/yearn-finance/yvaults/overview#zap-in-with-any-asset) para mas detalles. 
 
 1\. Selecciona el vault crvSTETH.
 
