@@ -38,7 +38,6 @@ Yearnのエコシステムは、YFIトークン保有者がエコシステムを
 
 提案のデフォルトテンプレートは[Github](https://github.com/yearn/YIPS/blob/master/yip-X.md)と[フォーラム](https://gov.yearn.finance)にあります。提案や議論に投稿すると、テンプレートが自動入力されます。
 
-
 **資料**:
 - [提案の方法](https://gov.yearn.finance/t/proposal-how-to/106)
 - [YIP 0: YIPの目的とガイドライン](https://yips.yearn.finance/YIPS/yip-0)
