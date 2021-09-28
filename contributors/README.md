@@ -50,7 +50,7 @@ If you are interested in working on a specific project, check out the list of Ye
 
 If you want an overview on how our services interact with one another in Vaults, please see the schema and accompanying descriptions in the [Vaults Overview](https://docs.yearn.finance/yearn-finance/yvaults/overview).
 
-If you're wondering how **strategies** work, please check out [ETHOnline 🛠️ Yearn Strats 101](https://www.youtube.com/watch?v=4gwZk-IaMRs) — hosted by our Yearn Devs. To start writing a Strategy of your own, please visit the [Yearn Starter Pack Repo](https://github.com/yearn/yearn-starter-pack).
+If you're wondering how **strategies** work, please check out [Yearn Vaults v2 intro](https://www.youtube.com/watch?v=C0fsYiCI54g) — hosted by our Yearn Devs. To start writing a Strategy of your own, please visit the [Yearn Brownie Mix](https://github.com/yearn/brownie-strategy-mix).
 
 If you are looking to integrate with Yearn, please visit our [Integration Guide](https://docs.yearn.finance/developers/integration-guide) and check out our [Interface Documentation](https://docs.yearn.finance/developers/misc-resources/smart-contract-integration).
 
@@ -66,11 +66,11 @@ See our wonderful list of contributors along with individual contribution stats 
 
 ##### Workshop
 
-The best introduction to V2 is the workshop did by Doug (https://github.com/dougstorm/). Even its focused on security, it's a great introduction to Vaults V2.
+The best introduction to V2 is the workshop done for Gitcoin Kernel Sessions. Even its focused on security, it's a great introduction to Vaults V2.
 
 - [Video](https://www.youtube.com/watch?v=C0fsYiCI54g)
-- [Slides](https://docs.google.com/presentation/d/1NsePa_hXV1vsbMixTSRsPKYBHYvmVQf7IvpI_8k4p_k/edit#slide=id.p)
-- [Repository](https://github.com/dougstorm/yearn-vaults-v2-intro/tree/feat/kernel-session)
+- [Slides](https://docs.google.com/presentation/d/1pFaeWGWXTJcp1-zBdXDzHx4HHWI_MqlFF2PCJenYts4/edit?usp=sharing)
+- [Repository](https://github.com/storming0x/yearn-vaults-v2-intro/tree/feat/kernel-session)
 
 ##### Start coding
 
@@ -110,6 +110,7 @@ This is complement to the others but it's not directly related to creating strat
 
 #### List of Yearn Tools
 
+- [Yearn Watch](https://yearn.watch/), [Github](https://github.com/yearn/yearn-watch)
 - Yearn Discord FAQ Bot, [Github](https://github.com/dgornjakovic/yfi-faq-bot)
 - [Yearn Party](https://yearn.party/), [Github](https://github.com/x48-crypto/yearn-party)
 - [Yearn Tools (Based off Yearn API)](https://yearn.tools/), [Github](https://github.com/yearn-integrations/api)
