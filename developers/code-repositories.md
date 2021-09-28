@@ -45,6 +45,7 @@ Yearn smart contracts repo: [https://github.com/yearn/yearn-protocol](https://gi
 
 - [Yearn Strategy Brownie Mix](https://github.com/yearn/brownie-strategy-mix)
 - [Yearn Affiliate Wrapper Brownie Mix](https://github.com/yearn/brownie-wrapper-mix)
+- [Yearn Watch](https://github.com/yearn/yearn-watch)
 - [Ape Safe: Gnosis Safe TX builder](https://github.com/banteg/ape-safe)
 - [Yearn SDK](https://github.com/yearn/yearn-sdk)
 - [Yearn Exporter](https://github.com/yearn/yearn-exporter)
