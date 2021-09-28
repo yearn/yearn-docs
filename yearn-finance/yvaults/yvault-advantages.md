@@ -1,52 +1,51 @@
-# How Yearn increases your yield 
+# Así es como Yearn aumenta tu rendimiento
 
-Almost everything that yVaults interact with is available to the public. So how is Yearn able to offer users better yield than they'd be able to achieve on their own? 
+Casi todo con lo que la yVault interactúa está disponible para el público. ¿Como Yearn consigue mejores rendimientos de los que podrían conseguir por sí mismos?
 
-## Curve Finance Synergy 
+## Sinergia con Curve Finance
 
-Many of Yearn's strategies utilize Curve Finance's liquidity mining program. [Curve Finance](https://curve.fi/) has a 300 year token distribution program for those who provide liquidity for their low slippage decentralized exchange.
+Muchas de las estrategias de Yearn utilizan la liquidez del programa de minería de Curve Finance. [Curve Finance](https://curve.fi/) tiene un programa de distribución de tokens por 300 años a quienes proveen liquidez para su casa de cambio descentralizada con bajo deslizamiento (diferencia entre el precio esperado y el precio del intercambio ejecutado).
 
-### veCRV Boosts 
+### Incremento de rentabilidad con veCRV 
 
-CRV is distributed continuously to users who stake certain liquidity provider tokens in Curve's [gauge](https://resources.curve.fi/base-features/understanding-gauges). Those CRV rewards can be increased when the user locks up their CRV in the [Locker](https://dao.curve.fi/locker). This locker gives the staker veCRV in return, which bears the right to vote in governance and to claim a portion of the protocol's fees. 
+CRV es distribuido continuamente a usuarios que hacen staking de ciertos tokens de liquidez en el [Indicador de Curve](https://resources.curve.fi/base-features/understanding-gauges). Esas recompensas pueden incrementarse cuando el usuario bloquea su CRV en el ["Locker"](https://dao.curve.fi/locker). Dicho "Locker" da a el usuario el token veCRV que a su vez le otorga derecho de voto en la gobernanza del proyecto y el derecho de obtener una parte de la tarifa que cobra el protocolo. 
 
-Locking CRV allows users to boost the CRV rewards they are receiving when providing liquidity in eligible pools. The amount of the boost is determined by how much CRV was locked and their relative stake in the pool. 
+Bloquear CRV permite a los usuarios incrementar las recompensas en CRV que reciben cuando proveen liquidez en fondos de liquidez seleccionados. La cantidad de del incremento viene determinada por que tanto CRV fue bloqueado y el porcentaje que representa del total del fondo de liquidez.
 
 ![](https://i.imgur.com/QaMMdr7.png)
 
-Using the Backscratcher yVault, Yearn locks up a significant amount of CRV indefinitely, and distributes the boosts to various yVaults.  
+Usando el yVault llamado "Backscratcher", Yearn bloquea una cantidad significativa de CRV de forma indefinida y distribuye el incremento de rentabilidad entre varias yVaults. 
 
-### Backscratcher yVault
+###  yVault "Backscratcher"
 
-The Backscratcher yVault capitalizes on liquidity mining in a way that's beneficial to both Curve and Yearn. 
+La yVault "Backscratcher" capitaliza la liquidez de minado beneficiando a Yearn y a Curve.
 
-Users deposit CRV into the yVault which is locked infinitely. In return they receive a token that represents a share of the Backscratcher pool. Revenue earned from the curve through curve fee sharing is distributed in the Backscratcher pool and can be redeemed by depositors on a weekly basis. 
+Los usuarios depositan CRV en la yVault la cual es bloqueada para siempre. Obtienen en retorno tokens que representan una participación de la mencionada yVault "Backscratcher". El rendimiento obtenido por las tarifas compartidas por Curve, son distribuidas en la yVault y pueden ser reclamadas por los usuarios semanalmente.
 
-Additionally, 10% of all CRV earned by Yearn Finance is deposited into Backscratcher and locked infinitely. Because of this, people who want to stake CRV will always receive a higher share of the Backscratcher yVault's revenue than staking directly through Curve. They also can earn emissions of tokens like SUSHI and PICKLE for providing liquidity. 
+Adicionalmente, el 10% de todo el CRV obtenido por Yearn Finance es depositado en la yVault "Backscratcher" y bloqueado para siempre. Debido a esto las personas que quieran hacer stake de CRV recibirán siempre una participación mayor en el rendimiento de la yVault "Backscratcher" que si hicieran directamente staking in Curve. Además podrán ganar emisiones de los tokens Pickle y Sushi por proveer liquidez.
 
 ![](https://i.imgur.com/UfCikwk.png)
 
-Users will never be able to withdraw their original CRV, but because of the incentives on yveCRV liquidity and the value that the token accrues from various sources of revenue, they will be able to swap it for another asset for some price. 
+Los usuarios nunca podrán retirar el CRV originalmente depositado, pero debido a los incentivos en los fondos de liquidez yveCRV y el valor acumulado del token por las distintas fuentes de ingresos, podrán intercambiarlos por otros activos.
 
-In return, control over the locked CRV's boosts is given to Yearn, and utilized throughout various yVaults. 
+Yearn obtiene control sobre los incrementos de rentabilidad de los CRV bloqueados y los utiliza a través de varias yVaults.
 
-## Auto-compounding yield 
+## Rendimiento compuesto automático
 
-Compounding yield requires transaction fees to be paid to the Ethereum blockchain. This can be expensive and cut into returns. 
+Generar rendimiento compuesto requiere de costes de transacción a ser pagados en la red de Ethereum, estos pueden ser costosos y llevarse parte del retorno.
 
-Because yVaults batch your transaction with many other depositors, it is cumulatively lower cost and higher return to earn yield using the vaults. Currently, gas costs are covered by the Keep3r network, meaning that users are compounding returns while bearing no cost. 
+Debido a que las yVaults unen muchas transacciones de otros muchos otros depositantes, consiguen un coste de transacciones menor y por lo tanto un rendimiento mayor al utilizar las yVaults. Actualmente el coste del gas de las transacciones lo cubre la red Keep3r, lo que significa que los usuarios se benefician del rendimiento compuesto sin coste.
 
-## Leverage 
+## Apalancamiento
 
-Yearn utilizes the Iron Bank (C.R.E.A.M. Finance) to access credit that is used to enhance yVault yields. Only white-listed addresses have this feature available to them, meaning that typically, individuals are not able to do this on their own. 
+Yearn utiliza el banco de hierro (C.R.E.A.M. Finance) para acceder a crédito el cual es utilizado para mejorar los rendimientos de las yVaults).Solo carteras previamente autorizadas tienen esta funcionalidad habilitada, lo que significa que habitualmente los individuos no tienen la posibilidad de hacer esto por su cuenta.
 
-Some strategies also implement [flash loans](https://docs.yearn.finance/resources/defi-glossary#flash-loan), which is typically a back-end service that requires development experience to take advantage of. 
+Algunas estrategias implementan tambien [prestamos Flash](https://docs.yearn.finance/resources/defi-glossary#flash-loan), los cuales habitualmente requieren de experiencia en desarrollo informático para poderlas aprovechar ya que son un servicio habilitado desde el back end.
 
-## Partnerships
+## Colaboraciones
 
-The Backscratcher yVault is only possible due to synergistic relationships with protocols like Curve, SushiSwap and Pickle Finance. Our relationships across DeFi allow yVault depositors benefits that they cannot get elsewhere. 
+La yVaults "Backscratcher" solo es posible debido a las sinergias y relaciones entre Yearn y protocolos como Curve, Sushiswap y Pickle finance. Nuestras relaciones a través de Defi permiten que las yVaults obtengan beneficios que en otro sitio no serían posibles.
 
-Yearn actively collaborates on development with protocols like the ones mentioned in order to create new opportunities for yield and further DeFi as an industry. 
-
+Yearn colabora de forma activa en el desarrollo con protocolos como los mencionados para poder crear nuevas oportunidades para generar rendimiento de capital y hacer crecer Defi como la industria en la cual se ha convertido.
 
 
