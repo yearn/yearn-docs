@@ -1,6 +1,6 @@
 # How to contribute to docs
 
-**IF YOU HAVE ANY QUESTIONS** post in the #documentation channel on [discord](https://discord.gg/vqhqQT7s)
+**IF YOU HAVE ANY QUESTIONS** post in the #documentation channel on [discord](https://discord.gg/freT6YRNSX)
 
 Yearn's documentation repository is hosted on GitHub in order to foster and encourage open source collaboration. 
 
