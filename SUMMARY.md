@@ -42,15 +42,14 @@
   - [How to Understand yVault ROI](resources/guides/how-to-understand-yvault-roi.md)
   - [How to Understand yveCRV](resources/guides/how-to-understand-yvecrv.md)
 - [Risks](resources/risks/README.md)
-    - [Protocol Risks](resources/risks/protocol-risks.md)
-    - [Strategy Risks](resources/risks/strategy-risks.md)
-    - [Vault Risks](resources/risks/vault-risks.md)
+  - [Protocol Risks](resources/risks/protocol-risks.md)
+  - [Strategy Risks](resources/risks/strategy-risks.md)
+  - [Vault Risks](resources/risks/vault-risks.md)
 - [Links](resources/links.md)
 - [Security Audits](resources/audits.md)
 - [Financials](resources/financials.md)
 - [FAQ](resources/faq.md)
 - [DeFi Glossary](resources/defi-glossary.md)
-
 
 ## Developers
 

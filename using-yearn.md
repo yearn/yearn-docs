@@ -1,20 +1,20 @@
-# Using Yearn       
+# Using Yearn
 
-Thanks to a feature called 'zap', it's extremely easy to deposit into any vault with almost any token. 
+Thanks to a feature called 'zap', it's extremely easy to deposit into any vault with almost any token.
 
-Here's how it works: 
+Here's how it works:
 
-First, **Connect your wallet** using the button at the top right corner. Multiple types of wallets are supported, but most people use [MetaMask](https://metamask.io/), which can be downloaded for free as a Chrome extension or through the Apple and Android app stores. Make sure that your wallet is connected to the Ethereum network. 
+First, **Connect your wallet** using the button at the top right corner. Multiple types of wallets are supported, but most people use [MetaMask](https://metamask.io/), which can be downloaded for free as a Chrome extension or through the Apple and Android app stores. Make sure that your wallet is connected to the Ethereum network.
 
 <p align="center">
   <img width="1266.75" height="345.75" src="https://i.imgur.com/H0Uc8e8.png">
 </p>
 
-## If you **already have the required token** for the vault that you would like to deposit in: 
+## If you **already have the required token** for the vault that you would like to deposit in:
 
 1\. Select the vault that you would like to deposit into.
 
-2\. Enter the amount of tokens you want to deposit into the vault. If you are depositing ETH, make sure you have enough ETH left over to pay for future transactions that you might need to make. 
+2\. Enter the amount of tokens you want to deposit into the vault. If you are depositing ETH, make sure you have enough ETH left over to pay for future transactions that you might need to make.
 
 <p align="center">
   <img width="914.26" height="360.75" src="https://i.imgur.com/LGdRAMQ.png">
@@ -34,7 +34,7 @@ First, **Connect your wallet** using the button at the top right corner. Multipl
   <img width="928.5" height="93.75" src="https://i.imgur.com/JvNQ3l2.png">
 </p>
 
-When you're ready to withdraw: 
+When you're ready to withdraw:
 
 1\. Select the vault that you would like to withdraw from.
 
@@ -52,9 +52,9 @@ When you're ready to withdraw:
 
 ## If you **don't have the required token** for the vault that you would like to deposit in:
 
-This can be a common occurrence, because many of Yearn's vaults generate yield by using [Curve Finance](http://curve.finance/) liquidity provider (LP) tokens, which are acquired through depositing into a Curve pool. 
+This can be a common occurrence, because many of Yearn's vaults generate yield by using [Curve Finance](http://curve.finance/) liquidity provider (LP) tokens, which are acquired through depositing into a Curve pool.
 
-So for instance, if you would rather deposit into the crvSTETH vault instead of the ETH vault, and accept the additional risk that comes with the curve pool and an ETH derivative (stETH) in return for higher yield, but you only have ETH in your wallet, your ETH will need to be converted to a crvSTETH token before it is accepted in the vault. 
+So for instance, if you would rather deposit into the crvSTETH vault instead of the ETH vault, and accept the additional risk that comes with the curve pool and an ETH derivative (stETH) in return for higher yield, but you only have ETH in your wallet, your ETH will need to be converted to a crvSTETH token before it is accepted in the vault.
 
 Thankfully, due to Yearn's 'zap' feature, this can all be done in the same transaction as your deposit. Here's how it works using the crvSTETH vault as an example:
 
@@ -70,13 +70,13 @@ Thankfully, due to Yearn's 'zap' feature, this can all be done in the same trans
   <img width="909" height="363" src="https://i.imgur.com/6K1luO7.png">
 </p>
 
-4\. Enter the amount of tokens you would like to deposit and click 'Approve' or 'Deposit' depending on whether or not you have previously approved the token. 
+4\. Enter the amount of tokens you would like to deposit and click 'Approve' or 'Deposit' depending on whether or not you have previously approved the token.
 
 5\. Confirm the transaction through your wallet. See step 4 in the section above for more details.
 
 6\. When your transaction succeeds, you will see your deposited balance in the vault's interface, which should appear at the top of the vault list.
 
-When you're ready to withdraw: 
+When you're ready to withdraw:
 
 1\. Select the crvSTETH vault.
 
@@ -94,11 +94,11 @@ When you're ready to withdraw:
 
 6\. When your transaction succeeds, the tokens will show up in your wallet again.
 
-## Tools to track your funds 
+## Tools to track your funds
 
-If you would like to see how your USD balance changes while your assets are in a vault, connect your wallet to [zapper.fi](https://zapper.fi) or a similar portfolio tracking product.This is also the easiest way to tell how much profit the vault has made for you. 
+If you would like to see how your USD balance changes while your assets are in a vault, connect your wallet to [zapper.fi](https://zapper.fi) or a similar portfolio tracking product.This is also the easiest way to tell how much profit the vault has made for you.
 
-Your balance WILL NOT increase continuously. Profit will be distributed to your share of the vault when the harvest() function is called, which happens on a fluctuating basis. 
+Your balance WILL NOT increase continuously. Profit will be distributed to your share of the vault when the harvest() function is called, which happens on a fluctuating basis.
 
 Community resources to monitor your returns:
 
