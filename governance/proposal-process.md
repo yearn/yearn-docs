@@ -51,11 +51,11 @@ Yearnのエコシステムは、YFIトークン保有者がエコシステムを
 - 以下の場所でYFIを保有またはステーキングすることで、Yearnの[スナップショット](https://snapshot.page/#/yearn)ページへの投票が可能になります。:
 	- 自分のウォレット
 	- YFI yVault V2 (yvYFIトークンを持っているのと同じ状態)
-	- Balancer YFI/WETH LP token
-	- Uniswap YFI/WETH LP token
-	- Sushiswap YFI/WETH LP token staked in MasterChef
-	- MakerDAO YFI collateral
-	- Unit Protocol YFI collateral
+	- BalancerのYFI/WETH LPトークン
+	- UniswapのYFI/WETH LPトークン
+	- SushiswapのMasterChefにステークされているYFI/WETH LPトークン
+	- MakerDAOのYFI担保
+	- Unit ProtocolのYFI担保
 	- Bancor
 
 ## フォーラムでの投票とオフチェーンでの投票の違い
