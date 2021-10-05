@@ -1,22 +1,22 @@
-# Vault Tokens
+# Vault Token'leri
 
-[yVault Tokens](https://docs.yearn.finance/resources/defi-glossary#ytoken) are like a deposit receipt. They represent a user's share of the yVault that they are participating in.
+[yVault Token'leri](https://docs.yearn.finance/resources/defi-glossary#ytoken) depozito makbuzu gibidir. Bir kullanıcının katıldığı yVault payını temsil ederler.
 
-**For example**, if you deposit YFI in a yVault you will receive yvYFI in return. yvYFI would be the yVault Token.
+** Örnek olarak**, YFI'yi bir yVault'a yatırırsanız, karşılığında yFI alırsınız. yFI, yVault Simgesi token'i olacaktır.
 
-If your yVault generates profit, the share price of your yVault tokens will increase. This happens because there are more underlying tokens in the yVault to redeem upon withdrawal.
+yVault'unuz kar sağlıyorsa, yVault token'lerinizin hisse fiyatı artacaktır. Bunun nedeni, yVault'da para çekme sırasında kullanılacak daha fazla temel token'in bulunmasıdır.
 
 ![](https://i.imgur.com/OtK6kAA.png)
 
-*The yvYFI token at [Etherscan](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1#readContract), showing its name, total assets and price per share.*
+*yvYFI token [Etherscan](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1#readContract)'da, adını, toplam varlık miktarını ve hisse başına düşen  fiyat gösterir.*
 
-Once a user's liquidity is withdrawn from the yVault, their yVault Token will be burned. yVault Tokens are [ERC20](https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/), meaning they can be transferred and traded as any other common Ethereum token.
+Bir kullanıcının Vault'dan likiditesi çekildikten sonra, Vault Token'i yakılacaktır. yVault Token'lerı ERC20'dir, yani başka herhangi bir bilinen Ethereum token'i gibi aktarılabilir ve takas edilebilir.
 
-## V2 yVault Tokens
+## V2 yVault Token'leri
 
-| Vault | Input Token | Output Token | 
+| Vault | Token Girdisi | Token Çıktısı | 
 | :--- | :--- | :--- | 
-| YFI | [YFI](https://etherscan.io/token/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e) | [yvYFI](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1) |
+ YFI | [YFI](https://etherscan.io/token/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e) | [yvYFI](https://etherscan.io/token/0xE14d13d8B3b85aF791b2AADD661cDBd5E6097Db1) |
 | 1INCH | [1INCH](https://etherscan.io/token/0x111111111117dc0aa78b770fa6a738034120c302) | [yv1INCH](https://etherscan.io/token/0xB8C3B7A2A618C552C23B1E4701109a9E756Bab67) |
 | WETH | [WETH](https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2) | [yvWETH](https://etherscan.io/token/0xa9fE4601811213c340e850ea305481afF02f5b28) |
 | USDC | [USDC](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) | [yvUSDC](https://etherscan.io/token/0x5f18c75abdae578b483e5f43f12a39cf75b973a9) |
@@ -38,9 +38,9 @@ Once a user's liquidity is withdrawn from the yVault, their yVault Token will be
 | crvBBTC | [Curve BBTC Pool yVault](https://etherscan.io/address/0x8fA3A9ecd9EFb07A8CE90A6eb014CF3c0E3B32Ef) | [yvCurve-BBTC](https://etherscan.io/token/0x8fA3A9ecd9EFb07A8CE90A6eb014CF3c0E3B32Ef) | 
 | yvBOOST | [Yearn Compounding veCRV yVault](https://etherscan.io/address/0x9d409a0A012CFbA9B15F6D4B36Ac57A46966Ab9a) | [yvBOOST](https://etherscan.io/token/0x9d409a0A012CFbA9B15F6D4B36Ac57A46966Ab9a) | 
 
-## V1 yVault Tokens
+## V1 yVault Token'leri
 
-| Vault | Input Token | Output Token |
+| Vault | Token Girdisi | Token Çıktısı | 
 | :--- | :--- | :--- |
 | crvLINK | [linkCRV](https://etherscan.io/token/0xcee60cfa923170e4f8204ae08b4fa6a3f5656f3a) | [yvlinkCRV](https://etherscan.io/token/0x96Ea6AF74Af09522fCB4c28C269C26F59a31ced6) |
 | crvUSDP | [usdp3CRV](https://etherscan.io/token/0x7Eb40E450b9655f4B3cC4259BCC731c63ff55ae6) | [yvusdp3CRV](https://etherscan.io/token/0x1B5eb1173D2Bf770e50F10410C9a96F7a8eB6e75) |
@@ -57,4 +57,3 @@ Once a user's liquidity is withdrawn from the yVault, their yVault Token will be
 | 3Crv | [3Crv](https://etherscan.io/token/0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490) | [y3Crv](https://etherscan.io/token/0x9cA85572E6A3EbF24dEDd195623F188735A5179f) |
 | crvEURS | [eursCRV](https://etherscan.io/token/0x194eBd173F6cDacE046C53eACcE9B953F28411d1) | [yveursCRV](https://etherscan.io/token/0x98B058b2CBacF5E99bC7012DF757ea7CFEbd35BC) |
 | crvHBTC | [hCRV](https://etherscan.io/token/0xb19059ebb43466C323583928285a49f558E572Fd) | [yvhCRV](https://etherscan.io/token/0x46AFc2dfBd1ea0c0760CAD8262A5838e803A37e5) |
-
