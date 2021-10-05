@@ -1,7 +1,7 @@
-# Vaults and Strategies 
+# Vault'lar ve Stratejileri
 
-After depositing, your funds first go to the vault contract and then are deployed to one or more strategy contracts. Guardians and strategists monitor deposits in order ensure optimal returns and to be available during critical situations. 
- 
-**Vault and strategy descriptions:** [The Vaults at Yearn](https://medium.com/yearn-state-of-the-vaults/the-vaults-at-yearn-9237905ffed3)
+Para yatırdıktan sonra, paranız önce kasa sözleşmesine gider ve ardından bir veya daha fazla strateji sözleşmesine dağıtılır. Koruyucular ve stratejistler, optimum getiri sağlamak ve kritik durumlarda kullanılabilir olmak için mevduatları monitorize eder.
 
-**Vault and strategy contracts:** [Yearn Watch](https://yearn.watch/)
+**Vault'lar ve stratejilerin açıklaması:** [The Vaults at Yearn](https://medium.com/yearn-state-of-the-vaults/the-vaults-at-yearn-9237905ffed3)
+
+**Vault'lar ve statejilerin kontratı:** [Yearn Watch](https://yearn.watch/)

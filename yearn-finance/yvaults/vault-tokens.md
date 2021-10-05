@@ -57,4 +57,3 @@ Bir kullanıcının Vault'dan likiditesi çekildikten sonra, Vault Token'i yakı
 | 3Crv | [3Crv](https://etherscan.io/token/0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490) | [y3Crv](https://etherscan.io/token/0x9cA85572E6A3EbF24dEDd195623F188735A5179f) |
 | crvEURS | [eursCRV](https://etherscan.io/token/0x194eBd173F6cDacE046C53eACcE9B953F28411d1) | [yveursCRV](https://etherscan.io/token/0x98B058b2CBacF5E99bC7012DF757ea7CFEbd35BC) |
 | crvHBTC | [hCRV](https://etherscan.io/token/0xb19059ebb43466C323583928285a49f558E572Fd) | [yvhCRV](https://etherscan.io/token/0x46AFc2dfBd1ea0c0760CAD8262A5838e803A37e5) |
-
