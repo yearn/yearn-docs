@@ -1,29 +1,29 @@
-# Introduction
+# Giriş
 
-Yearn Finance is a suite of products in Decentralized Finance (DeFi) that is designed to generate yield on smart contract platforms like Ethereum. The protocol is maintained by various independent developers and is governed by YFI holders.
+Yearn Finance, Ethereum blok zincirinde kredi toplama, getiri oluşturma ve sigorta sağlayan Merkezi Olmayan Finans (DeFi) içindeki bir ürün paketidir. Protokol, çeşitli bağımsız geliştiriciler tarafından sürdürülür ve YFI sahipleri tarafından yönetilir.
 
-You can find brief descriptions of Yearn's core products, the governance process, and links to active communication channels below.
+Yearn'in temel ürünlerinin kısa açıklamalarını, yönetim sürecini ve aktif iletişim kanallarına bağlantıları aşağıda bulabilirsiniz.
 
-## Core Products
+## Temel Ürünler
 
-### Vaults
+### Vault'lar
 
-Capital pools that automatically generate yield based on opportunities present in the market. Vaults benefit users by socializing gas costs, automating the yield generation and rebalancing process, and automatically shifting capital as opportunities arise. End users also do not need to have a proficient knowledge of the underlying protocols involved or DeFi, thus the Vaults represent a passive-investing strategy.
+Gaz maliyetlerini sosyalleştirerek, getiri oluşturma ve yeniden dengeleme sürecini otomatikleştirerek ve fırsatlar ortaya çıktıkça sermayeyi otomatik olarak değiştirerek kullanıcılara fayda sağlar. Son olarak kullanıcıların ayrıca ilgili protokoller veya DeFi hakkında yeterli bilgiye sahip olmaları gerekmez, bu nedenle Vault'lar pasif bir yatırım stratejisini temsil eder.
 
 ### Earn
 
-The first Yearn product was a lending aggregator. Funds are shifted between dYdX, AAVE, and Compound automatically as interest rates change between these protocols. Users can deposit to these lending aggregator smart contracts via the Earn page. This product completely optimizes the interest accrual process for end-users to ensure they are obtaining the highest interest rates at all times among the platforms specified above.
+Yearn’ın ilk ürünü bir kredi toplayıcısıydı. Para kaynakları dYdX, AAVE ve Compound protokolleri arasında otomatik bir şekilde işleme alınır. Kullanıcılar ise sitedeki Earn sayfası aracılığıyla bu akıllı sözleşmelere para yatırabilirler. Earn, kullanıcıların yukarıda belirtilen platformlar arasında her zaman en yüksek faiz oranlarını elde etmelerini sağlamak için faiz tahakkuk sürecini tamamen optimize eder.
 
-## Governance
+## Yönetim
 
-The Yearn ecosystem is controlled by YFI token holders who submit and vote on off-chain proposals that govern the ecosystem. Proposals that generate a majority support \(&gt;50% of the vote\) are implemented by a 9 member multi-signature wallet. Changes must be signed by 6 out of the 9 wallet signers in order to be implemented. The members of the multi-signature wallet were voted in by YFI holders and are subject to change from future governance votes. Please refer to our FAQ for [the list of the multisig signers](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) and more information about the [governance process](https://docs.yearn.finance/resources/faq#governance).
+Yearn finance ekosistemi, ekosistemi yöneten off-chain teklifler sunan ve bunlara oy veren YFI token sahipleri tarafından kontrol edilmektedir. Çoğunluk desteği (oy >%50) oluşturan teklifler, çoklu imzalı cüzdana sahip, dokuz üye tarafından uygulanmaktadır. Değişikliklerin uygulanabilmesi için dokuz üyeden altısının imzalanması ile gerçekleşmektedir. Çok imzalı cüzdanın üyeleri, YFI sahipleri tarafından oylanmakta ve gelecekteki yönetim oylarıyla değiştirilebilmektedir. [İmza yetkili listesi](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) ve [yönetim süreci](https://docs.yearn.finance/resources/faq#governance) hakkında daha fazla bilgi için lütfen SSS'mize bakın.
 
-## Communication Channels
+## İletişim Kanalları
 
-[Governance Forum](https://gov.yearn.finance/)
+Governance Forum [https://gov.yearn.finance/](https://gov.yearn.finance/)
 
-[Discord](http://discord.yearn.finance)
+Discord [http://discord.yearn.finance](http://discord.yearn.finance)
 
-[Telegram](https://t.me/yearnfinance)
+Telegram [https://t.me/yearnfinance](https://t.me/yearnfinance)
 
-[Reddit](https://www.reddit.com/r/yearn_finance/)
+Reddit [https://www.reddit.com/r/yearn_finance/](https://www.reddit.com/r/yearn_finance/)
