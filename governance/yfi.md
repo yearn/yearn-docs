@@ -37,7 +37,7 @@ YFI保有者の投票により、6,666個のYFIがミントされました。新
 
 ### ガバナンス2.0における権限の定義
 
-[YIP-61](https://snapshot.org/#/ybaby.eth/proposal/QmSMyYeKrRpnA7Xn56o2NtbCUzxmhzCupL7LxMA1reXxq4)に記載されているガバナンス 2.0 では、YFIトークン保有者の責任が、Yearn Improvement Proposals（YIPs）の作成と投票から、Yearn Delegation Proposals（YDPs）および Yearn Signaling Proposals（YSPs）の作成と投票に拡大されました。
+[YIP-61](https://snapshot.org/#/ybaby.eth/proposal/QmSMyYeKrRpnA7Xn56o2NtbCUzxmhzCupL7LxMA1reXxq4)に記載されているガバナンス 2.0 では、YFIトークン保有者の責任が、Yearn改善プロポーザル（YIPs）の作成と投票から、Yearnデリゲーションプロポーザル（YDPs）およびYearnシグナリングプロポーザル（YSPs）の作成と投票に拡大されました。
 
 YSPsでは、トークン保有者がYチームに対して、自分に与えられた力で決定を実行するよう正式に要求することができます。これにより、トークンホルダーは発言権を持つことができる一方で、長引くYIPプロセスを回避することができます。Yチームはその提案を尊重するかどうかを選択することができ、尊重しない場合は正式なYIPとして問題になることがあります。
 
