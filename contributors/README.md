@@ -8,7 +8,7 @@ Help build the future of finance, shape your skills, and grow the Yearn ecosyste
 
 ### Have an idea?
 
-We are always open to new suggestions or better ways of doing things. If you have an idea feel free to use the appropriate channel on [Discord](http://discord.yearn.finance), [Reddit](https://www.reddit.com/r/yearn_finance/), or make a post on the governance [forum](https://gov.yearn.finance/c/general-chat/7). If the idea is thorough enough, make a post in the [Proposals](https://gov.yearn.finance/c/proposals/5) section on the governance forum and be sure to follow the Proposal [Guidelines](https://gov.yearn.finance/t/proposal-how-to/106). Check previous [YIPs](https://yips.yearn.finance/all-yip) for guidance.
+We are always open to new suggestions or better ways of doing things. If you have an idea feel free to use the appropriate channel on [Discord](http://discord.yearn.finance), [Reddit](https://www.reddit.com/r/yearn_finance/), or make a post on the governance [forum](https://gov.yearn.finance/c/general-chat/7). If the idea is thorough enough, make a post in the [Proposals](https://gov.yearn.finance/c/proposals/5) section on the governance forum and be sure to follow the Proposal [Guidelines](https://gov.yearn.finance/t/proposal-how-to/106). Check previous [YIPs](https://yips.yearn.finance/all-yip) for guidance. For ideas regarding the Yearn Ecosystem, check out the Pool of Ideas and consider submitting your idea [here](https://yearnfinance.notion.site/yearnfinance/Pool-of-Ideas-d75383ade9154d8bb6163388c6c2b39b)
 
 ### File a Bug
 
@@ -60,7 +60,7 @@ We invite designers, animators, artists, and more to share your skills with the 
 
 ## Yearn Contributors
 
-See our wonderful list of contributors along with individual contribution stats at [yContributors.finance](https://ycontributors.finance/). Get your name added to the list by contributing to documentation, code, designs, or whatever else you're interested in!
+See our wonderful list of contributors along with individual contribution stats at [yContributors.finance](https://ycontributors.finance/). Get your name added to the list by contributing to documentation, code, designs, or whatever else you're interested in! To see more about the roles we are seeking, teams and charters you could join, [check out this link](https://yearnfinance.notion.site/yearnfinance/Yearn-Finance-26d6c4210e3e405c9f02f84ba567a249)
 
 #### Creating Strategies
 
