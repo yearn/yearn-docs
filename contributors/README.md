@@ -60,7 +60,7 @@ We invite designers, animators, artists, and more to share your skills with the 
 
 ## Yearn Contributors
 
-See our wonderful list of contributors along with individual contribution stats at [yContributors.finance](https://ycontributors.finance/). Get your name added to the list by contributing to documentation, code, designs, or whatever else you're interested in! To see more about the roles we are seeking, teams and charters you could join, [check out this link](https://yearnfinance.notion.site/yearnfinance/Yearn-Finance-26d6c4210e3e405c9f02f84ba567a249)
+See our wonderful list of contributors along with individual contribution stats at [yContributors.finance](https://ycontributors.finance/). Get your name added to the list by contributing to documentation, code, designs, or whatever else you're interested in! To see more about the roles we are seeking, teams you could join and their charters, visit our [public notion page](https://yearnfinance.notion.site). For active Yearn Github repositories and open issues see [Contribute.Yearn.Rocks](https://contribute.yearn.rocks).
 
 #### Creating Strategies
 
