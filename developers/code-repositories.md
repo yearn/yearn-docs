@@ -17,13 +17,13 @@
 
 ## Smart Contracts
 
-Yearn smart contracts repo: [https://github.com/yearn/yearn-protocol](https://github.com/yearn/yearn-protocol)
+Yearn smart contracts repo: [https://github.com/yearn/yearn-vaults](https://github.com/yearn/yearn-vaults)
 
 - [Controllers](https://github.com/yearn/yearn-protocol/tree/develop/contracts/controllers)
 - [Registries](https://github.com/yearn/yearn-protocol/tree/develop/contracts/registries)
 - [Vaults](https://github.com/yearn/yearn-vaults)
-- [Strategies](https://github.com/yearn/yearn-protocol/tree/develop/contracts/strategies)
-- [Token Wrappers](https://github.com/yearn/yearn-vaults/blob/main/contracts/BaseWrapper.sol)
+- [Base Wrapper](https://github.com/yearn/yearn-vaults/blob/main/contracts/BaseWrapper.sol)
+- [Base Router](https://github.com/yearn/yearn-vaults/blob/main/contracts/BaseRouter.sol)
 - [APR Oracle](https://github.com/yearn/apr-oracle/tree/master/contracts)
 - [Utils](https://github.com/yearn/yearn-protocol/tree/develop/contracts/utils)
 
