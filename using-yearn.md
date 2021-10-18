@@ -10,7 +10,11 @@ First, **Connect your wallet** using the button at the top right corner. Multipl
   <img width="1266.75" height="345.75" src="https://i.imgur.com/H0Uc8e8.png">
 </p>
 
-## If you **already have the required token** for the vault that you would like to deposit in: 
+## I have required token
+
+If you **already have the required token** for the vault that you would like to deposit in:
+
+### Depositing required token 
 
 1\. Select the vault that you would like to deposit into.
 
@@ -34,6 +38,8 @@ First, **Connect your wallet** using the button at the top right corner. Multipl
   <img width="928.5" height="93.75" src="https://i.imgur.com/JvNQ3l2.png">
 </p>
 
+### Withdraw
+
 When you're ready to withdraw: 
 
 1\. Select the vault that you would like to withdraw from.
@@ -50,7 +56,7 @@ When you're ready to withdraw:
 
 5\. When your transaction succeeds, the tokens will show up in your wallet again.
 
-## If you **don't have the required token** for the vault that you would like to deposit in:
+## I don't have a required token
 
 This can be a common occurrence, because many of Yearn's vaults generate yield by using [Curve Finance](http://curve.finance/) liquidity provider (LP) tokens, which are acquired through depositing into a Curve pool. 
 
@@ -59,6 +65,8 @@ So for instance, if you would rather deposit into the crvSTETH vault instead of 
 Thankfully, due to Yearn's 'zap' feature, this can all be done in the same transaction as your deposit. Here's how it works using the crvSTETH vault as an example:
 
 **NOTE:** Zapping a token into a vault will require more transactions than depositing the native token. This means you will be paying more in gas and potentially lose value to slippage when the token is swapped or deposited into a pool. Yearn limits slippage to 1% and the transaction will fail if slippage exceeds that, in which case you will have to swap or deposit the tokens manually. See our [zap](https://docs.yearn.finance/yearn-finance/yvaults/overview#zap-in-with-any-asset) section for more details.
+
+### Depositing without required token (zap)
 
 1\. Select the crvSTETH vault.
 
@@ -75,6 +83,8 @@ Thankfully, due to Yearn's 'zap' feature, this can all be done in the same trans
 5\. Confirm the transaction through your wallet. See step 4 in the section above for more details.
 
 6\. When your transaction succeeds, you will see your deposited balance in the vault's interface, which should appear at the top of the vault list.
+
+### Withdraw
 
 When you're ready to withdraw: 
 
