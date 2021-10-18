@@ -92,6 +92,7 @@ Cloning a repository is ideal if you are working on more than one page.
 </p>
 
 6\. Click 'contribute to parent project'. This only effects your upstream and origin and upstream branch, which can be edited through the command line
+
 7\. Open the repository in VSCode
 
 <p align="center">
