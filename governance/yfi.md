@@ -1,50 +1,46 @@
 # YFI 
 
-The YFI token is a tool for coordination between Yearn's contributors, community and associated protocols. It was created to decentralize the management and development of yearn products while providing an environment for fast paced innovation.
+El token YFI es una herramienta para coordinar a los contribuidores de Yearn, la comunidad y los protocolos asociados. Fue creado para descentralizar la gerencia y desarrollo de los productos de Yearn proveyendo a la vez de un ambiente para la innovación acelerada.
 
-### Details
+### Detalles
 
-**Token Contract:** [0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e](https://etherscan.io/address/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e)
+**Contrato del token:** [0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e](https://etherscan.io/address/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e)
 
-**Supply:** 36,666 / 36,666 tokens minted
-
-
-## The evolution of YFI
-
-Responsibilities of YFI token holders, and how the token itself plays into the Yearn is meant to be dynamic. All of its functions can be modified by the community at any time, and there have been multiple instances of this already. 
-
-From the week of YFI's emergence, there was extensive discussion around emissions, supply and powers of token holders.
-
-### Distribution
-
-When the YFI token contract was deployed, users of various DeFi protocols were able to [obtain it](https://www.youtube.com/watch?v=kjv-sW2PBS4&ab_channel=DeFiTutorialswithDeFiDad) through providing liquidity to specific pools. 30,000 tokens were rewarded proportionally to liquidity providers of Curve Finance yPool, the YFI/DAI Balancer pool and the YFI/yPool LP token Balancer pool. The output tokens of depositing in these pools were staked through a discontinued Yearn interface, and stakers were rewarded in YFI for approximately 7 days, until the supply ran out. 
-
-### Discontinuing emissions
-
-YFI was designed with a minting function built in. Originally, this function was solely controlled by Andre Cronje, but shortly after the token emissions began, that control was handed to a multisig wallet. 
-
-Because the intention behind YFI was to completely decentralize control, there were no concrete plans for emissions after the intial 30,000 YFI were distributed. [YIP-1](https://yips.yearn.finance/YIPS/yip-1) approved a weekly distribution of YFI, but the execution of that proposal required a second decision about how to distribute, which did not come to fruition.
-
-### Phasing out YFI staking revenue
-
-Starting with [YIP-36](https://yips.yearn.finance/YIPS/yip-36), a portion of staking rewards were redirected to the multisig wallet in order to fund operational expenses. When the multisig wallet had a buffer of $500,000, rewards were distributed to token holders. 
-
-[YIP-56](https://snapshot.org/#/yearn/proposal/Qmb6gBzjvgLMazSrQQGVcjutLNdkVyM2Lh6yckMzdoaHWZ) disbanded the staking system all-together and opted for a buyback system. This directed more capital to Yearn's treasury while benefiting token holders by taking YFI off of the open market. With this, the YFI Governance Vault was retired, and holders were allowed to participate in governance while holding YFI elsewhere.
-
-### Minting YFI
-
-YFI holders voted to mint 6,666 YFI. 1/3 of the newly minted YFI would be vested to key contributors and 2/3 of the newly minted YFI would go to the treasury to be deployed and controlled by governance.
-
-After [YIP-57](https://snapshot.org/#/yearn/proposal/QmX8oYTSkaXSARYZn7RuQzUufW9bVVQtwJ3zxurWrquS9a) passed, all tokens were minted within a single day.  
+**Suministro:** 36,666 / 36,666 tokens creados
 
 
-### Defined powers in Governance 2.0
+## La evolución de YFI
 
-Governance 2.0, described in [YIP-61](https://snapshot.org/#/ybaby.eth/proposal/QmSMyYeKrRpnA7Xn56o2NtbCUzxmhzCupL7LxMA1reXxq4), expanded YFI token holder's responsibilities from creating and voting on Yearn Improvement Proposals (YIPs), to creating and voting on Yearn Delegation Proposals (YDPs) and Yearn Signaling Proposals (YSPs). 
+La responsabilidad de los holders del token YFI así como el papel que juega el mismo en Yearn esta creado para ser dinámico. Todas las funciones pueden ser modificadas por la comunidad en cualquier momento y han habido múltiples ocasiones en las que esto ha sucedido.
 
-YSPs allow token holders to formally request that a yTeam executes a decision with th power they are entitled to. This allows token holders to have a voice while avoiding a drawn-out YIP process. yTeams can choose to respect the suggestion or not, and if they don't it can become an issue as a formal YIP.
+Desde la semana de la creación de YFI, se ha discutido de forma extensa sobre la emisión, suministro y los poderes de los holders del token.
 
-YDPs are proposals that change where any discrete decision-making power is delegated. This is relevant in Governance 2.0 as it introduces yTeams, who are given an objective, and certain powers that can be modified by token holders. 
+### Distribución
 
+Cuando el token TFI fue desplegado, los usuarios de varios protocolos de DeFi han sido capaces de [obtenerlo](https://www.youtube.com/watch?v=kjv-sW2PBS4&ab_channel=DeFiTutorialswithDeFiDad) al proveer liquidez a fondos de liquidez específicos. 30.000 tokens han sido dados como recompensa de forma proporcional a los proveedores de liquidez de Curve Finance, el fondo de liquidez de YFI/DAI en Balancer y el pool de liquidez del token YFI/yPool LP de Balancer. Se ha hecho staking de los tokens resultantes de depositar en estos fondos de liquidez a través de una interface descontinuada de Yearn, y los usuarios que han realizado este staking han sido recompensados con YFI por un aproximado de 7 días hasta que se ha agotado el suministro.
 
+### Emisiones descontinuadas
 
+YFI ha sido creado con una función para crear tokens. Originalmente, esta función era controlado solo por Andre Cronje, pero poco después de comenzar las emisiones, el control ha sido otorgado a una cartera multifirma.
+
+Debido a que la intención por la cual ha sido creado YFI es el ser controlado de forma totalmente descentralizada, na había un plan concreto para la emisión del token a partir de la distribución de los 30.000 tokens iniciales. En el [YIP-1](https://yips.yearn.finance/YIPS/yip-1) se ha aprobado la distribución semanal de YFI, pero para la ejecución de la propuesta se requiere una segunda decisión sobre el cómo se distribuirá y la misma no se ha llevado a cabo.
+
+### Faseando los ingresos por staking de YFI
+
+Empezando con el [YIP-36](https://yips.yearn.finance/YIPS/yip-36), una porción de las recompensas por staking fueron redirigidos a la cartera multifirma con el fin de financiar gastos operativos. Cuando la cartera multifirma pudo mantener un colchón de 500.000$, se han distribuido recompensas a los holders de YFI.
+
+Con el [YIP-56](https://snapshot.org/#/yearn/proposal/Qmb6gBzjvgLMazSrQQGVcjutLNdkVyM2Lh6yckMzdoaHWZ) se dejo disolvió el sistema de staking del todo y se optó por el sistema de recompra. Esto dirigió mas capital a la tesorería de Yearn beneficiando a los token holders sacando YFI del mercado abierto. Con esto, la vault de gobernanza fue retirada y se les permite a los holders participar en la gobernanza al holdear YFI en cualquier lugar. 
+
+### Creando tokens de YFI
+
+Los holders de YFI han votado para crear 6.666 tokens de YFI. 1/3 de los tokens creados se darán a los colaboradores principales y 2/3 de los YFI creados irá a la tesorería para ser desplegados y controlados por la gobernanza. 
+
+Después de la aprobación [YIP-57](https://snapshot.org/#/yearn/proposal/QmX8oYTSkaXSARYZn7RuQzUufW9bVVQtwJ3zxurWrquS9a) todos los tokens fueron creados en un solo día.
+
+### Poderes definidos en la gobernanza 2.0
+
+La gobernanza 2.0, descrita en el [YIP-61](https://snapshot.org/#/ybaby.eth/proposal/QmSMyYeKrRpnA7Xn56o2NtbCUzxmhzCupL7LxMA1reXxq4), expandieron las responsabilidades de los holders del token, de crear y votar en las propuestas de mejora de Yearn (YIP), a crear y votar en las propuestas delegaciones de Yearn (YDPs).
+
+Los YSPs permiten a los holders crear solicitudes formales para que un yTeam ejecute una decisión con el poder requerido para la misma. Esto da una voz a los token holders evitando pasar por el proceso de un YIP. yTeams pueden elegir respetar la sugerencia o no, y si no lo hacen, puede convertirse en una YIP formal.
+
+Las YDPs son propuestas que cambian donde cualquier poder de decisión discreto es delegado. Esto es relevante en la gobernanza 2.0 ya que es la introducción a los yTeams, los cuales tienen un objetivo y ciertos poderes los cuales pueden ser modificados por los holders del token YFI.
