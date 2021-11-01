@@ -1,30 +1,30 @@
 # Woofy Finance
 
-The WOOFY token is the blue dog companion token of YFI. Utilizing special Woof technology, it allows two-way conversion between the two tokens, allowing holders to be exposed to YFI in a fluffier package.
+El token de Woofy Finance es el perro azul de compañía del token YFI. utilizando una tecnología especial de Woofy Finance, permite la conversión de dos vías entre ambos tokens, permitiendo a los holders la exposición a YFI en un paquete más esponjoso.
 
-At its core, WOOFY solves two problems: YFI not being dog themed, and the price of a single YFI being too high in USD terms.
+WOOFY resuelve dos problemas: Que YFI no tenga un tema perruno y que su precio sea muy alto en términos de dólar americano.
 
-**1 YFI = 1,000,000 WOOFY**. YFI and WOOFY can always be exchanged with one another at that fixed rate using either the [WOOFY contract](https://etherscan.io/address/0xd0660cd418a64a1d44e9214ad8e459324d8157f1#code), or the [Woofy website](https://woofy.finance/).
+**1 YFI = 1,000,000 WOOFY**. YFI y WOOFY podrán ser siempre intercambiados el uno por el otro a un cambio fijo utilizando, o bien el [contrato de WOOFY](https://etherscan.io/address/0xd0660cd418a64a1d44e9214ad8e459324d8157f1#code), o la [Web de Woofy](https://woofy.finance/).
 
-## How to Woof and Unwoof
+## Como hacer y deshacer WOOFY
 
 ![](https://i.imgur.com/HqfCYZX.png)
 
-[WOOFY](https://etherscan.io/address/0xd0660cd418a64a1d44e9214ad8e459324d8157f1) can be created ("woofed") by depositing YFI on the [Woofy website](https://woofy.finance/). It can also be redeemed ("unwoofed") for the equivalent amount of YFI at any time.
+[WOOFY](https://etherscan.io/address/0xd0660cd418a64a1d44e9214ad8e459324d8157f1) puede ser creado ("woofed") depositando YFI en la [Web de Woofy](https://woofy.finance/). Puede ser redimido ("unwoofed") por su equivalente en YFI en cualquier momento.
 
-#### Converting YFI to WOOFY
+#### Convirtiendo YFI a WOOFY
 
-- **Step 1**: Visit https://woofy.finance
-- **Step 2**: Select 'Woof' above the swap interface
-- **Step 3**: Enter the amount of YFI you would like to convert 
-- **Step 4**: Approve the YFI
-- **Step 5**: Click 'Woof' below the swap interface
+- **Paso 1**: Visita https://woofy.finance
+- **Paso 2**: Selecciona 'Woof' en la parte superior de la interfaz de swap
+- **Paso 3**: Ingresa el importe de YFI que quieres convertir
+- **Paso 4**: Aprueba el YFI
+- **Paso 5**: Haz clic en 'Woof' en la parte inferior de la interfaz de swap
 
-#### Converting WOOFY to YFI
+#### Convirtiendo WOOFY a YFI
 
-- **Step 1**: Visit https://woofy.finance
-- **Step 2**: Select 'Unwoof' above the swap interface
-- **Step 3**: Enter the amount of WOOFY you would like to convert 
-- **Step 4**: Click 'Unwoof' below the swap interface
+- **Paso 1**: Visita https://woofy.finance
+- **Paso 2**: Selecciona 'Unwoof' en la parte superior de la interfaz de swap
+- **Paso 3**: Ingresa el importe de WOOFY que quieres convertir 
+- **Paso 4**: Haz clic en 'Unwoof' en la parte inferior de la interfaz de swap
 
-If it's your first time holding either token after the exchange, make sure to click 'Add Token' above the token's logo so that it will appear in your wallet.
+Si es la primera vez que lo haces, asegurate de hacer clic en "add token" sobre el logo de cada token para agregarlos a tu wallet.
