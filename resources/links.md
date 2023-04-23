@@ -11,7 +11,7 @@
 
 ### Updates
 
-- [Twitter](https://twitter.com/iearnfinance) 
+- [Twitter](https://twitter.com/yearnfi) 
 - [Medium](https://medium.com/iearn)
 - [Yearn Newsletter](https://yearn.substack.com/)
 - [Weekly Governance Newsletter](https://medium.com/yearn-governance-roundup)
