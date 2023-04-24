@@ -20,7 +20,7 @@
   },
   "homepage": "https://docs.yearn.finance/",
   "devDependencies": {
-    "husky": "^4.3.0"
+    "husky": "^8.0.3"
   },
   "husky": {
     "hooks": {
